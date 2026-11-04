@@ -34,6 +34,9 @@ Przed użyciem sprawdź, czy zmienna jest ustawiona (`[ -n "$NAZWA" ]`); jeśli 
 
 Status: ✅ działa i sprawdzone · 🔑 klucz dodany, czeka na pierwszy test · ⏳ zaplanowane, klucz jeszcze nie dodany · ❌ nie działa (opisz dlaczego).
 
+### Vercel – jak raportować
+Nigdy nie każ nikomu (np. koledze-deweloperowi) klikać ani niczego ustawiać w panelu Vercela. Zawsze podawaj **gotowe linki** (do strony, wdrożenia, logów), żeby mógł od razu zobaczyć wynik. Jeśli coś trzeba zmienić w Vercelu – zrób to sam przez konektor.
+
 ### Zasada utrzymania tej listy
 **Pablo** (szef Klaudiusza) podpina nowe usługi i klucze. Za każdym razem, gdy dochodzi nowe narzędzie, API, klucz albo zmienia się status,
 **od razu dopisz/zaktualizuj wiersz w tej tabeli** (nazwa, do czego, nazwa zmiennej, link do dokumentacji, status) i zapisz na `main`.
