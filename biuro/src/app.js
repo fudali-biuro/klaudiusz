@@ -532,6 +532,11 @@ function render(t) {
   }
   etykieta("🧠 Klaudiusz", KLAUDIUSZ.cx, KLAUDIUSZ.by + 1, { ramka: najechany && najechany.id === "klaudiusz" ? "#ffd166" : STANY[kSt].kolor, rozmiar: 11, gruby: true });
   etykieta("👑 Pablo (Ty)", pablo.x, pablo.y + 2, { rozmiar: 10, kolor: "#ffd166" });
+  if (window.Czat) {
+    const bob = Math.round(Math.sin(t / 260) * 1.5);
+    for (const o of osoby) if (Czat.nieprzeczytane(o.id)) etykieta("💬", o.dx * T + 30, o.dy * T - 44 + bob, { rozmiar: 11, ramka: "#58a6ff" });
+    if (klaudiusz && Czat.nieprzeczytane("klaudiusz")) etykieta("💬", KLAUDIUSZ.cx + 16, KLAUDIUSZ.by - 56 + bob, { rozmiar: 11, ramka: "#58a6ff" });
+  }
 }
 
 /* ============================ interakcja ============================ */
@@ -565,7 +570,7 @@ canvas.addEventListener("click", (e) => {
   canvas.focus({ preventScroll: true });
   const [wx, wy] = doSwiata(e);
   const traf = trafienie(wx, wy);
-  if (traf) { idzDo(traf.kafle); otworz(traf.id); }
+  if (traf) { idzDo(traf.kafle); otworz(traf.id, traf.id === "@prosby" ? {} : { zakladka: "czat" }); }
   else idzDoKafla(Math.floor(wx / T), Math.floor(wy / T));
 });
 const KLAWISZE_RUCHU = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "w", "a", "s", "d"];
@@ -574,10 +579,13 @@ window.addEventListener("keydown", (e) => {
   const ae = document.activeElement;
   const naMapie = !ae || ae === document.body || ae === canvas;
   const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
-  if (k === "Escape") { zamknijPanel(); return; }
+  if (k === "Escape") {
+    if (ae && /^(TEXTAREA|INPUT)$/.test(ae.tagName) && ae.value) { ae.blur(); return; }
+    zamknijPanel(); return;
+  }
   if (!naMapie || e.ctrlKey || e.metaKey || e.altKey) return;
   if (KLAWISZE_RUCHU.includes(k)) { klawisze.add(k); pablo.sciezka = []; e.preventDefault(); }
-  if (k === "e" || k === "Enter" || k === " ") { const b = obokPablo(); if (b) { otworz(b.id); e.preventDefault(); } }
+  if (k === "e" || k === "Enter" || k === " ") { const b = obokPablo(); if (b) { otworz(b.id, b.id === "@prosby" ? {} : { zakladka: "czat" }); e.preventDefault(); } }
 });
 window.addEventListener("keyup", (e) => klawisze.delete(e.key.length === 1 ? e.key.toLowerCase() : e.key));
 window.addEventListener("blur", () => klawisze.clear());
@@ -597,47 +605,82 @@ function avatar(o, skala = 4) {
 function htmlProsby(o, zNazwa) {
   const p = (o.status && o.status.prosby) || [];
   if (!p.length) return "";
-  return `<ul class="prosby">${p.map((x) => `<li>${zNazwa ? `<span class="kto">${esc(o.emoji || "")} ${esc(o.imie)} · ${esc(o.rola || "")}</span>` : ""}${x.pilne ? "⚠️ " : ""}${esc(x.tresc)}<div class="male">${esc(kiedy(x.czas))}</div>${zNazwa ? `<button class="przycisk" data-idz="${esc(o.id)}" type="button">Przejdź do biurka →</button>` : ""}</li>`).join("")}</ul>`;
+  return `<ul class="prosby">${p.map((x, i) => `<li>${zNazwa ? `<span class="kto">${esc(o.emoji || "")} ${esc(o.imie)} · ${esc(o.rola || "")}</span>` : ""}${x.pilne ? "⚠️ " : ""}${esc(x.tresc)}<div class="male">${esc(kiedy(x.czas))}</div><button class="przycisk" data-odpowiedz="${esc(o.id)}" data-nr="${i}" type="button">💬 Odpowiedz w czacie</button></li>`).join("")}</ul>`;
 }
-function otworz(id) {
+let zakladka = "czat";   // "czat" | "biurko" – która zakładka panelu jest widoczna
+function ustawZakladke(z) {
+  zakladka = z;
+  const zCzat = z === "czat" && wybrany !== "@prosby";
+  $("#panel").classList.toggle("tryb-czat", zCzat);
+  $("#panel-czat").hidden = !zCzat;
+  $("#panel-tresc").hidden = zCzat;
+  document.querySelectorAll("#zakladki [data-zakladka]").forEach((b) => b.setAttribute("aria-selected", String(b.dataset.zakladka === z)));
+  if (window.Czat) Czat.widoczny(zCzat);
+}
+function otworz(id, opcje = {}) {
+  const nowy = wybrany !== id;
   wybrany = id;
-  const panel = $("#panel"), tresc = $("#panel-tresc");
+  const panel = $("#panel"), glowa = $("#panel-glowa"), tresc = $("#panel-tresc");
   if (id === "@prosby") {
+    glowa.innerHTML = `<div class="p-glowa"><div><h2>🙋 Prośby do Ciebie</h2><div class="rola">${liczProsby()} – czego zespół potrzebuje od szefa</div></div></div>`;
+    $("#zakladki").hidden = true;
     const z = DANE.zespol.filter((o) => (o.status?.prosby || []).length);
-    tresc.innerHTML = `<div class="p-glowa"><div><h2>🙋 Prośby do Ciebie</h2><div class="rola">${liczProsby()} – czego zespół potrzebuje od szefa</div></div></div>
-      <div class="sekcja">${z.length ? z.map((o) => htmlProsby(o, true)).join("") : "<p>Nikt niczego nie potrzebuje. 🎉</p>"}
-      <p class="wskazowka">Odpowiedz Klaudiuszowi w czacie (albo na Telegramie) – np. „cennik jest w załączniku”. Po załatwieniu prośba zniknie z tablicy.</p></div>`;
+    tresc.innerHTML = `<div class="sekcja">${z.length ? z.map((o) => htmlProsby(o, true)).join("") : "<p>Nikt niczego nie potrzebuje. 🎉</p>"}
+      <p class="wskazowka">Kliknij „Odpowiedz w czacie” – odpowiedź trafi prosto do tej osoby. Po załatwieniu prośba zniknie z tablicy.</p></div>`;
+    if (window.Czat) Czat.zamknij();
+    ustawZakladke("biurko");
   } else {
     const o = znajdz(id); if (!o) return;
     const s = o.status || {}, st = stanEf(o);
+    glowa.innerHTML = `<div class="p-glowa"><span id="p-avatar"></span><div>
+        <h2>${esc(o.emoji || "")} ${esc(o.imie || o.id)}${o.przydomek ? ` <small>„${esc(o.przydomek)}”</small>` : ""}</h2>
+        <div class="rola">${esc(o.rola || "")}</div>${chipStanu(st)}${o.wdrozenie === "makieta" ? `<span class="makieta" title="Rola zaprojektowana – automaty jeszcze nie działają">🧩 makieta</span>` : ""}
+        <div class="p-teraz">${esc(s.zadanie || "")}</div></div></div>`;
+    $("#p-avatar").replaceWith(avatar(o));
+    $("#zakladki").hidden = false;
     const postep = typeof s.postep === "number" && st === "pracuje" ? `<div class="pasek"><div style="width:${Math.max(0, Math.min(100, s.postep))}%"></div></div>` : "";
     const wyniki = (o.wyniki || []).map((w) => `<button class="plik" type="button" data-plik="${esc(w.url)}" data-tytul="${esc(w.sciezka)}">📄 ${esc(w.sciezka.split("/").pop())}<small>${esc(w.sciezka)}</small></button>`).join("");
     const dziennik = (s.dziennik || []).slice(0, 12).map((d) => `<li><i style="--k:${(STANY[d.stan] || STANY.wolne).kolor}"></i><time>${esc(kiedy(d.czas))}</time><span>${esc(d.tekst)}</span></li>`).join("");
     const zapisy = id === "klaudiusz" && DANE.zapisy?.length ? `<div class="sekcja"><h3>💾 Ostatnie zapisy w archiwum</h3><ul class="dziennik">${DANE.zapisy.slice(0, 10).map((z) => `<li><i style="--k:#d97742"></i><time>${esc(kiedy(z.czas))}</time><span>${esc(z.tekst)}</span></li>`).join("")}</ul></div>` : "";
-    tresc.innerHTML = `<div class="p-glowa"><span id="p-avatar"></span><div>
-        <h2>${esc(o.emoji || "")} ${esc(o.imie || o.id)}${o.przydomek ? ` <small>„${esc(o.przydomek)}”</small>` : ""}</h2>
-        <div class="rola">${esc(o.rola || "")}</div>${chipStanu(st)}${o.wdrozenie === "makieta" ? `<span class="makieta" title="Rola zaprojektowana – automaty jeszcze nie działają">🧩 makieta</span>` : ""}</div></div>
-      <div class="sekcja"><h3>⌨️ Teraz</h3><p>${esc(s.zadanie || "—")}</p>${postep}<div class="male">Ostatni sygnał: ${esc(kiedy(s.aktualizacja))}${s.makieta ? " · przykładowe dane (makieta)" : ""}</div></div>
-      ${(s.prosby || []).length ? `<div class="sekcja"><h3>🙋 Potrzebuje od Ciebie</h3>${htmlProsby(o, false)}<p class="wskazowka">Odpowiedz Klaudiuszowi w czacie – on przekaże dalej.</p></div>` : ""}
+    const ses = DANE.sesje?.[id];
+    const sesja = ses?.link ? `<div class="sekcja"><h3>🔧 Sesja w Claude</h3><p class="male">Każdy pracownik ma własną sesję nazwaną „${esc(ses.tytul || o.imie)}”${ses.zadania?.length ? ` – zadania automatyczne: ${ses.zadania.map(esc).join(", ")}` : ""}.</p><a class="przycisk" href="${esc(ses.link)}" target="_blank" rel="noopener">Otwórz sesję (do poprawek) ↗</a></div>` : "";
+    tresc.innerHTML = `<div class="sekcja"><h3>⌨️ Teraz</h3><p>${esc(s.zadanie || "—")}</p>${postep}<div class="male">Ostatni sygnał: ${esc(kiedy(s.aktualizacja))}${s.makieta ? " · przykładowe dane (makieta)" : ""}</div></div>
+      ${(s.prosby || []).length ? `<div class="sekcja"><h3>🙋 Potrzebuje od Ciebie</h3>${htmlProsby(o, false)}</div>` : ""}
       <div class="sekcja"><h3>📂 Ostatnie wyniki</h3><div class="pliki">${wyniki || `<p class="male">Jeszcze nic – ${o.wdrozenie === "makieta" ? "rola czeka na wdrożenie." : "pierwsze wyniki pojawią się po najbliższym przebiegu."}</p>`}</div></div>
       ${dziennik ? `<div class="sekcja"><h3>🗒️ Dziennik</h3><ul class="dziennik">${dziennik}</ul></div>` : ""}
-      ${zapisy}
+      ${zapisy}${sesja}
       <details class="karta-prac"><summary>🪪 Karta pracownika (co robi, jakich narzędzi używa)</summary><div class="md">${renderMd(o.karta || "")}</div></details>`;
-    $("#p-avatar").replaceWith(avatar(o));
+    if (window.Czat) Czat.otworz(id, $("#panel-czat"));
+    if (opcje.zakladka) ustawZakladke(opcje.zakladka);
+    else if (nowy) ustawZakladke("czat");
+    else ustawZakladke(zakladka);
+    if (opcje.re && window.Czat) Czat.odpowiedzNa(opcje.re);
   }
   panel.hidden = false;
   $(".uklad").classList.add("z-panelem");
-  requestAnimationFrame(() => { rozmiar(); kamera(true); });
-  panel.scrollTop = 0;
+  if (nowy) {
+    requestAnimationFrame(() => { rozmiar(); kamera(true); });
+    $("#panel-tresc").scrollTop = 0;
+  }
 }
 function zamknijPanel() {
   if ($("#podglad").open) return;
   wybrany = null; $("#panel").hidden = true; $(".uklad").classList.remove("z-panelem");
+  if (window.Czat) Czat.zamknij();
   requestAnimationFrame(() => { rozmiar(); kamera(true); });
 }
 $("#panel-zamknij").addEventListener("click", zamknijPanel);
 $("#chip-prosby").addEventListener("click", () => otworz("@prosby"));
+$("#chip-czat").addEventListener("click", () => { if (klaudiusz) otworz("klaudiusz", { zakladka: "czat" }); });
+$("#zakladki").addEventListener("click", (e) => { const b = e.target.closest("[data-zakladka]"); if (b) ustawZakladke(b.dataset.zakladka); });
 document.addEventListener("click", async (e) => {
+  const odp = e.target.closest("[data-odpowiedz]");
+  if (odp) {
+    const o = znajdz(odp.dataset.odpowiedz); const pr = o?.status?.prosby?.[+odp.dataset.nr];
+    if (o?.kafle) idzDo(o.kafle);
+    otworz(odp.dataset.odpowiedz, { zakladka: "czat", re: pr ? { id: "", tekst: pr.tresc } : null });
+    return;
+  }
   const idz = e.target.closest("[data-idz]");
   if (idz) { const o = znajdz(idz.dataset.idz); if (o?.kafle) idzDo(o.kafle); otworz(idz.dataset.idz); return; }
   const p = e.target.closest("[data-plik]");
@@ -663,12 +706,15 @@ function odswiezUI(panelTez = true) {
   for (const o of DANE.zespol) {
     const st = stanEf(o), n = (o.status?.prosby || []).length;
     const b = document.createElement("button"); b.type = "button"; b.className = "karta";
-    b.innerHTML = `<span></span><span><b>${esc(o.emoji || "")} ${esc(o.imie || o.id)}</b><span class="rola">${esc(o.rola || "")}</span>${chipStanu(st)}${o.wdrozenie === "makieta" ? `<span class="makieta">🧩 makieta</span>` : ""}<span class="zad">${esc(o.status?.zadanie || "")}</span>${n ? `<span class="ile-prosb">🙋 ${n} ${n === 1 ? "prośba" : n < 5 ? "prośby" : "próśb"} do Ciebie</span>` : ""}</span>`;
+    b.innerHTML = `<span></span><span><b>${esc(o.emoji || "")} ${esc(o.imie || o.id)}</b><span class="rola">${esc(o.rola || "")}</span>${chipStanu(st)}${o.wdrozenie === "makieta" ? `<span class="makieta">🧩 makieta</span>` : ""}<span class="zad">${esc(o.status?.zadanie || "")}</span>${n ? `<span class="ile-prosb">🙋 ${n} ${n === 1 ? "prośba" : n < 5 ? "prośby" : "próśb"} do Ciebie</span>` : ""}${window.Czat && Czat.nieprzeczytane(o.id) ? `<span class="ile-czat">💬 nowa wiadomość</span>` : ""}</span>`;
     b.firstChild.replaceWith(avatar(o, 2));
-    b.addEventListener("click", () => { if (o.kafle) idzDo(o.kafle); otworz(o.id); window.scrollTo({ top: 0, behavior: "smooth" }); });
+    b.addEventListener("click", () => { if (o.kafle) idzDo(o.kafle); otworz(o.id, { zakladka: "czat" }); window.scrollTo({ top: 0, behavior: "smooth" }); });
     karty.appendChild(b);
   }
   const ile = liczProsby();
+  const czatNowe = window.Czat ? DANE.zespol.filter((o) => Czat.nieprzeczytane(o.id)).length : 0;
+  $("#licz-czat").hidden = !czatNowe; $("#licz-czat").textContent = czatNowe;
+  $("#chip-czat").classList.toggle("sa", czatNowe > 0);
   $("#licz-prosby").textContent = ile;
   $("#chip-prosby").classList.toggle("sa", ile > 0);
   $("#licz-pracuje").textContent = DANE.zespol.filter((o) => stanEf(o) === "pracuje").length;
@@ -739,7 +785,7 @@ async function wczytaj(pierwszy) {
     // nowe dane: zdejmij stare kolizje pracowników i rozmieść ponownie
     for (const o of osoby) for (const [x, y] of o.kafle) solid[y][x] = false;
     DANE = d; rozmiesc(); odswiezUI();
-    if (!pierwszy) toast("🔄 Nowe dane z biura");
+    if (!pierwszy && !(window.Czat && Czat.aktywny())) toast("🔄 Nowe dane z biura");
   } catch (e) { if (pierwszy) toast("Nie udało się wczytać danych biura"); }
 }
 let ostatni = 0;
@@ -756,5 +802,10 @@ function petla(t) {
 tlo = zbudujTlo();
 rozmiar(); kamera(true);
 window.addEventListener("resize", () => { rozmiar(); kamera(true); });
-wczytaj(true).then(() => requestAnimationFrame(petla));
-setInterval(() => wczytaj(false), 5 * 60 * 1000);
+wczytaj(true).then(() => {
+  requestAnimationFrame(petla);
+  const m = location.hash.match(/^#czat-([\w-]+)$/);       // link z Telegrama: …/#czat-marketing
+  if (m && znajdz(m[1])) { const o = znajdz(m[1]); if (o.kafle) idzDo(o.kafle); otworz(m[1], { zakladka: "czat" }); }
+});
+setInterval(() => { if (!document.hidden) wczytaj(false); }, 45 * 1000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) wczytaj(false); });

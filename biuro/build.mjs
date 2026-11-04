@@ -87,11 +87,45 @@ try {
     .split("\n").filter(Boolean).map((l) => { const [czas, tekst] = l.split("\t"); return { czas, tekst }; });
 } catch { /* brak historii w środowisku budowania – trudno */ }
 
+const zbudowano = new Date().toISOString();
+
+// ---------- czat z Pablo: zespol/czat/<id>/*.json → czat/<id>.json (osobny plik na osobę, odświeżany przez okno czatu) ----------
+const CZAT = path.join(ZESPOL, "czat");
+const MAX_WIADOMOSCI = 300, MAX_ZALACZNIK = 15_000_000;
+fs.mkdirSync(path.join(DIST, "czat"), { recursive: true });
+const czat = {};
+for (const o of zespol) {
+  const kat = path.join(CZAT, o.id);
+  const wiadomosci = !fs.existsSync(kat) ? [] : fs.readdirSync(kat).filter((f) => f.endsWith(".json")).sort()
+    .slice(-MAX_WIADOMOSCI).map((f) => czytajJson(path.join(kat, f), null)).filter((w) => w && w.id);
+  for (const w of wiadomosci) for (const p of w.pliki || []) {
+    if (p.url || !p.sciezka) continue;
+    const zrodlo = path.resolve(ROOT, p.sciezka);
+    if (!zrodlo.startsWith(ROOT + path.sep) || !fs.existsSync(zrodlo) || fs.statSync(zrodlo).size > MAX_ZALACZNIK) continue;
+    const cel = path.join(DIST, "pliki", path.relative(ROOT, zrodlo));
+    fs.mkdirSync(path.dirname(cel), { recursive: true });
+    fs.copyFileSync(zrodlo, cel);
+    p.url = "pliki/" + path.relative(ROOT, zrodlo).split(path.sep).map(encodeURIComponent).join("/");
+  }
+  fs.writeFileSync(path.join(DIST, "czat", o.id + ".json"), JSON.stringify({ zbudowano, wiadomosci }));
+  const ost = wiadomosci.at(-1);
+  czat[o.id] = { liczba: wiadomosci.length, ostatnia: ost ? { id: ost.id, czas: ost.czas, od: ost.od, typ: ost.typ, tekst: String(ost.tekst || "").slice(0, 160) } : null };
+}
+
+// ---------- sesje zespołu (link do subczatu każdego pracownika – do poprawek) ----------
+const sesjeRej = czytajJson(path.join(ZESPOL, "sesje.json"), {}).sesje || {};
+const sesje = Object.fromEntries(Object.entries(sesjeRej).map(([id, s]) => [id, {
+  tytul: s.tytul || null, link: s.link || (s.sesja ? `https://claude.ai/code/${s.sesja}` : null), zadania: Object.keys(s.zadania || {}),
+}]));
+
 const dane = {
-  zbudowano: new Date().toISOString(),
+  zbudowano,
   wersja: (process.env.VERCEL_GIT_COMMIT_SHA || "").slice(0, 7),
   zespol,
   zapisy,
+  czat,
+  sesje,
+  czat_zadanie: sesjeRej.klaudiusz?.zadania?.czat || null,
 };
 fs.writeFileSync(path.join(DIST, "dane.json"), JSON.stringify(dane));
-console.log(`Biuro zbudowane: ${zespol.length} osób, ${zespol.reduce((s, z) => s + z.wyniki.length, 0)} plików wyników -> ${path.relative(ROOT, DIST)}`);
+console.log(`Biuro zbudowane: ${zespol.length} osób, ${zespol.reduce((s, z) => s + z.wyniki.length, 0)} plików wyników, ${Object.values(czat).reduce((s, c) => s + c.liczba, 0)} wiadomości czatu -> ${path.relative(ROOT, DIST)}`);

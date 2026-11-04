@@ -1,0 +1,12 @@
+{
+  "name": "biuro-fudali",
+  "private": true,
+  "type": "module",
+  "description": "Wirtualne biuro Klaudiusza (strona statyczna z biuro/ + serwer czatu w api/)",
+  "scripts": {
+    "build": "node biuro/build.mjs"
+  },
+  "dependencies": {
+    "@vercel/blob": "2.8.2"
+  }
+}
