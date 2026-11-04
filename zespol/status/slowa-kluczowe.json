@@ -1,12 +1,22 @@
 {
  "id": "slowa-kluczowe",
- "stan": "wolne",
- "zadanie": "Gotowy do pracy – czekam na zadania",
+ "stan": "pracuje",
+ "zadanie": "Pomiar gotowy – piszę podsumowanie godzinowe",
  "postep": null,
- "aktualizacja": "2026-11-04T15:16+01:00",
+ "aktualizacja": "2026-11-04T19:54+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-04T19:54+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
+  },
+  {
+   "czas": "2026-11-04T19:53+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-04T15:16+01:00",
    "stan": "wolne",
