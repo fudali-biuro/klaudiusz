@@ -34,4 +34,4 @@ Kontekst firmy: `README.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 W dni bez istotnych zmian raport może być krótki – napisz to uczciwie zamiast zapychać treść.
 
 ## Powiadomienie
-Po zapisaniu raportu: `scripts/powiadom-whatsapp.sh "<TL;DR + link do pliku na GitHubie>"`.
+Po zapisaniu raportu: `scripts/powiadom-telegram.sh "<TL;DR + link do pliku na GitHubie>"` – bez TELEGRAM_BOT_TOKEN skrypt tylko to zgłasza (to nie błąd).

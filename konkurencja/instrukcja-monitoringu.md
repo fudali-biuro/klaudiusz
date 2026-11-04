@@ -53,4 +53,4 @@ wersje (dla JSON-ów – wersję bieżącą). Jeśli push na domyślną gałąź
 
 ## 6. Powiadomienie
 Tylko gdy jest coś wartego uwagi (werdykt TAK, wiral u konkurencji, mocny skok frazy):
-`scripts/powiadom-whatsapp.sh "<max 3 punkty + link do pliku na GitHubie>"`. W pozostałych przypadkach nie wysyłaj.
+`scripts/powiadom-telegram.sh "<max 3 punkty + link do pliku na GitHubie>"`. W pozostałych przypadkach nie wysyłaj.

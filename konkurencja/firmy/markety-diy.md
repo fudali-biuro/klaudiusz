@@ -1,5 +1,5 @@
 ---
-nazwa: Markety DIY (OBI, Castorama, Leroy Merlin)
+nazwa: Markety DIY i marketplace (OBI, Castorama, Leroy Merlin, Kaufland)
 www: https://www.castorama.pl
 instagram: 
 tiktok: 
@@ -9,7 +9,7 @@ region: PL
 aktywny_monitoring: nie
 ---
 
-# Markety DIY (OBI, Castorama, Leroy Merlin)
+# Markety DIY i marketplace (OBI, Castorama, Leroy Merlin, Kaufland)
 
 **Co sprzedaje:** domki, altany, drewutnie, drewno – ceny referencyjne
 
