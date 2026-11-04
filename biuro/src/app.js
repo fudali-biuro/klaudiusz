@@ -699,7 +699,11 @@ function inline(s) {
 function renderMd(md) {
   const linie = md.replace(/\r/g, "").split("\n"), out = [];
   let i = 0;
-  const lista = (typ) => { const el = []; const re = typ === "ol" ? /^\s*\d+[.)]\s+(.*)$/ : /^\s*[-*+]\s+(.*)$/; while (i < linie.length && re.test(linie[i])) { el.push(`<li>${inline(linie[i].match(re)[1])}</li>`); i++; } out.push(`<${typ}>${el.join("")}</${typ}>`); };
+  const lista = (typ) => { const el = []; const re = typ === "ol" ? /^\s*\d+[.)]\s+(.*)$/ : /^\s*[-*+]\s+(.*)$/; while (i < linie.length && re.test(linie[i])) {
+      let t = linie[i].match(re)[1]; i++;
+      while (i < linie.length && /^\s{2,}\S/.test(linie[i]) && !re.test(linie[i]) && !/^\s*[-*+]\s|^\s*\d+[.)]\s/.test(linie[i])) t += " " + linie[i++].trim();
+      el.push(`<li>${inline(t)}</li>`);
+    } out.push(`<${typ}>${el.join("")}</${typ}>`); };
   while (i < linie.length) {
     const l = linie[i];
     if (/^```/.test(l)) { const kod = []; i++; while (i < linie.length && !/^```/.test(linie[i])) kod.push(linie[i++]); i++; out.push(`<pre><code>${esc(kod.join("\n"))}</code></pre>`); continue; }

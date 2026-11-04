@@ -1,6 +1,6 @@
 # 🎄 Kampania „Święta z drewnem FUDALI” (13.11 – 13.12.2026)
 
-**Status:** 👀 do akceptacji Pablo (posty czekają jako **szkice w Metricool** – nic nie wyjdzie bez Twojej zgody)
+**Status:** 👀 do akceptacji Pablo – nic nie wyjdzie bez Twojej zgody. Po akceptacji: szkice w Metricool (potrzebne publiczne linki do grafik) albo wklejenie ręczne z tego pliku.
 **Cel:** sprzedaż prezentów ze sklepu https://www.fudali.com.pl/sklep/ przed świętami.
 **Pomysł:** prezenty z drewna na każdy budżet – **od 49 do 1 200 zł** – pokazane w ciepłych, świątecznych scenach.
 **Grafiki:** Zosia, zdjęcia produktów z fudali.com.pl umieszczone w nowej scenerii (AI, model Gemini 3 Pro Image).
@@ -16,13 +16,13 @@ Produkt na każdym zdjęciu został sprawdzony z oryginałem. Na Instagramie pos
 ## Plan
 | Data (Warszawa) | Produkt | Cena | Grafika | Status |
 |---|---|---|---|---|
-| pt 13.11, 10:00 | Podkładka-kwiat z orzecha czarnego | 99 zł | podkladka.jpg | 📅 szkic w Metricool |
-| wt 17.11, 18:00 | Otwieracz „Kot” | 49 zł | otwieracz-kot.jpg | 📅 szkic |
-| pt 20.11, 10:00 | Stolik boczny „Płatek”, dąb czerwony | 850 zł | stolik-platek.jpg | 📅 szkic |
-| wt 24.11, 18:00 | Składany stolik z litego drewna | 229 zł | stolik-skladany.jpg | 📅 szkic |
-| pt 27.11, 10:00 (Black Friday) | Leżak pod choinkę | 299 zł | lezak-pod-choinka.jpg | 📅 szkic |
-| wt 1.12, 18:00 | Zestaw stołków z wózkiem, dąb czerwony | 1 200 zł | stolki.jpg | 📅 szkic |
-| pt 4.12, 10:00 | **Przewodnik prezentowy** (karuzela z 6 grafik) | 49–1 200 zł | wszystkie | 📅 szkic |
+| pt 13.11, 10:00 | Podkładka-kwiat z orzecha czarnego | 99 zł | podkladka.jpg | 👀 gotowe – do akceptacji |
+| wt 17.11, 18:00 | Otwieracz „Kot” | 49 zł | otwieracz-kot.jpg | 👀 gotowe – do akceptacji |
+| pt 20.11, 10:00 | Stolik boczny „Płatek”, dąb czerwony | 850 zł | stolik-platek.jpg | 👀 gotowe – do akceptacji |
+| wt 24.11, 18:00 | Składany stolik z litego drewna | 229 zł | stolik-skladany.jpg | 👀 gotowe – do akceptacji |
+| pt 27.11, 10:00 (Black Friday) | Leżak pod choinkę | 299 zł | lezak-pod-choinka.jpg | 👀 gotowe – do akceptacji |
+| wt 1.12, 18:00 | Zestaw stołków z wózkiem, dąb czerwony | 1 200 zł | stolki.jpg | 👀 gotowe – do akceptacji |
+| pt 4.12, 10:00 | **Przewodnik prezentowy** (karuzela z 6 grafik) | 49–1 200 zł | wszystkie | 👀 gotowe – do akceptacji |
 | wt 8.12, 18:00 | „Ostatni dzwonek” – termin zamówień na święta | – | do zrobienia | ⏳ czeka na Twoją datę |
 
 ---
@@ -133,6 +133,6 @@ Link w bio 🎁
 Grafika + naklejka z linkiem do produktu + ankieta: „Dał(a)byś to w prezencie? TAK / TAK 😄”.
 
 ## Do decyzji Pablo
-1. **Akceptacja**: w Metricool (Planer) zdejmij „szkic” z postów, które mają wyjść – albo napisz mi „wszystkie OK”.
+1. **Akceptacja**: napisz „wszystkie OK” albo które poprawić. Żeby wrzucić je do Metricool, potrzebuję zgody na publiczny folder ze zdjęciami marketingowymi (Metricool przyjmuje tylko publiczne linki).
 2. **Termin zamówień na święta** (do posta „Ostatni dzwonek”). Proponuję: kurier do **8.12**, ekspres do **17.12** (kurier jedzie 2–10 dni roboczych).
 3. **Black Friday (27.11)** – robimy rabat czy nie?

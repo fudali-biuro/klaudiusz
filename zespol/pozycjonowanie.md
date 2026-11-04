@@ -7,8 +7,8 @@ emoji: 🧭
 kolor: "#27ae60"
 wlosy: "#1e1e1e"
 fryzura: krotkie
-wdrozenie: makieta
-wyniki: seo/*.md
+wdrozenie: aktywny
+wyniki: seo/trendy/*.md; seo/*.md
 ---
 
 # 🧭 Bartek „Kompas” – pozycjonowanie (SEO)
@@ -24,9 +24,17 @@ Myśli lokalnie („altana Rzeszów”, „drewutnia Podkarpacie”) i ogólnopo
 - Linki: katalogi branżowe, lokalne media, współprace.
 - Porównanie z konkurencją: na jakie frazy Bogateco/Altanka są wyżej i dlaczego.
 
-## Rytm pracy (docelowo)
+## Google Trends (polecenie Pablo, 04.11.2026: „niech używa, porównuje i działa”)
+- `python3 scripts/seo/trendy.py` – porównuje grupy fraz z `seo/trendy-grupy.json` (max 5 na grupę; PL, DE, świat) przez Apify
+  (aktor `apify/google-trends-scraper`, `APIFY_API_KEY`). Surowe dane: `monitoring/stan/trendy.json`.
+- Co porównuję: nasze produkty między sobą (leżak vs drewutnia vs altana…), prezenty i dom, **marki: FUDALI vs Bogateco**,
+  leżak w Niemczech (dla Grety/Etsy), **Ecofurn/EcoChair** na świecie.
+- Wynik: `seo/trendy/RRRR-MM-DD.md` – co rośnie/spada, sezonowość (kiedy szczyt), TOP 3 frazy na tydzień, rekomendacje dla Oli i strony.
+
+## Rytm pracy
 | Kiedy | Co |
 |---|---|
+| poniedziałek ~7:50 (zadanie automatyczne, razem z Olą) | Google Trends → `seo/trendy/RRRR-MM-DD.md` + rekomendacje do planu postów |
 | raz w tygodniu | mini-audyt strony + pozycje TOP 20 fraz → `seo/RRRR-MM-DD-audyt.md` |
 | raz w tygodniu | 1 propozycja tekstu poradnikowego (szkic gotowy do wklejenia) |
 | raz w miesiącu | raport: pozycje, ruch, co poprawiono, co dalej |
@@ -35,6 +43,7 @@ Myśli lokalnie („altana Rzeszów”, „drewutnia Podkarpacie”) i ogólnopo
 | Skrypt / narzędzie | Do czego | Stan |
 |---|---|---|
 | 🧩 `scripts/seo/audyt_strony.py` | pobiera strony fudali.com.pl: title, meta description, H1, alt obrazków, linki, schema | planowane |
+| `scripts/seo/trendy.py` + `seo/trendy-grupy.json` | Google Trends: porównania fraz, sezonowość, frazy rosnące | ✅ 04.11.2026 |
 | 🧩 Google PageSpeed Insights API | szybkość strony mobile/desktop (darmowe) | planowane |
 | 🧩 Google Search Console | pozycje i kliknięcia z Google | potrzebny dostęp |
 | 🧩 Ahrefs (łącznik w Claude) | linki i frazy konkurencji | do podpięcia |

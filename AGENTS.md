@@ -25,7 +25,7 @@ każdy ma kartę w `zespol/<id>.md` (kim jest, co robi, jakich skryptów używa,
 |---|---|---|---|
 | 🔭 Mietek „Lornetka” | śledzenie konkurencji | `zespol/konkurencja.md` | ✅ aktywny |
 | 📣 Ola „Megafon” | marketing (+ Pinterest/Etsy) | `zespol/marketing.md` | ✅ aktywna |
-| 🧭 Bartek „Kompas” | pozycjonowanie (SEO) | `zespol/pozycjonowanie.md` | 🧩 makieta |
+| 🧭 Bartek „Kompas” | pozycjonowanie (SEO) + Google Trends | `zespol/pozycjonowanie.md` | ✅ aktywny (trendy co tydzień) |
 | 🎨 Zosia „Pędzel” | grafika | `zespol/grafika.md` | ✅ aktywna (sceny produktów) |
 | 🔑 Kuba „Klucznik” | słowa kluczowe | `zespol/slowa-kluczowe.md` | ✅ aktywny |
 | 🤝 Marek „Domykacz” | sprzedaż | `zespol/sprzedaz.md` | 🧩 makieta |
@@ -75,7 +75,7 @@ Klucze dodaje się w ustawieniach środowiska chmurowego (menu środowiska w pas
 | Zadanie | Kiedy | Wynik |
 |---|---|---|
 | Raport konkurencji (główni rywale: Bogateco / Płoty Ogrodowe i Ecofurn / EcoChair) – procedura `konkurencja/instrukcja-raportu.md` | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
-| Plan marketingu na tydzień (Ola) – `zespol/marketing.md` | poniedziałek ~7:50 (Europe/Warsaw) | `marketing/kalendarz-RRRR-MM.md`, szkice w Metricool, Telegram |
+| Plan marketingu na tydzień (Bartek: Google Trends → Ola: posty) – `zespol/pozycjonowanie.md`, `zespol/marketing.md` | poniedziałek 7:47 (Europe/Warsaw) | `marketing/kalendarz-RRRR-MM.md`, szkice w Metricool, Telegram |
 | Pinterest FUDALI: codzienny research zasięgu (Ola, Etsy) | codziennie 9:00 | podsumowanie + szkice pinów EN w Metricool |
 | Monitoring Instagram/TikTok konkurencji (analiza wideo: klatki + Gemini 4 z dźwiękiem) + słowa kluczowe – procedura `konkurencja/instrukcja-monitoringu.md` | co godzinę (o :37) | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/<firma>.md`; Telegram tylko przy ważnych nowościach |
 

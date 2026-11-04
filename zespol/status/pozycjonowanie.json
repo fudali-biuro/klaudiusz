@@ -1,10 +1,10 @@
 {
  "id": "pozycjonowanie",
- "stan": "czeka",
- "zadanie": "Pierwszy audyt fudali.com.pl (tytuły, opisy, szybkość, wizytówka Google)",
+ "stan": "pracuje",
+ "zadanie": "Google Trends: porównanie fraz produktowych, prezentowych i rywali (PL + DE)",
  "postep": null,
- "aktualizacja": "2026-11-04T14:15+01:00",
- "makieta": true,
+ "aktualizacja": "2026-11-04T14:51+01:00",
+ "makieta": false,
  "prosby": [
   {
    "czas": "2026-11-04T14:15+01:00",
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T14:51+01:00",
+   "stan": "pracuje",
+   "tekst": "Google Trends: porównanie fraz produktowych, prezentowych i rywali (PL + DE)"
+  },
   {
    "czas": "2026-11-04T14:15+01:00",
    "stan": "czeka",

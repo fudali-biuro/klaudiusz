@@ -1,0 +1,10 @@
+{
+ "_opis": "Grupy fraz do porównania w Google Trends (max 5 fraz w grupie – limit Google). geo: PL, DE, ... Edytuj śmiało.",
+ "grupy": [
+  {"nazwa": "Produkty ogrodowe (PL)", "geo": "PL", "frazy": ["leżak drewniany", "drewutnia", "altana drewniana", "domek ogrodowy", "pergola"]},
+  {"nazwa": "Prezenty i dom (PL)", "geo": "PL", "frazy": ["stolik kawowy", "stolik boczny", "taboret", "podkładka pod kubek", "otwieracz do butelek"]},
+  {"nazwa": "Marki – my vs rywale (PL)", "geo": "PL", "frazy": ["bogateco", "płoty ogrodowe", "fudali"]},
+  {"nazwa": "Leżak za granicą (DE)", "geo": "DE", "frazy": ["Holzliege", "Gartenliege Holz", "Klappstuhl Holz", "Brennholzunterstand", "Gartenhaus Holz"]},
+  {"nazwa": "Rywal za granicą – świat", "geo": "", "frazy": ["ecofurn", "ecochair", "kentucky chair"]}
+ ]
+}
