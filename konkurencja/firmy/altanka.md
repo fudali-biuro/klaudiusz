@@ -18,3 +18,4 @@ _(uzupełniaj: ceny, mocne/słabe strony, czym się różni od FUDALI)_
 
 ## Dziennik obserwacji
 _(dopisywane automatycznie: najciekawsze posty i zmiany – najnowsze na górze)_
+- 2026-11-04 – IG https://www.instagram.com/p/DfU23DeGWNI/ – start Black Friday 4–30.11.2026 (domki, baseny, wiaty, garaże), bez konkretnych cen; konkurencja ruszyła z promocjami wcześnie.
