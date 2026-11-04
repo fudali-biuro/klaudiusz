@@ -1,12 +1,32 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "15:00 – stan bazowy zapisany (24 posty), brak nowych postów",
+ "zadanie": "19:00 – 1 nowy post (Altanka: Black Friday od 4.11), 0 z werdyktem TAK",
  "postep": 100,
- "aktualizacja": "2026-11-04T15:39+01:00",
+ "aktualizacja": "2026-11-04T19:39+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-04T19:39+01:00",
+   "stan": "gotowe",
+   "tekst": "19:00 – 1 nowy post (Altanka: Black Friday od 4.11), 0 z werdyktem TAK"
+  },
+  {
+   "czas": "2026-11-04T19:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
+  },
+  {
+   "czas": "2026-11-04T19:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
+  },
+  {
+   "czas": "2026-11-04T19:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
+  },
   {
    "czas": "2026-11-04T15:39+01:00",
    "stan": "gotowe",
