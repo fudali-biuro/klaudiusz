@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
- "stan": "czeka",
- "zadanie": "Opcje podpięcia Gemini do obrazów gotowe",
- "postep": null,
- "aktualizacja": "2026-11-04T15:04+01:00",
+ "stan": "gotowe",
+ "zadanie": "Zespół na stanowiskach: 7 sesji, 6 zadań",
+ "postep": 100,
+ "aktualizacja": "2026-11-04T15:17+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:17+01:00",
+   "stan": "gotowe",
+   "tekst": "Zespół na stanowiskach: 7 sesji, 6 zadań"
+  },
   {
    "czas": "2026-11-04T15:04+01:00",
    "stan": "czeka",
