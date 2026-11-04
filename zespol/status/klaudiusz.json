@@ -1,12 +1,23 @@
 {
  "id": "klaudiusz",
- "stan": "pracuje",
- "zadanie": "Instaluję Antigravity CLI do generowania obrazów",
+ "stan": "czeka",
+ "zadanie": "Antigravity zainstalowany – czeka na logowanie kontem Google Workspace",
  "postep": null,
- "aktualizacja": "2026-11-04T15:27+01:00",
+ "aktualizacja": "2026-11-04T15:31+01:00",
  "makieta": false,
- "prosby": [],
+ "prosby": [
+  {
+   "czas": "2026-11-04T15:31+01:00",
+   "tresc": "Otwórz link logowania z czatu, zaloguj się kontem Workspace i wklej mi kod, który pokaże Google",
+   "pilne": false
+  }
+ ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:31+01:00",
+   "stan": "czeka",
+   "tekst": "Antigravity zainstalowany – czeka na logowanie kontem Google Workspace"
+  },
   {
    "czas": "2026-11-04T15:27+01:00",
    "stan": "pracuje",
