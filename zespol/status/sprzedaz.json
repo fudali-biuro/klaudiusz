@@ -1,10 +1,10 @@
 {
  "id": "sprzedaz",
- "stan": "czeka",
- "zadanie": "Przygotowanie kalkulatora wycen i szablonu oferty",
+ "stan": "wolne",
+ "zadanie": "Gotowy do pracy – czekam na zadania",
  "postep": null,
- "aktualizacja": "2026-11-04T14:15+01:00",
- "makieta": true,
+ "aktualizacja": "2026-11-04T15:16+01:00",
+ "makieta": false,
  "prosby": [
   {
    "czas": "2026-11-04T14:15+01:00",
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:16+01:00",
+   "stan": "wolne",
+   "tekst": "Gotowy do pracy – czekam na zadania"
+  },
   {
    "czas": "2026-11-04T14:15+01:00",
    "stan": "czeka",
