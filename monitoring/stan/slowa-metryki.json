@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-04T21:53+01:00",
+ "czas": "2026-11-04T22:53+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -93,8 +93,8 @@
     "drewutnia na drewno metalowa",
     "drewutnia na drewno olx",
     "drewutnia na drewno allegro",
-    "drewutnia na drewno drewniana",
-    "drewutnia na drewno obi"
+    "drewutnia na drewno leroy merlin",
+    "drewutnia na drewno drewniana"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -117,8 +117,8 @@
     "domek ogrodowy drewniany na narzędzia",
     "domek ogrodowy drewniany olx",
     "domek ogrodowy drewniany leroy merlin",
-    "domek ogrodowy drewniany allegro",
     "domek ogrodowy drewniany z tarasem",
+    "domek ogrodowy drewniany allegro",
     "domek ogrodowy drewniany obi",
     "domek ogrodowy drewniany wyprzedaż"
    ],
@@ -196,9 +196,9 @@
     "altana drewniana ogrodowa",
     "altana drewniana 5x5",
     "altana drewniana 3x3 castorama",
-    "altana drewniana 4x4 olx",
     "altana drewniana jednospadowa",
-    "altana drewniana do samodzielnego montażu"
+    "altana drewniana do samodzielnego montażu",
+    "altana drewniana 4x4 olx"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -271,8 +271,8 @@
     "leżak drewniany składany",
     "leżak drewniany jysk",
     "leżak drewniany ogrodowy",
-    "leżak drewniany ikea",
     "leżak drewniany plażowy",
+    "leżak drewniany ikea",
     "leżak drewniany castorama",
     "leżak drewniany olx",
     "leżak drewniany allegro",
@@ -406,7 +406,7 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana na 2 samochody",
     "wiata drewniana dwustanowiskowa",
-    "wiata drewniana dwuspadowa konstrukcja"
+    "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -640,8 +640,8 @@
     "nowoczesny domek dla dzieci",
     "nowoczesny domek ogrodowy dla dzieci",
     "nowoczesny domek",
-    "nowoczesny domek ogrodowy z tarasem",
     "nowoczesny domek holenderski całoroczny",
+    "nowoczesny domek ogrodowy z tarasem",
     "nowoczesny domek na działkę"
    ],
    "pozycja_w_podpowiedziach": null,
@@ -849,11 +849,11 @@
    "z_frazy": "nowoczesny domek"
   },
   {
-   "fraza": "nowoczesny domek ogrodowy z tarasem",
+   "fraza": "nowoczesny domek holenderski całoroczny",
    "z_frazy": "nowoczesny domek"
   },
   {
-   "fraza": "nowoczesny domek holenderski całoroczny",
+   "fraza": "nowoczesny domek ogrodowy z tarasem",
    "z_frazy": "nowoczesny domek"
   },
   {
@@ -1037,7 +1037,7 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana dwuspadowa konstrukcja",
+   "fraza": "wiata drewniana 6x6 projekt",
    "z_frazy": "wiata drewniana"
   },
   {
