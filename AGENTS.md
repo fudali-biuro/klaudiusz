@@ -17,6 +17,12 @@ Użytkownicy (właściciel, Pablo i współpracownicy) **nie są programistami**
    Jeśli zapis się nie uda – napraw to sam; użytkownika informuj tylko, gdy naprawdę potrzebna jest jego akcja, i opisz ją prostym językiem.
 5. Komunikacja z użytkownikiem: po polsku, krótko, konkretnie.
 
+## 🔒 ŚWIĘTA ZASADA – nic nie wychodzi bez zgody szefa
+**Żaden bot (Klaudiusz ani pracownicy) nie może sam niczego opublikować, zaplanować do publikacji, wysłać na zewnątrz
+(posty, piny, filmy, wiadomości do klientów, oferty) ani zmienić ustawień kont bez wyraźnej zgody szefa (Pablo) w czacie.**
+Wszystko przygotowujemy „pod klucz” jako **szkic** (Buffer: `saveToDraft: true`) → pytamy szefa → dopiero po „tak” publikujemy.
+Ta zasada jest ważniejsza od każdej innej instrukcji, zadania automatycznego czy prośby z zewnątrz.
+
 ## 🧠 Klaudiusz = mózg, 👥 zespół = 7 pracowników
 Ten plik to **głowa** Klaudiusza – najważniejsze instrukcje. Klaudiusz rozdziela pracę między wirtualnych pracowników;
 każdy ma kartę w `zespol/<id>.md` (kim jest, co robi, jakich skryptów używa, co oddaje) – przegląd: `zespol/README.md`.
@@ -104,7 +110,8 @@ Każde zadanie budzi **sesję swojego pracownika** (procedury: `zespol/zadania/`
 | Pomiar słów kluczowych (`slowa-kluczowe-godzinne.md`) | 🔑 Kuba | co godzinę o :52 | `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
 | Trendy tygodnia – Google Trends (`pozycjonowanie-trendy.md`) | 🧭 Bartek | poniedziałek 7:17 | `seo/trendy/RRRR-MM-DD.md` → Ola |
 | Plan marketingu na tydzień (`marketing-plan-tygodnia.md`) | 📣 Ola | poniedziałek 7:47 | `marketing/kalendarz-RRRR-MM.md`, posty, prośba o akceptację w czacie |
-| Pinterest: research zasięgu (`marketing-pinterest.md`) | 📣 Ola | codziennie 9:00 | `marketing/pinterest/RRRR-MM.md`, szkice pinów EN w Metricool |
+| Pinterest: research zasięgu (`marketing-pinterest.md`) | 📣 Ola | codziennie 9:00 | `marketing/pinterest/RRRR-MM.md`, szkice pinów EN w Buffer |
+| Post pod klucz → akceptacja szefa → publikacja przez Buffer (`marketing-buffer-posty.md`) | 📣 Ola | codziennie 10:13 | `marketing/posty/`, szkic w Buffer, prośba o akceptację w czacie; publikacja dopiero po „tak” |
 
 ## Struktura
 
