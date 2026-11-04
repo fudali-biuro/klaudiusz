@@ -117,7 +117,9 @@ def parametry(pid, d):
              f"do pracy – czekam na zadania\". 3) Odpowiedz Klaudiuszowi jednym zdaniem, że jesteś na stanowisku i jakie masz zadania "
              f"automatyczne (zespol/zadania/{pid}-*.md). Nie zaczynaj teraz żadnej dużej pracy.")
     if pid == "klaudiusz":
-        start = "Start – wykonaj procedurę z zespol/sesje.md (sekcja „Uruchomienie zespołu”)."
+        start = ("Start: jesteś nową sesją główną 🧠 Klaudiusz. Wykonaj procedurę z zespol/sesje.md (sekcja „Uruchomienie zespołu”) – "
+                 "najpierw zarejestruj siebie (pkt 1), potem 7 sesji pracowników, ich zadania automatyczne i swoje zadanie „📨 Czat z biura”, "
+                 "wyłącz stare wspólne zadania i zapisz wszystko na main. Na koniec napisz Pablo w czacie, kto jest na stanowisku.")
     return {"title": tytul(pid), "source_url": REPO, "outcome_branch": "main", "append_system_prompt": prompt_systemowy(pid, sk),
             "prompt": start, "wysilek": WYSILEK, "tags": ["fudali", f"pracownik:{pid}"]}
 

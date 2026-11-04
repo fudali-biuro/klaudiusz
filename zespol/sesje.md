@@ -17,14 +17,16 @@ Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► zadanie „📨 C
 
 ## Uruchomienie zespołu (robi Klaudiusz w swojej sesji – raz; potem tylko gdy czegoś brakuje)
 
-1. `git pull --rebase origin main`; `python3 scripts/sesje.py pokaz` – sprawdź, kto już ma sesję (nie twórz duplikatów).
+1. `git pull --rebase origin main`. Zarejestruj siebie: `mcp__claude-code-remote__get_session` (bez session_id) → Twoje ID →
+   `python3 scripts/sesje.py zapisz klaudiusz <Twoje session_id>` (zanim utworzysz pracowników – ich prompty zawierają Twoje ID).
+   `python3 scripts/sesje.py pokaz` – sprawdź, kto już ma sesję (nie twórz duplikatów).
 2. Dla każdego pracownika bez sesji (`konkurencja`, `slowa-kluczowe`, `pozycjonowanie`, `marketing`, `grafika`,
    `sprzedaz`, `rynki-zagraniczne`):
    - `python3 scripts/sesje.py parametry <id>` → JSON;
    - `mcp__claude-code-remote__create_session` z polami z JSON-a: `title`, `source_url`, `outcome_branch` (`main`),
      `append_system_prompt`, `prompt`, `tags` (bez `environment_id` – ta sama chmura; bez `model` – ten sam model);
    - `python3 scripts/sesje.py zapisz <id> <session_id>`.
-3. Zadania automatyczne każdego pracownika (pliki `zespol/zadania/<id>-*.md`): `python3 scripts/sesje.py zadania <id>` →
+3. Zadania automatyczne – **także Twoje** (`klaudiusz` → „📨 Czat z biura”, bez cron) i każdego pracownika (pliki `zespol/zadania/<id>-*.md`): `python3 scripts/sesje.py zadania <id>` →
    dla każdej pozycji `create_trigger(name, cron_expression, prompt, persistent_session_id, initiation="human_request")`,
    potem `python3 scripts/sesje.py zadanie <id> <klucz> <trig_id>`. Zadanie z pustym `cron` (np. czat) – bez cron (tylko na wezwanie).
 4. **Stare wspólne zadania – wyłącz** (`update_trigger enabled=false`, NIE kasuj – skasowanie usuwa historię przebiegów),
