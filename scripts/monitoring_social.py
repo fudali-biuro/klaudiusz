@@ -82,6 +82,16 @@ def main():
     pierwszy_raz = not widziane
     nowe = [p for p in posty if p["id"] not in widziane]
     raport["nowe"] = [] if pierwszy_raz else nowe
+    # ANALIZUJ_PIERWSZE=N: przy pierwszym uruchomieniu (lub teście) analizuj od razu N najnowszych postów z każdego konta
+    n_pierwsze = int(os.environ.get("ANALIZUJ_PIERWSZE", "0") or 0)
+    if n_pierwsze > 0:
+        wybrane, licz = [], {}
+        for p in sorted(posty, key=lambda p: p.get("data") or "", reverse=True):
+            klucz = (p["platforma"], p["konto"])
+            if licz.get(klucz, 0) < n_pierwsze:
+                wybrane.append(p); licz[klucz] = licz.get(klucz, 0) + 1
+        raport["nowe"] = wybrane
+        pierwszy_raz = False
     if pierwszy_raz:
         raport["status"] = "pierwsze_uruchomienie"  # tylko zapamiętujemy stan, nie zalewamy analizą
         raport["zapamietano"] = len(nowe)
