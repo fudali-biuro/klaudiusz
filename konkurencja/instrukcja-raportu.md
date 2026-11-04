@@ -21,6 +21,9 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 7. Nowego istotnego konkurenta dodaj jako nowy plik w `konkurencja/firmy/` (skopiuj dowolny istniejący jako szablon),
    istotne zmiany u istniejących dopisz w ich „Dzienniku obserwacji”, potem `python3 scripts/indeks_konkurencji.py`.
 
+8. Status w biurze: na start `python3 scripts/status.py konkurencja pracuje "Raport konkurencji RRRR-MM-DD"`,
+   po zapisie `python3 scripts/status.py konkurencja gotowe "Raport RRRR-MM-DD: <najważniejsza rzecz w 1 zdaniu>"`.
+
 ## Szablon raportu
 ```
 # Raport konkurencji – RRRR-MM-DD

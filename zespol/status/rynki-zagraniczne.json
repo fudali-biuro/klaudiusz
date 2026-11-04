@@ -1,0 +1,22 @@
+{
+ "id": "rynki-zagraniczne",
+ "stan": "wolne",
+ "zadanie": "Pomysł: raport rynku niemieckiego (Gartenhaus, Holzunterstand) – Bogateco już tam sprzedaje",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:15+01:00",
+ "makieta": true,
+ "prosby": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "tresc": "Czy sprzedajemy za granicę? Jeśli tak – do jakich krajów, jakim transportem, z montażem czy bez?",
+   "pilne": false
+  }
+ ],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "stan": "wolne",
+   "tekst": "Czekam na decyzję o eksporcie"
+  }
+ ]
+}

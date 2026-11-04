@@ -1,0 +1,42 @@
+{
+ "id": "klaudiusz",
+ "stan": "czeka",
+ "zadanie": "Biuro gotowe do włączenia",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:23+01:00",
+ "makieta": false,
+ "prosby": [
+  {
+   "czas": "2026-11-04T14:23+01:00",
+   "tresc": "Włącz biuro na vercel.com: Import projektu fudali-biuro/klaudiusz → Deploy → Settings → Deployment Protection → Vercel Authentication → All Deployments (szczegóły: biuro/README.md).",
+   "pilne": false
+  }
+ ],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:23+01:00",
+   "stan": "czeka",
+   "tekst": "Biuro gotowe do włączenia"
+  },
+  {
+   "czas": "2026-11-04T14:23+01:00",
+   "stan": "gotowe",
+   "tekst": "Zespół zatrudniony: 7 kart pracowników + wirtualne biuro (czeka na włączenie na Vercel)"
+  },
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "stan": "pracuje",
+   "tekst": "Karty pracowników w zespol/, statusy, biuro na Vercel"
+  },
+  {
+   "czas": "2026-11-04T14:03+01:00",
+   "stan": "gotowe",
+   "tekst": "Klucze Apify, OpenRouter, fal.ai przetestowane – działają"
+  },
+  {
+   "czas": "2026-11-04T13:53+01:00",
+   "stan": "gotowe",
+   "tekst": "AGENTS.md: zasady pracy i lista narzędzi/API"
+  }
+ ]
+}

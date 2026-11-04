@@ -1,0 +1,26 @@
+{
+ "id": "konkurencja",
+ "stan": "gotowe",
+ "zadanie": "Pierwszy raport konkurencji (test) + uruchomiony monitoring godzinny IG/TikTok",
+ "postep": 100,
+ "aktualizacja": "2026-11-04T14:03+01:00",
+ "makieta": false,
+ "prosby": [],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:03+01:00",
+   "stan": "gotowe",
+   "tekst": "Scraper Apify podpięty pod APIFY_API_KEY"
+  },
+  {
+   "czas": "2026-11-04T13:55+01:00",
+   "stan": "gotowe",
+   "tekst": "Konkurenci jako pliki w konkurencja/firmy/ (11 firm, Bogateco A+)"
+  },
+  {
+   "czas": "2026-11-04T13:50+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport konkurencji 2026-11-04 (TEST) – Bogateco wchodzi w sezon świąteczny"
+  }
+ ]
+}

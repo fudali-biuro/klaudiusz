@@ -1,0 +1,27 @@
+{
+ "id": "pozycjonowanie",
+ "stan": "czeka",
+ "zadanie": "Pierwszy audyt fudali.com.pl (tytuły, opisy, szybkość, wizytówka Google)",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:15+01:00",
+ "makieta": true,
+ "prosby": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "tresc": "Dodaj Klaudiusza jako użytkownika w Google Search Console i Profilu Firmy w Google (albo powiedz, kto ma dostęp).",
+   "pilne": false
+  },
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "tresc": "Kto edytuje stronę fudali.com.pl i na czym stoi (WordPress / inny)?",
+   "pilne": false
+  }
+ ],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "stan": "czeka",
+   "tekst": "Czekam na dostęp do Search Console"
+  }
+ ]
+}

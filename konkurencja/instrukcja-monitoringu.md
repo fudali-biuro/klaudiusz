@@ -56,6 +56,14 @@ w `monitoring/stan/*.json` – wersję bieżącą). Nigdy `push --force`.
 **Statusy kluczy:** jeśli w `AGENTS.md` Apify/OpenRouter mają status 🔑, a w tym przebiegu zadziałały (scraping zwrócił
 posty / Gemini zwrócił analizę) – zmień na ✅; jeśli zwróciły błąd autoryzacji – ❌ z krótkim opisem.
 
+## 5a. Status w biurze (Mietek i Kuba)
+`godzinny.sh` ustawia „pracuje”. Na koniec (po zapisie wyników) ustaw:
+```bash
+python3 scripts/status.py konkurencja gotowe "HH:00 – N nowych postów (M z werdyktem TAK)"   # albo "brak nowych postów"
+python3 scripts/status.py slowa-kluczowe gotowe "HH:00 – TOP: <fraza> (<ocena>)"
+```
+Brak klucza / błąd API → `... blad "krótko co"`. Statusy zapisz razem z wynikami (przy konflikcie – wersja bieżąca).
+
 ## 6. Powiadomienie
 Tylko gdy jest coś wartego uwagi (werdykt TAK, wiral u konkurencji, mocny skok frazy):
 `scripts/powiadom-telegram.sh "<max 3 punkty + link do pliku na GitHubie>"`. W pozostałych przypadkach nie wysyłaj.

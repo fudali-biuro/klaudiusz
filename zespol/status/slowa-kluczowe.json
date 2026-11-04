@@ -1,0 +1,21 @@
+{
+ "id": "slowa-kluczowe",
+ "stan": "gotowe",
+ "zadanie": "Pomiar 13:22 – 28 fraz; TOP: drewutnia, drewutnia ogrodowa, domek ogrodowy drewniany (65)",
+ "postep": 100,
+ "aktualizacja": "2026-11-04T13:22+01:00",
+ "makieta": false,
+ "prosby": [],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T13:22+01:00",
+   "stan": "gotowe",
+   "tekst": "Pierwszy pomiar 28 fraz (podpowiedzi Google PL)"
+  },
+  {
+   "czas": "2026-11-04T13:20+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar ważności fraz"
+  }
+ ]
+}

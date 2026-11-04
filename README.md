@@ -14,6 +14,8 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 
 ## Struktura
 - `AGENTS.md` – główne instrukcje dla agentów (zasady pracy, narzędzia/API); `CLAUDE.md` tylko go importuje
+- `zespol/` – **7 wirtualnych pracowników** (karty `<id>.md` + statusy) – Klaudiusz jest mózgiem, oni wykonują role
+- `biuro/` – **wirtualne biuro** na Vercel (pikselowa mapa: kto pracuje, kto czeka na szefa) – instrukcja `biuro/README.md`
 - `konkurencja/firmy/*.md` – **źródło prawdy o konkurencji** (jeden plik = jedna firma, konta IG/TikTok w nagłówku)
 - `konkurencja/konkurenci.md` – indeks (generowany)
 - `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), historia pomiarów, kandydaci, podsumowania godzinowe

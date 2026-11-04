@@ -1,0 +1,22 @@
+{
+ "id": "grafika",
+ "stan": "wolne",
+ "zadanie": "Czekam na pierwsze zlecenie od Oli – gotowa: fal.ai (obrazy, wideo, głos)",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:15+01:00",
+ "makieta": true,
+ "prosby": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "tresc": "Logo FUDALI w dobrej jakości (PNG z przezroczystym tłem albo SVG) i kolory firmowe.",
+   "pilne": false
+  }
+ ],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "stan": "wolne",
+   "tekst": "Klucz fal.ai sprawdzony – mogę generować grafiki"
+  }
+ ]
+}

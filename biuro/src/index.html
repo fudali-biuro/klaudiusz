@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Biuro FUDALI</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23d97742'/><rect x='3' y='3' width='10' height='7' fill='%23ffd6e0'/><rect x='5' y='11' width='2' height='2' fill='%23fff'/><rect x='9' y='11' width='2' height='2' fill='%23fff'/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="gora">
+  <div class="logo"><span class="kwadrat"></span><div><h1>Biuro FUDALI</h1><p>Klaudiusz i zespół – na żywo</p></div></div>
+  <div class="chipy">
+    <button class="chip chip-prosby" id="chip-prosby" type="button">🙋 Prośby do Ciebie: <b id="licz-prosby">0</b></button>
+    <span class="chip" id="chip-pracuje">⌨️ Pracuje: <b id="licz-pracuje">0</b></span>
+    <span class="chip chip-cichy" id="aktualizacja">…</span>
+  </div>
+</header>
+
+<main class="uklad">
+  <section class="mapa-wrap" aria-label="Mapa biura">
+    <div class="mapa-ramka" id="mapa-ramka">
+      <canvas id="mapa" tabindex="0" aria-label="Pikselowe biuro – kliknij pracownika, żeby zobaczyć, co robi"></canvas>
+      <div class="podpowiedz" id="podpowiedz" hidden></div>
+    </div>
+    <div class="legenda">
+      <span><i style="--k:#3fb950"></i>pracuje</span>
+      <span><i style="--k:#58a6ff"></i>gotowe</span>
+      <span><i style="--k:#ff6b4a"></i>czeka na Ciebie</span>
+      <span><i style="--k:#9aa4b2"></i>wolne</span>
+      <span><i style="--k:#c9a227"></i>cisza</span>
+      <span class="sterowanie">🖱️ klik – idź / rozmawiaj · ⌨️ WASD / strzałki · E – rozmowa</span>
+    </div>
+  </section>
+
+  <aside class="panel" id="panel" hidden aria-live="polite">
+    <button class="zamknij" id="panel-zamknij" type="button" aria-label="Zamknij">✕</button>
+    <div id="panel-tresc"></div>
+  </aside>
+</main>
+
+<section class="zespol" aria-label="Zespół">
+  <h2 class="naglowek-sekcji">Zespół</h2>
+  <div class="karty" id="karty"></div>
+</section>
+
+<dialog class="podglad" id="podglad">
+  <div class="podglad-gora"><b id="podglad-tytul"></b><button type="button" class="zamknij" id="podglad-zamknij" aria-label="Zamknij">✕</button></div>
+  <article class="md" id="podglad-tresc"></article>
+</dialog>
+
+<div class="toast" id="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+ "id": "sprzedaz",
+ "stan": "czeka",
+ "zadanie": "Przygotowanie kalkulatora wycen i szablonu oferty",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:15+01:00",
+ "makieta": true,
+ "prosby": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "tresc": "Aktualny cennik (domki, drewutnie, altany, pergole, meble, drewno opałowe) + czasy realizacji – bez tego nie wycenię.",
+   "pilne": false
+  }
+ ],
+ "dziennik": [
+  {
+   "czas": "2026-11-04T14:15+01:00",
+   "stan": "czeka",
+   "tekst": "Czekam na cennik"
+  }
+ ]
+}
