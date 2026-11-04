@@ -1,9 +1,9 @@
 {
  "id": "rynki-zagraniczne",
  "stan": "wolne",
- "zadanie": "Etsy (fudaliattimber) to nasz kanał zagraniczny; rywal: Ecofurn – plan: raport Etsy vs Ecofurn",
+ "zadanie": "Gotowa do pracy – czekam na zadania",
  "postep": null,
- "aktualizacja": "2026-11-04T14:49+01:00",
+ "aktualizacja": "2026-11-04T15:17+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:17+01:00",
+   "stan": "wolne",
+   "tekst": "Gotowa do pracy – czekam na zadania"
+  },
   {
    "czas": "2026-11-04T14:49+01:00",
    "stan": "wolne",
