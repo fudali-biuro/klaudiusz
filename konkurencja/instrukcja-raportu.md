@@ -30,4 +30,4 @@ W dni bez istotnych zmian raport może być krótki – wtedy napisz to uczciwie
 
 ## Powiadomienie
 Po zapisaniu raportu wyślij krótkie podsumowanie (TL;DR + link do pliku na GitHubie):
-`scripts/powiadom-telegram.sh "<tekst>"` – jeśli zmienne TELEGRAM_BOT_TOKEN/TELEGRAM_CHAT_ID nie są ustawione, skrypt kończy się bez błędu i tylko to zgłasza.
+`scripts/powiadom-telegram.sh "<tekst>"` – jeśli TELEGRAM_BOT_TOKEN nie jest ustawiony (TELEGRAM_CHAT_ID jest opcjonalny – skrypt wykrywa go sam), skrypt kończy się bez błędu i tylko to zgłasza.
