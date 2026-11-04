@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "gotowe",
- "zadanie": "Pierwszy raport konkurencji (test) + uruchomiony monitoring godzinny IG/TikTok",
- "postep": 100,
- "aktualizacja": "2026-11-04T14:03+01:00",
+ "stan": "wolne",
+ "zadanie": "Gotowy do pracy – czekam na zadania",
+ "postep": null,
+ "aktualizacja": "2026-11-04T15:16+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:16+01:00",
+   "stan": "wolne",
+   "tekst": "Gotowy do pracy – czekam na zadania"
+  },
   {
    "czas": "2026-11-04T14:03+01:00",
    "stan": "gotowe",
