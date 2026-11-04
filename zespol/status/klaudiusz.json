@@ -1,12 +1,28 @@
 {
  "id": "klaudiusz",
- "stan": "pracuje",
- "zadanie": "Zespół w akcji: Ola + Zosia (kampania), Bartek (Google Trends), Ecofurn u Mietka",
+ "stan": "czeka",
+ "zadanie": "Opcje podpięcia Gemini do obrazów gotowe",
  "postep": null,
- "aktualizacja": "2026-11-04T14:56+01:00",
+ "aktualizacja": "2026-11-04T15:04+01:00",
  "makieta": false,
- "prosby": [],
+ "prosby": [
+  {
+   "czas": "2026-11-04T15:04+01:00",
+   "tresc": "Wybierz opcję A, B, C albo D (opis w czacie z Klaudiuszem) i napisz, jaki masz plan Google Workspace (np. Business Standard)",
+   "pilne": false
+  }
+ ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:04+01:00",
+   "stan": "czeka",
+   "tekst": "Opcje podpięcia Gemini do obrazów gotowe"
+  },
+  {
+   "czas": "2026-11-04T15:02+01:00",
+   "stan": "pracuje",
+   "tekst": "Sprawdzam, jak podpiąć Gemini z Google Workspace do generowania obrazów"
+  },
   {
    "czas": "2026-11-04T14:56+01:00",
    "stan": "pracuje",
