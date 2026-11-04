@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "czeka",
- "zadanie": "Gotowe: 2 posty z leżakiem + kampania „Święta z drewnem” (7 postów, 13.11–4.12) – czekam na akceptację",
+ "stan": "wolne",
+ "zadanie": "Gotowa do pracy – czekam na zadania",
  "postep": null,
- "aktualizacja": "2026-11-04T14:56+01:00",
+ "aktualizacja": "2026-11-04T15:16+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -28,6 +28,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:16+01:00",
+   "stan": "wolne",
+   "tekst": "Gotowa do pracy – czekam na zadania"
+  },
   {
    "czas": "2026-11-04T14:56+01:00",
    "stan": "czeka",
