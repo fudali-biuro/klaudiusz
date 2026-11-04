@@ -49,6 +49,16 @@ function kopiuj(rel) {
   let tresc = fs.readFileSync(zrodlo, "utf8");
   if (tresc.length > MAX_ROZMIAR) tresc = tresc.slice(0, MAX_ROZMIAR) + "\n\n… (plik ucięty – pełna wersja w archiwum)";
   fs.writeFileSync(cel, tresc);
+  // obrazki wskazane w markdown (![opis](../zdjecia/x.jpg)) – kopiujemy, żeby było je widać w biurze
+  for (const [, src] of tresc.matchAll(/!\[[^\]]*\]\(([^)\s]+)\)/g)) {
+    if (/^https?:/i.test(src)) continue;
+    const obr = path.posix.normalize(path.posix.join(path.posix.dirname(rel), src));
+    const z = path.join(ROOT, obr);
+    if (obr.startsWith("..") || !fs.existsSync(z)) continue;
+    const c = path.join(DIST, "pliki", obr);
+    fs.mkdirSync(path.dirname(c), { recursive: true });
+    fs.copyFileSync(z, c);
+  }
   return { sciezka: rel, url: "pliki/" + rel, rozmiar: tresc.length };
 }
 

@@ -11,6 +11,10 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
    (obie strony, FB, IG, marketplace’y): nowe produkty, ceny kluczowych produktów (i zmiany vs poprzedni raport), promocje,
    darmowa dostawa, kampanie, posty, opinie, nagrody/PR, ruchy w B2B/eksporcie. Właściciel chce ich **przebić** –
    szukaj ich słabych punktów i luk w ofercie.
+3a. **Drugi kluczowy rywal – Ecofurn / EcoChair (`konkurencja/firmy/ecofurn.md`)** – ten sam produkt co nasz leżak, konkurują za granicą.
+   Co dzień: ceny EcoChair u partnerów (Bloomling, Galaxus, Folk Interiors…), nowe kolory/gatunki, czy weszli na Etsy/Amazon/Instagram,
+   promocje. Ich strona blokuje automaty – korzystaj z wyszukiwarki i sklepów partnerskich (nie obchodź zabezpieczeń).
+   W raporcie dodaj sekcję „🎯 Ecofurn – co robią i jak ich wyprzedzić” zaraz po Bogateco.
 4. Research pozostałych (WebSearch/WebFetch), skup się na ostatnich 24–72 h i zmianach względem poprzednich raportów:
    - nowe produkty, promocje, zmiany cen (szczególnie altany, domki, pergole, drewutnie, meble ogrodowe, drewno),
    - aktywność marketingowa (FB/Instagram/TikTok, nowe kampanie, konkursy), opinie klientów,

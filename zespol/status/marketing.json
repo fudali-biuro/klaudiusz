@@ -1,23 +1,27 @@
 {
  "id": "marketing",
- "stan": "czeka",
- "zadanie": "Szkic kalendarza postów: listopad–grudzień (drewutnie, drewno opałowe, prezenty z drewna)",
- "postep": 20,
- "aktualizacja": "2026-11-04T14:15+01:00",
- "makieta": true,
- "prosby": [
+ "stan": "pracuje",
+ "zadanie": "Kampania „Święta z drewnem” gotowa – wrzucam szkice do Metricool",
+ "postep": 70,
+ "aktualizacja": "2026-11-04T14:50+01:00",
+ "makieta": false,
+ "prosby": [],
+ "dziennik": [
   {
-   "czas": "2026-11-04T14:15+01:00",
-   "tresc": "Podeślij 10–20 zdjęć/filmików z ostatnich realizacji (domki, drewutnie, altany) – prawdziwe materiały wygrywają z AI.",
-   "pilne": false
+   "czas": "2026-11-04T14:50+01:00",
+   "stan": "pracuje",
+   "tekst": "Kampania „Święta z drewnem” gotowa – wrzucam szkice do Metricool"
   },
   {
-   "czas": "2026-11-04T14:15+01:00",
-   "tresc": "Jaki ton postów: luźny i z humorem czy ekspercki i rzeczowy?",
-   "pilne": false
-  }
- ],
- "dziennik": [
+   "czas": "2026-11-04T14:50+01:00",
+   "stan": "gotowe",
+   "tekst": "Prośby do Pablo załatwione"
+  },
+  {
+   "czas": "2026-11-04T14:37+01:00",
+   "stan": "pracuje",
+   "tekst": "Pierwsze posty z leżakiem (5 zdjęć od Pablo) + kalendarz listopad–grudzień"
+  },
   {
    "czas": "2026-11-04T14:15+01:00",
    "stan": "czeka",

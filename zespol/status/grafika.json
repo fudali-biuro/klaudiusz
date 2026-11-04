@@ -1,18 +1,33 @@
 {
  "id": "grafika",
- "stan": "wolne",
- "zadanie": "Czekam na pierwsze zlecenie od Oli – gotowa: fal.ai (obrazy, wideo, głos)",
- "postep": null,
- "aktualizacja": "2026-11-04T14:15+01:00",
- "makieta": true,
+ "stan": "czeka",
+ "zadanie": "6 scen do kampanii świątecznej (produkty ze strony w nowej scenerii)",
+ "postep": 100,
+ "aktualizacja": "2026-11-04T14:49+01:00",
+ "makieta": false,
  "prosby": [
   {
    "czas": "2026-11-04T14:15+01:00",
    "tresc": "Logo FUDALI w dobrej jakości (PNG z przezroczystym tłem albo SVG) i kolory firmowe.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-04T14:49+01:00",
+   "tresc": "fal.ai jest zablokowane do czasu doładowania (fal.ai → Billing). Na razie działam przez OpenRouter – doładuj tylko, jeśli chcesz wideo/rolki.",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T14:49+01:00",
+   "stan": "gotowe",
+   "tekst": "6 scen do kampanii świątecznej (produkty ze strony w nowej scenerii)"
+  },
+  {
+   "czas": "2026-11-04T14:45+01:00",
+   "stan": "pracuje",
+   "tekst": "Kampania świąteczna: 6 produktów w nowych scenach (fal.ai)"
+  },
   {
    "czas": "2026-11-04T14:15+01:00",
    "stan": "wolne",

@@ -649,7 +649,9 @@ document.addEventListener("click", async (e) => {
       const r = await fetch(p.dataset.plik, { cache: "no-cache" });
       if (!r.ok) throw new Error(r.status);
       const txt = await r.text();
+      MD_BAZA = p.dataset.plik.replace(/[^/]*$/, "");
       $("#podglad-tresc").innerHTML = p.dataset.plik.endsWith(".md") ? renderMd(txt) : `<pre><code>${esc(txt)}</code></pre>`;
+      MD_BAZA = "";
     } catch (err) { $("#podglad-tresc").innerHTML = `<p>Nie udało się wczytać pliku (${esc(err.message)}).</p>`; }
   }
 });
@@ -676,15 +678,22 @@ function odswiezUI(panelTez = true) {
 }
 
 /* ============================ markdown (prosty, bezpieczny) ============================ */
+let MD_BAZA = "";
+function obrazek(alt, src) {
+  const u = /^https?:\/\//i.test(src) ? src : new URL(src, location.origin + "/" + MD_BAZA).pathname;
+  return `<img src="${esc(u)}" alt="${esc(alt)}" loading="lazy">`;
+}
 function inline(s) {
   return s.split(/(`[^`]+`)/g).map((cz) => {
     if (cz.startsWith("`") && cz.endsWith("`") && cz.length > 1) return `<code>${esc(cz.slice(1, -1))}</code>`;
+    const obr = [];
+    cz = cz.replace(/!\[([^\]]*)\]\(([^)\s]+)\)/g, (_, alt, src) => { obr.push(obrazek(alt, src)); return `\u0000${obr.length - 1}\u0000`; });
     let h = esc(cz);
     h = h.replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g, (_, t, u) => `<a href="${u}" target="_blank" rel="noopener noreferrer">${t}</a>`);
     h = h.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, t) => t);
     h = h.replace(/(^|[\s(])(https?:\/\/[^\s<)]+)/g, (_, p, u) => `${p}<a href="${u}" target="_blank" rel="noopener noreferrer">${u}</a>`);
     h = h.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>").replace(/(^|[^*])\*([^*\s][^*]*)\*/g, "$1<em>$2</em>");
-    return h;
+    return h.replace(/\u0000(\d+)\u0000/g, (_, n) => obr[+n]);
   }).join("");
 }
 function renderMd(md) {

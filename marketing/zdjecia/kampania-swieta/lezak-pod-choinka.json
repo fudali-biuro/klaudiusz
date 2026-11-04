@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/zdjecia/lezak/03-packshot-naturalny.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: cosy living room on Christmas Eve: the folding wooden lounge chair with its cotton pillow stands next to a decorated Christmas tree, a big red satin bow tied around the chair's backrest, wrapped presents on the floor, fireplace glow, warm evening light.",
+ "ai": true
+}

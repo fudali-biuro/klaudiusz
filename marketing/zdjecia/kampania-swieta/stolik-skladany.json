@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "https://www.fudali.com.pl/wp-content/uploads/2026/09/wooden-folding-stool.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: winter evening on a wooden terrace of a mountain cabin: the folding wooden stool with rope is used as a small side table holding a glass of mulled wine and a candle lantern, a wool blanket and a fur-lined armchair edge, snowy fir forest softly blurred behind, warm golden light.",
+ "ai": true
+}

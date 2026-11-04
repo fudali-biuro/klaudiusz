@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "https://www.fudali.com.pl/wp-content/uploads/2026/09/Wooden-Flower-Coaster-podkladka-bez-tla.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: cozy Polish Christmas morning on a rustic oak table: a ceramic mug of hot chocolate stands on the wooden flower coaster, knitted wool sweater sleeve, a few fir branches, warm window light, soft bokeh of Christmas lights in the background.",
+ "ai": true
+}

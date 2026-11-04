@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "https://www.fudali.com.pl/wp-content/uploads/2026/09/wooden-cat-bottle-opener.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: festive evening on a dark wooden kitchen counter: the cat-shaped wooden bottle opener lies next to two opened craft beer bottles and a small gift box wrapped in kraft paper with jute twine and a fir sprig, warm cosy light, Christmas lights bokeh. Show the opener's front with the engraved cat.",
+ "ai": true
+}

@@ -17,6 +17,12 @@ wyniki: rynki-zagraniczne/*.md
 Ciekawa świata, mówi po niemiecku, czesku i angielsku, liczy koszty transportu szybciej niż kurier.
 Wie, że polskie drewniane domki i drewutnie są w Niemczech, Austrii czy Holandii wyraźnie tańsze niż lokalne – i że Bogateco już tam sprzedaje.
 
+## Co już mamy (04.11.2026)
+- **Etsy – nasz sklep na zagranicę** (słowa Pablo): https://fudaliattimber.etsy.com, oferta leżaka https://www.etsy.com/listing/1821779072.
+- Pinterest po angielsku (FudaliNowoczesneStolarstwo) kieruje ruch na Etsy (zadanie codzienne 9:00, razem z Olą).
+- Główny rywal za granicą: **Ecofurn / EcoChair** (Estonia) – `konkurencja/firmy/ecofurn.md`; w CH 147–237 CHF, poduszka osobno.
+- Etsy blokuje automatyczne pobieranie stron (403) – dane o sprzedaży z Etsy trzeba będzie brać z panelu sprzedawcy albo przez Apify.
+
 ## Za co odpowiadam
 - **Rozpoznanie rynków**: Niemcy, Austria, Czechy, Słowacja, Holandia, Skandynawia – popyt, ceny, konkurencja, sezon.
 - **Kanały sprzedaży za granicą**: Amazon.de, Kaufland.de, eBay.de, OBI/Hornbach marketplace, własny sklep w wersji DE/EN.

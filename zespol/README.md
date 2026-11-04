@@ -11,9 +11,9 @@ a na początku i końcu pracy aktualizuje jego status.
 |---|---|---|---|---|
 | 🧠 | **Klaudiusz** | mózg operacji, koordynator | `AGENTS.md`, `zespol/klaudiusz.md` | ✅ aktywny |
 | 1 | 🔭 **Mietek „Lornetka”** | śledzenie konkurencji | `zespol/konkurencja.md` | ✅ aktywny (raport dzienny + monitoring godzinny) |
-| 2 | 📣 **Ola „Megafon”** | marketing | `zespol/marketing.md` | 🧩 makieta |
+| 2 | 📣 **Ola „Megafon”** | marketing (+ Pinterest/Etsy) | `zespol/marketing.md` | ✅ aktywna (posty, kampanie, szkice w Metricool) |
 | 3 | 🧭 **Bartek „Kompas”** | pozycjonowanie (SEO) | `zespol/pozycjonowanie.md` | 🧩 makieta |
-| 4 | 🎨 **Zosia „Pędzel”** | grafika | `zespol/grafika.md` | 🧩 makieta |
+| 4 | 🎨 **Zosia „Pędzel”** | grafika | `zespol/grafika.md` | ✅ aktywna (produkty w nowych scenach) |
 | 5 | 🔑 **Kuba „Klucznik”** | słowa kluczowe | `zespol/slowa-kluczowe.md` | ✅ aktywny (pomiar co godzinę) |
 | 6 | 🤝 **Marek „Domykacz”** | sprzedaż | `zespol/sprzedaz.md` | 🧩 makieta |
 | 7 | 🌍 **Greta „Paszport”** | rynki zagraniczne | `zespol/rynki-zagraniczne.md` | 🧩 makieta |

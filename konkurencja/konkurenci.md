@@ -6,6 +6,7 @@ Priorytet: A+ = główny rywal (Bogateco / Płoty Ogrodowe – śledzić codzien
 | Firma | Strona | Instagram | TikTok | Priorytet | Monitoring | Plik |
 |---|---|---|---|---|---|---|
 | Bogateco / Płoty Ogrodowe (GŁÓWNY RYWAL) | https://www.bogateco.eu/ | [@bogatecoeu](https://www.instagram.com/bogatecoeu/) | — | A+ | tak | [firmy/bogateco.md](firmy/bogateco.md) |
+| Ecofurn / EcoChair (DRUGI KLUCZOWY RYWAL – leżak) | https://ecofurn.eu/category/ecochair/ | — | — | A+ | tak | [firmy/ecofurn.md](firmy/ecofurn.md) |
 | Altanka (sklep.altanka.com.pl) | https://sklep.altanka.com.pl | [@sklepaltanka](https://www.instagram.com/sklepaltanka/) | — | A | tak | [firmy/altanka.md](firmy/altanka.md) |
 | Drewform | — | — | — | A | tak | [firmy/drewform.md](firmy/drewform.md) |
 | DREWNOTRIK | — | — | — | A | tak | [firmy/drewnotrik.md](firmy/drewnotrik.md) |

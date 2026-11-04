@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "https://www.fudali.com.pl/wp-content/uploads/2026/09/Projekt-bez-nazwy-1.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: warm modern family kitchen during Christmas baking: the round stacking stool set on its wheeled base stands by a kitchen island with gingerbread cookies cooling on a tray, flour, a small Christmas wreath on the wall, morning light, oak floor.",
+ "ai": true
+}

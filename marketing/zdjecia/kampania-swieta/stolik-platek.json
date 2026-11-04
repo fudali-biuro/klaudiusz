@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "https://www.fudali.com.pl/wp-content/uploads/2026/09/Flower-side-table.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: bright Scandinavian living room at Christmas: the flower-shaped oak side table with its white cylindrical base stands next to a light linen sofa, a black vase with white roses and eucalyptus on top, a decorated Christmas tree with warm lights in the background, oak herringbone floor, soft daylight.",
+ "ai": true
+}

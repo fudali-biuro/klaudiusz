@@ -7,8 +7,8 @@ emoji: 🎨
 kolor: "#8e44ad"
 wlosy: "#d35400"
 fryzura: kok
-wdrozenie: makieta
-wyniki: grafika/*.md
+wdrozenie: aktywny
+wyniki: marketing/kampanie/*.md
 ---
 
 # 🎨 Zosia „Pędzel” – grafika
@@ -30,8 +30,9 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 ## Narzędzia i skrypty
 | Skrypt / narzędzie | Do czego | Stan |
 |---|---|---|
-| fal.ai (`FAL_AI_API_KEY`) | obrazy (Flux), wideo (Kling/Veo), głos (TTS) | ✅ klucz działa |
-| 🧩 `scripts/grafika/obraz.py "<opis>" --format 4:5` | generuje grafikę przez fal.ai, zapisuje do `grafika/wyniki/` | planowane |
+| fal.ai (`FAL_AI_API_KEY`) | obrazy (Flux), wideo (Kling/Veo), głos (TTS) | ❌ 04.11.2026: konto zablokowane – trzeba doładować (TOP_UP) |
+| OpenRouter (`OPENROUTER_API_KEY`) | modele obrazowe Google Gemini (edycja zdjęć produktów) | ✅ |
+| `scripts/grafika/scena.py --zdjecie <URL/plik> --opis "<scena EN>" --wyjscie <plik.jpg>` | **produkt FUDALI w nowej scenerii** – edycja zdjęcia, produkt zostaje ten sam (OpenRouter: Gemini 3 Pro Image; zapas: fal.ai) | ✅ 04.11.2026 (6 scen kampanii świątecznej) |
 | 🧩 `scripts/grafika/wideo.py` | krótkie wideo z obrazu/zdjęcia (image-to-video) | planowane |
 | 🧩 `scripts/grafika/bez_tla.py` | usuwanie tła ze zdjęć produktów | planowane |
 | 🧩 Canva (łącznik w Claude) | szablony postów z logo i kolorami FUDALI | do podpięcia |

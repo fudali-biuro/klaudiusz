@@ -1,18 +1,28 @@
 {
  "id": "rynki-zagraniczne",
  "stan": "wolne",
- "zadanie": "Pomysł: raport rynku niemieckiego (Gartenhaus, Holzunterstand) – Bogateco już tam sprzedaje",
+ "zadanie": "Etsy (fudaliattimber) to nasz kanał zagraniczny; rywal: Ecofurn – plan: raport Etsy vs Ecofurn",
  "postep": null,
- "aktualizacja": "2026-11-04T14:15+01:00",
- "makieta": true,
+ "aktualizacja": "2026-11-04T14:49+01:00",
+ "makieta": false,
  "prosby": [
   {
-   "czas": "2026-11-04T14:15+01:00",
-   "tresc": "Czy sprzedajemy za granicę? Jeśli tak – do jakich krajów, jakim transportem, z montażem czy bez?",
+   "czas": "2026-11-04T14:49+01:00",
+   "tresc": "Ile leżaków sprzedało się już na Etsy i do jakich krajów? (wystarczy z grubsza – albo zrzut ekranu z panelu Etsy)",
    "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T14:49+01:00",
+   "stan": "wolne",
+   "tekst": "Etsy (fudaliattimber) to nasz kanał zagraniczny; rywal: Ecofurn – plan: raport Etsy vs Ecofurn"
+  },
+  {
+   "czas": "2026-11-04T14:49+01:00",
+   "stan": "gotowe",
+   "tekst": "Prośby do Pablo załatwione"
+  },
   {
    "czas": "2026-11-04T14:15+01:00",
    "stan": "wolne",
