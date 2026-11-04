@@ -1,4 +1,71 @@
 {
  "_opis": "Rejestr sesji zespołu (Klaudiusz + pracownicy) – zarządza scripts/sesje.py, procedura zespol/sesje.md",
- "sesje": {}
+ "sesje": {
+  "klaudiusz": {
+   "sesja": "session_01PrvQugqmXzeLYx8mR8umX6",
+   "tytul": "🧠 Klaudiusz",
+   "link": "https://claude.ai/code/session_01PrvQugqmXzeLYx8mR8umX6",
+   "utworzono": "2026-11-04T15:15+01:00",
+   "zadania": {}
+  },
+  "konkurencja": {
+   "sesja": "session_01PrvQufiUi6BvfXVeTBqyxt",
+   "tytul": "🔭 Mietek „Lornetka” – śledzenie konkurencji",
+   "link": "https://claude.ai/code/session_01PrvQufiUi6BvfXVeTBqyxt",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {
+    "monitoring": "trig_01KpnfMRwUQhcMEAVb98t43r",
+    "raport": "trig_012xTcwrqTcm4oqmSUwb52QB"
+   }
+  },
+  "slowa-kluczowe": {
+   "sesja": "session_01PrvQudYhJ1qnGSDzZoqqHX",
+   "tytul": "🔑 Kuba „Klucznik” – słowa kluczowe",
+   "link": "https://claude.ai/code/session_01PrvQudYhJ1qnGSDzZoqqHX",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {
+    "godzinne": "trig_01PS6LvEhAcRVgfPzr5ft4u4"
+   }
+  },
+  "pozycjonowanie": {
+   "sesja": "session_01PrvQud8r6Qz9Bcg6fvKmZU",
+   "tytul": "🧭 Bartek „Kompas” – pozycjonowanie (SEO)",
+   "link": "https://claude.ai/code/session_01PrvQud8r6Qz9Bcg6fvKmZU",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {
+    "trendy": "trig_015PXmZFHeQVmGjmhQH5U8xG"
+   }
+  },
+  "marketing": {
+   "sesja": "session_01PrvQuedtcbw9tdZLbkRghE",
+   "tytul": "📣 Ola „Megafon” – marketing",
+   "link": "https://claude.ai/code/session_01PrvQuedtcbw9tdZLbkRghE",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {
+    "pinterest": "trig_016mWosDKBKTFwPvBpnXZQ39",
+    "plan-tygodnia": "trig_01P8XqnzmVitBcBgAPXn9j45"
+   }
+  },
+  "grafika": {
+   "sesja": "session_01PrvQufqsxup7QiuVWo7txy",
+   "tytul": "🎨 Zosia „Pędzel” – grafika",
+   "link": "https://claude.ai/code/session_01PrvQufqsxup7QiuVWo7txy",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {}
+  },
+  "sprzedaz": {
+   "sesja": "session_01PrvQuekJaN11X6nftaeZi7",
+   "tytul": "🤝 Marek „Domykacz” – sprzedaż",
+   "link": "https://claude.ai/code/session_01PrvQuekJaN11X6nftaeZi7",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {}
+  },
+  "rynki-zagraniczne": {
+   "sesja": "session_01PrvQuen6UcLnsAnL8wAHeG",
+   "tytul": "🌍 Greta „Paszport” – rynki zagraniczne",
+   "link": "https://claude.ai/code/session_01PrvQuen6UcLnsAnL8wAHeG",
+   "utworzono": "2026-11-04T15:16+01:00",
+   "zadania": {}
+  }
+ }
 }
