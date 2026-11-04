@@ -1,5 +1,8 @@
 # 🏢 Biuro FUDALI – wirtualne biuro Klaudiusza (Vercel)
 
+**Adres: https://biuro-fudali.vercel.app** (wymaga zalogowania na Vercel – konto fudali-biuro).
+Projekt: `biuro-fudali`, ochrona: Vercel Authentication → All Deployments (ustawione 04.11.2026).
+
 Pikselowe biuro w stylu „Gather”: Klaudiusz (mózg) w środku, 7 pracowników przy biurkach, Pablo chodzi po biurze.
 Widać, kto **pracuje** (stuka w klawiaturę), kto **skończył** (✓), a kto **czegoś chce od szefa** (podniesiona ręka i „!”).
 Klik w pracownika → panel: co teraz robi, prośby do Pablo, dziennik, ostatnie wyniki (raporty do przeczytania), karta pracownika.
@@ -12,7 +15,7 @@ Strona jest budowana z repozytorium przy każdym zapisie na `main` (`node biuro/
 
 Strona sama sprawdza nowe dane co 5 minut. Vercel pomija budowanie, gdy zmiana nie dotyczy biura ani wyników (`ignoreCommand` w `vercel.json`).
 
-## Uruchomienie na Vercel (jednorazowo)
+## Uruchomienie na Vercel (zrobione 04.11.2026 – zostawione na wypadek odtwarzania)
 Najlepiej: Klaudiusz robi to sam przez konektor Vercel (w sesji, która go widzi). Gdyby trzeba było ręcznie – gotowe linki:
 1. **Utworzenie projektu z archiwum:** https://vercel.com/new/import?s=https://github.com/fudali-biuro/klaudiusz → „Deploy”
    (ustawienia są w `vercel.json`, nic nie trzeba zmieniać).
