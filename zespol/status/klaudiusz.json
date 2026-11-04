@@ -1,12 +1,17 @@
 {
  "id": "klaudiusz",
- "stan": "gotowe",
- "zadanie": "Biuro działa: https://biuro-fudali.vercel.app (tylko po zalogowaniu)",
- "postep": 100,
- "aktualizacja": "2026-11-04T14:32+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zespół w akcji: Ola + Zosia (kampania), Bartek (Google Trends), Ecofurn u Mietka",
+ "postep": null,
+ "aktualizacja": "2026-11-04T14:56+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-04T14:56+01:00",
+   "stan": "pracuje",
+   "tekst": "Zespół w akcji: Ola + Zosia (kampania), Bartek (Google Trends), Ecofurn u Mietka"
+  },
   {
    "czas": "2026-11-04T14:32+01:00",
    "stan": "gotowe",
