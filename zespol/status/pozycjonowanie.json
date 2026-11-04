@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
- "stan": "pracuje",
- "zadanie": "Google Trends: porównanie fraz produktowych, prezentowych i rywali (PL + DE)",
+ "stan": "wolne",
+ "zadanie": "Gotowy do pracy – czekam na zadania",
  "postep": null,
- "aktualizacja": "2026-11-04T14:51+01:00",
+ "aktualizacja": "2026-11-04T15:16+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:16+01:00",
+   "stan": "wolne",
+   "tekst": "Gotowy do pracy – czekam na zadania"
+  },
   {
    "czas": "2026-11-04T14:51+01:00",
    "stan": "pracuje",
