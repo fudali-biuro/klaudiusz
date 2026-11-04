@@ -6,6 +6,8 @@
 # Użycie: scripts/powiadom-telegram.sh "treść wiadomości"
 set -euo pipefail
 MSG="${1:?Podaj treść wiadomości}"
+# Domyślny odbiorca: właściciel (chat ID bez tokenu bota nic nie daje, więc może być w repo)
+TELEGRAM_CHAT_ID="${TELEGRAM_CHAT_ID:-6330814720}"
 if [[ -z "${TELEGRAM_BOT_TOKEN:-}" ]]; then
   echo "Telegram: brak TELEGRAM_BOT_TOKEN – pomijam wysyłkę." >&2
   exit 0
