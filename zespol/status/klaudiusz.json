@@ -3,16 +3,15 @@
  "stan": "gotowe",
  "zadanie": "Zespół na stanowiskach: 7 sesji, 6 zadań",
  "postep": 100,
- "aktualizacja": "2026-11-04T15:17+01:00",
+ "aktualizacja": "2026-11-04T15:27+01:00",
  "makieta": false,
- "prosby": [
-  {
-   "czas": "2026-11-04T15:04+01:00",
-   "tresc": "Wybierz opcję A, B, C albo D (opis w czacie z Klaudiuszem) i napisz, jaki masz plan Google Workspace (np. Business Standard)",
-   "pilne": false
-  }
- ],
+ "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-04T15:27+01:00",
+   "stan": "gotowe",
+   "tekst": "Prośby do Pablo załatwione"
+  },
   {
    "czas": "2026-11-04T15:17+01:00",
    "stan": "gotowe",
