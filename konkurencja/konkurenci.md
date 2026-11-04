@@ -1,21 +1,19 @@
-# Obserwowani konkurenci
+# Obserwowani konkurenci (indeks)
 
-Lista startowa – zadanie dzienne może ją uzupełniać o nowo znalezione firmy (sekcja „Nowo wykryci”).
-Właściciel może dowolnie edytować. Priorytet: A = bezpośredni, B = częściowy, C = rynek/marketplace.
+Plik generowany automatycznie z `konkurencja/firmy/*.md` – **edytuj pliki firm, nie ten plik.**
+Priorytet: A = bezpośredni, B = częściowy, C = rynek/ceny referencyjne.
 
-| Firma | Strona / kanał | Co sprzedaje | Region | Priorytet |
-|---|---|---|---|---|
-| Altanka (sklep.altanka.com.pl) | https://sklep.altanka.com.pl | domki ogrodowe/narzędziowe, altany | PL, wysyłka | A |
-| DREWNOTRIK | OLX (Rzeszów) | domki narzędziowe z drewutnią, altany 3w1 | Podkarpacie? | A |
-| Holz-Paw | https://www.oferteo.pl/holz-paw-uslugi-stolarskie/firma/5647778 | altany, wiaty, domki działkowe, drewutnie | do ustalenia | A |
-| Drewform | panoramafirm.pl | skład drewna + projektowanie altan | do ustalenia | A |
-| Kejdrew | sprzedajemy.pl | drewutnie | do ustalenia | B |
-| Domki Sauny (domkisauny.pl) | https://domkisauny.pl | domki ogrodowe, sauny | PL | B |
-| Vivengarden | https://vivengarden.pl | pergole, zadaszenia | PL | B |
-| OBI | https://www.obi.pl | altany, domki (marketowe, ceny referencyjne) | PL | C |
-| Kaufland marketplace | https://www.kaufland.pl | domki, altany | PL | C |
-| Castorama / Leroy Merlin | castorama.pl / leroymerlin.pl | domki, altany, drewno | PL | C |
-| OLX / Allegro – lokalni wykonawcy | olx.pl (podkarpackie), allegro.pl | altany, drewutnie, drewno opałowe | Podkarpacie | C |
+| Firma | Strona | Instagram | TikTok | Priorytet | Monitoring | Plik |
+|---|---|---|---|---|---|---|
+| Altanka (sklep.altanka.com.pl) | https://sklep.altanka.com.pl | [@sklepaltanka](https://www.instagram.com/sklepaltanka/) | — | A | tak | [firmy/altanka.md](firmy/altanka.md) |
+| Drewform | — | — | — | A | tak | [firmy/drewform.md](firmy/drewform.md) |
+| DREWNOTRIK | — | — | — | A | tak | [firmy/drewnotrik.md](firmy/drewnotrik.md) |
+| Holz-Paw | https://www.oferteo.pl/holz-paw-uslugi-stolarskie/firma/5647778 | — | — | A | tak | [firmy/holz-paw.md](firmy/holz-paw.md) |
+| ALT DREW COSMO | — | — | — | B | tak | [firmy/alt-drew-cosmo.md](firmy/alt-drew-cosmo.md) |
+| Domki Sauny | https://domkisauny.pl | [@domkisauny](https://www.instagram.com/domkisauny/) | — | B | tak | [firmy/domkisauny.md](firmy/domkisauny.md) |
+| Kejdrew | — | — | — | B | tak | [firmy/kejdrew.md](firmy/kejdrew.md) |
+| Vivengarden | https://vivengarden.pl | [@vivengarden](https://www.instagram.com/vivengarden/) | — | B | tak | [firmy/vivengarden.md](firmy/vivengarden.md) |
+| Markety DIY (OBI, Castorama, Leroy Merlin) | https://www.castorama.pl | — | — | C | nie | [firmy/markety-diy.md](firmy/markety-diy.md) |
 
 ## Nowo wykryci
-_(dopisywane automatycznie)_
+Nowych konkurentów dodawaj jako nowe pliki w `firmy/` (szablon: dowolny istniejący plik).
