@@ -1,0 +1,1350 @@
+{
+ "czas": "2026-11-04T13:22+01:00",
+ "postow_w_bazie": 0,
+ "frazy": [
+  {
+   "fraza": "drewutnia",
+   "grupa": "drewutnie",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "drewutnia",
+    "drewutnia na drewno",
+    "drewutnia ogrodowa",
+    "drewutnia olpuch",
+    "drewutnia z palet",
+    "drewutnia metalowa",
+    "drewutnia drewniana",
+    "drewutnia castorama",
+    "drewutnia krzyżówka",
+    "drewutnia chodzież"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "drewutnia ogrodowa",
+   "grupa": "drewutnie",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "drewutnia ogrodowa",
+    "drewutnia ogrodowa drewniana",
+    "drewutnia ogrodowa metalowa",
+    "drewutnia ogrodowa castorama",
+    "drewutnia ogrodowa z palet",
+    "drewutnia ogrodowa zamykana",
+    "drewutnia ogrodowa z domkiem narzędziowym",
+    "drewutnia ogrodowa olx",
+    "drewutnia ogrodowa leroy merlin",
+    "drewutnia ogrodowa diy"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "drewutnia drewniana",
+   "grupa": "drewutnie",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "drewutnia drewniana",
+    "drewutnia drewniana olx",
+    "drewutnia drewniana projekt",
+    "drewutnia drewniana allegro",
+    "drewutnia drewniana zamykana",
+    "drewutnia drewniana leroy merlin",
+    "drewutnia drewniana castorama",
+    "drewutnia drewniana z domkiem narzędziowym",
+    "drewutnia drewniana obi",
+    "drewutnia drewniana na drewno"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "drewutnia na drewno",
+   "grupa": "drewutnie",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "drewutnia na drewno",
+    "drewutnia na drewno kominkowe",
+    "drewutnia na drewno castorama",
+    "drewutnia na drewno z palet",
+    "drewutnia na drewno projekt",
+    "drewutnia na drewno metalowa",
+    "drewutnia na drewno olx",
+    "drewutnia na drewno allegro",
+    "drewutnia na drewno drewniana",
+    "drewutnia na drewno zamykana"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "domek ogrodowy drewniany",
+   "grupa": "domki",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "domek ogrodowy drewniany",
+    "domek ogrodowy drewniany dla dzieci",
+    "domek ogrodowy drewniany castorama",
+    "domek ogrodowy drewniany na narzędzia",
+    "domek ogrodowy drewniany olx",
+    "domek ogrodowy drewniany leroy merlin",
+    "domek ogrodowy drewniany allegro",
+    "domek ogrodowy drewniany z tarasem",
+    "domek ogrodowy drewniany obi",
+    "domek ogrodowy drewniany wyprzedaż"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "domek narzędziowy drewniany",
+   "grupa": "domki",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "domek narzędziowy drewniany",
+    "domek narzędziowy drewniany castorama",
+    "domek narzędziowy drewniany olx",
+    "domek narzędziowy drewniany leroy merlin",
+    "domek narzędziowy drewniany 3x5",
+    "domek narzędziowy drewniany z drewutnią",
+    "domek narzędziowy drewniany 3x4",
+    "domek narzędziowy drewniany obi",
+    "domek narzędziowy drewniany allegro",
+    "domek narzędziowy drewniany projekt"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "domek 35m2 bez pozwolenia",
+   "grupa": "domki",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "domek 35m2 bez pozwolenia",
+    "domek całoroczny 35m2 bez pozwolenia",
+    "domek drewniany 35m2 bez pozwolenia z poddaszem",
+    "domek murowany 35m2 bez pozwolenia",
+    "domek letniskowy do 35m2 bez pozwolenia",
+    "domek 35m2 z antresolą bez pozwolenia",
+    "domek 35m2 z poddaszem bez pozwolenia",
+    "domek letniskowy do 35m2 bez pozwolenia przepisy",
+    "domek drewniany do 35m2 bez pozwolenia",
+    "czy domek do 35m2 bez pozwolenia"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "altana drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "altana drewniana",
+    "altana drewniana 3x3",
+    "altana drewniana 4x4",
+    "altana drewniana 3x4",
+    "altana drewniana ogrodowa",
+    "altana drewniana 5x5",
+    "altana drewniana 3x3 castorama",
+    "altana drewniana 4x4 olx",
+    "altana drewniana jednospadowa",
+    "altana drewniana do samodzielnego montażu"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "altana ogrodowa",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "altana ogrodowa",
+    "altana ogrodowa drewniana",
+    "altana ogrodowa metalowa",
+    "altana ogrodowa nowoczesna",
+    "altana ogrodowa castorama",
+    "altana ogrodowa 3x3",
+    "altana ogrodowa leroy merlin",
+    "altana ogrodowa 3x4",
+    "altana ogrodowa 4x4",
+    "altana ogrodowa olx"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "meble ogrodowe drewniane",
+   "grupa": "meble ogrodowe",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
+    "meble ogrodowe drewniane olx",
+    "meble ogrodowe drewniane wyprzedaż",
+    "meble ogrodowe drewniane castorama",
+    "meble ogrodowe drewniane allegro",
+    "meble ogrodowe drewniane używane olx",
+    "meble ogrodowe drewniane ikea",
+    "meble ogrodowe drewniane jysk",
+    "meble ogrodowe drewniane z bali",
+    "meble ogrodowe drewniane producent"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "leżak drewniany",
+   "grupa": "meble ogrodowe",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "leżak drewniany",
+    "leżak drewniany składany",
+    "leżak drewniany ogrodowy",
+    "leżak drewniany jysk",
+    "leżak drewniany plażowy",
+    "leżak drewniany ikea",
+    "leżak drewniany castorama",
+    "leżak drewniany allegro",
+    "leżak drewniany olx",
+    "leżak drewniany leroy merlin"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "leżak składany drewniany",
+   "grupa": "meble ogrodowe",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "leżak składany drewniany",
+    "leżak drewniany składany castorama",
+    "leżak drewniany składany olx",
+    "leżak drewniany składany allegro",
+    "leżak drewniany składany jysk",
+    "leżak drewniany składany z podłokietnikiem",
+    "leżak drewniany składany z nadrukiem",
+    "leżak drewniany składany ikea",
+    "leżak drewniany składany z poduszką",
+    "leżak drewniany składany action"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "drewno konstrukcyjne",
+   "grupa": "drewno",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "drewno konstrukcyjne",
+    "drewno konstrukcyjne c24",
+    "drewno konstrukcyjne c24 cena za m3",
+    "drewno konstrukcyjne castorama",
+    "drewno konstrukcyjne cena",
+    "drewno konstrukcyjne olx",
+    "drewno konstrukcyjne klejone",
+    "drewno konstrukcyjne kvh",
+    "drewno konstrukcyjne leroy merlin",
+    "drewno konstrukcyjne cena za m3"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "domek letniskowy",
+   "grupa": "domki",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "domek letniskowy",
+    "domek letniskowy całoroczny",
+    "domek letniskowy na sprzedaż",
+    "domek letniskowy 35m2",
+    "domek letniskowy całoroczny 70m2",
+    "domek letniskowy drewniany",
+    "domek letniskowy nad jeziorem",
+    "domek letniskowy pilnie sprzedam",
+    "domek letniskowy krzyżówka",
+    "domek letniskowy całoroczny 35m2"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "pergola drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "pergola drewniana",
+    "pergola drewniana ogrodowa",
+    "pergola drewniana tarasowa",
+    "pergola drewniana castorama",
+    "pergola drewniana leroy merlin",
+    "pergola drewniana na taras",
+    "pergola drewniana obi",
+    "pergola drewniana bricomarche",
+    "pergola drewniana na balkon",
+    "pergola drewniana na winogron"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na 2 samochody",
+    "wiata drewniana 6x6 projekt",
+    "wiata drewniana dwustanowiskowa"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "stolik kawowy drewniany",
+   "grupa": "meble i akcesoria",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "stolik kawowy drewniany",
+    "stolik kawowy drewniany okrągły",
+    "stolik kawowy drewniany prostokątny",
+    "stolik kawowy drewniany olx",
+    "stolik kawowy drewniany nowoczesny",
+    "stolik kawowy drewniany agata meble",
+    "stolik kawowy drewniany jysk",
+    "stolik kawowy drewniany maly",
+    "stolik kawowy drewniany z czarnymi nogami",
+    "stolik kawowy drewniany ikea"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "stołki drewniane",
+   "grupa": "meble i akcesoria",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "stołki drewniane",
+    "stołki drewniane do kuchni",
+    "stołki drewniane do salonu",
+    "stołki drewniane olx",
+    "stołki drewniane ikea",
+    "stołki drewniane składane",
+    "stołki drewniane z oparciem",
+    "stołki drewniane action",
+    "stołki drewniane allegro",
+    "stołki drewniane do ogrodu"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "deski konstrukcyjne",
+   "grupa": "drewno",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "deski konstrukcyjne",
+    "deski konstrukcyjne c24",
+    "deski konstrukcyjne castorama",
+    "deski konstrukcyjne olx",
+    "deski konstrukcyjne cena",
+    "deski konstrukcyjne leroy merlin",
+    "deski konstrukcyjne obi",
+    "deski konstrukcyjne wymiary",
+    "deski konstrukcyjne heblowane",
+    "deski konstrukcyjne bricomarche"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "drewno opałowe",
+   "grupa": "drewno",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "drewno opałowe",
+    "drewno opałowe olx",
+    "drewno opałowe cena",
+    "drewno opałowe podkarpackie tanio",
+    "drewno opałowe lublin",
+    "drewno opałowe białystok",
+    "drewno opałowe rzeszów",
+    "drewno opałowe warszawa",
+    "drewno opałowe castorama",
+    "drewno opałowe poznań"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "stolarz rzeszów",
+   "grupa": "lokalne",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "stolarz rzeszów",
+    "stolarz rzeszów olx",
+    "stolarz rzeszów - forum",
+    "stolarz rzeszów praca",
+    "stolarz rzeszów i okolice",
+    "stolarz rzeszów najwyżej oceniane",
+    "stolarz meblowy rzeszów",
+    "stolarz dentysta rzeszów",
+    "dr stolarz rzeszów",
+    "stolarz drzwi rzeszów"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "akcesoria drewniane",
+   "grupa": "meble i akcesoria",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "akcesoria drewniane do kuchni dla dzieci",
+    "akcesoria drewniane do kuchni",
+    "akcesoria drewniane",
+    "akcesoria drewniane dla chomika",
+    "akcesoria drewniane do domku dla lalek",
+    "akcesoria drewniane do łazienki",
+    "akcesoria drewniane do ogrodu",
+    "akcesoria drewniane do mebli",
+    "akcesoria drewniane dla lalek",
+    "akcesoria drewniane do makramy"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "podkładki drewniane",
+   "grupa": "meble i akcesoria",
+   "znaczenie_biznesowe": "niskie",
+   "podpowiedzi_google": [
+    "podkładki drewniane",
+    "podkładki drewniane na stół",
+    "podkładki drewniane pod kubek",
+    "podkładki drewniane prostokątne",
+    "podkładki drewniane pod kubek action",
+    "podkładki drewniane action",
+    "podkładki drewniane castorama",
+    "podkladki drewniane pod talerz",
+    "podkładki drewniane okrągłe",
+    "podkladki drewniane do poziomowania"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 52,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "sauna ogrodowa",
+   "grupa": "obserwowane u konkurencji",
+   "znaczenie_biznesowe": "niskie",
+   "podpowiedzi_google": [
+    "sauna ogrodowa",
+    "sauna ogrodowa z piecem na drewno",
+    "sauna ogrodowa olx",
+    "sauna ogrodowa na drewno",
+    "sauna ogrodowa cena",
+    "sauna ogrodowa z jacuzzi",
+    "sauna ogrodowa z przedsionkiem",
+    "sauna ogrodowa do samodzielnego montażu",
+    "sauna ogrodowa beczka",
+    "sauna ogrodowa 2 osobowa"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 52,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "nowoczesny domek",
+   "grupa": "domki",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "nowoczesny domek narzędziowy",
+    "nowoczesny domek ogrodowy",
+    "nowoczesny domek letniskowy",
+    "nowoczesny domek narzędziowy z drewutnią",
+    "nowoczesny domek dla dzieci",
+    "nowoczesny domek",
+    "nowoczesny domek ogrodowy dla dzieci",
+    "nowoczesny domek ogrodowy z tarasem",
+    "nowoczesny domek holenderski całoroczny",
+    "nowoczesny domek na działkę"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "otwieracz do butelek drewniany",
+   "grupa": "meble i akcesoria",
+   "znaczenie_biznesowe": "niskie",
+   "podpowiedzi_google": [
+    "otwieracz do butelek drewniany"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 36,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "tarcica",
+   "grupa": "drewno",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "tarcica",
+    "tarcica o kwadratowym przekroju",
+    "tarcica sosnowa",
+    "tarcica dębowa",
+    "tarcica co to",
+    "tarcica dębowa sucha",
+    "tarcica iglasta",
+    "tarcica budowlana",
+    "tarcica jesionowa",
+    "tarcica modrzewiowa"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "stolarnia podkarpacie",
+   "grupa": "lokalne",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "stolarz podkarpacie"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.1,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 18,
+   "zmiana_oceny": null
+  }
+ ],
+ "kandydaci": [
+  {
+   "fraza": "drewutnia olpuch",
+   "z_frazy": "drewutnia"
+  },
+  {
+   "fraza": "drewutnia z palet",
+   "z_frazy": "drewutnia"
+  },
+  {
+   "fraza": "drewutnia metalowa",
+   "z_frazy": "drewutnia"
+  },
+  {
+   "fraza": "drewutnia chodzież",
+   "z_frazy": "drewutnia"
+  },
+  {
+   "fraza": "drewutnia ogrodowa drewniana",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia ogrodowa metalowa",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia ogrodowa z palet",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia ogrodowa zamykana",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia ogrodowa z domkiem narzędziowym",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia ogrodowa diy",
+   "z_frazy": "drewutnia ogrodowa"
+  },
+  {
+   "fraza": "drewutnia drewniana projekt",
+   "z_frazy": "drewutnia drewniana"
+  },
+  {
+   "fraza": "drewutnia drewniana zamykana",
+   "z_frazy": "drewutnia drewniana"
+  },
+  {
+   "fraza": "drewutnia drewniana z domkiem narzędziowym",
+   "z_frazy": "drewutnia drewniana"
+  },
+  {
+   "fraza": "drewutnia drewniana na drewno",
+   "z_frazy": "drewutnia drewniana"
+  },
+  {
+   "fraza": "drewutnia na drewno kominkowe",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno z palet",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno projekt",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno metalowa",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno drewniana",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno zamykana",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "domek ogrodowy drewniany dla dzieci",
+   "z_frazy": "domek ogrodowy drewniany"
+  },
+  {
+   "fraza": "domek ogrodowy drewniany na narzędzia",
+   "z_frazy": "domek ogrodowy drewniany"
+  },
+  {
+   "fraza": "domek ogrodowy drewniany z tarasem",
+   "z_frazy": "domek ogrodowy drewniany"
+  },
+  {
+   "fraza": "domek ogrodowy drewniany wyprzedaż",
+   "z_frazy": "domek ogrodowy drewniany"
+  },
+  {
+   "fraza": "domek narzędziowy drewniany 3x5",
+   "z_frazy": "domek narzędziowy drewniany"
+  },
+  {
+   "fraza": "domek narzędziowy drewniany z drewutnią",
+   "z_frazy": "domek narzędziowy drewniany"
+  },
+  {
+   "fraza": "domek narzędziowy drewniany 3x4",
+   "z_frazy": "domek narzędziowy drewniany"
+  },
+  {
+   "fraza": "domek narzędziowy drewniany projekt",
+   "z_frazy": "domek narzędziowy drewniany"
+  },
+  {
+   "fraza": "nowoczesny domek narzędziowy",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek ogrodowy",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek letniskowy",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek narzędziowy z drewutnią",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek dla dzieci",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek ogrodowy dla dzieci",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek ogrodowy z tarasem",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek holenderski całoroczny",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "nowoczesny domek na działkę",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
+   "fraza": "domek całoroczny 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek drewniany 35m2 bez pozwolenia z poddaszem",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek murowany 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek letniskowy do 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek 35m2 z antresolą bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek 35m2 z poddaszem bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek letniskowy do 35m2 bez pozwolenia przepisy",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek drewniany do 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "czy domek do 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek letniskowy całoroczny",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy na sprzedaż",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy 35m2",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy całoroczny 70m2",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy drewniany",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy nad jeziorem",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy pilnie sprzedam",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy całoroczny 35m2",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "altana drewniana 3x3",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana 4x4",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana 3x4",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana ogrodowa",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana 5x5",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana jednospadowa",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana do samodzielnego montażu",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana ogrodowa drewniana",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "altana ogrodowa metalowa",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "altana ogrodowa nowoczesna",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "altana ogrodowa 3x3",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "altana ogrodowa 3x4",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "altana ogrodowa 4x4",
+   "z_frazy": "altana ogrodowa"
+  },
+  {
+   "fraza": "pergola drewniana ogrodowa",
+   "z_frazy": "pergola drewniana"
+  },
+  {
+   "fraza": "pergola drewniana tarasowa",
+   "z_frazy": "pergola drewniana"
+  },
+  {
+   "fraza": "pergola drewniana na taras",
+   "z_frazy": "pergola drewniana"
+  },
+  {
+   "fraza": "pergola drewniana na balkon",
+   "z_frazy": "pergola drewniana"
+  },
+  {
+   "fraza": "pergola drewniana na winogron",
+   "z_frazy": "pergola drewniana"
+  },
+  {
+   "fraza": "wiata drewniana jednospadowa",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana na samochód",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana na dwa samochody",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana dwuspadowa",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana ogrodowa",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana do samodzielnego montażu",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana na 2 samochody",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana 6x6 projekt",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana dwustanowiskowa",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "meble ogrodowe drewniane wyprzedaż",
+   "z_frazy": "meble ogrodowe drewniane"
+  },
+  {
+   "fraza": "meble ogrodowe drewniane z bali",
+   "z_frazy": "meble ogrodowe drewniane"
+  },
+  {
+   "fraza": "meble ogrodowe drewniane producent",
+   "z_frazy": "meble ogrodowe drewniane"
+  },
+  {
+   "fraza": "leżak drewniany składany",
+   "z_frazy": "leżak drewniany"
+  },
+  {
+   "fraza": "leżak drewniany ogrodowy",
+   "z_frazy": "leżak drewniany"
+  },
+  {
+   "fraza": "leżak drewniany plażowy",
+   "z_frazy": "leżak drewniany"
+  },
+  {
+   "fraza": "leżak drewniany składany z podłokietnikiem",
+   "z_frazy": "leżak składany drewniany"
+  },
+  {
+   "fraza": "leżak drewniany składany z nadrukiem",
+   "z_frazy": "leżak składany drewniany"
+  },
+  {
+   "fraza": "leżak drewniany składany z poduszką",
+   "z_frazy": "leżak składany drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany okrągły",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany prostokątny",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany nowoczesny",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany agata meble",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany maly",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stolik kawowy drewniany z czarnymi nogami",
+   "z_frazy": "stolik kawowy drewniany"
+  },
+  {
+   "fraza": "stołki drewniane do kuchni",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "stołki drewniane do salonu",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "stołki drewniane składane",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "stołki drewniane z oparciem",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "stołki drewniane do ogrodu",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do kuchni dla dzieci",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do kuchni",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do domku dla lalek",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do łazienki",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do ogrodu",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do mebli",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane dla lalek",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "akcesoria drewniane do makramy",
+   "z_frazy": "akcesoria drewniane"
+  },
+  {
+   "fraza": "podkładki drewniane na stół",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "podkładki drewniane pod kubek",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "podkładki drewniane prostokątne",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "podkladki drewniane pod talerz",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "podkładki drewniane okrągłe",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "podkladki drewniane do poziomowania",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
+   "fraza": "drewno konstrukcyjne c24",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "drewno konstrukcyjne c24 cena za m3",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "drewno konstrukcyjne cena",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "drewno konstrukcyjne klejone",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "drewno konstrukcyjne kvh",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "drewno konstrukcyjne cena za m3",
+   "z_frazy": "drewno konstrukcyjne"
+  },
+  {
+   "fraza": "deski konstrukcyjne c24",
+   "z_frazy": "deski konstrukcyjne"
+  },
+  {
+   "fraza": "deski konstrukcyjne cena",
+   "z_frazy": "deski konstrukcyjne"
+  },
+  {
+   "fraza": "deski konstrukcyjne wymiary",
+   "z_frazy": "deski konstrukcyjne"
+  },
+  {
+   "fraza": "deski konstrukcyjne heblowane",
+   "z_frazy": "deski konstrukcyjne"
+  },
+  {
+   "fraza": "tarcica o kwadratowym przekroju",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica sosnowa",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica dębowa",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica co to",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica dębowa sucha",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica iglasta",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica budowlana",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica jesionowa",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "tarcica modrzewiowa",
+   "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "drewno opałowe cena",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe podkarpackie tanio",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe lublin",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe białystok",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe rzeszów",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe warszawa",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe poznań",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "stolarz podkarpacie",
+   "z_frazy": "stolarnia podkarpacie"
+  },
+  {
+   "fraza": "stolarz rzeszów - forum",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz rzeszów praca",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz rzeszów i okolice",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz rzeszów najwyżej oceniane",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz meblowy rzeszów",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz dentysta rzeszów",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "dr stolarz rzeszów",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "stolarz drzwi rzeszów",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
+   "fraza": "sauna ogrodowa z piecem na drewno",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa na drewno",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa cena",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa z jacuzzi",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa z przedsionkiem",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa do samodzielnego montażu",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa beczka",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa 2 osobowa",
+   "z_frazy": "sauna ogrodowa"
+  }
+ ]
+}
