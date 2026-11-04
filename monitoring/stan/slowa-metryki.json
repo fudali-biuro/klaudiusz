@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-04T19:53+01:00",
+ "czas": "2026-11-04T20:53+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -191,8 +191,8 @@
    "podpowiedzi_google": [
     "altana drewniana",
     "altana drewniana 3x3",
-    "altana drewniana 3x4",
     "altana drewniana 4x4",
+    "altana drewniana 3x4",
     "altana drewniana ogrodowa",
     "altana drewniana 5x5",
     "altana drewniana 3x3 castorama",
@@ -250,7 +250,7 @@
     "meble ogrodowe drewniane ikea",
     "meble ogrodowe drewniane jysk",
     "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane producent"
+    "meble ogrodowe drewniane wyprzedaż allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -379,8 +379,8 @@
     "pergola drewniana na taras",
     "pergola drewniana obi",
     "pergola drewniana bricomarche",
-    "pergola drewniana do samodzielnego montażu",
-    "pergola drewniana na róże"
+    "pergola drewniana na róże",
+    "pergola drewniana do samodzielnego montażu"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -393,6 +393,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na 2 samochody",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana dwuspadowa konstrukcja"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": 24
+  },
+  {
    "fraza": "stolik kawowy drewniany",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "srednie",
@@ -400,8 +426,8 @@
     "stolik kawowy drewniany",
     "stolik kawowy drewniany okrągły",
     "stolik kawowy drewniany prostokątny",
-    "stolik kawowy drewniany olx",
     "stolik kawowy drewniany nowoczesny",
+    "stolik kawowy drewniany olx",
     "stolik kawowy drewniany agata meble",
     "stolik kawowy drewniany jysk",
     "stolik kawowy drewniany z czarnymi nogami",
@@ -483,8 +509,8 @@
     "drewno opałowe białystok",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań",
-    "drewno opałowe castorama"
+    "drewno opałowe castorama",
+    "drewno opałowe poznań"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -644,32 +670,6 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana na 2 samochody",
-    "wiata drewniana 6x6 projekt",
-    "wiata drewniana dwustanowiskowa"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 34,
-   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
@@ -933,11 +933,11 @@
    "z_frazy": "altana drewniana"
   },
   {
-   "fraza": "altana drewniana 3x4",
+   "fraza": "altana drewniana 4x4",
    "z_frazy": "altana drewniana"
   },
   {
-   "fraza": "altana drewniana 4x4",
+   "fraza": "altana drewniana 3x4",
    "z_frazy": "altana drewniana"
   },
   {
@@ -997,11 +997,11 @@
    "z_frazy": "pergola drewniana"
   },
   {
-   "fraza": "pergola drewniana do samodzielnego montażu",
+   "fraza": "pergola drewniana na róże",
    "z_frazy": "pergola drewniana"
   },
   {
-   "fraza": "pergola drewniana na róże",
+   "fraza": "pergola drewniana do samodzielnego montażu",
    "z_frazy": "pergola drewniana"
   },
   {
@@ -1033,11 +1033,11 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana 6x6 projekt",
+   "fraza": "wiata drewniana dwustanowiskowa",
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana dwustanowiskowa",
+   "fraza": "wiata drewniana dwuspadowa konstrukcja",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -1046,10 +1046,6 @@
   },
   {
    "fraza": "meble ogrodowe drewniane z bali",
-   "z_frazy": "meble ogrodowe drewniane"
-  },
-  {
-   "fraza": "meble ogrodowe drewniane producent",
    "z_frazy": "meble ogrodowe drewniane"
   },
   {

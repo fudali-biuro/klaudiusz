@@ -64,3 +64,33 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | altana drewniana 3x4 | altana drewniana | 2026-11-04 |
 | altana drewniana 4x4 | altana drewniana | 2026-11-04 |
 | altana drewniana ogrodowa | altana drewniana | 2026-11-04 |
+| altana drewniana 5x5 | altana drewniana | 2026-11-04 |
+| altana drewniana jednospadowa | altana drewniana | 2026-11-04 |
+| altana drewniana do samodzielnego montażu | altana drewniana | 2026-11-04 |
+| altana ogrodowa drewniana | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa metalowa | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa nowoczesna | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa 3x3 | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa 3x4 | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa 4x4 | altana ogrodowa | 2026-11-04 |
+| altana ogrodowa oddam za darmo | altana ogrodowa | 2026-11-04 |
+| pergola drewniana ogrodowa | pergola drewniana | 2026-11-04 |
+| pergola drewniana tarasowa | pergola drewniana | 2026-11-04 |
+| pergola drewniana na taras | pergola drewniana | 2026-11-04 |
+| pergola drewniana na róże | pergola drewniana | 2026-11-04 |
+| pergola drewniana do samodzielnego montażu | pergola drewniana | 2026-11-04 |
+| wiata drewniana jednospadowa | wiata drewniana | 2026-11-04 |
+| wiata drewniana na samochód | wiata drewniana | 2026-11-04 |
+| wiata drewniana na dwa samochody | wiata drewniana | 2026-11-04 |
+| wiata drewniana dwuspadowa | wiata drewniana | 2026-11-04 |
+| wiata drewniana ogrodowa | wiata drewniana | 2026-11-04 |
+| wiata drewniana do samodzielnego montażu | wiata drewniana | 2026-11-04 |
+| wiata drewniana na 2 samochody | wiata drewniana | 2026-11-04 |
+| wiata drewniana dwustanowiskowa | wiata drewniana | 2026-11-04 |
+| wiata drewniana dwuspadowa konstrukcja | wiata drewniana | 2026-11-04 |
+| meble ogrodowe drewniane wyprzedaż | meble ogrodowe drewniane | 2026-11-04 |
+| meble ogrodowe drewniane z bali | meble ogrodowe drewniane | 2026-11-04 |
+| leżak drewniany składany | leżak drewniany | 2026-11-04 |
+| leżak drewniany ogrodowy | leżak drewniany | 2026-11-04 |
+| leżak drewniany plażowy | leżak drewniany | 2026-11-04 |
+| leżak drewniany składany z podłokietnikiem | leżak składany drewniany | 2026-11-04 |
