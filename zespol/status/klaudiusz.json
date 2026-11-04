@@ -1,18 +1,28 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "Biuro gotowe do włączenia",
+ "zadanie": "Biuro gotowe – czeka na uruchomienie na Vercel",
  "postep": null,
- "aktualizacja": "2026-11-04T14:23+01:00",
+ "aktualizacja": "2026-11-04T14:25+01:00",
  "makieta": false,
  "prosby": [
   {
-   "czas": "2026-11-04T14:23+01:00",
-   "tresc": "Włącz biuro na vercel.com: Import projektu fudali-biuro/klaudiusz → Deploy → Settings → Deployment Protection → Vercel Authentication → All Deployments (szczegóły: biuro/README.md).",
+   "czas": "2026-11-04T14:25+01:00",
+   "tresc": "Uruchom biuro jednym kliknięciem: https://vercel.com/new/import?s=https://github.com/fudali-biuro/klaudiusz (Deploy), potem włącz ochronę logowaniem – linki w biuro/README.md. Albo daj znać w nowej sesji, a zrobię to sam przez konektor Vercel.",
    "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-04T14:25+01:00",
+   "stan": "czeka",
+   "tekst": "Biuro gotowe – czeka na uruchomienie na Vercel"
+  },
+  {
+   "czas": "2026-11-04T14:25+01:00",
+   "stan": "gotowe",
+   "tekst": "Prośby do Pablo załatwione"
+  },
   {
    "czas": "2026-11-04T14:23+01:00",
    "stan": "czeka",

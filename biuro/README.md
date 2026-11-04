@@ -12,16 +12,16 @@ Strona jest budowana z repozytorium przy każdym zapisie na `main` (`node biuro/
 
 Strona sama sprawdza nowe dane co 5 minut. Vercel pomija budowanie, gdy zmiana nie dotyczy biura ani wyników (`ignoreCommand` w `vercel.json`).
 
-## Uruchomienie na Vercel (jednorazowo, robi Pablo – ok. 5 minut)
-1. Wejdź na **vercel.com** i zaloguj się kontem GitHub (tym, które ma dostęp do archiwum Klaudiusza).
-2. **Add New… → Project** → przy repozytorium **`fudali-biuro/klaudiusz`** kliknij **Import**.
-   Ustawień nie zmieniaj (wszystko jest w `vercel.json`) → **Deploy**.
-3. **Zabezpieczenie (ważne!)**: w projekcie **Settings → Deployment Protection** → **Vercel Authentication: włącz**,
-   zakres ustaw na **All Deployments** (dostępne też na darmowym planie) → **Save**.
-   Od teraz stronę zobaczy tylko ktoś zalogowany na Vercel z dostępem do tego projektu; reszta świata dostaje ekran logowania.
-4. Link do biura: **Settings → Domains** (np. `klaudiusz-xxx.vercel.app`) – zapisz w zakładkach telefonu.
+## Uruchomienie na Vercel (jednorazowo)
+Najlepiej: Klaudiusz robi to sam przez konektor Vercel (w sesji, która go widzi). Gdyby trzeba było ręcznie – gotowe linki:
+1. **Utworzenie projektu z archiwum:** https://vercel.com/new/import?s=https://github.com/fudali-biuro/klaudiusz → „Deploy”
+   (ustawienia są w `vercel.json`, nic nie trzeba zmieniać).
+2. **Zabezpieczenie (ważne):** https://vercel.com/d?to=%2F%5Bteam%5D%2F%5Bproject%5D%2Fsettings%2Fdeployment-protection
+   → Vercel Authentication **włączone**, zakres **All Deployments** (działa też na darmowym planie).
+   Stronę zobaczy tylko ktoś zalogowany na Vercel z dostępem do projektu.
+3. Link do biura: https://vercel.com/d?to=%2F%5Bteam%5D%2F%5Bproject%5D%2Fsettings%2Fdomains (np. `klaudiusz-xxx.vercel.app`).
 
-Chcesz dać dostęp współpracownikowi? Zaproś go do zespołu na Vercel (Settings → Members) – bez tego nie wejdzie.
+Dostęp dla współpracownika = zaproszenie do zespołu na Vercel: https://vercel.com/d?to=%2Fteams%2F%5Bteam%5D%2Fsettings%2Fmembers
 
 ## Sterowanie
 - myszka / palec: klik w podłogę – Pablo idzie; klik w osobę – rozmowa (panel),
