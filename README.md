@@ -7,7 +7,7 @@ Asystent AI firmy **FUDALI Sp. z o.o.** (Głogów Małopolski) – nowoczesne st
 
 | Zadanie | Kiedy | Wynik |
 |---|---|---|
-| Raport konkurencji | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
+| Raport konkurencji (główny rywal: Bogateco / Płoty Ogrodowe) | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
 
 ## Struktura
 

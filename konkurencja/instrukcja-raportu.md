@@ -4,20 +4,26 @@ Kontekst firmy: patrz `README.md`. Język raportu: polski. Ton: konkretny, bizne
 
 ## Kroki
 1. Wczytaj `konkurencja/konkurenci.md` oraz 2–3 ostatnie raporty z `raporty/` (żeby nie powtarzać tych samych informacji i móc pokazać zmiany).
-2. Research (WebSearch/WebFetch), skup się na ostatnich 24–72 h i zmianach względem poprzednich raportów:
+2. **Główny rywal – Bogateco / Płoty Ogrodowe – sprawdzaj ZAWSZE i najdokładniej** (obie strony, FB, IG, marketplace’y):
+   nowe produkty, ceny kluczowych produktów (i zmiany vs poprzedni raport), promocje, darmowa dostawa, kampanie, posty, opinie,
+   nagrody/PR, ruchy w B2B/eksporcie. Właściciel chce ich **przebić** – szukaj ich słabych punktów i luk w ofercie.
+3. Research pozostałych (WebSearch/WebFetch), skup się na ostatnich 24–72 h i zmianach względem poprzednich raportów:
    - nowe produkty, promocje, zmiany cen (szczególnie altany, domki, pergole, drewutnie, drewno opałowe),
    - aktywność marketingowa (FB/Instagram, nowe kampanie, konkursy), opinie klientów,
    - nowi gracze na Podkarpaciu i w sprzedaży wysyłkowej w PL,
    - sygnały rynkowe: ceny drewna (Lasy Państwowe, tarcica), sezonowość, dotacje, przepisy (np. budowa bez pozwolenia).
-3. Nie wymyślaj danych. Każdy fakt z linkiem do źródła. Jeśli czegoś nie da się sprawdzić – napisz to wprost.
-4. Zapisz raport jako `raporty/RRRR-MM-DD-konkurencja.md` wg szablonu poniżej.
-5. Jeśli znalazłeś nowego istotnego konkurenta – dopisz go w sekcji „Nowo wykryci” w `konkurencja/konkurenci.md`.
+4. Nie wymyślaj danych. Każdy fakt z linkiem do źródła. Jeśli czegoś nie da się sprawdzić – napisz to wprost.
+5. Zapisz raport jako `raporty/RRRR-MM-DD-konkurencja.md` wg szablonu poniżej.
+6. Jeśli znalazłeś nowego istotnego konkurenta – dopisz go w sekcji „Nowo wykryci” w `konkurencja/konkurenci.md`.
 
 ## Szablon raportu
 ```
 # Raport konkurencji – RRRR-MM-DD
 
 ## TL;DR (max 5 punktów)
+## 🎯 Bogateco / Płoty Ogrodowe – co dziś robią
+(nowości, ceny, promocje, social media, opinie; zmiany vs poprzedni raport)
+## Jak ich przebić (2–3 konkretne ruchy dla FUDALI: produkt, cena, marketing, SEO, marketplace)
 ## Co się zmieniło u konkurencji
 (tabela: Firma | Zmiana | Źródło)
 ## Ceny – obserwacje
