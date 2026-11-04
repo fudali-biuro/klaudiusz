@@ -2,7 +2,7 @@
 """Godzinny scraper Instagram + TikTok konkurencji przez API Apify.
 
 - Konta bierze z konkurencja/firmy/*.md (pola instagram / tiktok, aktywny_monitoring != nie).
-- Wymaga zmiennej APIFY_TOKEN (https://console.apify.com/settings/integrations).
+- Wymaga zmiennej APIFY_API_KEY (lub APIFY_TOKEN) (https://console.apify.com/settings/integrations).
 - Wynik: monitoring/stan/nowe-posty.json (posty, których wcześniej nie widzieliśmy),
          monitoring/stan/posty-30dni.json (baza do analizy słów kluczowych),
          monitoring/stan/widziane.json (ID już przeanalizowanych postów).
@@ -47,7 +47,7 @@ def norm_tt(p, mapa):
 
 def main():
     start = teraz()
-    token = os.environ.get("APIFY_TOKEN", "").strip()
+    token = (os.environ.get("APIFY_API_KEY") or os.environ.get("APIFY_TOKEN") or "").strip()
     firmy = [k for k in wczytaj_konkurentow() if k.get("aktywny_monitoring", "tak").lower() != "nie"]
     mapa, ig, tt = {}, [], []
     for k in firmy:
@@ -60,7 +60,7 @@ def main():
     if not token:
         raport["status"] = "brak_tokenu"
         json_zapisz(STAN / "nowe-posty.json", raport)
-        print("APIFY_TOKEN nie ustawiony – pomijam scraping (status: brak_tokenu).")
+        print("APIFY_API_KEY nie ustawiony – pomijam scraping (status: brak_tokenu).")
         return
     posty = []
     if ig:

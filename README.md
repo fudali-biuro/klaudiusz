@@ -23,7 +23,7 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 ## Sekrety (zmienne środowiskowe środowiska chmurowego)
 | Zmienna | Do czego |
 |---|---|
-| `APIFY_TOKEN` | scraping Instagram/TikTok (aktorzy `apify/instagram-scraper`, `clockworks/tiktok-scraper`) |
+| `APIFY_API_KEY` | scraping Instagram/TikTok (aktorzy `apify/instagram-scraper`, `clockworks/tiktok-scraper`) |
 | `OPENROUTER_API_KEY` | analiza wideo klatka po klatce z dźwiękiem (Gemini 4, `google/gemini-4-argon`) |
 | `TELEGRAM_BOT_TOKEN` (+ opcjonalnie `TELEGRAM_CHAT_ID`) | powiadomienia na Telegram |
 - `AGENTS.md` – instrukcje dla agentów + lista narzędzi/API
