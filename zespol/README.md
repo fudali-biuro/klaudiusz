@@ -4,8 +4,10 @@
 Pracownicy to wyspecjalizowane role. Każdy ma swoją **kartę** (`zespol/<id>.md`) – kim jest, za co odpowiada,
 jakich skryptów używa, co oddaje – i swój **status** (`zespol/status/<id>.json`), który widać w wirtualnym biurze (`biuro/`).
 
-Gdy sesja Claude wykonuje pracę danej roli, **wciela się w tego pracownika**: czyta jego kartę i trzyma się jej zasad,
-a na początku i końcu pracy aktualizuje jego status.
+**Każdy pracownik ma własną, stałą sesję Claude nazwaną jego imieniem** (subczat Klaudiusza) – tam przychodzą jego
+zadania automatyczne (`zadania/<id>-*.md`) i wiadomości. Sesja czyta jego kartę i trzyma się jej zasad, a na początku
+i końcu pracy aktualizuje jego status. Rejestr i procedura: `sesje.json`, `sesje.md`. Pablo rozmawia z każdym
+w **oknie czatu w biurze** (`scripts/czat.py`, rozmowy w `czat/<id>/`).
 
 | # | Pracownik | Rola | Karta | Stan wdrożenia |
 |---|---|---|---|---|

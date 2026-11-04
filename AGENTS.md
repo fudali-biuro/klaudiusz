@@ -31,15 +31,36 @@ każdy ma kartę w `zespol/<id>.md` (kim jest, co robi, jakich skryptów używa,
 | 🤝 Marek „Domykacz” | sprzedaż | `zespol/sprzedaz.md` | 🧩 makieta |
 | 🌍 Greta „Paszport” | rynki zagraniczne | `zespol/rynki-zagraniczne.md` | 🧩 makieta |
 
+### 🧩 Sesje: Klaudiusz + 7 subczatów (polecenie Pablo, 04.11.2026)
+Nie ma jednego wielkiego procesu. **Klaudiusz ma sesję główną „🧠 Klaudiusz”** (session master), a **każdy pracownik ma własną,
+stałą sesję nazwaną jego imieniem** (np. „📣 Ola „Megafon” – marketing”) – tam przychodzą jego zadania automatyczne i wiadomości.
+Wszystkie sesje działają na **średnim wysiłku (medium)**. Rejestr sesji: `zespol/sesje.json` (`python3 scripts/sesje.py pokaz`),
+procedura tworzenia/naprawy: `zespol/sesje.md`, zadania automatyczne każdego pracownika: `zespol/zadania/<id>-*.md`.
+- Klaudiusz zleca pracę przez `send_message` do sesji pracownika; pracownik po skończeniu **melduje się Klaudiuszowi** (send_message).
+- Pracownicy współpracują bezpośrednio (np. Mietek → Ola: pomysł TAK; Ola → Zosia: grafika; Bartek → Ola: trendy).
+
+### 💬 Czat w biurze – Pablo rozmawia z zespołem z przeglądarki
+Na https://biuro-fudali.vercel.app każdy pracownik (i Klaudiusz) ma **okno czatu**: tekst, wklejone obrazki, pliki, nagranie z mikrofonu.
+Wiadomość budzi zadanie „📨 Czat z biura” w sesji Klaudiusza → `scripts/czat.py przyjmij` (zapis + pobranie załączników do
+`zespol/czat/zalaczniki/`, transkrypcja nagrań) → przekazanie 1:1 do sesji pracownika. Odpowiedzi:
+```bash
+python3 scripts/czat.py napisz <id> "tekst"                 # odpowiedź do Pablo (widać w biurze po ~15 s)
+python3 scripts/czat.py napisz <id> "…" --plik <ścieżka>     # z plikiem/obrazkiem z archiwum
+python3 scripts/czat.py napisz <id> "…" --typ koniec         # zadanie skończone (+ meldunek do Klaudiusza)
+python3 scripts/czat.py pokaz <id>                         # historia rozmowy
+```
+Pablo **czyta tylko czat i biuro** – tam (nie w sesji) piszesz mu odpowiedzi, po polsku, krótko, bez żargonu.
+
 **Zasady:**
-1. Zadanie należące do roli → przeczytaj kartę pracownika i działaj jako on (jego zasady, jego pliki wyników).
+1. Zadanie należące do roli → przekaż je do sesji tego pracownika (albo, gdy jesteś tym pracownikiem: działaj wg swojej karty).
 2. **Status w biurze jest obowiązkowy**: na początku pracy `python3 scripts/status.py <id> pracuje "co robię"`,
-   na końcu `... gotowe "co zrobiłem"`; gdy potrzeba czegoś od Pablo – `... czeka "na co" --prosba "konkretna prośba"`;
-   gdy Pablo odpowie – `... --zalatwione`. Większe zadania samego Klaudiusza – id `klaudiusz`.
-   Statusy (`zespol/status/*.json`) zapisuj razem z resztą zmian. Przy konflikcie w tych plikach zostaw wersję bieżącą (swoją).
+   na końcu `... gotowe "co zrobiłem"`; gdy potrzeba czegoś od Pablo – `... czeka "na co" --prosba "konkretna prośba"`
+   (prośba trafia też do czatu i na Telegram – Pablo odpowiada w czacie); gdy Pablo odpowie – `... --zalatwione`.
+   Większe zadania samego Klaudiusza – id `klaudiusz`. `status.py` sam zapisuje status w archiwum (`--bez-zapisu` = tylko lokalnie).
 3. Pablo widzi wszystko w **wirtualnym biurze** (`biuro/`, strona na Vercel chroniona logowaniem) – prośby do niego formułuj
    krótko i konkretnie, tak żeby dało się odpowiedzieć jednym zdaniem.
-4. Wdrażanie makiety: skrypty z sekcji „Planowane narzędzia” karty → wpis w „Zadania automatyczne” → w karcie `wdrozenie: aktywny`.
+4. Wdrażanie makiety: skrypty z sekcji „Planowane narzędzia” karty → plik `zespol/zadania/<id>-<klucz>.md` → zadanie w jego sesji
+   (`zespol/sesje.md`, pkt 3) → w karcie `wdrozenie: aktywny`.
 
 ## 🧰 Narzędzia i klucze API (w zanadrzu)
 
@@ -72,13 +93,17 @@ Po dodaniu klucza zrób krótki test (np. jedno zapytanie) i ustaw status ✅ al
 Klucze dodaje się w ustawieniach środowiska chmurowego (menu środowiska w pasku tytułu sesji → Edit → zmienne środowiskowe) – nowe sesje widzą je od razu.
 
 ## Zadania automatyczne
+Każde zadanie budzi **sesję swojego pracownika** (procedury: `zespol/zadania/`, lista z ID: `python3 scripts/sesje.py pokaz`).
 
-| Zadanie | Kiedy | Wynik |
-|---|---|---|
-| Raport konkurencji (główni rywale: Bogateco / Płoty Ogrodowe i Ecofurn / EcoChair) – procedura `konkurencja/instrukcja-raportu.md` | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
-| Plan marketingu na tydzień (Bartek: Google Trends → Ola: posty) – `zespol/pozycjonowanie.md`, `zespol/marketing.md` | poniedziałek 7:47 (Europe/Warsaw) | `marketing/kalendarz-RRRR-MM.md`, szkice w Metricool, Telegram |
-| Pinterest FUDALI: codzienny research zasięgu (Ola, Etsy) | codziennie 9:00 | podsumowanie + szkice pinów EN w Metricool |
-| Monitoring Instagram/TikTok konkurencji (analiza wideo: klatki + Gemini 4 z dźwiękiem) + słowa kluczowe – procedura `konkurencja/instrukcja-monitoringu.md` | co godzinę (o :37) | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/<firma>.md`; Telegram tylko przy ważnych nowościach |
+| Zadanie | Pracownik (sesja) | Kiedy (Europe/Warsaw) | Wynik |
+|---|---|---|---|
+| 📨 Czat z biura (`klaudiusz-czat.md`) | 🧠 Klaudiusz | na wezwanie – wiadomość Pablo z biura | wiadomość zapisana i przekazana pracownikowi |
+| Raport konkurencji (`konkurencja-raport.md`, rywale: Bogateco / Płoty Ogrodowe, Ecofurn / EcoChair) | 🔭 Mietek | codziennie 7:41 (gotowy ok. 8:00) | `raporty/RRRR-MM-DD-konkurencja.md` + Telegram |
+| Monitoring IG/TikTok konkurencji (`konkurencja-monitoring.md`, klatki + Gemini 4) | 🔭 Mietek | co godzinę o :37 | `monitoring/social/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/`; pomysły TAK → Ola |
+| Pomiar słów kluczowych (`slowa-kluczowe-godzinne.md`) | 🔑 Kuba | co godzinę o :52 | `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
+| Trendy tygodnia – Google Trends (`pozycjonowanie-trendy.md`) | 🧭 Bartek | poniedziałek 7:17 | `seo/trendy/RRRR-MM-DD.md` → Ola |
+| Plan marketingu na tydzień (`marketing-plan-tygodnia.md`) | 📣 Ola | poniedziałek 7:47 | `marketing/kalendarz-RRRR-MM.md`, posty, prośba o akceptację w czacie |
+| Pinterest: research zasięgu (`marketing-pinterest.md`) | 📣 Ola | codziennie 9:00 | `marketing/pinterest/RRRR-MM.md`, szkice pinów EN w Metricool |
 
 ## Struktura
 
@@ -89,9 +114,12 @@ Klucze dodaje się w ustawieniach środowiska chmurowego (menu środowiska w pas
 - `monitoring/` – logi godzinne (`social/`) i stan scrapera (`stan/`); `monitoring/media/` (wideo, klatki) jest poza repo
 - `marketing/` – biurko Oli: `produkty.md` (fakty o produktach), `kalendarz-*.md`, `posty/`, `kampanie/`, `zdjecia/`
 - `raporty/` – archiwum raportów
-- `zespol/` – karty pracowników (`<id>.md`) i ich statusy (`status/<id>.json`, tylko przez `scripts/status.py`)
-- `biuro/` – wirtualne biuro (pikselowa strona na Vercel, `biuro/README.md`); konfiguracja w `vercel.json`
+- `zespol/` – karty pracowników (`<id>.md`), statusy (`status/<id>.json`, tylko przez `scripts/status.py`),
+  sesje (`sesje.json` + `sesje.md`), zadania automatyczne (`zadania/`), czat z Pablo (`czat/<id>/*.json`, `czat/zalaczniki/`)
+- `biuro/` – wirtualne biuro (pikselowa strona na Vercel, `biuro/README.md`); konfiguracja w `vercel.json`;
+  `api/` – serwer czatu na Vercel (wiadomości z biura → zadanie „📨 Czat z biura”, załączniki w Vercel Blob)
 - `AGENTS.md` – instrukcje dla agentów + lista narzędzi/API
 - `scripts/powiadom-telegram.sh` – wysyłka powiadomienia na Telegram (bot)
-- `scripts/godzinny.sh` – przebieg danych monitoringu (scraper Apify → analiza wideo ffmpeg + Gemini → metryki słów kluczowych) – sam ustawia statusy Mietka i Kuby
+- `scripts/godzinny.sh konkurencja|slowa` – przebieg danych monitoringu (część Mietka: scraper Apify → analiza wideo ffmpeg + Gemini; część Kuby: metryki słów kluczowych) – sam ustawia ich statusy
 - `scripts/status.py` – status pracownika w biurze (pracuje / gotowe / czeka + prośba / wolne / blad)
+- `scripts/czat.py` – czat z Pablo (napisz / przyjmij / pokaz); `scripts/sesje.py` – sesje i zadania zespołu

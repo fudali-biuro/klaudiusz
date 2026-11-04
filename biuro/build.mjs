@@ -67,7 +67,10 @@ function czytajJson(p, domyslnie) {
 }
 
 const zespol = [];
-const pliki = fs.readdirSync(ZESPOL).filter((f) => f.endsWith(".md") && f !== "README.md").map((f) => f.slice(0, -3));
+// karty pracowników = zespol/<id>.md z nagłówkiem „id: <id>” (pozostałe .md w zespol/ to dokumentacja, np. sesje.md)
+const pliki = fs.readdirSync(ZESPOL).filter((f) => f.endsWith(".md"))
+  .map((f) => f.slice(0, -3))
+  .filter((id) => naglowek(fs.readFileSync(path.join(ZESPOL, id + ".md"), "utf8"))[0].id === id);
 pliki.sort((a, b) => (KOLEJNOSC.indexOf(a) + 1 || 99) - (KOLEJNOSC.indexOf(b) + 1 || 99));
 for (const id of pliki) {
   const [meta, tresc] = naglowek(fs.readFileSync(path.join(ZESPOL, id + ".md"), "utf8"));
