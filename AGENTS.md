@@ -25,13 +25,13 @@ Przed użyciem sprawdź, czy zmienna jest ustawiona (`[ -n "$NAZWA" ]`); jeśli 
 
 | Usługa | Do czego | Zmienna | Dokumentacja | Status |
 |---|---|---|---|---|
-| **OpenRouter** | dostęp do wielu modeli AI (LLM) przez jedno API, zgodne z OpenAI (`https://openrouter.ai/api/v1/chat/completions`, nagłówek `Authorization: Bearer $OPENROUTER_API_KEY`) | `OPENROUTER_API_KEY` | https://openrouter.ai/docs | ⏳ do dodania |
-| **Apify** | scraping i automatyzacja web: gotowe „aktory” do Google Maps, Facebooka, Instagrama, Allegro, OLX, cenników konkurencji (`https://api.apify.com/v2/...?token=$APIFY_TOKEN`) | `APIFY_TOKEN` | https://docs.apify.com/api/v2 | ⏳ do dodania |
+| **OpenRouter** | dostęp do wielu modeli AI (LLM) przez jedno API, zgodne z OpenAI (`https://openrouter.ai/api/v1/chat/completions`, nagłówek `Authorization: Bearer $OPENROUTER_API_KEY`) | `OPENROUTER_API_KEY` | https://openrouter.ai/docs | 🔑 klucz dodany 04.11.2026 – test przy pierwszym monitoringu godzinnym (analiza wideo: Gemini 4 `google/gemini-4-argon`, `scripts/analiza_wideo.py`) |
+| **Apify** | scraping i automatyzacja web: gotowe „aktory” do Google Maps, Facebooka, Instagrama, Allegro, OLX, cenników konkurencji (`https://api.apify.com/v2/...?token=$APIFY_TOKEN`) | `APIFY_TOKEN` | https://docs.apify.com/api/v2 | 🔑 klucz dodany 04.11.2026 – test przy pierwszym monitoringu godzinnym (aktory `apify/instagram-scraper`, `clockworks/tiktok-scraper`, `scripts/monitoring_social.py`) |
 | **fal.ai** | generowanie **obrazów, wideo i dźwięku/głosu** (modele typu Flux, Kling, Veo, TTS…) – `https://fal.run/<model>` / `https://queue.fal.run/<model>`, nagłówek `Authorization: Key $FAL_KEY` | `FAL_KEY` | https://docs.fal.ai | ⏳ do dodania |
 | **Telegram (bot @Fudali_biuro_bot)** | powiadomienia do właściciela – użyj `scripts/powiadom-telegram.sh "tekst"` | `TELEGRAM_BOT_TOKEN` (`TELEGRAM_CHAT_ID` opcjonalny, domyślny w skrypcie) | https://core.telegram.org/bots/api | ✅ działa |
 | **GitHub (archiwum)** | „twardy dysk” Klaudiusza – zapis plików, raportów | dostęp przez git w sesji | – | ✅ działa |
 
-Status: ✅ działa i sprawdzone · ⏳ zaplanowane, klucz jeszcze nie dodany · ❌ nie działa (opisz dlaczego).
+Status: ✅ działa i sprawdzone · 🔑 klucz dodany, czeka na pierwszy test · ⏳ zaplanowane, klucz jeszcze nie dodany · ❌ nie działa (opisz dlaczego).
 
 ### Zasada utrzymania tej listy
 **Pablo** (szef Klaudiusza) podpina nowe usługi i klucze. Za każdym razem, gdy dochodzi nowe narzędzie, API, klucz albo zmienia się status,
@@ -43,12 +43,17 @@ Klucze dodaje się w ustawieniach środowiska chmurowego (menu środowiska w pas
 
 | Zadanie | Kiedy | Wynik |
 |---|---|---|
-| Raport konkurencji (główny rywal: Bogateco / Płoty Ogrodowe) | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
+| Raport konkurencji (główny rywal: Bogateco / Płoty Ogrodowe) – procedura `konkurencja/instrukcja-raportu.md` | codziennie, gotowy ok. 8:00 (Europe/Warsaw) | `raporty/RRRR-MM-DD-konkurencja.md` + powiadomienie (aplikacja Claude, Telegram) |
+| Monitoring Instagram/TikTok konkurencji (analiza wideo: klatki + Gemini 4 z dźwiękiem) + słowa kluczowe – procedura `konkurencja/instrukcja-monitoringu.md` | co godzinę (o :37) | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/<firma>.md`; Telegram tylko przy ważnych nowościach |
 
 ## Struktura
 
-- `konkurencja/konkurenci.md` – lista obserwowanych konkurentów (edytuj śmiało – dopisz/usuń firmy)
-- `konkurencja/instrukcja-raportu.md` – procedura, którą wykonuje codzienne zadanie
+- `konkurencja/firmy/*.md` – **źródło prawdy o konkurencji**: jeden plik = jedna firma (konta IG/TikTok w nagłówku, notatki, dziennik obserwacji)
+- `konkurencja/konkurenci.md` – indeks generowany z `firmy/` (`python3 scripts/indeks_konkurencji.py`) – nie edytuj ręcznie
+- `konkurencja/instrukcja-raportu.md`, `konkurencja/instrukcja-monitoringu.md` – procedury zadań automatycznych
+- `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), `historia.csv`, `kandydaci.md`, `podsumowania/`
+- `monitoring/` – logi godzinne (`social/`) i stan scrapera (`stan/`); `monitoring/media/` (wideo, klatki) jest poza repo
 - `raporty/` – archiwum raportów
 - `AGENTS.md` – instrukcje dla agentów + lista narzędzi/API
 - `scripts/powiadom-telegram.sh` – wysyłka powiadomienia na Telegram (bot)
+- `scripts/godzinny.sh` – przebieg danych monitoringu (scraper Apify → analiza wideo ffmpeg + Gemini → metryki słów kluczowych)

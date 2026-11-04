@@ -1,20 +1,25 @@
 # Procedura: codzienny raport konkurencji
 
-Kontekst firmy: patrz `README.md`. Język raportu: polski. Ton: konkretny, biznesowy, bez lania wody.
+Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, bez lania wody.
 
 ## Kroki
-1. Wczytaj `konkurencja/konkurenci.md` oraz 2–3 ostatnie raporty z `raporty/` (żeby nie powtarzać tych samych informacji i móc pokazać zmiany).
-2. **Główny rywal – Bogateco / Płoty Ogrodowe – sprawdzaj ZAWSZE i najdokładniej** (obie strony, FB, IG, marketplace’y):
-   nowe produkty, ceny kluczowych produktów (i zmiany vs poprzedni raport), promocje, darmowa dostawa, kampanie, posty, opinie,
-   nagrody/PR, ruchy w B2B/eksporcie. Właściciel chce ich **przebić** – szukaj ich słabych punktów i luk w ofercie.
-3. Research pozostałych (WebSearch/WebFetch), skup się na ostatnich 24–72 h i zmianach względem poprzednich raportów:
-   - nowe produkty, promocje, zmiany cen (szczególnie altany, domki, pergole, drewutnie, drewno opałowe),
-   - aktywność marketingowa (FB/Instagram, nowe kampanie, konkursy), opinie klientów,
+1. Wczytaj **wszystkie pliki `konkurencja/firmy/*.md`** (źródło prawdy o konkurentach; indeks: `konkurencja/konkurenci.md`)
+   oraz 2–3 ostatnie raporty z `raporty/` (żeby nie powtarzać tych samych informacji i móc pokazać zmiany).
+2. Wczytaj wyniki godzinnego monitoringu z ostatnich 24 h: `monitoring/social/<wczoraj>.md`, `monitoring/social/<dziś>.md`
+   oraz `slowa-kluczowe/podsumowania/<wczoraj>.md`. Najważniejsze posty i pomysły „możemy zrobić podobnie” przenieś do raportu.
+3. **Główny rywal – Bogateco / Płoty Ogrodowe (`konkurencja/firmy/bogateco.md`) – sprawdzaj ZAWSZE i najdokładniej**
+   (obie strony, FB, IG, marketplace’y): nowe produkty, ceny kluczowych produktów (i zmiany vs poprzedni raport), promocje,
+   darmowa dostawa, kampanie, posty, opinie, nagrody/PR, ruchy w B2B/eksporcie. Właściciel chce ich **przebić** –
+   szukaj ich słabych punktów i luk w ofercie.
+4. Research pozostałych (WebSearch/WebFetch), skup się na ostatnich 24–72 h i zmianach względem poprzednich raportów:
+   - nowe produkty, promocje, zmiany cen (szczególnie altany, domki, pergole, drewutnie, meble ogrodowe, drewno),
+   - aktywność marketingowa (FB/Instagram/TikTok, nowe kampanie, konkursy), opinie klientów,
    - nowi gracze na Podkarpaciu i w sprzedaży wysyłkowej w PL,
    - sygnały rynkowe: ceny drewna (Lasy Państwowe, tarcica), sezonowość, dotacje, przepisy (np. budowa bez pozwolenia).
-4. Nie wymyślaj danych. Każdy fakt z linkiem do źródła. Jeśli czegoś nie da się sprawdzić – napisz to wprost.
-5. Zapisz raport jako `raporty/RRRR-MM-DD-konkurencja.md` wg szablonu poniżej.
-6. Jeśli znalazłeś nowego istotnego konkurenta – dopisz go w sekcji „Nowo wykryci” w `konkurencja/konkurenci.md`.
+5. Nie wymyślaj danych. Każdy fakt z linkiem do źródła. Jeśli czegoś nie da się sprawdzić – napisz to wprost.
+6. Zapisz raport jako `raporty/RRRR-MM-DD-konkurencja.md` wg szablonu poniżej.
+7. Nowego istotnego konkurenta dodaj jako nowy plik w `konkurencja/firmy/` (skopiuj dowolny istniejący jako szablon),
+   istotne zmiany u istniejących dopisz w ich „Dzienniku obserwacji”, potem `python3 scripts/indeks_konkurencji.py`.
 
 ## Szablon raportu
 ```
@@ -27,7 +32,8 @@ Kontekst firmy: patrz `README.md`. Język raportu: polski. Ton: konkretny, bizne
 ## Co się zmieniło u konkurencji
 (tabela: Firma | Zmiana | Źródło)
 ## Ceny – obserwacje
-## Marketing i social media
+## Marketing i social media (w tym najlepsze posty z monitoringu godzinnego i pomysły dla FUDALI)
+## Słowa kluczowe – co zyskuje, co traci
 ## Rynek i surowiec
 ## Szanse dla FUDALI (2–3 konkretne rekomendacje na dziś/ten tydzień)
 ## Źródła
@@ -35,5 +41,5 @@ Kontekst firmy: patrz `README.md`. Język raportu: polski. Ton: konkretny, bizne
 W dni bez istotnych zmian raport może być krótki – wtedy napisz to uczciwie zamiast zapychać treść.
 
 ## Powiadomienie
-Po zapisaniu raportu wyślij krótkie podsumowanie (TL;DR + link do pliku na GitHubie):
-`scripts/powiadom-telegram.sh "<tekst>"` – jeśli TELEGRAM_BOT_TOKEN nie jest ustawiony (TELEGRAM_CHAT_ID jest opcjonalny – skrypt wykrywa go sam), skrypt kończy się bez błędu i tylko to zgłasza.
+Po zapisaniu raportu wyślij krótkie podsumowanie (TL;DR + link do pliku):
+`scripts/powiadom-telegram.sh "<tekst>"` – jeśli TELEGRAM_BOT_TOKEN nie jest ustawiony, skrypt kończy się bez błędu i tylko to zgłasza.
