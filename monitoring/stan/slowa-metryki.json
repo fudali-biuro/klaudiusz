@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-04T20:53+01:00",
+ "czas": "2026-11-04T21:53+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -275,8 +275,8 @@
     "leżak drewniany plażowy",
     "leżak drewniany castorama",
     "leżak drewniany olx",
-    "leżak drewniany leroy merlin",
-    "leżak drewniany allegro"
+    "leżak drewniany allegro",
+    "leżak drewniany leroy merlin"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -416,7 +416,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "stolik kawowy drewniany",
