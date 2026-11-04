@@ -13,6 +13,7 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 | Monitoring IG/TikTok konkurencji + słowa kluczowe | co godzinę | `konkurencja/instrukcja-monitoringu.md` | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
 
 ## Struktura
+- `AGENTS.md` – główne instrukcje dla agentów (zasady pracy, narzędzia/API); `CLAUDE.md` tylko go importuje
 - `konkurencja/firmy/*.md` – **źródło prawdy o konkurencji** (jeden plik = jedna firma, konta IG/TikTok w nagłówku)
 - `konkurencja/konkurenci.md` – indeks (generowany)
 - `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), historia pomiarów, kandydaci, podsumowania godzinowe
@@ -21,9 +22,10 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 - `scripts/` – scraper (Apify), analiza wideo (ffmpeg + Gemini 4 przez OpenRouter), metryki słów, powiadomienia Telegram
 
 ## Sekrety (zmienne środowiskowe środowiska chmurowego)
+Pełna, aktualna lista narzędzi, kluczy i ich statusów: **`AGENTS.md`** (sekcja „Narzędzia i klucze API”).
+
 | Zmienna | Do czego |
 |---|---|
 | `APIFY_API_KEY` | scraping Instagram/TikTok (aktorzy `apify/instagram-scraper`, `clockworks/tiktok-scraper`) |
 | `OPENROUTER_API_KEY` | analiza wideo klatka po klatce z dźwiękiem (Gemini 4, `google/gemini-4-argon`) |
 | `TELEGRAM_BOT_TOKEN` (+ opcjonalnie `TELEGRAM_CHAT_ID`) | powiadomienia na Telegram |
-- `AGENTS.md` – instrukcje dla agentów + lista narzędzi/API
