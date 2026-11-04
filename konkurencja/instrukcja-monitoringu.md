@@ -9,7 +9,7 @@ bash scripts/godzinny.sh
 ```
 Powstają: `monitoring/stan/nowe-posty.json`, `monitoring/stan/wideo-analizy/*.json`,
 `monitoring/stan/slowa-metryki.json`, dopisek w `slowa-kluczowe/historia.csv`.
-Status `brak_tokenu` / `brak_klucza_openrouter` = brak sekretu – zanotuj to raz w podsumowaniu, to nie błąd.
+Status `brak_tokenu` / `brak_klucza_openrouter` = brak klucza (APIFY_API_KEY / OPENROUTER_API_KEY) – zanotuj to raz w podsumowaniu, to nie błąd.
 Status `pierwsze_uruchomienie` = zapamiętano stan bazowy, analizy postów jeszcze nie ma.
 Test / pełny pierwszy raport: `ANALIZUJ_PIERWSZE=2 bash scripts/godzinny.sh` – analizuje 2 najnowsze posty z każdego konta
 (gdy stan bazowy już istnieje, najpierw usuń `monitoring/stan/widziane.json`).
