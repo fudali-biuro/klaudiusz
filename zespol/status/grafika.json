@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "wolne",
- "zadanie": "Gotowa do pracy – czekam na zadania",
+ "stan": "pracuje",
+ "zadanie": "Karuzela leżaka: 5 slajdów 4:5 z napisami",
  "postep": null,
- "aktualizacja": "2026-11-04T15:16+01:00",
+ "aktualizacja": "2026-11-05T11:59+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T11:59+01:00",
+   "stan": "pracuje",
+   "tekst": "Karuzela leżaka: 5 slajdów 4:5 z napisami"
+  },
   {
    "czas": "2026-11-04T15:16+01:00",
    "stan": "wolne",
