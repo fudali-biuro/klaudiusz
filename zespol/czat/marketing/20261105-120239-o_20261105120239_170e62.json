@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105120239_170e62",
+ "czas": "2026-11-05T12:02:39+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Karuzela z logo i poprawionymi napisami jest gotowa – podgląd poniżej. Publikujemy jutro o 10:00? (tak / poprawki)",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/karuzela-prezent/podglad.jpg",
+   "nazwa": "podglad.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 217548
+  }
+ ]
+}
