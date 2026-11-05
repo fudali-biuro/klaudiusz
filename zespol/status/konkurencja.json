@@ -1,12 +1,32 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "02:00 – brak nowych postów",
+ "zadanie": "03:00 – brak nowych postów",
  "postep": 100,
- "aktualizacja": "2026-11-05T02:38+01:00",
+ "aktualizacja": "2026-11-05T03:39+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T03:39+01:00",
+   "stan": "gotowe",
+   "tekst": "03:00 – brak nowych postów"
+  },
+  {
+   "czas": "2026-11-05T03:39+01:00",
+   "stan": "pracuje",
+   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
+  },
+  {
+   "czas": "2026-11-05T03:39+01:00",
+   "stan": "pracuje",
+   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
+  },
+  {
+   "czas": "2026-11-05T03:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
+  },
   {
    "czas": "2026-11-05T02:38+01:00",
    "stan": "gotowe",
@@ -186,26 +206,6 @@
    "czas": "2026-11-04T15:38+01:00",
    "stan": "pracuje",
    "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-04T15:16+01:00",
-   "stan": "wolne",
-   "tekst": "Gotowy do pracy – czekam na zadania"
-  },
-  {
-   "czas": "2026-11-04T14:03+01:00",
-   "stan": "gotowe",
-   "tekst": "Scraper Apify podpięty pod APIFY_API_KEY"
-  },
-  {
-   "czas": "2026-11-04T13:55+01:00",
-   "stan": "gotowe",
-   "tekst": "Konkurenci jako pliki w konkurencja/firmy/ (11 firm, Bogateco A+)"
-  },
-  {
-   "czas": "2026-11-04T13:50+01:00",
-   "stan": "gotowe",
-   "tekst": "Raport konkurencji 2026-11-04 (TEST) – Bogateco wchodzi w sezon świąteczny"
   }
  ]
 }
