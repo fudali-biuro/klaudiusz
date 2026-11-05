@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "czeka",
- "zadanie": "Akceptacja posta + Black Friday",
+ "zadanie": "Zdjęcia do oceny + klucz Gemini",
  "postep": null,
- "aktualizacja": "2026-11-05T10:14+01:00",
+ "aktualizacja": "2026-11-05T11:48+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -35,9 +35,19 @@
    "czas": "2026-11-05T10:14+01:00",
    "tresc": "Szefie: 1) post na jutro 10:00 (leżak – prezent na święta) – publikujemy? 2) Black Friday: leżak 299 → 249 zł, 23–30.11 – robimy?",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T11:48+01:00",
+   "tresc": "Szefie: obejrzyj 5 zdjęć karuzeli w czacie i napisz, czy OK. Opcjonalnie: klucz Google AI Studio (GEMINI_API_KEY) do bezpośredniego Nano Banana Pro.",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T11:48+01:00",
+   "stan": "czeka",
+   "tekst": "Zdjęcia do oceny + klucz Gemini"
+  },
   {
    "czas": "2026-11-05T10:14+01:00",
    "stan": "czeka",
