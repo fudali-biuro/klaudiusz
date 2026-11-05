@@ -34,6 +34,53 @@ KARTY = {
     "pl": ("MAŁY PREZENT", "Drewniany otwieracz Kot", "Szczęśliwy kot na święta · 49 zł"),
     "en": ("STOCKING FILLER", "Wooden cat bottle opener", "A lucky cat for the holidays")}),
 }
+import random, math
+from PIL import ImageEnhance, ImageChops
+def warm(im):
+    """cieplejsza kolorystyka (miękkie pomarańczowe światło) + lekkie podbicie nasycenia"""
+    rgb = im.convert("RGB"); ov = Image.new("RGB", rgb.size, (255, 170, 90))
+    rgb = Image.blend(rgb, ImageChops.multiply(rgb, ov), 0.22); rgb = ImageEnhance.Color(rgb).enhance(1.08); return rgb.convert("RGBA")
+def bokeh(img, box, n=22, seed=3):
+    """ciepłe światełka bokeh (złote/ciepłe białe, rozmyte) w obszarze box=(x0,y0,x1,y1)"""
+    r = random.Random(seed); W, H = img.size; ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    for _ in range(n):
+        x = r.uniform(box[0], box[2]); y = r.uniform(box[1], box[3]); rad = r.uniform(6, 20) * W / 1080
+        c = r.choice([(255, 214, 140), (255, 236, 190), (255, 190, 110), (255, 245, 220)])
+        d.ellipse((x - rad, y - rad, x + rad, y + rad), fill=c + (r.randint(45, 105),))
+    img.alpha_composite(ov.filter(ImageFilter.GaussianBlur(6 * W / 1080)))
+def snow(img, box, n=45, seed=5):
+    r = random.Random(seed); W, H = img.size; ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
+    for _ in range(n):
+        x = r.uniform(box[0], box[2]); y = r.uniform(box[1], box[3]); rad = r.uniform(1.2, 3.2) * W / 1080
+        d.ellipse((x - rad, y - rad, x + rad, y + rad), fill=(255, 255, 255, r.randint(110, 200)))
+    img.alpha_composite(ov.filter(ImageFilter.GaussianBlur(0.8)))
+def gałązka(size=560, seed=1):
+    """gałązka świerku z bombkami i czerwonymi jagodami (rysowana, RGBA), korzeń w prawym górnym rogu, rośnie w lewo-dół"""
+    r = random.Random(seed); S = size * 2; im = Image.new("RGBA", (S, S), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    pts = [(S * (1 - t * 0.92), S * (0.02 + 0.8 * t ** 1.35 * 0.55 + 0.06 * math.sin(t * 5))) for t in [i / 60 for i in range(61)]]
+    for i in range(len(pts) - 1): d.line((pts[i], pts[i + 1]), fill=(70, 46, 28, 255), width=int(10 * (1 - i / 80)))
+    for i in range(2, 60):
+        (x, y), (x2, y2) = pts[i], pts[i + 1]; a = math.atan2(y2 - y, x2 - x); L = S * 0.2 * (1 - i / 78)
+        for side in (-1, 1):
+            for k in range(7):
+                aa = a + side * (0.9 + 0.15 * k) + r.uniform(-0.08, 0.08); ln = L * (1 - 0.1 * k) * r.uniform(0.7, 1.05)
+                col = r.choice([(24, 74, 46, 255), (34, 98, 60, 255), (18, 58, 38, 255)])
+                d.line((x, y, x + math.cos(aa) * ln, y + math.sin(aa) * ln), fill=col, width=int(S * 0.012))
+    for i in (22, 34, 45):
+        x, y = pts[i]; rad = S * 0.034; col = r.choice([(176, 36, 44), (214, 170, 80)])
+        d.ellipse((x - rad, y - rad + 10, x + rad, y + rad + 10), fill=col + (255,)); d.ellipse((x - rad * .45, y - rad * .55, x - rad * .1, y - rad * .2), fill=(255, 255, 255, 170))
+    for i in (28, 40, 52):
+        x, y = pts[i]; rad = S * 0.012
+        for dx, dy in ((0, 0), (rad * 2, rad), (-rad * 1.5, rad * 1.6)): d.ellipse((x + dx - rad, y + dy + S * .04 - rad, x + dx + rad, y + dy + S * .04 + rad), fill=(190, 30, 40, 255))
+    return im.resize((size, size), Image.LANCZOS)
+def festive(img, W, H, photo_box):
+    """świąteczny montaż: ciepłe barwy, bokeh, śnieg, gałązki w rogach"""
+    img = warm(img) if photo_box is None else img
+    bokeh(img, (photo_box[0], photo_box[1], photo_box[2], photo_box[1] + (photo_box[3] - photo_box[1]) * 0.45), n=int(14 * W / 1080) + 5); snow(img, photo_box, n=int(34 * W / 1080) + 8)
+    g = gałązka(int(min(W, H) * 0.30)); img.alpha_composite(g, (photo_box[2] - g.width + 6, photo_box[1] - 6))
+    g2 = gałązka(int(min(W, H) * 0.22), seed=4).transpose(Image.FLIP_LEFT_RIGHT).transpose(Image.FLIP_TOP_BOTTOM)
+    img.alpha_composite(g2, (photo_box[0] - 10, photo_box[3] - g2.height + 10))
+    return img
 def cover(im, w, h, focus):
     r = max(w / im.width, h / im.height); im = im.resize((round(im.width * r) + 1, round(im.height * r) + 1), Image.LANCZOS)
     x = int((im.width - w) * focus[0]); y = int((im.height - h) * focus[1]); return im.crop((x, y, x + w, y + h))
@@ -72,6 +119,9 @@ def render(src, ai, focus, tekst, fmt, out, pack=False):
         img = cover(ph, W, H, focus).convert("RGBA"); ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d0 = ImageDraw.Draw(ov); gh = int(H * 0.42)
         for y in range(H - gh, H): d0.line((0, y, W, y), fill=GREEN + (int(245 * ((y - (H - gh)) / gh) ** 0.8),))
         img = Image.alpha_composite(img, ov); tx, tw = 56, W - 112
+    if pack:
+        box = (W - int(W * 0.5), 0, W, H) if wide else (0, 0, W, int(H * 0.7))
+        img = festive(warm(img.convert("RGBA")) if not wide else img, W, H, box)
     d = ImageDraw.Draw(img)
     hs = int({"ig-4x5": 70, "ig-1x1": 64, "fb-191x1": 44, "pin-2x3": 72}[fmt]); ss = max(24, int(hs * 0.42)); ps = max(20, int(hs * 0.34))
     hl = wrap(d, head, F(hs), tw); sl = wrap(d, sub, F(ss, False, False), tw)

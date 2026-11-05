@@ -9,3 +9,7 @@ Skrypt: `python3 scripts/grafika/swieta.py` (teksty/motywy w słowniku `KARTY`; 
 - **Pinterest 2:3 (EN), 3 warianty leżaka:** `pin-lezak-gift-under-the-tree.jpg` (kokarda), `pin-lezak-cushion-included.jpg`, `pin-lezak-gift-idea.jpg`.
 - **Podkładka 99 zł:** `podkladka-ig-4x5.jpg`, `podkladka-ig-1x1.jpg` (FB 1:1), `podkladka-fb-191x1.jpg` – z paczki 1.
 Skrypt: `python3 scripts/grafika/swieta_kolaz.py`. Wszystko AI (dopisek „grafika AI”). Ceny sprawdzić przed publikacją.
+
+## ✨ Poprawka świątecznego klimatu (05.11.2026, na uwagę Klaudiusza)
+Nadpisane pliki: wszystkie packshotowe motywy – `lezak-prezent-*`, `zestaw-wnetrze-*`, `stolki-*`, `podkladka-*` (4 formaty) – oraz `kolaz-start-*` i `pin-lezak-cushion-included.jpg`.
+Dołożony montaż (bez nowego AI): cieplejsza kolorystyka, światełka bokeh, delikatny śnieg, gałązki świerku z bombkami i czerwonymi jagodami w rogach, czerwono-złote akcenty. Wzorce bez zmian: `lezak-choinka-*`, `lezak-kokarda-*`, `otwieracz-kot-*`.

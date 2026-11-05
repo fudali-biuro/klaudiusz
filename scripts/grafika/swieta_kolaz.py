@@ -27,6 +27,8 @@ def kolaz(fmt, out):
         pw = 400; cols, rows, gap = 3, 2, 8; gx = pw; gw, gh = W - pw - 16, H - 16
         tw, th = (gw - gap * (cols - 1)) // cols, (gh - gap * (rows - 1)) // rows
         for i, k in enumerate(KAFLE): img.alpha_composite(kafel(tw, th, k, 20), (gx + 8 + (i % cols) * (tw + gap), 8 + (i // cols) * (th + gap)))
+        S.bokeh(img, (0, 0, pw, H), n=14, seed=8); S.snow(img, (0, 0, pw, H), n=30)
+        g = S.gałązka(190); img.alpha_composite(g, (pw - g.width + 8, -4)); d = ImageDraw.Draw(img)
         y = 130; pl = "SEZON ŚWIĄTECZNY"; pf = S.F(20, False, True)
         d.rounded_rectangle((36, y, 36 + d.textlength(pl, font=pf) + 40, y + 46), radius=26, fill=S.RED + (255,)); d.text((56, y + 11), pl, font=pf, fill=S.CREAM + (255,)); y += 74
         d.rectangle((36, y, 106, y + 5), fill=S.GOLD + (255,)); y += 20
@@ -37,6 +39,8 @@ def kolaz(fmt, out):
         top = 330; gx, gy, gap = 14, top, 10; cols, rows = 2, 3
         tw = (W - 2 * gx - gap) // 2; th = (H - gy - 14 - gap * 2) // 3
         for i, k in enumerate(KAFLE): img.alpha_composite(kafel(tw, th, k, 30), (gx + (i % cols) * (tw + gap), gy + (i // cols) * (th + gap)))
+        S.bokeh(img, (0, 0, W, top), n=22, seed=8); S.snow(img, (0, 0, W, top), n=40)
+        g = S.gałązka(300); img.alpha_composite(g, (W - g.width + 8, -6)); d = ImageDraw.Draw(img)
         pl = "SEZON ŚWIĄTECZNY"; pf = S.F(24, False, True)
         d.rounded_rectangle((56, 138, 56 + d.textlength(pl, font=pf) + 44, 138 + 50), radius=28, fill=S.RED + (255,)); d.text((78, 150), pl, font=pf, fill=S.CREAM + (255,))
         d.rectangle((56, 210, 130, 216), fill=S.GOLD + (255,)); d.text((56, 228), "Prezenty z drewna od 49 zł", font=S.F(54), fill=S.CREAM + (255,))
