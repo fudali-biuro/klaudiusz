@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Pinterest – research dnia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Pinterest 05.11: 3 wnioski + test tytułów pinów, szkice czekają na Pablo",
+ "postep": 100,
  "aktualizacja": "2026-11-05T09:05+01:00",
  "makieta": false,
  "prosby": [
@@ -33,6 +33,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T09:05+01:00",
+   "stan": "gotowe",
+   "tekst": "Pinterest 05.11: 3 wnioski + test tytułów pinów, szkice czekają na Pablo"
+  },
   {
    "czas": "2026-11-05T09:05+01:00",
    "stan": "pracuje",
