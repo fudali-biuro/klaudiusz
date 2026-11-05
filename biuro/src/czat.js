@@ -354,8 +354,8 @@ const Czat = (() => {
     const link = esc(polaczenie.link || "https://claude.ai/code/routines");
     b.innerHTML = `<h4>🔌 Połącz czat z zespołem – jednorazowo, ok. 2 minut</h4>
       <ol>
-        <li>Otwórz zadanie <b>„📨 Czat z biura”</b> w Claude: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
-          <small>(jeśli link nie trafi – <a href="https://claude.ai/code/routines" target="_blank" rel="noopener">lista zadań</a> i kliknij „📨 Czat z biura → Klaudiusz”)</small></li>
+        <li>Otwórz zadanie <b>„📨 Czat z biura (listonosz)”</b> w Claude: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
+          <small>(jeśli link nie trafi – <a href="https://claude.ai/code/routines" target="_blank" rel="noopener">lista zadań</a> i kliknij „📨 Czat z biura (listonosz)”)</small></li>
         <li>Kliknij <b>Edytuj</b>. W polu z instrukcją usuń stary tekst i wklej nowy: <button type="button" class="cz-btn cz-kopiuj">📋 Kopiuj treść zadania</button></li>
         <li>Przy „Trigger” kliknij <b>+</b> → <b>API</b> → <b>Generate token</b>, skopiuj token (pokazuje się tylko raz) i zapisz zmiany.</li>
         <li>Wklej token tutaj:</li>

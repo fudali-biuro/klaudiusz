@@ -1,5 +1,5 @@
 ---
-nazwa: "📨 Czat z biura – listonosz"
+nazwa: "📨 Czat z biura (listonosz)"
 kiedy: "wezwanie"
 wylaczone: tak
 ---
@@ -13,7 +13,7 @@ okno czatu w biurze ─► api/czat.js ─► 📨 listonosz (krótka sesja, bez
                                                                                          └► czat.py napisz <id> "…" ─► okno czatu
 ```
 
-1. **Listonosz** – zadanie `📨 Czat z biura – listonosz` (`zespol/sesje.json` → `klaudiusz.zadania.czat`). Serwer biura budzi je
+1. **Listonosz** – zadanie `📨 Czat z biura (listonosz)` (`trig_019Ve3r5XDCAbb2YCXSpdgrG`, `zespol/sesje.json` → `klaudiusz.zadania.czat`). Serwer biura budzi je
    przy każdej wiadomości (tokenem API wklejonym raz w biurze). Każde wywołanie to osobna, krótka sesja (widać ją tylko w historii
    zadania, nie na liście sesji). Robi dwie rzeczy: `scripts/czat.py przyjmij` (zapis wiadomości + pobranie załączników + transkrypcja
    nagrań) i `update_trigger(<skrzynka adresata>, run_once_at=+90 s)`. Sesje odpalane z zewnątrz nie mogą pisać do innych sesji –
@@ -27,8 +27,10 @@ Czas: wiadomość widać w archiwum po ~1 min, pracownik zaczyna po ~2–3 min. 
 
 Odtworzenie skrzynki pracownika (np. nowa sesja): `python3 scripts/sesje.py skrzynka <id>` → `create_trigger(name, prompt,
 persistent_session_id)` bez cron → `python3 scripts/sesje.py zadanie <id> skrzynka <trig_id>`.
-Odtworzenie listonosza: `create_trigger(create_new_session_on_fire=true, notifications={})` z promptem jak w obecnym zadaniu →
-`python3 scripts/sesje.py zadanie klaudiusz czat <trig_id>` → Pablo wkleja w biurze nowy token API.
+**Ważne (sprawdzone 05.11.2026):** sesje odpalane z zewnątrz NIE mogą pisać do innych sesji (send_message), a zadania tworzone
+dziś narzędziem create_trigger dostają sesje bez narzędzi repozytorium/budzika. Działa to jedno zadanie (utworzone 04.11) – nie kasuj go.
+Treść (prompt) tego zadania zmienia tylko Pablo w claude.ai (Edytuj) albo sesja Klaudiusza na jego polecenie – nie inne sesje.
+Przycisk „📋 Kopiuj treść zadania” w oknie połączenia czatu bierze tekst z sekcji PROMPT poniżej.
 
 ## Treść zadania listonosza (PROMPT – dokładnie to ma być w zadaniu)
 

@@ -47,7 +47,7 @@ procedura tworzenia/naprawy: `zespol/sesje.md`, obowiązki każdego pracownika: 
 
 ### 💬 Czat w biurze – Pablo rozmawia z zespołem z przeglądarki
 Na https://biuro-fudali.vercel.app każdy pracownik (i Klaudiusz) ma **okno czatu**: tekst, wklejone obrazki, pliki, nagranie z mikrofonu.
-Wiadomość budzi zadanie „📨 Czat z biura – listonosz”: zapisuje ją w archiwum (`scripts/czat.py przyjmij` – historia, załączniki
+Wiadomość budzi zadanie „📨 Czat z biura (listonosz)”: zapisuje ją w archiwum (`scripts/czat.py przyjmij` – historia, załączniki
 w `zespol/czat/zalaczniki/`, transkrypcja nagrań) i nastawia budzik w **„📥 Skrzynce”** adresata – zadaniu przypiętym do jego stałej sesji
 (`zespol/zadania/klaudiusz-czat.md`). Obudzony pracownik: `python3 scripts/czat.py skrzynka <id>` → robi, o co prosi Pablo. Odpowiedzi:
 ```bash

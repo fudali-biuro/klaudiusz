@@ -30,7 +30,7 @@ export async function POST(request) {
   const wynik = await obudz(zadanie, token, JSON.stringify(przesylka(test)));
   if (!wynik.ok) {
     return odpowiedz({ blad: wynik.status === 401 || wynik.status === 403
-      ? "Ten token nie pasuje do zadania „📨 Czat z biura – listonosz” (albo został już zmieniony). Wygeneruj nowy i wklej jeszcze raz."
+      ? "Ten token nie pasuje do zadania „📨 Czat z biura (listonosz)” (albo został już zmieniony). Wygeneruj nowy i wklej jeszcze raz."
       : `Nie udało się sprawdzić tokenu (kod ${wynik.status}). Spróbuj za chwilę.` }, 400);
   }
   const ust = await ustawienia();
