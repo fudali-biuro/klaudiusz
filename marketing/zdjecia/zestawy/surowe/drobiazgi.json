@@ -1,0 +1,6 @@
+{
+ "model": "antigravity",
+ "zrodlo": "/tmp/kolaz-drobiazgi.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: Square studio packshot with multiple products together: the round walnut flower coaster, the two wooden cat bottle openers. The reference image shows the products side by side on white – keep EACH product exactly as in the reference, never merge or redesign them, keep their relative sizes, remove any text or captions. Place them arranged together on a light oak wooden tabletop, the coaster lying flat and the two cat openers standing next to it, blurred cream wall, soft daylight. Gentle natural shadows, nothing else in the scene.",
+ "ai": true
+}
