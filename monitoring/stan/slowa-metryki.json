@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-05T11:53+01:00",
+ "czas": "2026-11-05T12:52+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -503,14 +503,14 @@
    "podpowiedzi_google": [
     "drewno opałowe",
     "drewno opałowe olx",
+    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
     "drewno opałowe castorama",
-    "drewno opałowe poznań",
-    "drewno opałowe z transportem"
+    "drewno opałowe poznań"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1249,6 +1249,10 @@
    "z_frazy": "tarcica"
   },
   {
+   "fraza": "drewno opałowe cena",
+   "z_frazy": "drewno opałowe"
+  },
+  {
    "fraza": "drewno opałowe podkarpackie tanio",
    "z_frazy": "drewno opałowe"
   },
@@ -1270,10 +1274,6 @@
   },
   {
    "fraza": "drewno opałowe poznań",
-   "z_frazy": "drewno opałowe"
-  },
-  {
-   "fraza": "drewno opałowe z transportem",
    "z_frazy": "drewno opałowe"
   },
   {
