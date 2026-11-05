@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105114755_ce6427",
+ "czas": "2026-11-05T11:47:55+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Zdjęcie do karuzeli: 06-czarny-i-brazowy-poduszki",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/lezak/06-czarny-i-brazowy-poduszki.jpg",
+   "nazwa": "06-czarny-i-brazowy-poduszki.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 228543
+  }
+ ]
+}
