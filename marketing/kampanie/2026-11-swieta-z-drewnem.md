@@ -20,7 +20,7 @@ Produkt na każdym zdjęciu został sprawdzony z oryginałem. Na Instagramie pos
 | wt 17.11, 18:00 | Otwieracz „Kot” | 49 zł | otwieracz-kot.jpg | 👀 gotowe – do akceptacji |
 | pt 20.11, 10:00 | Stolik boczny „Płatek”, dąb czerwony | 850 zł | stolik-platek.jpg | 👀 gotowe – do akceptacji |
 | wt 24.11, 18:00 | Składany stolik z litego drewna | 229 zł | stolik-skladany.jpg | 👀 gotowe – do akceptacji |
-| pt 27.11, 10:00 (Black Friday) | Leżak pod choinkę | 299 zł | lezak-pod-choinka.jpg | 👀 gotowe – do akceptacji |
+| pt 27.11, 10:00 | Leżak pod choinkę | 299 zł | lezak-pod-choinka.jpg | 👀 gotowe – do akceptacji |
 | wt 1.12, 18:00 | Zestaw stołków z wózkiem, dąb czerwony | 1 200 zł | stolki.jpg | 👀 gotowe – do akceptacji |
 | pt 4.12, 10:00 | **Przewodnik prezentowy** (karuzela z 6 grafik) | 49–1 200 zł | wszystkie | 👀 gotowe – do akceptacji |
 | wt 8.12, 18:00 | „Ostatni dzwonek” – termin zamówień na święta | – | do zrobienia | ⏳ czeka na Twoją datę |
@@ -83,7 +83,7 @@ Składany stolik z litego drewna: listwowy blat, krzyżowe nóżki i lina. Rozk�
 #stolik #stolikskladany #taras #zimanatarasie #domekletniskowy #meblezdrewna #prezentnaświęta #madeinpoland #fudali #świętazdrewnem
 ```
 
-## 5. Leżak pod choinkę – 299 zł (pt 27.11, Black Friday)
+## 5. Leżak pod choinkę – 299 zł (pt 27.11; bez akcji Black Friday – Pablo odpuścił)
 ![Leżak z czerwoną kokardą pod choinką](../zdjecia/kampania-swieta/lezak-pod-choinka.jpg)
 ```
 Największy prezent pod choinką? Ten, z którego korzysta się do października 🎁☀️
@@ -93,7 +93,7 @@ Składany leżak FUDALI z jodły bieszczadzkiej (FSC). Poduszka w zestawie, 5 ko
 🚚 darmowa wysyłka w Polsce
 💸 299 zł → link w bio
 
-#leżak #leżakdrewniany #prezentnaświęta #pomysłnaprezent #blackfriday #taras #ogród #meblezdrewna #madeinpoland #fudali #świętazdrewnem
+#leżak #leżakdrewniany #prezentnaświęta #pomysłnaprezent #taras #ogród #meblezdrewna #madeinpoland #fudali #świętazdrewnem
 ```
 *Black Friday: jeśli chcesz rabat (np. -10% albo gratis drugi kolor poduszki), napisz – dopiszę. Bez Twojej zgody nie obiecuję promocji.*
 
@@ -136,3 +136,6 @@ Grafika + naklejka z linkiem do produktu + ankieta: „Dał(a)byś to w prezenci
 1. **Akceptacja**: napisz „wszystkie OK” albo które poprawić. Żeby wrzucić je do Metricool, potrzebuję zgody na publiczny folder ze zdjęciami marketingowymi (Metricool przyjmuje tylko publiczne linki).
 2. **Termin zamówień na święta** (do posta „Ostatni dzwonek”). Proponuję: kurier do **8.12**, ekspres do **17.12** (kurier jedzie 2–10 dni roboczych).
 3. **Black Friday (27.11)** – robimy rabat czy nie?
+
+
+> **Rozbudowa (05.11, polecenie Pablo – sezon świąteczny od 9.11):** osobne wersje FB/IG/Pinterest, start 9.11 → patrz `2026-11-sezon-swiateczny-brief.md`, `../posty/2026-11-09-sezon-start.md`, kalendarz `../kalendarz-2026-11.md`.

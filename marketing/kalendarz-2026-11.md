@@ -33,3 +33,15 @@ Materiały: `zdjecia/packshoty/` (czyste packshoty AI na jasnym dębie, logo), `
 | pon 23.11 | Prezent pod choinkę – packshot leżaka | packshot + prawdziwe zdjęcie |
 Otwieracz Kot, taboret i stolik Płatek – czekają na doładowanie kredytów generatora (OpenRouter < 1 USD).
 Sceny AI z `paczka-listopad/` (kominek, ogród, kokarda) – odłożone, wyglądają sztucznie.
+
+
+## 🎄 Sezon świąteczny – paczka 9–15.11 (FB / IG / Pinterest osobno, wszystko szkice do akceptacji Pablo)
+| Dzień | Kanał | Co | Plik / stan |
+|---|---|---|---|
+| pon 9.11, 18:00 | FB + IG | Start sezonu: prezenty z drewna 49–1 200 zł | `posty/2026-11-09-sezon-start.md` – tekst gotowy, grafika (Zosia) |
+| wt 10.11, 18:00 | IG + FB | Leżak przy ognisku (prawdziwe zdjęcie) | `posty/2026-11-10-lezak-ognisko.md` |
+| śr 11.11 | – | święto państwowe – bez postów, tylko stories | – |
+| pt 13.11, 10:00 | IG | Podkładka-kwiat 99 zł | kampania pkt 1 |
+| pt 13.11, 10:00 | FB | Podkładka – wersja FB | `posty/2026-11-09-sezon-start.md` |
+| codziennie 1–2 piny | Pinterest EN | leżak „cushion included”, prezent pod choinkę | 3 szkice w Buffer (packshoty); świąteczne 2:3 po grafikach Zosi |
+Kolejne tygodnie (16.11–24.12) układam po akceptacji pierwszej paczki.
