@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105114750_a585dd",
+ "czas": "2026-11-05T11:47:50+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Zdjęcie do karuzeli: 02-dwa-lezaki-ogrod",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/lezak/02-dwa-lezaki-ogrod.jpg",
+   "nazwa": "02-dwa-lezaki-ogrod.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 444117
+  }
+ ]
+}
