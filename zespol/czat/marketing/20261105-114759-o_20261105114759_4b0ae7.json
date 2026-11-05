@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105114759_4b0ae7",
+ "czas": "2026-11-05T11:47:59+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Zdjęcie do karuzeli: 03-packshot-naturalny",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/lezak/03-packshot-naturalny.jpg",
+   "nazwa": "03-packshot-naturalny.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 70258
+  }
+ ]
+}
