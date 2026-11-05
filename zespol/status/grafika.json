@@ -1,7 +1,7 @@
 {
  "id": "grafika",
  "stan": "czeka",
- "zadanie": "Packshoty: 7 z 18 gotowych, brak kredytów generatora",
+ "zadanie": "Packshoty: 9 z 18 gotowych, brak kredytów generatora",
  "postep": null,
  "aktualizacja": "2026-11-05T13:12+01:00",
  "makieta": false,
@@ -25,9 +25,19 @@
    "czas": "2026-11-05T13:12+01:00",
    "tresc": "Pablo, doładuj kredyty OpenRouter (min. kilka dolarów) – bez tego nie powstaną packshoty otwieracza, stolika, taboretu i podkładki.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T13:12+01:00",
+   "tresc": "Pablo, doładuj kredyty OpenRouter (min. kilka dolarów) – bez tego nie powstaną packshoty otwieracza, stolika i taboretu.",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T13:12+01:00",
+   "stan": "czeka",
+   "tekst": "Packshoty: 9 z 18 gotowych, brak kredytów generatora"
+  },
   {
    "czas": "2026-11-05T13:12+01:00",
    "stan": "czeka",
