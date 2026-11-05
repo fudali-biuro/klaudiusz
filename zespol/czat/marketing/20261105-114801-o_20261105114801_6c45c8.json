@@ -1,0 +1,9 @@
+{
+ "id": "o_20261105114801_6c45c8",
+ "czas": "2026-11-05T11:48:01+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Szefie, wysłałam wyżej 5 zdjęć do jutrzejszej karuzeli (kolejność 1–5, teksty na zdjęciach i opis są w pliku posta). To prawdziwe zdjęcia leżaka, nie AI.\n\nCo do Gemini / Nano Banana Pro: to model „Gemini 3 Pro Image”. Zosia już go używa przez OpenRouter (klucz mamy podpięty), więc grafiki i tak powstają na nim. Jeśli chcesz połączyć go bezpośrednio z Google, wystarczy klucz API z Google AI Studio (aistudio.google.com → Get API key) dodany w ustawieniach środowiska jako GEMINI_API_KEY – wtedy dopiszemy go jako pierwsze źródło. Dasz radę dodać klucz?",
+ "pliki": []
+}
