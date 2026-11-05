@@ -1,18 +1,28 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "Antigravity zainstalowany – czeka na logowanie kontem Google Workspace",
+ "zadanie": "Antigravity działa – trzeba zapisać logowanie na stałe",
  "postep": null,
- "aktualizacja": "2026-11-04T15:31+01:00",
+ "aktualizacja": "2026-11-05T15:02+01:00",
  "makieta": false,
  "prosby": [
   {
    "czas": "2026-11-04T15:31+01:00",
    "tresc": "Otwórz link logowania z czatu, zaloguj się kontem Workspace i wklej mi kod, który pokaże Google",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T15:02+01:00",
+   "tresc": "Otwórz plik AGY_AUTH-do-skopiowania.txt w plikach sesji Klaudiusza, skopiuj całość i wklej w ustawieniach środowiska jako nową zmienną AGY_AUTH",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:02+01:00",
+   "stan": "czeka",
+   "tekst": "Antigravity działa – trzeba zapisać logowanie na stałe"
+  },
   {
    "czas": "2026-11-04T15:31+01:00",
    "stan": "czeka",
