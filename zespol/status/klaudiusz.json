@@ -1,18 +1,28 @@
 {
  "id": "klaudiusz",
- "stan": "pracuje",
- "zadanie": "Sezon świąteczny od 9.11 – zespół dostał zadania",
+ "stan": "czeka",
+ "zadanie": "Obrazy AI: limit Antigravity (Workspace) wyczerpany do ok. 12.11, OpenRouter bez środków",
  "postep": null,
- "aktualizacja": "2026-11-05T15:55+01:00",
+ "aktualizacja": "2026-11-05T15:57+01:00",
  "makieta": false,
  "prosby": [
   {
    "czas": "2026-11-05T15:50+01:00",
    "tresc": "Sprawdziłem: nasze archiwum (raporty, czaty z Tobą, dane o konkurencji) jest widoczne dla każdego w internecie – kluczy/haseł tam nie ma. Zamknąć je (prywatne)? Wtedy zdjęcia do Buffera przeniosę w osobne miejsce. Odpisz: tak / nie.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T15:57+01:00",
+   "tresc": "Doładuj OpenRouter 10–20 USD (openrouter.ai → Credits) – wtedy Zosia robi obrazki Nano Banana i ChatGPT bez czekania",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:57+01:00",
+   "stan": "czeka",
+   "tekst": "Obrazy AI: limit Antigravity (Workspace) wyczerpany do ok. 12.11, OpenRouter bez środków"
+  },
   {
    "czas": "2026-11-05T15:55+01:00",
    "stan": "pracuje",
