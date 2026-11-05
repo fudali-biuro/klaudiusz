@@ -47,10 +47,17 @@ def text_block(d, text, font, x, y, maxw, fill, lh=1.18, shadow=True, anchor_bot
         d.text((xx, y + i * h), l, font=font, fill=fill)
     return y + h * len(lines)
 
-def brand(d, dark=False, y=48):
-    c = DARK if dark else CREAM
-    d.text((56, y), "FUDALI", font=F(30, True, False), fill=c + (255,))
-    d.text((56, y + 38), "nowoczesne stolarstwo", font=F(17, False, False), fill=c + (220,))
+LOGO = Image.open("marketing/logo/fudali-logo.png").convert("RGBA")
+def brand(d, dark=False, y=44):
+    """Logo FUDALI w lewym górnym rogu; na zdjęciach na jasnej plakietce (czytelność)."""
+    lw = 230; lh = round(LOGO.height * lw / LOGO.width)
+    logo = LOGO.resize((lw, lh), Image.LANCZOS)
+    im = d._image
+    if not dark:
+        pl = Image.new("RGBA", (lw + 36, lh + 28), (0, 0, 0, 0))
+        ImageDraw.Draw(pl).rounded_rectangle((0, 0, pl.width - 1, pl.height - 1), radius=18, fill=CREAM + (238,))
+        im.alpha_composite(pl, (40, y - 6))
+    im.alpha_composite(logo, (58, y + 8))
 
 def dots(d, n, total=5):
     r = 7; gap = 24; x0 = W - 56 - (total - 1) * gap
@@ -70,7 +77,7 @@ def slide_photo(n, file, focus, headline, sub=None, small=None, hsize=84, grad_f
     img = gradient(img, 0, 220, (0, 0, 0), 110, 0)
     d = ImageDraw.Draw(img)
     brand(d); dots(d, n)
-    if tag: pill(d, 56, 150, tag, F(28, True, False), WOOD + (255,), DARK + (255,))
+    if tag: pill(d, 56, 170, tag, F(28, True, False), WOOD + (255,), DARK + (255,))
     y = H - 70
     if small:
         y = text_block(d, small, F(30, False, False), 56, y, W - 112, CREAM + (230,), lh=1.3, shadow=False, anchor_bottom=True) if False else y
@@ -101,7 +108,7 @@ def slide_last():
     d.text((56, 1000), "299 zł", font=F(128), fill=CREAM + (255,))
     pill(d, 56, 1160, "poduszka w zestawie", F(32, True, False), WOOD + (255,), DARK + (255,))
     d.text((56, 1250), "🚚" if False else "Darmowa wysyłka w Polsce  ·  link w bio", font=F(34, True, False), fill=CREAM + (255,))
-    d.text((56, 1296), "Jodła FSC · 5 kolorów · zrobione w Głogowie Młp.", font=F(22, False, False), fill=CREAM + (170,))
+    d.text((56, 1298), "5 kolorów: jasny brąz · brąz · ciemny brąz · grafit · czerń", font=F(22, False, False), fill=CREAM + (170,))
     return img.convert("RGB")
 
 def dots_dark(d):
@@ -112,8 +119,8 @@ def dots_dark(d):
 
 slides = [
     slide_photo(0, "02-dwa-lezaki-ogrod.jpg", (0.5, 0.35), "Prezent, który rozłożysz w maju", "Składany leżak z jodły. Czeka do wiosny.", tag="🎁 NA ŚWIĘTA".replace("🎁 ", "")),
-    slide_photo(1, "01-taras-ognisko-drewno.jpg", (0.5, 0.6), "…a w październiku – przy ognisku", "Od maja do października na tarasie.", hsize=78),
-    slide_photo(2, "06-czarny-i-brazowy-poduszki.jpg", (0.5, 0.5), "5 kolorów. Poduszka w zestawie.", "Jasny brąz · brąz · ciemny brąz · grafit · czerń", hsize=80),
+    slide_photo(1, "01-taras-ognisko-drewno.jpg", (0.5, 0.6), "…a w chłodne wieczory przy ognisku", "Prezent, którego używa się cały rok.", hsize=78),
+    slide_photo(2, "06-czarny-i-brazowy-poduszki.jpg", (0.5, 0.5), "Poduszka w zestawie", "Miękka, bawełniana – już w komplecie.", hsize=80),
     slide_photo(3, "05-detal-ciemny-braz-lina.jpg", (0.5, 0.5), "Jodła bieszczadzka z certyfikatem FSC", "Lina jutowa. Bez plastiku, bez śrubek do zgubienia.", hsize=70, grad_from=640),
     slide_last(),
 ]
