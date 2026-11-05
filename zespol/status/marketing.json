@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "czeka",
- "zadanie": "Plan 2 tygodni + doładowanie OpenRouter",
+ "zadanie": "3 piny Pinterest – szkice",
  "postep": null,
- "aktualizacja": "2026-11-05T12:16+01:00",
+ "aktualizacja": "2026-11-05T15:49+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -65,9 +65,19 @@
    "czas": "2026-11-05T12:16+01:00",
    "tresc": "Szefie: 1) zgoda na plan contentu na 2 tygodnie (kalendarz) i na karuzelę jutro 10:00? 2) doładuj kredyty OpenRouter – bez tego brak grafik stolika i stołków",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T15:49+01:00",
+   "tresc": "Szefie: 3 piny leżaka (szkice w Buffer, Etsy) – publikujemy? (tak / poprawki)",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:49+01:00",
+   "stan": "czeka",
+   "tekst": "3 piny Pinterest – szkice"
+  },
   {
    "czas": "2026-11-05T12:16+01:00",
    "stan": "czeka",
