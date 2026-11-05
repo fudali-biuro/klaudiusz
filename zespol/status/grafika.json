@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "czeka",
- "zadanie": "Tła: czekam na zdjęcia od Pablo albo klucz Pexels",
+ "stan": "pracuje",
+ "zadanie": "Sezon świąteczny: pierwsza paczka grafik (IG/FB/Pinterest)",
  "postep": null,
- "aktualizacja": "2026-11-05T15:55+01:00",
+ "aktualizacja": "2026-11-05T15:56+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "stan": "pracuje",
+   "tekst": "Sezon świąteczny: pierwsza paczka grafik (IG/FB/Pinterest)"
+  },
   {
    "czas": "2026-11-05T15:55+01:00",
    "stan": "czeka",
