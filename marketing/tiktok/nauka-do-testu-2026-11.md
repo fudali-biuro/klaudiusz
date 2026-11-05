@@ -17,6 +17,6 @@ To **hipotezy do testu**, nie pewniki – sprawdzamy je na naszym koncie `nowocz
 ## Wyniki testu (uzupełnia Ola co tydzień)
 | Tydzień | Filmy/tydz. | Relacje/tydz. | Godziny | Najlepszy post (wyśw.) | Wniosek |
 |---|---|---|---|---|---|
-| 9–15.11 | | | | | |
+| 9–15.11 | 5 (plan) | 7 (plan) | rotacja: 8:00 / 12:15 / 17:45 / 18:30 / 10:30 | wyniki po tygodniu | `pakiet-2026-11-09.md` – szkice |
 
 🔒 Wszystko jako szkice do akceptacji Pablo – nic nie wychodzi bez jego „tak”.
