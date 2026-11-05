@@ -1,12 +1,23 @@
 {
  "id": "klaudiusz",
- "stan": "pracuje",
- "zadanie": "Realistyczne zdjęcia i ruchome ujęcia leżaków (Nano Banana + ruch kamery)",
+ "stan": "czeka",
+ "zadanie": "Archiwum widoczne publicznie",
  "postep": null,
- "aktualizacja": "2026-11-05T15:48+01:00",
+ "aktualizacja": "2026-11-05T15:50+01:00",
  "makieta": false,
- "prosby": [],
+ "prosby": [
+  {
+   "czas": "2026-11-05T15:50+01:00",
+   "tresc": "Sprawdziłem: nasze archiwum (raporty, czaty z Tobą, dane o konkurencji) jest widoczne dla każdego w internecie – kluczy/haseł tam nie ma. Zamknąć je (prywatne)? Wtedy zdjęcia do Buffera przeniosę w osobne miejsce. Odpisz: tak / nie.",
+   "pilne": false
+  }
+ ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:50+01:00",
+   "stan": "czeka",
+   "tekst": "Archiwum widoczne publicznie"
+  },
   {
    "czas": "2026-11-05T15:48+01:00",
    "stan": "pracuje",
