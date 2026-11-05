@@ -33,3 +33,4 @@ analiza postów ma wskazać, gdzie FUDALI może ich wyprzedzić.
 
 ## Dziennik obserwacji
 _(dopisywane automatycznie: najciekawsze posty i zmiany – najnowsze na górze)_
+- 05.11.2026 – bez zmian: baner osłona wiklinowa od 139,99 zł, ceny jak 04.11, brak promocji/dostawy, blog bez nowych wpisów (ostatni 28.10).

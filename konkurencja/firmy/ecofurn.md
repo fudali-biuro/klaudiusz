@@ -48,4 +48,5 @@ Dla porównania FUDALI: **299 zł z poduszką w zestawie**, 5 kolorów, jodła b
 
 ## Dziennik obserwacji
 _(dopisywane automatycznie: najciekawsze posty i zmiany – najnowsze na górze)_
+- 05.11.2026 – Bloomling CH: sosna szara CHF 139,00, poduszka osobno, 6 szt. na stanie; dostawa gratis w CH od CHF 54,90 (https://www.bloomling.ch/en-CH/ecofurn/ecochair-pine).
 - 04.11.2026 – dodani na prośbę Pablo jako drugi kluczowy rywal; dane z wyszukiwarki (strona blokuje boty).
