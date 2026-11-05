@@ -30,9 +30,10 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 ## Narzędzia i skrypty
 | Skrypt / narzędzie | Do czego | Stan |
 |---|---|---|
-| fal.ai (`FAL_AI_API_KEY`) | obrazy (Flux), wideo (Kling/Veo), głos (TTS) | ❌ 04.11.2026: konto zablokowane – trzeba doładować (TOP_UP) |
-| OpenRouter (`OPENROUTER_API_KEY`) | modele obrazowe Google Gemini (edycja zdjęć produktów) | ✅ |
-| `scripts/grafika/scena.py --zdjecie <URL/plik> --opis "<scena EN>" --wyjscie <plik.jpg>` | **produkt FUDALI w nowej scenerii** – edycja zdjęcia, produkt zostaje ten sam (OpenRouter: Gemini 3 Pro Image; zapas: fal.ai) | ✅ 04.11.2026 (6 scen kampanii świątecznej) |
+| **Antigravity CLI (`agy`)** – konto Google firmy | **główne narzędzie do obrazów** (bez opłat za sztukę, limit tygodniowy): sceny produktów, edycja zdjęć, nowe grafiki; instrukcja `scripts/antigravity/README.md` | ✅ 05.11.2026 |
+| fal.ai (`FAL_AI_API_KEY`) | wideo (Kling/Veo), głos (TTS) – **nie do obrazów** | 🚫 05.11.2026 obrazy tylko przez Antigravity; konto i tak zablokowane (TOP_UP) |
+| OpenRouter (`OPENROUTER_API_KEY`) | **płatny zapas** do obrazów, gdy Antigravity zawiedzie / skończy się limit | ✅ |
+| `scripts/grafika/scena.py --zdjecie <URL/plik> --opis "<scena EN>" --wyjscie <plik.jpg>` | **produkt FUDALI w nowej scenerii** – edycja zdjęcia, produkt zostaje ten sam (najpierw Antigravity, zapas OpenRouter; `--bez-api` = tylko Antigravity) | ✅ 05.11.2026 (Antigravity: leżak na werandzie zimą) |
 | 🧩 `scripts/grafika/wideo.py` | krótkie wideo z obrazu/zdjęcia (image-to-video) | planowane |
 | 🧩 `scripts/grafika/bez_tla.py` | usuwanie tła ze zdjęć produktów | planowane |
 | 🧩 Canva (łącznik w Claude) | szablony postów z logo i kolorami FUDALI | do podpięcia |
@@ -48,7 +49,7 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 
 ## Plan wdrożenia
 1. Logo + 20 zdjęć od Pablo → `grafika/brand.md`.
-2. Skrypt `obraz.py` (fal.ai Flux) + testowe 3 grafiki do akceptacji.
+2. Skrypt `obraz.py` (Antigravity CLI) + testowe 3 grafiki do akceptacji.
 3. Połączenie z Olą: każdy post w kalendarzu dostaje grafikę automatycznie.
 
 ## Status

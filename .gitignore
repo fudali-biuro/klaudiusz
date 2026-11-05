@@ -4,3 +4,6 @@ __pycache__/
 biuro/dist/
 .vercel/
 node_modules/
+
+# logowanie Antigravity (sekret – tylko do skopiowania w ustawienia)
+AGY_AUTH-do-skopiowania.txt
