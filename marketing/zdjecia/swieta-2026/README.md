@@ -13,3 +13,14 @@ Skrypt: `python3 scripts/grafika/swieta_kolaz.py`. Wszystko AI (dopisek „grafi
 ## ✨ Poprawka świątecznego klimatu (05.11.2026, na uwagę Klaudiusza)
 Nadpisane pliki: wszystkie packshotowe motywy – `lezak-prezent-*`, `zestaw-wnetrze-*`, `stolki-*`, `podkladka-*` (4 formaty) – oraz `kolaz-start-*` i `pin-lezak-cushion-included.jpg`.
 Dołożony montaż (bez nowego AI): cieplejsza kolorystyka, światełka bokeh, delikatny śnieg, gałązki świerku z bombkami i czerwonymi jagodami w rogach, czerwono-złote akcenty. Wzorce bez zmian: `lezak-choinka-*`, `lezak-kokarda-*`, `otwieracz-kot-*`.
+
+## ❌ Nie używać – czekają na scenę AI (decyzja Klaudiusza, 05.11.2026)
+Rysowane gałązki i bokeh na jasnym pustym wnętrzu nie robią świąt. **Nie używać:** `zestaw-wnetrze-*`, `lezak-prezent-*`, `stolki-*`, `podkladka-*` (wszystkie formaty) oraz `pin-lezak-cushion-included.jpg`.
+**Do używania:** `kolaz-start-*`, `lezak-choinka-*`, `lezak-kokarda-*`, `otwieracz-kot-*`, `pin-lezak-gift-under-the-tree.jpg`, `pin-lezak-gift-idea.jpg` oraz sceny z `marketing/zdjecia/kampania-swieta/`.
+
+### Kolejka na nowe sceny AI (gdy wróci limit Antigravity)
+1. Wnętrze z choinką/kominkiem jak w `lezak-choinka` – zestaw: leżak + stolik Płatek + stołki (zamiast `zestaw-wnetrze`).
+2. Stołki z wózkiem w świątecznym wnętrzu (zamiast `stolki-*`).
+3. Podkładka z orzecha w świątecznej scenie (kubek, światełka) – zamiast `podkladka-*`.
+4. Leżak „cushion included” w ciepłej scenie świątecznej (pin 2:3, EN).
+Po nowych scenach: ponowne złożenie 4 formatów przez `scripts/grafika/swieta.py` (bez gałązek/bokeh na packshotach).
