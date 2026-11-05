@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Karuzela leżaka z logo i poprawionymi tekstami",
- "postep": 100,
- "aktualizacja": "2026-11-05T12:02+01:00",
+ "stan": "pracuje",
+ "zadanie": "Próbka 4 packshotów kwadratowych (leżak, stolik, stołki + zima)",
+ "postep": null,
+ "aktualizacja": "2026-11-05T12:07+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:07+01:00",
+   "stan": "pracuje",
+   "tekst": "Próbka 4 packshotów kwadratowych (leżak, stolik, stołki + zima)"
+  },
   {
    "czas": "2026-11-05T12:02+01:00",
    "stan": "gotowe",
