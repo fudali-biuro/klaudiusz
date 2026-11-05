@@ -20,15 +20,16 @@ Instagram (+ Facebook, gdy podłączony). Godziny wg Metricool: pt 10:00, wt 18:
 wszystkie 5 kolorów leżaka obok siebie, rolka „rozkładanie leżaka w 5 sekund”.
 
 
-## Nowa paczka contentu (Zosia, 05.11) – plan na 2 tygodnie (propozycja, wszystko do akceptacji Pablo)
-Materiały: `zdjecia/paczka-listopad/` (leżak 6 scen, 3 detale z prawdziwych zdjęć, 2 rolki). Obrazy AI oznaczamy w opisie.
+## Plan contentu na 2 tygodnie – wersja po uwagach Pablo (05.11): packshoty + prawdziwe zdjęcia, bez „sztucznych” scen AI
+Materiały: `zdjecia/packshoty/` (czyste packshoty AI na jasnym dębie, logo), `zdjecia/lezak/` (prawdziwe), `zdjecia/paczka-listopad/detal-*` (prawdziwe). Obrazy AI oznaczamy. Wszystko do akceptacji Pablo.
 | Dzień | Co | Materiał |
 |---|---|---|
-| śr 11.11 | Stories: leżak w jesiennym ogrodzie | lezak-4-ogrod-jesien |
-| czw 12.11 | Rolka 7 s „Zimowy leżak” | rolka-1-snieg.mp4 |
-| sob 14.11 | Post: wieczór przy kominku | lezak-3-kominek + rolka-2-kominek.mp4 |
-| pon 16.11 | Karuzela „Detal wykonania” (prawdziwe zdjęcia) | detal-1…3 |
-| śr 18.11 | Post: taras wieczorem | lezak-5-taras-wieczor |
-| czw 19.11 | Pin EN „Cushion included” | lezak-1-jasny-dab |
-| pon 23.11 | Post prezentowy z kokardą | lezak-6-prezent-kokarda |
-Stolik i stołki – czekają na doładowanie kredytów generowania obrazów (OpenRouter 402).
+| śr 11.11 | Packshot leżaka + cena i „poduszka w zestawie” | packshoty/leżak |
+| czw 12.11 | Karuzela „Detal wykonania” | detal-1…3 (prawdziwe) |
+| sob 14.11 | Packshot stołków stapelowanych | packshoty/stołki |
+| pon 16.11 | Prawdziwe zdjęcie: leżaki przy ognisku | zdjecia/lezak/01 |
+| śr 18.11 | Packshot podkładki-kwiatu 99 zł | packshoty/podkładka |
+| czw 19.11 | Pin EN „Cushion included” | packshot leżaka |
+| pon 23.11 | Prezent pod choinkę – packshot leżaka | packshot + prawdziwe zdjęcie |
+Otwieracz Kot, taboret i stolik Płatek – czekają na doładowanie kredytów generatora (OpenRouter < 1 USD).
+Sceny AI z `paczka-listopad/` (kominek, ogród, kokarda) – odłożone, wyglądają sztucznie.
