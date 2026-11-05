@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Dokańczam packshoty (stolik, taboret, otwieracz) przez Antigravity",
+ "stan": "czeka",
+ "zadanie": "Packshoty: 9 z 18 gotowych, brak logowania do generatora obrazów",
  "postep": null,
- "aktualizacja": "2026-11-05T15:02+01:00",
+ "aktualizacja": "2026-11-05T15:03+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -30,9 +30,19 @@
    "czas": "2026-11-05T13:12+01:00",
    "tresc": "Pablo, doładuj kredyty OpenRouter (min. kilka dolarów) – bez tego nie powstaną packshoty otwieracza, stolika i taboretu.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T15:03+01:00",
+   "tresc": "Pablo, wklej zmienną AGY_AUTH w ustawieniach środowiska (menu środowiska → Edit) – wtedy dokończę packshoty stolika, taboretu i otwieracza bez opłat.",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:03+01:00",
+   "stan": "czeka",
+   "tekst": "Packshoty: 9 z 18 gotowych, brak logowania do generatora obrazów"
+  },
   {
    "czas": "2026-11-05T15:02+01:00",
    "stan": "pracuje",
