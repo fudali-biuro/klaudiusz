@@ -56,3 +56,9 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 python3 scripts/status.py grafika pracuje "3 warianty grafiki: drewutnia zimą"
 python3 scripts/status.py grafika czeka "Warianty gotowe" --prosba "Wybierz wariant 1, 2 albo 3 (grafika/2026-11-10-drewutnia.md)"
 ```
+
+## Styl wzorcowy (Pablo, 05.11.2026): Formatwood
+Pablo: „W Formatwood wszystko mi się podoba”. Notatki: `marketing/inspiracje-formatwood.md`. Zasady dla grafik FUDALI:
+spokojnie i rzemieślniczo, dużo drewna i zbliżeń na wykonanie, produkt w prawdziwym otoczeniu + czyste ujęcia studyjne,
+krótkie hasła, mało tekstu na grafice, stałe logo w rogu (`marketing/logo/fudali-logo.png`; na zdjęciach na jasnej plakietce).
+Karuzela leżaka (`scripts/grafika/karuzela_lezak.py`) jest w wersji „z napisami”; wersja minimalna – tylko na prośbę Pablo.
