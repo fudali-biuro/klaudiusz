@@ -1,0 +1,18 @@
+{
+ "id": "ig:4023831143584954051",
+ "url": "https://www.instagram.com/p/DfXhRsdiPbD/",
+ "firma": "domkisauny",
+ "konto": "domkisauny",
+ "platforma": "instagram",
+ "klatki_claude": {
+  "liczba_klatek": 24,
+  "co_ile_s": 1.06,
+  "dlugosc_s": 25.5,
+  "arkusz": "monitoring/media/ig_4023831143584954051/arkusz.jpg",
+  "klatki": "monitoring/media/ig_4023831143584954051/klatki"
+ },
+ "gemini": {
+  "status": "blad",
+  "blad": "HTTP 402: {\"error\":{\"message\":\"This request requires at least $1.00 in balance for video\",\"code\":402,\"metadata\":{\"limit_source\":\"openrouter_credits\",\"remedy_hint\":\"Add credits at https://openrouter.ai/settings/credits, or lower max_tokens / prompt size to fit your remaining balance.\"}}}"
+ }
+}

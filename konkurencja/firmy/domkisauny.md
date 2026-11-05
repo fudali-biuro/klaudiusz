@@ -18,3 +18,4 @@ _(uzupełniaj: ceny, mocne/słabe strony, czym się różni od FUDALI)_
 
 ## Dziennik obserwacji
 _(dopisywane automatycznie: najciekawsze posty i zmiany – najnowsze na górze)_
+- 2026-11-05 – IG https://www.instagram.com/p/DfXhRsdiPbD/ – reel 25 s „zimą własna sauna – zarezerwuj termin realizacji”: prezenterka + b-roll z produkcji + napisy słowo po słowie; CTA przez rzadkość terminów. Pomysł dla FUDALI: „ostatni termin zamówień na święta”.
