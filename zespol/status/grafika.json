@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "czeka",
- "zadanie": "Piny z salonem czekają na limit generatora obrazów",
+ "stan": "pracuje",
+ "zadanie": "Szukam darmowych źródeł zdjęć (salony, tarasy, ogrody, zima)",
  "postep": null,
- "aktualizacja": "2026-11-05T15:43+01:00",
+ "aktualizacja": "2026-11-05T15:45+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -43,6 +43,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:45+01:00",
+   "stan": "pracuje",
+   "tekst": "Szukam darmowych źródeł zdjęć (salony, tarasy, ogrody, zima)"
+  },
   {
    "czas": "2026-11-05T15:43+01:00",
    "stan": "czeka",
