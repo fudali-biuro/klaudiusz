@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Paczka listopad: 6 teł leżaka, stolik, stołki, detale, 2 rolki",
+ "stan": "czeka",
+ "zadanie": "Paczka listopad gotowa bez stolika i stołków",
  "postep": null,
- "aktualizacja": "2026-11-05T12:13+01:00",
+ "aktualizacja": "2026-11-05T12:16+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -15,9 +15,19 @@
    "czas": "2026-11-04T14:49+01:00",
    "tresc": "fal.ai jest zablokowane do czasu doładowania (fal.ai → Billing). Na razie działam przez OpenRouter – doładuj tylko, jeśli chcesz wideo/rolki.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T12:16+01:00",
+   "tresc": "Pablo, generator obrazów (OpenRouter) przestał działać – trzeba doładować kredyty konta OpenRouter. Wtedy dokończę stolik i stołki (po 3 warianty).",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:16+01:00",
+   "stan": "czeka",
+   "tekst": "Paczka listopad gotowa bez stolika i stołków"
+  },
   {
    "czas": "2026-11-05T12:13+01:00",
    "stan": "pracuje",
