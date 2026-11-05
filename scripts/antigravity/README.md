@@ -1,7 +1,7 @@
 # Antigravity CLI (`agy`) – obrazy z konta Google zamiast płatnego API
 
 Oficjalne narzędzie Google (następca Gemini CLI). Zalogowane kontem **biuro@fudali.com.pl** (Workspace) –
-Google przydzielił mu **„Antigravity Starter Quota”** (darmowy limit odnawiany co tydzień; Workspace nie liczy się jako Pro/Ultra).
+Google przydzielił mu **„Antigravity Starter Quota”** – ok. **4 obrazy na tydzień** (Workspace, nawet z Gemini Pro, nie liczy się jako Google AI Pro/Ultra; sprawdzone 05.11.2026 – ponowne logowanie nic nie zmienia).
 Ma wbudowane generowanie obrazów (Nano Banana) – także edycję zdjęcia produktu w nowej scenie. Wynik ~1K (np. 896×1200).
 
 ## Na co dzień

@@ -3,12 +3,12 @@
 
 Użycie:
   python3 scripts/grafika/scena.py --zdjecie <URL lub plik zdjęcia produktu> --opis "scena po angielsku" --wyjscie marketing/zdjecia/x/plik.jpg
-  [--proporcje 4:5] [--bez-api]
+  [--proporcje 4:5] [--bez-api] [--model openrouter:openai/gpt-5.4-image-2]
 Wynik: plik JPG (przycięty do proporcji) + obok <plik>.json (model, prompt, źródło).
 
 Kolejność (pierwszy działający wygrywa):
   1. Antigravity CLI (agy, konto Google biuro@fudali.com.pl – bez opłat za obrazek; scripts/antigravity/README.md)
-  2. zapas płatny: OpenRouter (OPENROUTER_API_KEY, modele Gemini Image) – wyłączany flagą --bez-api
+  2. zapas płatny: OpenRouter (OPENROUTER_API_KEY): Nano Banana 2 → Nano Banana Pro → GPT Image (ChatGPT) – wyłączany flagą --bez-api
 fal.ai NIE jest używane do obrazów (decyzja Pablo 05.11.2026).
 """
 import argparse, base64, io, json, os, pathlib, shutil, subprocess, sys, time, urllib.request, urllib.error
@@ -16,7 +16,9 @@ import argparse, base64, io, json, os, pathlib, shutil, subprocess, sys, time, u
 REPO = pathlib.Path(__file__).resolve().parents[2]
 AGY_PRACA = pathlib.Path(os.environ.get("AGY_PRACA", pathlib.Path.home() / ".cache/fudali-agy"))
 AGY_MOZG = pathlib.Path.home() / ".gemini/antigravity-cli/brain"
-MODELE = ["antigravity", "openrouter:google/gemini-3-pro-image", "openrouter:google/gemini-nano-banana-2.1"]
+# kolejność: darmowe → najtańsze płatne (Nano Banana 2 ~0,07 USD) → najlepsze (Pro / GPT Image ze sklepu OpenAI, droższe)
+MODELE = ["antigravity", "openrouter:google/gemini-3.1-flash-image", "openrouter:google/gemini-3-pro-image",
+          "openrouter:openai/gpt-5.4-image-2"]
 UA = {"User-Agent": "Mozilla/5.0 (KlaudiuszFUDALI)"}
 ZASADY = ("Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – "
           "do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera "
@@ -93,9 +95,10 @@ def main():
     ap.add_argument("--wyjscie", required=True)
     ap.add_argument("--proporcje", default="4:5")
     ap.add_argument("--bez-api", action="store_true", help="tylko Antigravity – bez płatnego zapasu OpenRouter")
+    ap.add_argument("--model", help="wymuś jeden model, np. openrouter:openai/gpt-5.4-image-2 (ChatGPT) albo openrouter:google/gemini-3-pro-image")
     a = ap.parse_args()
     prompt = ZASADY + a.opis
-    for model in MODELE:
+    for model in ([a.model] if a.model else MODELE):
         if model.startswith("openrouter:") and (a.bez_api or not os.environ.get("OPENROUTER_API_KEY")):
             continue
         try:

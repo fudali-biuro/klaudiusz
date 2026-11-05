@@ -30,9 +30,9 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 ## Narzędzia i skrypty
 | Skrypt / narzędzie | Do czego | Stan |
 |---|---|---|
-| **Antigravity CLI (`agy`)** – konto Google firmy | **główne narzędzie do obrazów** (bez opłat za sztukę, limit tygodniowy): sceny produktów, edycja zdjęć, nowe grafiki; instrukcja `scripts/antigravity/README.md` | ✅ 05.11.2026 |
+| **Antigravity CLI (`agy`)** – konto Google firmy | pierwsze narzędzie do obrazów (bez opłat za sztukę): sceny produktów, edycja zdjęć; instrukcja `scripts/antigravity/README.md` | ⚠️ tylko ~4 obrazy/tydzień (limit próbny konta Workspace) – wyczerpany do ok. 12.11.2026 |
 | fal.ai (`FAL_AI_API_KEY`) | wideo (Kling/Veo), głos (TTS) – **nie do obrazów** | 🚫 05.11.2026 obrazy tylko przez Antigravity; konto i tak zablokowane (TOP_UP) |
-| OpenRouter (`OPENROUTER_API_KEY`) | **płatny zapas** do obrazów, gdy Antigravity zawiedzie / skończy się limit | ✅ |
+| OpenRouter (`OPENROUTER_API_KEY`) | **płatne obrazy**, gdy Antigravity ma pusty limit: Nano Banana 2 (domyślnie, najtańszy) → Nano Banana Pro → GPT Image (ChatGPT, `--model openrouter:openai/gpt-5.4-image-2`) | ⚠️ 05.11.2026 brak środków – czeka na doładowanie |
 | `scripts/grafika/scena.py --zdjecie <URL/plik> --opis "<scena EN>" --wyjscie <plik.jpg>` | **produkt FUDALI w nowej scenerii** – edycja zdjęcia, produkt zostaje ten sam (najpierw Antigravity, zapas OpenRouter; `--bez-api` = tylko Antigravity) | ✅ 05.11.2026 (Antigravity: leżak na werandzie zimą) |
 | `scripts/grafika/ruch.py --zdjecia a.jpg b.jpg c.jpg --wyjscie film.mp4 [--format 4:5\|9:16] [--logo]` | **„żywe ujęcia”**: realistyczne zbliżenia (prawdziwe zdjęcia lub sceny z Nano Banana) → płynny ruch kamery + przenikania + ziarno; produkt się nie zmienia, bez opłat | ✅ 05.11.2026 |
 | `scripts/grafika/rolka.py` | pionowa rolka 1080×1920 z jednego zdjęcia + efekt (śnieg/ogień) | ✅ |
