@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "09:00 – bez zmian, TOP: drewutnia (65)",
+ "zadanie": "10:00 – bez zmian, TOP: drewutnia (65)",
  "postep": 100,
- "aktualizacja": "2026-11-05T09:53+01:00",
+ "aktualizacja": "2026-11-05T10:53+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T10:53+01:00",
+   "stan": "gotowe",
+   "tekst": "10:00 – bez zmian, TOP: drewutnia (65)"
+  },
+  {
+   "czas": "2026-11-05T10:53+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
+  },
+  {
+   "czas": "2026-11-05T10:52+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-05T09:53+01:00",
    "stan": "gotowe",
@@ -191,21 +206,6 @@
    "czas": "2026-11-04T21:53+01:00",
    "stan": "gotowe",
    "tekst": "21:00 – bez zmian, TOP: drewutnia (65)"
-  },
-  {
-   "czas": "2026-11-04T21:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
-  },
-  {
-   "czas": "2026-11-04T21:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-04T20:53+01:00",
-   "stan": "gotowe",
-   "tekst": "20:00 – TOP: drewutnia (65), wiata drewniana wróciła do 58"
   }
  ]
 }
