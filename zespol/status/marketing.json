@@ -1,7 +1,7 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Post pod klucz do akceptacji",
+ "stan": "czeka",
+ "zadanie": "Akceptacja posta + Black Friday",
  "postep": null,
  "aktualizacja": "2026-11-05T10:14+01:00",
  "makieta": false,
@@ -30,9 +30,19 @@
    "czas": "2026-11-05T07:44+01:00",
    "tresc": "Black Friday: leżak 299 zł → 249 zł (poduszka w zestawie), 23–30.11. Robimy? (tak/nie/inna cena)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T10:14+01:00",
+   "tresc": "Szefie: 1) post na jutro 10:00 (leżak – prezent na święta) – publikujemy? 2) Black Friday: leżak 299 → 249 zł, 23–30.11 – robimy?",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T10:14+01:00",
+   "stan": "czeka",
+   "tekst": "Akceptacja posta + Black Friday"
+  },
   {
    "czas": "2026-11-05T10:14+01:00",
    "stan": "pracuje",
