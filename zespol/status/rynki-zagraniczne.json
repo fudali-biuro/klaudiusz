@@ -1,9 +1,9 @@
 {
  "id": "rynki-zagraniczne",
- "stan": "wolne",
- "zadanie": "Gotowa do pracy – czekam na zadania",
+ "stan": "pracuje",
+ "zadanie": "Sezon świąteczny: teksty EN i terminy zamówień z zagranicy",
  "postep": null,
- "aktualizacja": "2026-11-04T15:17+01:00",
+ "aktualizacja": "2026-11-05T15:56+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "stan": "pracuje",
+   "tekst": "Sezon świąteczny: teksty EN i terminy zamówień z zagranicy"
+  },
   {
    "czas": "2026-11-04T15:17+01:00",
    "stan": "wolne",
