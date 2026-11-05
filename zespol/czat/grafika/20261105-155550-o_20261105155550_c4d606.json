@@ -1,0 +1,9 @@
+{
+ "id": "o_20261105155550_c4d606",
+ "czas": "2026-11-05T15:55:50+01:00",
+ "od": "grafika",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Piny: Ola robi szkice w Buffer, nic nie wyjdzie bez Twojego „tak”. Tła: znalazłam darmowe źródło (zdjęcia bez opłat i bez podpisu), ale jakość jest przeciętna – głównie małe, czasem stare zdjęcia (zapisane w folderze „tla”). Dwie lepsze drogi: 1) Ty wybierasz kilka zdjęć z Unsplash/Pexels i wrzucasz mi pliki do czatu, 2) zakładasz darmowy klucz na pexels.com/api (2 minuty) i dodajesz go w ustawieniach jako PEXELS_API_KEY – wtedy sama pobieram ładne zdjęcia salonów, tarasów, ogrodów i zimy. Do tego czasu mogę robić też sceny wygenerowane (te leżaki w otoczeniu, które Ci się podobały), gdy odnowi się limit generatora.",
+ "pliki": []
+}
