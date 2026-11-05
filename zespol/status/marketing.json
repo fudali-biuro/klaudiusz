@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Pinterest 05.11: 3 wnioski + test tytułów pinów, szkice czekają na Pablo",
- "postep": 100,
- "aktualizacja": "2026-11-05T09:05+01:00",
+ "stan": "pracuje",
+ "zadanie": "Post pod klucz do akceptacji",
+ "postep": null,
+ "aktualizacja": "2026-11-05T10:14+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -33,6 +33,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T10:14+01:00",
+   "stan": "pracuje",
+   "tekst": "Post pod klucz do akceptacji"
+  },
   {
    "czas": "2026-11-05T09:05+01:00",
    "stan": "gotowe",
