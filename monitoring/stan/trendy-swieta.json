@@ -1,0 +1,196 @@
+{
+ "czas": "2026-11-05T16:04+01:00",
+ "zbiory": [
+  "MD6j2uOA7hL4F1fgv",
+  "1PB1XQuIPyr6ncaOy",
+  "nd8yvDB4Opdt8U6uE",
+  "OAhIqLYYEZA9Dlmeg",
+  "Iw0cJfxlMkwRmzVzh"
+ ],
+ "grupy": [
+  {
+   "nazwa": "Święta PL – prezenty",
+   "geo": "PL",
+   "frazy": [
+    "prezent z drewna",
+    "prezent świąteczny",
+    "prezent pod choinkę",
+    "prezent na mikołajki",
+    "pomysł na prezent"
+   ],
+   "wiersze": [
+    {
+     "fraza": "prezent z drewna",
+     "srednia_12m": 0.1,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Dec 7, 2025",
+     "szczyt_wartosc": 4,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "prezent świąteczny",
+     "srednia_12m": 5.8,
+     "ost_4tyg": 7.0,
+     "poprz_4tyg": 0.8,
+     "zmiana_proc": 775,
+     "szczyt_tydzien": "Dec 7, 2025",
+     "szczyt_wartosc": 60,
+     "teraz_vs_szczyt_proc": 12
+    },
+    {
+     "fraza": "prezent pod choinkę",
+     "srednia_12m": 5.2,
+     "ost_4tyg": 4.2,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Dec 14, 2025",
+     "szczyt_wartosc": 64,
+     "teraz_vs_szczyt_proc": 7
+    },
+    {
+     "fraza": "prezent na mikołajki",
+     "srednia_12m": 6.0,
+     "ost_4tyg": 7.2,
+     "poprz_4tyg": 0.5,
+     "zmiana_proc": 1340,
+     "szczyt_tydzien": "Nov 30, 2025",
+     "szczyt_wartosc": 100,
+     "teraz_vs_szczyt_proc": 7
+    },
+    {
+     "fraza": "pomysł na prezent",
+     "srednia_12m": 14.7,
+     "ost_4tyg": 13.0,
+     "poprz_4tyg": 12.0,
+     "zmiana_proc": 8,
+     "szczyt_tydzien": "Dec 7, 2025",
+     "szczyt_wartosc": 62,
+     "teraz_vs_szczyt_proc": 21
+    }
+   ],
+   "powiazane_top": [],
+   "powiazane_rosnace": [],
+   "podkarpackie_1sza_fraza": 58
+  },
+  {
+   "nazwa": "Święta PL – dla kogo",
+   "geo": "PL",
+   "frazy": [
+    "prezent dla taty",
+    "prezent dla dziadka",
+    "prezent dla męża",
+    "prezent dla mamy",
+    "prezent dla chłopaka"
+   ],
+   "wiersze": [
+    {
+     "fraza": "prezent dla taty",
+     "srednia_12m": 13.6,
+     "ost_4tyg": 8.8,
+     "poprz_4tyg": 9.5,
+     "zmiana_proc": -7,
+     "szczyt_tydzien": "Dec 14, 2025",
+     "szczyt_wartosc": 71,
+     "teraz_vs_szczyt_proc": 12
+    },
+    {
+     "fraza": "prezent dla dziadka",
+     "srednia_12m": 5.8,
+     "ost_4tyg": 2.5,
+     "poprz_4tyg": 1.2,
+     "zmiana_proc": 108,
+     "szczyt_tydzien": "Jan 11, 2026",
+     "szczyt_wartosc": 64,
+     "teraz_vs_szczyt_proc": 4
+    },
+    {
+     "fraza": "prezent dla męża",
+     "srednia_12m": 6.1,
+     "ost_4tyg": 4.8,
+     "poprz_4tyg": 5.5,
+     "zmiana_proc": -13,
+     "szczyt_tydzien": "Dec 7, 2025",
+     "szczyt_wartosc": 20,
+     "teraz_vs_szczyt_proc": 24
+    },
+    {
+     "fraza": "prezent dla mamy",
+     "srednia_12m": 21.2,
+     "ost_4tyg": 14.8,
+     "poprz_4tyg": 11.8,
+     "zmiana_proc": 25,
+     "szczyt_tydzien": "Dec 14, 2025",
+     "szczyt_wartosc": 100,
+     "teraz_vs_szczyt_proc": 15
+    },
+    {
+     "fraza": "prezent dla chłopaka",
+     "srednia_12m": 11.3,
+     "ost_4tyg": 8.0,
+     "poprz_4tyg": 22.5,
+     "zmiana_proc": -64,
+     "szczyt_tydzien": "Sep 20, 2026",
+     "szczyt_wartosc": 37,
+     "teraz_vs_szczyt_proc": 22
+    }
+   ],
+   "powiazane_top": [
+    "prezent dla taty na urodziny",
+    "prezent na święta dla taty",
+    "prezent na święta",
+    "dzien taty",
+    "dzien taty prezent",
+    "prezent dla mamy",
+    "prezent na dzien taty",
+    "co na prezent dla taty"
+   ],
+   "powiazane_rosnace": [
+    "prezent na dzień mamy (+140%)",
+    "prezent na dzień taty od córki (+130%)",
+    "prezent dla taty majsterkowicza (+100%)",
+    "masażer (+90%)",
+    "rituals (+70%)",
+    "prezent dla taty i syna (+60%)"
+   ],
+   "podkarpackie_1sza_fraza": 76
+  },
+  {
+   "nazwa": "Święta EN – US",
+   "geo": "US",
+   "frazy": [
+    "wooden gift",
+    "gift for dad",
+    "gift for gardener",
+    "unique christmas gifts",
+    "handmade wooden gift"
+   ],
+   "brak_danych": true
+  },
+  {
+   "nazwa": "Święta EN – UK",
+   "geo": "GB",
+   "frazy": [
+    "wooden gift",
+    "garden lounger",
+    "gift for gardener",
+    "christmas gift for dad",
+    "folding garden chair"
+   ],
+   "brak_danych": true
+  },
+  {
+   "nazwa": "Święta DE",
+   "geo": "DE",
+   "frazy": [
+    "Geschenk aus Holz",
+    "Weihnachtsgeschenk Mann",
+    "Geschenk für Papa",
+    "Gartenliege",
+    "Holzgeschenk"
+   ],
+   "brak_danych": true
+  }
+ ]
+}
