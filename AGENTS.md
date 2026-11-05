@@ -47,8 +47,9 @@ procedura tworzenia/naprawy: `zespol/sesje.md`, zadania automatyczne każdego pr
 
 ### 💬 Czat w biurze – Pablo rozmawia z zespołem z przeglądarki
 Na https://biuro-fudali.vercel.app każdy pracownik (i Klaudiusz) ma **okno czatu**: tekst, wklejone obrazki, pliki, nagranie z mikrofonu.
-Wiadomość budzi zadanie „📨 Czat z biura” w sesji Klaudiusza → `scripts/czat.py przyjmij` (zapis + pobranie załączników do
-`zespol/czat/zalaczniki/`, transkrypcja nagrań) → przekazanie 1:1 do sesji pracownika. Odpowiedzi:
+Wiadomość budzi zadanie „📨 Czat z biura – listonosz”: zapisuje ją w archiwum (`scripts/czat.py przyjmij` – historia, załączniki
+w `zespol/czat/zalaczniki/`, transkrypcja nagrań) i nastawia budzik w **„📥 Skrzynce”** adresata – zadaniu przypiętym do jego stałej sesji
+(`zespol/zadania/klaudiusz-czat.md`). Obudzony pracownik: `python3 scripts/czat.py skrzynka <id>` → robi, o co prosi Pablo. Odpowiedzi:
 ```bash
 python3 scripts/czat.py napisz <id> "tekst"                 # odpowiedź do Pablo (widać w biurze po ~15 s)
 python3 scripts/czat.py napisz <id> "…" --plik <ścieżka>     # z plikiem/obrazkiem z archiwum
@@ -104,7 +105,7 @@ Każde zadanie budzi **sesję swojego pracownika** (procedury: `zespol/zadania/`
 
 | Zadanie | Pracownik (sesja) | Kiedy (Europe/Warsaw) | Wynik |
 |---|---|---|---|
-| 📨 Czat z biura (`klaudiusz-czat.md`) | 🧠 Klaudiusz | na wezwanie – wiadomość Pablo z biura | wiadomość zapisana i przekazana pracownikowi |
+| 📨 Czat z biura – listonosz + 📥 Skrzynki (`klaudiusz-czat.md`) | listonosz: krótka sesja; skrzynka: stała sesja adresata | na wezwanie – wiadomość Pablo z biura | wiadomość w archiwum, adresat obudzony po ~2 min |
 | Raport konkurencji (`konkurencja-raport.md`, rywale: Bogateco / Płoty Ogrodowe, Ecofurn / EcoChair) | 🔭 Mietek | codziennie 7:41 (gotowy ok. 8:00) | `raporty/RRRR-MM-DD-konkurencja.md` + Telegram |
 | Monitoring IG/TikTok konkurencji (`konkurencja-monitoring.md`, klatki + Gemini 4) | 🔭 Mietek | co godzinę o :37 | `monitoring/social/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/`; pomysły TAK → Ola |
 | Pomiar słów kluczowych (`slowa-kluczowe-godzinne.md`) | 🔑 Kuba | co godzinę o :52 | `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |

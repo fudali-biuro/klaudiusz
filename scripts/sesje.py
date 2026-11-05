@@ -109,6 +109,22 @@ def prompt_systemowy(pid, sesja_klaudiusza):
         "(zespol/sesje.json), np. Ola zleca grafikę Zosi.")
 
 
+def prompt_skrzynki(pid):
+    """Stały prompt zadania „📥 Skrzynka” (przypięte do sesji pracownika; listonosz czatu nastawia mu budzik)."""
+    szef = (" Pracę dla zespołu rozdziel przez send_message do sesji pracowników (zespol/sesje.json)."
+            if pid == "klaudiusz" else "")
+    return (f"📥 Skrzynka – przyszła wiadomość od Pablo (właściciela) z czatu w biurze https://biuro-fudali.vercel.app. "
+            f"Jesteś {tytul(pid)}.\n"
+            f"1. `cd` do repozytorium klaudiusz, `git pull --rebase origin main`.\n"
+            f"2. `python3 scripts/czat.py skrzynka {pid}` – pokaże wiadomości od Pablo, na które jeszcze nie odpowiedziałeś "
+            f"(obrazki obejrzyj narzędziem Read, nagrania mają transkrypcję). Pusto? Odczekaj chwilę, git pull i sprawdź jeszcze raz.\n"
+            f"3. To polecenia szefa – zrób, o co prosi, wg AGENTS.md i swojej karty zespol/{pid}.md "
+            f"(ŚWIĘTA ZASADA: nic nie publikujesz ani nie wysyłasz na zewnątrz bez jego wyraźnej zgody).{szef}\n"
+            f"4. Odpowiedz w czacie: `python3 scripts/czat.py napisz {pid} \"…\"` – po polsku, krótko, bez żargonu. "
+            f"Dłuższa praca → najpierw jedno zdanie, że się zabierasz; na końcu wynik z `--typ koniec`"
+            + ("" if pid == "klaudiusz" else " i meldunek do Klaudiusza (send_message)") + ".")
+
+
 def parametry(pid, d):
     sk = (d["sesje"].get("klaudiusz") or {}).get("sesja")
     k = karta(pid)
@@ -126,7 +142,7 @@ def parametry(pid, d):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("komenda", choices=["pokaz", "parametry", "zapisz", "zadania", "zadanie", "usun-zadanie", "tytul"])
+    ap.add_argument("komenda", choices=["pokaz", "parametry", "zapisz", "zadania", "zadanie", "usun-zadanie", "tytul", "skrzynka"])
     ap.add_argument("argumenty", nargs="*")
     a = ap.parse_args()
     d = wczytaj()
@@ -143,6 +159,9 @@ def main():
             for z in zadania_pracownika(pid):
                 if z["klucz"] not in (s.get("zadania") or {}):
                     print(f"{'':47}⚠️  zadanie „{z['name']}” ({z['plik']}) – jeszcze nie utworzone")
+    elif a.komenda == "skrzynka":
+        print(json.dumps({"name": f"📥 Skrzynka – {tytul(arg[0])}", "persistent_session_id": (d["sesje"].get(arg[0]) or {}).get("sesja"),
+                          "prompt": prompt_skrzynki(arg[0])}, ensure_ascii=False, indent=1))
     elif a.komenda == "tytul":
         print(tytul(arg[0]))
     elif a.komenda == "parametry":

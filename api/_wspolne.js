@@ -115,3 +115,13 @@ export function noweId() {
   const t = czasPL().slice(0, 19).replace(/\D/g, "");
   return `m_${t}_${crypto.randomBytes(3).toString("hex")}`;
 }
+
+// Paczka dla „listonosza” (krótka sesja odpalana przez zadanie czatu): wiadomość do zapisania w archiwum
+// + skrzynka adresata (zadanie przypięte do jego stałej sesji), której listonosz nastawia budzik.
+export function przesylka(w, s = sesje()) {
+  const skrzynka = s[w.do]?.zadania?.skrzynka || s.klaudiusz?.zadania?.skrzynka || null;
+  const zapasowa = w.do !== "klaudiusz" ? s.klaudiusz?.zadania?.skrzynka || null : null;
+  const wiadomosc = { id: w.id, czas: w.czas, do: w.do, typ: w.typ, tekst: w.tekst, zalaczniki: w.zalaczniki,
+    ...(w.re ? { re: w.re } : {}), ...(w.re_tekst ? { re_tekst: w.re_tekst } : {}) };
+  return { wiadomosc, skrzynka, skrzynka_zapasowa: zapasowa };
+}

@@ -7,7 +7,8 @@
    "link": "https://claude.ai/code/session_01PrvQugqmXzeLYx8mR8umX6",
    "utworzono": "2026-11-04T15:15+01:00",
    "zadania": {
-    "czat": "trig_019Ve3r5XDCAbb2YCXSpdgrG"
+    "czat": "trig_01SevtNoLeQUvStGDzgYigWB",
+    "skrzynka": "trig_016m15PpQoKxWBQe4ctUjoPx"
    }
   },
   "konkurencja": {
@@ -17,7 +18,8 @@
    "utworzono": "2026-11-04T15:16+01:00",
    "zadania": {
     "monitoring": "trig_01KpnfMRwUQhcMEAVb98t43r",
-    "raport": "trig_012xTcwrqTcm4oqmSUwb52QB"
+    "raport": "trig_012xTcwrqTcm4oqmSUwb52QB",
+    "skrzynka": "trig_01XJUoSMDMuw5LVoa1awQopH"
    }
   },
   "slowa-kluczowe": {
@@ -26,7 +28,8 @@
    "link": "https://claude.ai/code/session_01PrvQudYhJ1qnGSDzZoqqHX",
    "utworzono": "2026-11-04T15:16+01:00",
    "zadania": {
-    "godzinne": "trig_01PS6LvEhAcRVgfPzr5ft4u4"
+    "godzinne": "trig_01PS6LvEhAcRVgfPzr5ft4u4",
+    "skrzynka": "trig_0155UqaFPCm85XPx3oMMCDDs"
    }
   },
   "pozycjonowanie": {
@@ -35,7 +38,8 @@
    "link": "https://claude.ai/code/session_01PrvQud8r6Qz9Bcg6fvKmZU",
    "utworzono": "2026-11-04T15:16+01:00",
    "zadania": {
-    "trendy": "trig_015PXmZFHeQVmGjmhQH5U8xG"
+    "trendy": "trig_015PXmZFHeQVmGjmhQH5U8xG",
+    "skrzynka": "trig_013SRb2CGg5TtwBL5yJxLzxo"
    }
   },
   "marketing": {
@@ -46,7 +50,8 @@
    "zadania": {
     "pinterest": "trig_016mWosDKBKTFwPvBpnXZQ39",
     "plan-tygodnia": "trig_01P8XqnzmVitBcBgAPXn9j45",
-    "buffer-posty": "trig_01H19ZSgCoKixf1f6rXZNb7S"
+    "buffer-posty": "trig_01H19ZSgCoKixf1f6rXZNb7S",
+    "skrzynka": "trig_01Gy81tRkER1o5uT9AMjJhAi"
    }
   },
   "grafika": {
@@ -54,21 +59,27 @@
    "tytul": "🎨 Zosia „Pędzel” – grafika",
    "link": "https://claude.ai/code/session_01PrvQufqsxup7QiuVWo7txy",
    "utworzono": "2026-11-04T15:16+01:00",
-   "zadania": {}
+   "zadania": {
+    "skrzynka": "trig_01CZB8J6ccMig4SaiefvczFh"
+   }
   },
   "sprzedaz": {
    "sesja": "session_01PrvQuekJaN11X6nftaeZi7",
    "tytul": "🤝 Marek „Domykacz” – sprzedaż",
    "link": "https://claude.ai/code/session_01PrvQuekJaN11X6nftaeZi7",
    "utworzono": "2026-11-04T15:16+01:00",
-   "zadania": {}
+   "zadania": {
+    "skrzynka": "trig_01DPg42EWKCsH1g6S3YUxaJq"
+   }
   },
   "rynki-zagraniczne": {
    "sesja": "session_01PrvQuen6UcLnsAnL8wAHeG",
    "tytul": "🌍 Greta „Paszport” – rynki zagraniczne",
    "link": "https://claude.ai/code/session_01PrvQuen6UcLnsAnL8wAHeG",
    "utworzono": "2026-11-04T15:16+01:00",
-   "zadania": {}
+   "zadania": {
+    "skrzynka": "trig_01YUvdwPyXF1QJKqJYBFnznE"
+   }
   }
  }
 }

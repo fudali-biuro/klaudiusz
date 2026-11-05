@@ -10,10 +10,12 @@ Pracownik pisze do Pablo (domyślnie od razu zapisuje w archiwum, żeby było wi
   python3 scripts/czat.py napisz <id> "…" --plik marketing/posty/x.md --plik marketing/zdjecia/a.jpg
   python3 scripts/czat.py napisz <id> "…" --typ prosba            # potrzebuję czegoś od Pablo (+ Telegram)
   python3 scripts/czat.py napisz <id> "…" --typ koniec            # skończyłem zadanie (melduję wynik)
-Przyjęcie wiadomości z biura (robi sesja obudzona przez zadanie „📨 Czat z biura” – JSON z bloku routine-fire-payload):
+Przyjęcie wiadomości z biura (robi ADRESAT, gdy listonosz czatu przyniesie mu wiadomość – JSON jest w tej wiadomości):
   python3 scripts/czat.py przyjmij <<'KONIEC_JSON'
   {"id": "m_…", "do": "marketing", "tekst": "…", "zalaczniki": [...]}
   KONIEC_JSON
+Skrzynka (po obudzeniu przez zadanie „📥 Skrzynka”): wiadomości od Pablo, na które jeszcze nie odpowiedziałeś:
+  python3 scripts/czat.py skrzynka <id>
 Historia rozmowy (kontekst przed odpowiedzią):
   python3 scripts/czat.py pokaz <id> [-n 15]
 Opcja --bez-zapisu: nie wysyłaj od razu do archiwum (np. gdy i tak zaraz zapisujesz większą zmianę).
@@ -245,22 +247,22 @@ def przyjmij(a):
 
     p = zapisz_wiadomosc(pid, w)
     if p is None:
-        print(f"ℹ️  Wiadomość {w['id']} była już zapisana – nie dubluję. Jeśli nie została przekazana, przekaż poniższą treść.")
+        print(f"ℹ️  Wiadomość {w['id']} była już zapisana – nie dubluję.")
     elif not a.bez_zapisu:
         zapisz_w_archiwum([p, *zapisane], f"Czat: wiadomość od Pablo do {karta(pid).get('imie', pid)}")
 
-    # treść do przekazania pracownikowi
+    # podsumowanie dla pracownika (to on uruchamia „przyjmij” po wiadomości od listonosza czatu)
     linie = [f"📨 Wiadomość od Pablo z czatu w biurze → {kto(pid)} (id {w['id']}, {czas[11:16]})"]
     if w.get("re_tekst"):
         linie.append(f"(Odpowiedź na: „{w['re_tekst'][:300]}”)")
     if w["typ"] == "test":
-        linie.append("[TEST POŁĄCZENIA – odpowiedz krótko, że czat działa]")
+        linie.append("[TEST POŁĄCZENIA – odpisz Pablo jednym zdaniem, że czat działa]")
     linie.append("")
     linie.append(w["tekst"] or "(bez tekstu – same załączniki)")
     if w.get("transkrypcja_przegladarki"):
         linie.append(f"\n🎤 Dyktowane (rozpoznanie w przeglądarce): {w['transkrypcja_przegladarki']}")
     if w["pliki"]:
-        linie.append("\nZałączniki (są w archiwum – zrób `git pull --rebase origin main`):")
+        linie.append("\nZałączniki (zapisane w archiwum):")
         for f in w["pliki"]:
             opis = f.get("sciezka") or f.get("url")
             rodzaj = "obraz – obejrzyj narzędziem Read" if f["typ"].startswith("image/") else (
@@ -269,19 +271,41 @@ def przyjmij(a):
             if f.get("transkrypcja"):
                 linie.append(f"  🎤 Transkrypcja: {f['transkrypcja']}")
     linie.append(f"\nOdpowiadaj Pablo w czacie: python3 scripts/czat.py napisz {pid} \"…\"  "
-                 f"(potrzebujesz czegoś → --typ prosba; skończone → --typ koniec + meldunek do Klaudiusza).")
-    tresc = "\n".join(linie)
+                 f"(potrzebujesz czegoś → status.py {pid} czeka … --prosba; skończone → --typ koniec + meldunek do Klaudiusza).")
+    print("=" * 70)
+    s = sesja(pid)
+    print(f"ADRESAT: {kto(pid)} (sesja {s or 'brak – zob. zespol/sesje.md'}). Jeśli to Ty – działaj. "
+          f"Jeśli nie (np. jesteś Klaudiuszem, a wiadomość jest do pracownika) – przekaż poniższą treść send_message do jego sesji.")
+    print("=" * 70)
+    print("\n".join(linie))
 
-    print("=" * 70)
-    if pid == "klaudiusz":
-        print("ADRESAT: Klaudiusz (Ty) – przeczytaj i odpowiedz sam: python3 scripts/czat.py napisz klaudiusz \"…\"")
-    else:
-        s = sesja(pid)
-        print(f"ADRESAT: {kto(pid)} – przekaż przez send_message do sesji: {s or 'BRAK SESJI (utwórz wg zespol/sesje.md)'}")
-    print("=" * 70)
-    print("----- DO PRZEKAZANIA (bez zmian) -----")
-    print(tresc)
-    print("----- KONIEC -----")
+
+def skrzynka(a):
+    """Wiadomości od Pablo po ostatniej odpowiedzi pracownika (czyli jeszcze nieobsłużone) – z pełnymi szczegółami."""
+    pliki = sorted((CZAT / a.id).glob("*.json"))
+    wiad = [json.loads(p.read_text(encoding="utf-8")) for p in pliki]
+    ostatnia_moja = max((i for i, w in enumerate(wiad) if w.get("od") == a.id), default=-1)
+    nowe = [w for w in wiad[ostatnia_moja + 1:] if w.get("od") == "pablo"]
+    if not nowe:
+        print(f"📭 Skrzynka {kto(a.id)}: brak nowych wiadomości od Pablo (wszystko obsłużone). "
+              f"Jeśli dopiero przyszło – zrób git pull --rebase origin main i sprawdź ponownie.")
+        return
+    print(f"📬 Skrzynka {kto(a.id)}: {len(nowe)} {'nowa wiadomość' if len(nowe) == 1 else 'nowe wiadomości'} od Pablo\n")
+    for w in nowe:
+        print(f"── {w['czas'][:16].replace('T', ' ')} · id {w['id']}" + (" · TEST POŁĄCZENIA" if w.get("typ") == "test" else ""))
+        if w.get("re_tekst"):
+            print(f"(odpowiedź na: „{w['re_tekst'][:300]}”)")
+        print(w.get("tekst") or "(bez tekstu – same załączniki)")
+        for f in w.get("pliki") or []:
+            opis = f.get("sciezka") or f.get("url")
+            rodzaj = "obraz – obejrzyj narzędziem Read" if (f.get("typ") or "").startswith("image/") else (
+                "nagranie głosowe" if (f.get("typ") or "").startswith("audio/") else f.get("typ") or "plik")
+            print(f"  📎 {opis} ({rodzaj})" + (f" – {f['blad']}" if f.get("blad") else ""))
+            if f.get("transkrypcja"):
+                print(f"     🎤 Transkrypcja: {f['transkrypcja']}")
+        print()
+    print(f"Odpowiadaj: python3 scripts/czat.py napisz {a.id} \"…\"  (prośba → status.py {a.id} czeka … --prosba; "
+          f"koniec → --typ koniec + meldunek do Klaudiusza). Odpowiedź zamyka skrzynkę.")
 
 
 def pokaz(a):
@@ -311,6 +335,9 @@ def main():
     p.add_argument("--json", help="JSON w argumencie zamiast stdin")
     p.add_argument("--bez-zapisu", action="store_true")
     p.set_defaults(f=przyjmij)
+    k = sub.add_parser("skrzynka", help="nieobsłużone wiadomości od Pablo")
+    k.add_argument("id")
+    k.set_defaults(f=skrzynka)
     s = sub.add_parser("pokaz", help="ostatnie wiadomości z pracownikiem")
     s.add_argument("id")
     s.add_argument("-n", type=int, default=15)

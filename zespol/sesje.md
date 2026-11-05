@@ -6,8 +6,10 @@ automatyczne i wiadomości. Wszystkie sesje: **średni wysiłek (medium)**. Reje
 (`python3 scripts/sesje.py pokaz`). Biuro pokazuje przy każdym pracowniku link do jego sesji (do poprawek).
 
 ```
-Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► zadanie „📨 Czat z biura” ──► 🧠 Klaudiusz (sesja główna)
-                                                                           │ send_message 1:1
+Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► 📨 listonosz (zapis + budzik) ──► 📥 Skrzynka ──► stała sesja adresata
+                                                     (zespol/zadania/klaudiusz-czat.md)                (pracownik albo Klaudiusz)
+                                   🧠 Klaudiusz (sesja główna) – zleca pracę, zbiera meldunki
+                                                                           │ send_message
           ┌──────────┬──────────┬──────────┬──────────┬──────────┬────────┴─┐
        🔭 Mietek  🔑 Kuba   🧭 Bartek   📣 Ola    🎨 Zosia  🤝 Marek  🌍 Greta     ← każdy we własnej sesji,
           │ ⏰ 7:41, :37  ⏰ :52   ⏰ pn 7:17  ⏰ pn 7:47, 9:00                     z własnymi zadaniami ⏰
@@ -26,7 +28,8 @@ Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► zadanie „📨 C
    - `mcp__claude-code-remote__create_session` z polami z JSON-a: `title`, `source_url`, `outcome_branch` (`main`),
      `append_system_prompt`, `prompt`, `tags` (bez `environment_id` – ta sama chmura; bez `model` – ten sam model);
    - `python3 scripts/sesje.py zapisz <id> <session_id>`.
-3. Zadania automatyczne – **także Twoje** (`klaudiusz` → „📨 Czat z biura”, bez cron) i każdego pracownika (pliki `zespol/zadania/<id>-*.md`): `python3 scripts/sesje.py zadania <id>` →
+3. Zadania automatyczne każdego pracownika (pliki `zespol/zadania/<id>-*.md`; zadanie czatu „listonosz” już istnieje –
+   `zespol/zadania/klaudiusz-czat.md`, nie twórz go ponownie): `python3 scripts/sesje.py zadania <id>` →
    dla każdej pozycji `create_trigger(name, cron_expression, prompt, persistent_session_id, initiation="human_request")`,
    potem `python3 scripts/sesje.py zadanie <id> <klucz> <trig_id>`. Zadanie z pustym `cron` (np. czat) – bez cron (tylko na wezwanie).
 4. **Stare wspólne zadania – wyłącz** (`update_trigger enabled=false`, NIE kasuj – skasowanie usuwa historię przebiegów),
@@ -41,7 +44,8 @@ Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► zadanie „📨 C
 
 ## Na co dzień
 - **Zlecenie dla pracownika:** `send_message(session_id=<z sesje.json>, message="…")` – konkretnie: co, na kiedy, gdzie wynik.
-- **Wiadomość od Pablo z czatu:** zadanie „📨 Czat z biura” → `scripts/czat.py przyjmij` → przekazanie 1:1 (patrz `zespol/zadania/klaudiusz-czat.md`).
+- **Wiadomość od Pablo z czatu:** listonosz zapisuje ją i budzi „📥 Skrzynkę” adresata; adresat robi `scripts/czat.py skrzynka <id>`
+  i odpowiada (`zespol/zadania/klaudiusz-czat.md`). Nowa sesja pracownika = utwórz też jego skrzynkę (`scripts/sesje.py skrzynka <id>`).
 - **Pracownik skończył:** melduje się Tobie (send_message). Ty decydujesz, co dalej (np. pomysły Mietka → Ola → Zosia).
 - **Sesja pracownika padła / zarchiwizowana:** `get_session`; w razie potrzeby `unarchive_session` albo nowa sesja
   (pkt 2), `sesje.py zapisz` i **przepnij jego zadania** (`update_trigger` nie zmienia sesji → utwórz nowe, stare wyłącz).

@@ -1,7 +1,7 @@
 // POST /api/czat – Pablo wysyła wiadomość z okna czatu w biurze → budzi sesję (zadanie „📨 Czat z biura”).
-import { ZESPOL, odpowiedz, zNaszejStrony, ustawienia, cel, obudz, czasPL, noweId } from "./_wspolne.js";
+import { ZESPOL, odpowiedz, zNaszejStrony, ustawienia, cel, obudz, czasPL, noweId, przesylka } from "./_wspolne.js";
 
-const MAX_TEKST = 20_000;
+const MAX_TEKST = 15_000;
 
 export async function POST(request) {
   if (!zNaszejStrony(request)) return odpowiedz({ blad: "Niedozwolone źródło żądania" }, 403);
@@ -26,7 +26,9 @@ export async function POST(request) {
     ...(w.re ? { re: String(w.re).slice(0, 80) } : {}),
     ...(w.re_tekst ? { re_tekst: String(w.re_tekst).slice(0, 500) } : {}),
   };
-  const wynik = await obudz(c.zadanie, c.token, JSON.stringify(wiadomosc));
+  const paczka = przesylka(wiadomosc);
+  if (!paczka.skrzynka) return odpowiedz({ blad: "brak_sesji", opis: "Ten pracownik nie ma jeszcze swojej skrzynki – napisz do Klaudiusza." }, 409);
+  const wynik = await obudz(c.zadanie, c.token, JSON.stringify(paczka));
   if (!wynik.ok) {
     console.error("fire:", wynik.status, wynik.blad);
     const opis = wynik.status === 401 || wynik.status === 403

@@ -354,7 +354,7 @@ const Czat = (() => {
     const link = esc(polaczenie.link || "https://claude.ai/code/routines");
     b.innerHTML = `<h4>🔌 Połącz czat z Klaudiuszem – jednorazowo, ok. 1 minuty</h4>
       <ol>
-        <li>Otwórz zadanie <b>„📨 Czat z biura → Klaudiusz”</b>: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
+        <li>Otwórz zadanie <b>„📨 Czat z biura – listonosz”</b>: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
           <small>(jeśli link nie trafi – <a href="https://claude.ai/code/routines" target="_blank" rel="noopener">lista zadań</a>, kliknij to zadanie)</small></li>
         <li>Kliknij <b>Edytuj</b> → przy „Trigger” <b>+</b> → <b>API</b> → <b>Generate token</b> i skopiuj token (pokazuje się tylko raz).</li>
         <li>Wklej go tutaj:</li>
