@@ -86,9 +86,11 @@ def render(src, ai, focus, tekst, fmt, out, pack=False):
     plaque_logo(img, 150 if wide else 210, 28 if wide else 36, 24 if wide else 36)
     if ai: d.text((W - 24 - d.textlength("grafika AI", font=F(18, False, False)), H - 34), "grafika AI", font=F(18, False, False), fill=CREAM + (200,)) if not wide else None
     img.convert("RGB").save(out, quality=93)
-os.makedirs(O, exist_ok=True)
-for kid, (src, ai, focus, tt) in KARTY.items():
+def main():
+  os.makedirs(O, exist_ok=True)
+  for kid, (src, ai, focus, tt) in KARTY.items():
     for fmt in FORMATY:
         lang = "en" if fmt.startswith("pin") else "pl"
         render(src, ai, focus, tt[lang], fmt, f"{O}{kid}-{fmt}.jpg", kid in PACK)
-print("OK", len(KARTY) * len(FORMATY))
+  print("OK", len(KARTY) * len(FORMATY))
+if __name__ == "__main__": main()
