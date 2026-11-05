@@ -62,3 +62,8 @@ Pablo: „W Formatwood wszystko mi się podoba”. Notatki: `marketing/inspiracj
 spokojnie i rzemieślniczo, dużo drewna i zbliżeń na wykonanie, produkt w prawdziwym otoczeniu + czyste ujęcia studyjne,
 krótkie hasła, mało tekstu na grafice, stałe logo w rogu (`marketing/logo/fudali-logo.png`; na zdjęciach na jasnej plakietce).
 Karuzela leżaka (`scripts/grafika/karuzela_lezak.py`) jest w wersji „z napisami”; wersja minimalna – tylko na prośbę Pablo.
+
+## ⭐ Preferencja Pablo (05.11.2026) – czyste packshoty
+Pablo: sceny „lifestyle” z AI (kominek, ogród, kokarda itp.) wyglądają **za sztucznie**. **Najbardziej podobają mu się packshoty:**
+produkt (ze zdjęcia z fudali.com.pl) wycentrowany na **jasnym dębie, kremowa ściana, miękkie dzienne światło, naturalny cień**, kwadrat 1:1, stałe logo w rogu,
+bez napisów. Wzorzec: `marketing/zdjecia/packshoty-probka/`. **Robić takich więcej (wszystkie produkty), unikać bogatych scen AI**; lifestyle tylko z prawdziwych zdjęć.
