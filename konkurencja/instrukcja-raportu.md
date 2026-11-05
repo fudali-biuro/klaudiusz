@@ -28,7 +28,7 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 8. Status w biurze: na start `python3 scripts/status.py konkurencja pracuje "Raport konkurencji RRRR-MM-DD"`,
    po zapisie `python3 scripts/status.py konkurencja gotowe "Raport RRRR-MM-DD: <najważniejsza rzecz w 1 zdaniu>"`.
 
-9. **Sezon świąteczny (polecenie Pablo, od 9.11 do 24.12.2026; brief `marketing/kampanie/2026-11-sezon-swiateczny-brief.md`)**:
+9. **Sezon świąteczny (polecenie Pablo, od 6.11 do 24.12.2026; brief `marketing/kampanie/2026-11-sezon-swiateczny-brief.md`)**:
    w raporcie dodaj sekcję „🎄 Święta – co robi konkurencja” (Bogateco, Ecofurn, Altanka): oferty/kolekcje świąteczne, prezenty, terminy zamówień
    i dostaw przed świętami, kampanie/posty, ceny. Pod spodem 2–4 konkretne pomysły „jak ich przebić” dla Oli (kanał FB/IG/Pinterest,
    produkt FUDALI, hook, CTA). Pomysły z werdyktem TAK od razu zgłoś Oli (send_message). Nic nie publikujemy bez zgody Pabla.
