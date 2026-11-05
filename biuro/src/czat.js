@@ -152,9 +152,9 @@ const Czat = (() => {
   }
   function htmlStan(w) {
     if (w.stan === "wysylam") return ` · <span class="cz-stan">⏳ wysyłam…</span>`;
-    if (w.stan === "dostarczone") return ` · <span class="cz-stan" title="Klaudiusz dostał wiadomość i przekazuje ją dalej">✓ dostarczone</span>`;
+    if (w.stan === "dostarczone") return ` · <span class="cz-stan" title="Listonosz zabrał wiadomość – za chwilę trafi do adresata">✓ wysłane</span>`;
     if (w.stan === "blad") return ` · <span class="cz-stan blad">❌ ${esc(w.blad || "nie wysłano")}</span> <button type="button" class="cz-mini" data-cz-ponow="${esc(w.id)}">↻ Ponów</button> <button type="button" class="cz-mini" data-cz-usun="${esc(w.id)}">Usuń</button>`;
-    return ` · <span class="cz-stan ok" title="Wiadomość zapisana i przekazana">✓✓ odebrane</span>`;
+    return ` · <span class="cz-stan ok" title="Wiadomość zapisana w archiwum – adresat ją dostał">✓✓ dostarczone</span>`;
   }
   function htmlWiadomosc(w, o) {
     const moja = w.od === "pablo";
@@ -174,7 +174,7 @@ const Czat = (() => {
     const kropki = `<span class="kropki"><i></i><i></i><i></i></span>`;
     if (!ost.stan && stanEf(o) === "pracuje") return `<div class="cz-pisze">✍️ ${esc(o.imie)} pracuje nad tym ${kropki}</div>`;
     if (!ost.stan) return `<div class="cz-pisze">📨 ${esc(o.imie)} odebrał${forma(o)} wiadomość – odpowiedź pojawi się tutaj ${kropki}</div>`;
-    return `<div class="cz-pisze">📨 ${o.id === "klaudiusz" ? "Klaudiusz zaraz przeczyta" : `Klaudiusz przekazuje wiadomość do: ${esc(o.imie)}`} ${kropki}</div>`;
+    return `<div class="cz-pisze">📨 Wiadomość w drodze – ${esc(o.imie)} dostanie ją za ok. 2 minuty ${kropki}</div>`;
   }
 
   function klikWLiscie(e) {
@@ -352,16 +352,22 @@ const Czat = (() => {
     b.hidden = false;
     if (polaczenie === null) { b.innerHTML = `<p>⚠️ Serwer czatu chwilowo nie odpowiada – wiadomości mogą nie dojść. Odśwież stronę za minutę.</p>`; return; }
     const link = esc(polaczenie.link || "https://claude.ai/code/routines");
-    b.innerHTML = `<h4>🔌 Połącz czat z Klaudiuszem – jednorazowo, ok. 1 minuty</h4>
+    b.innerHTML = `<h4>🔌 Połącz czat z zespołem – jednorazowo, ok. 2 minut</h4>
       <ol>
-        <li>Otwórz zadanie <b>„📨 Czat z biura – listonosz”</b>: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
-          <small>(jeśli link nie trafi – <a href="https://claude.ai/code/routines" target="_blank" rel="noopener">lista zadań</a>, kliknij to zadanie)</small></li>
-        <li>Kliknij <b>Edytuj</b> → przy „Trigger” <b>+</b> → <b>API</b> → <b>Generate token</b> i skopiuj token (pokazuje się tylko raz).</li>
-        <li>Wklej go tutaj:</li>
+        <li>Otwórz zadanie <b>„📨 Czat z biura”</b> w Claude: <a href="${link}" target="_blank" rel="noopener">otwórz ↗</a>
+          <small>(jeśli link nie trafi – <a href="https://claude.ai/code/routines" target="_blank" rel="noopener">lista zadań</a> i kliknij „📨 Czat z biura → Klaudiusz”)</small></li>
+        <li>Kliknij <b>Edytuj</b>. W polu z instrukcją usuń stary tekst i wklej nowy: <button type="button" class="cz-btn cz-kopiuj">📋 Kopiuj treść zadania</button></li>
+        <li>Przy „Trigger” kliknij <b>+</b> → <b>API</b> → <b>Generate token</b>, skopiuj token (pokazuje się tylko raz) i zapisz zmiany.</li>
+        <li>Wklej token tutaj:</li>
       </ol>
       <form class="cz-token"><input type="password" placeholder="sk-ant-…" autocomplete="off" spellcheck="false" aria-label="Token">
         <button type="submit" class="cz-btn">Połącz</button></form>
-      <p class="cz-info male">Token zostaje zaszyfrowany na serwerze biura. Po połączeniu Klaudiusz odpisze tu, że działa.</p>`;
+      <p class="cz-info male">Token zostaje zaszyfrowany na serwerze biura. Po połączeniu Klaudiusz odpisze w swoim oknie, że działa (ok. 2–3 min).</p>`;
+    b.querySelector(".cz-kopiuj").addEventListener("click", async (e) => {
+      const t = DANE.czat_prompt || "";
+      try { await navigator.clipboard.writeText(t); e.target.textContent = "✅ Skopiowane – wklej w Claude"; }
+      catch { window.prompt("Skopiuj ten tekst (Ctrl+C):", t); }
+    });
     b.querySelector(".cz-token").addEventListener("submit", async (e) => {
       e.preventDefault();
       const inp = b.querySelector("input"), info = b.querySelector(".cz-info"), btn = b.querySelector("button");
@@ -372,7 +378,7 @@ const Czat = (() => {
         const d = await r.json().catch(() => ({}));
         if (!r.ok) throw new Error(d.blad || `błąd ${r.status}`);
         polaczenie = { ...polaczenie, polaczony: true };
-        b.innerHTML = `<p>✅ Połączone! Klaudiusz za chwilę odpisze w swoim czacie. Wiadomości, które się nie wysłały, wyślij ponownie (↻ Ponów).</p>`;
+        b.innerHTML = `<p>✅ Połączone! Klaudiusz odpisze w swoim oknie za 2–3 minuty. Wiadomości, które się nie wysłały, wyślij ponownie (↻ Ponów).</p>`;
         szybkoDo = Date.now() + 4 * 60e3; planuj(3000);
         setTimeout(() => { if (polaczenie?.polaczony) b.hidden = true; }, 15000);
       } catch (err) { info.textContent = "❌ " + err.message; btn.disabled = false; }

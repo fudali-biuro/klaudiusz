@@ -130,6 +130,13 @@ const dane = {
   czat,
   sesje,
   czat_zadanie: sesjeRej.klaudiusz?.zadania?.czat || null,
+  czat_prompt: (() => {
+    try {
+      const t = fs.readFileSync(path.join(ZESPOL, "zadania", "klaudiusz-czat.md"), "utf8");
+      const m = t.match(/<!-- PROMPT-START -->\s*```text\n([\s\S]*?)\n```\s*<!-- PROMPT-END -->/);
+      return m ? m[1] : null;
+    } catch { return null; }
+  })(),
 };
 fs.writeFileSync(path.join(DIST, "dane.json"), JSON.stringify(dane));
 console.log(`Biuro zbudowane: ${zespol.length} osób, ${zespol.reduce((s, z) => s + z.wyniki.length, 0)} plików wyników, ${Object.values(czat).reduce((s, c) => s + c.liczba, 0)} wiadomości czatu -> ${path.relative(ROOT, DIST)}`);
