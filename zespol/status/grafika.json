@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Packshoty z 2-3 produktami na jednym zdjęciu",
- "postep": null,
- "aktualizacja": "2026-11-05T15:22+01:00",
+ "stan": "gotowe",
+ "zadanie": "4 zestawy 2–3 produktów na jednym zdjęciu",
+ "postep": 100,
+ "aktualizacja": "2026-11-05T15:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -38,6 +38,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:35+01:00",
+   "stan": "gotowe",
+   "tekst": "4 zestawy 2–3 produktów na jednym zdjęciu"
+  },
   {
    "czas": "2026-11-05T15:22+01:00",
    "stan": "pracuje",
