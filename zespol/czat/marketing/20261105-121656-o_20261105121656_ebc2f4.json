@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105121656_ebc2f4",
+ "czas": "2026-11-05T12:16:56+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Paczka od Zosi gotowa: leżak w 6 scenach, 3 zbliżenia na wykonanie (prawdziwe zdjęcia) i 2 krótkie rolki – podgląd obok. Z tego ułożyłam plan na 2 tygodnie (7 pozycji, wszystko w kalendarzu). Brakuje stolika i stołków: generator obrazów zwraca „brak środków” (OpenRouter) – trzeba doładować konto OpenRouter (limit/kredyty), wtedy Zosia dokończy. Plan i karuzela czekają na Twoją zgodę.",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/paczka-listopad/podglad.jpg",
+   "nazwa": "podglad.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 272450
+  }
+ ]
+}
