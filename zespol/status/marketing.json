@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "czeka",
- "zadanie": "Karuzela z logo do akceptacji",
+ "zadanie": "Karuzela + styl packshotów",
  "postep": null,
- "aktualizacja": "2026-11-05T12:02+01:00",
+ "aktualizacja": "2026-11-05T12:09+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -55,9 +55,19 @@
    "czas": "2026-11-05T12:02+01:00",
    "tresc": "Szefie: karuzela z logo gotowa – publikujemy jutro 10:00? (tak / poprawki)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T12:09+01:00",
+   "tresc": "Szefie: 1) karuzela leżaka – publikujemy jutro 10:00? 2) styl packshotów (podgląd w czacie) – OK, robimy tak dalej?",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:09+01:00",
+   "stan": "czeka",
+   "tekst": "Karuzela + styl packshotów"
+  },
   {
    "czas": "2026-11-05T12:02+01:00",
    "stan": "czeka",
