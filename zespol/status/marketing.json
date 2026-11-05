@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "czeka",
- "zadanie": "Zdjęcia do oceny + klucz Gemini",
+ "zadanie": "Akceptacja posta",
  "postep": null,
- "aktualizacja": "2026-11-05T11:48+01:00",
+ "aktualizacja": "2026-11-05T11:57+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -40,9 +40,19 @@
    "czas": "2026-11-05T11:48+01:00",
    "tresc": "Szefie: obejrzyj 5 zdjęć karuzeli w czacie i napisz, czy OK. Opcjonalnie: klucz Google AI Studio (GEMINI_API_KEY) do bezpośredniego Nano Banana Pro.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T11:57+01:00",
+   "tresc": "Szefie: karuzela na jutro 10:00 – publikujemy? (tak / poprawki)",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T11:57+01:00",
+   "stan": "czeka",
+   "tekst": "Akceptacja posta"
+  },
   {
    "czas": "2026-11-05T11:48+01:00",
    "stan": "czeka",
