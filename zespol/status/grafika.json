@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Święta: kolaż startowy, 3 piny leżaka, podkładka 99 zł",
- "postep": 100,
- "aktualizacja": "2026-11-05T15:59+01:00",
+ "stan": "pracuje",
+ "zadanie": "Święta: dokładam świąteczny klimat (bokeh, gałązki, śnieg) i poprawiam kolaż",
+ "postep": null,
+ "aktualizacja": "2026-11-05T16:00+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T16:00+01:00",
+   "stan": "pracuje",
+   "tekst": "Święta: dokładam świąteczny klimat (bokeh, gałązki, śnieg) i poprawiam kolaż"
+  },
   {
    "czas": "2026-11-05T15:59+01:00",
    "stan": "gotowe",
