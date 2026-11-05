@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Próbka 4 packshotów kwadratowych (leżak, stolik, stołki, zima)",
- "postep": 100,
- "aktualizacja": "2026-11-05T12:09+01:00",
+ "stan": "pracuje",
+ "zadanie": "Paczka listopad: 6 teł leżaka, stolik, stołki, detale, 2 rolki",
+ "postep": null,
+ "aktualizacja": "2026-11-05T12:13+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:13+01:00",
+   "stan": "pracuje",
+   "tekst": "Paczka listopad: 6 teł leżaka, stolik, stołki, detale, 2 rolki"
+  },
   {
    "czas": "2026-11-05T12:09+01:00",
    "stan": "gotowe",
