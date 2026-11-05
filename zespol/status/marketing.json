@@ -1,7 +1,7 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Black Friday + argument poduszki",
+ "stan": "czeka",
+ "zadanie": "Black Friday",
  "postep": null,
  "aktualizacja": "2026-11-05T07:44+01:00",
  "makieta": false,
@@ -25,9 +25,19 @@
    "czas": "2026-11-04T14:56+01:00",
    "tresc": "Potwierdź kolory leżaka na zdjęciach (post „5 kolorów”). I wrzuć jeszcze raz jako pliki 4 zdjęcia z czatu (ciemny brąz, czarny, molo z żaglówką, ogród z płotem) – nie zapisały się. Molo: czy to Wasze zdjęcie (prawa do publikacji)?",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T07:44+01:00",
+   "tresc": "Black Friday: leżak 299 zł → 249 zł (poduszka w zestawie), 23–30.11. Robimy? (tak/nie/inna cena)",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T07:44+01:00",
+   "stan": "czeka",
+   "tekst": "Black Friday"
+  },
   {
    "czas": "2026-11-05T07:44+01:00",
    "stan": "pracuje",
