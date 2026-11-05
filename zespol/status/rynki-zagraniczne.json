@@ -1,8 +1,8 @@
 {
  "id": "rynki-zagraniczne",
- "stan": "pracuje",
- "zadanie": "Sezon świąteczny: teksty EN i terminy zamówień z zagranicy",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Sezon świąteczny: uwagi EN i terminy zamówień w marketing/pinterest/2026-11.md",
+ "postep": 100,
  "aktualizacja": "2026-11-05T15:56+01:00",
  "makieta": false,
  "prosby": [
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "stan": "gotowe",
+   "tekst": "Sezon świąteczny: uwagi EN i terminy zamówień w marketing/pinterest/2026-11.md"
+  },
   {
    "czas": "2026-11-05T15:56+01:00",
    "stan": "pracuje",
