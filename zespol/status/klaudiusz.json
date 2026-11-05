@@ -1,12 +1,17 @@
 {
  "id": "klaudiusz",
- "stan": "czeka",
- "zadanie": "Antigravity działa – trzeba zapisać logowanie na stałe",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Antigravity CLI podpięty – obrazy z konta Google firmy, logowanie zapisane w ustawieniach (AGY_AUTH)",
+ "postep": 100,
  "aktualizacja": "2026-11-05T15:08+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:08+01:00",
+   "stan": "gotowe",
+   "tekst": "Antigravity CLI podpięty – obrazy z konta Google firmy, logowanie zapisane w ustawieniach (AGY_AUTH)"
+  },
   {
    "czas": "2026-11-05T15:08+01:00",
    "stan": "gotowe",
