@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Więcej packshotów w stylu próbki (jasne drewno, czysto)",
+ "stan": "czeka",
+ "zadanie": "Packshoty: 7 z 18 gotowych, brak kredytów generatora",
  "postep": null,
- "aktualizacja": "2026-11-05T13:03+01:00",
+ "aktualizacja": "2026-11-05T13:12+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -20,9 +20,19 @@
    "czas": "2026-11-05T12:16+01:00",
    "tresc": "Pablo, generator obrazów (OpenRouter) przestał działać – trzeba doładować kredyty konta OpenRouter. Wtedy dokończę stolik i stołki (po 3 warianty).",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T13:12+01:00",
+   "tresc": "Pablo, doładuj kredyty OpenRouter (min. kilka dolarów) – bez tego nie powstaną packshoty otwieracza, stolika, taboretu i podkładki.",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T13:12+01:00",
+   "stan": "czeka",
+   "tekst": "Packshoty: 7 z 18 gotowych, brak kredytów generatora"
+  },
   {
    "czas": "2026-11-05T13:03+01:00",
    "stan": "pracuje",
