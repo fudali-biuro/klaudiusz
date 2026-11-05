@@ -68,3 +68,9 @@ Karuzela leżaka (`scripts/grafika/karuzela_lezak.py`) jest w wersji „z napisa
 Pablo: sceny „lifestyle” z AI (kominek, ogród, kokarda itp.) wyglądają **za sztucznie**. **Najbardziej podobają mu się packshoty:**
 produkt (ze zdjęcia z fudali.com.pl) wycentrowany na **jasnym dębie, kremowa ściana, miękkie dzienne światło, naturalny cień**, kwadrat 1:1, stałe logo w rogu,
 bez napisów. Wzorzec: `marketing/zdjecia/packshoty-probka/`. **Robić takich więcej (wszystkie produkty), unikać bogatych scen AI**; lifestyle tylko z prawdziwych zdjęć.
+
+## ⭐ Aktualizacja preferencji (Pablo, 05.11.2026, po obejrzeniu 6 teł leżaka + packshotów)
+Pablo jest zachwycony: „leżak **nie zmieniony**, tylko w ładnym otoczeniu – coś wspaniałego”; **packshoty nadal najlepsze**.
+**Nowe zlecenie: zdjęcia z 2–3 produktami naraz** (np. leżak + stolik + stołki w jednej scenie / na jednym packshocie).
+Zasady: produkty dokładnie jak oryginały (z prawdziwych zdjęć), spokojne, jasne wnętrze/dąb, stałe logo, bez napisów, oznaczenie AI.
+Zestawy: `scripts/grafika/zestawy.py` → `marketing/zdjecia/zestawy/`.
