@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Karuzela leżaka: slajdy z napisami (Zosia)",
+ "stan": "czeka",
+ "zadanie": "Karuzela do akceptacji",
  "postep": null,
- "aktualizacja": "2026-11-05T11:59+01:00",
+ "aktualizacja": "2026-11-05T12:00+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -45,9 +45,19 @@
    "czas": "2026-11-05T11:57+01:00",
    "tresc": "Szefie: karuzela na jutro 10:00 – publikujemy? (tak / poprawki)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T12:00+01:00",
+   "tresc": "Szefie: obejrzyj slajdy karuzeli leżaka – publikujemy jutro 10:00? (tak / poprawki)",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:00+01:00",
+   "stan": "czeka",
+   "tekst": "Karuzela do akceptacji"
+  },
   {
    "czas": "2026-11-05T11:59+01:00",
    "stan": "pracuje",
