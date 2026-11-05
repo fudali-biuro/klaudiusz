@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105114757_1135d7",
+ "czas": "2026-11-05T11:47:57+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Zdjęcie do karuzeli: 05-detal-ciemny-braz-lina",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/lezak/05-detal-ciemny-braz-lina.jpg",
+   "nazwa": "05-detal-ciemny-braz-lina.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 482333
+  }
+ ]
+}
