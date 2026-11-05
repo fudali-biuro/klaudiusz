@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "4 zestawy 2–3 produktów na jednym zdjęciu",
- "postep": 100,
- "aktualizacja": "2026-11-05T15:35+01:00",
+ "stan": "pracuje",
+ "zadanie": "Packshoty: stolik Płatek, taboret, otwieracz Kot (po 1)",
+ "postep": null,
+ "aktualizacja": "2026-11-05T15:37+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -38,6 +38,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:37+01:00",
+   "stan": "pracuje",
+   "tekst": "Packshoty: stolik Płatek, taboret, otwieracz Kot (po 1)"
+  },
   {
    "czas": "2026-11-05T15:35+01:00",
    "stan": "gotowe",
