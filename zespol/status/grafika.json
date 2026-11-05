@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "czeka",
- "zadanie": "Packshoty: 9 z 18 gotowych, brak kredytów generatora",
+ "stan": "pracuje",
+ "zadanie": "Dokańczam packshoty (stolik, taboret, otwieracz) przez Antigravity",
  "postep": null,
- "aktualizacja": "2026-11-05T13:12+01:00",
+ "aktualizacja": "2026-11-05T15:02+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -33,6 +33,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:02+01:00",
+   "stan": "pracuje",
+   "tekst": "Dokańczam packshoty (stolik, taboret, otwieracz) przez Antigravity"
+  },
   {
    "czas": "2026-11-05T13:12+01:00",
    "stan": "czeka",
