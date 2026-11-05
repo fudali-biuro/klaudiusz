@@ -1,7 +1,7 @@
 {
  "id": "sprzedaz",
- "stan": "pracuje",
- "zadanie": "Święta 2026: termin ostatniego dzwonka + gotowe odpowiedzi",
+ "stan": "czeka",
+ "zadanie": "Propozycja terminów na święta gotowa",
  "postep": null,
  "aktualizacja": "2026-11-05T15:56+01:00",
  "makieta": false,
@@ -10,9 +10,19 @@
    "czas": "2026-11-04T14:15+01:00",
    "tresc": "Aktualny cennik (domki, drewutnie, altany, pergole, meble, drewno opałowe) + czasy realizacji – bez tego nie wycenię.",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "tresc": "Pablo, zerknij na sprzedaz/swieta-2026.md: czy ostatnie zamówienia na święta to kurier do 8.12 i ekspres do 17.12? Plus 5 krótkich pytań (pakowanie, odbiór osobisty, droższe produkty, ostatni dzień nadania, Black Friday).",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "stan": "czeka",
+   "tekst": "Propozycja terminów na święta gotowa"
+  },
   {
    "czas": "2026-11-05T15:56+01:00",
    "stan": "pracuje",
