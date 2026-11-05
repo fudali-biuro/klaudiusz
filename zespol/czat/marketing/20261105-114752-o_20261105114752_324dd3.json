@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105114752_324dd3",
+ "czas": "2026-11-05T11:47:52+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Zdjęcie do karuzeli: 01-taras-ognisko-drewno",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/lezak/01-taras-ognisko-drewno.jpg",
+   "nazwa": "01-taras-ognisko-drewno.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 484420
+  }
+ ]
+}
