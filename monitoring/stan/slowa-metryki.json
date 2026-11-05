@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-05T03:53+01:00",
+ "czas": "2026-11-05T04:53+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -393,32 +393,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana na 2 samochody",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana 6x6 projekt"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 58,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "stolik kawowy drewniany",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "srednie",
@@ -670,6 +644,32 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na 2 samochody",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana 6x6 projekt"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
