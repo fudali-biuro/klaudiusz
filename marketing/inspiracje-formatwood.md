@@ -8,3 +8,6 @@ Co kopiujemy (dla FUDALI):
 5. Proste kroki zamówienia, FAQ z cenami/dostawą.
 6. Logo w rogu i stały styl na wszystkich grafikach.
 Do ustalenia z Pablo: które konkretnie grafiki Formatwood (wklejanie zdjęć w otoczenie) mamy na myśli – podeśle przykład.
+
+## Decyzja Pablo (05.11.2026): „W Formatwood wszystko mi się podoba”
+Kierunek wizualny FUDALI = styl Formatwood: spokojnie, rzemieślniczo, dużo drewna i detalu, produkt w prawdziwym otoczeniu + czyste ujęcia studyjne, krótkie hasła, to samo logo w rogu, mało tekstu na grafice. Dotyczy wszystkich grafik (Zosia) i postów (Ola).
