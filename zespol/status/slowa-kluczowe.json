@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "02:00 – TOP: drewutnia (65), wiata drewniana wróciła do 58",
+ "zadanie": "03:00 – bez zmian, TOP: drewutnia (65)",
  "postep": 100,
- "aktualizacja": "2026-11-05T02:54+01:00",
+ "aktualizacja": "2026-11-05T03:54+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T03:54+01:00",
+   "stan": "gotowe",
+   "tekst": "03:00 – bez zmian, TOP: drewutnia (65)"
+  },
+  {
+   "czas": "2026-11-05T03:54+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
+  },
+  {
+   "czas": "2026-11-05T03:53+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-05T02:54+01:00",
    "stan": "gotowe",
