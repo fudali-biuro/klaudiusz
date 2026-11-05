@@ -19,8 +19,10 @@ AGY_MOZG = pathlib.Path.home() / ".gemini/antigravity-cli/brain"
 MODELE = ["antigravity", "openrouter:google/gemini-3-pro-image", "openrouter:google/gemini-nano-banana-2.1"]
 UA = {"User-Agent": "Mozilla/5.0 (KlaudiuszFUDALI)"}
 ZASADY = ("Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – "
-          "do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, "
-          "shallow depth of field, no text, no logos, no watermarks. Scene: ")
+          "do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera "
+          "and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with "
+          "natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render "
+          "look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: ")
 
 
 def jpeg_referencji(url):

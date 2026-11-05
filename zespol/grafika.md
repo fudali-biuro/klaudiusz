@@ -34,7 +34,10 @@ Na zlecenie Oli (marketing) i Bartka/Marka (strona, oferty). Każde zlecenie →
 | fal.ai (`FAL_AI_API_KEY`) | wideo (Kling/Veo), głos (TTS) – **nie do obrazów** | 🚫 05.11.2026 obrazy tylko przez Antigravity; konto i tak zablokowane (TOP_UP) |
 | OpenRouter (`OPENROUTER_API_KEY`) | **płatny zapas** do obrazów, gdy Antigravity zawiedzie / skończy się limit | ✅ |
 | `scripts/grafika/scena.py --zdjecie <URL/plik> --opis "<scena EN>" --wyjscie <plik.jpg>` | **produkt FUDALI w nowej scenerii** – edycja zdjęcia, produkt zostaje ten sam (najpierw Antigravity, zapas OpenRouter; `--bez-api` = tylko Antigravity) | ✅ 05.11.2026 (Antigravity: leżak na werandzie zimą) |
-| 🧩 `scripts/grafika/wideo.py` | krótkie wideo z obrazu/zdjęcia (image-to-video) | planowane |
+| `scripts/grafika/ruch.py --zdjecia a.jpg b.jpg c.jpg --wyjscie film.mp4 [--format 4:5\|9:16] [--logo]` | **„żywe ujęcia”**: realistyczne zbliżenia (prawdziwe zdjęcia lub sceny z Nano Banana) → płynny ruch kamery + przenikania + ziarno; produkt się nie zmienia, bez opłat | ✅ 05.11.2026 |
+| `scripts/grafika/rolka.py` | pionowa rolka 1080×1920 z jednego zdjęcia + efekt (śnieg/ogień) | ✅ |
+| 🧩 prawdziwe wideo AI (Veo, Kling – np. wiatr, liście) | ruch w scenie, nie tylko kamery | ⏳ tylko płatne API; Veo z Google AI Pro działa wyłącznie w przeglądarce (Flow) – Pablo ręcznie |
+| Pomelli (Google Labs) | style i chwyty marketingowe | tylko w przeglądarce – nie da się podłączyć; podpatrujemy styl |
 | 🧩 `scripts/grafika/bez_tla.py` | usuwanie tła ze zdjęć produktów | planowane |
 | 🧩 Canva (łącznik w Claude) | szablony postów z logo i kolorami FUDALI | do podpięcia |
 
