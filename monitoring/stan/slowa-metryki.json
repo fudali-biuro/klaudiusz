@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-05T06:53+01:00",
+ "czas": "2026-11-05T07:52+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -241,6 +241,7 @@
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
     "meble ogrodowe drewniane olx",
     "meble ogrodowe drewniane wyprzedaż",
     "meble ogrodowe drewniane castorama",
@@ -249,8 +250,7 @@
     "meble ogrodowe drewniane ikea",
     "meble ogrodowe drewniane jysk",
     "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane wyprzedaż allegro",
-    "meble ogrodowe drewniane producent"
+    "meble ogrodowe drewniane wyprzedaż allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -393,32 +393,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana na 2 samochody",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana 6x6 projekt"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 58,
-   "zmiana_oceny": 24
-  },
-  {
    "fraza": "stolik kawowy drewniany",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "srednie",
@@ -503,14 +477,14 @@
    "podpowiedzi_google": [
     "drewno opałowe",
     "drewno opałowe olx",
-    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
     "drewno opałowe castorama",
-    "drewno opałowe poznań"
+    "drewno opałowe poznań",
+    "drewno opałowe z transportem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -670,6 +644,32 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na 2 samochody",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana 6x6 projekt"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
@@ -1049,10 +1049,6 @@
    "z_frazy": "meble ogrodowe drewniane"
   },
   {
-   "fraza": "meble ogrodowe drewniane producent",
-   "z_frazy": "meble ogrodowe drewniane"
-  },
-  {
    "fraza": "leżak drewniany składany",
    "z_frazy": "leżak drewniany"
   },
@@ -1253,10 +1249,6 @@
    "z_frazy": "tarcica"
   },
   {
-   "fraza": "drewno opałowe cena",
-   "z_frazy": "drewno opałowe"
-  },
-  {
    "fraza": "drewno opałowe podkarpackie tanio",
    "z_frazy": "drewno opałowe"
   },
@@ -1278,6 +1270,10 @@
   },
   {
    "fraza": "drewno opałowe poznań",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe z transportem",
    "z_frazy": "drewno opałowe"
   },
   {

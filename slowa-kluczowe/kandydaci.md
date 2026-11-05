@@ -166,3 +166,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | sauna ogrodowa beczka | sauna ogrodowa | 2026-11-04 |
 | sauna ogrodowa 2 osobowa | sauna ogrodowa | 2026-11-04 |
 | meble ogrodowe drewniane producent | meble ogrodowe drewniane | 2026-11-05 |
+| drewno opałowe z transportem | drewno opałowe | 2026-11-05 |
