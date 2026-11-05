@@ -1,12 +1,32 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Raport 05.11 gotowy – Altanka startuje z Black Friday, Bogateco bez zmian",
+ "zadanie": "08:00 – brak nowych postów (raport 05.11 gotowy)",
  "postep": 100,
- "aktualizacja": "2026-11-05T07:42+01:00",
+ "aktualizacja": "2026-11-05T08:38+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T08:38+01:00",
+   "stan": "gotowe",
+   "tekst": "08:00 – brak nowych postów (raport 05.11 gotowy)"
+  },
+  {
+   "czas": "2026-11-05T08:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
+  },
+  {
+   "czas": "2026-11-05T08:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
+  },
+  {
+   "czas": "2026-11-05T08:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
+  },
   {
    "czas": "2026-11-05T07:42+01:00",
    "stan": "gotowe",
@@ -184,26 +204,6 @@
   },
   {
    "czas": "2026-11-04T23:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
-  },
-  {
-   "czas": "2026-11-04T23:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
-  },
-  {
-   "czas": "2026-11-04T23:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-04T22:38+01:00",
-   "stan": "gotowe",
-   "tekst": "22:00 – brak nowych postów"
-  },
-  {
-   "czas": "2026-11-04T22:38+01:00",
    "stan": "pracuje",
    "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
