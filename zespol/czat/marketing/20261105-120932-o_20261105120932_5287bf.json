@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105120932_5287bf",
+ "czas": "2026-11-05T12:09:32+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Próbka packshotów gotowa (4 kwadratowe grafiki, to obrazy AI zrobione na bazie zdjęć naszych produktów, a nie ich zdjęcia). Obejrzyj styl: tak ma wyglądać? Uwaga: stolik i stołki są zrobione ze zdjęć ze strony, więc szczegóły (np. mocowania stołków, biały pojemnik pod stolikiem) trzeba sprawdzić z prawdziwym produktem przed publikacją.",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/packshoty-probka/podglad.jpg",
+   "nazwa": "podglad.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 69827
+  }
+ ]
+}
