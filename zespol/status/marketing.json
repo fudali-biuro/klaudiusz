@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "czeka",
- "zadanie": "Karuzela + styl packshotów",
+ "stan": "pracuje",
+ "zadanie": "Plan contentu na 2 tygodnie (paczka od Zosi)",
  "postep": null,
- "aktualizacja": "2026-11-05T12:09+01:00",
+ "aktualizacja": "2026-11-05T12:13+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -63,6 +63,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T12:13+01:00",
+   "stan": "pracuje",
+   "tekst": "Plan contentu na 2 tygodnie (paczka od Zosi)"
+  },
   {
    "czas": "2026-11-05T12:09+01:00",
    "stan": "czeka",
