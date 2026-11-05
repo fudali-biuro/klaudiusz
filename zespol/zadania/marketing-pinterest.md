@@ -1,6 +1,7 @@
 ---
-nazwa: "📣 Ola – Pinterest: research zasięgu (9:00)"
-cron: "CRON_TZ=Europe/Warsaw 0 9 * * *"
+nazwa: "Pinterest: research zasięgu"
+kiedy: "rano"
+kolejnosc: 30
 ---
 # Pinterest FUDALI – codzienny research zasięgu (Etsy)
 

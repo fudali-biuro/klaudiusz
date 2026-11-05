@@ -1,18 +1,30 @@
-# Zadania automatyczne – każdy pracownik ma swoje
+# Obowiązki zespołu – każdy pracownik ma swoje
 
-Jeden plik = jedno zadanie automatyczne jednego pracownika: `<id-pracownika>-<klucz>.md`.
-Nagłówek: `nazwa` (tak nazywa się zadanie w Claude), `cron` (kiedy – pusty = tylko na wezwanie).
-Zadanie budzi **stałą sesję pracownika** (subczat nazwany jego imieniem) i każe mu wykonać procedurę z tego pliku.
-Utworzenie / przeniesienie zadań: `zespol/sesje.md`. Lista: `python3 scripts/sesje.py pokaz`.
+Jeden plik = jeden obowiązek jednego pracownika: `<id-pracownika>-<klucz>.md`.
+Nagłówek: `nazwa`, `kiedy` (na której zmianie), opcjonalnie `kolejnosc` (kolejność na zmianie, domyślnie 50) i `wylaczone: tak`.
 
-| Plik | Pracownik | Kiedy |
+**Godzin tu nie ma** – pracownik budzi się na swoje zmiany wg **`zespol/godziny.json`** (jedyne miejsce z godzinami).
+Na zmianie uruchamia `python3 scripts/godziny.py zmiana <id>`, a skrypt wybiera obowiązki wg pola `kiedy`:
+
+| `kiedy` | Znaczenie |
+|---|---|
+| `kazda` | na każdej zmianie |
+| `rano` | na pierwszej (porannej) zmianie dnia |
+| `ostatnia` | na ostatniej zmianie dnia |
+| `pozniej` | na każdej zmianie oprócz pierwszej |
+| `wezwanie` | bez zegarka – osobne zadanie budzone z zewnątrz (np. czat z biura) |
+| `rano pon` | jak wyżej, ale tylko w podane dni (`pon`, `wt`, `śr`, `czw`, `pt`, `sob`, `nd`, zakresy `pon-pt`) |
+
+| Plik | Pracownik | `kiedy` |
 |---|---|---|
-| `klaudiusz-czat.md` | 🧠 Klaudiusz | na wezwanie – wiadomość z czatu w biurze |
-| `konkurencja-raport.md` | 🔭 Mietek | codziennie 7:41 (raport gotowy ok. 8:00) |
-| `konkurencja-monitoring.md` | 🔭 Mietek | co godzinę o :37 |
-| `slowa-kluczowe-godzinne.md` | 🔑 Kuba | co godzinę o :52 (po danych Mietka) |
-| `pozycjonowanie-trendy.md` | 🧭 Bartek | poniedziałek 7:17 |
-| `marketing-plan-tygodnia.md` | 📣 Ola | poniedziałek 7:47 (po trendach Bartka) |
-| `marketing-pinterest.md` | 📣 Ola | codziennie 9:00 |
+| `klaudiusz-czat.md` | 🧠 Klaudiusz | wezwanie – wiadomość z czatu w biurze |
+| `konkurencja-monitoring.md` | 🔭 Mietek | kazda |
+| `konkurencja-raport.md` | 🔭 Mietek | rano (Pablo ma raport gotowy rano) |
+| `pozycjonowanie-trendy.md` | 🧭 Bartek | rano pon |
+| `slowa-kluczowe-pomiar.md` | 🔑 Kuba | kazda (na ostatniej zmianie dnia + podsumowanie dnia) |
+| `marketing-plan-tygodnia.md` | 📣 Ola | rano pon (po trendach Bartka) |
+| `marketing-buffer-posty.md` | 📣 Ola | kazda (rano nowy post, w ciągu dnia odpowiedzi szefa) |
+| `marketing-pinterest.md` | 📣 Ola | rano |
 
-Zosia, Marek i Greta nie mają zadań na zegarek – pracują na zlecenie (Klaudiusz, Ola, Pablo z czatu).
+Przegląd: `python3 scripts/godziny.py pokaz`. Zosia, Marek i Greta nie mają stałych godzin – pracują na zlecenie
+(Klaudiusz, Ola, Pablo z czatu). Gdy dostaną godziny (`godziny.py ustaw`), dopisz im tu obowiązki – inaczej obudzą się na darmo.

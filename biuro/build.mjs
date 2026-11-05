@@ -66,6 +66,9 @@ function czytajJson(p, domyslnie) {
   try { return JSON.parse(fs.readFileSync(p, "utf8")); } catch { return domyslnie; }
 }
 
+// godziny pracy (zmiany) – jedyne miejsce: zespol/godziny.json
+const godzinyRej = czytajJson(path.join(ZESPOL, "godziny.json"), {}).pracownicy || {};
+
 const zespol = [];
 // karty pracowników = zespol/<id>.md z nagłówkiem „id: <id>” (pozostałe .md w zespol/ to dokumentacja, np. sesje.md)
 const pliki = fs.readdirSync(ZESPOL).filter((f) => f.endsWith(".md"))
@@ -77,7 +80,8 @@ for (const id of pliki) {
   const status = czytajJson(path.join(ZESPOL, "status", id + ".json"), { stan: "wolne", zadanie: "", prosby: [], dziennik: [] });
   const wyniki = [];
   for (const w of (meta.wyniki || "").split(";")) for (const rel of znajdz(w)) wyniki.push(kopiuj(rel));
-  zespol.push({ id, ...meta, karta: tresc, status });
+  const g = godzinyRej[id] || {};
+  zespol.push({ id, ...meta, karta: tresc, status, godziny: { godziny: g.godziny || [], dni: g.dni || "codziennie" } });
   zespol.at(-1).wyniki = wyniki;
 }
 

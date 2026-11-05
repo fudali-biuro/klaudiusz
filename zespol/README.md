@@ -5,24 +5,24 @@ Pracownicy to wyspecjalizowane role. Każdy ma swoją **kartę** (`zespol/<id>.m
 jakich skryptów używa, co oddaje – i swój **status** (`zespol/status/<id>.json`), który widać w wirtualnym biurze (`biuro/`).
 
 **Każdy pracownik ma własną, stałą sesję Claude nazwaną jego imieniem** (subczat Klaudiusza) – tam przychodzą jego
-zadania automatyczne (`zadania/<id>-*.md`) i wiadomości. Sesja czyta jego kartę i trzyma się jej zasad, a na początku
+zmiany (budzenie o stałych godzinach – **`godziny.json`, jedyne miejsce z godzinami**; obowiązki: `zadania/<id>-*.md`) i wiadomości. Sesja czyta jego kartę i trzyma się jej zasad, a na początku
 i końcu pracy aktualizuje jego status. Rejestr i procedura: `sesje.json`, `sesje.md`. Pablo rozmawia z każdym
 w **oknie czatu w biurze** (`scripts/czat.py`, rozmowy w `czat/<id>/`).
 
 | # | Pracownik | Rola | Karta | Stan wdrożenia |
 |---|---|---|---|---|
 | 🧠 | **Klaudiusz** | mózg operacji, koordynator | `AGENTS.md`, `zespol/klaudiusz.md` | ✅ aktywny |
-| 1 | 🔭 **Mietek „Lornetka”** | śledzenie konkurencji | `zespol/konkurencja.md` | ✅ aktywny (raport dzienny + monitoring godzinny) |
-| 2 | 📣 **Ola „Megafon”** | marketing (+ Pinterest/Etsy) | `zespol/marketing.md` | ✅ aktywna (posty, kampanie, szkice w Metricool) |
+| 1 | 🔭 **Mietek „Lornetka”** | śledzenie konkurencji | `zespol/konkurencja.md` | ✅ aktywny (raport rano + monitoring na każdej zmianie) |
+| 2 | 📣 **Ola „Megafon”** | marketing (+ Pinterest/Etsy) | `zespol/marketing.md` | ✅ aktywna (posty, kampanie, Pinterest, szkice w Buffer) |
 | 3 | 🧭 **Bartek „Kompas”** | pozycjonowanie (SEO) + Google Trends | `zespol/pozycjonowanie.md` | ✅ aktywny (trendy co tydzień) |
 | 4 | 🎨 **Zosia „Pędzel”** | grafika | `zespol/grafika.md` | ✅ aktywna (produkty w nowych scenach) |
-| 5 | 🔑 **Kuba „Klucznik”** | słowa kluczowe | `zespol/slowa-kluczowe.md` | ✅ aktywny (pomiar co godzinę) |
+| 5 | 🔑 **Kuba „Klucznik”** | słowa kluczowe | `zespol/slowa-kluczowe.md` | ✅ aktywny (pomiar na każdej zmianie) |
 | 6 | 🤝 **Marek „Domykacz”** | sprzedaż | `zespol/sprzedaz.md` | 🧩 makieta |
 | 7 | 🌍 **Greta „Paszport”** | rynki zagraniczne | `zespol/rynki-zagraniczne.md` | 🧩 makieta |
 
 **Makieta** = rola jest zaprojektowana (zadania, planowane skrypty, potrzebne dostępy), ale nie ma jeszcze
-automatów. Wdrożenie = napisanie skryptów z sekcji „Planowane narzędzia”, dopisanie zadania automatycznego
-w `AGENTS.md` i zmiana `wdrozenie: makieta` → `aktywny` w nagłówku karty.
+automatów. Wdrożenie = napisanie skryptów z sekcji „Planowane narzędzia”, plik obowiązku `zadania/<id>-<klucz>.md`,
+godziny w `godziny.json` (`scripts/godziny.py ustaw` + `plan`) i zmiana `wdrozenie: makieta` → `aktywny` w nagłówku karty.
 
 ## Jak przepływa praca
 ```

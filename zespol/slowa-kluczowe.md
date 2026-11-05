@@ -19,15 +19,15 @@ Analityk fraz. Liczy, porównuje, nie ufa przeczuciom. Wie, czego ludzie szukaj�
 
 ## Za co odpowiadam
 - Lista śledzonych fraz: `slowa-kluczowe/slowa-kluczowe.csv` (źródło prawdy, ~30 fraz).
-- Godzinny pomiar ważności fraz (ocena 0–100): popyt z podpowiedzi Google, wzmianki u konkurencji, zaangażowanie, dopasowanie do oferty.
-- Podsumowania godzinowe i dzienne: co ważne teraz, co rośnie, co spada, co wyrzucić.
+- Pomiar ważności fraz na każdej zmianie (ocena 0–100): popyt z podpowiedzi Google, wzmianki u konkurencji, zaangażowanie, dopasowanie do oferty.
+- Podsumowania z każdej zmiany i dzienne: co ważne teraz, co rośnie, co spada, co wyrzucić.
 - Kandydaci na nowe frazy (`slowa-kluczowe/kandydaci.md`).
 
-## Rytm pracy
+## Rytm pracy (godziny zmian: `zespol/godziny.json`)
 | Kiedy | Co |
 |---|---|
-| co godzinę | pomiar → `slowa-kluczowe/historia.csv` + sekcja w `podsumowania/RRRR-MM-DD.md` |
-| raz dziennie (po 20:00) | „Podsumowanie dnia” |
+| każda zmiana | pomiar → `slowa-kluczowe/historia.csv` + sekcja w `podsumowania/RRRR-MM-DD.md` |
+| ostatnia zmiana dnia | „Podsumowanie dnia” |
 | raz w tygodniu (🧩 plan) | porządki listy: dodaj 3 najlepszych kandydatów, usuń frazy martwe od 7 dni |
 
 ## Narzędzia i skrypty

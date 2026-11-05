@@ -1,6 +1,6 @@
 ---
 nazwa: "📨 Czat z biura – listonosz"
-cron: ""
+kiedy: "wezwanie"
 wylaczone: tak
 ---
 # 📨 Czat z biura – jak wiadomość od Pablo dociera do pracownika

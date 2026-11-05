@@ -5,7 +5,7 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 ## Kroki
 1. Wczytaj **wszystkie pliki `konkurencja/firmy/*.md`** (źródło prawdy o konkurentach; indeks: `konkurencja/konkurenci.md`)
    oraz 2–3 ostatnie raporty z `raporty/` (żeby nie powtarzać tych samych informacji i móc pokazać zmiany).
-2. Wczytaj wyniki godzinnego monitoringu z ostatnich 24 h: `monitoring/social/<wczoraj>.md`, `monitoring/social/<dziś>.md`
+2. Wczytaj wyniki monitoringu (logi ze zmian) z ostatnich 24 h: `monitoring/social/<wczoraj>.md`, `monitoring/social/<dziś>.md`
    oraz `slowa-kluczowe/podsumowania/<wczoraj>.md`. Najważniejsze posty i pomysły „możemy zrobić podobnie” przenieś do raportu.
 3. **Główny rywal – Bogateco / Płoty Ogrodowe (`konkurencja/firmy/bogateco.md`) – sprawdzaj ZAWSZE i najdokładniej**
    (obie strony, FB, IG, marketplace’y): nowe produkty, ceny kluczowych produktów (i zmiany vs poprzedni raport), promocje,
@@ -39,7 +39,7 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 ## Co się zmieniło u konkurencji
 (tabela: Firma | Zmiana | Źródło)
 ## Ceny – obserwacje
-## Marketing i social media (w tym najlepsze posty z monitoringu godzinnego i pomysły dla FUDALI)
+## Marketing i social media (w tym najlepsze posty z monitoringu i pomysły dla FUDALI)
 ## Słowa kluczowe – co zyskuje, co traci
 ## Rynek i surowiec
 ## Szanse dla FUDALI (2–3 konkretne rekomendacje na dziś/ten tydzień)

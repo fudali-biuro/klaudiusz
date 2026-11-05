@@ -7,10 +7,13 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 
 ## Zadania automatyczne
 
+Zespół nie pracuje 24/7 – każdy pracownik budzi się na swoje **zmiany** (rano ok. 5:00 i w południe ok. 12:00).
+Godziny: **`zespol/godziny.json`** (jedyne miejsce), obowiązki: `zespol/zadania/`, opis: `AGENTS.md` („Zmiany pracy”).
+
 | Zadanie | Kiedy | Procedura | Wynik |
 |---|---|---|---|
-| Raport konkurencji (główny rywal: Bogateco / Płoty Ogrodowe) | codziennie ok. 8:00 (+ powiadomienie Telegram) | `konkurencja/instrukcja-raportu.md` | `raporty/RRRR-MM-DD-konkurencja.md` |
-| Monitoring IG/TikTok konkurencji + słowa kluczowe | co godzinę | `konkurencja/instrukcja-monitoringu.md` | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
+| Raport konkurencji (główny rywal: Bogateco / Płoty Ogrodowe) | poranna zmiana (+ powiadomienie Telegram) | `konkurencja/instrukcja-raportu.md` | `raporty/RRRR-MM-DD-konkurencja.md` |
+| Monitoring IG/TikTok konkurencji + słowa kluczowe | każda zmiana | `konkurencja/instrukcja-monitoringu.md` | `monitoring/social/RRRR-MM-DD.md`, `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
 
 ## Struktura
 - `AGENTS.md` – główne instrukcje dla agentów (zasady pracy, narzędzia/API); `CLAUDE.md` tylko go importuje
@@ -18,8 +21,8 @@ Instagram: [@fudali_nowoczesne_stolarstwo](https://www.instagram.com/fudali_nowo
 - `biuro/` – **wirtualne biuro** na Vercel (pikselowa mapa: kto pracuje, kto czeka na szefa) – instrukcja `biuro/README.md`
 - `konkurencja/firmy/*.md` – **źródło prawdy o konkurencji** (jeden plik = jedna firma, konta IG/TikTok w nagłówku)
 - `konkurencja/konkurenci.md` – indeks (generowany)
-- `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), historia pomiarów, kandydaci, podsumowania godzinowe
-- `monitoring/` – logi godzinne i stan scrapera (`monitoring/media/` – wideo/klatki, poza gitem)
+- `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), historia pomiarów, kandydaci, podsumowania z każdej zmiany
+- `monitoring/` – logi z każdej zmiany i stan scrapera (`monitoring/media/` – wideo/klatki, poza gitem)
 - `raporty/` – codzienne raporty
 - `scripts/` – scraper (Apify), analiza wideo (ffmpeg + Gemini 4 przez OpenRouter), metryki słów, powiadomienia Telegram
 

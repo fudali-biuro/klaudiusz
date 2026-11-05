@@ -31,10 +31,10 @@ Myśli lokalnie („altana Rzeszów”, „drewutnia Podkarpacie”) i ogólnopo
   leżak w Niemczech (dla Grety/Etsy), **Ecofurn/EcoChair** na świecie.
 - Wynik: `seo/trendy/RRRR-MM-DD.md` – co rośnie/spada, sezonowość (kiedy szczyt), TOP 3 frazy na tydzień, rekomendacje dla Oli i strony.
 
-## Rytm pracy
+## Rytm pracy (godziny zmian: `zespol/godziny.json`)
 | Kiedy | Co |
 |---|---|
-| poniedziałek ~7:50 (zadanie automatyczne, razem z Olą) | Google Trends → `seo/trendy/RRRR-MM-DD.md` + rekomendacje do planu postów |
+| poniedziałek, poranna zmiana (przed Olą) | Google Trends → `seo/trendy/RRRR-MM-DD.md` + rekomendacje do planu postów |
 | raz w tygodniu | mini-audyt strony + pozycje TOP 20 fraz → `seo/RRRR-MM-DD-audyt.md` |
 | raz w tygodniu | 1 propozycja tekstu poradnikowego (szkic gotowy do wklejenia) |
 | raz w miesiącu | raport: pozycje, ruch, co poprawiono, co dalej |

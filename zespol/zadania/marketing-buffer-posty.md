@@ -1,6 +1,7 @@
 ---
-nazwa: "📣 Ola – gotowy post pod klucz w Buffer (10:13)"
-cron: "CRON_TZ=Europe/Warsaw 13 10 * * *"
+nazwa: "Post pod klucz → akceptacja szefa → Buffer"
+kiedy: "kazda"
+kolejnosc: 20
 ---
 # Gotowy post pod klucz → akceptacja szefa → publikacja przez Buffer
 
@@ -8,6 +9,10 @@ Masz podpięty **Buffer** (konektor `mcp__Buffer__*`), organizacja „My organiz
 Kanały: Pinterest `FudaliNowoczesneStolarstwo` (`6aeb3db8e29c69a1715d6f02`), TikTok `nowoczesne_stolarstwo` (`6aeb3da5e29c69a1715d6de6`).
 Instagram jeszcze niepodpięty w Bufferze – sprawdź `list_channels`; jeśli dalej go nie ma, przygotuj wersję IG w pliku i dopisz w prośbie, że trzeba go podpiąć.
 Plan darmowy: max 10 zaplanowanych postów – pilnuj limitu.
+
+**Która zmiana?** Na porannej: punkty 1–6 (odpowiedzi szefa + nowy post). Na zmianie w ciągu dnia (np. południe): przede wszystkim
+punkt 2 – reaguj na odpowiedzi szefa (publikacja po „tak”, poprawki), przejrzyj nowe „💡 TAK” Mietka; nowy post przygotuj tylko,
+jeśli dziś jeszcze żadnego nie było. Brak odpowiedzi i nic nowego → status i koniec zmiany.
 
 1. `python3 scripts/status.py marketing pracuje "Post pod klucz do akceptacji"`.
 2. Najpierw sprawdź czat (`python3 scripts/czat.py pokaz marketing`): czy szef odpowiedział na wcześniejsze propozycje.

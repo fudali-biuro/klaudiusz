@@ -39,9 +39,9 @@ każdy ma kartę w `zespol/<id>.md` (kim jest, co robi, jakich skryptów używa,
 
 ### 🧩 Sesje: Klaudiusz + 7 subczatów (polecenie Pablo, 04.11.2026)
 Nie ma jednego wielkiego procesu. **Klaudiusz ma sesję główną „🧠 Klaudiusz”** (session master), a **każdy pracownik ma własną,
-stałą sesję nazwaną jego imieniem** (np. „📣 Ola „Megafon” – marketing”) – tam przychodzą jego zadania automatyczne i wiadomości.
+stałą sesję nazwaną jego imieniem** (np. „📣 Ola „Megafon” – marketing”) – tam przychodzą jego zmiany (budzenie o stałych godzinach, `zespol/godziny.json`) i wiadomości.
 Wszystkie sesje działają na **średnim wysiłku (medium)**. Rejestr sesji: `zespol/sesje.json` (`python3 scripts/sesje.py pokaz`),
-procedura tworzenia/naprawy: `zespol/sesje.md`, zadania automatyczne każdego pracownika: `zespol/zadania/<id>-*.md`.
+procedura tworzenia/naprawy: `zespol/sesje.md`, obowiązki każdego pracownika: `zespol/zadania/<id>-*.md`, godziny pracy: `zespol/godziny.json`.
 - Klaudiusz zleca pracę przez `send_message` do sesji pracownika; pracownik po skończeniu **melduje się Klaudiuszowi** (send_message).
 - Pracownicy współpracują bezpośrednio (np. Mietek → Ola: pomysł TAK; Ola → Zosia: grafika; Bartek → Ola: trendy).
 
@@ -100,19 +100,39 @@ Nigdy nie każ nikomu (np. koledze-deweloperowi) klikać ani niczego ustawiać w
 Po dodaniu klucza zrób krótki test (np. jedno zapytanie) i ustaw status ✅ albo ❌.
 Klucze dodaje się w ustawieniach środowiska chmurowego (menu środowiska w pasku tytułu sesji → Edit → zmienne środowiskowe) – nowe sesje widzą je od razu.
 
-## Zadania automatyczne
-Każde zadanie budzi **sesję swojego pracownika** (procedury: `zespol/zadania/`, lista z ID: `python3 scripts/sesje.py pokaz`).
+## ⏰ Zmiany pracy – zespół NIE pracuje 24/7 (oszczędzamy kredyty, polecenie Pablo 05.11.2026)
+Każdy pracownik budzi się sam **tylko na swoje zmiany**: rano (ok. 5:00 – Pablo ma wszystko gotowe na rano) i w południe
+(ok. 12:00 – reakcja na to, co przyszło w ciągu dnia). Poza zmianami pracuje tylko, gdy Pablo coś napisze w czacie.
+**Godziny są zapisane w JEDNYM miejscu: `zespol/godziny.json`** (jedna linia na pracownika; odstępy kilkunastu minut są celowe:
+Mietek zbiera dane → Bartek → Kuba → Ola korzysta z wyników wszystkich). Nigdzie indziej nie wpisuj godzin.
 
-| Zadanie | Pracownik (sesja) | Kiedy (Europe/Warsaw) | Wynik |
+**Pablo chce inne godziny** (np. „Ola niech pracuje o 6 i 14”, „wszyscy o 6 i 15”, „Zosia też rano”) – zrób to od razu:
+```bash
+python3 scripts/godziny.py ustaw marketing 6:00 14:00        # albo: ustaw wszyscy 6:00 15:00 · ustaw grafika 5:40 · ustaw <id> brak · --dni pon-pt
+python3 scripts/godziny.py plan marketing                    # JSON: co wywołać
+```
+→ każdą pozycję z planu wykonaj narzędziem (`update_trigger` / `create_trigger` z podanymi argumentami, potem komenda z „potem”)
+→ zapis na main → jedno zdanie do Pablo w czacie („Ola od jutra pracuje o 6:00 i 14:00”). Godzin nie zaokrąglaj do :00 – zostaw minuty jak w pliku.
+`python3 scripts/godziny.py pokaz` – kto o której i co robi. Każdy pracownik ma jedno zadanie automatyczne „zmiany” (klucz `zmiana` w `zespol/sesje.json`).
+
+**Na zmianie** pracownik uruchamia `python3 scripts/godziny.py zmiana <id>` – skrypt wypisuje, które obowiązki zrobić teraz
+(pliki `zespol/zadania/<id>-*.md`, pole `kiedy`: `kazda` / `rano` = pierwsza zmiana dnia / `ostatnia` / `pozniej` / `wezwanie`,
+opcjonalnie z dniem, np. `rano pon`) i które instrukcje się zmieniły. Przekazania między pracownikami idą przez pliki
+(czytają je na swojej zmianie); `send_message` do innej sesji tylko w sprawach pilnych – każda wiadomość budzi sesję i kosztuje.
+
+| Obowiązek (`zespol/zadania/…`) | Pracownik | Kiedy | Wynik |
 |---|---|---|---|
-| 📨 Czat z biura – listonosz + 📥 Skrzynki (`klaudiusz-czat.md`) | listonosz: krótka sesja; skrzynka: stała sesja adresata | na wezwanie – wiadomość Pablo z biura | wiadomość w archiwum, adresat obudzony po ~2 min |
-| Raport konkurencji (`konkurencja-raport.md`, rywale: Bogateco / Płoty Ogrodowe, Ecofurn / EcoChair) | 🔭 Mietek | codziennie 7:41 (gotowy ok. 8:00) | `raporty/RRRR-MM-DD-konkurencja.md` + Telegram |
-| Monitoring IG/TikTok konkurencji (`konkurencja-monitoring.md`, klatki + Gemini 4) | 🔭 Mietek | co godzinę o :37 | `monitoring/social/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/`; pomysły TAK → Ola |
-| Pomiar słów kluczowych (`slowa-kluczowe-godzinne.md`) | 🔑 Kuba | co godzinę o :52 | `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
-| Trendy tygodnia – Google Trends (`pozycjonowanie-trendy.md`) | 🧭 Bartek | poniedziałek 7:17 | `seo/trendy/RRRR-MM-DD.md` → Ola |
-| Plan marketingu na tydzień (`marketing-plan-tygodnia.md`) | 📣 Ola | poniedziałek 7:47 | `marketing/kalendarz-RRRR-MM.md`, posty, prośba o akceptację w czacie |
-| Pinterest: research zasięgu (`marketing-pinterest.md`) | 📣 Ola | codziennie 9:00 | `marketing/pinterest/RRRR-MM.md`, szkice pinów EN w Buffer |
-| Post pod klucz → akceptacja szefa → publikacja przez Buffer (`marketing-buffer-posty.md`) | 📣 Ola | codziennie 10:13 | `marketing/posty/`, szkic w Buffer, prośba o akceptację w czacie; publikacja dopiero po „tak” |
+| 📨 Czat z biura – listonosz + 📥 Skrzynki (`klaudiusz-czat.md`) | listonosz: krótka sesja; skrzynka: stała sesja adresata | na wezwanie – wiadomość Pablo z biura (o każdej porze) | wiadomość w archiwum, adresat obudzony po ~2 min |
+| Monitoring IG/TikTok konkurencji (`konkurencja-monitoring.md`, klatki + Gemini 4) | 🔭 Mietek | każda zmiana | `monitoring/social/RRRR-MM-DD.md`, dziennik w `konkurencja/firmy/`; pomysły „💡 TAK” dla Oli |
+| Raport konkurencji (`konkurencja-raport.md`, rywale: Bogateco / Płoty Ogrodowe, Ecofurn / EcoChair) | 🔭 Mietek | poranna zmiana | `raporty/RRRR-MM-DD-konkurencja.md` + Telegram |
+| Trendy tygodnia – Google Trends (`pozycjonowanie-trendy.md`) | 🧭 Bartek | poniedziałek, poranna zmiana | `seo/trendy/RRRR-MM-DD.md` (czyta Ola) |
+| Pomiar słów kluczowych (`slowa-kluczowe-pomiar.md`) | 🔑 Kuba | każda zmiana (ostatnia: podsumowanie dnia) | `slowa-kluczowe/podsumowania/RRRR-MM-DD.md` |
+| Plan marketingu na tydzień (`marketing-plan-tygodnia.md`) | 📣 Ola | poniedziałek, poranna zmiana | `marketing/kalendarz-RRRR-MM.md`, posty, prośba o akceptację w czacie |
+| Post pod klucz → akceptacja szefa → Buffer (`marketing-buffer-posty.md`) | 📣 Ola | każda zmiana (rano nowy post, w południe odpowiedzi szefa) | `marketing/posty/`, szkic w Buffer; publikacja dopiero po „tak” |
+| Pinterest: research zasięgu (`marketing-pinterest.md`) | 📣 Ola | poranna zmiana | `marketing/pinterest/RRRR-MM.md`, szkice pinów EN w Buffer |
+
+Zosia, Marek i Greta nie mają stałych godzin – pracują na zlecenie (Pablo w czacie, Klaudiusz, Ola). Nowy obowiązek = nowy plik
+`zespol/zadania/<id>-<klucz>.md` z `nazwa` i `kiedy` (bez nowego zadania automatycznego); pracownik bez godzin → najpierw `godziny.py ustaw`.
 
 ## Struktura
 
@@ -120,15 +140,16 @@ Każde zadanie budzi **sesję swojego pracownika** (procedury: `zespol/zadania/`
 - `konkurencja/konkurenci.md` – indeks generowany z `firmy/` (`python3 scripts/indeks_konkurencji.py`) – nie edytuj ręcznie
 - `konkurencja/instrukcja-raportu.md`, `konkurencja/instrukcja-monitoringu.md` – procedury zadań automatycznych
 - `slowa-kluczowe/` – lista fraz (`slowa-kluczowe.csv`), `historia.csv`, `kandydaci.md`, `podsumowania/`
-- `monitoring/` – logi godzinne (`social/`) i stan scrapera (`stan/`); `monitoring/media/` (wideo, klatki) jest poza repo
+- `monitoring/` – logi z każdej zmiany (`social/`) i stan scrapera (`stan/`); `monitoring/media/` (wideo, klatki) jest poza repo
 - `marketing/` – biurko Oli: `produkty.md` (fakty o produktach), `kalendarz-*.md`, `posty/`, `kampanie/`, `zdjecia/`
 - `raporty/` – archiwum raportów
 - `zespol/` – karty pracowników (`<id>.md`), statusy (`status/<id>.json`, tylko przez `scripts/status.py`),
-  sesje (`sesje.json` + `sesje.md`), zadania automatyczne (`zadania/`), czat z Pablo (`czat/<id>/*.json`, `czat/zalaczniki/`)
+  sesje (`sesje.json` + `sesje.md`), **godziny pracy (`godziny.json` – jedyne miejsce)**, obowiązki (`zadania/`), czat z Pablo (`czat/<id>/*.json`, `czat/zalaczniki/`)
 - `biuro/` – wirtualne biuro (pikselowa strona na Vercel, `biuro/README.md`); konfiguracja w `vercel.json`;
   `api/` – serwer czatu na Vercel (wiadomości z biura → zadanie „📨 Czat z biura”, załączniki w Vercel Blob)
 - `AGENTS.md` – instrukcje dla agentów + lista narzędzi/API
 - `scripts/powiadom-telegram.sh` – wysyłka powiadomienia na Telegram (bot)
-- `scripts/godzinny.sh konkurencja|slowa` – przebieg danych monitoringu (część Mietka: scraper Apify → analiza wideo ffmpeg + Gemini; część Kuby: metryki słów kluczowych) – sam ustawia ich statusy
+- `scripts/godzinny.sh konkurencja|slowa` – przebieg danych monitoringu na zmianie (część Mietka: scraper Apify → analiza wideo ffmpeg + Gemini; część Kuby: metryki słów kluczowych) – sam ustawia ich statusy
 - `scripts/status.py` – status pracownika w biurze (pracuje / gotowe / czeka + prośba / wolne / blad)
-- `scripts/czat.py` – czat z Pablo (napisz / przyjmij / pokaz); `scripts/sesje.py` – sesje i zadania zespołu
+- `scripts/czat.py` – czat z Pablo (napisz / przyjmij / pokaz); `scripts/sesje.py` – sesje zespołu;
+  `scripts/godziny.py` – godziny pracy (pokaz / ustaw / plan / zmiana)

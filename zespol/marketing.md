@@ -25,7 +25,7 @@ i z całej Polski: konkret, drewno, zapach żywicy, „zrobione u nas w Głogowi
 - Przerabianie pomysłów „TAK” od Mietka na posty w stylu FUDALI.
 - **Wyprzedzić rywali** (polecenie Pablo): **Bogateco / Płoty Ogrodowe** (PL, `konkurencja/firmy/bogateco.md`) i **Ecofurn / EcoChair**
   (ten sam leżak, za granicą, `konkurencja/firmy/ecofurn.md`). Każdy plan i kampania ma sekcję „Jak wyprzedzamy rywali”.
-- Pinterest (EN → Etsy) – razem z codziennym zadaniem „Pinterest FUDALI: codzienny research zasięgu” (9:00).
+- Pinterest (EN → Etsy) – codzienny research zasięgu na porannej zmianie.
 
 ## Zasady (obowiązkowe)
 1. Fakty o produktach (ceny, materiały, kolory) – **tylko** z `marketing/produkty.md`; nowe dane najpierw sprawdź na fudali.com.pl i dopisz tam ze źródłem.
@@ -34,12 +34,12 @@ i z całej Polski: konkret, drewno, zapach żywicy, „zrobione u nas w Głogowi
 4. Godziny: pt/śr/czw 10:00, wt–czw 18:00 (Buffer, strefa **Europe/Warsaw**).
 5. Ton: ciepło i konkretnie, z lekkim humorem; krótkie zdania, cena i link w każdym poście sprzedażowym.
 
-## Rytm pracy
+## Rytm pracy (godziny zmian: `zespol/godziny.json`)
 | Kiedy | Co |
 |---|---|
-| poniedziałek ~7:50 (zadanie automatyczne) | plan tygodnia: posty + stories → `marketing/kalendarz-RRRR-MM.md`, szkice w Buffer, Telegram do Pablo |
-| codziennie 9:00 (zadanie automatyczne) | Pinterest: research zasięgu, szkice pinów EN → Etsy |
-| codziennie | przegląd pomysłów z monitoringu Mietka i fraz Kuby, poprawki w kalendarzu |
+| poniedziałek, poranna zmiana | plan tygodnia: posty + stories → `marketing/kalendarz-RRRR-MM.md`, szkice w Buffer, prośba do Pablo |
+| poranna zmiana | Pinterest: research zasięgu, szkice pinów EN → Etsy; nowy post pod klucz (szkic w Buffer + prośba o akceptację) |
+| każda zmiana | odpowiedzi szefa (publikacja po „tak”), przegląd „💡 TAK” Mietka i fraz Kuby, poprawki w kalendarzu |
 | 1. dzień miesiąca | podsumowanie: co zadziałało (zasięgi, komentarze, zapytania) |
 
 ## Narzędzia i skrypty

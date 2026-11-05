@@ -19,7 +19,7 @@ Wie, że polskie drewniane domki i drewutnie są w Niemczech, Austrii czy Holand
 
 ## Co już mamy (04.11.2026)
 - **Etsy – nasz sklep na zagranicę** (słowa Pablo): https://fudaliattimber.etsy.com, oferta leżaka https://www.etsy.com/listing/1821779072.
-- Pinterest po angielsku (FudaliNowoczesneStolarstwo) kieruje ruch na Etsy (zadanie codzienne 9:00, razem z Olą).
+- Pinterest po angielsku (FudaliNowoczesneStolarstwo) kieruje ruch na Etsy (codziennie na porannej zmianie Oli).
 - Główny rywal za granicą: **Ecofurn / EcoChair** (Estonia) – `konkurencja/firmy/ecofurn.md`; w CH 147–237 CHF, poduszka osobno.
 - Etsy blokuje automatyczne pobieranie stron (403) – dane o sprzedaży z Etsy trzeba będzie brać z panelu sprzedawcy albo przez Apify.
 

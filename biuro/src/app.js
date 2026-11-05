@@ -643,12 +643,16 @@ function otworz(id, opcje = {}) {
     const dziennik = (s.dziennik || []).slice(0, 12).map((d) => `<li><i style="--k:${(STANY[d.stan] || STANY.wolne).kolor}"></i><time>${esc(kiedy(d.czas))}</time><span>${esc(d.tekst)}</span></li>`).join("");
     const zapisy = id === "klaudiusz" && DANE.zapisy?.length ? `<div class="sekcja"><h3>💾 Ostatnie zapisy w archiwum</h3><ul class="dziennik">${DANE.zapisy.slice(0, 10).map((z) => `<li><i style="--k:#d97742"></i><time>${esc(kiedy(z.czas))}</time><span>${esc(z.tekst)}</span></li>`).join("")}</ul></div>` : "";
     const ses = DANE.sesje?.[id];
-    const sesja = ses?.link ? `<div class="sekcja"><h3>🔧 Sesja w Claude</h3><p class="male">Każdy pracownik ma własną sesję nazwaną „${esc(ses.tytul || o.imie)}”${ses.zadania?.length ? ` – zadania automatyczne: ${ses.zadania.map(esc).join(", ")}` : ""}.</p><a class="przycisk" href="${esc(ses.link)}" target="_blank" rel="noopener">Otwórz sesję (do poprawek) ↗</a></div>` : "";
+    const gz = o.godziny?.godziny || [];
+    const godzinyPracy = id === "klaudiusz" ? "" : `<div class="sekcja"><h3>⏰ Godziny pracy</h3><p>${gz.length
+      ? `Sam zabiera się do pracy o <b>${gz.map((x) => esc(x.replace(/^0/, ""))).join("</b> i <b>")}</b>${o.godziny.dni && o.godziny.dni !== "codziennie" ? ` (${esc(o.godziny.dni)})` : " codziennie"}.`
+      : "Bez stałych godzin – pracuje, gdy coś zlecisz."}</p><p class="male">Poza tym odpowiada, gdy napiszesz w czacie. Inne godziny? Napisz Klaudiuszowi, np. „${esc(o.imie || "")} niech pracuje o 6 i 14”.</p></div>`;
+    const sesja = ses?.link ? `<div class="sekcja"><h3>🔧 Sesja w Claude</h3><p class="male">Każdy pracownik ma własną sesję nazwaną „${esc(ses.tytul || o.imie)}”.</p><a class="przycisk" href="${esc(ses.link)}" target="_blank" rel="noopener">Otwórz sesję (do poprawek) ↗</a></div>` : "";
     tresc.innerHTML = `<div class="sekcja"><h3>⌨️ Teraz</h3><p>${esc(s.zadanie || "—")}</p>${postep}<div class="male">Ostatni sygnał: ${esc(kiedy(s.aktualizacja))}${s.makieta ? " · przykładowe dane (makieta)" : ""}</div></div>
       ${(s.prosby || []).length ? `<div class="sekcja"><h3>🙋 Potrzebuje od Ciebie</h3>${htmlProsby(o, false)}</div>` : ""}
       <div class="sekcja"><h3>📂 Ostatnie wyniki</h3><div class="pliki">${wyniki || `<p class="male">Jeszcze nic – ${o.wdrozenie === "makieta" ? "rola czeka na wdrożenie." : "pierwsze wyniki pojawią się po najbliższym przebiegu."}</p>`}</div></div>
       ${dziennik ? `<div class="sekcja"><h3>🗒️ Dziennik</h3><ul class="dziennik">${dziennik}</ul></div>` : ""}
-      ${zapisy}${sesja}
+      ${godzinyPracy}${zapisy}${sesja}
       <details class="karta-prac"><summary>🪪 Karta pracownika (co robi, jakich narzędzi używa)</summary><div class="md">${renderMd(o.karta || "")}</div></details>`;
     if (window.Czat) Czat.otworz(id, $("#panel-czat"));
     if (opcje.zakladka) ustawZakladke(opcje.zakladka);

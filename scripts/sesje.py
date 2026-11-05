@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Sesje zespołu: Klaudiusz (sesja główna) + osobna sesja (subczat) dla każdego pracownika.
 
-Rejestr: zespol/sesje.json  ·  procedura: zespol/sesje.md  ·  zadania automatyczne: zespol/zadania/<id>-*.md
+Rejestr: zespol/sesje.json  ·  procedura: zespol/sesje.md  ·  obowiązki: zespol/zadania/<id>-*.md  ·  godziny: zespol/godziny.json
 
   python3 scripts/sesje.py pokaz                       # kto ma jaką sesję i jakie zadania automatyczne
   python3 scripts/sesje.py parametry <id>              # JSON gotowy do create_session (tytuł, prompt systemowy, start)
   python3 scripts/sesje.py zapisz <id> <session_id>    # zapamiętaj sesję pracownika
-  python3 scripts/sesje.py zadania <id>                # JSON zadań automatycznych do create_trigger
+  python3 scripts/sesje.py zadania <id>                # JSON zadań automatycznych do create_trigger (godziny: zespol/godziny.json)
   python3 scripts/sesje.py zadanie <id> <klucz> <trig_id>   # zapamiętaj utworzone zadanie automatyczne
   python3 scripts/sesje.py usun-zadanie <id> <klucz>
 """
@@ -55,23 +55,10 @@ def naglowek_zadania(p):
 
 
 def zadania_pracownika(pid):
-    wynik = []
-    for p in sorted(ZADANIA.glob(f"{pid}-*.md")):
-        n = naglowek_zadania(p)
-        if n.get("wylaczone") == "tak":
-            continue
-        klucz = p.stem[len(pid) + 1:]
-        prompt = (f"⏰ Zadanie automatyczne „{n.get('nazwa', klucz)}”. Pracujesz jako {tytul(pid)}.\n"
-                  f"1. `cd` do repozytorium klaudiusz, `git pull --rebase origin main` (jeśli repo nie jest sklonowane – "
-                  f"wywołaj mcp__claude-code-remote__add_repo owner=fudali-biuro repo=klaudiusz access=push i sklonuj).\n"
-                  f"2. Przeczytaj AGENTS.md i zespol/{pid}.md (mogły się zmienić), potem wykonaj DOKŁADNIE procedurę z pliku "
-                  f"{p.relative_to(ROOT)}.\n"
-                  f"3. Na końcu zapisz wyniki na main i ustaw status w biurze (scripts/status.py {pid} …).")
-        if klucz == "czat":
-            prompt = p.read_text(encoding="utf-8").split("---", 2)[2].strip()
-        wynik.append({"klucz": klucz, "name": n.get("nazwa", klucz), "cron_expression": n.get("cron", ""),
-                      "plik": str(p.relative_to(ROOT)), "prompt": prompt})
-    return wynik
+    """Docelowe zadania automatyczne pracownika – liczy je scripts/godziny.py z zespol/godziny.json (godziny zmian)
+    i zespol/zadania/<id>-*.md (obowiązki; `kiedy: wezwanie` = osobne zadanie bez zegarka, np. czat)."""
+    from godziny import wyzwalacze
+    return wyzwalacze(pid)
 
 
 def prompt_systemowy(pid, sesja_klaudiusza):
@@ -158,7 +145,7 @@ def main():
                 print(f"{'':47}⏰ {kl}: {t}")
             for z in zadania_pracownika(pid):
                 if z["klucz"] not in (s.get("zadania") or {}):
-                    print(f"{'':47}⚠️  zadanie „{z['name']}” ({z['plik']}) – jeszcze nie utworzone")
+                    print(f"{'':47}⚠️  zadanie „{z['name']}” ({z['klucz']}) – jeszcze nie utworzone (python3 scripts/godziny.py plan {pid})")
     elif a.komenda == "skrzynka":
         print(json.dumps({"name": f"📥 Skrzynka – {tytul(arg[0])}", "persistent_session_id": (d["sesje"].get(arg[0]) or {}).get("sesja"),
                           "prompt": prompt_skrzynki(arg[0])}, ensure_ascii=False, indent=1))

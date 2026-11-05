@@ -1,0 +1,13 @@
+{
+ "_opis": "GODZINY PRACY ZESPOŁU (czas polski) – JEDYNE miejsce, gdzie są zapisane. Pracownik budzi się sam tylko o tych godzinach (poza nimi – tylko gdy Pablo coś napisze w czacie). Zmiana: python3 scripts/godziny.py ustaw <id> 6:00 14:00 → python3 scripts/godziny.py plan <id> → wykonaj wypisane kroki (AGENTS.md, „Zmiany pracy”). Odstępy kilkunastu minut między osobami są celowe: Mietek zbiera dane → Bartek → Kuba → Ola korzysta z wyników wszystkich. Puste godziny = bez stałych godzin, pracuje tylko na zlecenie.",
+ "strefa": "Europe/Warsaw",
+ "pracownicy": {
+  "konkurencja": {"godziny": ["05:05", "12:05"], "dni": "codziennie"},
+  "pozycjonowanie": {"godziny": ["05:15"], "dni": "pon"},
+  "slowa-kluczowe": {"godziny": ["05:20", "12:20"], "dni": "codziennie"},
+  "marketing": {"godziny": ["05:35", "12:35"], "dni": "codziennie"},
+  "grafika": {"godziny": [], "dni": "codziennie"},
+  "sprzedaz": {"godziny": [], "dni": "codziennie"},
+  "rynki-zagraniczne": {"godziny": [], "dni": "codziennie"}
+ }
+}
