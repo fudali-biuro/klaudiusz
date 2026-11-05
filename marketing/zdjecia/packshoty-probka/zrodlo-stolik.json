@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "/tmp/claude-0/-home-user-klaudiusz/6c3406c3-51d2-5d16-8eb7-dc1d9a53a4d9/scratchpad/Flower-side-table.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: Square studio packshot, the side table with flower-shaped wooden top, black vase and white roses centered and fully visible with generous margin, soft daylight, gentle shadow, remove any text from the reference. Surface: a light blonde oak floor, softly blurred warm cream wall behind. Keep the table exactly as in reference.",
+ "ai": true
+}

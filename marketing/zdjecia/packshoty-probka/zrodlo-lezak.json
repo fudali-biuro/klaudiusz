@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/zdjecia/lezak/03-packshot-naturalny.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. Photorealistic lifestyle product photography, natural light, shallow depth of field, no text, no logos, no watermarks. Scene: Square studio packshot, product centered and fully visible with generous margin, soft even daylight, gentle natural shadow beneath, remove any text or captions from the reference, clean and calm craft style. Surface and background: a light blonde oak wood tabletop with fine visible grain, softly blurred warm cream wall behind. The folding lounge chair with its white pillow.",
+ "ai": true
+}
