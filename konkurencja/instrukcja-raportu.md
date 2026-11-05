@@ -33,6 +33,8 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
    i dostaw przed świętami, kampanie/posty, ceny. Pod spodem 2–4 konkretne pomysły „jak ich przebić” dla Oli (kanał FB/IG/Pinterest,
    produkt FUDALI, hook, CTA). Pomysły z werdyktem TAK od razu zgłoś Oli (send_message). Nic nie publikujemy bez zgody Pabla.
 
+10. **W poniedziałki** dopisz sekcję „💬 Konta do komentowania” (10 kont z niszy, nie rywale; szczegóły `zespol/zadania/konkurencja-konta-do-komentowania.md`).
+
 ## Szablon raportu
 ```
 # Raport konkurencji – RRRR-MM-DD
