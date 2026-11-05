@@ -167,3 +167,20 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | sauna ogrodowa 2 osobowa | sauna ogrodowa | 2026-11-04 |
 | meble ogrodowe drewniane producent | meble ogrodowe drewniane | 2026-11-05 |
 | drewno opałowe z transportem | drewno opałowe | 2026-11-05 |
+| prezent z drewna na urodziny | prezent z drewna | 2026-11-05 |
+| prezent z drewna na rocznicę ślubu | prezent z drewna | 2026-11-05 |
+| prezent z drewna dla mężczyzny | prezent z drewna | 2026-11-05 |
+| prezent z drewna dla dziewczyny | prezent z drewna | 2026-11-05 |
+| prezent z drewna diy | prezent z drewna | 2026-11-05 |
+| prezent z drewna ozdoba | prezent z drewna | 2026-11-05 |
+| prezent z drewna na 40 urodziny | prezent z drewna | 2026-11-05 |
+| prezent z drewna na 5 rocznicę ślubu | prezent z drewna | 2026-11-05 |
+| prezent na dzien taty z drewna | prezent dla taty z drewna | 2026-11-05 |
+| drewniane dekoracje świąteczne diy | drewniane dekoracje świąteczne | 2026-11-05 |
+| drewniane ozdoby najpiękniejsze dekoracje świąteczne | drewniane dekoracje świąteczne | 2026-11-05 |
+| drewniane ozdoby choinkowe do malowania | drewniane ozdoby choinkowe | 2026-11-05 |
+| drewniane ozdoby choinkowe diy | drewniane ozdoby choinkowe | 2026-11-05 |
+| drewniane ozdoby choinkowe z imieniem | drewniane ozdoby choinkowe | 2026-11-05 |
+| drewniane ozdoby choinkowe biale | drewniane ozdoby choinkowe | 2026-11-05 |
+| drewniane ozdoby choinkowe sinsay | drewniane ozdoby choinkowe | 2026-11-05 |
+| drewniane ozdoby choinkowe dla dzieci | drewniane ozdoby choinkowe | 2026-11-05 |

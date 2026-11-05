@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-05T12:52+01:00",
+ "czas": "2026-11-05T15:56+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -341,6 +341,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent z drewna",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent z drewna",
+    "prezent z drewna na urodziny",
+    "prezent z drewna na rocznicę ślubu",
+    "prezent z drewna dla mężczyzny",
+    "prezent z drewna dla dziewczyny",
+    "prezent z drewna diy",
+    "prezent z drewna ozdoba",
+    "prezent z drewna dla kobiety",
+    "prezent z drewna na 40 urodziny",
+    "prezent z drewna na 5 rocznicę ślubu"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -549,6 +575,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "drewniane ozdoby choinkowe",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "drewniane ozdoby choinkowe",
+    "drewniane ozdoby choinkowe do malowania",
+    "drewniane ozdoby choinkowe allegro",
+    "drewniane ozdoby choinkowe diy",
+    "drewniane ozdoby choinkowe z imieniem",
+    "drewniane ozdoby choinkowe action",
+    "drewniane ozdoby choinkowe biale",
+    "drewniane ozdoby choinkowe pepco",
+    "drewniane ozdoby choinkowe sinsay",
+    "drewniane ozdoby choinkowe dla dzieci"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "akcesoria drewniane",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "srednie",
@@ -629,6 +681,60 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "drewniane dekoracje świąteczne",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "drewniane dekoracje świąteczne",
+    "drewniane dekoracje świąteczne diy",
+    "drewniane ozdoby najpiękniejsze dekoracje świąteczne"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.72,
+   "liczba_podpowiedzi": 3,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 45,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent dla taty z drewna",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla taty z drewna",
+    "prezent na dzien taty z drewna"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.68,
+   "liczba_podpowiedzi": 2,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 44,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent na święta dla ogrodnika",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent na święta dla ogrodnika"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 42,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "nowoczesny domek",
    "grupa": "domki",
    "znaczenie_biznesowe": "wysokie",
@@ -698,6 +804,36 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent świąteczny drewniany",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 23,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "leżak drewniany prezent",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 23,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "stolarnia podkarpacie",
    "grupa": "lokalne",
    "znaczenie_biznesowe": "srednie",
@@ -713,6 +849,21 @@
    "firmy": [],
    "ocena": 18,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "domek ogrodowy na prezent",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "niskie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 10,
+   "zmiana_oceny": null
   }
  ],
  "kandydaci": [
@@ -1343,6 +1494,74 @@
   {
    "fraza": "sauna ogrodowa 2 osobowa",
    "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "prezent z drewna na urodziny",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna na rocznicę ślubu",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna dla mężczyzny",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna dla dziewczyny",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna diy",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna ozdoba",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna na 40 urodziny",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna na 5 rocznicę ślubu",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent na dzien taty z drewna",
+   "z_frazy": "prezent dla taty z drewna"
+  },
+  {
+   "fraza": "drewniane dekoracje świąteczne diy",
+   "z_frazy": "drewniane dekoracje świąteczne"
+  },
+  {
+   "fraza": "drewniane ozdoby najpiękniejsze dekoracje świąteczne",
+   "z_frazy": "drewniane dekoracje świąteczne"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe do malowania",
+   "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe diy",
+   "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe z imieniem",
+   "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe biale",
+   "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe sinsay",
+   "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "drewniane ozdoby choinkowe dla dzieci",
+   "z_frazy": "drewniane ozdoby choinkowe"
   }
  ]
 }
