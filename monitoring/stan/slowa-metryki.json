@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-05T08:53+01:00",
+ "czas": "2026-11-05T09:52+01:00",
  "postow_w_bazie": 13,
  "frazy": [
   {
@@ -241,6 +241,7 @@
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
     "meble ogrodowe drewniane olx",
     "meble ogrodowe drewniane wyprzedaż",
     "meble ogrodowe drewniane castorama",
@@ -249,8 +250,7 @@
     "meble ogrodowe drewniane ikea",
     "meble ogrodowe drewniane jysk",
     "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane wyprzedaż allegro",
-    "meble ogrodowe drewniane producent"
+    "meble ogrodowe drewniane wyprzedaż allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -416,7 +416,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "stolik kawowy drewniany",
@@ -1046,10 +1046,6 @@
   },
   {
    "fraza": "meble ogrodowe drewniane z bali",
-   "z_frazy": "meble ogrodowe drewniane"
-  },
-  {
-   "fraza": "meble ogrodowe drewniane producent",
    "z_frazy": "meble ogrodowe drewniane"
   },
   {
