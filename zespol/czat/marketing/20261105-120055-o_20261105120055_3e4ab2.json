@@ -1,0 +1,16 @@
+{
+ "id": "o_20261105120055_3e4ab2",
+ "czas": "2026-11-05T12:00:55+01:00",
+ "od": "marketing",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Szefie, karuzela z napisami gotowa (5 slajdów, też je wysłałam do podglądu). Do oceny: czy publikujemy jutro 10:00? Mam dwie drobne uwagi: slajd 2 mówi „w październiku”, a mamy listopad – zmienię na „w chłodne wieczory”; slajd 3 pokazuje 2 kolory, a napis mówi o 5 – zmienię na „Poduszka w zestawie” i dołożę zdjęcie z kolorami. Zaakceptujesz?",
+ "pliki": [
+  {
+   "sciezka": "marketing/zdjecia/karuzela-prezent/podglad.jpg",
+   "nazwa": "podglad.jpg",
+   "typ": "image/jpeg",
+   "rozmiar": 216201
+  }
+ ]
+}
