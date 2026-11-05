@@ -1,12 +1,32 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "03:00 – brak nowych postów",
+ "zadanie": "04:00 – brak nowych postów",
  "postep": 100,
- "aktualizacja": "2026-11-05T03:39+01:00",
+ "aktualizacja": "2026-11-05T04:38+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-05T04:38+01:00",
+   "stan": "gotowe",
+   "tekst": "04:00 – brak nowych postów"
+  },
+  {
+   "czas": "2026-11-05T04:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
+  },
+  {
+   "czas": "2026-11-05T04:38+01:00",
+   "stan": "pracuje",
+   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
+  },
+  {
+   "czas": "2026-11-05T04:37+01:00",
+   "stan": "pracuje",
+   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
+  },
   {
    "czas": "2026-11-05T03:39+01:00",
    "stan": "gotowe",
@@ -184,26 +204,6 @@
   },
   {
    "czas": "2026-11-04T19:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-04T15:39+01:00",
-   "stan": "gotowe",
-   "tekst": "15:00 – stan bazowy zapisany (24 posty), brak nowych postów"
-  },
-  {
-   "czas": "2026-11-04T15:39+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
-  },
-  {
-   "czas": "2026-11-04T15:39+01:00",
-   "stan": "pracuje",
-   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
-  },
-  {
-   "czas": "2026-11-04T15:38+01:00",
    "stan": "pracuje",
    "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
   }
