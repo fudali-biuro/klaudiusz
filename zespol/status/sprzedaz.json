@@ -1,9 +1,9 @@
 {
  "id": "sprzedaz",
- "stan": "wolne",
- "zadanie": "Gotowy do pracy – czekam na zadania",
+ "stan": "pracuje",
+ "zadanie": "Święta 2026: termin ostatniego dzwonka + gotowe odpowiedzi",
  "postep": null,
- "aktualizacja": "2026-11-04T15:16+01:00",
+ "aktualizacja": "2026-11-05T15:56+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -13,6 +13,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-05T15:56+01:00",
+   "stan": "pracuje",
+   "tekst": "Święta 2026: termin ostatniego dzwonka + gotowe odpowiedzi"
+  },
   {
    "czas": "2026-11-04T15:16+01:00",
    "stan": "wolne",
