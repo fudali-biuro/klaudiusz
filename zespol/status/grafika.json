@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Koparka: nowe logo (generowane) i piny z ciaśniejszym kadrem",
- "postep": null,
- "aktualizacja": "2026-11-06T14:04+01:00",
+ "stan": "gotowe",
+ "zadanie": "Koparka: nowe logo i piny po uwagach Klaudiusza",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T15:12+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T15:12+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: nowe logo i piny po uwagach Klaudiusza"
+  },
   {
    "czas": "2026-11-06T14:04+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T12:00+01:00",
    "stan": "gotowe",
    "tekst": "Karuzela leżaka: 5 slajdów 4:5 gotowe (dla Oli)"
-  },
-  {
-   "czas": "2026-11-05T11:59+01:00",
-   "stan": "pracuje",
-   "tekst": "Karuzela leżaka: 5 slajdów 4:5 z napisami"
   }
  ]
 }
