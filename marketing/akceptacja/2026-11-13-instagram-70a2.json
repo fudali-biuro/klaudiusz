@@ -15,14 +15,20 @@
  "kampania": "instagram-start",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-06T15:36:23+00:00",
- "zmieniono": "2026-11-06T15:36:23+00:00",
+ "zmieniono": "2026-11-06T15:41:26+00:00",
  "historia": [
   {
    "czas": "2026-11-06T15:36:23+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T15:41:26+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
