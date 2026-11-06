@@ -1,0 +1,64 @@
+# 📸 Instagram FUDALI – strategia i pierwsza siatka (Ola, 06.11.2026) – Etap 2, wersja robocza
+Podstawa: `audyt-profilu.md` (Buffer, 41 postów), `tematy-z-wyszukiwan.md` (Bartek + Kuba), `zespol/lekcje-pablo.md`.
+⚠️ Analiza niszy Mietka (`analiza-nisza.md`) wstrzymana – Apify zablokowany; strategia nie opiera się na danych konkurencji. Gdy wrócą dane – korekta.
+Cel: profil „wow, to jest naprawdę dobra robota” → **zapytania (DM, strona, telefon)**, nie lajki. Mierzymy: komentarze, zapisy, udostępnienia, wiadomości.
+
+## 1. Filary treści (proporcje z 10 postów)
+| # | Filar | Udział | Po co | Format |
+|---|---|---|---|---|
+| 1 | **Jak powstaje** (warsztat, proces, maszyny) | 3/10 | najwyższy zasięg w historii konta; „jak powstaje/jak zrobić” to największa grupa pytań | reel 5–15 s |
+| 2 | **Detal i rzemiosło** (słoje, łączenia, lina, 5 kolorów) | 2/10 | pokazuje jakość z bliska | karuzela 3–5 slajdów |
+| 3 | **Wiedza** (drewno, pielęgnacja, przechowywanie) | 2/10 | zapisy i udostępnienia; sezon: zima | karuzela „zapisz” |
+| 4 | **Realizacje i życie z produktem** (u klientów, lokalne, tarasy) | 2/10 | udostępnienia, dowód | zdjęcie „wow” / karuzela |
+| 5 | **Oferta/sezon** (prezenty, nowość) | 1/10 | sprzedaż bez „kup” | karuzela / story |
+Dodatkowo: **dowody zaufania** (opinie, gwarancja 1 rok, realizacje po latach) – wplatane w 1–4. Ludzie i historia firmy – gdy Pablo dostarczy zdjęcia/filmy ludzi przy pracy.
+
+## 2. Zasady każdego posta
+- **Pierwsza linia opisu = haczyk (≤100 znaków)**, nie „Cześć wszystkim”. Opis 150–400 znaków, nie 700.
+- **1 pytanie lub „zapisz”** na końcu (komentarz/zapis > lajk). Max **3–5 hashtagów**, trafnych.
+- Slajd 1 karuzeli = obietnica/pytanie; ostatni slajd = jedno CTA (napisz / zapisz).
+- Grafiki: **prawdziwe zdjęcia z biblioteki** (rotacja, `zdjecia.py nastepne/uzyj`), montaż Zosi, spójny wzór: ciepły kremowy + ciemna zieleń + drewno, logo FUDALI w rogu, mało tekstu (styl Formatwood). Bez „grafika AI” na montażach.
+- Rytm: **3–4 posty/tydz. + stories codziennie**; reels min. 1/tydz.
+
+## 3. Bio i wyróżnione
+**Bio (propozycja, ≤150 znaków):**
+```
+Nowoczesne stolarstwo z Głogowa Młp. 🪵
+Leżaki, meble i altany z litego drewna – robimy u nas.
+📩 Napisz po wycenę ⬇️ fudali.com.pl
+```
+**Wyróżnione relacje (6) – okładki w stylu serii (Zosia):** **Leżak** (kolory, wymiary, jak złożyć) · **Jak to robimy** (warsztat, proces) · **Realizacje** · **Pielęgnacja** (przechowywanie, zima) · **Prezenty** (sezon) · **Pytania** (FAQ, wyceny, dostawa).
+
+## 4. Pierwsza siatka 3×3 – 9 postów (kolejność publikacji od P1; w siatce najnowszy = lewy górny róg)
+Układ po 9 postach (rząd górny = P9 P8 P7, środek = P6 P5 P4, dół = P3 P2 P1) – kolory naprzemiennie: ciepłe tarasowe zdjęcie / jasny detal / zdjęcie ciemne, żeby siatka „oddychała”.
+
+| P | Dzień | Filar | Format | Slajd 1 / haczyk (pierwsza linia) | Materiał (biblioteka) | Pytanie / CTA |
+|---|---|---|---|---|---|---|
+| P1 | pon 9.11 | Detal | karuzela 6 slajdów | „Ten sam leżak. 5 kolorów. Który jest Twój?” | detale listew (`produkty/*banasik*-2,3,4,5,6` oraz zdjęcia #0, #29–33) – 1 slajd = 1 kolor + slajd końcowy ze wszystkimi | „Napisz numer koloru 👇” (jasny brąz, brąz, ciemny brąz, grafit, czerń – wg `produkty.md`) |
+| P2 | wt 10.11 | Wiedza | karuzela 4 slajdy | „Jak przechować drewniany leżak na zimę – 3 zasady” | leżak złożony (`…fud-17`, `…-fud-21` złożone), taras zimowy z biblioteki | „Zapisz, zanim spadnie śnieg 📌” (fakty: sucho, przewiewnie, z dala od wilgoci i dużego ciepła – `produkty.md`) |
+| P3 | czw 12.11 | Proces | reel 8–12 s | „Z płatka dębu robimy stolik. Tak to wygląda od środka” | `gotowe/…wyciete-blaty-…patka` → `gotowe/…stolik-patek-…` (montaż prawdziwych zdjęć, ruch) | „Który kształt blatu wolisz?” |
+| P4 | pt 13.11 | Detal/dowód | karuzela 5 slajdów | „Rama 30 mm, listwy 50 mm, 10 kg. Z czego jest nasz leżak?” | wymiary (`…fud-12`, `…fud-15` z infografiką), detal liny (`…fud-14`), poduszka, listwy | „Co chcesz zobaczyć z bliska?” |
+| P5 | sob 14.11 | Życie | pojedyncze „wow” | „Wieczór, który zaczyna się od ognia 🔥” | `gotowe/…taras-z-palenisko…` | „Z kim byś tu usiadł?” |
+| P6 | pon 16.11 | Oferta/sezon | karuzela 4 slajdy | „Prezent dla taty, który ma wszystko – 4 pomysły od 49 zł” | otwieracz „Kot”, podkładka, składany stolik, leżak (ceny: 49/99/229/299 zł z `produkty.md`) | „Komu to wyślesz?” |
+| P7 | wt 17.11 | Proces | reel 8 s | „Jak się składa leżak? Zobacz animację konstrukcji” | `produkty/…7b25c15….mp4` (animacja 3D składania, 7 s) + napisy | „Chcesz film z warsztatu? Napisz TAK” |
+| P8 | czw 19.11 | Realizacje | karuzela 3 slajdy | „Dwa leżaki, taras i trawnik – tak mieszkają u klienta” | `gotowe/…dwa-lezaki…granitowym-tarasie…`, `produkty/…lezaki-realizacja…` | „Jak urządzasz taras?” |
+| P9 | pt 20.11 | Wiedza | karuzela 5 slajdów | „Dąb czy jodła? Czym się różnią nasze meble” | stołki z dębu (`gotowe/…stokow…`), leżak z jodły | „Jodła czy dąb – głosuj w komentarzu” (**fakty o twardości/kolorze – do weryfikacji, na razie tylko: jodła FSC (leżak), dąb czerwony (stołki, Płatek)**) |
+**Do dokupienia/nagrania (prośba do Pabla, telefon):** 10–15 s ujęcia warsztatu (cięcie, szlifowanie, składanie leżaka) – zamienią P3/P7 na prawdziwy proces; 3–5 realizacji z nazwą miejscowości; zdjęcie ludzi przy pracy.
+
+## 5. Stories – 7 dni (9–15.11), codziennie 3–5 klatek, ankieta/quiz/pytanie
+| Dzień | Temat | Klatki |
+|---|---|---|
+| pon 9.11 | **Jodła czy dąb?** (ankieta) | leżak (jodła FSC) vs stołki (dąb czerwony); wynik w kolejnej klatce |
+| wt 10.11 | **Quiz: ile waży leżak?** 5 / 10 / 15 kg | leżak złożony; odpowiedź: 10 kg (`produkty.md`) |
+| śr 11.11 | **Zza kulis: z czego to zrobione** | lina jutowa, detal listew, poduszka bawełniana |
+| czw 12.11 | **Wybierz kolor** (ankieta 2 opcje ×2) | 4 detale kolorów; zapowiedź posta P1 wyniki |
+| pt 13.11 | **Zadaj pytanie stolarzowi** (okienko pytań) | zdjęcie podkładek z warsztatu; „odpowiem w reelsie” |
+| sob 14.11 | **Taras o zmierzchu** + „z kim usiądziesz?” (suwak) | taras z paleniskiem |
+| ndz 15.11 | **Zapowiedź tygodnia** + „Co chcesz zobaczyć: warsztat czy realizacje?” | 2 miniatury |
+Każdy dzień: 1 klatka z CTA „Pisz w wiadomości – wycena, wymiary, dostawa”. Sezon prezentów (Mikołajki) w 1 story/tydz.
+
+## 6. Podgląd siatki 3×3
+Zlecone Zosi: `marketing/instagram/siatka-3x3.jpg` (9 miniatur P1–P9 wg tabeli, spójne okładki, logo, kolory) + okładki wyróżnionych.
+
+## 7. Pomiar (co tydzień, poniedziałek)
+Z Buffera: zasięg, komentarze, zapisy, udostępnienia na post; liczba wiadomości (DM) – zgłasza Pablo; cel na 4 tygodnie: ≥3 komentarze/post, ≥10 zapisów w karuzelach „wiedzy”, ≥5 zapytań DM/tydz.
