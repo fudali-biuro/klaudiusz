@@ -1,5 +1,5 @@
 # 🎬 TikTok – kampania krótkich filmów: leżak (polecenie Pablo, 06.11.2026)
-Cel: sprzedać leżak i zaprosić na **fudali.com.pl** (CTA: „link w bio / fudali.com.pl”). Cena **299 zł z poduszką, darmowa wysyłka**. Długość 5–8 s, haczyk w 1–2 s, ruch, napisy na ekranie. Materiał: prawdziwe zdjęcia/filmy (priorytet: `zdjecia/od-pablo/`), montaż z Zosią. AI tylko gdy konieczne; etykieta „AI” tylko na naprawdę generowanych kadrach.
+Cel: sprzedać leżak i zaprosić na **fudali.com.pl** (CTA: „link w bio / fudali.com.pl”). Cena **299 zł z poduszką, darmowa wysyłka**. Długość 5–8 s, haczyk w 1–2 s, ruch, napisy na ekranie. Materiał: prawdziwe zdjęcia/filmy (priorytet: `biblioteka-zdjec/` (strona 📸 Zdjęcia)), montaż z Zosią. AI tylko gdy konieczne; etykieta „AI” tylko na naprawdę generowanych kadrach.
 | # | Scenariusz (hak → ujęcia → napis → CTA) | Napisy |
 |---|---|---|
 | 1 | **„Rozkładasz w 5 sekund”** – leżak złożony pod ścianą → rozkłada się → siedzisko z poduszką | „5 sekund. Gotowy.” → „299 zł z poduszką” → „fudali.com.pl” |

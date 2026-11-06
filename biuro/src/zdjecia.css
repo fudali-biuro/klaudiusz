@@ -1,0 +1,19 @@
+.wgraj { max-width: 900px; margin: 16px auto 0; padding: 0 16px; display: grid; gap: 10px; }
+.wgraj p { margin: 0; color: var(--tekst2); font-size: 14px; }
+.strefa { display: block; border: 3px dashed var(--linia); background: var(--karta); padding: 22px; text-align: center; cursor: pointer; font-size: 16px; }
+.strefa.nad { border-color: var(--akcent); background: var(--karta2); }
+.strefa small { color: var(--tekst2); }
+.wgraj input[type=text] { background: var(--tlo2); color: var(--tekst); border: 2px solid var(--linia); padding: 8px; font: 14px var(--sans); }
+.kolejka { display: flex; flex-wrap: wrap; gap: 8px; }
+.kolejka figure { margin: 0; width: 92px; font-size: 11px; color: var(--tekst2); text-align: center; }
+.kolejka img { width: 92px; height: 92px; object-fit: cover; border: 2px solid var(--linia); display: block; }
+.kolejka .ok img { border-color: #3fb950; }
+.kolejka .blad img { border-color: #f85149; }
+#wyslij { justify-self: start; }
+
+.galeria-zdjec { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.zdj { background: var(--karta); border: 2px solid var(--linia); margin: 0; }
+.zdj img, .zdj video { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; cursor: zoom-in; background: #0d0a07; }
+.zdj figcaption { padding: 6px 8px; font-size: 12px; display: grid; gap: 2px; }
+.zdj .uzycia { color: var(--tekst2); }
+.zdj .nowe { color: #3fb950; font-weight: 600; }

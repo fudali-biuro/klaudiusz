@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Biblioteka zdjęć – Biuro FUDALI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="akceptacja.css">
+<link rel="stylesheet" href="zdjecia.css">
+</head>
+<body>
+<header class="gora">
+  <div class="logo"><span class="kwadrat"></span><div><h1>📸 Biblioteka zdjęć</h1><p>Prawdziwe zdjęcia – tła i produkty. Zespół je łączy i rotuje.</p></div></div>
+  <div class="chipy">
+    <a class="chip" href="index.html">🏢 Biuro</a>
+    <a class="chip" href="akceptacja.html">✅ Akceptacja</a>
+  </div>
+</header>
+
+<nav class="filtry" id="sekcje" aria-label="Sekcje">
+  <button type="button" data-s="tla" class="wl">🏡 Tła</button>
+  <button type="button" data-s="produkty">🪑 Produkty</button>
+  <button type="button" data-s="gotowe">✨ Gotowe ujęcia</button>
+</nav>
+
+<section class="wgraj" aria-label="Wgraj zdjęcia">
+  <p id="opis-sekcji"></p>
+  <label class="strefa" id="strefa">
+    <input type="file" id="pliki" accept="image/*,video/mp4,video/quicktime" multiple hidden>
+    <span>➕ Wgraj zdjęcia do sekcji <b id="nazwa-sekcji">Tła</b><br><small>kliknij albo upuść pliki · telefon: wybierz z galerii</small></span>
+  </label>
+  <input type="text" id="opis" placeholder="Opcjonalnie: krótki opis (np. „salon z kominkiem”, „taras latem”, „leżak grafitowy”)">
+  <div class="kolejka" id="kolejka"></div>
+  <button type="button" class="chip chip-wyslij" id="wyslij" disabled>📨 Dodaj do biblioteki</button>
+</section>
+
+<main class="biblioteka galeria-zdjec" id="galeria"><p class="pusto">Ładuję…</p></main>
+
+<div class="lupa" id="lupa" hidden><img alt=""><button type="button" aria-label="Zamknij">✕</button></div>
+<div class="toast" id="toast" hidden></div>
+<script src="zdjecia.js"></script>
+</body>
+</html>

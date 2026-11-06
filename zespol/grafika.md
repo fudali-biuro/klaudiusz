@@ -82,5 +82,5 @@ Zestawy: `scripts/grafika/zestawy.py` → `marketing/zdjecia/zestawy/`.
 „Grafika AI” **tylko na obrazach naprawdę wygenerowanych przez AI** (scena.py/agy/OpenRouter przerabiają piksele → AI).
 **Bez etykiety:** czysty montaż prawdziwych zdjęć (kadr, napisy, logo, złożenie warstw, ruchomy kadr) – np. karuzela z `zdjecia/lezak/`, `detal-*`, film `zdjecia/tiktok/`.
 Obrazy z `kampania-swieta/`, `packshoty/`, `zestawy/` i `swieta-2026/` bazują na scenach wygenerowanych przez AI → etykieta zostaje (to prawda, nie dekoracja).
-Nowe źródło prawdziwych zdjęć: `marketing/zdjecia/od-pablo/` (produkty/, tla/, gotowe/). Kolejność: prawdziwe tło + prawdziwy produkt → montaż (bez AI); scena.py tylko gdy montaż nie wystarcza (wtedy etykieta AI).
+Nowe źródło prawdziwych zdjęć: `marketing/biblioteka-zdjec/ (strona 📸 Zdjęcia w biurze)` (produkty/, tla/, gotowe/). Kolejność: prawdziwe tło + prawdziwy produkt → montaż (bez AI); scena.py tylko gdy montaż nie wystarcza (wtedy etykieta AI).
 Seria ma być spójna: te same kolory (zieleń/krem/złoto/czerwień), logo w rogu, czcionki DejaVu Serif/Sans. Gotowe grafiki idą przez Olę do biblioteki akceptacji (`marketing/akceptacja/README.md`).

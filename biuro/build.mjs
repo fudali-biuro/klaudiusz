@@ -141,8 +141,25 @@ for (const p of posty) {
 fs.writeFileSync(path.join(DIST, "akceptacja.json"), JSON.stringify({ zbudowano, posty }));
 const akceptacja = { czeka: posty.filter((p) => p.stan === "czeka").length, razem: posty.length };
 
+// ---------- biblioteka prawdziwych zdjęć: marketing/biblioteka-zdjec/indeks.json → zdjecia.json ----------
+const BIBZ = path.join(ROOT, "marketing", "biblioteka-zdjec");
+const indeksZ = czytajJson(path.join(BIBZ, "indeks.json"), { zdjecia: {} }).zdjecia || {};
+const zdjecia = [];
+for (const [rel, z] of Object.entries(indeksZ)) {
+  const zrodlo = path.resolve(ROOT, rel);
+  if (!zrodlo.startsWith(ROOT + path.sep) || !fs.existsSync(zrodlo)) continue;
+  const cel = path.join(DIST, "pliki", rel);
+  fs.mkdirSync(path.dirname(cel), { recursive: true });
+  fs.copyFileSync(zrodlo, cel);
+  zdjecia.push({ url: "pliki/" + rel.split("/").map(encodeURIComponent).join("/"), nazwa: path.basename(rel), sekcja: z.sekcja,
+    opis: z.opis || "", tagi: z.tagi || [], produkt: z.produkt || "", dodano: z.dodano || "", uzycia: (z.uzycia || []).length });
+}
+zdjecia.sort((a, b) => (b.dodano || "").localeCompare(a.dodano || ""));
+fs.writeFileSync(path.join(DIST, "zdjecia.json"), JSON.stringify({ zbudowano, zdjecia }));
+
 const dane = {
   zbudowano,
+  zdjecia: { razem: zdjecia.length },
   akceptacja,
   wersja: (process.env.VERCEL_GIT_COMMIT_SHA || "").slice(0, 7),
   zespol,

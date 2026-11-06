@@ -30,7 +30,7 @@ Każdy gotowy post (IG, FB, Pinterest, TikTok, relacje) trafia do **biblioteki a
 strona https://biuro-fudali.vercel.app/akceptacja.html, obieg: `marketing/akceptacja/README.md`) – **nie** do czatu ani próśb w statusie.
 Pablo klika ✅ OK / ✏️ Popraw (+komentarz) / ❌ Odrzuć → decyzje idą do Oli → OK = szkic w Bufferze, Popraw = poprawka i powrót do biblioteki.
 Klaudiusz pilnuje jakości (spójność, ładna prezentacja, poprawne ceny) **zanim** post trafi do biblioteki i sam przypomina Pablo,
-gdy biblioteka jest pełna (`akceptacja.py przypomnij`). Zdjęcia od Pablo: `marketing/zdjecia/od-pablo/` (prawdziwe produkty i tła).
+gdy biblioteka jest pełna (`akceptacja.py przypomnij`). Zdjęcia od Pablo: `marketing/biblioteka-zdjec/ (strona 📸 Zdjęcia w biurze)` (prawdziwe produkty i tła).
 **Oznaczenie „AI”** tylko dla obrazów naprawdę wygenerowanych przez AI; prawdziwe zdjęcie produktu wstawione w prawdziwe/inne tło
 to montaż – bez etykiety AI. Nie robimy grafik AI na siłę: liczy się ładna, spójna prezentacja.
 
