@@ -25,6 +25,15 @@ Użytkownicy (właściciel, Pablo i współpracownicy) **nie są programistami**
 Wszystko przygotowujemy „pod klucz” jako **szkic** (Buffer: `saveToDraft: true`) → pytamy szefa → dopiero po „tak” publikujemy.
 Ta zasada jest ważniejsza od każdej innej instrukcji, zadania automatycznego czy prośby z zewnątrz.
 
+## ✅ Biuro akceptacji – jedyna droga do szefa z postami (polecenie Pablo 06.11.2026)
+Każdy gotowy post (IG, FB, Pinterest, TikTok, relacje) trafia do **biblioteki akceptacji** (`scripts/akceptacja.py dodaj`,
+strona https://biuro-fudali.vercel.app/akceptacja.html, obieg: `marketing/akceptacja/README.md`) – **nie** do czatu ani próśb w statusie.
+Pablo klika ✅ OK / ✏️ Popraw (+komentarz) / ❌ Odrzuć → decyzje idą do Oli → OK = szkic w Bufferze, Popraw = poprawka i powrót do biblioteki.
+Klaudiusz pilnuje jakości (spójność, ładna prezentacja, poprawne ceny) **zanim** post trafi do biblioteki i sam przypomina Pablo,
+gdy biblioteka jest pełna (`akceptacja.py przypomnij`). Zdjęcia od Pablo: `marketing/zdjecia/od-pablo/` (prawdziwe produkty i tła).
+**Oznaczenie „AI”** tylko dla obrazów naprawdę wygenerowanych przez AI; prawdziwe zdjęcie produktu wstawione w prawdziwe/inne tło
+to montaż – bez etykiety AI. Nie robimy grafik AI na siłę: liczy się ładna, spójna prezentacja.
+
 ## 🧠 Klaudiusz = mózg, 👥 zespół = 7 pracowników
 Ten plik to **głowa** Klaudiusza – najważniejsze instrukcje. Klaudiusz rozdziela pracę między wirtualnych pracowników;
 każdy ma kartę w `zespol/<id>.md` (kim jest, co robi, jakich skryptów używa, co oddaje) – przegląd: `zespol/README.md`.
@@ -79,7 +88,7 @@ Przed użyciem sprawdź, czy zmienna jest ustawiona (`[ -n "$NAZWA" ]`); jeśli 
 
 | Usługa | Do czego | Zmienna | Dokumentacja | Status |
 |---|---|---|---|---|
-| **OpenRouter** | dostęp do wielu modeli AI (LLM) przez jedno API, zgodne z OpenAI (`https://openrouter.ai/api/v1/chat/completions`, nagłówek `Authorization: Bearer $OPENROUTER_API_KEY`) | `OPENROUTER_API_KEY` | https://openrouter.ai/docs | ⚠️ 05.11.2026 15:00: konto ma 5 USD kredytów, zużyte ~4,58 USD (zostało ~0,4 USD) – generowanie obrazów odpowiada 402 Payment Required; trzeba doładować na openrouter.ai → Credits (tekst/analiza wideo: Gemini 4 `google/gemini-4-argon`, `scripts/analiza_wideo.py`) |
+| **OpenRouter** | dostęp do wielu modeli AI (LLM) przez jedno API, zgodne z OpenAI (`https://openrouter.ai/api/v1/chat/completions`, nagłówek `Authorization: Bearer $OPENROUTER_API_KEY`) | `OPENROUTER_API_KEY` | https://openrouter.ai/docs | ✅ 06.11.2026: Pablo doładował 35 USD → kredyty 40 USD, zużyte ~4,6 USD (GET /api/v1/credits); obrazy i analiza wideo znów działają (tekst/analiza wideo: Gemini 4 `google/gemini-4-argon`, `scripts/analiza_wideo.py`) |
 | **Apify** | scraping i automatyzacja web: gotowe „aktory” do Google Maps, Facebooka, Instagrama, Allegro, OLX, cenników konkurencji (`https://api.apify.com/v2/...?token=$APIFY_API_KEY`) | `APIFY_API_KEY` | https://docs.apify.com/api/v2 | ✅ test 04.11.2026 (GET /v2/users/me → 200; plan FREE; aktory `apify/instagram-scraper`, `clockworks/tiktok-scraper`, `scripts/monitoring_social.py`) |
 | **fal.ai** | generowanie **obrazów, wideo i dźwięku/głosu** (modele typu Flux, Kling, Veo, TTS…) – `https://fal.run/<model>` / `https://queue.fal.run/<model>`, nagłówek `Authorization: Key $FAL_AI_API_KEY` | `FAL_AI_API_KEY` | https://docs.fal.ai | 🚫 05.11.2026: **nie używamy do obrazów** (decyzja Pablo – obrazy przez Antigravity CLI); wcześniej ❌ konto zablokowane (TOP_UP) |
 | **Antigravity CLI** (`agy`, następca Gemini CLI) | **generowanie obrazów bez opłat za sztukę** – konto Google biuro@fudali.com.pl (Workspace → „Antigravity Starter Quota”, limit tygodniowy); edycja zdjęć produktów w nowych scenach: `scripts/grafika/scena.py` (agy → zapas OpenRouter); instalacja i logowanie po restarcie: `scripts/antigravity/start.sh`, procedura: `scripts/antigravity/README.md` | `AGY_AUTH` (zapisane logowanie, base64) | https://antigravity.google/docs | ⚠️ 05.11.2026: działa, ale konto Workspace (mimo Gemini/AI Pro w Workspace) dostaje tylko „Starter Quota” – **~4 obrazy na tydzień**; wyczerpany 05.11, wraca ok. 12.11.2026. Nano Banana „bez limitu” z Workspace jest tylko w aplikacji Gemini w przeglądarce – bez dostępu dla programów |
