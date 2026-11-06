@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Święta: poprawiony klimat grafik i kolaż startowy",
- "postep": 100,
- "aktualizacja": "2026-11-05T16:01+01:00",
+ "stan": "pracuje",
+ "zadanie": "Nowe wytyczne Pablo: etykiety AI, prawdziwe tła, akceptacja",
+ "postep": null,
+ "aktualizacja": "2026-11-06T08:46+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T08:46+01:00",
+   "stan": "pracuje",
+   "tekst": "Nowe wytyczne Pablo: etykiety AI, prawdziwe tła, akceptacja"
+  },
   {
    "czas": "2026-11-05T16:01+01:00",
    "stan": "gotowe",
