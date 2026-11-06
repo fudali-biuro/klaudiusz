@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Inspiracje do zapisania w bibliotece akceptacji (IG, piny, 2 reele)",
+ "zadanie": "Koparka: 12 pinów + 4 posty FB w bibliotece akceptacji",
  "postep": 100,
- "aktualizacja": "2026-11-06T22:28+01:00",
+ "aktualizacja": "2026-11-06T22:49+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:49+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: 12 pinów + 4 posty FB w bibliotece akceptacji"
+  },
   {
    "czas": "2026-11-06T22:28+01:00",
    "stan": "gotowe",
