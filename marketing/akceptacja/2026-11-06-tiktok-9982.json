@@ -15,16 +15,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "koparka",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Zastąpione filmem od Zosi (wersja wideo w bibliotece).",
  "wersja": 1,
  "utworzono": "2026-11-06T12:50:09+00:00",
- "zmieniono": "2026-11-06T12:50:09+00:00",
+ "zmieniono": "2026-11-06T12:53:30+00:00",
  "historia": [
   {
    "czas": "2026-11-06T12:50:09+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T12:53:30+00:00",
+   "kto": "marketing",
+   "stan": "odrzucone",
+   "komentarz": "Zastąpione filmem od Zosi (wersja wideo w bibliotece)."
   }
  ]
 }
