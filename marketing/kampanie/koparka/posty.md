@@ -50,3 +50,8 @@ Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2)
 ## Piny EN – dodatki (ceny w EUR dopiero po przeliczeniu; na razie PLN)
 4. „Backhoe Loader for Sale in Poland – 250,000 PLN net, 2026, Warranty 12 Months”
 5. „New Backhoe Loader 4x4 Stage V – 6-in-1 Bucket, Dig to 5.5 m, Test Drive in Rzeszów”
+
+## Stan (06.11.2026, 15:00)
+- Piny EN: 3 szkice w Buffer z linkiem do ogłoszenia Otomoto i ceną „250,000 PLN net (307,500 PLN gross)”.
+- Posty TikTok #4–10 – teksty gotowe (tabela wyżej); filmy robi Zosia (3 gotowe, czekają na wersję z brutto).
+- Marek poproszony o kontrolę cen w postach.
