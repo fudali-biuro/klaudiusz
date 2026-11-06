@@ -22,3 +22,10 @@ Wzorzec poprawny: **250 000 zł netto (307 500 zł brutto)** – 250 000 × 1,23
 2. Żadnego „Stage V”, żadnych rat, żadnych cen z Chin, żadnego „najtańsza”.
 3. Porównania tylko z nazwą marki/modelu i źródłem z `ceny.md`.
 4. **Jeśli Pablo zmieni cenę** (rekomenduję 235 000 netto / 289 050 brutto) – wszystkie teksty, napisy w filmach, piny i ogłoszenie zmieniamy naraz; daj mi znać, przeliczę.
+
+## Aktualizacja 06.11 (decyzja Pablo: cena 250 000 netto, Stage V dozwolone – ma dokument)
+- **„Stage V” wolno pisać** (TikTok #7, pin EN 5, lista dozwolonych w `posty.md`) – poprawki Stage V z tabeli powyżej **wycofane**. Wiersz 58 w `posty.md` („NIE pisać Stage V”, „rekomendacja 235 000”) – Ola, usuń/zaktualizuj.
+- **#4** (wersja w sekcji „Aktualizacja po ceny.md”, wiersz z „płatny serwis z dojazdem”) ✅ OK. **#7** (wiersz „4x4 · klima · kamera cofania…”) ✅ OK – jeśli chcesz, dopisz „Stage V” do napisu i opisu.
+- Stare wiersze #4–#10 w górnej tabeli `posty.md` (z „po akceptacji ceny”) są nieaktualne – nie używać ich zamiast wersji z aktualizacji (np. wiersz 13 nie ma brutto).
+- #5 i #9 – poprawki z tabeli powyżej nadal obowiązują (konkretny model JCB, „Nowe Case i JCB”). Cena zostaje 250 000, więc nic nie przeliczam.
+- Argumenty obrony ceny wobec Stroera: `ceny.md` pkt 9.

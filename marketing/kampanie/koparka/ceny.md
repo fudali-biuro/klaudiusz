@@ -1,5 +1,7 @@
 # 🚜 Koparko-ładowarka Shanmon Fuji 388 – ogłoszenie i weryfikacja ceny (Marek, 06.11.2026)
 
+> **DECYZJA PABLO (06.11.2026): cena zostaje 250 000 zł netto (307 500 zł brutto). „Stage V” jest dozwolone – Pablo ma dokument potwierdzający (wg Klaudiusza; dokumentu nie widziałem, zachować go do pokazania kupcowi). Rekomendacja 235 000 netto z pkt 7c NIE obowiązuje; punkt 7d.4 (Stage V) wyjaśniony. Jak bronić ceny: pkt 9.**
+>
 > **Najważniejsze dla Pablo: pkt 7 na dole (cena do szybkiej sprzedaży + poprawki ogłoszenia). Pkt 3 jest nim uzupełniony – tam, gdzie się różnią, obowiązuje pkt 7.**
 
 Zasada: każdy fakt ma link. Dane z ogłoszeń i stron producenta, sprawdzone 06.11.2026. Czego nie udało się potwierdzić – oznaczone ⚠️.
@@ -127,3 +129,17 @@ Gdy Ola da posty, sprawdzam: (1) „250 000 zł netto” / „307 500 zł brutto
 ## 8. Co dalej
 - Ola: ceny w postach wg pkt 4 i 7 (jeśli Pablo zmieni cenę – przeliczam wszystko); brak porównań z ceną chińską.
 - Klaudiusz → Pablo (jedno zdanie): „Cena 250 000 netto = tyle, ile ma dealer Stroer za podobną teleskopową; do szybkiej sprzedaży proponuję 235 000 netto (dolna granica 220 000) i poprawki w ogłoszeniu (marka Shanmon, stan nowy, sprzedaż jako firma, sprawdzić Stage V).”
+
+## 9. Jak bronić ceny 250 000 zł netto (decyzja Pablo 06.11.2026)
+Główny rywal cenowy: **STROER C-799T KRAB** – też nowa, 2026, teleskopowa, **ta sama cena 250 000 netto**, ale od firmy w Trójcy (dolnośląskie): https://www.otomoto.pl/maszyny-budowlane/oferta/stroer-c-799t-krab-ID6HHqRo.html (⚠️ ogłoszenie nie pokazuje wyposażenia ani gwarancji – nie twierdzimy, że Stroer ich nie ma).
+
+Argumenty (tylko z naszego ogłoszenia i dokumentu Pablo):
+1. **Nowa, 2026, od ręki w Rzeszowie** – oględziny i jazda próbna po umówieniu (Stroer jest w Trójcy, ok. 400 km dalej – ⚠️ odległość orientacyjna, nie pisać liczby).
+2. **Silnik Stage V – z dokumentem** (tabliczka/deklaracja zgodności u Pablo). Pokazywać zdjęcie/skan tabliczki w komentarzu lub na wideo – to wyróżnik wobec maszyn bez papieru.
+3. **Gwarancja 12 mies. na silnik, skrzynię i most** + infolinia serwisowa 24/7 + płatny serwis z dojazdem w całej Polsce.
+4. **Łyżka przednia 6w1** i **2 szybkozłącza w standardzie** (przód i tył) – kupujący nie dopłaca za przeróbki.
+5. **Ramię teleskopowe: kopanie do 5,5 m**, 4x4, kabina ROPS/FOPS z klimatyzacją, kamera cofania.
+6. **Leasing / kredyt dla firm, VAT do odliczenia** (bez podawania raty).
+
+Ograniczenia: nie piszemy „lepsza od Stroera”, „taniej” ani „jedyna z Stage V” (nie znam wyposażenia Stroera). Pytanie „czemu nie za 100 tys. jak w Chinach” – odpowiedź z pkt 7e (teraz z Stage V i dokumentem).
+Cenę da się bronić, ale przy tej samej cenie co dealer kupujący zapyta o zaufanie: pozostaje do poprawienia ogłoszenie z pkt 7d (marka Shanmon, stan, sprzedaż jako firma, film z pracy maszyny, numer telefonu).
