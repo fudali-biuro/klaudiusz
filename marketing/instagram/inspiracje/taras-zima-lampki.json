@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3.1-flash-image",
+ "zrodlo": "marketing/zdjecia/lezak/03-packshot-naturalny.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: Photorealistic interior photograph, shot on a full-frame camera with natural light, editorial Pinterest/Kinfolk style, 4K detail, soft warm tones, shallow depth of field. Keep the wooden folding lounge chair from the reference photo EXACTLY as it is (same slatted shape, same wood colour, jute rope, white cushion) – it is one natural element of the room, not the centre of an advert. No text, no logos, no people's faces. Scene: covered wooden terrace on a winter evening, string fairy lights overhead, light snow outside, sheepskin and plaid blanket on the lounge chair, lantern with candle, mug of mulled wine, evergreen branches, warm golden glow against blue dusk.",
+ "ai": true
+}
