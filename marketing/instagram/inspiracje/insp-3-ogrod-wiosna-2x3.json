@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-produktywniej-maciej-banasik-zdjecia-reklamowe-fud-5.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: spring garden on a bright soft morning: the folding wooden lounge chair (grey-brown) stands on fresh green lawn under a blooming cherry tree with white blossoms, petals on the grass, a linen cushion, a cup of coffee on the grass, blurred garden behind. Candid Pinterest-style photo, no people, no text.",
+ "ai": true
+}

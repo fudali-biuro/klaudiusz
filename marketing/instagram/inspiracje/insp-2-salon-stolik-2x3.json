@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/gotowe/2026-11-06-stolik-patek-blat-z-debu-czerwonego-biaa-podstawa-.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: cosy living room in the evening around this exact flower-shaped oak side table (keep the table, its white base, the black vase and white roses exactly as in the reference): beside a linen sofa with a knit blanket, a floor lamp with warm glow, a stack of books, a candle, herringbone parquet floor, wool rug. Candid Pinterest-style interior photo, no people, no text.",
+ "ai": true
+}
