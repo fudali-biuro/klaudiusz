@@ -41,7 +41,7 @@ Układ po 9 postach (rząd górny = P9 P8 P7, środek = P6 P5 P4, dół = P3 P2 
 | P5 | sob 14.11 | Życie | pojedyncze „wow” | „Wieczór, który zaczyna się od ognia 🔥” | `gotowe/…taras-z-palenisko…` | „Z kim byś tu usiadł?” |
 | P6 | pon 16.11 | Oferta/sezon | karuzela 4 slajdy | „Prezent dla taty, który ma wszystko – 4 pomysły od 49 zł” | otwieracz „Kot”, podkładka, składany stolik, leżak (ceny: 49/99/229/299 zł z `produkty.md`) | „Komu to wyślesz?” |
 | P7 | wt 17.11 | Proces | reel 8 s | „Jak się składa leżak? Zobacz animację konstrukcji” | `produkty/…7b25c15….mp4` (animacja 3D składania, 7 s) + napisy | „Chcesz film z warsztatu? Napisz TAK” |
-| P8 | czw 19.11 | Realizacje | karuzela 3 slajdy | „Dwa leżaki, taras i trawnik – tak mieszkają u klienta” | `gotowe/…dwa-lezaki…granitowym-tarasie…`, `produkty/…lezaki-realizacja…` | „Jak urządzasz taras?” |
+| P8 | czw 19.11 | Realizacje | karuzela 3 slajdy | „Leżaki na werandzie klienta – tak mieszkają” | **tylko prawdziwa realizacja u klienta:** `produkty/…image-20260904-110937-616` (weranda z mozaiką; wg Zosi/Pablo) – zdjęcia „istock” to stock, NIE podpisujemy jako realizacji | „Jak urządzasz taras?” |
 | P9 | pt 20.11 | Wiedza | karuzela 5 slajdów | „Dąb czy jodła? Czym się różnią nasze meble” | stołki z dębu (`gotowe/…stokow…`), leżak z jodły | „Jodła czy dąb – głosuj w komentarzu” (**fakty o twardości/kolorze – do weryfikacji, na razie tylko: jodła FSC (leżak), dąb czerwony (stołki, Płatek)**) |
 **Do dokupienia/nagrania (prośba do Pabla, telefon):** 10–15 s ujęcia warsztatu (cięcie, szlifowanie, składanie leżaka) – zamienią P3/P7 na prawdziwy proces; 3–5 realizacji z nazwą miejscowości; zdjęcie ludzi przy pracy.
 
@@ -62,3 +62,9 @@ Zlecone Zosi: `marketing/instagram/siatka-3x3.jpg` (9 miniatur P1–P9 wg tabeli
 
 ## 7. Pomiar (co tydzień, poniedziałek)
 Z Buffera: zasięg, komentarze, zapisy, udostępnienia na post; liczba wiadomości (DM) – zgłasza Pablo; cel na 4 tygodnie: ≥3 komentarze/post, ≥10 zapisów w karuzelach „wiedzy”, ≥5 zapytań DM/tydz.
+
+## 8. Wnioski z analizy niszy (Mietek, wersja bez scrapera) – co dokładamy
+- Konkurenci (Domki Sauny, Altanka) mają **bardzo słabe zaangażowanie** (<25 polubień, ~0 komentarzy, filmy <1,5 tys.) – prawdziwy warsztat + konkretna oferta łatwo się wyróżni; siatka spójna sama jest przewagą.
+- Najlepszy format u nich: **osoba + proces + napisy słowo po słowie + konkretny termin** → **seria z bohaterem** (osoba z warsztatu, stała nazwa serii, np. „Stolarz tłumaczy”) – wymaga krótkich nagrań z Pablem/pracownikiem (prośba o telefon).
+- Dołożyć do planu po P9: karuzele „Jak rozpoznać dobre drewno” i „Jak olejować leżak” (fakty o pielęgnacji do weryfikacji – Marek/Bartek), „5 prezentów z drewna do 300 zł”, CTA „napisz w wiadomości + termin wysyłki przed świętami”.
+- Stories i wyróżnione konkurencji – niezweryfikowane (brak dostępu).
