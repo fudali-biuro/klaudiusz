@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Partia 4 inspiracji (weranda, balkon, plaża, święta)",
- "postep": null,
- "aktualizacja": "2026-11-06T22:40+01:00",
+ "stan": "gotowe",
+ "zadanie": "Partia 4: insp-17…24 gotowa dla Oli",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T22:42+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:42+01:00",
+   "stan": "gotowe",
+   "tekst": "Partia 4: insp-17…24 gotowa dla Oli"
+  },
   {
    "czas": "2026-11-06T22:40+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T15:45+01:00",
    "stan": "pracuje",
    "tekst": "Szukam darmowych źródeł zdjęć (salony, tarasy, ogrody, zima)"
-  },
-  {
-   "czas": "2026-11-05T15:43+01:00",
-   "stan": "czeka",
-   "tekst": "Piny z salonem czekają na limit generatora obrazów"
   }
  ]
 }
