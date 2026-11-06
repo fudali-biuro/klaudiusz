@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Poprawione insp-10 i insp-12 – jeden leżak w kadrze",
- "postep": 100,
- "aktualizacja": "2026-11-06T22:26+01:00",
+ "stan": "pracuje",
+ "zadanie": "Partia 4 inspiracji (weranda, balkon, plaża, święta)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T22:40+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:40+01:00",
+   "stan": "pracuje",
+   "tekst": "Partia 4 inspiracji (weranda, balkon, plaża, święta)"
+  },
   {
    "czas": "2026-11-06T22:26+01:00",
    "stan": "gotowe",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T15:43+01:00",
    "stan": "czeka",
    "tekst": "Piny z salonem czekają na limit generatora obrazów"
-  },
-  {
-   "czas": "2026-11-05T15:42+01:00",
-   "stan": "pracuje",
-   "tekst": "Pinterest: piny z salonem – sprawdzam źródła zdjęć i limity"
   }
  ]
 }
