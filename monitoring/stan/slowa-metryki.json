@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-06T12:20+01:00",
+ "czas": "2026-11-06T13:47+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -390,7 +390,59 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka case",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka klasa 3"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparka rzeszów",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka rzeszów",
+    "koparka rzeszów olx",
+    "usługi koparką rzeszów",
+    "koparka łańcuchowa rzeszów",
+    "minikoparka rzeszów",
+    "praca koparka rzeszów",
+    "usługi koparką rzeszów cena",
+    "kurs koparka rzeszów",
+    "koparka wynajem rzeszów",
+    "koparka sany rzeszów"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
   },
   {
    "fraza": "prezent z drewna",
@@ -659,14 +711,14 @@
    "podpowiedzi_google": [
     "pomysł na prezent",
     "pomysł na prezent dla kobiety",
+    "pomysł na prezent dla mężczyzny",
     "pomysł na prezent dla przyjaciółki",
     "pomysł na prezent na dzień nauczyciela",
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
     "pomysł na prezent na dzień chłopaka",
-    "pomysł na prezent na rocznicę ślubu",
-    "pomysł na prezent ślubny"
+    "pomysł na prezent na rocznicę ślubu"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -937,6 +989,58 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "koparko ładowarka nowa",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka nowa",
+    "koparko ładowarka nowa cena",
+    "koparko ładowarka nowa chińska",
+    "koparko ładowarka nowa otomoto",
+    "koparko ładowarka nowa olx",
+    "koparko ładowarka nowa jcb",
+    "koparko ładowarka nowa sól",
+    "koparko ładowarka nowa cat",
+    "koparko ładowarka jcb nowa cena",
+    "koparko ładowarka cat nowa cena"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparko ładowarka cena",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka cena",
+    "koparko ładowarka cena za godzine",
+    "koparko ładowarka cena nowa",
+    "koparko ładowarka cena kursu",
+    "koparko ładowarka cena za godzine 2025",
+    "koparko ładowarka cena usługi",
+    "koparko ładowarka cena olx",
+    "koparko ładowarka cena wynajmu",
+    "chińska koparko ładowarka cena",
+    "koparko ładowarka jcb cena"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "otwieracz do butelek drewniany",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "niskie",
@@ -978,6 +1082,32 @@
    "firmy": [],
    "ocena": 34,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "jcb 3cx cena",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "jcb 3cx cena",
+    "jcb 3cx cena nowa",
+    "jcb 3cx pro cena",
+    "koparka jcb 3cx cena",
+    "jcb 3cx compact cena",
+    "jcb 3cx plus cena",
+    "jcb 3cx 2025 cena",
+    "jcb 3cx eco cena",
+    "jcb 3cx 2026 cena",
+    "jcb 3cx 2014 cena"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": null
   },
   {
    "fraza": "prezent świąteczny drewniany",
@@ -1871,6 +2001,10 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
+   "fraza": "pomysł na prezent dla mężczyzny",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
    "fraza": "pomysł na prezent dla przyjaciółki",
    "z_frazy": "pomysł na prezent"
   },
@@ -1896,10 +2030,6 @@
   },
   {
    "fraza": "pomysł na prezent na rocznicę ślubu",
-   "z_frazy": "pomysł na prezent"
-  },
-  {
-   "fraza": "pomysł na prezent ślubny",
    "z_frazy": "pomysł na prezent"
   },
   {
@@ -1969,6 +2099,170 @@
   {
    "fraza": "prezent do 300 zł dla mamy",
    "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "koparko ładowarka jcb",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka cat",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka otomoto",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka jcb 3cx",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka case",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka ostrówek",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka new holland",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka klasa 3",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka nowa cena",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka nowa chińska",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka nowa otomoto",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka nowa jcb",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka nowa sól",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka nowa cat",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka jcb nowa cena",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka cat nowa cena",
+   "z_frazy": "koparko ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka cena za godzine",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka cena nowa",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka cena kursu",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka cena za godzine 2025",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka cena usługi",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka cena wynajmu",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "chińska koparko ładowarka cena",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "koparko ładowarka jcb cena",
+   "z_frazy": "koparko ładowarka cena"
+  },
+  {
+   "fraza": "jcb 3cx cena nowa",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx pro cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "koparka jcb 3cx cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx compact cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx plus cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx 2025 cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx eco cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx 2026 cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "jcb 3cx 2014 cena",
+   "z_frazy": "jcb 3cx cena"
+  },
+  {
+   "fraza": "usługi koparką rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "koparka łańcuchowa rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "minikoparka rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "praca koparka rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "usługi koparką rzeszów cena",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "kurs koparka rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "koparka wynajem rzeszów",
+   "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "koparka sany rzeszów",
+   "z_frazy": "koparka rzeszów"
   }
  ]
 }

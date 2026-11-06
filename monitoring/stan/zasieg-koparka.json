@@ -1,0 +1,35 @@
+{
+ "zbior": "WnzgcUbqLE6ehKUHO",
+ "frazy": {
+  "drewutnia": {
+   "12m": 100.0,
+   "teraz": 100.0,
+   "zmiana": -18,
+   "szczyt": "Mar 29, 2026"
+  },
+  "koparko ładowarka": {
+   "12m": 142.2,
+   "teraz": 148.8,
+   "zmiana": -5,
+   "szczyt": "Mar 15, 2026"
+  },
+  "koparko ładowarka cena": {
+   "12m": 0.2,
+   "teraz": 1.9,
+   "zmiana": null,
+   "szczyt": "Oct 25, 2026"
+  },
+  "jcb 3cx cena": {
+   "12m": 0.0,
+   "teraz": 1.2,
+   "zmiana": null,
+   "szczyt": "Oct 25, 2026"
+  },
+  "koparka rzeszów": {
+   "12m": 0.0,
+   "teraz": 0.0,
+   "zmiana": null,
+   "szczyt": "Nov 2, 2025"
+  }
+ }
+}
