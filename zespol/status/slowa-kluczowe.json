@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "Grupa koparka dodana: 'koparko ładowarka' zasięg 149 (drewutnia=100)",
+ "zadanie": "Dopisałem sekcję do tematy-z-wyszukiwan.md (pytania klientów + zasięg)",
  "postep": 100,
- "aktualizacja": "2026-11-06T13:48+01:00",
+ "aktualizacja": "2026-11-06T16:28+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:28+01:00",
+   "stan": "gotowe",
+   "tekst": "Dopisałem sekcję do tematy-z-wyszukiwan.md (pytania klientów + zasięg)"
+  },
   {
    "czas": "2026-11-06T13:48+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T05:52+01:00",
    "stan": "pracuje",
    "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T04:53+01:00",
-   "stan": "gotowe",
-   "tekst": "04:00 – TOP: drewutnia (65), wiata drewniana 34 (−24)"
   }
  ]
 }
