@@ -1,0 +1,58 @@
+a.chip { color: var(--tekst); text-decoration: none; }
+.chip-wyslij { cursor: pointer; background: #1f3b23; border-color: #3fb950; }
+.chip-wyslij:disabled { opacity: .45; cursor: default; }
+.chip-wyslij.sa { animation: puls 1.6s infinite; }
+
+.filtry { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px; border-bottom: 2px solid #0d0a07; background: var(--tlo); position: sticky; top: 62px; z-index: 4; }
+.filtry button { font-size: 13px; background: var(--karta); border: 2px solid var(--linia); padding: 4px 9px; cursor: pointer; }
+.filtry button.wl { background: var(--akcent); border-color: #f0a070; color: #1a120c; font-weight: 600; }
+.filtry .sep { flex: 0 0 12px; }
+
+.biblioteka { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; padding: 16px; max-width: 1500px; margin: 0 auto; }
+.pusto { grid-column: 1 / -1; text-align: center; color: var(--tekst2); padding: 40px 0; font-size: 16px; }
+
+.post { background: var(--karta); border: 2px solid var(--linia); box-shadow: 0 4px 0 #0d0a07; display: flex; flex-direction: column; min-width: 0; }
+.post.d-ok { border-color: #3fb950; }
+.post.d-popraw { border-color: #e3b341; }
+.post.d-odrzucone { border-color: #f85149; opacity: .7; }
+.post .naglowek { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 8px 10px; border-bottom: 1px solid var(--linia); font-size: 12px; color: var(--tekst2); }
+.kanal { font-weight: 700; color: #1a120c; padding: 2px 7px; font-size: 12px; }
+.k-instagram, .k-instagram-relacja { background: #e1306c; color: #fff; }
+.k-facebook { background: #1877f2; color: #fff; }
+.k-pinterest { background: #e60023; color: #fff; }
+.k-tiktok { background: #fff; }
+.k-etsy { background: #f56400; color: #fff; }
+.stan { margin-left: auto; font-weight: 600; }
+.post h3 { margin: 8px 10px 4px; font-size: 15px; }
+
+.galeria { display: flex; gap: 4px; overflow-x: auto; padding: 0 10px; scroll-snap-type: x mandatory; }
+.galeria img, .galeria video { height: 260px; max-width: 100%; object-fit: contain; background: #0d0a07; cursor: zoom-in; scroll-snap-align: start; flex: 0 0 auto; }
+.galeria.jeden img, .galeria.jeden video { width: 100%; }
+
+.tekst { margin: 8px 10px; font-size: 13px; line-height: 1.45; white-space: pre-wrap; max-height: 9.5em; overflow: hidden; position: relative; }
+.tekst.rozwin { max-height: none; }
+.tekst:not(.rozwin)::after { content: ""; position: absolute; inset: auto 0 0 0; height: 2.5em; background: linear-gradient(transparent, var(--karta)); }
+.wiecej { align-self: flex-start; margin: 0 10px; background: none; border: 0; color: var(--akcent); cursor: pointer; font-size: 12px; padding: 0; }
+.hashtagi { margin: 4px 10px; font-size: 12px; color: #79c0ff; }
+.notka { margin: 6px 10px 0; font-size: 12px; color: #e3b341; }
+
+.decyzja { margin-top: auto; padding: 10px; border-top: 1px solid var(--linia); display: grid; gap: 8px; }
+.przyciski { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+.przyciski button { padding: 9px 4px; border: 2px solid var(--linia); background: var(--karta2); cursor: pointer; font-weight: 600; font-size: 14px; }
+.przyciski .b-ok.on { background: #1f6f33; border-color: #3fb950; }
+.przyciski .b-popraw.on { background: #6b4f12; border-color: #e3b341; }
+.przyciski .b-odrzucone.on { background: #6e1f1b; border-color: #f85149; }
+.decyzja textarea { width: 100%; min-height: 52px; resize: vertical; background: var(--tlo); color: var(--tekst); border: 2px solid var(--linia); padding: 6px; font: 13px var(--sans); }
+.decyzja .info { font-size: 12px; color: var(--tekst2); }
+
+.lupa { position: fixed; inset: 0; background: rgba(0,0,0,.9); z-index: 20; display: flex; align-items: center; justify-content: center; }
+.lupa img { max-width: 96vw; max-height: 94vh; }
+.lupa button { position: absolute; top: 12px; right: 12px; font-size: 22px; background: var(--karta); border: 2px solid var(--linia); padding: 2px 10px; cursor: pointer; }
+.toast { position: fixed; bottom: 18px; left: 50%; transform: translateX(-50%); background: var(--karta2); border: 2px solid var(--akcent); padding: 10px 16px; z-index: 30; max-width: 90vw; }
+
+@media (max-width: 600px) {
+  .filtry { top: 0; position: static; }
+  .biblioteka { grid-template-columns: 1fr; padding: 12px; }
+  .galeria img, .galeria video { height: 340px; }
+}
+[hidden] { display: none !important; }

@@ -223,3 +223,6 @@ a.przycisk { display: inline-block; text-decoration: none; color: var(--tekst); 
   .legenda .sterowanie { display: none; }
   .dziennik li { grid-template-columns: 12px 74px 1fr; }
 }
+
+.chip-akc { color: var(--tekst); text-decoration: none; cursor: pointer; }
+.chip-akc.sa { background: #1f3b23; border-color: #3fb950; animation: puls 1.6s infinite; }

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Akceptacja postów – Biuro FUDALI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="akceptacja.css">
+</head>
+<body>
+<header class="gora">
+  <div class="logo"><span class="kwadrat"></span><div><h1>✅ Akceptacja postów</h1><p>Zatwierdzasz – Ola i Zosia robią resztę (szkice w Bufferze)</p></div></div>
+  <div class="chipy">
+    <a class="chip" href="index.html">🏢 Wróć do biura</a>
+    <span class="chip" id="licznik">…</span>
+    <button class="chip chip-wyslij" id="wyslij" type="button" disabled>📨 Wyślij decyzje zespołowi</button>
+  </div>
+</header>
+
+<nav class="filtry" id="filtry" aria-label="Filtry">
+  <button type="button" data-stan="czeka" class="wl">🕐 Do przejrzenia</button>
+  <button type="button" data-stan="decyzje">🗳️ Twoje decyzje</button>
+  <button type="button" data-stan="w-toku">🛠️ W poprawkach / w Bufferze</button>
+  <button type="button" data-stan="wszystko">📚 Wszystko</button>
+  <span class="sep"></span>
+  <button type="button" data-kanal="" class="wl">wszystkie kanały</button>
+  <button type="button" data-kanal="instagram">Instagram</button>
+  <button type="button" data-kanal="facebook">Facebook</button>
+  <button type="button" data-kanal="pinterest">Pinterest</button>
+  <button type="button" data-kanal="tiktok">TikTok</button>
+</nav>
+
+<main class="biblioteka" id="biblioteka"><p class="pusto">Ładuję bibliotekę…</p></main>
+
+<div class="lupa" id="lupa" hidden><img alt=""><button type="button" aria-label="Zamknij">✕</button></div>
+<div class="toast" id="toast" hidden></div>
+<script src="akceptacja.js"></script>
+</body>
+</html>

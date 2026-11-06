@@ -721,6 +721,9 @@ function odswiezUI(panelTez = true) {
   $("#chip-czat").classList.toggle("sa", czatNowe > 0);
   $("#licz-prosby").textContent = ile;
   $("#chip-prosby").classList.toggle("sa", ile > 0);
+  const akc = DANE.akceptacja?.czeka || 0;
+  $("#licz-akc").textContent = akc;
+  $("#chip-akc").classList.toggle("sa", akc > 0);
   $("#licz-pracuje").textContent = DANE.zespol.filter((o) => stanEf(o) === "pracuje").length;
   $("#aktualizacja").textContent = `Dane: ${kiedy(DANE.zbudowano)}`;
   $("#aktualizacja").title = `Zbudowano: ${DANE.zbudowano || "—"} ${DANE.wersja || ""}`;

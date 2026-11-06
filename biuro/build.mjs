@@ -122,8 +122,28 @@ const sesje = Object.fromEntries(Object.entries(sesjeRej).map(([id, s]) => [id, 
   tytul: s.tytul || null, link: s.link || (s.sesja ? `https://claude.ai/code/${s.sesja}` : null), zadania: Object.keys(s.zadania || {}),
 }]));
 
+// ---------- biuro akceptacji: marketing/akceptacja/*.json → akceptacja.json (+ obrazy/filmy w pliki/) ----------
+const AKC = path.join(ROOT, "marketing", "akceptacja");
+const posty = !fs.existsSync(AKC) ? [] : fs.readdirSync(AKC).filter((f) => f.endsWith(".json")).sort()
+  .map((f) => czytajJson(path.join(AKC, f), null)).filter((p) => p && p.id);
+for (const p of posty) {
+  for (const klucz of ["obrazy", "wideo"]) {
+    p[klucz] = (p[klucz] || []).map((rel) => {
+      const zrodlo = path.resolve(ROOT, rel);
+      if (!zrodlo.startsWith(ROOT + path.sep) || !fs.existsSync(zrodlo)) return null;
+      const cel = path.join(DIST, "pliki", path.relative(ROOT, zrodlo));
+      fs.mkdirSync(path.dirname(cel), { recursive: true });
+      fs.copyFileSync(zrodlo, cel);
+      return "pliki/" + path.relative(ROOT, zrodlo).split(path.sep).map(encodeURIComponent).join("/");
+    }).filter(Boolean);
+  }
+}
+fs.writeFileSync(path.join(DIST, "akceptacja.json"), JSON.stringify({ zbudowano, posty }));
+const akceptacja = { czeka: posty.filter((p) => p.stan === "czeka").length, razem: posty.length };
+
 const dane = {
   zbudowano,
+  akceptacja,
   wersja: (process.env.VERCEL_GIT_COMMIT_SHA || "").slice(0, 7),
   zespol,
   zapisy,
