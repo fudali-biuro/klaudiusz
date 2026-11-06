@@ -3,7 +3,7 @@
   const $ = (s, el = document) => el.querySelector(s);
   const NAZWY_KANALOW = { instagram: "Instagram", "instagram-relacja": "IG relacja", facebook: "Facebook", pinterest: "Pinterest", tiktok: "TikTok", etsy: "Etsy" };
   const STANY = { czeka: "🕐 czeka na Ciebie", ok: "✅ zatwierdzony", popraw: "✏️ w poprawkach", odrzucone: "❌ odrzucony", "w-bufferze": "📤 szkic w Bufferze", opublikowane: "🌍 opublikowany" };
-  let posty = [], decyzje = {}, filtrStan = "czeka", filtrKanal = "";
+  let posty = [], decyzje = {}, filtrStan = "czeka", filtrKanal = "", filtrKampania = "";
 
   const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   function toast(t) { const el = $("#toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => (el.hidden = true), 3500); }
@@ -16,6 +16,7 @@
   }
   function pasuje(p) {
     if (filtrKanal && !p.kanal.startsWith(filtrKanal)) return false;
+    if (filtrKampania && (p.kampania || "") !== filtrKampania) return false;
     const d = decyzjaDla(p);
     if (filtrStan === "czeka") return p.stan === "czeka" && !d;
     if (filtrStan === "decyzje") return !!d;
@@ -104,6 +105,22 @@
     if (b.dataset.kanal !== undefined) { filtrKanal = b.dataset.kanal; $("#filtry").querySelectorAll("[data-kanal]").forEach((x) => x.classList.toggle("wl", x === b)); }
     rysuj();
   };
+  $("#kampania").onchange = (e) => { filtrKampania = e.target.value; rysuj(); };
+  $("#ok-wszystkie").onclick = async () => {
+    const lista = posty.filter((p) => pasuje(p) && p.stan === "czeka" && !decyzjaDla(p));
+    if (!lista.length) return toast("Brak postów do zatwierdzenia w tym widoku.");
+    if (!confirm(`Zatwierdzić ${lista.length} postów z tego widoku?`)) return;
+    const b = $("#ok-wszystkie"); b.disabled = true;
+    let ok = 0;
+    for (const p of lista) {
+      try {
+        const r = await fetch("/api/akceptacja", { method: "POST", headers: { "content-type": "application/json", "x-biuro": "1" },
+          body: JSON.stringify({ id: p.id, decyzja: "ok", komentarz: "", tytul: p.tytul, wersja: p.wersja || 1 }) });
+        const j = await r.json(); if (r.ok) { decyzje[p.id] = j.decyzja; ok++; }
+      } catch { /* pomiń */ }
+    }
+    b.disabled = false; rysuj(); toast(`Zatwierdzone: ${ok}. Kliknij „Wyślij decyzje”, żeby zespół dostał listę.`);
+  };
   $("#lupa").onclick = () => ($("#lupa").hidden = true);
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("#lupa").hidden = true; });
 
@@ -111,6 +128,8 @@
     try { const r = await fetch("akceptacja.json", { cache: "no-cache" }); posty = (await r.json()).posty || []; } catch { posty = []; }
     try { const r = await fetch("/api/akceptacja", { cache: "no-store" }); decyzje = r.ok ? (await r.json()).decyzje || {} : {}; } catch { decyzje = {}; }
     posty.sort((a, b) => (a.data || "9999").localeCompare(b.data || "9999") || (a.godzina || "").localeCompare(b.godzina || ""));
+    const sel = $("#kampania"), kamp = [...new Set(posty.filter((p) => p.stan === "czeka").map((p) => p.kampania).filter(Boolean))].sort();
+    sel.innerHTML = `<option value="">wszystkie kampanie</option>` + kamp.map((k) => `<option ${k === filtrKampania ? "selected" : ""}>${esc(k)}</option>`).join("");
     rysuj();
   }
   wczytaj();

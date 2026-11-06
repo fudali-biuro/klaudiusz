@@ -56,3 +56,5 @@ a.chip { color: var(--tekst); text-decoration: none; }
   .galeria img, .galeria video { height: 340px; }
 }
 [hidden] { display: none !important; }
+.filtry select { font-size: 13px; background: var(--karta); color: var(--tekst); border: 2px solid var(--linia); padding: 4px 6px; }
+.filtry .hurt { background: #1f6f33; border-color: #3fb950; font-weight: 600; }
