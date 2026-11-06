@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "gotowe",
- "zadanie": "12:05 – brak nowych postów",
- "postep": 100,
- "aktualizacja": "2026-11-06T12:07+01:00",
+ "stan": "pracuje",
+ "zadanie": "Wzorce sprzedaży koparek (TikTok/IG/OLX)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T13:46+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:46+01:00",
+   "stan": "pracuje",
+   "tekst": "Wzorce sprzedaży koparek (TikTok/IG/OLX)"
+  },
   {
    "czas": "2026-11-06T12:07+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T06:38+01:00",
    "stan": "gotowe",
    "tekst": "06:00 – brak nowych postów"
-  },
-  {
-   "czas": "2026-11-05T06:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
  ]
 }
