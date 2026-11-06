@@ -22,7 +22,7 @@ POSTY = {  # nr: (haczyk, [(zdjęcie, napis, ruch0, ruch1)], opis)
      "Cała maszyna z każdej strony. Rocznik 2026, od ręki w Rzeszowie, oględziny i jazda próbna po umówieniu."),
  7: ("Co dostajesz za 250 000 zł netto?", [(2, ["4x4 · Stage V"]), (4, ["Klimatyzacja", "kamera cofania"]), (5, ["Łyżka 6w1", "kopie do 5,5 m"]), (9, ["Gwarancja 12 mies."])],
      "Co dostajesz: 4x4, Stage V, klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies."),
- 8: ("Leasing na koparkę? Pomożemy.", [(10, "Leasing i kredyt dla firm"), (6, "VAT do odliczenia"), (2, "Cena 250 000 zł netto")],
+ 8: ("Leasing na koparkę? Pomożemy.", [(10, "Leasing i kredyt dla firm"), (6, ["VAT do odliczenia", "dla czynnych płatników"]), (2, "Cena 250 000 zł netto")],
      "Leasing operacyjny i finansowy, kredyt dla firm, pomoc w formalnościach. VAT do odliczenia – dla firm, czynnych płatników VAT. Cena 250 000 zł netto."),
  9: ("Nowe Case i JCB: 290–450 tys. netto", [(4, ["Case 550SV 289,9", "Case 580SV 380", "JCB 3CX Plus EH 450", "(tys. zł netto)"]), (9, ["Nasza Shanmon:", "nowa, 250 000 zł netto"]), (2, "Rocznik 2026")],
      "Nowe Case i JCB: 290–450 tys. zł netto (ogłoszenia Otomoto, 6.11.2026). Nasza Shanmon: nowa, rocznik 2026, 250 000 zł netto. Procentów nie podajemy."),
