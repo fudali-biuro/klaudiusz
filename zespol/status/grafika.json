@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "IG: poprawki siatki (mniej tekstu, P7 real, korekta barwna) + stories D1–D7",
- "postep": null,
- "aktualizacja": "2026-11-06T16:38+01:00",
+ "stan": "gotowe",
+ "zadanie": "IG v2: siatka poprawiona + stories D1–D7",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T16:40+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:40+01:00",
+   "stan": "gotowe",
+   "tekst": "IG v2: siatka poprawiona + stories D1–D7"
+  },
   {
    "czas": "2026-11-06T16:38+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T12:16+01:00",
    "stan": "czeka",
    "tekst": "Paczka listopad gotowa bez stolika i stołków"
-  },
-  {
-   "czas": "2026-11-05T12:13+01:00",
-   "stan": "pracuje",
-   "tekst": "Paczka listopad: 6 teł leżaka, stolik, stołki, detale, 2 rolki"
   }
  ]
 }
