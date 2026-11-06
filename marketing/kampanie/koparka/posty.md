@@ -34,24 +34,25 @@ Uwaga: pozostałe parametry (moc, waga, silnik, hydraulika) dopiszemy po pełnym
 
 ---
 ## ✅ Aktualizacja po `ceny.md` (Marek, 06.11) i wzorcach Mietka – obowiązuje zamiast wierszy 4–10 powyżej
-**Cena zawsze:** „250 000 zł netto (307 500 zł brutto)”. Dozwolone (ze źródłem w `ceny.md`): gwarancja 12 mies. na silnik, skrzynię i most; serwis w całej Polsce; leasing/kredyt dla firm (BEZ raty); VAT do odliczenia; 4x4, Stage V, klimatyzacja, kamera cofania, kabina ROPS/FOPS; silnik Yuchai 74 kW; masa 8 200 kg; łyżka 1,0 m³ i udźwig 2 500 kg; porównanie: nowe Case 550SV 289 900 / Case 580SV 380 000 / JCB 3CX Plus EH 450 000 zł netto („podobne nowe koparko-ładowarki”). **Nie pisać:** „najtańsza”, rat, „taniej o X%” bez modelu, cen z Chin.
-Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2) cena netto i osprzęt w haczyku; (3) liczba jako haczyk („5,5 m”). Uwaga Mietka: nasza cena jest wyżej niż niektóre nowe chińskie na portalach (150–195 tys.) → każdy post z ceną niesie argument „za co” (gwarancja, serwis, Stage V, 4x4, leasing).
+**Cena zawsze:** „250 000 zł netto (307 500 zł brutto)”. Dozwolone (ze źródłem w `ceny.md`): gwarancja 12 mies. na silnik, skrzynię i most; serwis w całej Polsce; leasing/kredyt dla firm (BEZ raty); VAT do odliczenia; 4x4, klimatyzacja, kamera cofania, kabina ROPS/FOPS; silnik Yuchai 74 kW; masa 8 200 kg; łyżka 1,0 m³ i udźwig 2 500 kg; porównanie: nowe Case 550SV 289 900 / Case 580SV 380 000 / JCB 3CX Plus EH 450 000 zł netto („podobne nowe koparko-ładowarki”). **Nie pisać:** „najtańsza”, rat, „taniej o X%” bez modelu, cen z Chin.
+Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2) cena netto i osprzęt w haczyku; (3) liczba jako haczyk („5,5 m”). Uwaga Mietka: nasza cena jest wyżej niż niektóre nowe chińskie na portalach (150–195 tys.) → każdy post z ceną niesie argument „za co” (gwarancja, serwis, 4x4, leasing).
 
 | # | Haczyk (1 s) | Tekst na ekranie | Opis (gotowy) |
 |---|---|---|---|
 | 4 | „250 000 zł netto. Nowa. Od ręki.” | „250 000 zł netto” → „307 500 brutto” → „Rzeszów, od ręki” | Nowa koparko-ładowarka 2026: 250 000 zł netto (307 500 zł brutto). Gwarancja 12 mies., serwis w całej Polsce. Od ręki w Rzeszowie. Pisz w wiadomości. |
 | 5 | „Nowa czy używana? Cena podobna.” | „Używany JCB 3CX 2018–2022: ok. 250 tys.” → „Nowa Shanmon 2026: 250 tys. netto” | Zanim kupisz używaną, porównaj: ogłoszenia używanych JCB 3CX z lat 2018–2022 to ok. 250 tys. zł. Nasza jest nowa, z gwarancją 12 mies. Pisz w wiadomości. |
 | 6 | „Obchód maszyny – 10 sekund” | walk-around z cenami | Cała maszyna z każdej strony. Rocznik 2026, od ręki w Rzeszowie, oględziny i jazda próbna po umówieniu. |
-| 7 | „Co dostajesz za 250 000 zł netto?” | „4x4 · Stage V · klima · kamera cofania · łyżka 6w1 · 5,5 m” | Co dostajesz: 4x4, silnik Stage V, klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies. |
+| 7 | „Co dostajesz za 250 000 zł netto?” | „4x4 · klima · kamera cofania · łyżka 6w1 · 5,5 m” | Co dostajesz: 4x4, silnik klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies. |
 | 8 | „Leasing na koparkę? Pomożemy.” | „Leasing i kredyt dla firm” → „VAT do odliczenia” | Leasing operacyjny i finansowy, kredyt dla firm, pomoc w formalnościach. VAT do odliczenia. Cena 250 000 zł netto. |
 | 9 | „Podobne nowe maszyny: 290–450 tys.” | „Case 550SV 289,9 · Case 580SV 380 · JCB 3CX 450 (tys. netto)” → „Shanmon 388: 250 tys.” | Podobne nowe koparko-ładowarki kosztują 290–450 tys. zł netto (ogłoszenia Otomoto, 6.11.2026). Nasza: 250 000 zł netto, rocznik 2026. |
 | 10 | „Nadal dostępna – Rzeszów” | „250 000 zł netto” → „Oględziny i jazda próbna” | Nadal dostępna, od ręki w Rzeszowie. Oględziny i jazda próbna po umówieniu. |
 
 ## Piny EN – dodatki (ceny w EUR dopiero po przeliczeniu; na razie PLN)
 4. „Backhoe Loader for Sale in Poland – 250,000 PLN net, 2026, Warranty 12 Months”
-5. „New Backhoe Loader 4x4 Stage V – 6-in-1 Bucket, Dig to 5.5 m, Test Drive in Rzeszów”
+5. „New Backhoe Loader 4x4  – 6-in-1 Bucket, Dig to 5.5 m, Test Drive in Rzeszów”
 
 ## Stan (06.11.2026, 15:00)
 - Piny EN: 3 szkice w Buffer z linkiem do ogłoszenia Otomoto i ceną „250,000 PLN net (307,500 PLN gross)”.
 - Posty TikTok #4–10 – teksty gotowe (tabela wyżej); filmy robi Zosia (3 gotowe, czekają na wersję z brutto).
 - Marek poproszony o kontrolę cen w postach.
+**Uwaga Marka (06.11):** NIE pisać „Stage V” (czekamy na dokument), nie porównywać do cen z Chin, bez rat. Jeśli Pablo zmieni cenę (rekomendacja Marka: 235 000 netto) – przeliczyć teksty.
