@@ -18,7 +18,7 @@ Dodatkowo: **dowody zaufania** (opinie, gwarancja 1 rok, realizacje po latach) �
 - **1 pytanie lub „zapisz”** na końcu (komentarz/zapis > lajk). Max **3–5 hashtagów**, trafnych.
 - Slajd 1 karuzeli = obietnica/pytanie; ostatni slajd = jedno CTA (napisz / zapisz).
 - Grafiki: **prawdziwe zdjęcia z biblioteki** (rotacja, `zdjecia.py nastepne/uzyj`), montaż Zosi, spójny wzór: ciepły kremowy + ciemna zieleń + drewno, logo FUDALI w rogu, mało tekstu (styl Formatwood). Bez „grafika AI” na montażach.
-- Rytm: **3–4 posty/tydz. + stories codziennie**; reels min. 1/tydz.
+- Rytm (polecenie Pablo, wzór Form at Wood): **codziennie 1 post lub reel + relacje każdego dnia** (zero „AI slopu”, każdy post ma sens i prawdziwy wygląd); reels min. 2–3/tydz.
 
 ## 3. Bio i wyróżnione
 **Bio (propozycja, ≤150 znaków):**
@@ -36,14 +36,14 @@ Układ po 9 postach (rząd górny = P9 P8 P7, środek = P6 P5 P4, dół = P3 P2 
 |---|---|---|---|---|---|---|
 | P1 | pon 9.11 | Detal | karuzela 6 slajdów | „Ten sam leżak. 5 kolorów. Który jest Twój?” | zdjęcia reklamowe fotografa `produkty/*banasik-zdjecia-reklamowe-fud-14`(czarny), `-15`(ciemny brąz), `-16`(grafit), `-17`(brąz), `-18`(jasny) – 1 slajd = 1 kolor (zbliżenie listew) + slajd końcowy ze wszystkimi (`…-fud-10`/`-11`/`fud`) | „Napisz numer koloru 👇” (jasny brąz, brąz, ciemny brąz, grafit, czerń – wg `produkty.md`) |
 | P2 | wt 10.11 | Wiedza | karuzela 4 slajdy | „Jak przechować drewniany leżak na zimę – 3 zasady” | leżak złożony: `…banasik…-fud-10` (grafit), `-11` (czarny), `…-fud.jpg` (brąz) + zdjęcie tarasu/zimy z biblioteki | „Zapisz, zanim spadnie śnieg 📌” (fakty: sucho, przewiewnie, z dala od wilgoci i dużego ciepła – `produkty.md`) |
-| P3 | czw 12.11 | Proces | reel 8–12 s | „Z płatka dębu robimy stolik. Tak to wygląda od środka” | `gotowe/…wyciete-blaty-…patka` → `gotowe/…stolik-patek-…` (montaż prawdziwych zdjęć, ruch) | „Który kształt blatu wolisz?” |
-| P4 | pt 13.11 | Detal/dowód | karuzela 5 slajdów | „Rama 30 mm, listwy 50 mm, 10 kg. Z czego jest nasz leżak?” | infografika wymiarów `…-fud-12` (100×55×90) i `-19` (złożony 125 cm), poduszka `-20`, lina `-21`, detal listew `-15` | „Co chcesz zobaczyć z bliska?” |
-| P5 | sob 14.11 | Życie | pojedyncze „wow” | „Wieczór, który zaczyna się od ognia 🔥” | `gotowe/…taras-z-palenisko…` | „Z kim byś tu usiadł?” |
-| P6 | pon 16.11 | Oferta/sezon | karuzela 4 slajdy | „Prezent dla taty, który ma wszystko – 4 pomysły od 49 zł” | otwieracz „Kot”, podkładka, składany stolik, leżak (ceny: 49/99/229/299 zł z `produkty.md`) | „Komu to wyślesz?” |
-| P7 | wt 17.11 | Proces | reel 8 s | „Jak się składa leżak? Zobacz animację konstrukcji” | `produkty/…7b25c15….mp4` (animacja 3D składania, 7 s) + napisy | „Chcesz film z warsztatu? Napisz TAK” |
-| P8 | czw 19.11 | Realizacje | karuzela 3 slajdy | „Leżaki na werandzie klienta – tak mieszkają” | **tylko prawdziwa realizacja u klienta:** `produkty/…image-20260904-110937-616` (weranda z mozaiką; wg Zosi/Pablo) – zdjęcia „istock” to stock, NIE podpisujemy jako realizacji | „Jak urządzasz taras?” |
-| P9 | pt 20.11 | Wiedza | karuzela 5 slajdów | „Dąb czy jodła? Czym się różnią nasze meble” | stołki z dębu (`gotowe/…stokow…`), leżak z jodły | „Jodła czy dąb – głosuj w komentarzu” (**fakty o twardości/kolorze – do weryfikacji, na razie tylko: jodła FSC (leżak), dąb czerwony (stołki, Płatek)**) |
-**Do dokupienia/nagrania (prośba do Pabla, telefon):** 10–15 s ujęcia warsztatu (cięcie, szlifowanie, składanie leżaka) – zamienią P3/P7 na prawdziwy proces; 3–5 realizacji z nazwą miejscowości; zdjęcie ludzi przy pracy.
+| P3 | śr 11.11 | Proces | reel 8–12 s | „Z płatka dębu robimy stolik. Tak to wygląda od środka” | `gotowe/…wyciete-blaty-…patka` → `gotowe/…stolik-patek-…` (montaż prawdziwych zdjęć, ruch) | „Który kształt blatu wolisz?” |
+| P4 | czw 12.11 | Detal/dowód | karuzela 5 slajdów | „Rama 30 mm, listwy 50 mm, 10 kg. Z czego jest nasz leżak?” | infografika wymiarów `…-fud-12` (100×55×90) i `-19` (złożony 125 cm), poduszka `-20`, lina `-21`, detal listew `-15` | „Co chcesz zobaczyć z bliska?” |
+| P5 | pt 13.11 | Życie | pojedyncze „wow” | „Wieczór, który zaczyna się od ognia 🔥” | `gotowe/…taras-z-palenisko…` | „Z kim byś tu usiadł?” |
+| P6 | sob 14.11 | Oferta/sezon | karuzela 4 slajdy | „Prezent dla taty, który ma wszystko – 4 pomysły od 49 zł” | otwieracz „Kot”, podkładka, składany stolik, leżak (ceny: 49/99/229/299 zł z `produkty.md`) | „Komu to wyślesz?” |
+| P7 | ndz 15.11 | Proces | reel 8 s | „Jak się składa leżak? Zobacz animację konstrukcji” | `produkty/…7b25c15….mp4` (animacja 3D składania, 7 s) + napisy | „Chcesz film z warsztatu? Napisz TAK” |
+| P8 | pon 16.11 | Realizacje | karuzela 3 slajdy | „Leżaki na werandzie klienta – tak mieszkają” | **tylko prawdziwa realizacja u klienta:** `produkty/…image-20260904-110937-616` (weranda z mozaiką; wg Zosi/Pablo) – zdjęcia „istock” to stock, NIE podpisujemy jako realizacji | „Jak urządzasz taras?” |
+| P9 | wt 17.11 | Wiedza | karuzela 5 slajdów | „Dąb czy jodła? Czym się różnią nasze meble” | stołki z dębu (`gotowe/…stokow…`), leżak z jodły | „Jodła czy dąb – głosuj w komentarzu” (**fakty o twardości/kolorze – do weryfikacji, na razie tylko: jodła FSC (leżak), dąb czerwony (stołki, Płatek)**) |
+**Materiał:** pracujemy na bibliotece (60+ prawdziwych zdjęć). Dodatkowe filmy/zdjęcia z warsztatu, realizacji z nazwą miejscowości i ludzi przy pracy załatwia Klaudiusz (nie prosimy Pabla) – gdy się pojawią, zamieniamy nimi P3/P7 i dokładamy serię z bohaterem.
 
 ## 5. Stories – 7 dni (9–15.11), codziennie 3–5 klatek, ankieta/quiz/pytanie
 | Dzień | Temat | Klatki |

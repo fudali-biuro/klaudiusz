@@ -50,7 +50,7 @@
 - **Filary:** (1) Jak powstaje (warsztat, proces, maszyny), (2) Detal i rzemiosło (zbliżenia, łączenia, słoje), (3) Realizacje (u klientów, lokalne), (4) Dowody zaufania (lata, gwarancja, opinie, test w mrozie), (5) Wiedza o drewnie (wybór, pielęgnacja, koszty), (6) Ludzie i historia rodzinnej firmy, (7) Oferta/sezon (tylko ~1 na 5 postów).
 - **Formaty:** reels 5–15 s z procesem (priorytet), karuzele 3–4 slajdy z haczykiem na 1. slajdzie, rzadziej pojedyncze „wow”; stories codziennie.
 - **Cel posta:** komentarz / zapis / wiadomość (pytanie, „napisz, jaki wymiar”, „zapisz poradnik”) – nie lajk.
-- **Potrzebne materiały od Pabla (telefon, krótko):** (a) 10–15 s filmy z warsztatu: cięcie, szlifowanie, składanie leżaka, pakowanie paczki; (b) 3–5 zdjęć/filmów realizacji u klientów z nazwą miejscowości; (c) zrzut ekranu profilu (siatka + bio + wyróżnione).
+- **Materiały (zmiana 06.11):** nie prosimy Pabla – pracujemy na bibliotece zdjęć; dodatkowe filmy z warsztatu i realizacje z miejscowością załatwia Klaudiusz.
 - **Pomiar:** co tydzień z Buffera: zasięg, komentarze, zapisy, udostępnienia; w DM zliczać zapytania (ręcznie przez Pabla).
 
 ## 7. Zastrzeżenia
