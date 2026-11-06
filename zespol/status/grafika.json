@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Inspiracje cozy: leżak w przytulnych wnętrzach (4 sztuki) + próbne wideo",
- "postep": null,
- "aktualizacja": "2026-11-06T22:06+01:00",
+ "stan": "gotowe",
+ "zadanie": "Inspiracje cozy: 4 sceny (4:5, 2:3) + wideo próbne",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T22:08+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:08+01:00",
+   "stan": "gotowe",
+   "tekst": "Inspiracje cozy: 4 sceny (4:5, 2:3) + wideo próbne"
+  },
   {
    "czas": "2026-11-06T22:06+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T13:12+01:00",
    "stan": "czeka",
    "tekst": "Packshoty: 7 z 18 gotowych, brak kredytów generatora"
-  },
-  {
-   "czas": "2026-11-05T13:03+01:00",
-   "stan": "pracuje",
-   "tekst": "Więcej packshotów w stylu próbki (jasne drewno, czysto)"
   }
  ]
 }
