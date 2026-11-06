@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "12 inspiracji z koparką Shanmon Fuji 388",
- "postep": null,
- "aktualizacja": "2026-11-06T22:47+01:00",
+ "stan": "gotowe",
+ "zadanie": "12 inspiracji z koparką gotowe dla Oli",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T22:48+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:48+01:00",
+   "stan": "gotowe",
+   "tekst": "12 inspiracji z koparką gotowe dla Oli"
+  },
   {
    "czas": "2026-11-06T22:47+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T15:58+01:00",
    "stan": "gotowe",
    "tekst": "Święta: pierwsza paczka 28 grafik (7 motywów × 4 formaty)"
-  },
-  {
-   "czas": "2026-11-05T15:56+01:00",
-   "stan": "pracuje",
-   "tekst": "Sezon świąteczny: pierwsza paczka grafik (IG/FB/Pinterest)"
   }
  ]
 }
