@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "16:00 – dodałem 8 fraz świątecznych (TOP: prezent z drewna 62)",
+ "zadanie": "05:20 – TOP: drewutnia (65); święta: prezent pod choinkę (65)",
  "postep": 100,
- "aktualizacja": "2026-11-05T15:57+01:00",
+ "aktualizacja": "2026-11-06T05:21+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T05:21+01:00",
+   "stan": "gotowe",
+   "tekst": "05:20 – TOP: drewutnia (65); święta: prezent pod choinkę (65)"
+  },
+  {
+   "czas": "2026-11-06T05:21+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-06T05:20+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-05T15:57+01:00",
    "stan": "gotowe",
@@ -191,21 +206,6 @@
    "czas": "2026-11-05T01:53+01:00",
    "stan": "gotowe",
    "tekst": "01:00 – TOP: drewutnia (65), wiata drewniana 34 (−24)"
-  },
-  {
-   "czas": "2026-11-05T01:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
-  },
-  {
-   "czas": "2026-11-05T01:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T00:54+01:00",
-   "stan": "gotowe",
-   "tekst": "00:00 – bez zmian, TOP: drewutnia (65)"
   }
  ]
 }
