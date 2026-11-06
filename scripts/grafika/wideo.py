@@ -25,6 +25,7 @@ def zapytanie(url, dane=None, metoda=None):
 
 
 def main():
+    sys.exit("🚫 Filmy AI wyłączone decyzją Pablo (06.11.2026) – zespol/lekcje-pablo.md pkt 21.")
     ap = argparse.ArgumentParser()
     ap.add_argument("--zdjecie", action="append", required=True)
     ap.add_argument("--opis", required=True)

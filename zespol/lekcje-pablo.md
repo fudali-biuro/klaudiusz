@@ -47,3 +47,7 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     w którym leżak jest jednym z elementów kompozycji. Zero napisów i cen na takich zdjęciach. Format: pion 4:5 (IG) i 2:3 (Pinterest).
 19. **Produkt musi być 1:1 prawdziwy** – wstawiamy nasz leżak z prawdziwego zdjęcia (kształt, listwy, lina, poduszka, kolor), scena może być generowana.
 20. **Filmy AI z prawdziwego zdjęcia** (`scripts/grafika/wideo.py`, ok. 1 USD/klip) – realistyczne ujęcia w stylu viralowych filmów; cudzy film to tylko inspiracja opisana słowami, nigdy nie przerabiamy cudzego nagrania. Na TikToku/IG przy realistycznym wideo AI zaznaczamy etykietę „AI” przy publikacji.
+
+## Dopisane 06.11.2026, 22:00
+21. **ZAKAZ filmów AI** (Pablo: „nie róbcie już filmów, spalamy kasę, a nie wychodzą dobrze”). Nie używamy `scripts/grafika/wideo.py`
+    ani żadnych generatorów wideo. Filmy/reelsy tylko z prawdziwych nagrań i zdjęć (montaż ffmpeg – darmowy). Obrazy-inspiracje dalej OK.
