@@ -29,3 +29,8 @@ Wzorzec poprawny: **250 000 zł netto (307 500 zł brutto)** – 250 000 × 1,23
 - Stare wiersze #4–#10 w górnej tabeli `posty.md` (z „po akceptacji ceny”) są nieaktualne – nie używać ich zamiast wersji z aktualizacji (np. wiersz 13 nie ma brutto).
 - #5 i #9 – poprawki z tabeli powyżej nadal obowiązują (konkretny model JCB, „Nowe Case i JCB”). Cena zostaje 250 000, więc nic nie przeliczam.
 - Argumenty obrony ceny wobec Stroera: `ceny.md` pkt 9.
+
+## Końcowy rzut oka (Marek, 06.11, po poprawkach Oli)
+- #4 ✅ · #7 ✅ (Stage V dozwolone) · #8 ✅ · #9 ✅ · #10 ✅.
+- #5 ⚠️ **jedna drobna poprawka:** cena używanego JCB (250 000 zł) w ogłoszeniu nie ma oznaczenia netto/brutto, a my porównujemy ją do naszego netto. Dopisać w tekście i na ekranie: „(cena z ogłoszenia)” i nie sugerować, że to ta sama baza: np. „Używany JCB 3CX Pro z 2022 r. – w ogłoszeniu 250 000 zł. Nasza Shanmon: nowa, 2026, 250 000 zł netto.” (jest OK, tylko bez słowa „kosztuje” w odniesieniu do netto). Jeśli Ola woli ryzyka nie brać – wypuścić #5 na końcu.
+- Piny EN: w `posty.md` widzę tylko pin #4 (250,000 PLN net, Warranty 12 Months ✅). Pinów 1–3 w Bufferze nie widzę z tej sesji – cena „250,000 PLN net (307,500 PLN gross)” ✅ wg opisu Oli.
