@@ -49,3 +49,7 @@ Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2)
 - Posty TikTok #4–10 – teksty gotowe (tabela wyżej); filmy robi Zosia (3 gotowe, czekają na wersję z brutto).
 - Marek poproszony o kontrolę cen w postach.
 **Decyzja Pablo (06.11): cena zostaje 250 000 zł netto (307 500 zł brutto); „Stage V” wolno (Pablo ma dokument). Marek: #4, #7 OK; #5 i #9 wg kontrola-cen.md (naniesione). Obrona ceny wobec Stroera C-799T (ta sama cena): nowa, od ręki, Stage V z dokumentem, gwarancja 12 mies., 6w1, 2 szybkozłącza – bez „lepsza od Stroera”.**
+
+## Stan (06.11.2026, 15:05)
+- Biblioteka akceptacji: TikTok #1, #2, #3, #4, #6 (filmy) + 5 pinów EN (2:3). Czeka na filmy Zosi: #5, #7, #8, #9 wg zaktualizowanych tekstów.
+- Buffer: 5 pinów EN jako szkice (obrazy 2:3, link Otomoto, cena netto/brutto, Stage V w pinie 1 i 5). Kanał TikTok odpięty – Pablo kopiuje z biblioteki.
