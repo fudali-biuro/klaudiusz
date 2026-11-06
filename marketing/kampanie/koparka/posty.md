@@ -33,7 +33,7 @@ Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2)
 | # | Haczyk (1 s) | Tekst na ekranie | Opis (gotowy) |
 |---|---|---|---|
 | 4 | „250 000 zł netto. Nowa. Od ręki.” | „250 000 zł netto” → „307 500 brutto” → „Rzeszów, od ręki” | Nowa koparko-ładowarka 2026: 250 000 zł netto (307 500 zł brutto). Gwarancja 12 mies., płatny serwis z dojazdem w całej Polsce. Od ręki w Rzeszowie. Pisz w wiadomości. |
-| 5 | „Używany JCB 3CX Pro 2022 – 250 000 zł. A nowa?” | „Używany JCB 3CX Pro z 2022 r. w ogłoszeniu: 250 000 zł” → „Nasza Shanmon: nowa, 2026, 250 000 zł netto” | Używany JCB 3CX Pro z 2022 r. w ogłoszeniu kosztuje 250 000 zł. Nasza Shanmon jest nowa, rocznik 2026: 250 000 zł netto (307 500 zł brutto), gwarancja 12 mies. Pisz w wiadomości. |
+| 5 | „Używany JCB 3CX Pro 2022 – 250 000 zł. A nowa?” | „Używany JCB 3CX Pro z 2022 r. w ogłoszeniu: 250 000 zł” → „Nasza Shanmon: nowa, 2026, 250 000 zł netto” | Używany JCB 3CX Pro z 2022 r. – w ogłoszeniu 250 000 zł (bez informacji netto/brutto). Nasza Shanmon jest nowa, rocznik 2026: 250 000 zł netto (307 500 zł brutto), gwarancja 12 mies. Pisz w wiadomości. |
 | 6 | „Obchód maszyny – 10 sekund” | walk-around z cenami | Cała maszyna z każdej strony. Rocznik 2026, od ręki w Rzeszowie, oględziny i jazda próbna po umówieniu. |
 | 7 | „Co dostajesz za 250 000 zł netto?” | „4x4 · Stage V · klima · kamera cofania · łyżka 6w1 · 5,5 m” | Co dostajesz: 4x4, silnik Stage V, klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies. |
 | 8 | „Leasing na koparkę? Pomożemy.” | „Leasing i kredyt dla firm” → „VAT do odliczenia” | Leasing operacyjny i finansowy, kredyt dla firm, pomoc w formalnościach. VAT do odliczenia – dla firm, czynnych płatników VAT. Cena 250 000 zł netto. |
