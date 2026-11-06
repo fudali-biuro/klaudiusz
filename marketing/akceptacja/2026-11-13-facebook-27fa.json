@@ -8,21 +8,27 @@
  "tekst": "Prezent „do skarpety”, który nie wyląduje w szufladzie ☕🎄\n\nPodkładka-kwiat z orzecha czarnego: chroni blat przed gorącym kubkiem, a na stole wygląda jak mała ozdoba. Każda ma inny rysunek słojów, więc każda jest jedyna w swoim rodzaju.\n\nPasuje na Mikołajki, do prezentu dla koleżanki z pracy, babci, mamy. Cena: 99 zł.\n\nDla kogo byś ją kupił/a? Napisz w komentarzu 👇\n👉 https://www.fudali.com.pl/sklep/",
  "hashtagi": "",
  "obrazy": [
-  "marketing/zdjecia/swieta-2026/podkladka-fb-191x1.jpg"
+  "marketing/zdjecia/swieta-2026/podkladka-kakao-fb-191x1.jpg"
  ],
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-06T07:46:26+00:00",
- "zmieniono": "2026-11-06T07:46:26+00:00",
+ "zmieniono": "2026-11-06T07:48:58+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:26+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T07:48:58+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
