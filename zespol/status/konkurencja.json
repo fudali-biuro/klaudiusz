@@ -1,12 +1,32 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "22:00 – 1 nowy post (Domki Sauny, reel; 1 z werdyktem TAK)",
+ "zadanie": "Raport 06.11 gotowy – nikt z rywali nie podaje terminu zamówień na święta",
  "postep": 100,
- "aktualizacja": "2026-11-05T22:14+01:00",
+ "aktualizacja": "2026-11-06T05:07+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T05:07+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport 06.11 gotowy – nikt z rywali nie podaje terminu zamówień na święta"
+  },
+  {
+   "czas": "2026-11-06T05:06+01:00",
+   "stan": "pracuje",
+   "tekst": "Dane zebrane – analizuję posty i piszę log"
+  },
+  {
+   "czas": "2026-11-06T05:06+01:00",
+   "stan": "pracuje",
+   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
+  },
+  {
+   "czas": "2026-11-06T05:06+01:00",
+   "stan": "pracuje",
+   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
+  },
   {
    "czas": "2026-11-05T22:14+01:00",
    "stan": "gotowe",
@@ -184,26 +204,6 @@
   },
   {
    "czas": "2026-11-05T05:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
-  },
-  {
-   "czas": "2026-11-05T05:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
-  },
-  {
-   "czas": "2026-11-05T05:37+01:00",
-   "stan": "pracuje",
-   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-05T04:38+01:00",
-   "stan": "gotowe",
-   "tekst": "04:00 – brak nowych postów"
-  },
-  {
-   "czas": "2026-11-05T04:38+01:00",
    "stan": "pracuje",
    "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
