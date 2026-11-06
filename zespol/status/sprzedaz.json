@@ -1,8 +1,8 @@
 {
  "id": "sprzedaz",
- "stan": "gotowe",
- "zadanie": "Koparka: widełki ceny 220–240 tys. netto + poprawki ogłoszenia",
- "postep": 100,
+ "stan": "pracuje",
+ "zadanie": "Koparka: kontrola cen w postach Oli",
+ "postep": null,
  "aktualizacja": "2026-11-06T13:52+01:00",
  "makieta": false,
  "prosby": [
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:52+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka: kontrola cen w postach Oli"
+  },
   {
    "czas": "2026-11-06T13:52+01:00",
    "stan": "gotowe",
