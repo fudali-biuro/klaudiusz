@@ -1,9 +1,9 @@
 {
  "id": "grafika",
  "stan": "gotowe",
- "zadanie": "Koparka: cena brutto, filmy 5/6/8/9, 5 pinów EN",
+ "zadanie": "Koparka: filmy 4–9 z ceną gotowe",
  "postep": 100,
- "aktualizacja": "2026-11-06T13:58+01:00",
+ "aktualizacja": "2026-11-06T14:01+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T14:01+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: filmy 4–9 z ceną gotowe"
+  },
   {
    "czas": "2026-11-06T13:58+01:00",
    "stan": "gotowe",
@@ -242,11 +247,6 @@
    "czas": "2026-11-04T15:16+01:00",
    "stan": "wolne",
    "tekst": "Gotowa do pracy – czekam na zadania"
-  },
-  {
-   "czas": "2026-11-04T14:49+01:00",
-   "stan": "gotowe",
-   "tekst": "6 scen do kampanii świątecznej (produkty ze strony w nowej scenerii)"
   }
  ]
 }
