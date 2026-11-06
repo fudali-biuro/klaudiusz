@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "gotowe",
- "zadanie": "05:20 – TOP: drewutnia (65); święta: prezent pod choinkę (65)",
- "postep": 100,
- "aktualizacja": "2026-11-06T05:21+01:00",
+ "stan": "pracuje",
+ "zadanie": "Porównuję zasięg fraz (Google Trends na jednej skali + podpowiedzi + konkurencja)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T06:36+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T06:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Porównuję zasięg fraz (Google Trends na jednej skali + podpowiedzi + konkurencja)"
+  },
   {
    "czas": "2026-11-06T05:21+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T02:53+01:00",
    "stan": "pracuje",
    "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T01:53+01:00",
-   "stan": "gotowe",
-   "tekst": "01:00 – TOP: drewutnia (65), wiata drewniana 34 (−24)"
   }
  ]
 }
