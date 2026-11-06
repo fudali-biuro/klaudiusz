@@ -1,12 +1,23 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Instagram: analiza niszy (Etap 1)",
+ "stan": "czeka",
+ "zadanie": "Apify: wyczerpany limit – analiza Instagrama wstrzymana",
  "postep": null,
  "aktualizacja": "2026-11-06T16:27+01:00",
  "makieta": false,
- "prosby": [],
+ "prosby": [
+  {
+   "czas": "2026-11-06T16:27+01:00",
+   "tresc": "Pablo, darmowy limit Apify (narzędzie do sprawdzania Instagrama i TikToka konkurencji) jest wyczerpany do 3 grudnia. Bez niego nie zrobię analizy niszy na Instagramie i stoi też godzinny podgląd kont konkurencji. Czy wykupić płatny plan Apify (konto fudali, ok. kilkadziesiąt USD miesięcznie)? Odpisz TAK albo NIE.",
+   "pilne": false
+  }
+ ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:27+01:00",
+   "stan": "czeka",
+   "tekst": "Apify: wyczerpany limit – analiza Instagrama wstrzymana"
+  },
   {
    "czas": "2026-11-06T16:27+01:00",
    "stan": "pracuje",
@@ -201,11 +212,6 @@
    "czas": "2026-11-05T07:38+01:00",
    "stan": "pracuje",
    "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
-  },
-  {
-   "czas": "2026-11-05T07:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
   }
  ]
 }
