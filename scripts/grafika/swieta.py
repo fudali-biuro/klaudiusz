@@ -30,6 +30,9 @@ KARTY = {
  "podkladka": (Z + "packshoty/surowe/podkladka-a-dab.jpg", True, (0.5, 0.5), {
     "pl": ("MAŁY PREZENT", "Podkładka z orzecha czarnego", "Ręcznie wycinany kwiat · 99 zł"),
     "en": ("STOCKING FILLER", "Black walnut flower coaster", "Hollow-cut, heat-resistant")}),
+ "podkladka-kakao": (Z + "kampania-swieta/podkladka.jpg", True, (0.5, 0.5), {
+    "pl": ("MAŁY PREZENT", "Podkładka z orzecha czarnego", "Ręcznie wycinany kwiat · 99 zł"),
+    "en": ("STOCKING FILLER", "Black walnut flower coaster", "Hollow-cut, heat-resistant")}),
  "otwieracz-kot": (Z + "kampania-swieta/otwieracz-kot.jpg", True, (0.5, 0.5), {
     "pl": ("MAŁY PREZENT", "Drewniany otwieracz Kot", "Szczęśliwy kot na święta · 49 zł"),
     "en": ("STOCKING FILLER", "Wooden cat bottle opener", "A lucky cat for the holidays")}),
