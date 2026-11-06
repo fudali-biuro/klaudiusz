@@ -152,7 +152,7 @@ for (const [rel, z] of Object.entries(indeksZ)) {
   fs.mkdirSync(path.dirname(cel), { recursive: true });
   fs.copyFileSync(zrodlo, cel);
   zdjecia.push({ url: "pliki/" + rel.split("/").map(encodeURIComponent).join("/"), nazwa: path.basename(rel), sekcja: z.sekcja,
-    opis: z.opis || "", tagi: z.tagi || [], produkt: z.produkt || "", dodano: z.dodano || "", uzycia: (z.uzycia || []).length });
+    opis: z.opis || "", tagi: z.tagi || [], produkt: z.produkt || "", zrodlo: z.zrodlo || "", dodano: z.dodano || "", uzycia: (z.uzycia || []).length });
 }
 zdjecia.sort((a, b) => (b.dodano || "").localeCompare(a.dodano || ""));
 fs.writeFileSync(path.join(DIST, "zdjecia.json"), JSON.stringify({ zbudowano, zdjecia }));

@@ -6,7 +6,7 @@
     produkty: ["Produkty", "Prawdziwe zdjęcia produktów (leżak, stolik…) – najlepiej na prostym tle, cały produkt w kadrze."],
     gotowe: ["Gotowe ujęcia", "Prawdziwe zdjęcia gotowe do postów od razu – produkt w realnym miejscu."],
   };
-  const MAX = 4_000_000, NA_WIADOMOSC = 12;
+  const MAX = 4_000_000;
   let sekcja = "tla", zdjecia = [], kolejka = [];
   const esc = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   function toast(t) { const el = $("#toast"); el.textContent = t; el.hidden = false; clearTimeout(toast.t); toast.t = setTimeout(() => (el.hidden = true), 4000); }
@@ -58,19 +58,13 @@
     const opis = $("#opis").value.trim();
     $("#wyslij").disabled = true;
     try {
-      for (let i = 0; i < gotowe.length; i += NA_WIADOMOSC) {
-        const paczka = gotowe.slice(i, i + NA_WIADOMOSC);
-        const tekst = `📸 NOWE ZDJĘCIA DO BIBLIOTEKI – sekcja: ${sekcja} (${SEKCJE[sekcja][0]}), ${paczka.length} szt.` +
-          (opis ? `\nOpis od Pablo: ${opis}` : "") +
-          `\n\nZosia: dopisz je do biblioteki: python3 scripts/zdjecia.py dodaj --sekcja ${sekcja} <ścieżki załączników>` +
-          (opis ? ` --opis "${opis.replace(/"/g, "'")}"` : "") + ` (obejrzyj każde i dopisz opis/tagi: zdjecia.py opisz). Nie odpisuj Pablo – wystarczy, że zdjęcia pojawią się w bibliotece.`;
-        const r = await fetch("/api/czat", { method: "POST", headers: { "content-type": "application/json", "x-biuro": "1" },
-          body: JSON.stringify({ do: "grafika", tekst, zalaczniki: paczka.map(({ url, nazwa, typ, rozmiar }) => ({ url, nazwa, typ, rozmiar })) }) });
-        const d = await r.json().catch(() => ({}));
-        if (!r.ok) throw new Error(d.opis || d.blad || r.status);
-      }
-      toast(`Wysłane ✔ – ${gotowe.length} zdj. Zosia dopisze je do biblioteki (pojawią się tu za kilka minut).`);
+      const r = await fetch("/api/zdjecia", { method: "POST", headers: { "content-type": "application/json", "x-biuro": "1" },
+        body: JSON.stringify({ sekcja, opis, pliki: gotowe.map(({ url, nazwa, typ, rozmiar }) => ({ url, nazwa, typ, rozmiar })) }) });
+      const d = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(d.opis || d.blad || r.status);
+      toast(`Zapisane ✔ – ${gotowe.length} zdj. Są już w kolejce poniżej; zespół opisze je i włączy do biblioteki.`);
       kolejka = kolejka.filter((z) => z.stan !== "ok"); $("#opis").value = ""; rysujKolejke();
+      await wczytajZgloszenia(); rysuj();
     } catch (e) { toast("Nie udało się: " + e.message); rysujKolejke(); }
   };
 
@@ -80,11 +74,26 @@
   strefa.ondragleave = () => strefa.classList.remove("nad");
   strefa.ondrop = (e) => { e.preventDefault(); strefa.classList.remove("nad"); dodajPliki([...e.dataTransfer.files]); };
 
+  let oczekujace = [];
+  async function wczytajZgloszenia() {
+    try {
+      const r = await fetch("/api/zdjecia", { cache: "no-store" });
+      const zg = r.ok ? (await r.json()).zgloszenia || [] : [];
+      const znane = new Set(zdjecia.map((z) => z.zrodlo).filter(Boolean));
+      oczekujace = zg.flatMap((g) => g.pliki.filter((p) => !znane.has(p.url)).map((p) => ({ ...p, sekcja: g.sekcja, opis: g.opis })));
+    } catch { oczekujace = []; }
+  }
   function rysuj() {
     $("#nazwa-sekcji").textContent = SEKCJE[sekcja][0];
     $("#opis-sekcji").textContent = SEKCJE[sekcja][1];
     const lista = zdjecia.filter((z) => z.sekcja === sekcja);
-    $("#galeria").innerHTML = lista.length ? "" : `<p class="pusto">Ta sekcja jest jeszcze pusta – wgraj pierwsze zdjęcia powyżej.</p>`;
+    const czeka = oczekujace.filter((z) => z.sekcja === sekcja);
+    $("#galeria").innerHTML = lista.length || czeka.length ? "" : `<p class="pusto">Ta sekcja jest jeszcze pusta – wgraj pierwsze zdjęcia powyżej.</p>`;
+    for (const z of czeka) {
+      const f = document.createElement("figure"); f.className = "zdj";
+      f.innerHTML = `${/^image\//.test(z.typ) ? `<img src="${esc(z.url)}" alt="" loading="lazy">` : "<p>🎬</p>"}<figcaption><span>${esc(z.opis || z.nazwa)}</span><span class="nowe">⏳ wgrane – zespół zaraz opisze</span></figcaption>`;
+      $("#galeria").append(f);
+    }
     for (const z of lista) {
       const f = document.createElement("figure");
       f.className = "zdj";
@@ -105,6 +114,6 @@
   };
   $("#lupa").onclick = () => ($("#lupa").hidden = true);
 
-  fetch("zdjecia.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => { zdjecia = d.zdjecia || []; rysuj(); })
-    .catch(() => { zdjecia = []; rysuj(); });
+  fetch("zdjecia.json", { cache: "no-cache" }).then((r) => r.json()).then((d) => { zdjecia = d.zdjecia || []; })
+    .catch(() => { zdjecia = []; }).then(wczytajZgloszenia).then(rysuj);
 })();
