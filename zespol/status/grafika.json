@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Inspiracje cz.3: 8 scen (weranda, domek, balkon, jezioro, plaża, święta)",
- "postep": null,
- "aktualizacja": "2026-11-06T22:12+01:00",
+ "stan": "gotowe",
+ "zadanie": "Inspiracje cz.3: insp-9…16 + 1 wideo",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T22:13+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:13+01:00",
+   "stan": "gotowe",
+   "tekst": "Inspiracje cz.3: insp-9…16 + 1 wideo"
+  },
   {
    "czas": "2026-11-06T22:12+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T15:37+01:00",
    "stan": "pracuje",
    "tekst": "Packshoty: stolik Płatek, taboret, otwieracz Kot (po 1)"
-  },
-  {
-   "czas": "2026-11-05T15:35+01:00",
-   "stan": "gotowe",
-   "tekst": "4 zestawy 2–3 produktów na jednym zdjęciu"
   }
  ]
 }
