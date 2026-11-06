@@ -44,3 +44,10 @@ Pasuje na Mikołajki, do prezentu dla koleżanki z pracy, babci, mamy. Cena: 99 
 Dla kogo byś ją kupił/a? Napisz w komentarzu 👇
 👉 https://www.fudali.com.pl/sklep/
 ```
+
+---
+## Stan szkiców w Buffer (06.11.2026) – wszystko `draft`, nic nie opublikowane
+- Facebook (Fudali Nowoczesne Stolarstwo): start sezonu 9.11 · leżak przy ognisku 10.11 · podkładka 99 zł 13.11
+- Pinterest: „Cushion included” (2:3) + packshot leżaka (1:1). Szkiców „A gift under the tree” i „Christmas Gift Idea” oraz 2 packshotów nie ma już w Buforze (ktoś je usunął) – nie odtwarzam bez potwierdzenia.
+- TikTok: kolaż „Prezenty z drewna od 49 zł”
+- Instagram: NIEPODPIĘTY w Bufferze (plan darmowy = 3 kanały: FB, Pinterest, TikTok). Teksty IG gotowe w tym pliku i w kampanii – do wklejenia ręcznie albo po zamianie kanału.
