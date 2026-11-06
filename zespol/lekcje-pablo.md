@@ -1,5 +1,12 @@
 # 🎯 Lekcje od Pablo – czytaj na KAŻDEJ zmianie, zanim cokolwiek zrobisz
 
+> ## ⭐ JEDNA MYŚL (06.11.2026 – wszystko poniżej z niej wynika)
+> **Robimy treści, które ludzie chcą ZAPISAĆ i pokazać innym – nie reklamy.**
+> Realistyczne, piękne, przytulne (cozy) wnętrza, tarasy i ogrody jak z inspiracji na Pintereście/Instagramie, w których
+> nasz produkt (leżak, stolik, stołki…) jest naturalnym elementem całości – a nie bohaterem ogłoszenia z napisem i ceną.
+> Zapisy i udostępnienia niosą zasięg; zasięg niesie markę; marka sprzedaje. Do tego pokazujemy, co potrafimy (warsztat, detal, realizacje).
+> Bez napisów na zdjęciach-inspiracjach (tekst idzie do opisu), bez „AI slopu”, bez pytania szefa o drobiazgi.
+
 Pablo powiedział 06.11.2026: „uczcie się tego, co do was mówię, bo cały czas cofamy i kręcimy się w miejscu”.
 Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed pracą. Klaudiusz dopisuje nowe lekcje od razu.
 
@@ -34,3 +41,9 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     FUDALI ma robić to samo po swojemu: rodzinna pracownia z Głogowa Młp., lite drewno, realizacje u klientów, trwałość (np. „reklamacja po 20 latach”), warsztat i ludzie.
 16. **Zero „AI slopu”.** Nie wrzucamy masowo przypadkowych wygenerowanych obrazków. Każdy post ma sens, historię i realny wygląd.
 17. **Instagram ma żyć codziennie:** post lub reels + relacje każdego dnia, w spójnym stylu – profil ma robić wrażenie przy pierwszym wejściu.
+
+## Dopisane 06.11.2026, 19:00
+18. **Inspiracje do zapisywania > zdjęcia reklamowe.** Najlepiej działa ładne, przytulne wnętrze/taras (światło, rośliny, koc, książka, kubek, ciepłe drewno),
+    w którym leżak jest jednym z elementów kompozycji. Zero napisów i cen na takich zdjęciach. Format: pion 4:5 (IG) i 2:3 (Pinterest).
+19. **Produkt musi być 1:1 prawdziwy** – wstawiamy nasz leżak z prawdziwego zdjęcia (kształt, listwy, lina, poduszka, kolor), scena może być generowana.
+20. **Filmy AI z prawdziwego zdjęcia** (`scripts/grafika/wideo.py`, ok. 1 USD/klip) – realistyczne ujęcia w stylu viralowych filmów; cudzy film to tylko inspiracja opisana słowami, nigdy nie przerabiamy cudzego nagrania. Na TikToku/IG przy realistycznym wideo AI zaznaczamy etykietę „AI” przy publikacji.
