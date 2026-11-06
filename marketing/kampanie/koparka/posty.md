@@ -42,7 +42,7 @@ Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2)
 | 4 | „250 000 zł netto. Nowa. Od ręki.” | „250 000 zł netto” → „307 500 brutto” → „Rzeszów, od ręki” | Nowa koparko-ładowarka 2026: 250 000 zł netto (307 500 zł brutto). Gwarancja 12 mies., płatny serwis z dojazdem w całej Polsce. Od ręki w Rzeszowie. Pisz w wiadomości. |
 | 5 | „Używany JCB 3CX Pro 2022 – 250 000 zł. A nowa?” | „Używany JCB 3CX Pro z 2022 r. w ogłoszeniu: 250 000 zł” → „Nasza Shanmon: nowa, 2026, 250 000 zł netto” | Używany JCB 3CX Pro z 2022 r. w ogłoszeniu kosztuje 250 000 zł. Nasza Shanmon jest nowa, rocznik 2026: 250 000 zł netto (307 500 zł brutto), gwarancja 12 mies. Pisz w wiadomości. |
 | 6 | „Obchód maszyny – 10 sekund” | walk-around z cenami | Cała maszyna z każdej strony. Rocznik 2026, od ręki w Rzeszowie, oględziny i jazda próbna po umówieniu. |
-| 7 | „Co dostajesz za 250 000 zł netto?” | „4x4 · klima · kamera cofania · łyżka 6w1 · 5,5 m” | Co dostajesz: 4x4, klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies. |
+| 7 | „Co dostajesz za 250 000 zł netto?” | „4x4 · Stage V · klima · kamera cofania · łyżka 6w1 · 5,5 m” | Co dostajesz: 4x4, silnik Stage V, klimatyzacja, kamera cofania, łyżka 6w1, kopanie do 5,5 m, gwarancja 12 mies. |
 | 8 | „Leasing na koparkę? Pomożemy.” | „Leasing i kredyt dla firm” → „VAT do odliczenia” | Leasing operacyjny i finansowy, kredyt dla firm, pomoc w formalnościach. VAT do odliczenia – dla firm, czynnych płatników VAT. Cena 250 000 zł netto. |
 | 9 | „Nowe Case i JCB: 290–450 tys. netto” | „Case 550SV 289,9 · Case 580SV 380 · JCB 3CX Plus EH 450 (tys. zł netto)” → „Nasza Shanmon: nowa, 250 000 zł netto” | Nowe Case i JCB: 290–450 tys. zł netto (ogłoszenia Otomoto, 6.11.2026). Nasza Shanmon: nowa, rocznik 2026, 250 000 zł netto. Procentów nie podajemy. |
 | 10 | „Nadal dostępna – Rzeszów” | „250 000 zł netto” → „Oględziny i jazda próbna” | Nadal dostępna, od ręki w Rzeszowie. Oględziny i jazda próbna po umówieniu. |
@@ -55,4 +55,4 @@ Wzorce Mietka (`konkurencja.md`): (1) cena + „od ręki” w jednym zdaniu; (2)
 - Piny EN: 3 szkice w Buffer z linkiem do ogłoszenia Otomoto i ceną „250,000 PLN net (307,500 PLN gross)”.
 - Posty TikTok #4–10 – teksty gotowe (tabela wyżej); filmy robi Zosia (3 gotowe, czekają na wersję z brutto).
 - Marek poproszony o kontrolę cen w postach.
-**Uwaga Marka (06.11):** NIE pisać „Stage V” (czekamy na dokument), nie porównywać do cen z Chin, bez rat. Jeśli Pablo zmieni cenę (rekomendacja Marka: 235 000 netto) – przeliczyć teksty.
+**Decyzja Pablo (06.11): cena zostaje 250 000 zł netto (307 500 zł brutto); „Stage V” wolno (Pablo ma dokument).** Uwaga Marka: nie porównywać do cen z Chin, bez rat. Jeśli Pablo zmieni cenę (rekomendacja Marka: 235 000 netto) – przeliczyć teksty.
