@@ -1,8 +1,8 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Koparka: filmy 1–3 i logo konta (3 warianty) gotowe",
- "postep": 100,
+ "stan": "pracuje",
+ "zadanie": "Koparka: cena z brutto, filmy 4–9, piny 2:3",
+ "postep": null,
  "aktualizacja": "2026-11-06T13:54+01:00",
  "makieta": false,
  "prosby": [
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:54+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka: cena z brutto, filmy 4–9, piny 2:3"
+  },
   {
    "czas": "2026-11-06T13:54+01:00",
    "stan": "gotowe",
@@ -242,11 +247,6 @@
    "czas": "2026-11-04T14:45+01:00",
    "stan": "pracuje",
    "tekst": "Kampania świąteczna: 6 produktów w nowych scenach (fal.ai)"
-  },
-  {
-   "czas": "2026-11-04T14:15+01:00",
-   "stan": "wolne",
-   "tekst": "Klucz fal.ai sprawdzony – mogę generować grafiki"
   }
  ]
 }
