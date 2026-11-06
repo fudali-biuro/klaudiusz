@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
- "stan": "gotowe",
- "zadanie": "Frazy świąteczne PL/EN: seo/swieta-2026.md",
- "postep": 100,
- "aktualizacja": "2026-11-05T16:18+01:00",
+ "stan": "pracuje",
+ "zadanie": "Frazy i hashtagi: koparka Shanmon Fuji 388",
+ "postep": null,
+ "aktualizacja": "2026-11-06T13:46+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:46+01:00",
+   "stan": "pracuje",
+   "tekst": "Frazy i hashtagi: koparka Shanmon Fuji 388"
+  },
   {
    "czas": "2026-11-05T16:18+01:00",
    "stan": "gotowe",
