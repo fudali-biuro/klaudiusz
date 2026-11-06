@@ -68,3 +68,12 @@ Z Buffera: zasięg, komentarze, zapisy, udostępnienia na post; liczba wiadomoś
 - Najlepszy format u nich: **osoba + proces + napisy słowo po słowie + konkretny termin** → **seria z bohaterem** (osoba z warsztatu, stała nazwa serii, np. „Stolarz tłumaczy”) – wymaga krótkich nagrań z Pablem/pracownikiem (prośba o telefon).
 - Dołożyć do planu po P9: karuzele „Jak rozpoznać dobre drewno” i „Jak olejować leżak” (fakty o pielęgnacji do weryfikacji – Marek/Bartek), „5 prezentów z drewna do 300 zł”, CTA „napisz w wiadomości + termin wysyłki przed świętami”.
 - Stories i wyróżnione konkurencji – niezweryfikowane (brak dostępu).
+
+## 9. ⭐ Nowa główna zasada (Pablo 06.11, wieczór) – „treści do zapisania”
+Zgodnie z `zespol/lekcje-pablo.md` (JEDNA MYŚL + pkt 18–20): **robimy inspiracje, które ludzie chcą zapisać** – przytulne (cozy) wnętrza, tarasy i ogrody, w których nasz leżak/stolik/stołki jest naturalnym elementem; **bez napisów i cen na zdjęciu** (tekst i CTA tylko w opisie). Format: 4:5 (IG) i 2:3 (Pinterest). Produkt 1:1 prawdziwy (z prawdziwego zdjęcia), scena może być generowana. Zosia robi pierwsze 4 inspiracje.
+**Zmiany w planie 9 postów (po dostarczeniu inspiracji przez Zosię):**
+- **P6 „Prezent dla taty od 49 zł”** (najbardziej reklamowy, z cenami na grafice) → wycofany z siatki, zastąpiony inspiracją #1; ceny przenoszę do opisu/stories.
+- **P4 „30 mm · 50 mm · 10 kg”** (techniczny) → zastępuje inspiracja #2; dane techniczne zostają w opisie i w stories.
+- Pozostałe posty zostają (P1 kolory, P2 zima, P3/P7 proces, P5 taras z ogniem, P8 taras lato, P9 dąb/jodła), ale kolejne tygodnie: min. **połowa postów = inspiracje**, reszta = proces/detal/wiedza.
+- **Opisy inspiracji:** pierwsza linia = obraz/nastrój („Poranek na werandzie, zanim świat się obudzi ☕”), 1–2 zdania, „Zapisz na wiosnę 📌”, 3 niszowe hashtagi; bez ceny i „kup”.
+- **Pinterest:** te same inspiracje jako piny 2:3 (tytuł i opis EN pod frazy typu „cozy porch ideas”, „wooden garden lounger”, link do Etsy 1821779072) – szkice w Buffer.
