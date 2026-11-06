@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-packshot-lezaka-w-kolorze-naturalnym-jasne-drewno-.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: minimalist Scandinavian living room, white walls, pale oak floor, soft daylight from a tall window: the folding wooden lounge chair (natural light wood) with its white pillow as a quiet accent, a ceramic vase with dried branches, a linen throw, a small plant, lots of calm empty space. Candid Pinterest-style interior photo, no people.",
+ "ai": true
+}

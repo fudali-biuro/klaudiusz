@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-produktywniej-maciej-banasik-zdjecia-reklamowe-fud-13.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: cosy living room in the evening: the folding wooden lounge chair (warm brown) stands near a stone fireplace with a gentle fire, a chunky knit blanket draped over it, a mug of tea on a small wooden stool, a big green plant, a floor lamp with warm glow, wooden floor, soft bokeh. Candid Pinterest-style interior photo, no people.",
+ "ai": true
+}
