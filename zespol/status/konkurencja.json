@@ -3,16 +3,15 @@
  "stan": "gotowe",
  "zadanie": "Instagram nisza: wersja bez scrapera gotowa (uzupełnię po odblokowaniu Apify)",
  "postep": 100,
- "aktualizacja": "2026-11-06T16:28+01:00",
+ "aktualizacja": "2026-11-06T16:31+01:00",
  "makieta": false,
- "prosby": [
-  {
-   "czas": "2026-11-06T16:27+01:00",
-   "tresc": "Pablo, darmowy limit Apify (narzędzie do sprawdzania Instagrama i TikToka konkurencji) jest wyczerpany do 3 grudnia. Bez niego nie zrobię analizy niszy na Instagramie i stoi też godzinny podgląd kont konkurencji. Czy wykupić płatny plan Apify (konto fudali, ok. kilkadziesiąt USD miesięcznie)? Odpisz TAK albo NIE.",
-   "pilne": false
-  }
- ],
+ "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:31+01:00",
+   "stan": "gotowe",
+   "tekst": "Prośby do Pablo załatwione"
+  },
   {
    "czas": "2026-11-06T16:28+01:00",
    "stan": "gotowe",
@@ -207,11 +206,6 @@
    "czas": "2026-11-05T07:41+01:00",
    "stan": "pracuje",
    "tekst": "Raport konkurencji na dziś"
-  },
-  {
-   "czas": "2026-11-05T07:38+01:00",
-   "stan": "gotowe",
-   "tekst": "07:00 – brak nowych postów"
   }
  ]
 }
