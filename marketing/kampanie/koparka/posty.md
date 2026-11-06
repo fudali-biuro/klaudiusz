@@ -26,3 +26,8 @@ Uwaga: pozostałe parametry (moc, waga, silnik, hydraulika) dopiszemy po pełnym
 4. „New Backhoe Loader for Sale – Poland, Ready for Test Drive”
 5. „Construction Machinery for Sale – Shanmon Fuji 388, 2026”
 (Ceny w EUR dopiero po potwierdzeniu przez Marka/Gretę; hashtagi: #backhoeloader #constructionequipment #heavyequipment #forsale)
+
+## Stan (06.11.2026, 14:55)
+- Biblioteka akceptacji: posty TikTok #1–3 (kampania „koparka”) jako karuzele zdjęć; filmy 9:16 od Zosi je zastąpią (zlecone).
+- Buffer: 3 piny EN (szkice) na kanale Pinterest. **Kanał TikTok zniknął z Buffera** (lista kanałów: Instagram, Facebook, Pinterest) – szkiców TikTok w Bufferze nie ma; teksty są w bibliotece akceptacji i w tabeli wyżej.
+- Czeka: ceny/porównania (Marek – `ceny.md`) → posty 4–10; link do ogłoszenia od Pablo.
