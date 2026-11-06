@@ -98,7 +98,7 @@ def kb(img, zoom0=1.0, zoom1=1.15, sec=4.0, fy=0.5):
 def reelsy():
     P = OUT + "posty/"
     a, b = rd(g("wyciete-blaty")), rd(g("stolik-patek-blat"))
-    reel(P + "P3-reel.mp4", [(kb(a, 1.0, 1.2, 4), overlay("JAK POWSTAJE", "Z płatka dębu robimy stolik"), 4.0), (kb(b, 1.0, 1.2, 4, 0.55), overlay("JAK POWSTAJE", "Tak to wygląda od środka"), 4.0),
+    reel(P + "P3-reel.mp4", [(kb(a, 1.0, 1.2, 4), overlay("PROCES", "Od płatka do stolika"), 4.0), (kb(b, 1.0, 1.2, 4, 0.55), overlay("JAK POWSTAJE", "Tak to wygląda od środka"), 4.0),
                           (lambda t: cream_bg(W, 1920), overlay("STOLIK PŁATEK", "Który kształt blatu wolisz?", "Napisz w komentarzu.", dark=True), 2.5)])
     ov1 = overlay("KONSTRUKCJA", "Jak się składa leżak?", dark=True); ov2 = overlay("10 KG", "Składa się na płasko", "Waga: 10 kg", dark=True); ov3 = overlay("CHCESZ WIĘCEJ?", "Film z warsztatu? Napisz TAK", dark=True)
     reel(P + "P7-reel.mp4", [(lambda t: anim_canvas(t, 1920), ov1, 3.0), (lambda t: anim_canvas(3.0 + t, 1920), ov2, 4.4), (lambda t: anim_canvas(7.3, 1920), ov3, 1.8)])
@@ -147,31 +147,32 @@ def posty():
     # P1 – 5 kolorów (6 slajdów)
     for i, (n, nm) in enumerate(zip(KF, K)):
         im = cover(rd(pro(n)), W, H, 0.5, 0.5)
-        if i == 0: save(chrome(im, f"{i+1} / 5 · {nm.upper()}", "Ten sam leżak. 5 kolorów. Który jest Twój?"), P + "P1/slajd-1.jpg")
+        if i == 0: save(chrome(im, "5 KOLORÓW", "Który Twój?", f"{i+1} / 5 · {nm}"), P + "P1/slajd-1.jpg")
         else: save(chrome(im, f"{i+1} / 5", nm), P + f"P1/slajd-{i+1}.jpg")
     save(chrome(kolory5(), "5 KOLORÓW", "Który jest Twój?", "1 jasny brąz · 2 brąz · 3 ciemny brąz · 4 grafit · 5 czerń. Napisz numer w komentarzu.", dark=True), P + "P1/slajd-6.jpg")
     # P2 – przechowywanie na zimę (4)
-    save(chrome(on_cream(pro(10), 1000, 70), "WIEDZA", "Jak przechować leżak na zimę – 3 zasady", dark=True), P + "P2/slajd-1.jpg")
+    save(chrome(on_cream(pro(10), 1000, 70), "WIEDZA", "Leżak na zimę – 3 zasady", dark=True), P + "P2/slajd-1.jpg")
     save(chrome(on_cream(pro(11), 1000, 70), "ZASADA 1 / 3", "Sucho", dark=True), P + "P2/slajd-2.jpg")
     save(chrome(on_cream(pro(0), 1000, 70), "ZASADA 2 / 3", "Przewiewnie", dark=True), P + "P2/slajd-3.jpg")
     save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.6), "ZASADA 3 / 3", "Z dala od wilgoci i dużego ciepła", "Zapisz, zanim spadnie śnieg."), P + "P2/slajd-4.jpg")
     # P4 – z czego jest leżak (5)
-    save(chrome(cover(rd(pro(15)), W, H), "DETAL", "Rama 30 mm, listwy 50 mm, 10 kg.", "Z czego jest nasz leżak?"), P + "P4/slajd-1.jpg")
+    save(chrome(cover(rd(pro(15)), W, H), "DETAL", "30 mm · 50 mm · 10 kg", "Rama · listwy · waga leżaka"), P + "P4/slajd-1.jpg")
     save(chrome(on_cream(pro(12), 1000, 70), "WYMIARY", "100 × 55 × 90 cm", "wysokość × szerokość × głębokość", dark=True), P + "P4/slajd-2.jpg")
     save(chrome(on_cream(pro(19), 1000, 70), "SKŁADA SIĘ", "Złożony: 125 × 55 × 25 cm", dark=True), P + "P4/slajd-3.jpg")
     save(chrome(on_cream(pro(20), 1000, 120), "W ZESTAWIE", "Poduszka w zestawie", dark=True), P + "P4/slajd-4.jpg")
     save(chrome(on_cream(pro(21), 1000, 120), "DETAL", "Lina jutowa", "Co chcesz zobaczyć z bliska? Napisz w komentarzu.", dark=True), P + "P4/slajd-5.jpg")
     # P5 – zdjęcie „wow”
-    save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.55), "ŻYCIE Z LEŻAKIEM", "Wieczór, który zaczyna się od ognia", "Z kim byś tu usiadł?"), P + "P5/slajd-1.jpg")
+    save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.55), "TARAS", "Wieczór przy ogniu", "Z kim byś tu usiadł?"), P + "P5/slajd-1.jpg")
     # P6 – prezent dla taty (4)
-    save(chrome(cover(rd(g("trzy-drewniane-otwieracze")), W, H, 0.5, 0.45), "PREZENT DLA TATY", "Prezent dla taty, który ma wszystko", "Otwieracz Kot · 49 zł"), P + "P6/slajd-1.jpg")
+    save(chrome(cover(rd(g("trzy-drewniane-otwieracze")), W, H, 0.5, 0.45), "PREZENT", "Dla taty, który ma wszystko", "Otwieracz Kot · 49 zł"), P + "P6/slajd-1.jpg")
     save(chrome(cover(rd(g("podkadki-z-orzecha")), W, H, 0.5, 0.35), "PREZENT 2 / 4", "Podkładka z orzecha czarnego", "99 zł"), P + "P6/slajd-2.jpg")
     save(chrome(cover(rd(g("skadany-drewniany-stolik-taboret-z-lina-na-parkiec.jpg")), W, H, 0.5, 0.5), "PREZENT 3 / 4", "Składany stolik kawowy", "229 zł"), P + "P6/slajd-3.jpg")
     save(chrome(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.5, 0.6), "PREZENT 4 / 4", "Leżak z poduszką w zestawie", "299 zł · darmowa wysyłka. Komu to wyślesz?"), P + "P6/slajd-4.jpg")
-    # P8 – realizacje (3)
-    save(chrome(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.5, 0.6), "REALIZACJE", "Dwa leżaki, taras i trawnik – tak mieszkają u klienta"), P + "P8/slajd-1.jpg")
-    save(chrome(cover(rd(g("lezaki-realizacja")), W, H, 0.5, 0.55), "REALIZACJE", "Leżaki pod białą bramą"), P + "P8/slajd-2.jpg")
-    save(chrome(cover(rd(g("image-20260904-110937-616")), W, H, 0.5, 0.55), "REALIZACJE", "Jak urządzasz swój taras?", "Napisz w komentarzu."), P + "P8/slajd-3.jpg")
+    # P8 – realizacja: TYLKO prawdziwa realizacja (weranda klienta); kolejne slajdy = kadry tego samego zdjęcia
+    v = rd(g("image-20260904-110937-616"))
+    save(chrome(cover(v, W, H, 0.5, 0.55), "REALIZACJA", "Leżaki na werandzie klienta"), P + "P8/slajd-1.jpg")
+    save(chrome(cover(v, W, H, 0.12, 0.62, 1.7), "REALIZACJA", "Jodła, lina, poduszka"), P + "P8/slajd-2.jpg")
+    save(chrome(cover(v, W, H, 0.88, 0.62, 1.7), "REALIZACJA", "Jak urządzasz swój taras?", "Napisz w komentarzu."), P + "P8/slajd-3.jpg")
     # P9 – dąb czy jodła (5)
     save(chrome(cover(rd(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par-2.jpg")), W, H, 0.5, 0.5), "WIEDZA", "Dąb czy jodła?", "Czym się różnią nasze meble"), P + "P9/slajd-1.jpg")
     save(chrome(on_cream(pro(13), 1000, 70), "JODŁA", "Leżak: jodła bieszczadzka z certyfikatem FSC", dark=True), P + "P9/slajd-2.jpg")
@@ -179,8 +180,8 @@ def posty():
     save(chrome(cover(rd(g("stolik-patek-blat")), W, H, 0.5, 0.5), "DĄB", "Stolik Płatek: dąb czerwony"), P + "P9/slajd-4.jpg")
     save(chrome(cover(rd(g("szary-grafitowo")), W, H, 0.5, 0.55), "GŁOSUJ", "Jodła czy dąb?", "Napisz w komentarzu."), P + "P9/slajd-5.jpg")
     # okładki P3, P7 (do siatki)
-    save(chrome(cover(rd(g("wyciete-blaty")), W, H, 0.5, 0.4), "JAK POWSTAJE", "Z płatka dębu robimy stolik", "Tak to wygląda od środka"), P + "P3/okladka.jpg")
-    save(chrome(anim_canvas(4.0), "JAK POWSTAJE", "Jak się składa leżak? Zobacz konstrukcję", dark=True, w=W, h=H), P + "P7/okladka.jpg")
+    save(chrome(cover(rd(g("wyciete-blaty")), W, H, 0.5, 0.4), "PROCES", "Od płatka do stolika"), P + "P3/okladka.jpg")
+    save(chrome(anim_canvas(4.0), "PROCES", "Jak się składa", dark=True, w=W, h=H), P + "P7/okladka.jpg")
 if __name__ == "__main__":
     for a in (sys.argv[1:] or ["posty"]):
         if a == "posty": posty()
