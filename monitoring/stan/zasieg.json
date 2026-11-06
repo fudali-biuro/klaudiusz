@@ -1,22 +1,130 @@
 {
- "czas": "2026-11-06T06:44+01:00",
+ "czas": "2026-11-06T07:04+01:00",
  "kotwica": "drewutnia",
  "geo": "PL",
  "zbiory": [
   "BGnn5ryMb25IxirsI",
-  "815ZCi2XD0tT9dCqD",
-  "lNbirHDQfZBABural",
-  "MdOQjt2pow27Srd1T"
+  "uPLU01wCg2k3kZiOn",
+  "iDnxAxkNUWk8D4HLM",
+  "aMHXXA9f7R7RAOqi0"
  ],
  "frazy": {
   "drewutnia": {
    "zasieg_12m": 100.0,
    "zasieg_teraz": 100.0,
-   "srednia_12m_surowa": 9.9,
-   "ost_4tyg_surowa": 9.0,
+   "srednia_12m_surowa": 46.4,
+   "ost_4tyg_surowa": 42.0,
    "zmiana_proc": -18,
    "szczyt": "Mar 29, 2026",
-   "teraz_vs_szczyt_proc": 43
+   "teraz_vs_szczyt_proc": 42
+  },
+  "altana drewniana": {
+   "zasieg_12m": 48.1,
+   "zasieg_teraz": 10.7,
+   "srednia_12m_surowa": 22.3,
+   "ost_4tyg_surowa": 4.5,
+   "zmiana_proc": -13,
+   "szczyt": "Apr 19, 2026",
+   "teraz_vs_szczyt_proc": 8
+  },
+  "domek ogrodowy drewniany": {
+   "zasieg_12m": 31.2,
+   "zasieg_teraz": 8.3,
+   "srednia_12m_surowa": 14.5,
+   "ost_4tyg_surowa": 3.5,
+   "zmiana_proc": -59,
+   "szczyt": "May 3, 2026",
+   "teraz_vs_szczyt_proc": 8
+  },
+  "wiata drewniana": {
+   "zasieg_12m": 58.6,
+   "zasieg_teraz": 47.1,
+   "srednia_12m_surowa": 27.2,
+   "ost_4tyg_surowa": 19.8,
+   "zmiana_proc": -28,
+   "szczyt": "Jul 19, 2026",
+   "teraz_vs_szczyt_proc": 39
+  },
+  "pergola drewniana": {
+   "zasieg_12m": 59.5,
+   "zasieg_teraz": 17.9,
+   "srednia_12m_surowa": 27.6,
+   "ost_4tyg_surowa": 7.5,
+   "zmiana_proc": 4,
+   "szczyt": "May 3, 2026",
+   "teraz_vs_szczyt_proc": 10
+  },
+  "leżak drewniany": {
+   "zasieg_12m": 35.6,
+   "zasieg_teraz": 2.1,
+   "srednia_12m_surowa": 9.3,
+   "ost_4tyg_surowa": 0.5,
+   "zmiana_proc": null,
+   "szczyt": "Jun 21, 2026",
+   "teraz_vs_szczyt_proc": 1
+  },
+  "meble ogrodowe drewniane": {
+   "zasieg_12m": 27.2,
+   "zasieg_teraz": 4.3,
+   "srednia_12m_surowa": 7.1,
+   "ost_4tyg_surowa": 1.0,
+   "zmiana_proc": -55,
+   "szczyt": "May 3, 2026",
+   "teraz_vs_szczyt_proc": 5
+  },
+  "drewno opałowe": {
+   "zasieg_12m": 190.8,
+   "zasieg_teraz": 233.2,
+   "srednia_12m_surowa": 49.8,
+   "ost_4tyg_surowa": 54.8,
+   "zmiana_proc": -4,
+   "szczyt": "Feb 1, 2026",
+   "teraz_vs_szczyt_proc": 55
+  },
+  "tarcica": {
+   "zasieg_12m": 87.4,
+   "zasieg_teraz": 86.0,
+   "srednia_12m_surowa": 22.8,
+   "ost_4tyg_surowa": 20.2,
+   "zmiana_proc": -11,
+   "szczyt": "Mar 8, 2026",
+   "teraz_vs_szczyt_proc": 65
+  },
+  "domek letniskowy": {
+   "zasieg_12m": 286.2,
+   "zasieg_teraz": 196.0,
+   "srednia_12m_surowa": 64.1,
+   "ost_4tyg_surowa": 39.2,
+   "zmiana_proc": -28,
+   "szczyt": "Jul 26, 2026",
+   "teraz_vs_szczyt_proc": 39
+  },
+  "stolik kawowy drewniany": {
+   "zasieg_12m": 67.4,
+   "zasieg_teraz": 86.0,
+   "srednia_12m_surowa": 15.1,
+   "ost_4tyg_surowa": 17.2,
+   "zmiana_proc": 7,
+   "szczyt": "Nov 9, 2025",
+   "teraz_vs_szczyt_proc": 82
+  },
+  "stołki drewniane": {
+   "zasieg_12m": 0.0,
+   "zasieg_teraz": 2.5,
+   "srednia_12m_surowa": 0.0,
+   "ost_4tyg_surowa": 0.5,
+   "zmiana_proc": null,
+   "szczyt": "Oct 25, 2026",
+   "teraz_vs_szczyt_proc": 50
+  },
+  "deski konstrukcyjne": {
+   "zasieg_12m": 0.9,
+   "zasieg_teraz": 1.0,
+   "srednia_12m_surowa": 0.2,
+   "ost_4tyg_surowa": 0.2,
+   "zmiana_proc": -90,
+   "szczyt": "Sep 20, 2026",
+   "teraz_vs_szczyt_proc": 2
   },
   "stolarz rzeszów": {
    "zasieg_12m": 0.0,
