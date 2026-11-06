@@ -13,11 +13,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "koparka",
- "stan": "popraw",
+ "stan": "czeka",
  "komentarz": "Klaudiusz: pół pinu to puste białe niebo – przytnij ciaśniej na maszynę (maszyna min. 60% kadru), napisy bliżej maszyny.",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-06T12:59:25+00:00",
- "zmieniono": "2026-11-06T13:04:09+00:00",
+ "zmieniono": "2026-11-06T14:12:00+00:00",
  "historia": [
   {
    "czas": "2026-11-06T12:59:25+00:00",
@@ -29,6 +29,12 @@
    "kto": "klaudiusz",
    "stan": "popraw",
    "komentarz": "Klaudiusz: pół pinu to puste białe niebo – przytnij ciaśniej na maszynę (maszyna min. 60% kadru), napisy bliżej maszyny."
+  },
+  {
+   "czas": "2026-11-06T14:12:00+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
