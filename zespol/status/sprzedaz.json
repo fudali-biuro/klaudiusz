@@ -1,9 +1,9 @@
 {
  "id": "sprzedaz",
- "stan": "gotowe",
- "zadanie": "Koparka Shanmon: dane ogłoszenia + analiza ceny (ceny.md)",
- "postep": 100,
- "aktualizacja": "2026-11-06T13:49+01:00",
+ "stan": "pracuje",
+ "zadanie": "Koparka: cena realna do szybkiej sprzedaży (import vs rynek PL)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T13:50+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:50+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka: cena realna do szybkiej sprzedaży (import vs rynek PL)"
+  },
   {
    "czas": "2026-11-06T13:49+01:00",
    "stan": "gotowe",
