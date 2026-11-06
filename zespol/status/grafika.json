@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "IG: siatka 3×3, grafiki P1–P9, 2 reelsy, 6 okładek wyróżnionych",
- "postep": 100,
- "aktualizacja": "2026-11-06T16:35+01:00",
+ "stan": "pracuje",
+ "zadanie": "IG: poprawki siatki (mniej tekstu, P7 real, korekta barwna) + stories D1–D7",
+ "postep": null,
+ "aktualizacja": "2026-11-06T16:38+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:38+01:00",
+   "stan": "pracuje",
+   "tekst": "IG: poprawki siatki (mniej tekstu, P7 real, korekta barwna) + stories D1–D7"
+  },
   {
    "czas": "2026-11-06T16:35+01:00",
    "stan": "gotowe",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T12:13+01:00",
    "stan": "pracuje",
    "tekst": "Paczka listopad: 6 teł leżaka, stolik, stołki, detale, 2 rolki"
-  },
-  {
-   "czas": "2026-11-05T12:09+01:00",
-   "stan": "gotowe",
-   "tekst": "Próbka 4 packshotów kwadratowych (leżak, stolik, stołki, zima)"
   }
  ]
 }
