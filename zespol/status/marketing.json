@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Paczka 9–15.11 w bibliotece akceptacji; TikTok-filmy z Zosią",
+ "stan": "wolne",
+ "zadanie": "Paczka 9–15.11 (13 wpisów) czeka w bibliotece akceptacji; brak decyzji Pablo",
  "postep": null,
- "aktualizacja": "2026-11-06T08:46+01:00",
+ "aktualizacja": "2026-11-06T12:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T12:35+01:00",
+   "stan": "wolne",
+   "tekst": "Paczka 9–15.11 (13 wpisów) czeka w bibliotece akceptacji; brak decyzji Pablo"
+  },
   {
    "czas": "2026-11-06T08:46+01:00",
    "stan": "pracuje",
