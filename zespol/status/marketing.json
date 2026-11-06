@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Koparka: TikTok #1–4, #6 + 5 pinów w bibliotece i Bufferze; czekam na filmy 5, 7–9",
- "postep": 100,
- "aktualizacja": "2026-11-06T14:03+01:00",
+ "stan": "pracuje",
+ "zadanie": "Instagram: audyt profilu (Etap 1)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T16:26+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:26+01:00",
+   "stan": "pracuje",
+   "tekst": "Instagram: audyt profilu (Etap 1)"
+  },
   {
    "czas": "2026-11-06T14:03+01:00",
    "stan": "gotowe",
