@@ -38,3 +38,16 @@ Leżak zawsze ze zdjęcia referencyjnego (fotograf „Produktywniej” / packsho
 | `insp-16-plaza-wydmy` | bałtycka plaża z wydmami | złota godzina, słomkowy kapelusz | grafit |
 - `insp-wideo-9-weranda-deszcz.mp4` – 1 klip AI (9:16, 8 s, ok. 1 USD): deszcz, kamera powoli płynie, leżak nieruchomy. **Etykieta „AI” przy publikacji wideo.**
 Koszt partii ≈ 0,7 USD (zdjęcia) + ≈ 1 USD (wideo).
+
+## Seria cz. 4 (insp-17…24, 06.11.2026) – 4:5 i 2:3, zero napisów, jeden leżak w kadrze
+| Plik | Miejsce | Pora / nastrój | Leżak |
+|---|---|---|---|
+| `insp-17-weranda-zima` | weranda górskiego domku, śnieg | zimowy poranek, owcza skóra, kubek | ciemny brąz |
+| `insp-18-balkon-zachod` | balkon w mieście, zioła w donicach | złoty zachód, lemoniada | grafit |
+| `insp-19-ogrod-sad-wiosna` | sad z kwitnącą jabłonią | wiosenny poranek, koszyk | naturalny |
+| `insp-20-taras-wieczor-lampki` | nowoczesny taras, girlanda, oliwka | niebieska godzina, koc, lampion | czarny |
+| `insp-21-sauna-jezioro` | pomost przy saunie nad jeziorem | mglisty jesienny poranek, ręczniki | brąz |
+| `insp-22-plaza-poranek` | bałtycka plaża | wczesny poranek, torba i termos | naturalny |
+| `insp-23-swieta-weranda` | weranda świąteczna z girlandami | wieczór, lekki śnieg, kratowany koc | ciemny brąz |
+| `insp-24-ogrod-lawenda` | ogród z lawendą, kamienny mur | złoty wieczór, słomkowy kapelusz | grafit |
+Koszt partii ≈ 1,2 USD (bez wideo).
