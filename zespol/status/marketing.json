@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "IG: wplatam inspiracje do zapisania (czekam na 4 sceny od Zosi)",
- "postep": null,
- "aktualizacja": "2026-11-06T22:06+01:00",
+ "stan": "gotowe",
+ "zadanie": "Inspiracje do zapisania w bibliotece akceptacji (IG, piny, 2 reele)",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T22:28+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:28+01:00",
+   "stan": "gotowe",
+   "tekst": "Inspiracje do zapisania w bibliotece akceptacji (IG, piny, 2 reele)"
+  },
   {
    "czas": "2026-11-06T22:06+01:00",
    "stan": "pracuje",
