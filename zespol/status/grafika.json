@@ -1,9 +1,9 @@
 {
  "id": "grafika",
  "stan": "pracuje",
- "zadanie": "Biblioteka zdjęć: dodaję i opisuję prawdziwe zdjęcia",
+ "zadanie": "Koparka Shanmon Fuji 388: 3 filmy TikTok z zdjęć",
  "postep": null,
- "aktualizacja": "2026-11-06T09:01+01:00",
+ "aktualizacja": "2026-11-06T13:46+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:46+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka Shanmon Fuji 388: 3 filmy TikTok z zdjęć"
+  },
   {
    "czas": "2026-11-06T09:01+01:00",
    "stan": "pracuje",
