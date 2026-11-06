@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-produktywniej-maciej-banasik-zdjecia-reklamowe-fud-3.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: cosy attic bedroom with a sloped white-washed wooden ceiling and a small roof window, soft morning light: the folding wooden lounge chair (dark brown) with its white pillow stands under the window with a chunky knit throw, a linen bed in the background, a small stack of books, a potted fern, wool rug on pale wooden floor. Candid Pinterest-style interior photo, no people, no text.",
+ "ai": true
+}

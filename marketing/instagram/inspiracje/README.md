@@ -15,3 +15,12 @@ Sprawdzenie wierności: kształt, ułożenie listew, poduszka, kolor zgodne z zd
 | `insp-3-ogrod-wiosna` | ogród, trawnik pod kwitnącą wiśnią | jasny wiosenny poranek, płatki na trawie, kawa | leżak (grafit/szary) |
 | `insp-4-taras-lampiony` | drewniany taras z ziołami i lawendą | letni zmierzch, lampiony i girlanda świetlna | leżak (ciemny brąz) |
 Produkt wzięty ze zdjęcia referencyjnego (leżak – zdjęcia fotografa „Produktywniej”; stolik – prawdziwe zdjęcie stolika Płatek), scena generowana (Gemini Image). Wcześniejsze `cozy-1…4` to osobna, uzupełniająca seria (kominek, kącik z oknem, taras zimą, minimalizm).
+
+## Seria cz. 2 (insp-5…8, 06.11.2026, na uwagę Klaudiusza) – 4:5 i 2:3, zero napisów
+| Plik | Miejsce | Pora / nastrój | Leżak |
+|---|---|---|---|
+| `insp-5-poddasze-sypialnia` | poddasze z oknem dachowym, łóżko z lnem, paproć | poranek, jasno, spokój | ciemny brąz |
+| `insp-6-ogrod-jesien-zachod` | ogród z brzozami, trawnik z jesiennymi liśćmi | złota godzina, ciepłe światło pod słońce, kratowany pled | grafit |
+| `insp-7-taras-wiosna` | drewniany taras, doniczki z żonkilami i tulipanami, kwitnące krzewy | jasny wiosenny poranek, herbata | naturalny (jasne drewno) |
+| `insp-8-moody-loft` | skandynawski loft, tynk, trawa pampasowa, mosiężna lampa, świeca | wieczór, nastrojowo | czarny |
+Leżak zawsze ze zdjęcia referencyjnego (fotograf „Produktywniej” / packshot naturalny), scena generowana (Gemini Image).
