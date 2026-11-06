@@ -164,7 +164,7 @@ def transkrybuj(plik):
         {"type": "input_audio", "input_audio": {"data": b64, "format": "mp3"}}]}]}
     req = urllib.request.Request("https://openrouter.ai/api/v1/chat/completions", data=json.dumps(body).encode(),
                                  headers={"Authorization": f"Bearer {klucz}", "Content-Type": "application/json",
-                                          "X-Title": "Klaudiusz FUDALI – czat"})
+                                          "X-Title": "Klaudiusz FUDALI - czat"})
     try:
         with urllib.request.urlopen(req, timeout=180) as r:
             odp = json.loads(r.read().decode())
