@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "gotowe",
- "zadanie": "12:20 – TOP: drewutnia (65); prezent na mikołajki rośnie (65)",
- "postep": 100,
- "aktualizacja": "2026-11-06T12:21+01:00",
+ "stan": "pracuje",
+ "zadanie": "Dodaję grupę koparka do pomiaru",
+ "postep": null,
+ "aktualizacja": "2026-11-06T13:47+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:47+01:00",
+   "stan": "pracuje",
+   "tekst": "Dodaję grupę koparka do pomiaru"
+  },
   {
    "czas": "2026-11-06T12:21+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T03:54+01:00",
    "stan": "gotowe",
    "tekst": "03:00 – bez zmian, TOP: drewutnia (65)"
-  },
-  {
-   "czas": "2026-11-05T03:54+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
   }
  ]
 }
