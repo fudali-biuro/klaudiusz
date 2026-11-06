@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "Ranking zasięgu fraz gotowy: drewno opałowe 233, domek letniskowy 196, prezent na mikołajki rośnie",
+ "zadanie": "12:20 – TOP: drewutnia (65); prezent na mikołajki rośnie (65)",
  "postep": 100,
- "aktualizacja": "2026-11-06T07:04+01:00",
+ "aktualizacja": "2026-11-06T12:21+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T12:21+01:00",
+   "stan": "gotowe",
+   "tekst": "12:20 – TOP: drewutnia (65); prezent na mikołajki rośnie (65)"
+  },
+  {
+   "czas": "2026-11-06T12:21+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-06T12:20+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-06T07:04+01:00",
    "stan": "gotowe",
@@ -189,21 +204,6 @@
   },
   {
    "czas": "2026-11-05T03:54+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
-  },
-  {
-   "czas": "2026-11-05T03:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T02:54+01:00",
-   "stan": "gotowe",
-   "tekst": "02:00 – TOP: drewutnia (65), wiata drewniana wróciła do 58"
-  },
-  {
-   "czas": "2026-11-05T02:54+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
   }
