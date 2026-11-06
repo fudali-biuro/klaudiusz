@@ -32,14 +32,24 @@ def znak(size, color=YEL, bg=BLK):
         d.ellipse(((cx - r * .22) * k, (cy - r * .22) * k, (cx + r * .22) * k, (cy + r * .22) * k), fill=c)
     return im.resize((int(640 * size / 640), int(440 * size / 640)), Image.LANCZOS)
 def kolko_maska(n): m = Image.new("L", (n * 4, n * 4), 0); ImageDraw.Draw(m).ellipse((0, 0, n * 4 - 1, n * 4 - 1), fill=255); return m.resize((n, n), Image.LANCZOS)
+def znak_ai(width):
+    """ikona wygenerowana (Gemini Image) i oczyszczona: żółta sylwetka z maską alfa, przycięta do obrysu"""
+    im = Image.open(OUT + "zrodlo-ikona-ai.jpg").convert("RGB"); px = im.load(); w, h = im.size
+    a = Image.new("L", (w, h)); ap = a.load()
+    for y in range(h):
+        for x in range(w):
+            r, g, b = px[x, y]; ap[x, y] = max(0, min(255, int((r - 70) * 255 / 120))) if r > g * 0.9 else 0
+    bbox = a.point(lambda v: 255 if v > 80 else 0).getbbox()
+    ico = Image.new("RGBA", (w, h), YEL + (255,)); ico.putalpha(a); ico = ico.crop(bbox)
+    return ico.resize((width, round(ico.height * width / ico.width)), Image.LANCZOS)
 def wariant_a():
     im = Image.new("RGBA", (1080, 1080), BLK + (255,)); d = ImageDraw.Draw(im)
     d.ellipse((40, 40, 1040, 1040), outline=YEL + (255,), width=18)
-    z = znak(840); im.alpha_composite(z, ((1080 - z.width) // 2, 300)); return im
+    z = znak_ai(720); im.alpha_composite(z, ((1080 - z.width) // 2, (1080 - z.height) // 2)); return im
 def wariant_b():
     im = Image.new("RGBA", (1080, 1080), BLK + (255,)); d = ImageDraw.Draw(im)
     d.ellipse((40, 40, 1040, 1040), outline=YEL + (255,), width=18)
-    z = znak(640); im.alpha_composite(z, ((1080 - z.width) // 2, 200))
+    z = znak_ai(620); im.alpha_composite(z, ((1080 - z.width) // 2, 215))
     f = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 92); words = NAPIS.split(" ")
     y = 690
     for w in words: d.text((540 - d.textlength(w, font=f) / 2, y), w, font=f, fill=YEL + (255,)); y += 112
@@ -47,7 +57,7 @@ def wariant_b():
 def wariant_c():
     im = Image.new("RGBA", (1080, 1080), BLK + (255,)); d = ImageDraw.Draw(im)
     f = sorted(glob.glob("marketing/biblioteka-zdjec/produkty/*shanmon-fuji-388*"))[4]  # '--5' – cała maszyna z daleka
-    ph = Image.open(f).convert("RGB"); w, h = ph.size; cw = int(w * 0.95); cx0 = int(w * 0.62 - cw / 2); cx0 = min(max(cx0, 0), w - cw); cy0 = int(h * 0.55 - cw / 2)
+    ph = Image.open(f).convert("RGB"); w, h = ph.size; cw = int(w * 0.72); cx0 = int(w * 0.64 - cw / 2); cx0 = min(max(cx0, 0), w - cw); cy0 = int(h * 0.6 - cw / 2)
     ph = ph.crop((cx0, cy0, cx0 + cw, cy0 + cw)).resize((960, 960), Image.LANCZOS).convert("RGBA")
     ph.putalpha(kolko_maska(960)); d.ellipse((40, 40, 1040, 1040), fill=YEL + (255,)); im.alpha_composite(ph, (60, 60)); return im
 def podglad(files):
