@@ -1,0 +1,17 @@
+{
+ "id": "gen-vid-1793999028-lAJG2aGnWKeMvWNfL8Yi",
+ "generation_id": "gen-vid-1793999028-lAJG2aGnWKeMvWNfL8Yi",
+ "polling_url": "https://openrouter.ai/api/v1/videos/gen-vid-1793999028-lAJG2aGnWKeMvWNfL8Yi",
+ "status": "completed",
+ "unsigned_urls": [
+  "https://openrouter.ai/api/v1/videos/gen-vid-1793999028-lAJG2aGnWKeMvWNfL8Yi/content?index=0"
+ ],
+ "urls": [
+  "https://storage.googleapis.com/openrouter-generated-media-us/v1/user_3Ldrw9UPqrMZk7GvoEEScbdXQA3/gen-vid-1793999028-lAJG2aGnWKeMvWNfL8Yi/0?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=generated-media-writer%40openrouter-core.iam.gserviceaccount.com%2F20261106%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20261106T210434Z&X-Goog-Expires=86396&X-Goog-SignedHeaders=host&X-Goog-Signature=6c66b2515757f37ff79755cdc2f5f61726f8ab95fc8410132ed63de53e2d776fb67a3865cddb10cea651d31ffe41239211d5185bedc1b6d1ab6001ad298af62df03faba9e5797f6a7be7f1158dd65d23de2494e5d1ba0dd410da91b3970f5ed50fce85b8648877f7853491d8507ddf3594039ff2ba8691b1598af2ef80dee339939c3af99315d9f2b986f242f378eb04e92cff821ddfea9315a0ac76d954048ede60333e6b26737ebf1d999ee5ea574fbd57bb24a2a80ba6ac9a3b4c4de5494033e7fda987f00c99988bb41c461c1005a93852e6ee959112e3e1b5fb3b1909c6716658679680f135b1f7f83d254c21ef2eb5915c1a5d75a2d03497af1f8c5a7e"
+ ],
+ "usage": {
+  "cost": 0.81088,
+  "is_byok": false
+ },
+ "expires_at": 1794085470
+}
