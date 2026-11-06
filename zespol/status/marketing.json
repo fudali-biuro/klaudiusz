@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Instagram: audyt profilu gotowy (marketing/instagram/audyt-profilu.md); Etap 2 po analizie Mietka/Bartka",
- "postep": 100,
- "aktualizacja": "2026-11-06T16:28+01:00",
+ "stan": "pracuje",
+ "zadanie": "Instagram Etap 2: strategia gotowa, czekam na grafiki Zosi (siatka 3×3, 9 postów)",
+ "postep": null,
+ "aktualizacja": "2026-11-06T16:30+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:30+01:00",
+   "stan": "pracuje",
+   "tekst": "Instagram Etap 2: strategia gotowa, czekam na grafiki Zosi (siatka 3×3, 9 postów)"
+  },
   {
    "czas": "2026-11-06T16:28+01:00",
    "stan": "gotowe",
