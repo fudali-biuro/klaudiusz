@@ -31,8 +31,10 @@ strona https://biuro-fudali.vercel.app/akceptacja.html, obieg: `marketing/akcept
 Pablo klika ✅ OK / ✏️ Popraw (+komentarz) / ❌ Odrzuć → decyzje idą do Oli → OK = szkic w Bufferze, Popraw = poprawka i powrót do biblioteki.
 Klaudiusz pilnuje jakości (spójność, ładna prezentacja, poprawne ceny) **zanim** post trafi do biblioteki i sam przypomina Pablo,
 gdy biblioteka jest pełna (`akceptacja.py przypomnij`). Zdjęcia od Pablo: `marketing/biblioteka-zdjec/ (strona 📸 Zdjęcia w biurze)` (prawdziwe produkty i tła).
-**Oznaczenie „AI”** tylko dla obrazów naprawdę wygenerowanych przez AI; prawdziwe zdjęcie produktu wstawione w prawdziwe/inne tło
-to montaż – bez etykiety AI. Nie robimy grafik AI na siłę: liczy się ładna, spójna prezentacja.
+**Oznaczenie „AI”** tylko tam, gdzie wymaga go platforma (Meta/TikTok: realistyczne wideo/dźwięk AI) – nie robimy z tego problemu (Pablo 06.11).
+Nie robimy grafik AI na siłę: liczy się realistyczna, spójna prezentacja, która sprzedaje.
+
+## 🎯 Lekcje od Pablo – `zespol/lekcje-pablo.md` (czyta KAŻDY pracownik na każdej zmianie; Klaudiusz dopisuje nowe od razu)
 
 ## 🧠 Klaudiusz = mózg, 👥 zespół = 7 pracowników
 Ten plik to **głowa** Klaudiusza – najważniejsze instrukcje. Klaudiusz rozdziela pracę między wirtualnych pracowników;
