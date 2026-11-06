@@ -1,5 +1,7 @@
 # 🚜 Koparko-ładowarka Shanmon Fuji 388 – ogłoszenie i weryfikacja ceny (Marek, 06.11.2026)
 
+> **Najważniejsze dla Pablo: pkt 7 na dole (cena do szybkiej sprzedaży + poprawki ogłoszenia). Pkt 3 jest nim uzupełniony – tam, gdzie się różnią, obowiązuje pkt 7.**
+
 Zasada: każdy fakt ma link. Dane z ogłoszeń i stron producenta, sprawdzone 06.11.2026. Czego nie udało się potwierdzić – oznaczone ⚠️.
 
 ## 1. Pełne ogłoszenie (źródło prawdy dla postów)
@@ -78,3 +80,50 @@ Zawsze: **„250 000 zł netto (307 500 zł brutto)”**, nigdy samo „250 tys.
 
 ## 6. Kontrola cen w gotowych postach (zasada dla Marka)
 Gdy Ola da posty, sprawdzam: (1) „250 000 zł netto” / „307 500 zł brutto” – inne kwoty = błąd; (2) czy przy każdej kwocie jest netto/brutto; (3) czy porównania mają źródło z pkt 2 i właściwy %: 14% (Case 550SV), 34% (Case 580SV/695SV), 44% (JCB 3CX Plus EH); (4) brak raty/oprocentowania; (5) parametry zgodne z pkt 1. Na dziś (6.11, popołudnie) w `marketing/kampanie/koparka/` nie ma jeszcze plików z postami.
+
+## 7. Aktualizacja 06.11 (po sygnale Grety i ogłoszeniu Pablo): realna cena do szybkiej sprzedaży
+
+### 7a. Sygnał Grety o cenie 21 tys. € – zweryfikowany
+- Źródło Grety jest prawdziwe: Shanmon 388H, 2025, **21 821 EUR**, sprzedawca TOFFS MACHINERY (Hefei, Chiny), „do negocjacji”, **bez podanego incoterms, dostawy i cła**, certyfikat „CE”, silnik YC4A105Z-T20 w klasie **Euro 3**, w zestawie młot, szybkozłącze i łyżka: https://www.truck1.sg/construction-machinery/backhoe-loaders/shanmon-388h-a11649178.html (to ogłoszenie „informacyjne”, cena nie jest ofertą). Alibaba: SAM388T ok. 17–22 tys. USD: https://www.alibaba.com/product-introduction/Cheap-Price-SHANMON-Digger-SAM388T-1_1600861433554.html
+- Kurs: ok. 4,4 zł/€ (przeliczenie Machineryline: 232 000 zł ≈ 52 500 €). 250 000 zł netto ≈ **56,8 tys. €**; 21,8 tys. € ≈ 96 tys. zł. Różnica: ok. 2,6×.
+- **Skąd różnica (moje szacunki, nie ze źródeł!)** – cena z Chin to maszyna „z placu fabryki”. Do tego dochodzi, żeby stała w Rzeszowie gotowa do sprzedaży: transport morski + dowóz (rząd 3–5 tys. €), cło (⚠️ stawkę dla kodu CN 8429 sprawdzić w TARIC – nie potwierdziłem; zwykle kilka %), dostosowanie do UE (silnik Stage V zamiast Euro 3, CE, dokumenty, tłumaczona instrukcja, tablice/homologacja do jazdy po drogach), łyżki i osprzęt, finansowanie, rezerwa na gwarancję i części, marża. Realistyczny koszt „na placu w PL, przed marżą” to więc ok. **110–140 tys. zł netto** (⚠️ szacunek, do potwierdzenia fakturą Pablo). 250 tys. = ok. 2× koszt wejścia.
+- Wniosek: **kupujący, który wyszuka „Shanmon 388” w internecie, zobaczy ~100 tys. zł i zapyta „dlaczego 250?”**. Odpowiedź musi być w ogłoszeniu: nowa pod CE, Stage V, gwarancja 12 mies., serwis w całej Polsce, leasing, odbiór od ręki bez kontenera i cła. **Nie wolno** w tym pomagać cenami z Chin w postach.
+
+### 7b. Co kosztują nowe chińskie koparko-ładowarki w Polsce (ogłoszenia, 06.11.2026)
+| Maszyna | Cena | Sprzedawca / miejsce | Link |
+|---|---|---|---|
+| **STROER C-799T KRAB** (teleskopowa, 2026) | **250 000 netto** (307 500 brutto) | firma, Trójca (dolnośląskie) | https://www.otomoto.pl/maszyny-budowlane/oferta/stroer-c-799t-krab-ID6HHqRo.html |
+| STROER C-788T, 2026, 9 500 kg, 125 KM | **220 000 netto** (270 600 brutto) | firma, Trójca | https://www.otomoto.pl/maszyny-budowlane/oferta/stroer-c788t-ID6GNmND.html |
+| Lonking 84C, „fabrycznie nowa”, Perkins Stage V | 313 000 (netto/brutto nie podano ⚠️) | Krotoszyn | https://sprzedajemy.pl/koparko-ladowarka-lonking-84c-jcb-3cx-4cx-cat-434-444-case-695-new-holland-krotoszyn-4-6bea9f-nr74075293 |
+| MAXUS 4CX 4x4 nowa | 190–300 tys. zł (ogłoszenia, nie podano netto/brutto ⚠️) | różne | https://sprzedajemy.pl/nowy-maxus-bosch-4cx-4x4-koparko-ladowarka-perkins-cummins-aleksandrow-lodzki-4-6bea9f-nr73517169 |
+| Kingway (Chiny) nowa + łyżki + leasing | 139 900 (netto/brutto nie podano ⚠️) | Kielce | https://sprzedajemy.pl/nowa-koparko-ladowarka-kingway-jcb-cat-volvo-xcmg-case-lyzki-leasing-kielce-4-6bea9f-nr63919761 |
+
+**Kluczowe:** Stroer C-799T (też teleskopowa, 2026) stoi dokładnie na **tych samych 250 000 netto** – ale u firmy-dealera, a nasza u osoby prywatnej. Bliźniak C-788T ma 220 000 netto. Czyli 250 tys. to **górna granica** chińskich nowych w tej klasie, nie dolna. Nie znalazłem w publicznych wynikach polskich ofert Liugong, XCMG, Sunward (⚠️ brak danych – nie porównujemy).
+
+### 7c. Cena realna do szybkiej sprzedaży (moja rekomendacja)
+| | Netto | Brutto | Uzasadnienie |
+|---|---|---|---|
+| Pułap (nie powyżej) | 250 000 | 307 500 | = Stroer C-799T u dealera; od osoby prywatnej trudniej to sprzedać szybko |
+| **Rekomendowana cena wystawienia** | **235 000** | **289 050** | psychologicznie poniżej Stroera 250 tys., nadal powyżej C-788T 220 tys. (mniejsza/inna maszyna); zostawia 10–15 tys. na negocjacje |
+| Dolna granica (szybka sprzedaż) | 220 000 | 270 600 | poziom Stroera C-788T; poniżej nie ma sensu – to już zbliża się do wartości używanych JCB i obniża zaufanie |
+| Widełki realne | **220 000 – 240 000 netto** (270–295 tys. brutto) | | |
+
+⚠️ To ocena, nie fakt rynkowy: bazuje na 2 ofertach Stroera i nielicznych ogłoszeniach; nie widziałem, za ile faktycznie się sprzedają (ogłoszenia to ceny żądane). **Decyzję o cenie podejmuje Pablo.** Jeśli zostanie 250 000 – posty i tak mają prawo działać, ale ogłoszenie musi nadrobić zaufanie (patrz 7d), bo dealer Stroer ma tę samą cenę i wiarygodność firmy.
+
+### 7d. Niespójności w ogłoszeniu, które mogą płoszyć kupca → proponowane poprawki
+Źródło: https://www.otomoto.pl/maszyny-budowlane/oferta/yuchai-shanmon-388-ID6IjcnM.html (opis w `ogloszenie-otomoto.md`)
+1. **Marka „Yuchai”** w tytule/polu – Yuchai to producent silnika, nie maszyny (strona producenta: silnik Yuchai YC4A105Z-T20, marka Shanmon: https://www.shanmonkj.com/backhoe-loader/388-loader-backhoe.html). → ustawić markę/model: **Shanmon 388** (lub „Shanmon Fuji 388”), tytuł np. „Shanmon 388 – nowa koparko-ładowarka 2026, ramię teleskopowe 5,5 m, 4x4”.
+2. **„Używany” + „5 mth” vs „fabrycznie nowa”** – kupujący firmowy odczyta to jako „używana, a sprzedający udaje nową”. → pole stanu „Nowy” (jeśli nowa i licznik to rozruch/dowóz) i jedno zdanie w opisie: „5 mth = przebieg po rozruchu i dowozie, maszyna nieużywana”. Jeśli maszyna była użytkowana – napisać wprost.
+3. **„Osoba prywatna” vs faktura VAT, leasing, odliczenie VAT, gwarancja i serwis** – to niespójne: kupujący-firma szuka dealera z fakturą VAT; leasingodawcy zwykle kupują od podmiotu gospodarczego (⚠️ do potwierdzenia u leasingodawcy). → wystawić ogłoszenie jako **firma** (konto firmowe na Otomoto) i napisać: „sprzedaż na fakturę VAT, FUDALI Sp. z o.o.” — ✋ to decyzja Pablo (czy sprzedaje przez firmę).
+4. **Klasa silnika**: ogłoszenie pisze „Stage V”, a ogłoszenie importowe 388H (Truck1) podaje **Euro 3**, a strona Shanmon „National II” (⚠️ nie wszystkie wersje są takie same). → Pablo/dostawca powinien sprawdzić tabliczkę znamionową i deklarację zgodności (CE/COC): **jeśli nie ma dokumentu Stage V, usunąć „Stage V” z ogłoszenia i postów** – to najgroźniejsze: fałszywy parametr = reklamacja i utrata zaufania.
+5. **Cena**: wpisać wyraźnie „250 000 zł netto + 23% VAT (307 500 zł brutto)” w tytule lub pierwszej linii; na OLX 299 900 – ujednolicić.
+6. Brak: dokumenty (deklaracja zgodności CE, książka, faktura zakupu), nr seryjny, **film z pracy maszyny** (kupujący maszyn wierzy filmowi z jazdy, nie zdjęciom), adres/godziny oględzin, nr telefonu (ukryty za „Wyświetl numer”). → dodać do opisu/zdjęć.
+7. Opis mówi „Tel.” bez numeru (kończy się „Tel.”) – dopisać numer lub usunąć.
+
+### 7e. Gotowe odpowiedzi na pytanie „czemu 250 tys., skoro w internecie jest za 100?” (do akceptacji Pablo)
+> „W Chinach fabryka sprzedaje maszynę bez cła, transportu, dostosowania do norm UE i bez serwisu. Nasza jest nowa, już w Polsce, na fakturę VAT, z gwarancją 12 mies., serwisem w całej Polsce i możliwością leasingu – odbiór od ręki, bez czekania na kontener. Zapraszam na oględziny i jazdę próbną.”
+> (⚠️ użyć tylko jeśli punkt 4 powyżej – dokumenty – się zgadza; nie podawać liczb za granicę.)
+
+## 8. Co dalej
+- Ola: ceny w postach wg pkt 4 i 7 (jeśli Pablo zmieni cenę – przeliczam wszystko); brak porównań z ceną chińską.
+- Klaudiusz → Pablo (jedno zdanie): „Cena 250 000 netto = tyle, ile ma dealer Stroer za podobną teleskopową; do szybkiej sprzedaży proponuję 235 000 netto (dolna granica 220 000) i poprawki w ogłoszeniu (marka Shanmon, stan nowy, sprzedaż jako firma, sprawdzić Stage V).”
