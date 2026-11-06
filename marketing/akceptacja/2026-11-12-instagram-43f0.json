@@ -17,11 +17,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "instagram-start",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Zastąpione inspiracją 2 (zasada: treści do zapisania, bez grafiki technicznej).",
  "wersja": 2,
  "utworzono": "2026-11-06T15:36:21+00:00",
- "zmieniono": "2026-11-06T15:41:20+00:00",
+ "zmieniono": "2026-11-06T21:08:49+00:00",
  "historia": [
   {
    "czas": "2026-11-06T15:36:21+00:00",
@@ -33,6 +33,12 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-06T21:08:49+00:00",
+   "kto": "marketing",
+   "stan": "odrzucone",
+   "komentarz": "Zastąpione inspiracją 2 (zasada: treści do zapisania, bez grafiki technicznej)."
   }
  ]
 }
