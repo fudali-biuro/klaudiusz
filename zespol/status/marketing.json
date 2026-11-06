@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "wolne",
- "zadanie": "Paczka 9–15.11 (13 wpisów) czeka w bibliotece akceptacji; brak decyzji Pablo",
+ "stan": "pracuje",
+ "zadanie": "Koparka Shanmon: 8–10 postów TikTok + 5 pinów",
  "postep": null,
- "aktualizacja": "2026-11-06T12:35+01:00",
+ "aktualizacja": "2026-11-06T13:46+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:46+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka Shanmon: 8–10 postów TikTok + 5 pinów"
+  },
   {
    "czas": "2026-11-06T12:35+01:00",
    "stan": "wolne",
