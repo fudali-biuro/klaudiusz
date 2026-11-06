@@ -1,0 +1,58 @@
+{
+ "czas": "2026-11-06T06:44+01:00",
+ "kotwica": "drewutnia",
+ "geo": "PL",
+ "zbiory": [
+  "BGnn5ryMb25IxirsI",
+  "815ZCi2XD0tT9dCqD",
+  "lNbirHDQfZBABural",
+  "MdOQjt2pow27Srd1T"
+ ],
+ "frazy": {
+  "drewutnia": {
+   "zasieg_12m": 100.0,
+   "zasieg_teraz": 100.0,
+   "srednia_12m_surowa": 9.9,
+   "ost_4tyg_surowa": 9.0,
+   "zmiana_proc": -18,
+   "szczyt": "Mar 29, 2026",
+   "teraz_vs_szczyt_proc": 43
+  },
+  "stolarz rzeszów": {
+   "zasieg_12m": 0.0,
+   "zasieg_teraz": 0.0,
+   "srednia_12m_surowa": 0.0,
+   "ost_4tyg_surowa": 0.0,
+   "zmiana_proc": null,
+   "szczyt": "Nov 2, 2025",
+   "teraz_vs_szczyt_proc": 0
+  },
+  "sauna ogrodowa": {
+   "zasieg_12m": 98.0,
+   "zasieg_teraz": 102.2,
+   "srednia_12m_surowa": 9.7,
+   "ost_4tyg_surowa": 9.2,
+   "zmiana_proc": -8,
+   "szczyt": "Dec 28, 2025",
+   "teraz_vs_szczyt_proc": 57
+  },
+  "pomysł na prezent": {
+   "zasieg_12m": 176.8,
+   "zasieg_teraz": 177.8,
+   "srednia_12m_surowa": 17.5,
+   "ost_4tyg_surowa": 16.0,
+   "zmiana_proc": 10,
+   "szczyt": "Dec 7, 2025",
+   "teraz_vs_szczyt_proc": 22
+  },
+  "prezent dla taty": {
+   "zasieg_12m": 193.9,
+   "zasieg_teraz": 138.9,
+   "srednia_12m_surowa": 19.2,
+   "ost_4tyg_surowa": 12.5,
+   "zmiana_proc": -2,
+   "szczyt": "Dec 14, 2025",
+   "teraz_vs_szczyt_proc": 12
+  }
+ }
+}
