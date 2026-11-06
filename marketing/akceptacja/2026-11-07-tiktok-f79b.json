@@ -13,16 +13,22 @@
  ],
  "autor": "klaudiusz",
  "kampania": "koparka",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Decyzja Pablo: koniec z filmami AI, reelsy tylko z prawdziwych zdjęć/nagrań.",
  "wersja": 1,
  "utworzono": "2026-11-06T21:05:00+00:00",
- "zmieniono": "2026-11-06T21:05:00+00:00",
+ "zmieniono": "2026-11-06T21:40:45+00:00",
  "historia": [
   {
    "czas": "2026-11-06T21:05:00+00:00",
    "kto": "klaudiusz",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T21:40:45+00:00",
+   "kto": "klaudiusz",
+   "stan": "odrzucone",
+   "komentarz": "Decyzja Pablo: koniec z filmami AI, reelsy tylko z prawdziwych zdjęć/nagrań."
   }
  ]
 }
