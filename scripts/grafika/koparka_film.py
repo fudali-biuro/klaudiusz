@@ -43,6 +43,9 @@ def stroke_text(d, xy, t, f, fill):
     d.text((x, y), t, font=f, fill=fill + (255,))
 def centered(img, lines, y, a, size=120, color=WHITE, last_color=None):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
+    if len(lines) == 1 and d.textlength(lines[0], font=F(size)) > W - 120 and " " in lines[0]:
+        w_ = lines[0].split(); best = min(range(1, len(w_)), key=lambda k: abs(len(" ".join(w_[:k])) - len(" ".join(w_[k:]))))
+        lines = [" ".join(w_[:best]), " ".join(w_[best:])]
     sz = size
     while sz > 48 and max(d.textlength(l, font=F(sz)) for l in lines) > W - 120: sz -= 4
     f = F(sz)
@@ -59,7 +62,8 @@ def photo_frame(src, t, dur, a0, a1, lines):
     ov = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(ov)
     for y in range(H - 700, H): d.line((0, y, W, y), fill=(0, 0, 0, int(215 * (y - (H - 700)) / 700)))
     fr = Image.alpha_composite(fr, ov); a = min(1, t / 0.2)
-    return centered(fr, lines, H - 160 - 135 * len(lines) + int((1 - a) * 40), a, size=130, last_color="first")
+    nl = len(lines) if not (len(lines) == 1 and ImageDraw.Draw(Image.new('RGB', (1, 1))).textlength(lines[0], font=F(130)) > W - 120 and ' ' in lines[0]) else 2
+    return centered(fr, lines, H - 160 - 135 * nl + int((1 - a) * 40), a, size=130, last_color="first")
 def card(kind, lines, t):
     a = min(1, t / 0.25); fr = Image.new("RGBA", (W, H), BLACK + (255,)); d = ImageDraw.Draw(fr)
     d.rectangle((0, 0, W, 40), fill=YEL + (255,)); d.rectangle((0, H - 40, W, H), fill=YEL + (255,))
@@ -82,4 +86,5 @@ def build(klucz):
                 fr = photo_frame(srcs[s[0]], t, s[2], s[3], s[4], s[1])
             ff.stdin.write(fr.convert("RGB").tobytes())
     ff.stdin.close(); ff.wait(); print("OK", nazwa, round(sum(s[2] for s in sceny), 1), "s")
-for k in (sys.argv[1:] or list(FILMY)): build(k)
+if __name__ == "__main__":
+    for k in (sys.argv[1:] or list(FILMY)): build(k)
