@@ -17,3 +17,7 @@ Filmy `koparka-nowa-2026`, `koparka-5-5-m`, `koparka-szybkie-ciecia` ZAWIERAJĄ 
 - Nowe filmy bez ceny: `post-5.mp4`, `post-6.mp4` (walk-around), `post-8.mp4`, `post-9.mp4` (wg oryginalnej tabeli ujęć/napisów z posty.md).
 - Posty 4 i 7 (z ceną/wyposażeniem – napisy tylko z tabeli „Aktualizacja po ceny.md”, bez „Stage V”) – po decyzji Pablo/Marka o cenie.
 - Piny EN 2:3: `marketing/kampanie/koparka/piny/pin-1…5.jpg` (prawdziwe zdjęcia, bez logo FUDALI, bez etykiety AI).
+
+## ✅ Wersja końcowa (decyzja Pablo: cena 250 000 zł netto (307 500 brutto), „Stage V” wolno)
+Filmy z tabeli „Aktualizacja po ceny.md” (posty.md): `post-4.mp4` (cena + od ręki), `post-5.mp4` (używany JCB 3CX Pro 2022 vs nowa), `post-6.mp4` (obchód z cenami), `post-7.mp4` (co dostajesz: 4x4 · Stage V · klima · kamera cofania · łyżka 6w1 · 5,5 m · gwarancja 12 mies.), `post-8.mp4` (leasing/kredyt, VAT do odliczenia – bez raty), `post-9.mp4` (porównanie nowych Case/JCB). Posty 1–3 bez ceny – bez zmian. Każdy ma `post-N.txt`.
+Skrypt: `python3 scripts/grafika/koparka_posty.py 4 5 6 7 8 9`. Poprzednie wersje 5/6/8/9 (bez ceny) zastąpione.
