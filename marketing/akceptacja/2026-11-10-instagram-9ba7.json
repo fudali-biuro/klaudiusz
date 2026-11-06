@@ -11,21 +11,28 @@
   "marketing/instagram/posty/P2/slajd-1.jpg",
   "marketing/instagram/posty/P2/slajd-2.jpg",
   "marketing/instagram/posty/P2/slajd-3.jpg",
-  "marketing/instagram/posty/P2/slajd-4.jpg"
+  "marketing/instagram/posty/P2/slajd-4.jpg",
+  "marketing/instagram/posty/P2/slajd-5.jpg"
  ],
  "wideo": [],
  "autor": "marketing",
  "kampania": "instagram-start",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-06T15:36:17+00:00",
- "zmieniono": "2026-11-06T15:36:17+00:00",
+ "zmieniono": "2026-11-06T15:41:13+00:00",
  "historia": [
   {
    "czas": "2026-11-06T15:36:17+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T15:41:13+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
