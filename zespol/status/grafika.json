@@ -1,8 +1,8 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Inspiracje cz.2: poddasze, ogród o zachodzie, wiosna na tarasie, czarny leżak",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Inspiracje cz.2: insp-5…8 gotowe",
+ "postep": 100,
  "aktualizacja": "2026-11-06T22:11+01:00",
  "makieta": false,
  "prosby": [
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T22:11+01:00",
+   "stan": "gotowe",
+   "tekst": "Inspiracje cz.2: insp-5…8 gotowe"
+  },
   {
    "czas": "2026-11-06T22:11+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T15:22+01:00",
    "stan": "pracuje",
    "tekst": "Packshoty z 2-3 produktami na jednym zdjęciu"
-  },
-  {
-   "czas": "2026-11-05T15:03+01:00",
-   "stan": "czeka",
-   "tekst": "Packshoty: 9 z 18 gotowych, brak logowania do generatora obrazów"
   }
  ]
 }
