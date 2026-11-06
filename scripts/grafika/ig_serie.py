@@ -32,28 +32,35 @@ def wrap(d, t, f, mw):
         if d.textlength(x, font=f) <= mw: cur = x
         else: out.append(cur); cur = w_
     return out + [cur]
-def chrome(img, tag=None, head=None, sub=None, dark=False, hs=None, w=W, h=H, grad=True, rgba=False):
+def chrome(img, tag=None, head=None, sub=None, dark=False, hs=None, w=W, h=H, grad=True, rgba=False, logo=True, top=False, small=False):
     img = img.convert("RGBA"); d = ImageDraw.Draw(img)
-    if head and grad and not dark:
+    if head and top and not dark:
+        ov = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d0 = ImageDraw.Draw(ov)
+        for y in range(0, 620): d0.line((0, y, w, y), fill=GREEN + (int(225 * (1 - y / 620) ** 1.2),))
+        img = Image.alpha_composite(img, ov); d = ImageDraw.Draw(img)
+    if head and grad and not dark and not top:
         ov = Image.new("RGBA", (w, h), (0, 0, 0, 0)); d0 = ImageDraw.Draw(ov); gh = int(h * 0.36)
         for y in range(h - gh, h): d0.line((0, y, w, y), fill=GREEN + (int(225 * ((y - (h - gh)) / gh) ** 1.15),))
         img = Image.alpha_composite(img, ov); d = ImageDraw.Draw(img)
-    lg = LOGO.resize((200, round(LOGO.height * 200 / LOGO.width)), Image.LANCZOS); pl = Image.new("RGBA", (lg.width + 28, lg.height + 22), (0, 0, 0, 0))
-    ImageDraw.Draw(pl).rounded_rectangle((0, 0, pl.width - 1, pl.height - 1), radius=14, fill=CREAM + (238,)); img.alpha_composite(pl, (36, 36)); img.alpha_composite(lg, (50, 47))
-    if tag:
-        f = F(24); tw = d.textlength(tag, font=f) + 44; x0 = w - 36 - tw
-        d.rounded_rectangle((x0, 40, w - 36, 92), radius=26, fill=GREEN + (255,) if dark else CREAM + (238,)); d.text((x0 + 22, 52), tag, font=f, fill=(CREAM if dark else GREEN) + (255,))
+    if logo:
+        lg = LOGO.resize((150, round(LOGO.height * 150 / LOGO.width)), Image.LANCZOS); pl = Image.new("RGBA", (lg.width + 22, lg.height + 18), (0, 0, 0, 0))
+        ImageDraw.Draw(pl).rounded_rectangle((0, 0, pl.width - 1, pl.height - 1), radius=12, fill=CREAM + (232,)); img.alpha_composite(pl, (32, 32)); img.alpha_composite(lg, (43, 41))
     if head:
-        hs = hs or (62 if len(head) < 34 else 54 if len(head) < 60 else 46); f = FS(hs); lines = wrap(d, head, f, w - 110)
-        sl = wrap(d, sub, F(32, False), w - 110) if sub else []
-        block = len(lines) * int(hs * 1.16) + (len(sl) * 44 + 12 if sl else 0); y = h - 70 - block
+        hs = hs or ((46 if len(head) < 34 else 40 if len(head) < 60 else 36) if small else (62 if len(head) < 34 else 54 if len(head) < 60 else 46)); f = FS(hs); lines = wrap(d, head, f, w - 110)
+        SF = F(max(32, int(hs * 0.5)), False); sl = wrap(d, sub, SF, w - 110) if sub else []
+        block = len(lines) * int(hs * 1.16) + (len(sl) * int(SF.size * 1.38) + 12 if sl else 0); y = 230 if top else h - 70 - block
         col = GREEN if dark else CREAM
         d.rectangle((56, y - 24, 126, y - 18), fill=GOLD + (255,))
         for l in lines: d.text((56, y), l, font=f, fill=col + (255,)); y += int(hs * 1.16)
         y += 12
-        for l in sl: d.text((56, y), l, font=F(32, False), fill=col + (235,)); y += 44
+        for l in sl: d.text((56, y), l, font=SF, fill=col + (235,)); y += int(SF.size * 1.38)
     return img if rgba else img.convert("RGB")
-def save(img, path): os.makedirs(os.path.dirname(path), exist_ok=True); img.save(path, quality=94)
+def grade(img):
+    """jedna korekta barwna całej serii: ciepło (lekko złoty) + podobny kontrast"""
+    from PIL import ImageEnhance
+    img = ImageEnhance.Contrast(img.convert("RGB")).enhance(1.05); r, g_, b = img.split()
+    r = r.point(lambda v: min(255, int(v * 1.035))); b = b.point(lambda v: int(v * 0.95)); return Image.merge("RGB", (r, g_, b))
+def save(img, path): os.makedirs(os.path.dirname(path), exist_ok=True); grade(img).save(path, quality=94)
 def sprite(path):
     im = rd(path); L = ImageChops.darker(ImageChops.darker(*im.split()[:2]), im.split()[2]); ImageDraw.floodfill(L, (0, 0), 0, thresh=26)
     a = L.point(lambda v: 255 if v else 0).filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.1))
@@ -91,17 +98,20 @@ def reel(path, sceny, fps=30):
             ff.stdin.write(fr.convert("RGB").tobytes())
     ff.stdin.close(); ff.wait()
 def overlay(tag, head, sub=None, dark=False):
-    return chrome(Image.new("RGBA", (W, 1920), (0, 0, 0, 0)), tag, head, sub, dark=dark, w=W, h=1920, rgba=True)
+    return chrome(Image.new("RGBA", (W, 1920), (0, 0, 0, 0)), None, head, sub, dark=dark, w=W, h=1920, rgba=True)
 def kb(img, zoom0=1.0, zoom1=1.15, sec=4.0, fy=0.5):
     def f(t): return cover(img, W, 1920, 0.5, fy, zoom0 + (zoom1 - zoom0) * min(1, t / sec))
     return f
+def zoomcream(path, sec, y=380):
+    return lambda t: on_cream(path, int(940 + 90 * min(1, t / sec)), y, W, 1920)
 def reelsy():
     P = OUT + "posty/"
     a, b = rd(g("wyciete-blaty")), rd(g("stolik-patek-blat"))
-    reel(P + "P3-reel.mp4", [(kb(a, 1.0, 1.2, 4), overlay("PROCES", "Od płatka do stolika"), 4.0), (kb(b, 1.0, 1.2, 4, 0.55), overlay("JAK POWSTAJE", "Tak to wygląda od środka"), 4.0),
-                          (lambda t: cream_bg(W, 1920), overlay("STOLIK PŁATEK", "Który kształt blatu wolisz?", "Napisz w komentarzu.", dark=True), 2.5)])
-    ov1 = overlay("KONSTRUKCJA", "Jak się składa leżak?", dark=True); ov2 = overlay("10 KG", "Składa się na płasko", "Waga: 10 kg", dark=True); ov3 = overlay("CHCESZ WIĘCEJ?", "Film z warsztatu? Napisz TAK", dark=True)
-    reel(P + "P7-reel.mp4", [(lambda t: anim_canvas(t, 1920), ov1, 3.0), (lambda t: anim_canvas(3.0 + t, 1920), ov2, 4.4), (lambda t: anim_canvas(7.3, 1920), ov3, 1.8)])
+    reel(P + "P3-reel.mp4", [(kb(a, 1.0, 1.2, 4), overlay(None, "Od płatka do stolika"), 4.0), (kb(b, 1.0, 1.2, 4, 0.55), overlay(None, "Tak to wygląda od środka"), 4.0),
+                          (lambda t: cream_bg(W, 1920), overlay(None, "Który kształt blatu wolisz?", "Napisz w komentarzu.", dark=True), 2.5)])
+    wi = rd(g("szary-grafitowo"))
+    reel(P + "P7-reel.mp4", [(zoomcream(pro(10), 2.6), overlay(None, "Składa się na płasko", dark=True), 2.6), (zoomcream(pro(5), 2.6), overlay(None, "Rozkładasz – siedzisz.", dark=True), 2.6),
+                           (kb(wi, 1.0, 1.15, 3.2, 0.55), overlay(None, "Jodła · 10 kg"), 3.2), (lambda t: cream_bg(W, 1920), overlay(None, "Chcesz film z warsztatu?", "Napisz TAK.", dark=True), 1.6)])
 def siatka():
     P = OUT + "posty/"; kol = [["P9/slajd-1", "P8/slajd-1", "P7/okladka"], ["P6/slajd-1", "P5/slajd-1", "P4/slajd-1"], ["P3/okladka", "P2/slajd-1", "P1/slajd-1"]]
     tw, th, gp = 360, 480, 4; m = Image.new("RGB", (3 * tw + 4 * gp, 3 * th + 4 * gp + 90), (238, 232, 220)); d = ImageDraw.Draw(m)
@@ -144,48 +154,94 @@ def okladki():
 
 def posty():
     P = OUT + "posty/"
+    C = lambda **k: dict(logo=False, small=True, **k)   # okładka: bez logo, mały napis (tylko P1, P4, P6)
     # P1 – 5 kolorów (6 slajdów)
     for i, (n, nm) in enumerate(zip(KF, K)):
         im = cover(rd(pro(n)), W, H, 0.5, 0.5)
-        if i == 0: save(chrome(im, "5 KOLORÓW", "Który Twój?", f"{i+1} / 5 · {nm}"), P + "P1/slajd-1.jpg")
-        else: save(chrome(im, f"{i+1} / 5", nm), P + f"P1/slajd-{i+1}.jpg")
-    save(chrome(kolory5(), "5 KOLORÓW", "Który jest Twój?", "1 jasny brąz · 2 brąz · 3 ciemny brąz · 4 grafit · 5 czerń. Napisz numer w komentarzu.", dark=True), P + "P1/slajd-6.jpg")
-    # P2 – przechowywanie na zimę (4)
-    save(chrome(on_cream(pro(10), 1000, 70), "WIEDZA", "Leżak na zimę – 3 zasady", dark=True), P + "P2/slajd-1.jpg")
-    save(chrome(on_cream(pro(11), 1000, 70), "ZASADA 1 / 3", "Sucho", dark=True), P + "P2/slajd-2.jpg")
-    save(chrome(on_cream(pro(0), 1000, 70), "ZASADA 2 / 3", "Przewiewnie", dark=True), P + "P2/slajd-3.jpg")
-    save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.6), "ZASADA 3 / 3", "Z dala od wilgoci i dużego ciepła", "Zapisz, zanim spadnie śnieg."), P + "P2/slajd-4.jpg")
-    # P4 – z czego jest leżak (5)
-    save(chrome(cover(rd(pro(15)), W, H), "DETAL", "30 mm · 50 mm · 10 kg", "Rama · listwy · waga leżaka"), P + "P4/slajd-1.jpg")
-    save(chrome(on_cream(pro(12), 1000, 70), "WYMIARY", "100 × 55 × 90 cm", "wysokość × szerokość × głębokość", dark=True), P + "P4/slajd-2.jpg")
-    save(chrome(on_cream(pro(19), 1000, 70), "SKŁADA SIĘ", "Złożony: 125 × 55 × 25 cm", dark=True), P + "P4/slajd-3.jpg")
-    save(chrome(on_cream(pro(20), 1000, 120), "W ZESTAWIE", "Poduszka w zestawie", dark=True), P + "P4/slajd-4.jpg")
-    save(chrome(on_cream(pro(21), 1000, 120), "DETAL", "Lina jutowa", "Co chcesz zobaczyć z bliska? Napisz w komentarzu.", dark=True), P + "P4/slajd-5.jpg")
-    # P5 – zdjęcie „wow”
-    save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.55), "TARAS", "Wieczór przy ogniu", "Z kim byś tu usiadł?"), P + "P5/slajd-1.jpg")
+        if i == 0: save(chrome(im, head="5 kolorów. Który Twój?", **C()), P + "P1/slajd-1.jpg")
+        else: save(chrome(im, head=f"{i+1} · {nm}"), P + f"P1/slajd-{i+1}.jpg")
+    save(chrome(kolory5(), head="Który Twój?", sub="1 jasny brąz · 2 brąz · 3 ciemny brąz · 4 grafit · 5 czerń. Napisz numer w komentarzu.", dark=True), P + "P1/slajd-6.jpg")
+    # P2 – leżak na zimę (5): okładka = czyste zdjęcie
+    save(cover(rd(g("lezaki-realizacja")), W, H, 0.5, 0.55), P + "P2/slajd-1.jpg")
+    save(chrome(on_cream(pro(10), 1000, 70), head="Leżak na zimę – 3 zasady", dark=True), P + "P2/slajd-2.jpg")
+    save(chrome(on_cream(pro(11), 1000, 70), head="1 · Sucho", dark=True), P + "P2/slajd-3.jpg")
+    save(chrome(on_cream(pro(0), 1000, 70), head="2 · Przewiewnie", dark=True), P + "P2/slajd-4.jpg")
+    save(chrome(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.6), head="3 · Z dala od wilgoci i dużego ciepła", sub="Zapisz, zanim spadnie śnieg."), P + "P2/slajd-5.jpg")
+    # P3 – okładka (reel osobno)
+    save(cover(rd(g("wyciete-blaty")), W, H, 0.5, 0.4), P + "P3/okladka.jpg")
+    # P4 – z czego jest leżak (5): okładka = cały leżak
+    save(chrome(on_cream(pro(3), 1000, 90), head="10 kg · 30 mm", dark=True, **C()), P + "P4/slajd-1.jpg")
+    save(chrome(on_cream(pro(12), 1000, 70), head="100 × 55 × 90 cm", sub="Rama 30 mm · listwy 50 mm · waga 10 kg", dark=True), P + "P4/slajd-2.jpg")
+    save(chrome(on_cream(pro(19), 1000, 70), head="Złożony: 125 × 55 × 25 cm", dark=True), P + "P4/slajd-3.jpg")
+    save(chrome(on_cream(pro(20), 1000, 120), head="Poduszka w zestawie", dark=True), P + "P4/slajd-4.jpg")
+    save(chrome(on_cream(pro(21), 1000, 120), head="Lina jutowa", sub="Co chcesz zobaczyć z bliska? Napisz w komentarzu.", dark=True), P + "P4/slajd-5.jpg")
+    # P5 – czyste zdjęcie
+    save(cover(rd(g("taras-z-palenisko")), W, H, 0.5, 0.55), P + "P5/slajd-1.jpg")
     # P6 – prezent dla taty (4)
-    save(chrome(cover(rd(g("trzy-drewniane-otwieracze")), W, H, 0.5, 0.45), "PREZENT", "Dla taty, który ma wszystko", "Otwieracz Kot · 49 zł"), P + "P6/slajd-1.jpg")
-    save(chrome(cover(rd(g("podkadki-z-orzecha")), W, H, 0.5, 0.35), "PREZENT 2 / 4", "Podkładka z orzecha czarnego", "99 zł"), P + "P6/slajd-2.jpg")
-    save(chrome(cover(rd(g("skadany-drewniany-stolik-taboret-z-lina-na-parkiec.jpg")), W, H, 0.5, 0.5), "PREZENT 3 / 4", "Składany stolik kawowy", "229 zł"), P + "P6/slajd-3.jpg")
-    save(chrome(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.5, 0.6), "PREZENT 4 / 4", "Leżak z poduszką w zestawie", "299 zł · darmowa wysyłka. Komu to wyślesz?"), P + "P6/slajd-4.jpg")
-    # P8 – realizacja: TYLKO prawdziwa realizacja (weranda klienta); kolejne slajdy = kadry tego samego zdjęcia
-    v = rd(g("image-20260904-110937-616"))
-    save(chrome(cover(v, W, H, 0.5, 0.55), "REALIZACJA", "Leżaki na werandzie klienta"), P + "P8/slajd-1.jpg")
-    save(chrome(cover(v, W, H, 0.12, 0.62, 1.7), "REALIZACJA", "Jodła, lina, poduszka"), P + "P8/slajd-2.jpg")
-    save(chrome(cover(v, W, H, 0.88, 0.62, 1.7), "REALIZACJA", "Jak urządzasz swój taras?", "Napisz w komentarzu."), P + "P8/slajd-3.jpg")
+    save(chrome(cover(rd(g("trzy-drewniane-otwieracze")), W, H, 0.5, 0.45), head="Prezent dla taty · od 49 zł", **C()), P + "P6/slajd-1.jpg")
+    save(chrome(cover(rd(g("podkadki-z-orzecha")), W, H, 0.5, 0.35), head="Podkładka z orzecha czarnego", sub="99 zł"), P + "P6/slajd-2.jpg")
+    save(chrome(cover(rd(g("skadany-drewniany-stolik-taboret-z-lina-na-parkiec.jpg")), W, H, 0.5, 0.5), head="Składany stolik kawowy", sub="229 zł"), P + "P6/slajd-3.jpg")
+    save(chrome(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.5, 0.6), head="Leżak z poduszką w zestawie", sub="299 zł · darmowa wysyłka. Komu to wyślesz?"), P + "P6/slajd-4.jpg")
+    # P7 – okładka reelu = prawdziwe zdjęcie leżaka
+    save(cover(rd(g("szary-grafitowo")), W, H, 0.5, 0.55), P + "P7/okladka.jpg")
+    # P8 – lato na tarasie (3), bez „klienta”
+    save(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.5, 0.6), P + "P8/slajd-1.jpg")
+    save(chrome(cover(rd(g("dwa-lezaki-z-poduszkami")), W, H, 0.3, 0.7, 1.5), head="Dwa leżaki, taras i trawnik – tak wygląda lato"), P + "P8/slajd-2.jpg")
+    save(chrome(cover(rd(g("image-20260904-110937-616")), W, H, 0.5, 0.55), head="Jak urządzasz swój taras?", sub="Napisz w komentarzu."), P + "P8/slajd-3.jpg")
     # P9 – dąb czy jodła (5)
-    save(chrome(cover(rd(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par-2.jpg")), W, H, 0.5, 0.5), "WIEDZA", "Dąb czy jodła?", "Czym się różnią nasze meble"), P + "P9/slajd-1.jpg")
-    save(chrome(on_cream(pro(13), 1000, 70), "JODŁA", "Leżak: jodła bieszczadzka z certyfikatem FSC", dark=True), P + "P9/slajd-2.jpg")
-    save(chrome(cover(rd(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par.jpg")), W, H, 0.5, 0.5), "DĄB", "Stołki: dąb czerwony"), P + "P9/slajd-3.jpg")
-    save(chrome(cover(rd(g("stolik-patek-blat")), W, H, 0.5, 0.5), "DĄB", "Stolik Płatek: dąb czerwony"), P + "P9/slajd-4.jpg")
-    save(chrome(cover(rd(g("szary-grafitowo")), W, H, 0.5, 0.55), "GŁOSUJ", "Jodła czy dąb?", "Napisz w komentarzu."), P + "P9/slajd-5.jpg")
-    # okładki P3, P7 (do siatki)
-    save(chrome(cover(rd(g("wyciete-blaty")), W, H, 0.5, 0.4), "PROCES", "Od płatka do stolika"), P + "P3/okladka.jpg")
-    save(chrome(anim_canvas(4.0), "PROCES", "Jak się składa", dark=True, w=W, h=H), P + "P7/okladka.jpg")
+    save(cover(rd(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par-2.jpg")), W, H, 0.5, 0.5), P + "P9/slajd-1.jpg")
+    save(chrome(on_cream(pro(13), 1000, 70), head="Leżak: jodła bieszczadzka z certyfikatem FSC", dark=True), P + "P9/slajd-2.jpg")
+    save(chrome(cover(rd(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par.jpg")), W, H, 0.5, 0.5), head="Stołki: dąb czerwony"), P + "P9/slajd-3.jpg")
+    save(chrome(cover(rd(g("stolik-patek-blat")), W, H, 0.5, 0.5), head="Stolik Płatek: dąb czerwony"), P + "P9/slajd-4.jpg")
+    save(chrome(on_cream(pro(7), 1000, 70), head="Jodła czy dąb?", sub="Głosuj w komentarzu.", dark=True), P + "P9/slajd-5.jpg")
+def stories():
+    """Stories na 7 dni (9–15.11): 1080×1920, mało tekstu, pola interaktywne (ankieta/quiz/pytanie) zostają puste – naklejki w aplikacji"""
+    D = OUT + "stories/"; SH, SW = 1920, W
+    def ph(path, fx=0.5, fy=0.5, zoom=1.0): return cover(rd(path), SW, SH, fx, fy, zoom)
+    def cr(path, y=330, width=1000): return on_cream(path, width, y, SW, SH)
+    def fr(day, n, img, head=None, sub=None, top=False, dark=False, logo=True): save(chrome(img, head=head, sub=sub, dark=dark, w=SW, h=SH, top=top, logo=logo, hs=80 if head and len(head) < 26 else 66), D + f"D{day}/klatka-{n}.jpg")
+    cta = lambda: cream_bg(SW, SH)
+    CTA = ("Pisz w wiadomości", "wycena · wymiary · dostawa")
+    # D1 pon – Jodła czy dąb? (ankieta)
+    fr(1, 1, cr(pro(13), 380), "Leżak: jodła", "bieszczadzka, certyfikat FSC", dark=True)
+    fr(1, 2, ph(g("zestaw-drewnianych-stokow-dab-rozstawionych-na-par.jpg")), "Stołki: dąb czerwony")
+    fr(1, 3, cta(), "Jodła czy dąb?", "Głosuj w ankiecie", top=True, dark=True)
+    fr(1, 4, cta(), *CTA, top=True, dark=True)
+    # D2 wt – Ile waży leżak? (quiz 5 / 10 / 15 kg)
+    fr(2, 1, cr(pro(0), 330), "Ile waży nasz leżak?", None, dark=True)
+    fr(2, 2, cta(), "5 · 10 · 15 kg?", "Wybierz odpowiedź", top=True, dark=True)
+    fr(2, 3, ph(g("dwa-lezaki-z-poduszkami"), 0.5, 0.6), "10 kg", "Tyle waży leżak. Składa się na płasko.")
+    fr(2, 4, cta(), *CTA, top=True, dark=True)
+    # D3 śr – z czego to zrobione
+    fr(3, 1, cr(pro(21), 380), "Lina jutowa", dark=True)
+    fr(3, 2, ph(pro(15)), "Listwy z jodły", "certyfikat FSC")
+    fr(3, 3, cr(pro(20), 380), "Poduszka w zestawie", dark=True)
+    fr(3, 4, cta(), *CTA, top=True, dark=True)
+    # D4 czw – wybierz kolor (2 detale na klatkę)
+    def split(a, b):
+        im = Image.new("RGB", (SW, SH)); im.paste(cover(rd(pro(a)), SW, SH // 2), (0, 0)); im.paste(cover(rd(pro(b)), SW, SH // 2), (0, SH // 2)); return im
+    fr(4, 1, split(18, 17), "Który wolisz?", "1 jasny brąz · 2 brąz", top=True)
+    fr(4, 2, split(15, 16), "A teraz?", "3 ciemny brąz · 4 grafit", top=True)
+    fr(4, 3, ph(pro(14)), "5 · czerń", "Wyniki w piątek")
+    fr(4, 4, cta(), "Wszystkie 5 kolorów", "w zapowiedzi posta – poniedziałek", top=True, dark=True)
+    # D5 pt – zadaj pytanie stolarzowi
+    fr(5, 1, ph(g("wyciete-blaty"), 0.5, 0.4), "Zadaj pytanie stolarzowi", "O drewno, wymiary, pielęgnację", top=True)
+    fr(5, 2, cta(), "Twoje pytanie?", "Wpisz w okienku", top=True, dark=True)
+    fr(5, 3, cta(), "Odpowiem w reelsie", "w przyszłym tygodniu", top=True, dark=True)
+    # D6 sob – taras o zmierzchu
+    fr(6, 1, ph(g("taras-z-palenisko"), 0.5, 0.55), "Wieczór przy ogniu")
+    fr(6, 2, ph(g("taras-z-palenisko"), 0.4, 0.65, 1.25), "Z kim byś tu usiadł?", None, top=True)
+    fr(6, 3, cta(), *CTA, top=True, dark=True)
+    # D7 ndz – zapowiedź tygodnia
+    fr(7, 1, ph(g("wyciete-blaty"), 0.5, 0.4), "Nowy tydzień", "Zaglądaj codziennie", top=True)
+    two = Image.new("RGB", (SW, SH)); two.paste(cover(rd(g("wyciete-blaty")), SW, SH // 2, 0.5, 0.4), (0, 0)); two.paste(cover(rd(g("image-20260904-110937-616")), SW, SH // 2, 0.5, 0.55), (0, SH // 2))
+    fr(7, 2, two, "Warsztat czy realizacje?", "Co chcesz zobaczyć?", top=True)
+    fr(7, 3, cta(), *CTA, top=True, dark=True)
 if __name__ == "__main__":
     for a in (sys.argv[1:] or ["posty"]):
         if a == "posty": posty()
         if a == "reelsy": reelsy()
         if a == "siatka": siatka()
         if a == "okladki": okladki()
+        if a == "stories": stories()
     print("OK")

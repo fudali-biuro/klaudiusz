@@ -14,3 +14,9 @@ Prawdziwe zdjęcia z `marketing/biblioteka-zdjec/` (w tym profesjonalne „Produ
 Siatka: `../siatka-3x3.jpg` (P9 P8 P7 / P6 P5 P4 / P3 P2 P1). Okładki wyróżnionych (1080×1920): `../wyroznione/okladka-{lezak,gear,dom,kropla,prezent,pytanie}.png` = Leżak, Jak to robimy, Realizacje, Pielęgnacja, Prezenty, Pytania; podgląd w kółku: `../wyroznione/podglad-kolka.png`.
 Skrypt: `python3 scripts/grafika/ig_serie.py [posty|reelsy|siatka|okladki]` (zmiany tekstów w funkcji `posty()`).
 Nie zrobione: P8 „realizacje” z nazwą miejscowości (brak danych), prawdziwy proces z warsztatu (czekamy na filmy od Pablo).
+
+## ✨ Wersja 2 (06.11, poprawki Klaudiusza/Oli)
+- Okładki (slajd 1): tekst tylko w P1 „5 kolorów. Który Twój?”, P4 „10 kg · 30 mm”, P6 „Prezent dla taty · od 49 zł”; reszta (P2, P3, P5, P7, P8, P9) = **czyste zdjęcie**, bez plakietek i bez logo (logo małe tylko na slajdach 2+). Plakietki tematu usunięte z całej serii.
+- P2 okładka = prawdziwe zdjęcie leżaków przy białej bramie (karuzela ma teraz 5 slajdów); P4 okładka = cały leżak (nie kolejne listwy); P8 = „Lato na tarasie” (bez „klienta”); P7 = reel z prawdziwych zdjęć (leżak złożony → rozłożony → w ogrodzie), okładka = leżak pod kwitnącą wiśnią.
+- Jedna korekta barwna całej serii (ciepło, lekko złoty, kontrast +5%) – w funkcji `save()`.
+- **Stories D1–D7** (9–15.11): `../stories/D1…D7/klatka-N.jpg` (1080×1920, 3–4 klatki/dzień, mało tekstu; ankiety/quizy/pytania = puste miejsce na naklejki w aplikacji): D1 jodła czy dąb · D2 ile waży leżak (odp. 10 kg) · D3 z czego to zrobione · D4 wybierz kolor · D5 zadaj pytanie stolarzowi · D6 taras o zmierzchu · D7 zapowiedź tygodnia. Odtworzenie: `python3 scripts/grafika/ig_serie.py stories`.
