@@ -214,3 +214,28 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent na mikołajki dla dzieci 5 lat | prezent na mikołajki | 2026-11-06 |
 | prezent na mikołajki dla dzieci do przedszkola | prezent na mikołajki | 2026-11-06 |
 | pomysł na prezent dla mężczyzny | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent dla przyjaciółki | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent na dzień nauczyciela | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent dla mamy | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent dla nauczyciela | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent dla koleżanki | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent na dzień chłopaka | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent na rocznicę ślubu | pomysł na prezent | 2026-11-06 |
+| pomysł na prezent ślubny | pomysł na prezent | 2026-11-06 |
+| prezent dla mamy na urodziny | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy na 60 urodziny | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy po porodzie | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy na 70 urodziny | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy na imieniny | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy która wszystko ma | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy na 50 urodziny | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy z okazji narodzin dziecka | prezent dla mamy | 2026-11-06 |
+| prezent dla mamy na baby shower | prezent dla mamy | 2026-11-06 |
+| prezent do 300 zł dla faceta | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla niej | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla nastolatka | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla dziecka | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla chłopaka | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla dziewczynki | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla niego | prezent do 300 zł | 2026-11-06 |
+| prezent do 300 zł dla mamy | prezent do 300 zł | 2026-11-06 |

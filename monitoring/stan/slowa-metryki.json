@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-06T05:20+01:00",
+ "czas": "2026-11-06T12:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -364,7 +364,33 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki",
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla dzieci 6 lat",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci 5 lat",
+    "prezent na mikołajki dla dzieci do przedszkola"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "prezent z drewna",
@@ -391,32 +417,6 @@
    "firmy": [],
    "ocena": 62,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent na mikołajki",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki",
-    "prezent na mikołajki do przedszkola",
-    "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla przedszkolaka",
-    "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci 5 lat",
-    "prezent na mikołajki dla dzieci do przedszkola"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 62,
-   "zmiana_oceny": null
   },
   {
    "fraza": "domek letniskowy",
@@ -475,6 +475,7 @@
    "grupa": "altany i pergole",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
+    "wiata drewniana",
     "wiata drewniana jednospadowa",
     "wiata drewniana na samochód",
     "wiata drewniana na dwa samochody",
@@ -483,8 +484,7 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana na 2 samochody",
     "wiata drewniana dwustanowiskowa",
-    "wiata drewniana 6x6 projekt",
-    "wiata drewniana dwuspadowa konstrukcja"
+    "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -659,14 +659,14 @@
    "podpowiedzi_google": [
     "pomysł na prezent",
     "pomysł na prezent dla kobiety",
-    "pomysł na prezent dla mężczyzny",
     "pomysł na prezent dla przyjaciółki",
     "pomysł na prezent na dzień nauczyciela",
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
     "pomysł na prezent na dzień chłopaka",
-    "pomysł na prezent na rocznicę ślubu"
+    "pomysł na prezent na rocznicę ślubu",
+    "pomysł na prezent ślubny"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -676,7 +676,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla mamy",
@@ -702,7 +702,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 55,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent do 300 zł",
@@ -728,7 +728,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 55,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla taty majsterkowicza",
@@ -748,7 +748,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 54,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "akcesoria drewniane",
@@ -934,7 +934,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 41,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -1022,7 +1022,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 23,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "stolarnia podkarpacie",
@@ -1380,10 +1380,6 @@
   },
   {
    "fraza": "wiata drewniana 6x6 projekt",
-   "z_frazy": "wiata drewniana"
-  },
-  {
-   "fraza": "wiata drewniana dwuspadowa konstrukcja",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -1875,10 +1871,6 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "pomysł na prezent dla mężczyzny",
-   "z_frazy": "pomysł na prezent"
-  },
-  {
    "fraza": "pomysł na prezent dla przyjaciółki",
    "z_frazy": "pomysł na prezent"
   },
@@ -1904,6 +1896,10 @@
   },
   {
    "fraza": "pomysł na prezent na rocznicę ślubu",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent ślubny",
    "z_frazy": "pomysł na prezent"
   },
   {
