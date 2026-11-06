@@ -1,0 +1,33 @@
+{
+ "id": "2026-11-09-instagram-a6bb",
+ "kanal": "instagram",
+ "data": "2026-11-09",
+ "godzina": "18:00",
+ "tytul": "P1 – 5 kolorów leżaka (karuzela 6)",
+ "produkt": "Leżak",
+ "tekst": "Ten sam leżak. 5 kolorów. Który jest Twój? 🎨\n\nJasny brąz, brąz, ciemny brąz, grafit albo czerń – wszystko z jodły bieszczadzkiej z certyfikatem FSC, z poduszką w zestawie.\n\nNapisz w komentarzu numer koloru 👇",
+ "hashtagi": "#lezakogrodowy #stolarstwo #drewno #meblezdrewna #fudali",
+ "obrazy": [
+  "marketing/instagram/posty/P1/slajd-1.jpg",
+  "marketing/instagram/posty/P1/slajd-2.jpg",
+  "marketing/instagram/posty/P1/slajd-3.jpg",
+  "marketing/instagram/posty/P1/slajd-4.jpg",
+  "marketing/instagram/posty/P1/slajd-5.jpg",
+  "marketing/instagram/posty/P1/slajd-6.jpg"
+ ],
+ "wideo": [],
+ "autor": "marketing",
+ "kampania": "instagram-start",
+ "stan": "czeka",
+ "komentarz": "",
+ "wersja": 1,
+ "utworzono": "2026-11-06T15:36:15+00:00",
+ "zmieniono": "2026-11-06T15:36:15+00:00",
+ "historia": [
+  {
+   "czas": "2026-11-06T15:36:15+00:00",
+   "kto": "marketing",
+   "stan": "czeka"
+  }
+ ]
+}
