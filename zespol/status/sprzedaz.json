@@ -1,9 +1,9 @@
 {
  "id": "sprzedaz",
- "stan": "gotowe",
- "zadanie": "Koparka: kontrola cen w postach – 4 do poprawy (#5, #7, #9, pin 5)",
- "postep": 100,
- "aktualizacja": "2026-11-06T13:53+01:00",
+ "stan": "pracuje",
+ "zadanie": "Koparka: decyzja Pablo (250 tys., Stage V OK) + kontrola #4 i #7",
+ "postep": null,
+ "aktualizacja": "2026-11-06T13:55+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:55+01:00",
+   "stan": "pracuje",
+   "tekst": "Koparka: decyzja Pablo (250 tys., Stage V OK) + kontrola #4 i #7"
+  },
   {
    "czas": "2026-11-06T13:53+01:00",
    "stan": "gotowe",
