@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "TikTok: pakiet 9–15.11 (5 publikacji + 7 relacji)",
+ "stan": "czeka",
+ "zadanie": "Paczka 9–15.11 do akceptacji",
  "postep": null,
- "aktualizacja": "2026-11-05T22:13+01:00",
+ "aktualizacja": "2026-11-06T06:33+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -70,9 +70,19 @@
    "czas": "2026-11-05T15:49+01:00",
    "tresc": "Szefie: 3 piny leżaka (szkice w Buffer, Etsy) – publikujemy? (tak / poprawki)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-06T06:33+01:00",
+   "tresc": "Szefie: paczka świąteczna 9–15.11 (FB/IG/Pinterest/TikTok, szkice, podgląd w czacie) – OK czy poprawki?",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T06:33+01:00",
+   "stan": "czeka",
+   "tekst": "Paczka 9–15.11 do akceptacji"
+  },
   {
    "czas": "2026-11-05T22:13+01:00",
    "stan": "pracuje",
