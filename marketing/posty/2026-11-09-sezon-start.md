@@ -1,6 +1,6 @@
 # 🎄 Start sezonu świątecznego – pon 9.11.2026 (FB + IG osobno)
 **Status:** 📝 szkic do akceptacji Pablo (zbiorcza prośba po skompletowaniu paczki 9–15.11). Nic nie opublikowane.
-**Grafika:** `zdjecia/kampania-swieta/` (podkładka, otwieracz, stolik, leżak) – kolaż „prezenty od 49 zł” robi Zosia (IG 4:5 + FB 1.91:1) → `zdjecia/swieta-2026/`. Grafiki AI oznaczamy.
+**Grafika:** `zdjecia/kampania-swieta/` (podkładka, otwieracz, stolik, leżak) – grafika GOTOWA: `zdjecia/swieta-2026/kolaz-start-ig-4x5.jpg` (IG), `kolaz-start-fb-191x1.jpg` (FB). Grafiki AI oznaczamy.
 **Termin:** pon 9.11, FB 18:00, IG 18:00 (stories wieczorem).
 
 ## Facebook (dłuższy, historia + link)
