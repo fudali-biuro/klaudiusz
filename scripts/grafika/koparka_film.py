@@ -41,9 +41,9 @@ def stroke_text(d, xy, t, f, fill):
     for dx in (-4, 0, 4):
         for dy in (-4, 0, 4): d.text((x + dx, y + dy), t, font=f, fill=BLACK + (255,))
     d.text((x, y), t, font=f, fill=fill + (255,))
-def centered(img, lines, y, a, size=120, color=WHITE, last_color=None):
+def centered(img, lines, y, a, size=120, color=WHITE, last_color=None, wrap=True):
     layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(layer)
-    if len(lines) == 1 and d.textlength(lines[0], font=F(size)) > W - 120 and " " in lines[0]:
+    if wrap and len(lines) == 1 and d.textlength(lines[0], font=F(size)) > W - 120 and " " in lines[0]:
         w_ = lines[0].split(); best = min(range(1, len(w_)), key=lambda k: abs(len(" ".join(w_[:k])) - len(" ".join(w_[k:]))))
         lines = [" ".join(w_[:best]), " ".join(w_[best:])]
     sz = size
@@ -69,8 +69,12 @@ def card(kind, lines, t):
     d.rectangle((0, 0, W, 40), fill=YEL + (255,)); d.rectangle((0, H - 40, W, H), fill=YEL + (255,))
     lines = [l.replace("{CENA}", CENA) for l in lines]
     if kind == "cena":
-        fr = centered(fr, lines[:1], 700, a, size=150, color=YEL)
-        if len(lines) > 1: fr = centered(fr, lines[1:], 980, a, size=96, color=WHITE)
+        main = lines[0]; sub = []
+        if " (" in main: main, br = main.split(" (", 1); sub.append("(" + br)
+        fr = centered(fr, [main], 640, a, size=150, color=YEL, wrap=False)
+        y2 = 640 + 190
+        for l in sub: fr = centered(fr, [l], y2, a, size=84, color=WHITE, wrap=False); y2 += 120
+        if len(lines) > 1: fr = centered(fr, lines[1:], y2 + 60, a, size=96, color=WHITE)
         return fr
     return centered(fr, lines, 640, a, size=110, color=WHITE)
 def build(klucz):
