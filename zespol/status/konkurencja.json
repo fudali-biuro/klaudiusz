@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Instagram nisza: wersja bez scrapera gotowa (uzupełnię po odblokowaniu Apify)",
+ "zadanie": "Instagram nisza: wzorzec Form at Wood + 3 marki gotowe (źródła www)",
  "postep": 100,
- "aktualizacja": "2026-11-06T16:31+01:00",
+ "aktualizacja": "2026-11-06T16:32+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-06T16:32+01:00",
+   "stan": "gotowe",
+   "tekst": "Instagram nisza: wzorzec Form at Wood + 3 marki gotowe (źródła www)"
+  },
   {
    "czas": "2026-11-06T16:31+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T07:42+01:00",
    "stan": "gotowe",
    "tekst": "Raport 05.11 gotowy – Altanka startuje z Black Friday, Bogateco bez zmian"
-  },
-  {
-   "czas": "2026-11-05T07:41+01:00",
-   "stan": "pracuje",
-   "tekst": "Raport konkurencji na dziś"
   }
  ]
 }
