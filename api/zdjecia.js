@@ -33,7 +33,7 @@ export async function POST(request) {
     .filter((z) => /^https:\/\/[\w.-]+\.blob\.vercel-storage\.com\//.test(String(z?.url || "")))
     .map((z) => ({ url: String(z.url), nazwa: String(z.nazwa || "zdjecie.jpg").slice(0, 120), typ: String(z.typ || "").slice(0, 80), rozmiar: Number(z.rozmiar) || null }));
   if (!pliki.length) return odpowiedz({ blad: "Brak plików" }, 400);
-  const z = { id: noweId().replace(/^m_/, "z_"), czas: czasPL(), sekcja, opis: String(w.opis || "").slice(0, 300).trim(), pliki };
+  const z = { id: noweId().replace(/^m_/, "z_"), czas: czasPL(), sekcja, opis: String(w.opis || "").slice(0, 4000).trim(), pliki };
   await put(`${PREFIKS}${z.id}.json`, JSON.stringify(z), { access: "public", addRandomSuffix: false, contentType: "application/json" });
   // stały, publiczny spis wszystkich zgłoszeń – zespół pobiera go bez logowania (scripts/zdjecia.py pobierz)
   let indeksUrl = null;
