@@ -1,0 +1,213 @@
+{
+ "czas": "2026-11-06T13:48+01:00",
+ "zbiory": [
+  "DxVO7NdyZ6ZeZxOX4",
+  "DqY9fmrVTM2FNwZbn",
+  "i8sAR1Tp2fZHgqB8o"
+ ],
+ "grupy": [
+  {
+   "nazwa": "Koparka – ogólne",
+   "geo": "PL",
+   "frazy": [
+    "koparko-ładowarka",
+    "koparka",
+    "koparka nowa",
+    "koparka jcb",
+    "minikoparka"
+   ],
+   "wiersze": [
+    {
+     "fraza": "koparko-ładowarka",
+     "srednia_12m": 4.1,
+     "ost_4tyg": 3.8,
+     "poprz_4tyg": 4.5,
+     "zmiana_proc": -16,
+     "szczyt_tydzien": "Nov 23, 2025",
+     "szczyt_wartosc": 6,
+     "teraz_vs_szczyt_proc": 63
+    },
+    {
+     "fraza": "koparka",
+     "srednia_12m": 79.3,
+     "ost_4tyg": 82.0,
+     "poprz_4tyg": 83.5,
+     "zmiana_proc": -2,
+     "szczyt_tydzien": "Sep 13, 2026",
+     "szczyt_wartosc": 100,
+     "teraz_vs_szczyt_proc": 82
+    },
+    {
+     "fraza": "koparka nowa",
+     "srednia_12m": 0.2,
+     "ost_4tyg": 0.5,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Nov 2, 2025",
+     "szczyt_wartosc": 3,
+     "teraz_vs_szczyt_proc": 17
+    },
+    {
+     "fraza": "koparka jcb",
+     "srednia_12m": 2.9,
+     "ost_4tyg": 2.8,
+     "poprz_4tyg": 3.2,
+     "zmiana_proc": -13,
+     "szczyt_tydzien": "Dec 14, 2025",
+     "szczyt_wartosc": 6,
+     "teraz_vs_szczyt_proc": 47
+    },
+    {
+     "fraza": "minikoparka",
+     "srednia_12m": 17.1,
+     "ost_4tyg": 16.2,
+     "poprz_4tyg": 18.2,
+     "zmiana_proc": -11,
+     "szczyt_tydzien": "Mar 15, 2026",
+     "szczyt_wartosc": 23,
+     "teraz_vs_szczyt_proc": 70
+    }
+   ],
+   "powiazane_top": [
+    "koparko-ładowarka jcb",
+    "koparko-ładowarka ostrówek",
+    "caterpillar koparko-ładowarka",
+    "koparko-ładowarka otomoto"
+   ],
+   "powiazane_rosnace": [],
+   "podkarpackie_1sza_fraza": 3
+  },
+  {
+   "nazwa": "Koparka – kupujący",
+   "geo": "PL",
+   "frazy": [
+    "koparko-ładowarka cena",
+    "koparko ładowarka używana",
+    "jcb 3cx",
+    "cat 432",
+    "koparko ładowarka olx"
+   ],
+   "wiersze": [
+    {
+     "fraza": "koparko-ładowarka cena",
+     "srednia_12m": 0.3,
+     "ost_4tyg": 0.5,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Jun 28, 2026",
+     "szczyt_wartosc": 16,
+     "teraz_vs_szczyt_proc": 3
+    },
+    {
+     "fraza": "koparko ładowarka używana",
+     "srednia_12m": 0.0,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Nov 2, 2025",
+     "szczyt_wartosc": 0,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "jcb 3cx",
+     "srednia_12m": 74.2,
+     "ost_4tyg": 70.8,
+     "poprz_4tyg": 77.5,
+     "zmiana_proc": -9,
+     "szczyt_tydzien": "Mar 22, 2026",
+     "szczyt_wartosc": 100,
+     "teraz_vs_szczyt_proc": 71
+    },
+    {
+     "fraza": "cat 432",
+     "srednia_12m": 0.9,
+     "ost_4tyg": 3.2,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Aug 16, 2026",
+     "szczyt_wartosc": 19,
+     "teraz_vs_szczyt_proc": 17
+    },
+    {
+     "fraza": "koparko ładowarka olx",
+     "srednia_12m": 19.1,
+     "ost_4tyg": 19.2,
+     "poprz_4tyg": 6.2,
+     "zmiana_proc": 210,
+     "szczyt_tydzien": "Jun 7, 2026",
+     "szczyt_wartosc": 40,
+     "teraz_vs_szczyt_proc": 48
+    }
+   ],
+   "powiazane_top": [],
+   "powiazane_rosnace": [],
+   "podkarpackie_1sza_fraza": 0
+  },
+  {
+   "nazwa": "Koparka – lokalnie i finansowanie",
+   "geo": "PL",
+   "frazy": [
+    "koparka rzeszów",
+    "koparko ładowarka leasing",
+    "koparka podkarpacie",
+    "koparko ładowarka chińska",
+    "koparka na sprzedaż"
+   ],
+   "wiersze": [
+    {
+     "fraza": "koparka rzeszów",
+     "srednia_12m": 0.0,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Nov 2, 2025",
+     "szczyt_wartosc": 0,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "koparko ładowarka leasing",
+     "srednia_12m": 0.0,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Nov 2, 2025",
+     "szczyt_wartosc": 0,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "koparka podkarpacie",
+     "srednia_12m": 1.9,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "May 10, 2026",
+     "szczyt_wartosc": 100,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "koparko ładowarka chińska",
+     "srednia_12m": 0.0,
+     "ost_4tyg": 0.0,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Nov 2, 2025",
+     "szczyt_wartosc": 0,
+     "teraz_vs_szczyt_proc": 0
+    },
+    {
+     "fraza": "koparka na sprzedaż",
+     "srednia_12m": 0.6,
+     "ost_4tyg": 8.2,
+     "poprz_4tyg": 0.0,
+     "zmiana_proc": null,
+     "szczyt_tydzien": "Oct 25, 2026",
+     "szczyt_wartosc": 18,
+     "teraz_vs_szczyt_proc": 46
+    }
+   ],
+   "powiazane_top": [],
+   "powiazane_rosnace": [],
+   "podkarpackie_1sza_fraza": 70
+  }
+ ]
+}

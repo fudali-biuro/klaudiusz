@@ -43,8 +43,20 @@ pomysł na prezent,święta,srednie
 prezent dla mamy,święta,srednie
 leżak drewniany pod choinkę,święta,wysokie
 prezent do 300 zł,święta,srednie
+<<<<<<< Updated upstream
 koparko ładowarka,koparka,wysokie
 koparko ładowarka nowa,koparka,wysokie
 koparko ładowarka cena,koparka,wysokie
 jcb 3cx cena,koparka,srednie
 koparka rzeszów,koparka,wysokie
+=======
+koparko-ładowarka,koparka,wysokie
+koparko-ładowarka nowa,koparka,wysokie
+koparko-ładowarka na sprzedaż,koparka,wysokie
+koparka na sprzedaż,koparka,wysokie
+jcb 3cx,koparka,wysokie
+koparko ładowarka olx,koparka,srednie
+koparka jcb,koparka,srednie
+koparka rzeszów,koparka,srednie
+shanmon fuji 388,koparka,wysokie
+>>>>>>> Stashed changes
