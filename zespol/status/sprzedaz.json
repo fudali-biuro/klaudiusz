@@ -1,8 +1,8 @@
 {
  "id": "sprzedaz",
- "stan": "pracuje",
- "zadanie": "Koparka: decyzja Pablo (250 tys., Stage V OK) + kontrola #4 i #7",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Koparka: decyzja Pablo wpisana, #4 i #7 OK, obrona ceny wobec Stroera",
+ "postep": 100,
  "aktualizacja": "2026-11-06T13:55+01:00",
  "makieta": false,
  "prosby": [
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:55+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: decyzja Pablo wpisana, #4 i #7 OK, obrona ceny wobec Stroera"
+  },
   {
    "czas": "2026-11-06T13:55+01:00",
    "stan": "pracuje",
