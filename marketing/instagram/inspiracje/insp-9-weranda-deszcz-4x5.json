@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-produktywniej-maciej-banasik-zdjecia-reklamowe-fud-5.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: covered wooden veranda on a rainy summer afternoon: the folding wooden lounge chair (grey-brown) with a wool blanket and a cup of tea on a small table, rain falling beyond the porch roof, wet green garden, soft grey light, cosy and calm. Candid Pinterest-style photo, no people, no text, no logos.",
+ "ai": true
+}
