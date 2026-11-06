@@ -1,6 +1,6 @@
 {
- "czas": "2026-11-05T15:56+01:00",
- "postow_w_bazie": 13,
+ "czas": "2026-11-06T05:20+01:00",
+ "postow_w_bazie": 14,
  "frazy": [
   {
    "fraza": "drewutnia",
@@ -341,6 +341,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent pod choinkę",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent pod choinkę",
+    "prezent pod choinkę dla kobiety",
+    "prezent pod choinkę dla mężczyzny",
+    "prezent pod choinkę dla 10 latki",
+    "prezent pod choinkę dla mamy",
+    "prezent pod choinkę dla 9 latki",
+    "prezent pod choinkę dla rocznego dziecka",
+    "prezent pod choinkę dla 5 latki",
+    "prezent pod choinkę dla rodziców",
+    "prezent pod choinkę dla męża"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "prezent z drewna",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
@@ -355,6 +381,32 @@
     "prezent z drewna dla kobiety",
     "prezent z drewna na 40 urodziny",
     "prezent z drewna na 5 rocznicę ślubu"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla dzieci 6 lat",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci 5 lat",
+    "prezent na mikołajki dla dzieci do przedszkola"
    ],
    "pozycja_w_podpowiedziach": 2,
    "popyt_0_1": 0.94,
@@ -423,7 +475,6 @@
    "grupa": "altany i pergole",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
-    "wiata drewniana",
     "wiata drewniana jednospadowa",
     "wiata drewniana na samochód",
     "wiata drewniana na dwa samochody",
@@ -432,7 +483,8 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana na 2 samochody",
     "wiata drewniana dwustanowiskowa",
-    "wiata drewniana 6x6 projekt"
+    "wiata drewniana 6x6 projekt",
+    "wiata drewniana dwuspadowa konstrukcja"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -598,6 +650,104 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "pomysł na prezent",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "pomysł na prezent",
+    "pomysł na prezent dla kobiety",
+    "pomysł na prezent dla mężczyzny",
+    "pomysł na prezent dla przyjaciółki",
+    "pomysł na prezent na dzień nauczyciela",
+    "pomysł na prezent dla mamy",
+    "pomysł na prezent dla nauczyciela",
+    "pomysł na prezent dla koleżanki",
+    "pomysł na prezent na dzień chłopaka",
+    "pomysł na prezent na rocznicę ślubu"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na baby shower"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 55,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent do 300 zł",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent do 300 zł dla faceta",
+    "prezent do 300 zł dla kobiety",
+    "prezent do 300 zł dla niej",
+    "prezent do 300 zł",
+    "prezent do 300 zł dla nastolatka",
+    "prezent do 300 zł dla dziecka",
+    "prezent do 300 zł dla chłopaka",
+    "prezent do 300 zł dla dziewczynki",
+    "prezent do 300 zł dla niego",
+    "prezent do 300 zł dla mamy"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 55,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent dla taty majsterkowicza",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty majsterkowicza",
+    "prezent dla taty na urodziny majsterkowicza",
+    "co na prezent dla taty majsterkowicza",
+    "prezent na dzien taty dla majsterkowicza"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 4,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 54,
    "zmiana_oceny": null
   },
   {
@@ -697,7 +847,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 45,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla taty z drewna",
@@ -715,7 +865,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 44,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent na święta dla ogrodnika",
@@ -732,7 +882,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 42,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "nowoczesny domek",
@@ -759,6 +909,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": null
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -816,10 +992,25 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 23,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "leżak drewniany prezent",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 23,
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "leżak drewniany pod choinkę",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [],
@@ -863,7 +1054,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 10,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   }
  ],
  "kandydaci": [
@@ -1189,6 +1380,10 @@
   },
   {
    "fraza": "wiata drewniana 6x6 projekt",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana dwuspadowa konstrukcja",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -1562,6 +1757,222 @@
   {
    "fraza": "drewniane ozdoby choinkowe dla dzieci",
    "z_frazy": "drewniane ozdoby choinkowe"
+  },
+  {
+   "fraza": "prezent pod choinkę dla mężczyzny",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 10 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla mamy",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 9 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla rocznego dziecka",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 5 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla rodziców",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla męża",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent dla taty na urodziny",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty na 60 urodziny",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty na 70 urodziny",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty który wszystko ma",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty na 50 urodziny",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty który nic nie chce",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty i syna na dzien chlopaka",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty i syna",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty z okazji narodzin dziecka",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty na urodziny majsterkowicza",
+   "z_frazy": "prezent dla taty majsterkowicza"
+  },
+  {
+   "fraza": "co na prezent dla taty majsterkowicza",
+   "z_frazy": "prezent dla taty majsterkowicza"
+  },
+  {
+   "fraza": "prezent na dzien taty dla majsterkowicza",
+   "z_frazy": "prezent dla taty majsterkowicza"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki do przedszkola",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 8 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla przedszkolaka",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla chłopaka",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 6 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dziewczyny",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 5 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci do przedszkola",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "pomysł na prezent dla mężczyzny",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent dla przyjaciółki",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent na dzień nauczyciela",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent dla mamy",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent dla nauczyciela",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent dla koleżanki",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent na dzień chłopaka",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent na rocznicę ślubu",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "prezent dla mamy na urodziny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy na 60 urodziny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy po porodzie",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy na 70 urodziny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy na imieniny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy która wszystko ma",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy na 50 urodziny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy z okazji narodzin dziecka",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy na baby shower",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent do 300 zł dla faceta",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla niej",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla nastolatka",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla dziecka",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla chłopaka",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla dziewczynki",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla niego",
+   "z_frazy": "prezent do 300 zł"
+  },
+  {
+   "fraza": "prezent do 300 zł dla mamy",
+   "z_frazy": "prezent do 300 zł"
   }
  ]
 }

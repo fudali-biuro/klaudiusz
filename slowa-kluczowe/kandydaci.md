@@ -184,3 +184,33 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | drewniane ozdoby choinkowe biale | drewniane ozdoby choinkowe | 2026-11-05 |
 | drewniane ozdoby choinkowe sinsay | drewniane ozdoby choinkowe | 2026-11-05 |
 | drewniane ozdoby choinkowe dla dzieci | drewniane ozdoby choinkowe | 2026-11-05 |
+| prezent pod choinkę dla mężczyzny | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla 10 latki | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla mamy | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla 9 latki | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla rocznego dziecka | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla 5 latki | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla rodziców | prezent pod choinkę | 2026-11-06 |
+| prezent pod choinkę dla męża | prezent pod choinkę | 2026-11-06 |
+| prezent dla taty na urodziny | prezent dla taty | 2026-11-06 |
+| prezent dla taty na 60 urodziny | prezent dla taty | 2026-11-06 |
+| prezent dla taty na 70 urodziny | prezent dla taty | 2026-11-06 |
+| prezent dla taty który wszystko ma | prezent dla taty | 2026-11-06 |
+| prezent dla taty na 50 urodziny | prezent dla taty | 2026-11-06 |
+| prezent dla taty który nic nie chce | prezent dla taty | 2026-11-06 |
+| prezent dla taty i syna na dzien chlopaka | prezent dla taty | 2026-11-06 |
+| prezent dla taty i syna | prezent dla taty | 2026-11-06 |
+| prezent dla taty z okazji narodzin dziecka | prezent dla taty | 2026-11-06 |
+| prezent dla taty na urodziny majsterkowicza | prezent dla taty majsterkowicza | 2026-11-06 |
+| co na prezent dla taty majsterkowicza | prezent dla taty majsterkowicza | 2026-11-06 |
+| prezent na dzien taty dla majsterkowicza | prezent dla taty majsterkowicza | 2026-11-06 |
+| prezent na mikołajki dla dzieci | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki do przedszkola | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla dzieci 8 lat | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla przedszkolaka | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla chłopaka | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla dzieci 6 lat | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla dziewczyny | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla dzieci 5 lat | prezent na mikołajki | 2026-11-06 |
+| prezent na mikołajki dla dzieci do przedszkola | prezent na mikołajki | 2026-11-06 |
+| pomysł na prezent dla mężczyzny | pomysł na prezent | 2026-11-06 |
