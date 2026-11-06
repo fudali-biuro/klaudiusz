@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Koparka: cena z brutto, filmy 4–9, piny 2:3",
- "postep": null,
- "aktualizacja": "2026-11-06T13:54+01:00",
+ "stan": "gotowe",
+ "zadanie": "Koparka: cena brutto, filmy 5/6/8/9, 5 pinów EN",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T13:58+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:58+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: cena brutto, filmy 5/6/8/9, 5 pinów EN"
+  },
   {
    "czas": "2026-11-06T13:54+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-04T14:49+01:00",
    "stan": "gotowe",
    "tekst": "6 scen do kampanii świątecznej (produkty ze strony w nowej scenerii)"
-  },
-  {
-   "czas": "2026-11-04T14:45+01:00",
-   "stan": "pracuje",
-   "tekst": "Kampania świąteczna: 6 produktów w nowych scenach (fal.ai)"
   }
  ]
 }
