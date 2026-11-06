@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Koparka: filmy 1–3 wg scenariuszy Oli + logo konta",
- "postep": null,
- "aktualizacja": "2026-11-06T13:50+01:00",
+ "stan": "gotowe",
+ "zadanie": "Koparka: filmy 1–3 i logo konta (3 warianty) gotowe",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T13:54+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:54+01:00",
+   "stan": "gotowe",
+   "tekst": "Koparka: filmy 1–3 i logo konta (3 warianty) gotowe"
+  },
   {
    "czas": "2026-11-06T13:50+01:00",
    "stan": "pracuje",
