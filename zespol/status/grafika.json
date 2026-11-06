@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "gotowe",
- "zadanie": "Podkładka z kakao + 2 filmy TikTok (5 kolorów, z czego jest leżak)",
- "postep": 100,
- "aktualizacja": "2026-11-06T08:49+01:00",
+ "stan": "pracuje",
+ "zadanie": "Biblioteka zdjęć: dodaję i opisuję prawdziwe zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-06T09:01+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T09:01+01:00",
+   "stan": "pracuje",
+   "tekst": "Biblioteka zdjęć: dodaję i opisuję prawdziwe zdjęcia"
+  },
   {
    "czas": "2026-11-06T08:49+01:00",
    "stan": "gotowe",
