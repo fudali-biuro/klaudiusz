@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Klaudiusz: wycofane – zastąpione nową serią Instagrama (instagram-start), żeby siatka była spójna",
  "wersja": 1,
  "utworzono": "2026-11-06T07:46:21+00:00",
- "zmieniono": "2026-11-06T07:46:21+00:00",
+ "zmieniono": "2026-11-06T15:42:26+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:21+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-06T15:42:26+00:00",
+   "kto": "klaudiusz",
+   "stan": "odrzucone",
+   "komentarz": "Klaudiusz: wycofane – zastąpione nową serią Instagrama (instagram-start), żeby siatka była spójna"
   }
  ]
 }
