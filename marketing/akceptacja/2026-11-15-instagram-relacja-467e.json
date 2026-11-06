@@ -1,30 +1,30 @@
 {
- "id": "2026-11-15-instagram-relacja-467e",
- "kanal": "instagram-relacja",
- "data": "2026-11-15",
- "godzina": "09:00",
- "tytul": "Stories D7 – ",
- "produkt": "Leżak",
- "tekst": "Ndz 15.11 – Zapowiedź tygodnia: co chcesz zobaczyć – warsztat czy realizacje? (naklejka ANKIETA). CTA: napisz w wiadomości.",
- "hashtagi": "",
- "obrazy": [
-  "marketing/instagram/stories/D7/klatka-1.jpg",
-  "marketing/instagram/stories/D7/klatka-2.jpg",
-  "marketing/instagram/stories/D7/klatka-3.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "instagram-start",
- "stan": "czeka",
- "komentarz": "",
- "wersja": 1,
- "utworzono": "2026-11-06T15:41:44+00:00",
- "zmieniono": "2026-11-06T15:41:44+00:00",
- "historia": [
-  {
-   "czas": "2026-11-06T15:41:44+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  }
- ]
+  "id": "2026-11-15-instagram-relacja-467e",
+  "kanal": "instagram-relacja",
+  "data": "2026-11-15",
+  "godzina": "09:00",
+  "tytul": "Stories D7 – Zapowiedź tygodnia",
+  "produkt": "Leżak",
+  "tekst": "Ndz 15.11 – Zapowiedź tygodnia: co chcesz zobaczyć – warsztat czy realizacje? (naklejka ANKIETA). CTA: napisz w wiadomości.",
+  "hashtagi": "",
+  "obrazy": [
+    "marketing/instagram/stories/D7/klatka-1.jpg",
+    "marketing/instagram/stories/D7/klatka-2.jpg",
+    "marketing/instagram/stories/D7/klatka-3.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "instagram-start",
+  "stan": "czeka",
+  "komentarz": "",
+  "wersja": 1,
+  "utworzono": "2026-11-06T15:41:44+00:00",
+  "zmieniono": "2026-11-06T15:41:44+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-06T15:41:44+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    }
+  ]
 }
