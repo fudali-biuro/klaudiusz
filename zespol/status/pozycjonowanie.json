@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
- "stan": "pracuje",
- "zadanie": "Frazy i hashtagi: koparka Shanmon Fuji 388",
- "postep": null,
- "aktualizacja": "2026-11-06T13:46+01:00",
+ "stan": "gotowe",
+ "zadanie": "Frazy i hashtagi koparka: marketing/kampanie/koparka/frazy.md",
+ "postep": 100,
+ "aktualizacja": "2026-11-06T13:50+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-06T13:50+01:00",
+   "stan": "gotowe",
+   "tekst": "Frazy i hashtagi koparka: marketing/kampanie/koparka/frazy.md"
+  },
   {
    "czas": "2026-11-06T13:46+01:00",
    "stan": "pracuje",
