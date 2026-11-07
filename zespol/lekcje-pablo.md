@@ -57,3 +57,5 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     pochwały: „Pomost nad jeziorem – najpiękniejsze ujęcie”, koparka w śniegu – „najlepiej odwzorowane”. ❌ Odrzuca: wszystkie stories
     z quizami/ankietami (D1–D7), karuzele „poradnikowe” (P1–P9), filmy reklamowe, grafiki z ceną, sceny wiosenne/letnie zimą
     (wiosna → dopiero wiosną). Odrzucone bez komentarza = nie ten kierunek, nie poprawiamy. Więcej robimy tego, co pochwalił.
+23. **Facebook = galerie 2–3 zdjęć w jednym poście** (Pablo 07.11), z linkiem do fudali.com.pl w tekście; pojedyncze zdjęcia na FB nie.
+    Podkładka-kwiat i pin „Christmas Gift Idea” odrzucone także po poprawce – tych tematów nie wznawiamy.
