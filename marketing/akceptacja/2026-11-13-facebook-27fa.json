@@ -5,7 +5,7 @@
  "godzina": "10:00",
  "tytul": "Podkładka-kwiat 99 zł",
  "produkt": "Podkładka z orzecha",
- "tekst": "Prezent „do skarpety”, który nie wyląduje w szufladzie ☕🎄\n\nPodkładka-kwiat z orzecha czarnego: chroni blat przed gorącym kubkiem, a na stole wygląda jak mała ozdoba. Każda ma inny rysunek słojów, więc każda jest jedyna w swoim rodzaju.\n\nPasuje na Mikołajki, do prezentu dla koleżanki z pracy, babci, mamy. Cena: 99 zł.\n\nDla kogo byś ją kupił/a? Napisz w komentarzu 👇\n👉 https://www.fudali.com.pl/sklep/",
+ "tekst": "Prezent „do skarpety”, który nie wyląduje w szufladzie ☕🎄\n\nPodkładka-kwiat z orzecha czarnego: chroni blat przed gorącym kubkiem, a na stole wygląda jak mała ozdoba. Każda ma inny rysunek słojów, więc każda jest jedyna w swoim rodzaju.\n\nPasuje na Mikołajki, do prezentu dla koleżanki z pracy, babci, mamy.\n\nDla kogo byś ją kupił/a? Napisz w komentarzu 👇\n👉 https://www.fudali.com.pl/sklep/",
  "hashtagi": "",
  "obrazy": [
   "marketing/zdjecia/swieta-2026/podkladka-kakao-fb-191x1.jpg"
@@ -13,11 +13,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "popraw",
+ "stan": "czeka",
  "komentarz": "OK, ale bez ceny (także na grafice) i bez grafiki AI w rogu – Zosia poprawia.",
- "wersja": 2,
+ "wersja": 3,
  "utworzono": "2026-11-06T07:46:26+00:00",
- "zmieniono": "2026-11-07T09:05:53+00:00",
+ "zmieniono": "2026-11-07T09:07:26+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:26+00:00",
@@ -41,6 +41,12 @@
    "kto": "pablo",
    "stan": "popraw",
    "komentarz": "OK, ale bez ceny (także na grafice) i bez grafiki AI w rogu – Zosia poprawia."
+  },
+  {
+   "czas": "2026-11-07T09:07:26+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 3"
   }
  ]
 }
