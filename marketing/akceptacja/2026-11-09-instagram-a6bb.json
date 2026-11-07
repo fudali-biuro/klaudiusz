@@ -18,11 +18,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "instagram-start",
- "stan": "czeka",
+ "stan": "odrzucone",
  "komentarz": "",
  "wersja": 2,
  "utworzono": "2026-11-06T15:36:15+00:00",
- "zmieniono": "2026-11-06T15:41:18+00:00",
+ "zmieniono": "2026-11-07T09:01:30+00:00",
  "historia": [
   {
    "czas": "2026-11-06T15:36:15+00:00",
@@ -34,6 +34,11 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-07T09:01:30+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone"
   }
  ]
 }
