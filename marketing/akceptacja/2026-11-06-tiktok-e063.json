@@ -15,11 +15,11 @@
  "wideo": [],
  "autor": "grafika",
  "kampania": "koparka",
- "stan": "czeka",
- "komentarz": "Klaudiusz: logo za prymitywne (łyżka wygląda jak grabie, sylwetka nieczytelna) – zrób profesjonalny znak (np. generator obrazów + dopracowanie), czytelny w kółku 200 px.",
+ "stan": "odrzucone",
+ "komentarz": "",
  "wersja": 2,
  "utworzono": "2026-11-06T12:53:58+00:00",
- "zmieniono": "2026-11-06T14:12:02+00:00",
+ "zmieniono": "2026-11-07T09:00:27+00:00",
  "historia": [
   {
    "czas": "2026-11-06T12:53:58+00:00",
@@ -37,6 +37,11 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-07T09:00:27+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone"
   }
  ]
 }
