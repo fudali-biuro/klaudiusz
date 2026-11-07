@@ -390,7 +390,8 @@ const Czat = (() => {
     if (!biezacy) return;
     const id = biezacy;
     try {
-      const r = await fetch(`/czat/${encodeURIComponent(id)}.json`, { cache: "no-store" });
+      let r = await fetch(`/api/na-zywo?co=czat&id=${encodeURIComponent(id)}`, { cache: "no-store" }).catch(() => null);
+      if (!r || !r.ok) r = await fetch(`/czat/${encodeURIComponent(id)}.json`, { cache: "no-store" }); // zapas: kopia ze strony
       if (!r.ok) throw new Error(r.status);
       const d = await r.json();
       if (id !== biezacy) return;

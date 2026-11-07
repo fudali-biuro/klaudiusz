@@ -3,14 +3,26 @@
   "framework": null,
   "buildCommand": "node biuro/build.mjs",
   "outputDirectory": "biuro/dist",
-  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- zespol biuro api package.json package-lock.json raporty monitoring/social slowa-kluczowe konkurencja marketing seo grafika sprzedaz rynki-zagraniczne AGENTS.md vercel.json",
+  "ignoreCommand": "sh scripts/vercel-ignore.sh",
   "functions": {
-    "api/*.js": { "maxDuration": 60, "includeFiles": "zespol/sesje.json" }
+    "api/*.js": {
+      "maxDuration": 60,
+      "includeFiles": "zespol/sesje.json"
+    }
   },
   "headers": [
-    { "source": "/(.*)", "headers": [
-      { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
-      { "key": "Cache-Control", "value": "no-cache" }
-    ] }
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    }
   ]
 }

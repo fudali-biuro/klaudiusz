@@ -125,7 +125,10 @@
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") $("#lupa").hidden = true; });
 
   async function wczytaj() {
-    try { const r = await fetch("akceptacja.json", { cache: "no-cache" }); posty = (await r.json()).posty || []; } catch { posty = []; }
+    // najpierw świeże dane z archiwum (/api/na-zywo), gdy nie działa – kopia zbudowana razem ze stroną
+    posty = null;
+    try { const r = await fetch("/api/na-zywo?co=akceptacja", { cache: "no-store" }); if (r.ok) posty = (await r.json()).posty || null; } catch { /* zapas niżej */ }
+    if (!posty) try { const r = await fetch("akceptacja.json", { cache: "no-cache" }); posty = (await r.json()).posty || []; } catch { posty = []; }
     try { const r = await fetch("/api/akceptacja", { cache: "no-store" }); decyzje = r.ok ? (await r.json()).decyzje || {} : {}; } catch { decyzje = {}; }
     posty.sort((a, b) => (a.data || "9999").localeCompare(b.data || "9999") || (a.godzina || "").localeCompare(b.godzina || ""));
     const sel = $("#kampania"), kamp = [...new Set(posty.filter((p) => p.stan === "czeka").map((p) => p.kampania).filter(Boolean))].sort();
