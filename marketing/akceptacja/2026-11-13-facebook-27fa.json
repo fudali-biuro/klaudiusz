@@ -13,11 +13,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "ok",
+ "komentarz": "Bez ceny - reszta ok",
  "wersja": 2,
  "utworzono": "2026-11-06T07:46:26+00:00",
- "zmieniono": "2026-11-06T07:48:58+00:00",
+ "zmieniono": "2026-11-07T09:00:19+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:26+00:00",
@@ -29,6 +29,12 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-07T09:00:19+00:00",
+   "kto": "pablo",
+   "stan": "ok",
+   "komentarz": "Bez ceny - reszta ok"
   }
  ]
 }
