@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Pinterest 07.11: nacisk na kliknięcia wychodzące, piny rozłożone w czasie; 3 nowe grafiki od Pablo opisane",
+ "zadanie": "Decyzje Pablo wpisane, 13 szkiców w Bufferze, pakiet TikTok",
  "postep": 100,
- "aktualizacja": "2026-11-07T05:36+01:00",
+ "aktualizacja": "2026-11-07T10:06+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-07T10:06+01:00",
+   "stan": "gotowe",
+   "tekst": "Decyzje Pablo wpisane, 13 szkiców w Bufferze, pakiet TikTok"
+  },
   {
    "czas": "2026-11-07T05:36+01:00",
    "stan": "gotowe",
