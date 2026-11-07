@@ -13,11 +13,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "ok",
+ "stan": "w-bufferze",
  "komentarz": "",
  "wersja": 1,
  "utworzono": "2026-11-06T07:46:30+00:00",
- "zmieniono": "2026-11-07T08:59:41+00:00",
+ "zmieniono": "2026-11-07T09:05:27+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:30+00:00",
@@ -28,6 +28,11 @@
    "czas": "2026-11-07T08:59:41+00:00",
    "kto": "pablo",
    "stan": "ok"
+  },
+  {
+   "czas": "2026-11-07T09:05:27+00:00",
+   "kto": "marketing",
+   "stan": "w-bufferze"
   }
  ]
 }
