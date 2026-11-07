@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-06T13:47+01:00",
+ "czas": "2026-11-07T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -36,8 +36,8 @@
     "drewutnia ogrodowa",
     "drewutnia ogrodowa drewniana",
     "drewutnia ogrodowa metalowa",
-    "drewutnia ogrodowa z palet",
     "drewutnia ogrodowa castorama",
+    "drewutnia ogrodowa z palet",
     "drewutnia ogrodowa zamykana",
     "drewutnia ogrodowa z domkiem narzędziowym",
     "drewutnia ogrodowa olx",
@@ -118,8 +118,8 @@
     "domek ogrodowy drewniany olx",
     "domek ogrodowy drewniany leroy merlin",
     "domek ogrodowy drewniany z tarasem",
-    "domek ogrodowy drewniany allegro",
     "domek ogrodowy drewniany obi",
+    "domek ogrodowy drewniany allegro",
     "domek ogrodowy drewniany wyprzedaż"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -250,7 +250,7 @@
     "meble ogrodowe drewniane ikea",
     "meble ogrodowe drewniane jysk",
     "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane wyprzedaż allegro"
+    "meble ogrodowe drewniane obi"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -269,8 +269,8 @@
    "podpowiedzi_google": [
     "leżak drewniany",
     "leżak drewniany składany",
-    "leżak drewniany jysk",
     "leżak drewniany ogrodowy",
+    "leżak drewniany jysk",
     "leżak drewniany plażowy",
     "leżak drewniany ikea",
     "leżak drewniany castorama",
@@ -346,41 +346,15 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent pod choinkę",
-    "prezent pod choinkę dla kobiety",
     "prezent pod choinkę dla mężczyzny",
+    "prezent pod choinkę dla kobiety",
     "prezent pod choinkę dla 10 latki",
     "prezent pod choinkę dla mamy",
     "prezent pod choinkę dla 9 latki",
     "prezent pod choinkę dla rocznego dziecka",
-    "prezent pod choinkę dla 5 latki",
+    "prezent pod choinkę dla męża",
     "prezent pod choinkę dla rodziców",
-    "prezent pod choinkę dla męża"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent na mikołajki",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent na mikołajki",
-    "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki do przedszkola",
-    "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla przedszkolaka",
-    "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci 5 lat",
-    "prezent na mikołajki dla dzieci do przedszkola"
+    "prezent pod choinkę dla 2 latka"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -397,7 +371,6 @@
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
-    "koparko ładowarka",
     "koparko ładowarka olx",
     "koparko ładowarka jcb",
     "koparko ładowarka cat",
@@ -406,7 +379,8 @@
     "koparko ładowarka case",
     "koparko ładowarka ostrówek",
     "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3"
+    "koparko ładowarka klasa 3",
+    "koparko ładowarka sprzedajemy"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -416,12 +390,12 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparka rzeszów",
    "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
+   "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
     "koparka rzeszów",
     "koparka rzeszów olx",
@@ -441,6 +415,58 @@
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": -7
+  },
+  {
+   "fraza": "koparko-ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko-ładowarka",
+    "koparko-ładowarka olx",
+    "koparko-ładowarka jcb",
+    "koparko-ładowarka ostrówek",
+    "koparko-ładowarka cat",
+    "koparko-ładowarka jcb 3cx",
+    "koparko-ładowarka case",
+    "koparko-ładowarka jcb nowa cena",
+    "koparko-ładowarka ostrówek z wojska",
+    "koparko-ładowarka new holland"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparka na sprzedaż",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka na sprzedaż",
+    "koparka na sprzedaż olx",
+    "minikoparka na sprzedaż",
+    "koparka kołowa na sprzedaż",
+    "koparka gąsienicowa na sprzedaż",
+    "koparka białoruś na sprzedaż",
+    "koparka ostrówek na sprzedaż",
+    "mała koparka na sprzedaż",
+    "koparka long na sprzedaż",
+    "koparka łańcuchowa na sprzedaż"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
    "ocena": 65,
    "zmiana_oceny": null
   },
@@ -450,8 +476,8 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent z drewna",
-    "prezent z drewna na urodziny",
     "prezent z drewna na rocznicę ślubu",
+    "prezent z drewna na urodziny",
     "prezent z drewna dla mężczyzny",
     "prezent z drewna dla dziewczyny",
     "prezent z drewna diy",
@@ -471,6 +497,134 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla dzieci 6 lat",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": -3
+  },
+  {
+   "fraza": "jcb 3cx",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "jcb 3cx",
+    "jcb 3cx olx",
+    "jcb 3cx contractor",
+    "jcb 3cx waga",
+    "jcb 3cx nowa cena",
+    "jcb 3cx compact",
+    "jcb 3cx opis przycisków",
+    "jcb 3cx dane techniczne",
+    "jcb 3cx super",
+    "jcb 3cx instrukcja obsługi pdf"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka",
+    "koparka dolores",
+    "koparka łańcuchowa",
+    "koparka zabawka",
+    "koparka łańcuchowa wynajem",
+    "koparka kołowa",
+    "koparka po angielsku",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparko ładowarka olx",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "koparko ładowarka olx",
+    "koparko ładowarka olx jcb",
+    "koparko ładowarka olx pomorskie",
+    "koparko ładowarka olx ostrówek",
+    "koparko ładowarka olx cat",
+    "koparko ładowarka olx mazowieckie",
+    "koparko ładowarka olx małopolskie",
+    "koparko ładowarka olx podkarpackie",
+    "koparko ładowarka olx podlaskie",
+    "koparko ładowarka olx nowa"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 55,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "koparko-ładowarka na sprzedaż",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko-ładowarka na sprzedaż",
+    "koparko ładowarka na sprzedaż olx",
+    "koparko ładowarka ostrówek na sprzedaż",
+    "koparko ładowarka używana na sprzedaż",
+    "mini koparko ładowarka na sprzedaż",
+    "koparko ładowarka jcb na sprzedaż",
+    "koparko ładowarka cat na sprzedaż",
+    "koparko ładowarka sprzedaż"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.92,
+   "liczba_podpowiedzi": 8,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 61,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -482,8 +636,8 @@
     "domek letniskowy całoroczny 70m2",
     "domek letniskowy drewniany",
     "domek letniskowy krzyżówka",
-    "domek letniskowy pilnie sprzedam",
     "domek letniskowy nad jeziorem",
+    "domek letniskowy pilnie sprzedam",
     "domek letniskowy całoroczny 35m2"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -534,8 +688,8 @@
     "wiata drewniana dwuspadowa",
     "wiata drewniana ogrodowa",
     "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana na 2 samochody",
     "wiata drewniana dwustanowiskowa",
+    "wiata drewniana dwuspadowa konstrukcja",
     "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -555,8 +709,8 @@
    "podpowiedzi_google": [
     "stolik kawowy drewniany",
     "stolik kawowy drewniany okrągły",
-    "stolik kawowy drewniany prostokątny",
     "stolik kawowy drewniany nowoczesny",
+    "stolik kawowy drewniany prostokątny",
     "stolik kawowy drewniany olx",
     "stolik kawowy drewniany agata meble",
     "stolik kawowy drewniany jysk",
@@ -582,13 +736,13 @@
     "stołki drewniane",
     "stołki drewniane do kuchni",
     "stołki drewniane ikea",
+    "stołki drewniane do łazienki",
     "stołki drewniane do salonu",
     "stołki drewniane olx",
     "stołki drewniane składane",
     "stołki drewniane z oparciem",
     "stołki drewniane action",
-    "stołki drewniane allegro",
-    "stołki drewniane do ogrodu"
+    "stołki drewniane allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -637,9 +791,9 @@
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
+    "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe castorama",
     "drewno opałowe poznań"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -731,6 +885,58 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "olej do drewna na zewnątrz",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "olej do drewna na zewnątrz",
+    "olej do drewna na zewnątrz bezbarwny",
+    "olej do drewna na zewnątrz kolory",
+    "olej do drewna na zewnątrz castorama",
+    "olej do drewna na zewnątrz opinie",
+    "olej do drewna na zewnątrz ranking",
+    "olej do drewna na zewnątrz altax",
+    "olej do drewna na zewnątrz bricomarche",
+    "olej do drewna na zewnątrz osmo",
+    "olej do drewna na zewnątrz sadolin"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "prezent dla taty który wszystko ma",
+   "grupa": "prezenty",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla taty który wszystko ma",
+    "co na prezent dla taty który wszystko ma",
+    "prezent dla taty na urodziny który wszystko ma",
+    "prezent na dzien taty ktory wszystko ma",
+    "prezent dla meza ktory wszystko ma",
+    "prezent dla dwulatka który wszystko ma",
+    "prezent dla mężczyzny który wszystko ma",
+    "prezent dla chlopaka ktory wszystko ma",
+    "prezent dla dziadka który wszystko ma",
+    "prezent dla brata ktory wszystko ma"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "prezent dla mamy",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -740,11 +946,11 @@
     "prezent dla mamy na 60 urodziny",
     "prezent dla mamy po porodzie",
     "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy na imieniny",
     "prezent dla mamy która wszystko ma",
     "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
     "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na baby shower"
+    "prezent dla mamy na święta"
    ],
    "pozycja_w_podpowiedziach": 2,
    "popyt_0_1": 0.94,
@@ -762,8 +968,8 @@
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
     "prezent do 300 zł dla faceta",
-    "prezent do 300 zł dla kobiety",
     "prezent do 300 zł dla niej",
+    "prezent do 300 zł dla kobiety",
     "prezent do 300 zł",
     "prezent do 300 zł dla nastolatka",
     "prezent do 300 zł dla dziecka",
@@ -863,8 +1069,8 @@
     "sauna ogrodowa z piecem na drewno",
     "sauna ogrodowa olx",
     "sauna ogrodowa na drewno",
-    "sauna ogrodowa cena",
     "sauna ogrodowa z jacuzzi",
+    "sauna ogrodowa cena",
     "sauna ogrodowa do samodzielnego montażu",
     "sauna ogrodowa z przedsionkiem",
     "sauna ogrodowa beczka",
@@ -881,6 +1087,29 @@
    ],
    "ocena": 52,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "jak zabezpieczyć meble ogrodowe na zimę",
+    "jak zabezpieczyć meble ogrodowe przed wiatrem",
+    "jak zabezpieczyc meble ogrodowe",
+    "jak zabezpieczyć meble ogrodowe przed deszczem",
+    "jak zabezpieczyć meble ogrodowe przed kradzieżą",
+    "jak zabezpieczyć meble ogrodowe drewniane",
+    "jak zabezpieczyć drewniane meble ogrodowe na zimę"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 7,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 47,
+   "zmiana_oceny": null
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -900,6 +1129,25 @@
    "firmy": [],
    "ocena": 45,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "jakie drewno na meble ogrodowe",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "jakie drewno na meble ogrodowe",
+    "jakie drewno najlepsze na meble ogrodowe",
+    "drewno na meble ogrodowe"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.72,
+   "liczba_podpowiedzi": 3,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 45,
+   "zmiana_oceny": null
   },
   {
    "fraza": "prezent dla taty z drewna",
@@ -1012,7 +1260,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 41,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparko ładowarka cena",
@@ -1020,8 +1268,8 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "koparko ładowarka cena",
-    "koparko ładowarka cena za godzine",
     "koparko ładowarka cena nowa",
+    "koparko ładowarka cena za godzine",
     "koparko ładowarka cena kursu",
     "koparko ładowarka cena za godzine 2025",
     "koparko ładowarka cena usługi",
@@ -1029,6 +1277,32 @@
     "koparko ładowarka cena wynajmu",
     "chińska koparko ładowarka cena",
     "koparko ładowarka jcb cena"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko-ładowarka nowa",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko-ładowarka nowa",
+    "koparko-ładowarka nowa chińska",
+    "koparko-ładowarka nowa cena",
+    "koparko ładowarka nowa olx",
+    "koparko ładowarka nowa jcb",
+    "koparko ładowarka nowa otomoto",
+    "koparko ładowarka nowa sól",
+    "koparko ładowarka nowa cat",
+    "koparko ładowarka jcb nowa cena",
+    "koparko ładowarka cat nowa cena"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1058,6 +1332,23 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "drewno fsc co to",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "niskie",
+   "podpowiedzi_google": [
+    "drewno fsc co to"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 36,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "tarcica",
    "grupa": "drewno",
    "znaczenie_biznesowe": "srednie",
@@ -1084,6 +1375,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "<<<<<<< Updated upstream",
+   "grupa": null,
+   "znaczenie_biznesowe": null,
+   "podpowiedzi_google": [
+    "updated upstream",
+    "updated upstream and stashed changes",
+    "updated upstream stashed changes",
+    "updated upstream git",
+    "updated upstream meaning",
+    "updated upstream git meaning",
+    "updated upstream github",
+    "git updated upstream stashed changes",
+    "deleted in updated upstream and modified in stashed changes",
+    "git stash updated upstream"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "jcb 3cx cena",
    "grupa": "koparka",
    "znaczenie_biznesowe": "srednie",
@@ -1098,6 +1415,84 @@
     "jcb 3cx eco cena",
     "jcb 3cx 2026 cena",
     "jcb 3cx 2014 cena"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparka jcb",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "koparka jcb",
+    "koparka jcb 3cx",
+    "koparka jcb 8018",
+    "koparka jcb zabawka",
+    "koparka jcb 4cx",
+    "koparka jcb cena",
+    "koparka jcb olx",
+    "koparka jcb bruder",
+    "koparka jcb nowa cena",
+    "koparka jcb dla dzieci"
+   ],
+   "pozycja_w_podpowiedziach": 10,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": ">>>>>>> Stashed changes",
+   "grupa": null,
+   "znaczenie_biznesowe": null,
+   "podpowiedzi_google": [
+    "stashed changes",
+    "stashed changes conflicted with hook auto-fixes... rolling back fixes",
+    "stashed changes meaning",
+    "stashed changes github",
+    "stashed changes github desktop",
+    "stashed changes conflicted with hook auto fixes",
+    "stashed changes in git",
+    "stashed changes apply vs pop",
+    "stashed changes updated upstream",
+    "stashed changes restore"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "cat 432",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "cat 432",
+    "cat 432e",
+    "cat 432d",
+    "cat 432f",
+    "cat 432f2",
+    "cat 432 nowy cena",
+    "cat 432d opinie",
+    "cat 432e premier",
+    "cat 432 cena",
+    "cat 432e opinie"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1155,6 +1550,39 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "shanmon fuji 388",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 23,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "leżak drewniany jak złożyć",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "lezak drewniany jak zlozyc",
+    "jak złożyć drewniany leżak z biedronki"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.14,
+   "liczba_podpowiedzi": 2,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 19,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "stolarnia podkarpacie",
    "grupa": "lokalne",
    "znaczenie_biznesowe": "srednie",
@@ -1170,6 +1598,36 @@
    "firmy": [],
    "ocena": 18,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "=======",
+   "grupa": null,
+   "znaczenie_biznesowe": null,
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 16,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "alternatywa dla jcb 3cx",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.06,
+   "liczba_podpowiedzi": 0,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 16,
+   "zmiana_oceny": null
   },
   {
    "fraza": "domek ogrodowy na prezent",
@@ -1389,11 +1847,11 @@
    "z_frazy": "domek letniskowy"
   },
   {
-   "fraza": "domek letniskowy pilnie sprzedam",
+   "fraza": "domek letniskowy nad jeziorem",
    "z_frazy": "domek letniskowy"
   },
   {
-   "fraza": "domek letniskowy nad jeziorem",
+   "fraza": "domek letniskowy pilnie sprzedam",
    "z_frazy": "domek letniskowy"
   },
   {
@@ -1501,11 +1959,11 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana na 2 samochody",
+   "fraza": "wiata drewniana dwustanowiskowa",
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana dwustanowiskowa",
+   "fraza": "wiata drewniana dwuspadowa konstrukcja",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -1549,11 +2007,11 @@
    "z_frazy": "stolik kawowy drewniany"
   },
   {
-   "fraza": "stolik kawowy drewniany prostokątny",
+   "fraza": "stolik kawowy drewniany nowoczesny",
    "z_frazy": "stolik kawowy drewniany"
   },
   {
-   "fraza": "stolik kawowy drewniany nowoczesny",
+   "fraza": "stolik kawowy drewniany prostokątny",
    "z_frazy": "stolik kawowy drewniany"
   },
   {
@@ -1573,6 +2031,10 @@
    "z_frazy": "stołki drewniane"
   },
   {
+   "fraza": "stołki drewniane do łazienki",
+   "z_frazy": "stołki drewniane"
+  },
+  {
    "fraza": "stołki drewniane do salonu",
    "z_frazy": "stołki drewniane"
   },
@@ -1582,10 +2044,6 @@
   },
   {
    "fraza": "stołki drewniane z oparciem",
-   "z_frazy": "stołki drewniane"
-  },
-  {
-   "fraza": "stołki drewniane do ogrodu",
    "z_frazy": "stołki drewniane"
   },
   {
@@ -1793,11 +2251,11 @@
    "z_frazy": "sauna ogrodowa"
   },
   {
-   "fraza": "sauna ogrodowa cena",
+   "fraza": "sauna ogrodowa z jacuzzi",
    "z_frazy": "sauna ogrodowa"
   },
   {
-   "fraza": "sauna ogrodowa z jacuzzi",
+   "fraza": "sauna ogrodowa cena",
    "z_frazy": "sauna ogrodowa"
   },
   {
@@ -1817,11 +2275,11 @@
    "z_frazy": "sauna ogrodowa"
   },
   {
-   "fraza": "prezent z drewna na urodziny",
+   "fraza": "prezent z drewna na rocznicę ślubu",
    "z_frazy": "prezent z drewna"
   },
   {
-   "fraza": "prezent z drewna na rocznicę ślubu",
+   "fraza": "prezent z drewna na urodziny",
    "z_frazy": "prezent z drewna"
   },
   {
@@ -1905,7 +2363,7 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla 5 latki",
+   "fraza": "prezent pod choinkę dla męża",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -1913,7 +2371,7 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla męża",
+   "fraza": "prezent pod choinkę dla 2 latka",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -1926,10 +2384,6 @@
   },
   {
    "fraza": "prezent dla taty na 70 urodziny",
-   "z_frazy": "prezent dla taty"
-  },
-  {
-   "fraza": "prezent dla taty który wszystko ma",
    "z_frazy": "prezent dla taty"
   },
   {
@@ -1977,11 +2431,11 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla przedszkolaka",
+   "fraza": "prezent na mikołajki dla chłopaka",
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla chłopaka",
+   "fraza": "prezent na mikołajki dla przedszkolaka",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -1993,11 +2447,11 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci 5 lat",
+   "fraza": "prezent na mikołajki dla dzieci do przedszkola",
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci do przedszkola",
+   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2049,10 +2503,6 @@
    "z_frazy": "prezent dla mamy"
   },
   {
-   "fraza": "prezent dla mamy na imieniny",
-   "z_frazy": "prezent dla mamy"
-  },
-  {
    "fraza": "prezent dla mamy która wszystko ma",
    "z_frazy": "prezent dla mamy"
   },
@@ -2061,11 +2511,15 @@
    "z_frazy": "prezent dla mamy"
   },
   {
+   "fraza": "prezent dla mamy na imieniny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
    "fraza": "prezent dla mamy z okazji narodzin dziecka",
    "z_frazy": "prezent dla mamy"
   },
   {
-   "fraza": "prezent dla mamy na baby shower",
+   "fraza": "prezent dla mamy na święta",
    "z_frazy": "prezent dla mamy"
   },
   {
@@ -2101,6 +2555,46 @@
    "z_frazy": "prezent do 300 zł"
   },
   {
+   "fraza": "updated upstream",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream and stashed changes",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream stashed changes",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream git",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream meaning",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream git meaning",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "updated upstream github",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "git updated upstream stashed changes",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "deleted in updated upstream and modified in stashed changes",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
+   "fraza": "git stash updated upstream",
+   "z_frazy": "<<<<<<< Updated upstream"
+  },
+  {
    "fraza": "koparko ładowarka jcb",
    "z_frazy": "koparko ładowarka"
   },
@@ -2130,6 +2624,10 @@
   },
   {
    "fraza": "koparko ładowarka klasa 3",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka sprzedajemy",
    "z_frazy": "koparko ładowarka"
   },
   {
@@ -2165,11 +2663,11 @@
    "z_frazy": "koparko ładowarka nowa"
   },
   {
-   "fraza": "koparko ładowarka cena za godzine",
+   "fraza": "koparko ładowarka cena nowa",
    "z_frazy": "koparko ładowarka cena"
   },
   {
-   "fraza": "koparko ładowarka cena nowa",
+   "fraza": "koparko ładowarka cena za godzine",
    "z_frazy": "koparko ładowarka cena"
   },
   {
@@ -2263,6 +2761,370 @@
   {
    "fraza": "koparka sany rzeszów",
    "z_frazy": "koparka rzeszów"
+  },
+  {
+   "fraza": "koparko-ładowarka jcb",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka ostrówek",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka cat",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka jcb 3cx",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka case",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka jcb nowa cena",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka ostrówek z wojska",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka new holland",
+   "z_frazy": "koparko-ładowarka"
+  },
+  {
+   "fraza": "koparko-ładowarka nowa chińska",
+   "z_frazy": "koparko-ładowarka nowa"
+  },
+  {
+   "fraza": "koparko-ładowarka nowa cena",
+   "z_frazy": "koparko-ładowarka nowa"
+  },
+  {
+   "fraza": "koparko ładowarka ostrówek na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "koparko ładowarka używana na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "mini koparko ładowarka na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "koparko ładowarka jcb na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "koparko ładowarka cat na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "koparko ładowarka sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "minikoparka na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka kołowa na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka gąsienicowa na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka białoruś na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka ostrówek na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "mała koparka na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka long na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "koparka łańcuchowa na sprzedaż",
+   "z_frazy": "koparka na sprzedaż"
+  },
+  {
+   "fraza": "jcb 3cx contractor",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx waga",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx nowa cena",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx compact",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx opis przycisków",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx dane techniczne",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx super",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "koparka jcb 3cx",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb 8018",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb zabawka",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb 4cx",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb cena",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb bruder",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb nowa cena",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "koparka jcb dla dzieci",
+   "z_frazy": "koparka jcb"
+  },
+  {
+   "fraza": "stashed changes",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes conflicted with hook auto-fixes... rolling back fixes",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes meaning",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes github",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes github desktop",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes conflicted with hook auto fixes",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes in git",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes apply vs pop",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes updated upstream",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "stashed changes restore",
+   "z_frazy": ">>>>>>> Stashed changes"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz bezbarwny",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz kolory",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz opinie",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz ranking",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz altax",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz osmo",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "olej do drewna na zewnątrz sadolin",
+   "z_frazy": "olej do drewna na zewnątrz"
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe na zimę",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe przed wiatrem",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe przed deszczem",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe przed kradzieżą",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe drewniane",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jak zabezpieczyć drewniane meble ogrodowe na zimę",
+   "z_frazy": "jak zabezpieczyć meble ogrodowe"
+  },
+  {
+   "fraza": "jakie drewno najlepsze na meble ogrodowe",
+   "z_frazy": "jakie drewno na meble ogrodowe"
+  },
+  {
+   "fraza": "drewno na meble ogrodowe",
+   "z_frazy": "jakie drewno na meble ogrodowe"
+  },
+  {
+   "fraza": "jak złożyć drewniany leżak z biedronki",
+   "z_frazy": "leżak drewniany jak złożyć"
+  },
+  {
+   "fraza": "co na prezent dla taty który wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla taty na urodziny który wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent na dzien taty ktory wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla meza ktory wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla dwulatka który wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla mężczyzny który wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla chlopaka ktory wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla dziadka który wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "prezent dla brata ktory wszystko ma",
+   "z_frazy": "prezent dla taty który wszystko ma"
+  },
+  {
+   "fraza": "koparka dolores",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka łańcuchowa",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zabawka",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka łańcuchowa wynajem",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka kołowa",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka po angielsku",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka kryptowalut",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zdalnie sterowana",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "cat 432e",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432d",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432f",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432f2",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432 nowy cena",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432d opinie",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432e premier",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432 cena",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432e opinie",
+   "z_frazy": "cat 432"
   }
  ]
 }
