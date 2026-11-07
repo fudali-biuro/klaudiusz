@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Koparka: 12 pinów + 4 posty FB w bibliotece akceptacji",
- "postep": 100,
- "aktualizacja": "2026-11-06T22:49+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poranna zmiana: zdjęcia od Pablo, decyzje w bibliotece, Pinterest",
+ "postep": null,
+ "aktualizacja": "2026-11-07T05:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-07T05:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Poranna zmiana: zdjęcia od Pablo, decyzje w bibliotece, Pinterest"
+  },
   {
    "czas": "2026-11-06T22:49+01:00",
    "stan": "gotowe",
