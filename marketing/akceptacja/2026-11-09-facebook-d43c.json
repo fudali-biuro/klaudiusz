@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Do archiwum – pomysł na inny sezon (wiosna lub przyszły rok).",
  "wersja": 1,
  "utworzono": "2026-11-06T07:46:18+00:00",
- "zmieniono": "2026-11-06T07:46:18+00:00",
+ "zmieniono": "2026-11-07T09:05:49+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:18+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-07T09:05:49+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone",
+   "komentarz": "Do archiwum – pomysł na inny sezon (wiosna lub przyszły rok)."
   }
  ]
 }
