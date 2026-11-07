@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Instagram nisza: wzorzec Form at Wood + 3 marki gotowe (źródła www)",
+ "zadanie": "Raport 07.11 gotowy – Bogateco tnie choinki, Altanka zapowiada Black Friday; IG bez danych (Apify)",
  "postep": 100,
- "aktualizacja": "2026-11-06T16:32+01:00",
+ "aktualizacja": "2026-11-07T05:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-07T05:06+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport 07.11 gotowy – Bogateco tnie choinki, Altanka zapowiada Black Friday; IG bez danych (Apify)"
+  },
   {
    "czas": "2026-11-06T16:32+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T08:38+01:00",
    "stan": "pracuje",
    "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-05T07:42+01:00",
-   "stan": "gotowe",
-   "tekst": "Raport 05.11 gotowy – Altanka startuje z Black Friday, Bogateco bez zmian"
   }
  ]
 }
