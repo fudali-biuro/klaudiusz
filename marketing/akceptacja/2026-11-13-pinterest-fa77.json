@@ -13,16 +13,21 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "koparka",
- "stan": "czeka",
+ "stan": "ok",
  "komentarz": "",
  "wersja": 1,
  "utworzono": "2026-11-06T21:49:22+00:00",
- "zmieniono": "2026-11-06T21:49:22+00:00",
+ "zmieniono": "2026-11-07T08:59:45+00:00",
  "historia": [
   {
    "czas": "2026-11-06T21:49:22+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-07T08:59:45+00:00",
+   "kto": "pablo",
+   "stan": "ok"
   }
  ]
 }
