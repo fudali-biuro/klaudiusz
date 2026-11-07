@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "taka forma się nie przyjmie na TikToku",
  "wersja": 1,
  "utworzono": "2026-11-06T07:46:36+00:00",
- "zmieniono": "2026-11-06T07:46:36+00:00",
+ "zmieniono": "2026-11-07T09:01:19+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:36+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-07T09:01:19+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone",
+   "komentarz": "taka forma się nie przyjmie na TikToku"
   }
  ]
 }
