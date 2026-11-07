@@ -59,3 +59,6 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     (wiosna → dopiero wiosną). Odrzucone bez komentarza = nie ten kierunek, nie poprawiamy. Więcej robimy tego, co pochwalił.
 23. **Facebook = galerie 2–3 zdjęć w jednym poście** (Pablo 07.11), z linkiem do fudali.com.pl w tekście; pojedyncze zdjęcia na FB nie.
     Podkładka-kwiat i pin „Christmas Gift Idea” odrzucone także po poprawce – tych tematów nie wznawiamy.
+24. **Posty w Bufferze zaplanowane przez Pablo są JEGO** (07.11: „dałem do publikacji, nakładasz mi więcej pracy”). Status „scheduled”,
+    którego nie ustawił bot = decyzja Pablo – nie cofamy na szkic, nie zmieniamy godzin, nie „naprawiamy” bez jego prośby.
+    Przed każdą zmianą w Bufferze sprawdź status (list_posts); nowe posty dodajemy wyłącznie jako szkice (saveToDraft:true).
