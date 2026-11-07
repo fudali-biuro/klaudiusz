@@ -920,9 +920,15 @@
   },
   "marketing/biblioteka-zdjec/gotowe/2026-11-06-pomelli-creative-image-9-16-1106-1.jpg": {
    "sekcja": "gotowe",
-   "opis": "",
-   "tagi": [],
-   "produkt": "",
+   "opis": "Gotowa grafika 9:16 (Pomelli): leżak w ciemnym orzechu przy kominku na kamiennym tarasie, napis 'Dark Walnut Stain'. Uwaga: tekst na grafice – tylko jako pin/relacja, nie do feedu IG.",
+   "tagi": [
+    "taras",
+    "kominek",
+    "wieczór",
+    "ciemny-brąz",
+    "gotowa-grafika"
+   ],
+   "produkt": "lezak",
    "dodano": "2026-11-06T15:41:26+01:00",
    "od": "pablo",
    "zrodlo": "https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/grafika/2026-11-06/pomelli_creative_image_9_16_1106-1--xLRC7ystj0tldJtHQkNiDnow2dgHMD.jpg",
