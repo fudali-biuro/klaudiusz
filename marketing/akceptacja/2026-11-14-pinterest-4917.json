@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "popraw",
+ "komentarz": "Wszystko OK, ale usunąć grafikę AI w prawym dolnym rogu (Zosia).",
  "wersja": 1,
  "utworzono": "2026-11-06T07:46:34+00:00",
- "zmieniono": "2026-11-06T07:46:34+00:00",
+ "zmieniono": "2026-11-07T09:05:51+00:00",
  "historia": [
   {
    "czas": "2026-11-06T07:46:34+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-07T09:05:51+00:00",
+   "kto": "pablo",
+   "stan": "popraw",
+   "komentarz": "Wszystko OK, ale usunąć grafikę AI w prawym dolnym rogu (Zosia)."
   }
  ]
 }
