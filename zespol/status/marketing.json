@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Decyzje Pablo wpisane, 13 szkiców w Bufferze, pakiet TikTok",
+ "zadanie": "FB: 8 galerii po 2–3 zdjęcia w bibliotece",
  "postep": 100,
- "aktualizacja": "2026-11-07T10:06+01:00",
+ "aktualizacja": "2026-11-07T10:23+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-07T10:23+01:00",
+   "stan": "gotowe",
+   "tekst": "FB: 8 galerii po 2–3 zdjęcia w bibliotece"
+  },
   {
    "czas": "2026-11-07T10:06+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-04T14:15+01:00",
    "stan": "czeka",
    "tekst": "Czekam na zdjęcia realizacji"
-  },
-  {
-   "czas": "2026-11-04T14:15+01:00",
-   "stan": "pracuje",
-   "tekst": "Przegląd pomysłów TAK z monitoringu Mietka (makieta)"
   }
  ]
 }
