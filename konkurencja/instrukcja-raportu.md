@@ -31,7 +31,7 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
 9. **Sezon świąteczny (polecenie Pablo, od 6.11 do 24.12.2026; brief `marketing/kampanie/2026-11-sezon-swiateczny-brief.md`)**:
    w raporcie dodaj sekcję „🎄 Święta – co robi konkurencja” (Bogateco, Ecofurn, Altanka): oferty/kolekcje świąteczne, prezenty, terminy zamówień
    i dostaw przed świętami, kampanie/posty, ceny. Pod spodem 2–4 konkretne pomysły „jak ich przebić” dla Oli (kanał FB/IG/Pinterest,
-   produkt FUDALI, hook, CTA). Pomysły z werdyktem TAK od razu zgłoś Oli (send_message). Nic nie publikujemy bez zgody Pabla.
+   produkt FUDALI, hook, CTA). Pomysły z werdyktem TAK zostaw w raporcie (Ola czyta go na swojej zmianie); do Oli piszesz tylko w sprawie pilnej. **Pomysły zgodne z lekcjami Pabla** (`zespol/lekcje-pablo.md` pkt 22–23): zdjęcia-inspiracje (wnętrza, tarasy, realizacje), FB jako galerie 2–3 zdjęć; NIE proponuj stories z quizami, karuzel poradnikowych, filmów reklamowych ani grafik z ceną. Nic nie publikujemy bez zgody Pabla.
 
 10. **W poniedziałki** dopisz sekcję „💬 Konta do komentowania” (10 kont z niszy, nie rywale; szczegóły `zespol/zadania/konkurencja-konta-do-komentowania.md`).
 

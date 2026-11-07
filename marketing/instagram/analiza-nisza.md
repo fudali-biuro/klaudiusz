@@ -24,6 +24,8 @@
 Źródła pokazują sposób opowiadania, nie wyniki na Instagramie (liczb brak).
 
 ## C. Co z tego dla FUDALI (krótko, zgodnie z lekcjami 13–17)
+> ⚠️ Korekta 07.11 wg lekcji 22–24: Pablo **odrzuca** stories z quizami/ankietami, karuzele „poradnikowe”, filmy reklamowe i grafiki z ceną; **przyjmuje** zdjęcia-inspiracje (wnętrza, tarasy, prawdziwe realizacje). Punkty o karuzelach edukacyjnych i CTA z ceną traktuj jako niewybrane – nie proponować Pablowi. Zostaje: realizacje i ludzie przy pracy, proces z prawdziwych zdjęć, spójna siatka, hasło i historia firmy, niszowe hashtagi.
+
 1. **Hasło i historia zamiast samego produktu**: rodzinna pracownia z Głogowa Młp., lite drewno, ręczne wykończenie. Jedno hasło i spójny ton na profilu.
 2. **Dowód trwałości** („reklamacja po 20 latach”, jeśli to prawda i da się udokumentować) – tego rywale nie mają.
 3. **Realizacje u klientów z miastem i opinią** jako stały filar; prosić klientów o zdjęcia (lista do Pabla).
