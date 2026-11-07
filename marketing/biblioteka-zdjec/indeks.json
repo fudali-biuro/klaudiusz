@@ -954,9 +954,15 @@
   },
   "marketing/biblioteka-zdjec/gotowe/2026-11-06-9yjpasan4qx4sti7hhkkvj.jpg": {
    "sekcja": "gotowe",
-   "opis": "",
-   "tagi": [],
-   "produkt": "",
+   "opis": "Gotowa grafika 9:16: leżak w tonie tekowym przy basenie, złote światło, napis 'Classic Teak Tone'. Uwaga: 'teak' i 'weather-resistant oils' – zweryfikować z produkt.md przed użyciem.",
+   "tagi": [
+    "basen",
+    "taras",
+    "zachód",
+    "brąz",
+    "gotowa-grafika"
+   ],
+   "produkt": "lezak",
    "dodano": "2026-11-06T15:41:26+01:00",
    "od": "pablo",
    "zrodlo": "https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/grafika/2026-11-06/9YJpaSaN4qx4sTI7HHkkVj-cHJdfqD0JclPxzP3fiTg5jMeYtcxQE.jpg",
