@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Buffer: 14 szkiców (zweryfikowane), 0 zaplanowanych",
- "postep": 100,
- "aktualizacja": "2026-11-07T10:30+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zmiana 12:35: zdjęcia od Pablo, decyzje, Buffer",
+ "postep": null,
+ "aktualizacja": "2026-11-07T12:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-07T12:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Zmiana 12:35: zdjęcia od Pablo, decyzje, Buffer"
+  },
   {
    "czas": "2026-11-07T10:30+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-04T14:50+01:00",
    "stan": "gotowe",
    "tekst": "Prośby do Pablo załatwione"
-  },
-  {
-   "czas": "2026-11-04T14:37+01:00",
-   "stan": "pracuje",
-   "tekst": "Pierwsze posty z leżakiem (5 zdjęć od Pablo) + kalendarz listopad–grudzień"
   }
  ]
 }
