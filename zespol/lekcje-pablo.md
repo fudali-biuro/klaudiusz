@@ -51,3 +51,9 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 ## Dopisane 06.11.2026, 22:00
 21. **ZAKAZ filmów AI** (Pablo: „nie róbcie już filmów, spalamy kasę, a nie wychodzą dobrze”). Nie używamy `scripts/grafika/wideo.py`
     ani żadnych generatorów wideo. Filmy/reelsy tylko z prawdziwych nagrań i zdjęć (montaż ffmpeg – darmowy). Obrazy-inspiracje dalej OK.
+
+## Dopisane 07.11.2026 (decyzje z biblioteki)
+22. **Co Pablo przyjmuje, a co odrzuca.** ✅ Przyjmuje: zdjęcia-inspiracje (wnętrza, tarasy, pomost, weranda zimą) i piny EN z nimi;
+    pochwały: „Pomost nad jeziorem – najpiękniejsze ujęcie”, koparka w śniegu – „najlepiej odwzorowane”. ❌ Odrzuca: wszystkie stories
+    z quizami/ankietami (D1–D7), karuzele „poradnikowe” (P1–P9), filmy reklamowe, grafiki z ceną, sceny wiosenne/letnie zimą
+    (wiosna → dopiero wiosną). Odrzucone bez komentarza = nie ten kierunek, nie poprawiamy. Więcej robimy tego, co pochwalił.
