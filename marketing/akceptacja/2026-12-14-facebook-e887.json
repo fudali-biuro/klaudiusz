@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "facebook-inspiracje",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Zastąpione galeriami po 2–3 zdjęcia w poście (Pablo 07.11).",
  "wersja": 1,
  "utworzono": "2026-11-07T09:16:30+00:00",
- "zmieniono": "2026-11-07T09:16:30+00:00",
+ "zmieniono": "2026-11-07T09:22:15+00:00",
  "historia": [
   {
    "czas": "2026-11-07T09:16:30+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-07T09:22:15+00:00",
+   "kto": "marketing",
+   "stan": "odrzucone",
+   "komentarz": "Zastąpione galeriami po 2–3 zdjęcia w poście (Pablo 07.11)."
   }
  ]
 }
