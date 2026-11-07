@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
  "stan": "gotowe",
- "zadanie": "05:20 – TOP: drewutnia (65); 69 fraz, koparka dołączona",
+ "zadanie": "12:20 – bez zmian, TOP: drewutnia (65)",
  "postep": 100,
- "aktualizacja": "2026-11-07T05:23+01:00",
+ "aktualizacja": "2026-11-07T12:22+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-07T12:22+01:00",
+   "stan": "gotowe",
+   "tekst": "12:20 – bez zmian, TOP: drewutnia (65)"
+  },
+  {
+   "czas": "2026-11-07T12:22+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-07T12:21+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-07T05:23+01:00",
    "stan": "gotowe",
@@ -189,21 +204,6 @@
   },
   {
    "czas": "2026-11-05T07:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
-  },
-  {
-   "czas": "2026-11-05T07:52+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T06:53+01:00",
-   "stan": "gotowe",
-   "tekst": "06:00 – TOP: drewutnia (65), wiata drewniana wróciła do 58"
-  },
-  {
-   "czas": "2026-11-05T06:53+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
   }
