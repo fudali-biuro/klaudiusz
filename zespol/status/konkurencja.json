@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Raport 08.11 gotowy – korekta: Bogateco nie obniżył cen; Altanka wspomina terminy świąteczne",
+ "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
  "postep": 100,
- "aktualizacja": "2026-11-08T05:06+01:00",
+ "aktualizacja": "2026-11-08T12:05+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-08T12:05+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
+  },
   {
    "czas": "2026-11-08T05:06+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T08:38+01:00",
    "stan": "gotowe",
    "tekst": "08:00 – brak nowych postów (raport 05.11 gotowy)"
-  },
-  {
-   "czas": "2026-11-05T08:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
  ]
 }
