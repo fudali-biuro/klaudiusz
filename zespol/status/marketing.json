@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:35 (8.11): czat i zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 8.11 w południe: bez nowych wiadomości i zdjęć; Buffer: Pablo sam zaplanował galerie FB",
+ "postep": 100,
  "aktualizacja": "2026-11-08T12:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-08T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 8.11 w południe: bez nowych wiadomości i zdjęć; Buffer: Pablo sam zaplanował galerie FB"
+  },
   {
    "czas": "2026-11-08T12:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-04T15:16+01:00",
    "stan": "wolne",
    "tekst": "Gotowa do pracy – czekam na zadania"
-  },
-  {
-   "czas": "2026-11-04T14:56+01:00",
-   "stan": "czeka",
-   "tekst": "Gotowe: 2 posty z leżakiem + kampania „Święta z drewnem” (7 postów, 13.11–4.12) – czekam na akceptację"
   }
  ]
 }
