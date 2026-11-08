@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-07T12:21+01:00",
+ "czas": "2026-11-08T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -390,7 +390,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparko ładowarka",
@@ -442,7 +442,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 7
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparko-ładowarka",
@@ -495,32 +495,6 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparka",
-    "koparka dolores",
-    "koparka łańcuchowa",
-    "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 3
   },
   {
    "fraza": "prezent z drewna",
@@ -909,6 +883,32 @@
    "firmy": [],
    "ocena": 58,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka",
+    "koparka dolores",
+    "koparka łańcuchowa",
+    "koparka zabawka",
+    "koparka łańcuchowa wynajem",
+    "koparka kołowa",
+    "koparka po angielsku",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": -8
   },
   {
    "fraza": "prezent dla mamy",
