@@ -359,3 +359,30 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | jakie drewno najlepsze na meble ogrodowe | jakie drewno na meble ogrodowe | 2026-11-08 |
 | drewno na meble ogrodowe | jakie drewno na meble ogrodowe | 2026-11-08 |
 | jak złożyć drewniany leżak z biedronki | leżak drewniany jak złożyć | 2026-11-08 |
+| wiata drewniana garażowa | wiata drewniana | 2026-11-08 |
+| co na prezent dla taty który wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla taty na urodziny który wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent na dzien taty ktory wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla meza ktory wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla dwulatka który wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla mężczyzny który wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla chlopaka ktory wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla dziadka który wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| prezent dla brata ktory wszystko ma | prezent dla taty który wszystko ma | 2026-11-08 |
+| koparka dolores | koparka | 2026-11-08 |
+| koparka łańcuchowa | koparka | 2026-11-08 |
+| koparka zabawka | koparka | 2026-11-08 |
+| koparka łańcuchowa wynajem | koparka | 2026-11-08 |
+| koparka kołowa | koparka | 2026-11-08 |
+| koparka po angielsku | koparka | 2026-11-08 |
+| koparka kryptowalut | koparka | 2026-11-08 |
+| koparka zdalnie sterowana | koparka | 2026-11-08 |
+| cat 432e | cat 432 | 2026-11-08 |
+| cat 432d | cat 432 | 2026-11-08 |
+| cat 432f | cat 432 | 2026-11-08 |
+| cat 432f2 | cat 432 | 2026-11-08 |
+| cat 432 nowy cena | cat 432 | 2026-11-08 |
+| cat 432d opinie | cat 432 | 2026-11-08 |
+| cat 432e premier | cat 432 | 2026-11-08 |
+| cat 432 cena | cat 432 | 2026-11-08 |
+| cat 432e opinie | cat 432 | 2026-11-08 |

@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-08T05:21+01:00",
+ "czas": "2026-11-08T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -629,7 +629,6 @@
    "grupa": "altany i pergole",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
-    "wiata drewniana",
     "wiata drewniana jednospadowa",
     "wiata drewniana na samochód",
     "wiata drewniana na dwa samochody",
@@ -638,7 +637,8 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana dwustanowiskowa",
     "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt"
+    "wiata drewniana 6x6 projekt",
+    "wiata drewniana garażowa"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -883,32 +883,6 @@
    "firmy": [],
    "ocena": 58,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparka",
-    "koparka dolores",
-    "koparka łańcuchowa",
-    "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 57,
-   "zmiana_oceny": -8
   },
   {
    "fraza": "prezent dla mamy",
@@ -1313,6 +1287,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka dolores",
+    "koparka",
+    "koparka łańcuchowa",
+    "koparka zabawka",
+    "koparka łańcuchowa wynajem",
+    "koparka kołowa",
+    "koparka po angielsku",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -16
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -1968,6 +1968,10 @@
   },
   {
    "fraza": "wiata drewniana 6x6 projekt",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana garażowa",
    "z_frazy": "wiata drewniana"
   },
   {
