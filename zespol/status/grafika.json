@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Profil IG w duchu Oakywood: okładki, cytaty, makieta",
- "postep": null,
- "aktualizacja": "2026-11-09T19:34+01:00",
+ "stan": "gotowe",
+ "zadanie": "Profil IG: okładki, cytaty, makieta gotowe",
+ "postep": 100,
+ "aktualizacja": "2026-11-09T19:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:35+01:00",
+   "stan": "gotowe",
+   "tekst": "Profil IG: okładki, cytaty, makieta gotowe"
+  },
   {
    "czas": "2026-11-09T19:34+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-06T08:46+01:00",
    "stan": "pracuje",
    "tekst": "Nowe wytyczne Pablo: etykiety AI, prawdziwe tła, akceptacja"
-  },
-  {
-   "czas": "2026-11-05T16:01+01:00",
-   "stan": "gotowe",
-   "tekst": "Święta: poprawiony klimat grafik i kolaż startowy"
   }
  ]
 }
