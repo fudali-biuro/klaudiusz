@@ -30,7 +30,7 @@ def cover(lines, name):
     im = Image.new("RGB", (1080, 1920), GREEN); d = ImageDraw.Draw(im)
     D = 780; cx, cy = 540, 960
     im.paste(Image.new("RGB", (D, D), CREAM), (cx - D // 2, cy - D // 2), disc_img(D, 1))
-    fs = 84 if max(len(l) for l in lines) <= 8 else 68
+    fs = 84 if max(len(l) for l in lines) <= 8 else (60 if max(len(l) for l in lines) >= 10 else 68)
     lh = fs + 22; y0 = cy - (len(lines) * lh) / 2 - 40
     for i, l in enumerate(lines):
         spaced(d, (cx, y0 + i * lh), l, SB(fs), GREEN, sp=8)
@@ -41,7 +41,7 @@ def cover(lines, name):
     return im
 
 COVERS = [("LEZAKI", ["LEŻAKI"]), ("MEBLE", ["MEBLE"]), ("ALTANY", ["ALTANY", "I DOMKI"]),
-          ("WARSZTAT", ["WARSZTAT"]), ("OPINIE", ["OPINIE"]), ("PYTANIA", ["PYTANIA"])]
+          ("WARSZTAT", ["WARSZTAT"]), ("REALIZACJE", ["REALIZACJE"]), ("PYTANIA", ["PYTANIA"])]
 
 def avatar(d_px):
     a = Image.new("RGB", (d_px, d_px), CREAM)
@@ -100,13 +100,13 @@ def mockup(covers):
         d.rounded_rectangle((x, y, x + w, y + 80), 16, fill=(30, 100, 220) if pr else (236, 236, 236))
         d.text((x + w / 2, y + 40), t, font=SN(32, True), fill=(255, 255, 255) if pr else INK, anchor="mm")
     y += 130
-    labs = ["Leżaki", "Meble", "Altany i domki", "Warsztat", "Opinie", "Pytania"]
+    labs = ["Leżaki", "Meble", "Altany i domki", "Warsztat", "Realizacje", "Pytania"]
     for i, (c, lab) in enumerate(zip(covers, labs)):
         cx = 40 + i * 176
         c2 = c.crop((140, 560, 940, 1360)).resize((140, 140), Image.LANCZOS)
         d.ellipse((cx - 4, y - 4, cx + 148, y + 148), outline=(200, 200, 200), width=3)
         im.paste(c2, (cx + 2, y + 2), disc_img(140, 1))
-        d.text((cx + 72, y + 170), lab if len(lab) < 11 else "Altany", font=SN(24), fill=INK, anchor="mm")
+        d.text((cx + 72, y + 170), lab if len(lab) < 11 else ("Altany" if lab.startswith("Alt") else lab[:10]), font=SN(24), fill=INK, anchor="mm")
     y += 220
     d.line((0, y, W, y), fill=(220, 220, 220), width=2)
     d.rectangle((140, y - 3, 220, y), fill=INK)
