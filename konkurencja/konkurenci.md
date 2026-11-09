@@ -11,6 +11,7 @@ Priorytet: A+ = główny rywal (Bogateco / Płoty Ogrodowe – śledzić codzien
 | Drewform | — | — | — | A | tak | [firmy/drewform.md](firmy/drewform.md) |
 | DREWNOTRIK | — | — | — | A | tak | [firmy/drewnotrik.md](firmy/drewnotrik.md) |
 | Holz-Paw | https://www.oferteo.pl/holz-paw-uslugi-stolarskie/firma/5647778 | — | — | A | tak | [firmy/holz-paw.md](firmy/holz-paw.md) |
+| Oakywood | https://oakywood.shop | [@oakywood](https://www.instagram.com/oakywood/) | — | A | tak | [firmy/oakywood.md](firmy/oakywood.md) |
 | ALT DREW COSMO | — | — | — | B | tak | [firmy/alt-drew-cosmo.md](firmy/alt-drew-cosmo.md) |
 | Domki Sauny | https://domkisauny.pl | [@domkisauny](https://www.instagram.com/domkisauny/) | — | B | tak | [firmy/domkisauny.md](firmy/domkisauny.md) |
 | Kejdrew | — | — | — | B | tak | [firmy/kejdrew.md](firmy/kejdrew.md) |
