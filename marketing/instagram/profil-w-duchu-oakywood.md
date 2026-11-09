@@ -29,7 +29,7 @@ Stare okładki z `marketing/instagram/wyroznione/` zastępujemy jedną spójną 
 
 ## 3. Siatka: 3 przypięte posty (na górze profilu)
 1. **Leżak w aranżacji** – zdjęcie z biblioteki (taras z paleniskiem / grafit z lnianą poduszką): ładne, bez napisów.
-2. **Rolka z „twarzą firmy”** – prawdziwe nagranie 10–15 s (stolarz/właściciel pokazuje produkt w dłoniach). Scenariusz: `profil-w-duchu-oakywood.md` §4.
+2. **Rolka z „twarzą firmy”** (decyzja Klaudiusza 09.11: na razie tylko propozycja/scenariusz – Pablo zdecyduje przy OK) – prawdziwe nagranie 10–15 s (stolarz/właściciel pokazuje produkt w dłoniach). Scenariusz: `profil-w-duchu-oakywood.md` §4.
 3. **Stolik Płatek lub stołki z dębu** w aranżacji – zdjęcie z biblioteki.
 Reszta siatki: dalej inspiracje (lekcje 18/22) i galerie na FB 2–3 zdjęcia (lekcja 23).
 
@@ -42,7 +42,7 @@ Ujęcie pionowe, światło dzienne, warsztat w tle, bez muzyki lektorskiej; napi
 Fakty: tylko z `marketing/produkty.md`. Bez ceny w kadrze (lekcja 22).
 
 ## 5. Posty-cytaty (karta w stylu „tweeta”: avatar logo FUDALI + @fudali_nowoczesne_stolarstwo + 2–3 zdania)
-Zasada: **nie wymyślamy cytatów klientów.** Karty z głosem marki (fakty), a prawdziwe opinie klientów dodamy, gdy Klaudiusz/Pablo dostarczą (np. z Google/Etsy, za zgodą).
+Sprawdzone 09.11.2026: opinii klientów brak publicznie (strona produktu bez opinii, Google Firmy nie znalezione, Etsy blokuje automaty) → **karty „z warsztatu”**, nie cytaty klientów. Zasada: **nie wymyślamy cytatów klientów.** Karty z głosem marki (fakty), a prawdziwe opinie klientów dodamy, gdy Klaudiusz/Pablo dostarczą (np. z Google/Etsy, za zgodą).
 Przykłady (do biblioteki akceptacji po przygotowaniu grafik przez Zosię):
 1. „Leżak waży 10 kg i składa się na płasko. Zmieści się w bagażniku, pod łóżkiem i w każdej wymówce, że nie ma miejsca. 🪵”
 2. „Czy drewno przetrwa zimę? Tak – jeśli stoi sucho i przewiewnie. Reszta to jodła bieszczadzka z certyfikatem FSC.”
@@ -55,3 +55,9 @@ Format: kwadrat 1:1 lub 4:5, jasne tło, czarny tekst, bez cen; w opisie link do
 - Ola: wpisy do biblioteki akceptacji (podgląd profilu + 3 posty-cytaty), po dostarczeniu grafik.
 - Klaudiusz: zgoda Pablo na rolkę z twarzą (nagranie) i prawdziwe opinie klientów.
 - Bio i link: zmiana ustawień konta dopiero po „tak” Pablo (🔒).
+
+## 7. Decyzje (Klaudiusz, 09.11.2026)
+- Rolka z twarzą: tylko scenariusz w bibliotece jako propozycja; Pablo decyduje.
+- Cytaty tylko z prawdziwych opinii – brak → karty „z warsztatu” (fakt o drewnie/robocie).
+- Karta z tekstem: max 1 na 5 postów.
+- Zmiana bio/linku na koncie dopiero po „tak” Pablo.
