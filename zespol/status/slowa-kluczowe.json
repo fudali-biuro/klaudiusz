@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "gotowe",
- "zadanie": "05:20 – zasięg odświeżony (bez Apify); święta rosną: mikołajki +620%",
- "postep": 100,
- "aktualizacja": "2026-11-09T05:25+01:00",
+ "stan": "pracuje",
+ "zadanie": "Pomiar 12:20",
+ "postep": null,
+ "aktualizacja": "2026-11-09T12:23+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-09T12:23+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar 12:20"
+  },
   {
    "czas": "2026-11-09T05:25+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T11:53+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar gotowy – piszę podsumowanie godzinowe"
-  },
-  {
-   "czas": "2026-11-05T11:53+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
   }
  ]
 }
