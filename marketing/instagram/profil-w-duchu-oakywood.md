@@ -23,7 +23,7 @@ Biała/kremowa okładka, krótki napis kapitalikami, ten sam krój. Nasze nazwy 
 | 2 | **MEBLE** | stolik Płatek, stołki z dębu, podkładki |
 | 3 | **ALTANY I DOMKI** | realizacje (tylko prawdziwe, z miejscowością) |
 | 4 | **WARSZTAT** | jak powstaje: maszyny, słoje, łączenia |
-| 5 | **OPINIE** | prawdziwe opinie klientów (ekran/ cytat – zgoda klienta) |
+| 5 | **REALIZACJE** | zdjęcia prawdziwych zleceń z biblioteki (zmiana 09.11: brak publicznych opinii) |
 | 6 | **PYTANIA** | wysyłka, pielęgnacja, gwarancja |
 Stare okładki z `marketing/instagram/wyroznione/` zastępujemy jedną spójną serią.
 
