@@ -25,6 +25,7 @@ Myśli lokalnie („altana Rzeszów”, „drewutnia Podkarpacie”) i ogólnopo
 - Porównanie z konkurencją: na jakie frazy Bogateco/Altanka są wyżej i dlaczego.
 
 ## Google Trends (polecenie Pablo, 04.11.2026: „niech używa, porównuje i działa”)
+- (gdy Apify ma limit: `python3 scripts/seo/trendy_bezapify.py` – to samo bez Apify, wymaga `pip install pytrends`)
 - `python3 scripts/seo/trendy.py` – porównuje grupy fraz z `seo/trendy-grupy.json` (max 5 na grupę; PL, DE, świat) przez Apify
   (aktor `apify/google-trends-scraper`, `APIFY_API_KEY`). Surowe dane: `monitoring/stan/trendy.json`.
 - Co porównuję: nasze produkty między sobą (leżak vs drewutnia vs altana…), prezenty i dom, **marki: FUDALI vs Bogateco**,
