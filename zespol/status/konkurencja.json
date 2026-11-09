@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Oakywood – nowy konkurent: badanie bez Apify",
- "postep": null,
- "aktualizacja": "2026-11-09T19:33+01:00",
+ "stan": "gotowe",
+ "zadanie": "Oakywood zbadany bez Apify – wnioski w karcie firmy",
+ "postep": 100,
+ "aktualizacja": "2026-11-09T19:34+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:34+01:00",
+   "stan": "gotowe",
+   "tekst": "Oakywood zbadany bez Apify – wnioski w karcie firmy"
+  },
   {
    "czas": "2026-11-09T19:33+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T09:38+01:00",
    "stan": "gotowe",
    "tekst": "09:00 – brak nowych postów"
-  },
-  {
-   "czas": "2026-11-05T09:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
  ]
 }
