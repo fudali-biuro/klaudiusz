@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-09T05:20+01:00",
+ "czas": "2026-11-09T12:23+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -381,32 +381,6 @@
     "prezent na mikołajki dla dziewczyny",
     "prezent na mikołajki dla dzieci do przedszkola",
     "prezent na mikołajki dla dzieci 5 lat"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka jcb 3cx",
-    "koparko ładowarka case",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -963,32 +937,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 54,
-   "zmiana_oceny": 13
-  },
-  {
    "fraza": "prezent dla taty majsterkowicza",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
@@ -1087,6 +1035,32 @@
    ],
    "ocena": 52,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 6,
+   "popyt_0_1": 0.7,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 52,
+   "zmiana_oceny": -2
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1209,6 +1183,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka case",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka klasa 3"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "koparko ładowarka nowa",
