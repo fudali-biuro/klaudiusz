@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
- "stan": "pracuje",
- "zadanie": "Analiza słów kluczowych Oakywood",
- "postep": null,
- "aktualizacja": "2026-11-09T19:33+01:00",
+ "stan": "gotowe",
+ "zadanie": "Oakywood: analiza gotowa; 'biurko drewniane' zasięg 77 – luka w ofercie",
+ "postep": 100,
+ "aktualizacja": "2026-11-09T19:37+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:37+01:00",
+   "stan": "gotowe",
+   "tekst": "Oakywood: analiza gotowa; 'biurko drewniane' zasięg 77 – luka w ofercie"
+  },
+  {
+   "czas": "2026-11-09T19:37+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-09T19:35+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-09T19:33+01:00",
    "stan": "pracuje",
@@ -191,21 +206,6 @@
    "czas": "2026-11-05T15:57+01:00",
    "stan": "gotowe",
    "tekst": "16:00 – dodałem 8 fraz świątecznych (TOP: prezent z drewna 62)"
-  },
-  {
-   "czas": "2026-11-05T15:57+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie"
-  },
-  {
-   "czas": "2026-11-05T15:56+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-05T12:53+01:00",
-   "stan": "gotowe",
-   "tekst": "12:00 – bez zmian, TOP: drewutnia (65)"
   }
  ]
 }
