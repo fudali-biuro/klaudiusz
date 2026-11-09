@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-09T12:23+01:00",
+ "czas": "2026-11-09T19:35+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -393,6 +393,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka case",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka klasa 3"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 24
+  },
+  {
    "fraza": "koparka rzeszów",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -469,6 +495,58 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "biurko drewniane",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "biurko drewniane",
+    "biurko drewniane z szufladami",
+    "biurko drewniane ikea",
+    "biurko drewniane dla dziecka",
+    "biurko drewniane olx",
+    "biurko drewniane vintage",
+    "biurko drewniane regulowane",
+    "biurko drewniane jysk",
+    "biurko drewniane gamingowe",
+    "biurko drewniane duze"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "biurko z litego drewna",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "biurko z litego drewna",
+    "biurko z litego drewna z szufladami",
+    "biurko z litego drewna nowoczesne",
+    "biurko z litego drewna olx",
+    "biurko z litego drewna dębowego",
+    "biurko z litego drewna tova",
+    "biurko z litego drewna mango",
+    "biurko z litego drewna allegro",
+    "biurko z litego drewna ikea",
+    "biurko z litego drewna elektryczne"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": null
   },
   {
    "fraza": "prezent z drewna",
@@ -859,6 +937,84 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "home office",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "home office",
+    "home office co to",
+    "home office praca",
+    "home office uk",
+    "home office po polsku",
+    "home office 2024",
+    "home office dla rodziców dzieci do lat 4",
+    "home office inspiration",
+    "home office ideas",
+    "home office setup"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "półka na biurko",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "półka na biurko",
+    "półka na biurko ikea",
+    "półka na biurko pod monitor",
+    "półka na biurko allegro",
+    "półka na biurko biała",
+    "półka na biurko z szufladami",
+    "półka na biurko na książki",
+    "półka na biurko na monitor",
+    "półka na biurko jysk",
+    "półka na biurko na laptopa"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "organizer na biurko drewniany",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "organizer na biurko drewniany",
+    "organizer na biurko drewniany action",
+    "organizer na biurko drewniany allegro",
+    "organizer na biurko drewniany biały",
+    "organizer na biurko drewniany czarny",
+    "organizer na biurko drewniany ikea",
+    "organizer na biurko drewniany z imieniem",
+    "organizer na biurko czarno drewniany",
+    "organizer na biurko szuflady drewniany przybornik",
+    "organizer na biurko dla dzieci drewniany"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "prezent dla mamy",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1060,7 +1216,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 52,
-   "zmiana_oceny": -2
+   "zmiana_oceny": 0
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1084,6 +1240,32 @@
    "firmy": [],
    "ocena": 47,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 47,
+   "zmiana_oceny": null
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1159,6 +1341,40 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "drewniane akcesoria na biurko",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "drewniane akcesoria na biurko"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 42,
+   "zmiana_oceny": null
+  },
+  {
+   "fraza": "polskie rękodzieło na prezent",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "polskie rękodzieło na prezent"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 1,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 42,
+   "zmiana_oceny": null
+  },
+  {
    "fraza": "nowoczesny domek",
    "grupa": "domki",
    "znaczenie_biznesowe": "wysokie",
@@ -1183,32 +1399,6 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka jcb 3cx",
-    "koparko ładowarka case",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 41,
-   "zmiana_oceny": -24
   },
   {
    "fraza": "koparko ładowarka nowa",
@@ -1503,6 +1693,29 @@
    "firmy": [],
    "ocena": 34,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "podkładka na biurko filc",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "podkładka na biurko filcowa",
+    "podkładka na biurko filc",
+    "podkładka na biurko z filcu",
+    "podkładka filcowa na biurko z wełny merynosów",
+    "duża filcowa podkładka na biurko",
+    "podkładka filcowa na biurko na wymiar",
+    "oakywood filcowa podkładka na biurko"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.34,
+   "liczba_podpowiedzi": 7,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 28,
+   "zmiana_oceny": null
   },
   {
    "fraza": "prezent świąteczny drewniany",
@@ -3121,6 +3334,194 @@
   {
    "fraza": "cat 432e opinie",
    "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "biurko drewniane z szufladami",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko drewniane dla dziecka",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko drewniane vintage",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko drewniane regulowane",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko drewniane gamingowe",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko drewniane duze",
+   "z_frazy": "biurko drewniane"
+  },
+  {
+   "fraza": "biurko z litego drewna z szufladami",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "biurko z litego drewna nowoczesne",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "biurko z litego drewna dębowego",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "biurko z litego drewna tova",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "biurko z litego drewna mango",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "biurko z litego drewna elektryczne",
+   "z_frazy": "biurko z litego drewna"
+  },
+  {
+   "fraza": "home office co to",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office praca",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office uk",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office po polsku",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office 2024",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office dla rodziców dzieci do lat 4",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office inspiration",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office ideas",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office setup",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "półka na biurko pod monitor",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko biała",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko z szufladami",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko na książki",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko na monitor",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko na laptopa",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "organizer na biurko drewniany biały",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "organizer na biurko drewniany czarny",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "organizer na biurko drewniany z imieniem",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "organizer na biurko czarno drewniany",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "organizer na biurko szuflady drewniany przybornik",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "organizer na biurko dla dzieci drewniany",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
+   "fraza": "podkładka na biurko filcowa",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "podkładka na biurko z filcu",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "podkładka filcowa na biurko z wełny merynosów",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "duża filcowa podkładka na biurko",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "podkładka filcowa na biurko na wymiar",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "oakywood filcowa podkładka na biurko",
+   "z_frazy": "podkładka na biurko filc"
+  },
+  {
+   "fraza": "prezent dla niego na urodziny",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na rocznice",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na 40 urodziny",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na rocznicę ślubu",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na 50 urodziny",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na dzien chlopaka",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na 30 urodziny",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na swieta",
+   "z_frazy": "prezent dla niego"
   }
  ]
 }

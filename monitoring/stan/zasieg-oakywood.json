@@ -1,0 +1,104 @@
+{
+ "drewutnia": {
+  "12m": 100.0,
+  "teraz": 100.0,
+  "zm": -36,
+  "szczyt": "2026-03-29"
+ },
+ "biurko z litego drewna": {
+  "12m": 0.2,
+  "teraz": 2.2,
+  "zm": null,
+  "szczyt": "2026-11-01"
+ },
+ "biurko drewniane": {
+  "12m": 63.4,
+  "teraz": 77.4,
+  "zm": -21,
+  "szczyt": "2026-08-16"
+ },
+ "biurko dębowe": {
+  "12m": 0.2,
+  "teraz": 4.8,
+  "zm": null,
+  "szczyt": "2026-11-01"
+ },
+ "organizer na biurko drewniany": {
+  "12m": 0.2,
+  "teraz": 2.7,
+  "zm": null,
+  "szczyt": "2026-10-25"
+ },
+ "stojak na telefon drewniany": {
+  "12m": 0.0,
+  "teraz": 0.5,
+  "zm": null,
+  "szczyt": "2026-10-25"
+ },
+ "podkładka na biurko filc": {
+  "12m": 0.0,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2025-11-09"
+ },
+ "półka na biurko": {
+  "12m": 16.6,
+  "teraz": 34.4,
+  "zm": 205,
+  "szczyt": "2026-02-22"
+ },
+ "drewniane akcesoria na biurko": {
+  "12m": 0.0,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2025-11-09"
+ },
+ "prezent dla niego": {
+  "12m": 24.4,
+  "teraz": 16.7,
+  "zm": 55,
+  "szczyt": "2026-02-08"
+ },
+ "ekologiczny prezent": {
+  "12m": 0.2,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2026-09-06"
+ },
+ "prezent dla mężczyzny który ma wszystko": {
+  "12m": 0.0,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2025-11-09"
+ },
+ "polskie rękodzieło na prezent": {
+  "12m": 0.0,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2025-11-09"
+ },
+ "home office": {
+  "12m": 72.9,
+  "teraz": 49.7,
+  "zm": -15,
+  "szczyt": "2026-02-15"
+ },
+ "jak zorganizować biurko": {
+  "12m": 0.0,
+  "teraz": 0.0,
+  "zm": null,
+  "szczyt": "2025-11-09"
+ },
+ "biurko do home office": {
+  "12m": 0.0,
+  "teraz": 0.5,
+  "zm": null,
+  "szczyt": "2026-11-08"
+ },
+ "jaka wysokość biurka": {
+  "12m": 0.0,
+  "teraz": 0.5,
+  "zm": null,
+  "szczyt": "2026-11-01"
+ }
+}
