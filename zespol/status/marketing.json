@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 8.11 w południe: bez nowych wiadomości i zdjęć; Buffer: Pablo sam zaplanował galerie FB",
- "postep": 100,
- "aktualizacja": "2026-11-08T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poranna zmiana 9.11: plan tygodnia, czat, zdjęcia, Pinterest",
+ "postep": null,
+ "aktualizacja": "2026-11-09T05:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-09T05:35+01:00",
+   "stan": "pracuje",
+   "tekst": "Poranna zmiana 9.11: plan tygodnia, czat, zdjęcia, Pinterest"
+  },
   {
    "czas": "2026-11-08T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T07:44+01:00",
    "stan": "pracuje",
    "tekst": "Black Friday + argument poduszki"
-  },
-  {
-   "czas": "2026-11-04T15:16+01:00",
-   "stan": "wolne",
-   "tekst": "Gotowa do pracy – czekam na zadania"
   }
  ]
 }
