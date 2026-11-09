@@ -5,7 +5,7 @@
  "godzina": "12:00",
  "tytul": "Nowy profil IG – podgląd (hasło, bio, wyróżnione, przypięte)",
  "produkt": "Marka",
- "tekst": "PODGLĄD NOWEGO PROFILU (do decyzji Pablo – nic nie zmieniamy na koncie bez „tak”):\n• Hasło: „Drewno, które zostaje.”\n• Bio: „Drewno, które zostaje. 🪵 / Made in Poland 🇵🇱 rodzinna pracownia z Głogowa Młp. / Leżaki · meble · altany z litego drewna / ↓ sklep · wycena · współpraca”\n• Link w bio: https://www.fudali.com.pl/sklep/\n• 6 wyróżnionych jako kolekcje: Leżaki, Meble, Altany i domki, Warsztat, Opinie, Pytania (okładki w jednej serii – w następnych wpisach lub u Zosi: marketing/instagram/profil-oakywood/).\n• 3 przypięte: taras z paleniskiem, rolka z twarzą firmy (propozycja – patrz scenariusz), stolik Płatek.\nZdjęcie = makieta, liczniki puste.",
+ "tekst": "PODGLĄD NOWEGO PROFILU (do decyzji Pablo – nic nie zmieniamy na koncie bez „tak”):\n• Hasło: „Drewno, które zostaje.”\n• Bio: „Drewno, które zostaje. 🪵 / Made in Poland 🇵🇱 rodzinna pracownia z Głogowa Młp. / Leżaki · meble · altany z litego drewna / ↓ sklep · wycena · współpraca”\n• Link w bio: https://www.fudali.com.pl/sklep/\n• 6 wyróżnionych jako kolekcje: Leżaki, Meble, Altany i domki, Warsztat, Realizacje, Pytania (okładki w jednej serii – w następnych wpisach lub u Zosi: marketing/instagram/profil-oakywood/).\n• 3 przypięte: taras z paleniskiem, rolka z twarzą firmy (propozycja – patrz scenariusz), stolik Płatek.\nZdjęcie = makieta, liczniki puste.",
  "hashtagi": "#drewno",
  "obrazy": [
   "marketing/instagram/profil-oakywood/podglad-profilu.jpg"
@@ -15,14 +15,20 @@
  "kampania": "instagram-profil",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-09T18:36:16+00:00",
- "zmieniono": "2026-11-09T18:36:16+00:00",
+ "zmieniono": "2026-11-09T18:37:26+00:00",
  "historia": [
   {
    "czas": "2026-11-09T18:36:16+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-09T18:37:26+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
