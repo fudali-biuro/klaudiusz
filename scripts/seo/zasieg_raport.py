@@ -42,7 +42,7 @@ wiersze.sort(key=lambda r: -r[2])
 md = [f"# Porównanie zasięgu fraz – {teraz().strftime('%Y-%m-%d')} (Kuba)", "",
       f"**Zasięg = zainteresowanie w Google (Trends, Polska), przeliczone na jedną skalę: „{kot}” = 100.** "
       "Fraza z wartością 200 jest wyszukiwana ok. 2× częściej niż drewutnia; 10 = 10× rzadziej. "
-      "To liczby względne (Google nie podaje bezwzględnej liczby wyszukań bez płatnego Planera Słów Kluczowych).", "",
+      "To liczby względne (Google nie podaje bezwzględnej liczby wyszukań bez płatnego Planera Słów Kluczowych). **Dokładność: rząd wielkości** – dwa pomiary tej samej frazy potrafią się różnić ok. 2× (Google próbkuje dane; niskie wartości zaokrągla do całych liczb), dlatego czytaj w trzech poziomach: **mocne ≥100 · średnie 30–99 · słabe <30**.", "",
       "- **Teraz** = średnia z ostatnich 4 tygodni · **12 mies.** = średnia z roku · **vs szczyt** = jak blisko rocznego szczytu jesteśmy dziś",
       "- Ocena/podpowiedzi = mój wskaźnik z podpowiedzi Google (kiedy ocena jest wysoka, a zasięg ~0, fraza jest „ładna”, ale nikt jej nie wpisuje)", "",
       "| # | Fraza | Zasięg teraz | Zasięg 12 mies. | Zmiana 4 tyg. | Szczyt roku | Teraz vs szczyt | Ocena (podpowiedzi) | Wzm. konkurencji 7 d |",

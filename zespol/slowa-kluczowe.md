@@ -35,6 +35,7 @@ Analityk fraz. Liczy, porównuje, nie ufa przeczuciom. Wie, czego ludzie szukaj�
 |---|---|---|
 | `scripts/slowa_kluczowe.py` | metryki fraz (Google Autocomplete PL + dane z monitoringu) | ✅ |
 | `monitoring/stan/slowa-metryki.json` | wynik ostatniego pomiaru | ✅ |
+| `scripts/seo/zasieg_bezapify.py` + `zasieg_raport.py` | ranking ZASIĘGU fraz (Google Trends na jednej skali, kotwica „drewutnia” = 100), **bez Apify (za darmo, pytrends)**; paczki: `slowa-kluczowe/zasieg/paczki.json`; wynik: `slowa-kluczowe/zasieg/RRRR-MM-DD.md`. Odświeżać raz w tygodniu (pon) i po nowych frazach – czytać w poziomach (mocne ≥100 / średnie 30–99 / słabe <30) | ✅ |
 | 🧩 Ahrefs / Google Search Console | prawdziwe wolumeny i pozycje fudali.com.pl | planowane (potrzebny dostęp) |
 | 🧩 `scripts/slowa_kluczowe.py --kraj de/cz` | te same pomiary dla rynków zagranicznych (dla Grety) | planowane |
 | 🧩 Google Trends | sezonowość fraz (kiedy rośnie „altana”, kiedy „drewno opałowe”) | planowane |

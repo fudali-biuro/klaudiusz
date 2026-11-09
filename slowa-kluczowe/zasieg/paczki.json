@@ -1,8 +1,43 @@
-{"_opis": "Paczki do porównania zasięgu w Google Trends: kotwica + max 4 frazy. Każda paczka = 1 przebieg Apify (~0,07 USD).",
- "kotwica": "drewutnia", "geo": "PL",
+{
+ "_opis": "Paczki do porównania zasięgu w Google Trends: kotwica + max 4 frazy. Każda paczka = 1 przebieg Apify (~0,07 USD).",
+ "kotwica": "drewutnia",
+ "geo": "PL",
  "paczki": [
-  ["altana drewniana", "domek ogrodowy drewniany", "wiata drewniana", "pergola drewniana"],
-  ["leżak drewniany", "meble ogrodowe drewniane", "drewno opałowe", "tarcica"],
-  ["domek letniskowy", "stolik kawowy drewniany", "stołki drewniane", "deski konstrukcyjne"],
-  ["stolarz rzeszów", "sauna ogrodowa", "pomysł na prezent", "prezent dla taty"]
- ]}
+  [
+   "altana drewniana",
+   "domek ogrodowy drewniany",
+   "wiata drewniana",
+   "pergola drewniana"
+  ],
+  [
+   "leżak drewniany",
+   "meble ogrodowe drewniane",
+   "drewno opałowe",
+   "tarcica"
+  ],
+  [
+   "domek letniskowy",
+   "stolik kawowy drewniany",
+   "sauna ogrodowa",
+   "koparko ładowarka"
+  ],
+  [
+   "pomysł na prezent",
+   "prezent dla taty",
+   "prezent na mikołajki",
+   "prezent pod choinkę"
+  ],
+  [
+   "prezent świąteczny",
+   "olej do drewna na zewnątrz",
+   "jak zabezpieczyć meble ogrodowe",
+   "koparka na sprzedaż"
+  ],
+  [
+   "jcb 3cx",
+   "koparko ładowarka olx",
+   "stołki drewniane",
+   "prezent dla mamy"
+  ]
+ ]
+}

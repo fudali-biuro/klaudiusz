@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-08T12:21+01:00",
+ "czas": "2026-11-09T05:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -629,6 +629,7 @@
    "grupa": "altany i pergole",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
+    "wiata drewniana",
     "wiata drewniana jednospadowa",
     "wiata drewniana na samochód",
     "wiata drewniana na dwa samochody",
@@ -637,8 +638,7 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana dwustanowiskowa",
     "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt",
-    "wiata drewniana garażowa"
+    "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -963,6 +963,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 54,
+   "zmiana_oceny": 13
+  },
+  {
    "fraza": "prezent dla taty majsterkowicza",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
@@ -1185,32 +1211,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 41,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "koparko ładowarka nowa",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -1312,7 +1312,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 41,
-   "zmiana_oceny": -16
+   "zmiana_oceny": 0
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -1968,10 +1968,6 @@
   },
   {
    "fraza": "wiata drewniana 6x6 projekt",
-   "z_frazy": "wiata drewniana"
-  },
-  {
-   "fraza": "wiata drewniana garażowa",
    "z_frazy": "wiata drewniana"
   },
   {
