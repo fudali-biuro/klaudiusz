@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "wolne",
- "zadanie": "Czekam na zlecenie od Klaudiusza (ok. 14.11)",
+ "stan": "pracuje",
+ "zadanie": "Profil IG w duchu Oakywood: okładki, cytaty, makieta",
  "postep": null,
- "aktualizacja": "2026-11-07T10:07+01:00",
+ "aktualizacja": "2026-11-09T19:34+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:34+01:00",
+   "stan": "pracuje",
+   "tekst": "Profil IG w duchu Oakywood: okładki, cytaty, makieta"
+  },
   {
    "czas": "2026-11-07T10:07+01:00",
    "stan": "wolne",
@@ -242,11 +247,6 @@
    "czas": "2026-11-05T16:01+01:00",
    "stan": "gotowe",
    "tekst": "Święta: poprawiony klimat grafik i kolaż startowy"
-  },
-  {
-   "czas": "2026-11-05T16:00+01:00",
-   "stan": "pracuje",
-   "tekst": "Święta: dokładam świąteczny klimat (bokeh, gałązki, śnieg) i poprawiam kolaż"
   }
  ]
 }
