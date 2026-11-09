@@ -33,6 +33,7 @@ Kontekst firmy: `AGENTS.md`. Język raportu: polski. Ton: konkretny, biznesowy, 
    i dostaw przed świętami, kampanie/posty, ceny. Pod spodem 2–4 konkretne pomysły „jak ich przebić” dla Oli (kanał FB/IG/Pinterest,
    produkt FUDALI, hook, CTA). Pomysły z werdyktem TAK zostaw w raporcie (Ola czyta go na swojej zmianie); do Oli piszesz tylko w sprawie pilnej. **Pomysły zgodne z lekcjami Pabla** (`zespol/lekcje-pablo.md` pkt 22–23): zdjęcia-inspiracje (wnętrza, tarasy, realizacje), FB jako galerie 2–3 zdjęć; NIE proponuj stories z quizami, karuzel poradnikowych, filmów reklamowych ani grafik z ceną. Nic nie publikujemy bez zgody Pabla.
 
+9a. **Oakywood** (nowy wzorzec marki, `konkurencja/firmy/oakywood.md`): w raporcie z 10.11 dodaj 2–3 zdania „wnioski z Oakywood” dla Oli i Kuby (z sekcji „Badanie bez Apify”); potem sprawdzaj stronę i kolekcję Black Friday co poranek (ceny, zmiany oferty).
 10. **W poniedziałki** dopisz sekcję „💬 Konta do komentowania” (10 kont z niszy, nie rywale; szczegóły `zespol/zadania/konkurencja-konta-do-komentowania.md`).
 
 ## Szablon raportu
