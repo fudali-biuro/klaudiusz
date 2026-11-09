@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "czeka",
- "zadanie": "Oakywood: czekam na grafiki Zosi (okładki, karty, makieta)",
- "postep": null,
- "aktualizacja": "2026-11-09T19:34+01:00",
+ "stan": "gotowe",
+ "zadanie": "Profil w duchu Oakywood: pakiet w bibliotece akceptacji",
+ "postep": 100,
+ "aktualizacja": "2026-11-09T19:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Profil w duchu Oakywood: pakiet w bibliotece akceptacji"
+  },
   {
    "czas": "2026-11-09T19:34+01:00",
    "stan": "czeka",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T10:14+01:00",
    "stan": "pracuje",
    "tekst": "Post pod klucz do akceptacji"
-  },
-  {
-   "czas": "2026-11-05T09:05+01:00",
-   "stan": "gotowe",
-   "tekst": "Pinterest 05.11: 3 wnioski + test tytułów pinów, szkice czekają na Pablo"
   }
  ]
 }
