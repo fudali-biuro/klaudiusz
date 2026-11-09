@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "gotowe",
- "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
- "postep": 100,
- "aktualizacja": "2026-11-09T12:10+01:00",
+ "stan": "pracuje",
+ "zadanie": "Oakywood – nowy konkurent: badanie bez Apify",
+ "postep": null,
+ "aktualizacja": "2026-11-09T19:33+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-09T19:33+01:00",
+   "stan": "pracuje",
+   "tekst": "Oakywood – nowy konkurent: badanie bez Apify"
+  },
   {
    "czas": "2026-11-09T12:10+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T09:38+01:00",
    "stan": "pracuje",
    "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
-  },
-  {
-   "czas": "2026-11-05T09:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
   }
  ]
 }
