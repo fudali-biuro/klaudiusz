@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Raport 10.11 gotowy – Bogateco dokłada świąteczne nowości; wnioski z Oakywood dla Oli i Kuby",
+ "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
  "postep": 100,
- "aktualizacja": "2026-11-10T05:06+01:00",
+ "aktualizacja": "2026-11-10T12:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-10T12:06+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
+  },
   {
    "czas": "2026-11-10T05:06+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T10:37+01:00",
    "stan": "pracuje",
    "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
-  },
-  {
-   "czas": "2026-11-05T10:37+01:00",
-   "stan": "pracuje",
-   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
   }
  ]
 }
