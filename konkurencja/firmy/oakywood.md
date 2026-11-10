@@ -41,5 +41,6 @@ Dodany przez Pablo 09.11.2026 jako **wzór marki** (zrzut profilu: `konkurencja/
 Dla Kuby: frazy marki Oakywood są wyłącznie biurkowe (nie nasza nisza) – do pomiaru tylko ogólne: „lite drewno”, „made in Poland”, „prezent z drewna”.
 
 ## Dziennik obserwacji
+- 2026-11-10 – strona: BF „starts now”, do −30% cały listopad, kod FREE_DESKMAT (mata gratis), biurka −15%, akcesoria −20–30%, zestawy półek $245/$323; 30 dni zwrotu, 5 lat gwarancji, Shop Pay. Dane z [kolekcji](https://oakywood.shop/collections/black-friday-reconsidered).
 - 2026-11-09 (wieczór) – badanie bez Apify wykonane (patrz sekcja powyżej): Black Friday Reconsidered −30%/miesiąc, 5 lat gwarancji, rzemieślnicy jako twarz marki; dane IG niedostępne.
 - 2026-11-09 – dodany do śledzenia (Pablo). Do zbadania przez Mietka: częstotliwość postów, najlepsze rolki, ceny, kampania Black Friday.
