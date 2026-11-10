@@ -425,3 +425,20 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent dla mężczyzny który ma wszystko | źródło: Oakywood (prezenty) | 2026-11-09 |
 | ekologiczny prezent | źródło: Oakywood (prezenty) | 2026-11-09 |
 | biurko do home office | źródło: Oakywood (zasięg 0,5) | 2026-11-09 |
+| organizer na biurko czarno drewniany | organizer na biurko drewniany | 2026-11-10 |
+| organizer na biurko szuflady drewniany przybornik | organizer na biurko drewniany | 2026-11-10 |
+| organizer na biurko dla dzieci drewniany | organizer na biurko drewniany | 2026-11-10 |
+| podkładka na biurko filcowa | podkładka na biurko filc | 2026-11-10 |
+| podkładka na biurko z filcu | podkładka na biurko filc | 2026-11-10 |
+| podkładka filcowa na biurko z wełny merynosów | podkładka na biurko filc | 2026-11-10 |
+| duża filcowa podkładka na biurko | podkładka na biurko filc | 2026-11-10 |
+| podkładka filcowa na biurko na wymiar | podkładka na biurko filc | 2026-11-10 |
+| oakywood filcowa podkładka na biurko | podkładka na biurko filc | 2026-11-10 |
+| prezent dla niego na urodziny | prezent dla niego | 2026-11-10 |
+| prezent dla niego na rocznice | prezent dla niego | 2026-11-10 |
+| prezent dla niego na 40 urodziny | prezent dla niego | 2026-11-10 |
+| prezent dla niego na rocznicę ślubu | prezent dla niego | 2026-11-10 |
+| prezent dla niego na 50 urodziny | prezent dla niego | 2026-11-10 |
+| prezent dla niego na dzien chlopaka | prezent dla niego | 2026-11-10 |
+| prezent dla niego na 30 urodziny | prezent dla niego | 2026-11-10 |
+| prezent dla niego na swieta | prezent dla niego | 2026-11-10 |

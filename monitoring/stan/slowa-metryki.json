@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-09T19:35+01:00",
+ "czas": "2026-11-10T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -237,32 +237,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "meble ogrodowe drewniane",
-   "grupa": "meble ogrodowe",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "meble ogrodowe drewniane",
-    "meble ogrodowe drewniane olx",
-    "meble ogrodowe drewniane wyprzedaż",
-    "meble ogrodowe drewniane castorama",
-    "meble ogrodowe drewniane allegro",
-    "meble ogrodowe drewniane używane olx",
-    "meble ogrodowe drewniane ikea",
-    "meble ogrodowe drewniane jysk",
-    "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane obi"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "leżak drewniany",
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
@@ -367,32 +341,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent na mikołajki",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent na mikołajki",
-    "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki do przedszkola",
-    "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla przedszkolaka",
-    "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "koparko ładowarka",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -416,7 +364,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparka rzeszów",
@@ -520,7 +468,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "biurko z litego drewna",
@@ -546,7 +494,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent z drewna",
@@ -573,6 +521,32 @@
    "firmy": [],
    "ocena": 62,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla dzieci 6 lat",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "jcb 3cx",
@@ -960,7 +934,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "półka na biurko",
@@ -986,7 +960,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "organizer na biurko drewniany",
@@ -1012,7 +986,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla mamy",
@@ -1208,15 +1182,15 @@
     "prezent dla taty i syna",
     "prezent dla taty z okazji narodzin dziecka"
    ],
-   "pozycja_w_podpowiedziach": 6,
-   "popyt_0_1": 0.7,
+   "pozycja_w_podpowiedziach": 7,
+   "popyt_0_1": 0.64,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
-   "ocena": 52,
-   "zmiana_oceny": 0
+   "ocena": 49,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1265,7 +1239,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1355,7 +1329,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 42,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "polskie rękodzieło na prezent",
@@ -1372,7 +1346,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 42,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "nowoczesny domek",
@@ -1399,6 +1373,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "meble ogrodowe drewniane",
+   "grupa": "meble ogrodowe",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
+    "meble ogrodowe drewniane olx",
+    "meble ogrodowe drewniane wyprzedaż",
+    "meble ogrodowe drewniane castorama",
+    "meble ogrodowe drewniane allegro",
+    "meble ogrodowe drewniane używane olx",
+    "meble ogrodowe drewniane ikea",
+    "meble ogrodowe drewniane jysk",
+    "meble ogrodowe drewniane z bali",
+    "meble ogrodowe drewniane obi"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "koparko ładowarka nowa",
@@ -1715,7 +1715,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 28,
-   "zmiana_oceny": null
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent świąteczny drewniany",
