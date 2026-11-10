@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-10T05:21+01:00",
+ "czas": "2026-11-10T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -237,6 +237,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "meble ogrodowe drewniane",
+   "grupa": "meble ogrodowe",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
+    "meble ogrodowe drewniane olx",
+    "meble ogrodowe drewniane wyprzedaż",
+    "meble ogrodowe drewniane castorama",
+    "meble ogrodowe drewniane allegro",
+    "meble ogrodowe drewniane używane olx",
+    "meble ogrodowe drewniane ikea",
+    "meble ogrodowe drewniane jysk",
+    "meble ogrodowe drewniane z bali",
+    "meble ogrodowe drewniane obi"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 24
+  },
+  {
    "fraza": "leżak drewniany",
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
@@ -339,6 +365,32 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki",
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla dzieci 6 lat",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "koparko ładowarka",
@@ -523,32 +575,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent na mikołajki",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki",
-    "prezent na mikołajki do przedszkola",
-    "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla przedszkolaka",
-    "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 62,
-   "zmiana_oceny": -3
-  },
-  {
    "fraza": "jcb 3cx",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -639,32 +665,6 @@
     "pergola drewniana bricomarche",
     "pergola drewniana na róże",
     "pergola drewniana do samodzielnego montażu"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 58,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1190,7 +1190,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 49,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1375,32 +1375,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "meble ogrodowe drewniane",
-   "grupa": "meble ogrodowe",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "meble ogrodowe drewniane",
-    "meble ogrodowe drewniane olx",
-    "meble ogrodowe drewniane wyprzedaż",
-    "meble ogrodowe drewniane castorama",
-    "meble ogrodowe drewniane allegro",
-    "meble ogrodowe drewniane używane olx",
-    "meble ogrodowe drewniane ikea",
-    "meble ogrodowe drewniane jysk",
-    "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane obi"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 41,
-   "zmiana_oceny": -24
-  },
-  {
    "fraza": "koparko ładowarka nowa",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -1537,6 +1511,32 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana dwuspadowa konstrukcja",
+    "wiata drewniana 6x6 projekt"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
