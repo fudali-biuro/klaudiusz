@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Poranna zmiana 11.11: czat, decyzje, zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 11.11 rano: cisza – bez nowych wiadomości/zdjęć, Buffer bez błędów",
+ "postep": 100,
  "aktualizacja": "2026-11-11T05:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-11T05:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 11.11 rano: cisza – bez nowych wiadomości/zdjęć, Buffer bez błędów"
+  },
   {
    "czas": "2026-11-11T05:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T12:02+01:00",
    "stan": "czeka",
    "tekst": "Karuzela z logo do akceptacji"
-  },
-  {
-   "czas": "2026-11-05T12:00+01:00",
-   "stan": "czeka",
-   "tekst": "Karuzela do akceptacji"
   }
  ]
 }
