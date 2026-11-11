@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "gotowe",
- "zadanie": "05:20 – TOP: drewutnia (65); bez skoków",
- "postep": 100,
- "aktualizacja": "2026-11-11T05:22+01:00",
+ "stan": "pracuje",
+ "zadanie": "Pomiar 12:20",
+ "postep": null,
+ "aktualizacja": "2026-11-11T12:25+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-11T12:25+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar 12:20"
+  },
   {
    "czas": "2026-11-11T05:22+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-06T16:28+01:00",
    "stan": "gotowe",
    "tekst": "Dopisałem sekcję do tematy-z-wyszukiwan.md (pytania klientów + zasięg)"
-  },
-  {
-   "czas": "2026-11-06T13:48+01:00",
-   "stan": "gotowe",
-   "tekst": "Grupa koparka dodana: 'koparko ładowarka' zasięg 149 (drewutnia=100)"
   }
  ]
 }
