@@ -442,3 +442,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent dla niego na dzien chlopaka | prezent dla niego | 2026-11-10 |
 | prezent dla niego na 30 urodziny | prezent dla niego | 2026-11-10 |
 | prezent dla niego na swieta | prezent dla niego | 2026-11-10 |
+| home office dla rodziców dzieci do lat 8 | home office | 2026-11-11 |
