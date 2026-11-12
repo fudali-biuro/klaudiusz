@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 11.11 w południe: bez nowych wiadomości i zdjęć",
- "postep": 100,
- "aktualizacja": "2026-11-11T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poranna zmiana 12.11: czat, decyzje, zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-12T05:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-12T05:35+01:00",
+   "stan": "pracuje",
+   "tekst": "Poranna zmiana 12.11: czat, decyzje, zdjęcia"
+  },
   {
    "czas": "2026-11-11T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T12:16+01:00",
    "stan": "czeka",
    "tekst": "Plan 2 tygodni + doładowanie OpenRouter"
-  },
-  {
-   "czas": "2026-11-05T12:13+01:00",
-   "stan": "pracuje",
-   "tekst": "Plan contentu na 2 tygodnie (paczka od Zosi)"
   }
  ]
 }
