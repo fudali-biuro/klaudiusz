@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
+ "zadanie": "Raport 12.11 gotowy – Singles' Day Ecofurn zakończony, reszta bez zmian",
  "postep": 100,
- "aktualizacja": "2026-11-11T12:12+01:00",
+ "aktualizacja": "2026-11-12T05:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-12T05:06+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport 12.11 gotowy – Singles' Day Ecofurn zakończony, reszta bez zmian"
+  },
   {
    "czas": "2026-11-11T12:12+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T11:38+01:00",
    "stan": "pracuje",
    "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
-  },
-  {
-   "czas": "2026-11-05T10:38+01:00",
-   "stan": "gotowe",
-   "tekst": "10:00 – brak nowych postów"
   }
  ]
 }
