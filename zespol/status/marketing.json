@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:35 (12.11): czat i zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 12.11 w południe: bez nowych wiadomości i zdjęć",
+ "postep": 100,
  "aktualizacja": "2026-11-12T12:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-12T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 12.11 w południe: bez nowych wiadomości i zdjęć"
+  },
   {
    "czas": "2026-11-12T12:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T15:56+01:00",
    "stan": "pracuje",
    "tekst": "Sezon świąteczny – paczka szkiców 9–15.11"
-  },
-  {
-   "czas": "2026-11-05T15:49+01:00",
-   "stan": "czeka",
-   "tekst": "3 piny Pinterest – szkice"
   }
  ]
 }
