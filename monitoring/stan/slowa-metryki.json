@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-13T05:21+01:00",
+ "czas": "2026-11-13T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -372,6 +372,7 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
+    "prezent na mikołajki dla dzieci 8 lat",
     "prezent na mikołajki dla dzieci",
     "prezent na mikołajki za 50 zł",
     "prezent na mikołajki do przedszkola",
@@ -379,8 +380,7 @@
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
+    "prezent na mikołajki dla dzieci do przedszkola"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -681,6 +681,7 @@
    "grupa": "altany i pergole",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
+    "wiata drewniana",
     "wiata drewniana jednospadowa",
     "wiata drewniana na samochód",
     "wiata drewniana na dwa samochody",
@@ -689,8 +690,7 @@
     "wiata drewniana do samodzielnego montażu",
     "wiata drewniana dwustanowiskowa",
     "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt",
-    "wiata drewniana garażowa"
+    "wiata drewniana 6x6 projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -785,8 +785,8 @@
    "grupa": "drewno",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
-    "drewno opałowe",
     "drewno opałowe olx",
+    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
@@ -1064,7 +1064,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 55,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla taty",
@@ -1090,7 +1090,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 54,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla taty majsterkowicza",
@@ -1242,32 +1242,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 5
-  },
-  {
    "fraza": "drewniane dekoracje świąteczne",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1322,6 +1296,32 @@
    "firmy": [],
    "ocena": 44,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 6,
+   "popyt_0_1": 0.7,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 44,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "prezent na święta dla ogrodnika",
@@ -2184,10 +2184,6 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana garażowa",
-   "z_frazy": "wiata drewniana"
-  },
-  {
    "fraza": "meble ogrodowe drewniane wyprzedaż",
    "z_frazy": "meble ogrodowe drewniane"
   },
@@ -2394,6 +2390,10 @@
   {
    "fraza": "tarcica modrzewiowa",
    "z_frazy": "tarcica"
+  },
+  {
+   "fraza": "drewno opałowe cena",
+   "z_frazy": "drewno opałowe"
   },
   {
    "fraza": "drewno opałowe podkarpackie tanio",
@@ -2636,6 +2636,10 @@
    "z_frazy": "prezent dla taty majsterkowicza"
   },
   {
+   "fraza": "prezent na mikołajki dla dzieci 8 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
    "fraza": "prezent na mikołajki dla dzieci",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2665,10 +2669,6 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
