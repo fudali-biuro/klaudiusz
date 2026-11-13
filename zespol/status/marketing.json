@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 12.11 w południe: bez nowych wiadomości i zdjęć",
- "postep": 100,
- "aktualizacja": "2026-11-12T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poranna zmiana 13.11: czat, decyzje, zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-13T05:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-13T05:35+01:00",
+   "stan": "pracuje",
+   "tekst": "Poranna zmiana 13.11: czat, decyzje, zdjęcia"
+  },
   {
    "czas": "2026-11-12T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-05T22:13+01:00",
    "stan": "pracuje",
    "tekst": "TikTok: pakiet 9–15.11 (5 publikacji + 7 relacji)"
-  },
-  {
-   "czas": "2026-11-05T15:56+01:00",
-   "stan": "pracuje",
-   "tekst": "Sezon świąteczny – paczka szkiców 9–15.11"
   }
  ]
 }
