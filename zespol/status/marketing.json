@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:35 (13.11): czat i zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 13.11 w południe: bez nowych wiadomości i zdjęć",
+ "postep": 100,
  "aktualizacja": "2026-11-13T12:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-13T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 13.11 w południe: bez nowych wiadomości i zdjęć"
+  },
   {
    "czas": "2026-11-13T12:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T12:35+01:00",
    "stan": "wolne",
    "tekst": "Paczka 9–15.11 (13 wpisów) czeka w bibliotece akceptacji; brak decyzji Pablo"
-  },
-  {
-   "czas": "2026-11-06T08:46+01:00",
-   "stan": "pracuje",
-   "tekst": "Paczka 9–15.11 w bibliotece akceptacji; TikTok-filmy z Zosią"
   }
  ]
 }
