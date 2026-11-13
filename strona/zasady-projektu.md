@@ -19,3 +19,4 @@ Wybrane zamiast „apple-ui-skills": tamten wymusza niebieski kolor i czcionkę 
 ## Zrobione
 - 13.11.2026: logo w nagłówku mobilnym (szablon Header, id 973) = zielone `LOGO-FUDALI-GREEN` (media id 1814).
 - Czeka: ikona strony (potrzebny kwadrat min. 512×512 px od Pablo).
+- 13.11.2026: **„O firmie" – projekt Apple jako szkic** (strona robocza id 2200, status draft; oryginał id 1293 nietknięty). Czeka na ocenę Pablo; po OK: podmiana treści 1293 (zachować kopię starej wersji) albo zamiana adresów.
