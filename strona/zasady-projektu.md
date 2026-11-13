@@ -19,4 +19,6 @@ Wybrane zamiast „apple-ui-skills": tamten wymusza niebieski kolor i czcionkę 
 ## Zrobione
 - 13.11.2026: logo w nagłówku mobilnym (szablon Header, id 973) = zielone `LOGO-FUDALI-GREEN` (media id 1814).
 - Czeka: ikona strony (potrzebny kwadrat min. 512×512 px od Pablo).
-- 13.11.2026: **„O firmie" – projekt Apple jako szkic** (strona robocza id 2200, status draft; oryginał id 1293 nietknięty). Czeka na ocenę Pablo; po OK: podmiana treści 1293 (zachować kopię starej wersji) albo zamiana adresów.
+- 13.11.2026: **„O firmie" (id 1293) przebudowana NA ŻYWO** (polecenie Pablo: poligon do prób). Stara wersja = rewizja WordPress/Elementor id 2204 (do przywrócenia w historii zmian strony). Szkic 2200 usunięty.
+- Kolory marki (z motywu): zieleń akcentowa #70B63F, jasna #B3E391; dla czytelności przyciski #437A24 (hover #2F5A18), nagłówki #2F4A1F, tekst #4A5742, jasne tła #F1F6EA. **Nie używamy czerni/szarości #1d1d1f** (Pablo: ma być inny kolor niż czarny). Czcionki motywu: Jost (nagłówki) i Heebo (tekst) – nie nadpisywać.
+- Pablo: strona ma być oglądana pod adresem /o-firmie/?v=288404204e3d (parametr omija pamięć podręczną).
