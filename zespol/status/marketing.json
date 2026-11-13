@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 13.11 rano: bez nowych wiadomości/zdjęć; w AGENTS tylko notatka o kluczu Apify",
- "postep": 100,
- "aktualizacja": "2026-11-13T05:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zmiana 12:35 (13.11): czat i zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-13T12:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-13T12:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Zmiana 12:35 (13.11): czat i zdjęcia"
+  },
   {
    "czas": "2026-11-13T05:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T08:46+01:00",
    "stan": "pracuje",
    "tekst": "Paczka 9–15.11 w bibliotece akceptacji; TikTok-filmy z Zosią"
-  },
-  {
-   "czas": "2026-11-06T06:33+01:00",
-   "stan": "czeka",
-   "tekst": "Paczka 9–15.11 do akceptacji"
   }
  ]
 }
