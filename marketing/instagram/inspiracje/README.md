@@ -60,9 +60,9 @@ Koszt partii ≈ 1,2 USD (bez wideo).
 | `insp-27-jezioro-snieg` | pomost nad zaśnieżonym jeziorem | świeży śnieg, szaro-niebieskie światło | leżak naturalny |
 | `insp-28-jezioro-zlota-godzina` | pomost, późna jesień | złota godzina, brzozy, termos | leżak grafit |
 | `insp-29-weranda-snieg` | weranda w śniegu | gęsty śnieg, koc, kubek, ciepłe okno | leżak ciemny brąz |
-| `insp-30-kominek-zima` | salon z kominkiem | wieczór, ogień, zmierzch ze śniegiem w oknie | leżak naturalny |
+| `insp-30-kominek-zima` ❌ NIE UŻYWAĆ (deformacja leżaka) | salon z kominkiem | wieczór, ogień, zmierzch ze śniegiem w oknie | leżak naturalny |
 | `insp-31-okno-snieg` | jasny pokój z oknem na ośnieżony ogród | zimowe światło dzienne, herbata | leżak grafit |
 | `insp-32-swieta-lampki` | taras zimą | zmierzch, kilka lampek i latarenka, subtelnie | leżak ciemny brąz |
 | `insp-33-swieta-choinka-tlo` | salon z choinką w tle (rozmyta) | ciepłe bokeh, koc, stonowanie | leżak czarny |
 | `insp-34-koparka-zima` | plac budowy w śniegu | niskie słońce, śnieg na dachu kabiny | koparko-ładowarka Shanmon Fuji 388 (flash image) |
-Koszt partii ≈ 1,2 USD (zdjęcia). Produkt z prawdziwych zdjęć referencyjnych.
+Partia 5 = 9 użytecznych zdjęć (insp-30 odrzucone przez Klaudiusza, 14.11). Koszt ≈ 1,2 USD. Produkt z prawdziwych zdjęć referencyjnych.
