@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:35 (14.11): czat, decyzje, zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 14.11 w południe: bez nowych wiadomości i zdjęć od Pablo",
+ "postep": 100,
  "aktualizacja": "2026-11-14T12:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-14T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 14.11 w południe: bez nowych wiadomości i zdjęć od Pablo"
+  },
   {
    "czas": "2026-11-14T12:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T16:26+01:00",
    "stan": "pracuje",
    "tekst": "Instagram: audyt profilu (Etap 1)"
-  },
-  {
-   "czas": "2026-11-06T14:03+01:00",
-   "stan": "gotowe",
-   "tekst": "Koparka: TikTok #1–4, #6 + 5 pinów w bibliotece i Bufferze; czekam na filmy 5, 7–9"
   }
  ]
 }
