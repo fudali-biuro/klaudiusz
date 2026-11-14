@@ -15,16 +15,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "facebook-galerie",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Zastąpione (zdjęcie 33 przeniesione do innej galerii).",
  "wersja": 1,
  "utworzono": "2026-11-14T08:15:29+00:00",
- "zmieniono": "2026-11-14T08:15:29+00:00",
+ "zmieniono": "2026-11-14T08:16:13+00:00",
  "historia": [
   {
    "czas": "2026-11-14T08:15:29+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-14T08:16:13+00:00",
+   "kto": "marketing",
+   "stan": "odrzucone",
+   "komentarz": "Zastąpione (zdjęcie 33 przeniesione do innej galerii)."
   }
  ]
 }
