@@ -7,7 +7,7 @@ Użycie:
 Wynik: plik JPG (przycięty do proporcji) + obok <plik>.json (model, prompt, źródło).
 
 Kolejność (pierwszy działający wygrywa):
-  1. Antigravity CLI (agy, konto Google biuro@fudali.com.pl – bez opłat za obrazek; scripts/antigravity/README.md)
+  1. Antigravity CLI (agy, konto Google biura – bez opłat za obrazek; scripts/antigravity/README.md)
   2. zapas płatny: OpenRouter (OPENROUTER_API_KEY): Nano Banana 2 → Nano Banana Pro → GPT Image (ChatGPT) – wyłączany flagą --bez-api
 fal.ai NIE jest używane do obrazów (decyzja Pablo 05.11.2026).
 """

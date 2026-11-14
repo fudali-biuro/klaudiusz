@@ -7,7 +7,7 @@ import json, os, sys, urllib.request, urllib.parse, io
 from PIL import Image
 temat, q = sys.argv[1], sys.argv[2]; ile = int(sys.argv[3]) if len(sys.argv) > 3 else 6
 O = f"marketing/zdjecia/tla/{temat}/"; os.makedirs(O, exist_ok=True)
-UA = {"User-Agent": "FudaliBot/1.0 (biuro@fudali.com.pl)"}
+UA = {"User-Agent": "FudaliBot/1.0"}
 url = "https://api.openverse.org/v1/images/?" + urllib.parse.urlencode({"q": q, "license": "cc0", "page_size": 20})
 import time
 for proba in range(4):
