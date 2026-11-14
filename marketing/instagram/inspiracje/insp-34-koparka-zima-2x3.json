@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3.1-flash-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--7.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: Exactly ONE backhoe loader, shown completely. Keep the machine EXACTLY as in the reference photo: yellow-and-black colour scheme, cab, 4-in-1 front bucket, rear backhoe arm, wheels, proportions and factory markings – no redesign. Winter: machine working on a snowy building site, fresh snow on the ground and on its roof, low pale sun, bare trees behind. Photorealistic, no people, no text, no watermarks.",
+ "ai": true
+}

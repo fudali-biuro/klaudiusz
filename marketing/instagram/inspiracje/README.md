@@ -51,3 +51,18 @@ Koszt partii ≈ 0,7 USD (zdjęcia) + ≈ 1 USD (wideo).
 | `insp-23-swieta-weranda` | weranda świąteczna z girlandami | wieczór, lekki śnieg, kratowany koc | ciemny brąz |
 | `insp-24-ogrod-lawenda` | ogród z lawendą, kamienny mur | złoty wieczór, słomkowy kapelusz | grafit |
 Koszt partii ≈ 1,2 USD (bez wideo).
+
+## Seria cz. 5 (insp-25…34, 14.11.2026, zlecenie Klaudiusza: zima/święta/jezioro) – 4:5 i 2:3, zero napisów, jeden leżak (lub jedna maszyna), zero wideo
+| Plik | Miejsce | Pora / nastrój | Produkt |
+|---|---|---|---|
+| `insp-25-jezioro-mgla-zima` | pomost nad zamarzniętym jeziorem | zimowy świt, mgła, różowe niebo, koc | leżak brąz |
+| `insp-26-jezioro-szron` | pomost w szronie | mroźny poranek, para nad wodą, złote słońce | leżak czarny |
+| `insp-27-jezioro-snieg` | pomost nad zaśnieżonym jeziorem | świeży śnieg, szaro-niebieskie światło | leżak naturalny |
+| `insp-28-jezioro-zlota-godzina` | pomost, późna jesień | złota godzina, brzozy, termos | leżak grafit |
+| `insp-29-weranda-snieg` | weranda w śniegu | gęsty śnieg, koc, kubek, ciepłe okno | leżak ciemny brąz |
+| `insp-30-kominek-zima` | salon z kominkiem | wieczór, ogień, zmierzch ze śniegiem w oknie | leżak naturalny |
+| `insp-31-okno-snieg` | jasny pokój z oknem na ośnieżony ogród | zimowe światło dzienne, herbata | leżak grafit |
+| `insp-32-swieta-lampki` | taras zimą | zmierzch, kilka lampek i latarenka, subtelnie | leżak ciemny brąz |
+| `insp-33-swieta-choinka-tlo` | salon z choinką w tle (rozmyta) | ciepłe bokeh, koc, stonowanie | leżak czarny |
+| `insp-34-koparka-zima` | plac budowy w śniegu | niskie słońce, śnieg na dachu kabiny | koparko-ładowarka Shanmon Fuji 388 (flash image) |
+Koszt partii ≈ 1,2 USD (zdjęcia). Produkt z prawdziwych zdjęć referencyjnych.

@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-produktywniej-maciej-banasik-zdjecia-reklamowe-fud-3.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: Exactly ONE lounge chair in the whole frame, shown completely, standing stably. Reproduce it exactly as in the reference: single long slatted backrest, low slatted seat, X-shaped legs, rope ties, white pillow – no duplicated, mirrored or bent parts. Covered wooden veranda of a house in heavy snowfall, snow-laden spruces, a knitted blanket on the chair, steaming mug, warm window light behind. Candid Pinterest-style photo, no people, no text, no logos.",
+ "ai": true
+}
