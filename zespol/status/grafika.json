@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Partia 5: 10 inspiracji (jezioro, zima, święta, koparka)",
- "postep": null,
- "aktualizacja": "2026-11-14T09:12+01:00",
+ "stan": "gotowe",
+ "zadanie": "Partia 5: insp-25…34 gotowa",
+ "postep": 100,
+ "aktualizacja": "2026-11-14T09:14+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-14T09:14+01:00",
+   "stan": "gotowe",
+   "tekst": "Partia 5: insp-25…34 gotowa"
+  },
   {
    "czas": "2026-11-14T09:12+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-06T08:48+01:00",
    "stan": "pracuje",
    "tekst": "Podkładka 'kakao' (pilne) + filmy TikTok leżak"
-  },
-  {
-   "czas": "2026-11-06T08:48+01:00",
-   "stan": "gotowe",
-   "tekst": "Film TikTok 9:16 z leżakiem gotowy; czekam na zdjęcia od Pablo"
   }
  ]
 }
