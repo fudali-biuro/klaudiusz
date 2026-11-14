@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Zmiana 5:05 – raport konkurencji 14.11",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Raport konkurencji 14.11 gotowy (bez IG – Apify wstrzymany)",
+ "postep": 100,
  "aktualizacja": "2026-11-14T05:07+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-14T05:07+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport konkurencji 14.11 gotowy (bez IG – Apify wstrzymany)"
+  },
   {
    "czas": "2026-11-14T05:07+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T12:39+01:00",
    "stan": "pracuje",
    "tekst": "Oglądam wideo konkurencji (klatki + Gemini 4)"
-  },
-  {
-   "czas": "2026-11-05T12:38+01:00",
-   "stan": "pracuje",
-   "tekst": "Zbieram nowe posty IG/TikTok konkurencji (Apify)"
   }
  ]
 }
