@@ -15,16 +15,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "facebook-galerie",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Zastąpione galerią bez wadliwego zdjęcia insp-30.",
  "wersja": 1,
  "utworzono": "2026-11-14T08:15:27+00:00",
- "zmieniono": "2026-11-14T08:15:27+00:00",
+ "zmieniono": "2026-11-14T08:16:09+00:00",
  "historia": [
   {
    "czas": "2026-11-14T08:15:27+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-14T08:16:09+00:00",
+   "kto": "marketing",
+   "stan": "odrzucone",
+   "komentarz": "Zastąpione galerią bez wadliwego zdjęcia insp-30."
   }
  ]
 }
