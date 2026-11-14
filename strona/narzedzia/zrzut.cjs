@@ -1,9 +1,9 @@
 // Zrzut ekranu strony (komputer + telefon), żeby sprawdzić wygląd zamiast zgadywać.
-// Użycie: node strona/narzedzia/zrzut.js <adres> <folder-wyjściowy> [nazwa]
+// Użycie: node strona/narzedzia/zrzut.cjs <adres> <folder-wyjściowy> [nazwa]
 // Działa tylko dla stron publicznych (szkice w panelu wymagają logowania).
 const { chromium } = require('playwright');
 const [url, out, name = 'strona'] = process.argv.slice(2);
-if (!url || !out) { console.log('Użycie: node zrzut.js <adres> <folder> [nazwa]'); process.exit(1); }
+if (!url || !out) { console.log('Użycie: node zrzut.cjs <adres> <folder> [nazwa]'); process.exit(1); }
 (async () => {
   const b = await chromium.launch();
   for (const [tag, vp] of [['komputer', { width: 1440, height: 900 }], ['telefon', { width: 390, height: 844 }]]) {

@@ -33,5 +33,5 @@ Zainstalowane w repozytorium (działają w każdej sesji):
 - `.claude/skills/taste-skill/` – „taste skill" (Leonxlnx, MIT): zasady anty-generycznego designu, treści i zdjęć. **Bez hooka i bez skryptów** (nie uruchamiamy cudzego kodu). Uwaga: napisany pod statyczny HTML – u nas strona jest w Elementorze, więc stosujemy zasady (układ, odstępy, kopia, zdjęcia), nie gotowe pliki.
 - `.claude/skills/web-design-guidelines/` – lista kontrolna Vercel (czytelność, dostępność, UX); pobiera aktualne reguły z GitHuba przy użyciu.
 - `strona/wzorce-design/*.DESIGN.md` – opisy systemów designu Nike, Shopify, Apple, Airbnb, Starbucks (VoltAgent/awesome-design-md, MIT) jako inspiracja układu sklepu.
-- `strona/narzedzia/zrzut.js` – **Playwright**: zrzuty ekranu strony publicznej na komputerze i telefonie (`node strona/narzedzia/zrzut.js <adres> <folder>`). Dzięki temu sprawdzam wygląd na własne oczy po każdej zmianie. Szkice w panelu wymagają logowania, więc tych nie widzę.
-- „Image to code": nie jest osobnym narzędziem – obraz → układ robię na bieżąco (rozumiem zrzuty); `zrzut.js` służy do porównania efektu z wzorem.
+- `strona/narzedzia/zrzut.cjs` – **Playwright**: zrzuty ekranu strony publicznej na komputerze i telefonie (`node strona/narzedzia/zrzut.cjs <adres> <folder>`). Dzięki temu sprawdzam wygląd na własne oczy po każdej zmianie. Szkice w panelu wymagają logowania, więc tych nie widzę.
+- „Image to code": nie jest osobnym narzędziem – obraz → układ robię na bieżąco (rozumiem zrzuty); `zrzut.cjs` służy do porównania efektu z wzorem.
