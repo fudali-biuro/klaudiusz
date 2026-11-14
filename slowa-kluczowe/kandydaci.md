@@ -445,3 +445,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | home office dla rodziców dzieci do lat 8 | home office | 2026-11-11 |
 | prezent na mikołajki dla chłopca 7 lat | prezent na mikołajki | 2026-11-12 |
 | prezent na mikołajki za 50 zł | prezent na mikołajki | 2026-11-13 |
+| prezent na mikołajki dla nauczyciela | prezent na mikołajki | 2026-11-14 |

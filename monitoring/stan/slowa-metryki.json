@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-14T05:21+01:00",
+ "czas": "2026-11-14T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -367,6 +367,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent na mikołajki",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent na mikołajki",
+    "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla chłopaka",
+    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki dla dziewczyny",
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat",
+    "prezent na mikołajki dla nauczyciela"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 5
+  },
+  {
    "fraza": "koparko ładowarka",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -599,32 +625,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent na mikołajki",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki za 50 zł",
-    "prezent na mikołajki",
-    "prezent na mikołajki do przedszkola",
-    "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla przedszkolaka",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 60,
-   "zmiana_oceny": -5
-  },
-  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -785,7 +785,6 @@
    "grupa": "drewno",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
-    "drewno opałowe",
     "drewno opałowe olx",
     "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
@@ -794,7 +793,8 @@
     "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań"
+    "drewno opałowe poznań",
+    "drewno opałowe z transportem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -908,7 +908,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "olej do drewna na zewnątrz",
@@ -1193,32 +1193,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 50,
-   "zmiana_oceny": 6
-  },
-  {
    "fraza": "jak zabezpieczyć meble ogrodowe",
    "grupa": "wiedza i pielęgnacja",
    "znaczenie_biznesowe": "srednie",
@@ -1240,32 +1214,6 @@
    "firmy": [],
    "ocena": 47,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 8,
-   "popyt_0_1": 0.58,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 46,
-   "zmiana_oceny": -8
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1322,6 +1270,32 @@
    "firmy": [],
    "ocena": 44,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 6,
+   "popyt_0_1": 0.7,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 44,
+   "zmiana_oceny": -6
   },
   {
    "fraza": "prezent na święta dla ogrodnika",
@@ -1399,6 +1373,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -5
   },
   {
    "fraza": "koparko ładowarka nowa",
@@ -2420,6 +2420,10 @@
    "z_frazy": "drewno opałowe"
   },
   {
+   "fraza": "drewno opałowe z transportem",
+   "z_frazy": "drewno opałowe"
+  },
+  {
    "fraza": "stolarz podkarpacie",
    "z_frazy": "stolarnia podkarpacie"
   },
@@ -2636,10 +2640,6 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki za 50 zł",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki do przedszkola",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2665,6 +2665,10 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci 5 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla nauczyciela",
    "z_frazy": "prezent na mikołajki"
   },
   {
