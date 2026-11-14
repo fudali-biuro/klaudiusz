@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:05 – monitoring",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
+ "postep": 100,
  "aktualizacja": "2026-11-14T12:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-14T12:06+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
+  },
   {
    "czas": "2026-11-14T12:06+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-05T12:39+01:00",
    "stan": "gotowe",
    "tekst": "12:00 – brak nowych postów"
-  },
-  {
-   "czas": "2026-11-05T12:39+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log godzinny"
   }
  ]
 }
