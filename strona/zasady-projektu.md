@@ -26,3 +26,12 @@ Wybrane zamiast „apple-ui-skills": tamten wymusza niebieski kolor i czcionkę 
 - 13.11.2026: **szkic sklepu na stronie roboczej id 2212** („O firmie – SZKIC SKLEPU", status draft, edycja: /wp-admin/post.php?post=2212&action=elementor): hero z „Kup teraz" (pulsujący) i „Zobacz sklep", pasek zaufania (tylko znane fakty: wysyłka gratis od 200 zł, PayU, kurier, telefon), kafelki kategorii (3 niepuste), polecane produkty (żywy widżet WooCommerce), „Kup to, co widzisz", stały przycisk „Sklep” na telefonie. Czeka na akceptację Pablo; potem przenieść na stronę główną (po OK).
 - Ustalenia: „Cart" w nagłówku to tekst tylko dla czytników ekranu (niewidoczny), poprawka niepilna. Puste kategorie (Drewutnie, Drewno konstrukcyjne, Akcesoria domowe) nie pokazywać w kafelkach, dopóki nie mają produktów. Cena „od" potrzebna tylko gdy warianty mają różne ceny (leżak: jedna cena).
 - Brakuje faktów od Pablo do paska zaufania: czas dostawy, zwroty, raty.
+
+## Narzędzia projektowe (14.11.2026, z rolki „5 narzędzi dla Claude Code")
+Zainstalowane w repozytorium (działają w każdej sesji):
+- `.claude/skills/apple-hig-designer/` – zasady Apple HIG (od 13.11).
+- `.claude/skills/taste-skill/` – „taste skill" (Leonxlnx, MIT): zasady anty-generycznego designu, treści i zdjęć. **Bez hooka i bez skryptów** (nie uruchamiamy cudzego kodu). Uwaga: napisany pod statyczny HTML – u nas strona jest w Elementorze, więc stosujemy zasady (układ, odstępy, kopia, zdjęcia), nie gotowe pliki.
+- `.claude/skills/web-design-guidelines/` – lista kontrolna Vercel (czytelność, dostępność, UX); pobiera aktualne reguły z GitHuba przy użyciu.
+- `strona/wzorce-design/*.DESIGN.md` – opisy systemów designu Nike, Shopify, Apple, Airbnb, Starbucks (VoltAgent/awesome-design-md, MIT) jako inspiracja układu sklepu.
+- `strona/narzedzia/zrzut.js` – **Playwright**: zrzuty ekranu strony publicznej na komputerze i telefonie (`node strona/narzedzia/zrzut.js <adres> <folder>`). Dzięki temu sprawdzam wygląd na własne oczy po każdej zmianie. Szkice w panelu wymagają logowania, więc tych nie widzę.
+- „Image to code": nie jest osobnym narzędziem – obraz → układ robię na bieżąco (rozumiem zrzuty); `zrzut.js` służy do porównania efektu z wzorem.
