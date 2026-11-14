@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 13.11 w południe: bez nowych wiadomości i zdjęć",
- "postep": 100,
- "aktualizacja": "2026-11-13T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poranna zmiana 14.11: czat, decyzje, zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-14T05:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-14T05:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Poranna zmiana 14.11: czat, decyzje, zdjęcia"
+  },
   {
    "czas": "2026-11-13T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T13:46+01:00",
    "stan": "pracuje",
    "tekst": "Koparka Shanmon: 8–10 postów TikTok + 5 pinów"
-  },
-  {
-   "czas": "2026-11-06T12:35+01:00",
-   "stan": "wolne",
-   "tekst": "Paczka 9–15.11 (13 wpisów) czeka w bibliotece akceptacji; brak decyzji Pablo"
   }
  ]
 }
