@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Poranna zmiana 14.11: czat, decyzje, zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 14.11 rano: bez nowych wiadomości/zdjęć, Buffer bez błędów",
+ "postep": 100,
  "aktualizacja": "2026-11-14T05:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-14T05:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 14.11 rano: bez nowych wiadomości/zdjęć, Buffer bez błędów"
+  },
   {
    "czas": "2026-11-14T05:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T13:51+01:00",
    "stan": "pracuje",
    "tekst": "Koparka: czekam na filmy z brutto od Zosi, potem do biblioteki"
-  },
-  {
-   "czas": "2026-11-06T13:46+01:00",
-   "stan": "pracuje",
-   "tekst": "Koparka Shanmon: 8–10 postów TikTok + 5 pinów"
   }
  ]
 }
