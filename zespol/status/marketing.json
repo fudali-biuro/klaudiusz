@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Zmiana 15.11 w południe: bez nowych wiadomości i zdjęć",
+ "zadanie": "Lekcja 25 (lumor.ai) przyjęta, przekazana Zosi",
  "postep": 100,
- "aktualizacja": "2026-11-15T12:35+01:00",
+ "aktualizacja": "2026-11-15T20:41+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-15T20:41+01:00",
+   "stan": "gotowe",
+   "tekst": "Lekcja 25 (lumor.ai) przyjęta, przekazana Zosi"
+  },
   {
    "czas": "2026-11-15T12:35+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T22:28+01:00",
    "stan": "gotowe",
    "tekst": "Inspiracje do zapisania w bibliotece akceptacji (IG, piny, 2 reele)"
-  },
-  {
-   "czas": "2026-11-06T22:06+01:00",
-   "stan": "pracuje",
-   "tekst": "IG: wplatam inspiracje do zapisania (czekam na 4 sceny od Zosi)"
   }
  ]
 }
