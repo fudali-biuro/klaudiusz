@@ -62,3 +62,6 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 24. **Posty w Bufferze zaplanowane przez Pablo są JEGO** (07.11: „dałem do publikacji, nakładasz mi więcej pracy”). Status „scheduled”,
     którego nie ustawił bot = decyzja Pablo – nie cofamy na szkic, nie zmieniamy godzin, nie „naprawiamy” bez jego prośby.
     Przed każdą zmianą w Bufferze sprawdź status (list_posts); nowe posty dodajemy wyłącznie jako szkice (saveToDraft:true).
+25. **Wskazówki lumor.ai (Pablo 15.11)** – `marketing/wiedza/lumor-ai.md`: AI do zdjęć tak, ale efekt jak sesja marki premium,
+    nie jak „ulotka AI”. Na grafice najwyżej jedno krótkie hasło, zero odznak/ikonek/list zalet; test „super / okej / źle” –
+    oddajemy tylko „super”.
