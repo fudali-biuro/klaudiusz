@@ -446,3 +446,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent na mikołajki dla chłopca 7 lat | prezent na mikołajki | 2026-11-12 |
 | prezent na mikołajki za 50 zł | prezent na mikołajki | 2026-11-13 |
 | prezent na mikołajki dla nauczyciela | prezent na mikołajki | 2026-11-14 |
+| koparka lego | koparka | 2026-11-15 |
