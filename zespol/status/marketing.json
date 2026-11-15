@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Poranna zmiana 15.11: czat, decyzje, zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 15.11 rano: bez nowych wiadomości/zdjęć, Buffer bez błędów",
+ "postep": 100,
  "aktualizacja": "2026-11-15T05:35+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-15T05:35+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 15.11 rano: bez nowych wiadomości/zdjęć, Buffer bez błędów"
+  },
   {
    "czas": "2026-11-15T05:35+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-06T16:30+01:00",
    "stan": "pracuje",
    "tekst": "Instagram Etap 2: strategia gotowa, czekam na grafiki Zosi (siatka 3×3, 9 postów)"
-  },
-  {
-   "czas": "2026-11-06T16:28+01:00",
-   "stan": "gotowe",
-   "tekst": "Instagram: audyt profilu gotowy (marketing/instagram/audyt-profilu.md); Etap 2 po analizie Mietka/Bartka"
   }
  ]
 }
