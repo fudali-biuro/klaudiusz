@@ -84,3 +84,7 @@ Zestawy: `scripts/grafika/zestawy.py` → `marketing/zdjecia/zestawy/`.
 Obrazy z `kampania-swieta/`, `packshoty/`, `zestawy/` i `swieta-2026/` bazują na scenach wygenerowanych przez AI → etykieta zostaje (to prawda, nie dekoracja).
 Nowe źródło prawdziwych zdjęć: `marketing/biblioteka-zdjec/ (strona 📸 Zdjęcia w biurze)` (produkty/, tla/, gotowe/). Kolejność: prawdziwe tło + prawdziwy produkt → montaż (bez AI); scena.py tylko gdy montaż nie wystarcza (wtedy etykieta AI).
 Seria ma być spójna: te same kolory (zieleń/krem/złoto/czerwień), logo w rogu, czcionki DejaVu Serif/Sans. Gotowe grafiki idą przez Olę do biblioteki akceptacji (`marketing/akceptacja/README.md`).
+
+## Zasada jakości od 15.11.2026 (lekcja Pablo 25, `marketing/wiedza/lumor-ai.md`)
+Grafika = sesja marki premium, nie „ulotka AI”: na obrazku najwyżej jedno krótkie hasło (2–4 słowa) albo nic; zero odznak, ikonek i list zalet (to idzie do opisu posta);
+dużo powietrza, jeden krój, kolory marki. Test „super / okej / źle” – do Oli oddaję tylko „super”.
