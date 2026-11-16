@@ -76,3 +76,13 @@ Wzór 1:1: prawdziwe zdjęcie stolika (`marketing/biblioteka-zdjec/gotowe/*stoli
 | `insp-37-platek-skandynawski-poranek` | jasne skandynawskie wnętrze, poranek, roślina w doniczce |
 | `insp-38-platek-jodelka-swieca` | parkiet jodełka, rośliny, świeca |
 Koszt ≈ 0,5 USD.
+
+## Seria cz. 7 – składany stolik kawowy z litego drewna, 229 zł (insp-39…42, 16.11.2026, zlecenie Klaudiusza: trend „stolik kawowy”) – 4:5 i 2:3, zero napisów/cen/logo
+Wzór 1:1: prawdziwe zdjęcie (`marketing/biblioteka-zdjec/gotowe/*taboret-z-lina*`). Link do produktu: https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/ (cena 229 zł tylko w opisie posta).
+| Plik | Scena |
+|---|---|
+| `insp-39-stolik-salon-koc` | salon zimą, szara sofa i dzianinowy koc, dymiący kubek i książka |
+| `insp-40-stolik-sofa-kawa` | przy kremowej sofie, kawa i drożdżówka, gałązka świerku |
+| `insp-41-stolik-balkon-lampki` | balkon zimowym wieczorem, girlanda, latarenka, kakao |
+| `insp-42-stolik-kominek` | przy kominku na owczej skórze, grzaniec i klementynki |
+Koszt ≈ 0,5 USD.
