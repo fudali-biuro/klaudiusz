@@ -448,3 +448,5 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent na mikołajki dla nauczyciela | prezent na mikołajki | 2026-11-14 |
 | koparka lego | koparka | 2026-11-15 |
 | koparka na pilota | koparka | 2026-11-15 |
+| koparka bruder | koparka | 2026-11-16 |
+| koparka dla dzieci | koparka | 2026-11-16 |

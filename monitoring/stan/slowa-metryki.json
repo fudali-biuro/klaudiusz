@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-16T05:23+01:00",
+ "czas": "2026-11-16T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -865,14 +865,14 @@
    "podpowiedzi_google": [
     "pomysł na prezent",
     "pomysł na prezent dla kobiety",
+    "pomysł na prezent dla mężczyzny",
     "pomysł na prezent dla przyjaciółki",
     "pomysł na prezent na dzień nauczyciela",
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
     "pomysł na prezent na dzień chłopaka",
-    "pomysł na prezent na rocznicę ślubu",
-    "pomysł na prezent ślubny"
+    "pomysł na prezent na rocznicę ślubu"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1015,58 +1015,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 57,
-   "zmiana_oceny": 11
-  },
-  {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 55,
-   "zmiana_oceny": 2
-  },
-  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1116,7 +1064,33 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 55,
-   "zmiana_oceny": 21
+   "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 54,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "prezent dla taty majsterkowicza",
@@ -1163,6 +1137,32 @@
    "firmy": [],
    "ocena": 53,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": -2
   },
   {
    "fraza": "podkładki drewniane",
@@ -1265,7 +1265,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1486,13 +1486,13 @@
     "koparka dolores",
     "koparka",
     "koparka łańcuchowa",
+    "koparka na pilota",
     "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
     "koparka zdalnie sterowana",
-    "koparka jcb"
+    "koparka lego",
+    "koparka bruder",
+    "koparka dla dzieci",
+    "koparka łańcuchowa wynajem"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1632,7 +1632,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": 10,
+   "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -2668,6 +2668,10 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
+   "fraza": "pomysł na prezent dla mężczyzny",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
    "fraza": "pomysł na prezent dla przyjaciółki",
    "z_frazy": "pomysł na prezent"
   },
@@ -2693,10 +2697,6 @@
   },
   {
    "fraza": "pomysł na prezent na rocznicę ślubu",
-   "z_frazy": "pomysł na prezent"
-  },
-  {
-   "fraza": "pomysł na prezent ślubny",
    "z_frazy": "pomysł na prezent"
   },
   {
@@ -3276,27 +3276,31 @@
    "z_frazy": "koparka"
   },
   {
+   "fraza": "koparka na pilota",
+   "z_frazy": "koparka"
+  },
+  {
    "fraza": "koparka zabawka",
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka łańcuchowa wynajem",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka kołowa",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka po angielsku",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka kryptowalut",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka zdalnie sterowana",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka lego",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka bruder",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka dla dzieci",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka łańcuchowa wynajem",
    "z_frazy": "koparka"
   },
   {
