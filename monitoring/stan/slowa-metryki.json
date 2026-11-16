@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-15T12:21+01:00",
+ "czas": "2026-11-16T05:23+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -398,6 +398,7 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "koparko ładowarka",
+    "koparko ładowarka olx",
     "koparko ładowarka jcb",
     "koparko ładowarka cat",
     "koparko ładowarka otomoto",
@@ -405,8 +406,7 @@
     "koparko ładowarka case",
     "koparko ładowarka ostrówek",
     "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3",
-    "koparko ładowarka sprzedajemy"
+    "koparko ładowarka klasa 3"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -865,14 +865,14 @@
    "podpowiedzi_google": [
     "pomysł na prezent",
     "pomysł na prezent dla kobiety",
-    "pomysł na prezent dla mężczyzny",
     "pomysł na prezent dla przyjaciółki",
     "pomysł na prezent na dzień nauczyciela",
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
     "pomysł na prezent na dzień chłopaka",
-    "pomysł na prezent na rocznicę ślubu"
+    "pomysł na prezent na rocznicę ślubu",
+    "pomysł na prezent ślubny"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1015,6 +1015,58 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": 11
+  },
+  {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 55,
+   "zmiana_oceny": 2
+  },
+  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1039,6 +1091,32 @@
    "firmy": [],
    "ocena": 55,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka olx",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "koparko ładowarka olx",
+    "koparko ładowarka olx jcb",
+    "koparko ładowarka olx pomorskie",
+    "koparko ładowarka olx ostrówek",
+    "koparko ładowarka olx cat",
+    "koparko ładowarka olx mazowieckie",
+    "koparko ładowarka olx małopolskie",
+    "koparko ładowarka olx podkarpackie",
+    "koparko ładowarka olx podlaskie",
+    "koparko ładowarka olx nowa"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 55,
+   "zmiana_oceny": 21
   },
   {
    "fraza": "prezent dla taty majsterkowicza",
@@ -1075,32 +1153,6 @@
     "akcesoria drewniane do mebli",
     "akcesoria drewniane dla lalek",
     "akcesoria drewniane do makramy"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 53,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
    ],
    "pozycja_w_podpowiedziach": 3,
    "popyt_0_1": 0.88,
@@ -1190,30 +1242,30 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
    ],
-   "pozycja_w_podpowiedziach": 8,
-   "popyt_0_1": 0.58,
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
-   "ocena": 46,
-   "zmiana_oceny": -11
+   "ocena": 47,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1264,32 +1316,6 @@
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 0.68,
    "liczba_podpowiedzi": 2,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 44,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 6,
-   "popyt_0_1": 0.7,
-   "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
@@ -1460,13 +1486,13 @@
     "koparka dolores",
     "koparka",
     "koparka łańcuchowa",
-    "koparka na pilota",
     "koparka zabawka",
-    "koparka lego",
     "koparka łańcuchowa wynajem",
     "koparka kołowa",
     "koparka po angielsku",
-    "koparka kryptowalut"
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1591,32 +1617,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "koparko ładowarka olx",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "koparko ładowarka olx",
-    "koparko ładowarka olx jcb",
-    "koparko ładowarka olx pomorskie",
-    "koparko ładowarka olx ostrówek",
-    "koparko ładowarka olx cat",
-    "koparko ładowarka olx mazowieckie",
-    "koparko ładowarka olx małopolskie",
-    "koparko ładowarka olx podkarpackie",
-    "koparko ładowarka olx podlaskie",
-    "koparko ładowarka olx nowa"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 34,
-   "zmiana_oceny": -19
-  },
-  {
    "fraza": "koparka jcb",
    "grupa": "koparka",
    "znaczenie_biznesowe": "srednie",
@@ -1632,7 +1632,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": null,
+   "pozycja_w_podpowiedziach": 10,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -2668,10 +2668,6 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "pomysł na prezent dla mężczyzny",
-   "z_frazy": "pomysł na prezent"
-  },
-  {
    "fraza": "pomysł na prezent dla przyjaciółki",
    "z_frazy": "pomysł na prezent"
   },
@@ -2697,6 +2693,10 @@
   },
   {
    "fraza": "pomysł na prezent na rocznicę ślubu",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent ślubny",
    "z_frazy": "pomysł na prezent"
   },
   {
@@ -2837,10 +2837,6 @@
   },
   {
    "fraza": "koparko ładowarka klasa 3",
-   "z_frazy": "koparko ładowarka"
-  },
-  {
-   "fraza": "koparko ładowarka sprzedajemy",
    "z_frazy": "koparko ładowarka"
   },
   {
@@ -3280,15 +3276,7 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka na pilota",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka zabawka",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka lego",
    "z_frazy": "koparka"
   },
   {
@@ -3305,6 +3293,10 @@
   },
   {
    "fraza": "koparka kryptowalut",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
