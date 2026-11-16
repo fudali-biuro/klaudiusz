@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 12:35 (16.11): czat i zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 16.11 w południe: bez nowych wiadomości i zdjęć od Pablo",
+ "postep": 100,
  "aktualizacja": "2026-11-16T12:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-16T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 16.11 w południe: bez nowych wiadomości i zdjęć od Pablo"
+  },
   {
    "czas": "2026-11-16T12:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-07T10:06+01:00",
    "stan": "gotowe",
    "tekst": "Decyzje Pablo wpisane, 13 szkiców w Bufferze, pakiet TikTok"
-  },
-  {
-   "czas": "2026-11-07T05:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Pinterest 07.11: nacisk na kliknięcia wychodzące, piny rozłożone w czasie; 3 nowe grafiki od Pablo opisane"
   }
  ]
 }
