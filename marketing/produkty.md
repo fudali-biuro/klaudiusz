@@ -36,3 +36,6 @@ Drewutnie https://www.fudali.com.pl/kategorie/drewutnie/ · Architektura drewnia
 
 ## Zdjęcia
 `marketing/zdjecia/<produkt>/` – zdjęcia od Pablo (zmniejszone do 1600 px). Leżak: 6 zdjęć (04.11.2026).
+
+## Stolik boczny „Płatek” z dębu czerwonego – 850,00 zł
+Źródło: https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/ (lista sklepu sprawdzona 16.11.2026). To **inny produkt** niż „Składany stolik kawowy z litego drewna” (229 zł). Opis (kształt, podstawa) – do uzupełnienia z pełnej strony produktu.
