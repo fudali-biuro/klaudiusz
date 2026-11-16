@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "pracuje",
- "zadanie": "Pomiar słów kluczowych + odświeżenie zasięgu",
- "postep": null,
- "aktualizacja": "2026-11-16T05:24+01:00",
+ "stan": "gotowe",
+ "zadanie": "Pomiar 16.11 + zasięg: mikołajki rosną, 'prezent dla taty' stabilny",
+ "postep": 100,
+ "aktualizacja": "2026-11-16T05:26+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-16T05:26+01:00",
+   "stan": "gotowe",
+   "tekst": "Pomiar 16.11 + zasięg: mikołajki rosną, 'prezent dla taty' stabilny"
+  },
   {
    "czas": "2026-11-16T05:24+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-11T12:25+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar 12:20"
-  },
-  {
-   "czas": "2026-11-11T05:22+01:00",
-   "stan": "gotowe",
-   "tekst": "05:20 – TOP: drewutnia (65); bez skoków"
   }
  ]
 }
