@@ -66,3 +66,13 @@ Koszt partii ≈ 1,2 USD (bez wideo).
 | `insp-33-swieta-choinka-tlo` | salon z choinką w tle (rozmyta) | ciepłe bokeh, koc, stonowanie | leżak czarny |
 | `insp-34-koparka-zima` | plac budowy w śniegu | niskie słońce, śnieg na dachu kabiny | koparko-ładowarka Shanmon Fuji 388 (flash image) |
 Partia 5 = 9 użytecznych zdjęć (insp-30 odrzucone przez Klaudiusza, 14.11). Koszt ≈ 1,2 USD. Produkt z prawdziwych zdjęć referencyjnych.
+
+## Seria cz. 6 – stolik Płatek (insp-35…38, 16.11.2026, zlecenie Oli: trend „stolik kawowy z drewna / dąb”) – 4:5 i 2:3, zero napisów/cen/logo, jeden mebel w kadrze
+Wzór 1:1: prawdziwe zdjęcie stolika (`marketing/biblioteka-zdjec/gotowe/*stolik-patek*` – blat z dębu czerwonego w kształcie koniczyny, biała podstawa-bęben). Wazon z różami ze zdjęcia wzorcowego usunięty.
+| Plik | Scena |
+|---|---|
+| `insp-35-platek-salon-wieczor` | salon przy sofie, wieczór, ciepła lampa, filiżanka herbaty |
+| `insp-36-platek-kacik-czytelniczy` | kącik czytelniczy: fotel, książka, kawa, koc |
+| `insp-37-platek-skandynawski-poranek` | jasne skandynawskie wnętrze, poranek, roślina w doniczce |
+| `insp-38-platek-jodelka-swieca` | parkiet jodełka, rośliny, świeca |
+Koszt ≈ 0,5 USD.
