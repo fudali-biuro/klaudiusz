@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "FB galeria – Stolik Płatek we wnętrzach (3 zdjęcia)",
  "produkt": "Stolik Płatek",
- "tekst": "Salon, kącik czytelniczy i skandynawski poranek – trzy wnętrza ze stolikiem Płatek z litego dębu 🪵 Składany, ręcznie robiony w naszej pracowni.\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
+ "tekst": "Salon, kącik czytelniczy i skandynawski poranek – trzy wnętrza ze stolikiem bocznym Płatek z litego dębu czerwonego 🪵 Robimy go w naszej pracowni.\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
  "hashtagi": "",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-35-platek-salon-wieczor-4x5.jpg",
@@ -17,14 +17,20 @@
  "kampania": "facebook-galerie",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-16T04:37:49+00:00",
- "zmieniono": "2026-11-16T04:37:49+00:00",
+ "zmieniono": "2026-11-16T04:38:27+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:37:49+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-16T04:38:27+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
