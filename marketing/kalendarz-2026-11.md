@@ -45,3 +45,12 @@ Sceny AI z `paczka-listopad/` (kominek, ogród, kokarda) – odłożone, wygląd
 | pt 13.11, 10:00 | FB | Podkładka – wersja FB | `posty/2026-11-09-sezon-start.md` |
 | codziennie 1–2 piny | Pinterest EN | leżak „cushion included”, prezent pod choinkę | 3 szkice w Buffer (packshoty); świąteczne 2:3 po grafikach Zosi |
 Kolejne tygodnie (16.11–24.12) układam po akceptacji pierwszej paczki.
+
+
+## 📅 Plan tygodnia 16–22.11.2026 (Ola, pon 16.11) – wg obowiązującego obiegu (biblioteka akceptacji → Buffer jako szkic; Pablo planuje sam)
+**Stan:** Pablo zaplanował w Buffer 13 postów (piny, IG, galerie FB) do 1–2.12; w bibliotece czeka 33 pozycje (galerie FB, karty „z warsztatu”, profil, partia 5 zimowa na 15.12–15.01).
+**Trendy Bartka (16.11):** „stolik kawowy” rośnie (+15%, szczyt tygodnia 15.11), rosnące frazy: „stolik kawowy z litego drewna”, „stolik kawowy dąb”, „stolik kawowy orzech”; „podkładka pod kubek” +60% (małe liczby); „leżak drewniany” sezonowo ~0 (zima).
+**Wnioski:** 1) mocniej pokazać **stolik Płatek** (dąb czerwony, lite drewno, 229 zł wg `produkty.md`) w aranżacjach – to szukana fraza, a mamy go w bibliotece tylko w 1 inspiracji; 2) leżak zimą: dalej inspiracje zimowe (partia 5); 3) podkładki – bez ceny (decyzja Pablo), tylko jako dodatek w kadrze.
+**Zlecenie:** Zosia – 4 sceny stolika Płatek (salon przy sofie, kąt czytelniczy, jasne wnętrze, ciepły wieczór), zasady lekcji 18/19/25 (bez napisów, produkt 1:1, jeden mebel w kadrze). Po dostawie → biblioteka: IG + piny EN („wooden coffee table”) + galeria FB.
+**Jak wyprzedzamy Bogateco i Ecofurn:** Bogateco (domki/altany) i Ecofurn nie pokazują lekkich mebli w aranżacjach „do zapisania”; my budujemy zasięg w nieobsadzonej frazie „stolik kawowy z litego drewna” i spójnych wnętrzach, a nie w katalogowych packshotach.
+Nic nie publikuję; szkice w Buffer tylko po OK Pablo.
