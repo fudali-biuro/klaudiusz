@@ -1,8 +1,8 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Składany stolik 229 zł: 4 sceny (insp-39…42)",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Składany stolik: insp-39…42 gotowe",
+ "postep": 100,
  "aktualizacja": "2026-11-16T05:39+01:00",
  "makieta": false,
  "prosby": [
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-16T05:39+01:00",
+   "stan": "gotowe",
+   "tekst": "Składany stolik: insp-39…42 gotowe"
+  },
   {
    "czas": "2026-11-16T05:39+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-06T13:49+01:00",
    "stan": "gotowe",
    "tekst": "Koparka: 3 filmy TikTok gotowe (9–12 s)"
-  },
-  {
-   "czas": "2026-11-06T13:46+01:00",
-   "stan": "pracuje",
-   "tekst": "Koparka Shanmon Fuji 388: 3 filmy TikTok z zdjęć"
   }
  ]
 }
