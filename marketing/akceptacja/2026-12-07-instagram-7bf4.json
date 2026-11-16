@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Inspiracja – Stolik Płatek – skandynawski poranek (zdjęcie 4:5)",
  "produkt": "Stolik Płatek",
- "tekst": "Skandynawski poranek ☀️ Jasne wnętrze, zielony akcent i stolik Płatek z litego dębu. Zapisz 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
+ "tekst": "Skandynawski poranek ☀️ Jasne wnętrze, zielony akcent i stolik boczny Płatek z litego dębu. Zapisz 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
  "hashtagi": "#skandynawski #stolik #wnętrza",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-37-platek-skandynawski-poranek-4x5.jpg"
@@ -15,14 +15,20 @@
  "kampania": "instagram-inspiracje",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-16T04:37:42+00:00",
- "zmieniono": "2026-11-16T04:37:42+00:00",
+ "zmieniono": "2026-11-16T04:38:22+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:37:42+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-16T04:38:22+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
