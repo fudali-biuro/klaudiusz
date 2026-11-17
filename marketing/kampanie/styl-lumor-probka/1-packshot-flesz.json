@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/produkty/2026-11-06-packshot-lezaka-w-kolorze-naturalnym-jasne-drewno-.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: Exactly ONE folding lounge chair of natural light fir wood, reproduced EXACTLY as in the reference: single long slatted backrest, low slatted seat, X-shaped legs, thick rope ties, white pillow at the top – no redesign, nothing duplicated or bent. Packshot on a seamless warm-grey studio background, direct on-camera flash from the front-left giving a crisp hard shadow on the floor to the right, chair shown full length from front-three-quarter, centred with generous empty space around. Real unedited editorial photograph, 35mm lens, visible fine wood grain, honest imperfections, no people, no text, no logos.",
+ "ai": true
+}
