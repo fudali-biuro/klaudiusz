@@ -3,7 +3,7 @@
  "strefa": "Europe/Warsaw",
  "pracownicy": {
   "konkurencja": {"godziny": ["05:05", "12:05"], "dni": "codziennie"},
-  "pozycjonowanie": {"godziny": ["05:15"], "dni": "pon"},
+  "pozycjonowanie": {"godziny": ["05:15", "12:15"], "dni": "pon-nd"},
   "slowa-kluczowe": {"godziny": ["05:20", "12:20"], "dni": "codziennie"},
   "marketing": {"godziny": ["05:35", "12:35"], "dni": "codziennie"},
   "grafika": {"godziny": [], "dni": "codziennie"},
