@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Inspiracja – Stolik boczny Płatek – salon wieczorem (zdjęcie 4:5)",
  "produkt": "Stolik boczny Płatek (850 zł)",
- "tekst": "Wieczór w salonie 🕯️ Stolik boczny Płatek z litego dębu przy sofie: kawa, książka i ciepłe światło. Zapisz inspirację 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
+ "tekst": "Drewniany stolik boczny z litego dębu 🪵 Na kawę i książkę, obok sofy w ciepły wieczór. Robimy u nas, w Głogowie Młp. Zapisz inspirację 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
  "hashtagi": "#stolik #salon #dąb",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-35-platek-salon-wieczor-4x5.jpg"
@@ -15,9 +15,9 @@
  "kampania": "instagram-inspiracje",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 2,
+ "wersja": 3,
  "utworzono": "2026-11-16T04:37:34+00:00",
- "zmieniono": "2026-11-16T04:38:29+00:00",
+ "zmieniono": "2026-11-17T13:38:11+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:37:34+00:00",
@@ -29,6 +29,12 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-17T13:38:11+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 3"
   }
  ]
 }
