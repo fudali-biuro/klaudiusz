@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Styl studio – Stolik boczny Płatek (galeria 3 zdjęcia)",
  "produkt": "Stolik boczny Płatek",
- "tekst": "Stolik boczny „Płatek” z dębu czerwonego 🪵 Blat jak płatek, biała podstawa. 850 zł.\n\n👉 https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
+ "tekst": "Drewniany stolik boczny z dębu, który wygląda jak mała rzeźba 🪵 Stolik Płatek z dębu czerwonego i białą podstawą, do kanapy i fotela. 850 zł.\n\n👉 https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/\n\n#stolikboczny #drewnianystolik #dokanapy #dąbczerwony #fudali",
  "hashtagi": "#płatek #stolik #dąb",
  "obrazy": [
   "marketing/kampanie/styl-studio-produkty/platek/1-packshot-flesz.jpg",
@@ -17,14 +17,20 @@
  "kampania": "styl-studio",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-17T13:37:28+00:00",
- "zmieniono": "2026-11-17T13:37:28+00:00",
+ "zmieniono": "2026-11-17T13:42:09+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:37:28+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:09+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
