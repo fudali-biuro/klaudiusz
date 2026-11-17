@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "Komplet 2/2 – packshot: post FB (animacja 5,5 s)",
  "produkt": "Leżak",
- "tekst": "Prosty kształt, ciepłe drewno, twardy cień 🪵 Składany leżak z jodły bieszczadzkiej, waży 10 kg i składa się na płasko.\n\n👉 https://www.fudali.com.pl/sklep/lezak-ogrodowy/\n(FB: zdjęcie z lekką animacją 5,5 s – powolny najazd kamery, prawdziwe zdjęcie, nie wideo AI.)",
+ "tekst": "Prezent z drewna, który naprawdę się przyda 🪵 Składany leżak z jodły bieszczadzkiej – waży 10 kg, składa się na płasko i czeka na pierwszy ciepły dzień.\n\n👉 https://www.fudali.com.pl/sklep/lezak-ogrodowy/\n(FB: zdjęcie z lekką animacją 5,5 s – powolny najazd kamery, prawdziwe zdjęcie, nie wideo AI.)",
  "hashtagi": "",
  "obrazy": [],
  "wideo": [
@@ -15,14 +15,20 @@
  "kampania": "ig-story-fb-probka",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-17T13:31:13+00:00",
- "zmieniono": "2026-11-17T13:31:13+00:00",
+ "zmieniono": "2026-11-17T13:38:09+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:31:13+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:38:09+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
