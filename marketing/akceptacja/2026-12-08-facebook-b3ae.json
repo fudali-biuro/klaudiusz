@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "FB galeria – Składany stolik kawowy (3 zdjęcia)",
  "produkt": "Składany stolik kawowy (229 zł)",
- "tekst": "Zimowy salon, kawa przy sofie i grzaniec przy kominku – trzy sposoby na składany stolik kawowy z litego drewna 🪵 229 zł, robimy w naszej pracowni.\n\n👉 Zobacz stolik (229 zł): https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
+ "tekst": "Składany stolik kawowy do salonu 🪵 Z litego drewna, 229 zł, robimy w naszej pracowni. Zimowy salon, kawa przy sofie i grzaniec przy kominku – trzy sposoby na jeden stolik.\n\n👉 Zobacz stolik (229 zł): https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/\n\n#stolikkawowy #meblezdrewna",
  "hashtagi": "",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-39-stolik-salon-koc-4x5.jpg",
@@ -17,14 +17,20 @@
  "kampania": "facebook-galerie",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-16T04:40:27+00:00",
- "zmieniono": "2026-11-16T04:40:27+00:00",
+ "zmieniono": "2026-11-17T13:42:29+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:40:27+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:29+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
