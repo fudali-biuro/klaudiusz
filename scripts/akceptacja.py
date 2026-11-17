@@ -16,7 +16,7 @@ import argparse, datetime, json, pathlib, re, secrets, subprocess, sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 KAT = ROOT / "marketing" / "akceptacja"
-KANALY = ["instagram", "facebook", "pinterest", "tiktok", "instagram-relacja", "etsy"]
+KANALY = ["instagram", "facebook", "pinterest", "tiktok", "instagram-relacja", "facebook-relacja", "etsy"]
 STANY = ["czeka", "ok", "popraw", "odrzucone", "w-bufferze", "opublikowane"]
 ADRES = "https://biuro-fudali.vercel.app/akceptacja.html"
 

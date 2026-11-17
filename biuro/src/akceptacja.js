@@ -1,7 +1,7 @@
 // Biuro akceptacji – Pablo przegląda posty i klika ✅ OK / ✏️ Popraw / ❌ Odrzuć; „Wyślij decyzje” → jedna wiadomość do Oli.
 (() => {
   const $ = (s, el = document) => el.querySelector(s);
-  const NAZWY_KANALOW = { instagram: "Instagram", "instagram-relacja": "IG relacja", facebook: "Facebook", pinterest: "Pinterest", tiktok: "TikTok", etsy: "Etsy" };
+  const NAZWY_KANALOW = { instagram: "Instagram", "instagram-relacja": "IG relacja", facebook: "Facebook", "facebook-relacja": "FB relacja", pinterest: "Pinterest", tiktok: "TikTok", etsy: "Etsy" };
   const STANY = { czeka: "🕐 czeka na Ciebie", ok: "✅ zatwierdzony", popraw: "✏️ w poprawkach", odrzucone: "❌ odrzucony", "w-bufferze": "📤 szkic w Bufferze", opublikowane: "🌍 opublikowany" };
   let posty = [], decyzje = {}, filtrStan = "czeka", filtrKanal = "", filtrKampania = "";
 

@@ -18,7 +18,7 @@ a.chip { color: var(--tekst); text-decoration: none; }
 .post .naglowek { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 8px 10px; border-bottom: 1px solid var(--linia); font-size: 12px; color: var(--tekst2); }
 .kanal { font-weight: 700; color: #1a120c; padding: 2px 7px; font-size: 12px; }
 .k-instagram, .k-instagram-relacja { background: #e1306c; color: #fff; }
-.k-facebook { background: #1877f2; color: #fff; }
+.k-facebook, .k-facebook-relacja { background: #1877f2; color: #fff; }
 .k-pinterest { background: #e60023; color: #fff; }
 .k-tiktok { background: #fff; }
 .k-etsy { background: #f56400; color: #fff; }
