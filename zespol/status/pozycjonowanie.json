@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
- "stan": "pracuje",
- "zadanie": "Korekta tekstów postów (pracownia tekstu)",
- "postep": null,
- "aktualizacja": "2026-11-17T14:40+01:00",
+ "stan": "gotowe",
+ "zadanie": "Korekta: galerie FB + styl studio IG – marketing/teksty/2026-11-17-galerie-fb-i-studio.md",
+ "postep": 100,
+ "aktualizacja": "2026-11-17T14:41+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-17T14:41+01:00",
+   "stan": "gotowe",
+   "tekst": "Korekta: galerie FB + styl studio IG – marketing/teksty/2026-11-17-galerie-fb-i-studio.md"
+  },
   {
    "czas": "2026-11-17T14:40+01:00",
    "stan": "pracuje",
