@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
  "stan": "gotowe",
- "zadanie": "Korekta: galerie FB + styl studio IG – marketing/teksty/2026-11-17-galerie-fb-i-studio.md",
+ "zadanie": "Korekta: styl studio IG (marketing/teksty/2026-11-17-styl-studio.md)",
  "postep": 100,
- "aktualizacja": "2026-11-17T14:41+01:00",
+ "aktualizacja": "2026-11-17T14:42+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-17T14:42+01:00",
+   "stan": "gotowe",
+   "tekst": "Korekta: styl studio IG (marketing/teksty/2026-11-17-styl-studio.md)"
+  },
   {
    "czas": "2026-11-17T14:41+01:00",
    "stan": "gotowe",
