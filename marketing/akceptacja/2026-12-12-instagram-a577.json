@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Inspiracja – Stolik kawowy: Przy kominku (zdjęcie 4:5)",
  "produkt": "Składany stolik kawowy (229 zł)",
- "tekst": "Grzaniec i klementynki przy kominku 🔥 Składany stolik kawowy z litego drewna. Zapisz inspirację 📌\n\n👉 Zobacz stolik (229 zł): https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
+ "tekst": "Pomysł na prezent: składany stolik kawowy z litego drewna 🔥 Grzaniec przy kominku i stolik, który po wieczorze składasz. 229 zł. Zapisz na Mikołajki 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
  "hashtagi": "#kominek #grzaniec #stolikkawowy",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-42-stolik-kominek-4x5.jpg"
@@ -15,14 +15,20 @@
  "kampania": "instagram-inspiracje",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-16T04:40:25+00:00",
- "zmieniono": "2026-11-16T04:40:25+00:00",
+ "zmieniono": "2026-11-17T13:39:00+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:40:25+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:39:00+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
