@@ -13,11 +13,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "pinterest-inspiracje",
- "stan": "ok",
- "komentarz": "",
+ "stan": "w-bufferze",
+ "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)",
  "wersja": 2,
  "utworzono": "2026-11-16T04:37:44+00:00",
- "zmieniono": "2026-11-17T13:45:42+00:00",
+ "zmieniono": "2026-11-17T13:54:35+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:37:44+00:00",
@@ -34,6 +34,12 @@
    "czas": "2026-11-17T13:45:42+00:00",
    "kto": "pablo",
    "stan": "ok"
+  },
+  {
+   "czas": "2026-11-17T13:54:35+00:00",
+   "kto": "pablo",
+   "stan": "w-bufferze",
+   "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)"
   }
  ]
 }

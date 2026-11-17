@@ -15,11 +15,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "styl-studio",
- "stan": "ok",
- "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2",
+ "stan": "w-bufferze",
+ "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
  "wersja": 2,
  "utworzono": "2026-11-17T13:37:28+00:00",
- "zmieniono": "2026-11-17T13:45:49+00:00",
+ "zmieniono": "2026-11-17T13:54:35+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:37:28+00:00",
@@ -42,6 +42,12 @@
    "kto": "pablo",
    "stan": "ok",
    "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
+  },
+  {
+   "czas": "2026-11-17T13:54:35+00:00",
+   "kto": "pablo",
+   "stan": "w-bufferze",
+   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
   }
  ]
 }

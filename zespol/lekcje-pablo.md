@@ -93,3 +93,4 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     (pisownia, przecinki, SEO, alt) → Ola → biblioteka. Pracujecie nad tekstem razem i od razu (send_message w łańcuchu),
     nie „raz na jakiś czas”. Brak pomysłu → wołajcie Bartka/Kubę. Klaudiusz sprawdza każde zdjęcie + tekst z Olą.
     Popraw z dopiskiem „[zdjęcie OK, tekst do zmiany]” = zmieniamy tylko tekst.
+29. **Wniosek z decyzji 17.11 (Pablo: 12 ✅, 40 ❌):** zimowe inspiracje (werandy, lofty, wnętrza z leżakiem w zimie) prawie wszystkie ❌; ✅ dostały **styl studio** (packshoty flesz/twardy cień + makro: stołki, otwieracz, stolik składany, Płatek), packshot leżaka, dwa pomosty (szron/śnieg), piny z Płatkiem i koparką. Kierunek: mniej „nastrojowych wnętrz AI”, więcej czystych packshotów i makro prawdziwych produktów + kilka pewnych scen (jezioro). Nowe inspiracje zimowe – nie robić na zapas.
