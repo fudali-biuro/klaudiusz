@@ -87,3 +87,9 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     hasztagi, czy post wypromuje firmę w wyszukiwaniach). To nie jest „raz na zmianę” – siedzimy nad tekstem, aż będzie dobry.
     **Tekst ma się podobać Pablo.** Jeśli tekst się nie podoba – nawet przy dobrym zdjęciu – wraca do poprawy. Do biblioteki akceptacji
     trafia dopiero komplet: grafika + tekst po przejściu Ola → Kuba → (Bartek). Pablo potwierdza podwójnie, gdy wszystko OK.
+28. **Tekst jest tak samo ważny jak zdjęcie** (Pablo 17.11: „zdjęcie może mi się podobać, ale tekst będzie do zmiany”).
+    Pablo zatwierdza PODWÓJNIE: 🖼️ Zdjęcie OK + ✍️ Tekst OK (przyciski w bibliotece). Każdy tekst przechodzi przez
+    **pracownię tekstu** (`marketing/teksty/README.md`): Zosia → Ola (hak, korzyść, CTA) → Kuba (frazy, hashtagi) → Bartek
+    (pisownia, przecinki, SEO, alt) → Ola → biblioteka. Pracujecie nad tekstem razem i od razu (send_message w łańcuchu),
+    nie „raz na jakiś czas”. Brak pomysłu → wołajcie Bartka/Kubę. Klaudiusz sprawdza każde zdjęcie + tekst z Olą.
+    Popraw z dopiskiem „[zdjęcie OK, tekst do zmiany]” = zmieniamy tylko tekst.

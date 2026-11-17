@@ -43,7 +43,8 @@
       ${p.stan !== "czeka" && p.komentarz ? `<p class="notka">Twój komentarz: ${esc(p.komentarz)}</p>` : ""}
       ${p.stan === "czeka" ? `<div class="decyzja">
         <div class="przyciski">
-          <button type="button" class="b-ok ${d?.decyzja === "ok" ? "on" : ""}" data-d="ok">✅ OK</button>
+          <button type="button" class="b-ok b-czesc ${czesci(p).zdjecie ? "on" : ""}" data-c="zdjecie">🖼️ Zdjęcie OK</button>
+          <button type="button" class="b-ok b-czesc ${czesci(p).tekst ? "on" : ""}" data-c="tekst">✍️ Tekst OK</button>
           <button type="button" class="b-popraw ${d?.decyzja === "popraw" ? "on" : ""}" data-d="popraw">✏️ Popraw</button>
           <button type="button" class="b-odrzucone ${d?.decyzja === "odrzucone" ? "on" : ""}" data-d="odrzucone">❌ Odrzuć</button>
         </div>
@@ -53,15 +54,31 @@
     el.querySelector(".wiecej").onclick = (e) => { const t = el.querySelector(".tekst"); t.classList.toggle("rozwin"); e.target.textContent = t.classList.contains("rozwin") ? "zwiń" : "pokaż cały tekst"; };
     el.querySelectorAll(".galeria img").forEach((img) => (img.onclick = () => { const pg = $("#lupa"); pg.querySelector("img").src = img.src; pg.hidden = false; }));
     const ta = el.querySelector("textarea");
-    el.querySelectorAll(".przyciski button").forEach((b) => (b.onclick = () => {
+    // podwójne zatwierdzenie (Pablo 17.11): osobno zdjęcie i osobno tekst – OK dopiero, gdy oba zaznaczone
+    el.querySelectorAll(".przyciski [data-c]").forEach((b) => (b.onclick = () => {
+      const c = { ...czesci(p) }; c[b.dataset.c] = !c[b.dataset.c]; ustawCzesci(p, c);
+      if (c.zdjecie && c.tekst) return zapisz(p, "ok", ta.value);
+      if (decyzjaDla(p)?.decyzja === "ok") return zapisz(p, "", ta.value);
+      rysuj(); if (c.zdjecie || c.tekst) toast(c.zdjecie ? "Zdjęcie OK ✔ – zaznacz też tekst albo kliknij Popraw" : "Tekst OK ✔ – zaznacz też zdjęcie albo kliknij Popraw");
+    }));
+    el.querySelectorAll(".przyciski [data-d]").forEach((b) => (b.onclick = () => {
       const nowa = decyzjaDla(p)?.decyzja === b.dataset.d ? "" : b.dataset.d;
       if (nowa === "popraw" && !ta.value.trim()) { ta.focus(); toast("Napisz w komentarzu, co poprawić 🙂"); }
-      zapisz(p, nowa, ta.value);
+      const c = czesci(p);
+      const dopisek = nowa === "popraw" && (c.zdjecie || c.tekst) ? `[${c.zdjecie ? "zdjęcie OK" : "zdjęcie do zmiany"}, ${c.tekst ? "tekst OK" : "tekst do zmiany"}] ` : "";
+      zapisz(p, nowa, dopisek && !ta.value.startsWith("[") ? dopisek + ta.value : ta.value);
     }));
     // komentarz: zapis od razu tylko, gdy decyzja już jest; inaczej idzie razem z kliknięciem przycisku
     if (ta) ta.onchange = () => { const d2 = decyzjaDla(p); if (d2) setTimeout(() => zapisz(p, decyzjaDla(p)?.decyzja || d2.decyzja, ta.value), 150); };
     return el;
   }
+
+  // stan „zdjęcie OK / tekst OK” przed pełną decyzją – lokalnie w przeglądarce (decyzja OK zapisuje się dopiero przy obu)
+  function czesci(p) {
+    const d = decyzjaDla(p); if (d?.decyzja === "ok") return { zdjecie: true, tekst: true };
+    try { return JSON.parse(localStorage.getItem("czesci:" + p.id + ":" + (p.wersja || 1))) || {}; } catch { return {}; }
+  }
+  function ustawCzesci(p, c) { try { localStorage.setItem("czesci:" + p.id + ":" + (p.wersja || 1), JSON.stringify(c)); } catch { /* bez pamięci */ } }
 
   async function zapisz(p, decyzja, komentarz) {
     try {

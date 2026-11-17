@@ -37,7 +37,7 @@ a.chip { color: var(--tekst); text-decoration: none; }
 .notka { margin: 6px 10px 0; font-size: 12px; color: #e3b341; }
 
 .decyzja { margin-top: auto; padding: 10px; border-top: 1px solid var(--linia); display: grid; gap: 8px; }
-.przyciski { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 6px; }
+.przyciski { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .przyciski button { padding: 9px 4px; border: 2px solid var(--linia); background: var(--karta2); cursor: pointer; font-weight: 600; font-size: 14px; }
 .przyciski .b-ok.on { background: #1f6f33; border-color: #3fb950; }
 .przyciski .b-popraw.on { background: #6b4f12; border-color: #e3b341; }

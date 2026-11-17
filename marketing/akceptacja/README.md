@@ -2,7 +2,8 @@
 
 **Strona:** https://biuro-fudali.vercel.app/akceptacja.html (w biurze przycisk „✅ Akceptacja postów”).
 **Zasada:** KAŻDY gotowy post (IG, FB, Pinterest, TikTok, relacje) trafia tutaj – nie do czatu, nie jako prośba w statusie.
-Pablo przegląda bibliotekę w swoim tempie i przy każdym poście klika **✅ OK / ✏️ Popraw (+komentarz) / ❌ Odrzuć**,
+Pablo przegląda bibliotekę w swoim tempie i przy każdym poście klika **🖼️ Zdjęcie OK + ✍️ Tekst OK** (oba = OK) / **✏️ Popraw (+komentarz)** / **❌ Odrzuć**
+(od 17.11 podwójne zatwierdzanie; Popraw z dopiskiem „[zdjęcie OK, tekst do zmiany]” = poprawiamy tylko tekst; teksty przechodzą przez `marketing/teksty/README.md`),
 potem „📨 Wyślij decyzje” → jedna wiadomość do Oli.
 
 ## Obieg
