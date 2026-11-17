@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "FB galeria – Balkon w mieście (3 zdjęcia)",
  "produkt": "Leżak",
- "tekst": "Masz tylko balkon? To w zupełności wystarczy 🌆 Rano kawa, wieczorem lampka – leżak składa się na płasko, więc nie zabiera miejsca.\n\n👉 Zobacz leżak: https://www.fudali.com.pl/sklep/lezak-ogrodowy/",
+ "tekst": "Drewniany leżak na balkon 🌆 Masz tylko balkon? To w zupełności wystarczy: rano kawa, wieczorem lampka, a leżak składa się na płasko i nie zabiera miejsca.\n\n👉 Zobacz leżak: https://www.fudali.com.pl/sklep/lezak-ogrodowy/\n\n#leżakdrewniany #meblezdrewna #fudali",
  "hashtagi": "",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-11-balkon-wieczor-4x5.jpg",
@@ -17,14 +17,20 @@
  "kampania": "facebook-galerie",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-07T09:22:57+00:00",
- "zmieniono": "2026-11-07T09:22:57+00:00",
+ "zmieniono": "2026-11-17T13:42:26+00:00",
  "historia": [
   {
    "czas": "2026-11-07T09:22:57+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:26+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
