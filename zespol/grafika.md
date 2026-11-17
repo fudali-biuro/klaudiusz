@@ -88,3 +88,7 @@ Seria ma być spójna: te same kolory (zieleń/krem/złoto/czerwień), logo w ro
 ## Zasada jakości od 15.11.2026 (lekcja Pablo 25, `marketing/wiedza/lumor-ai.md`)
 Grafika = sesja marki premium, nie „ulotka AI”: na obrazku najwyżej jedno krótkie hasło (2–4 słowa) albo nic; zero odznak, ikonek i list zalet (to idzie do opisu posta);
 dużo powietrza, jeden krój, kolory marki. Test „super / okej / źle” – do Oli oddaję tylko „super”.
+
+## Decyzja Pablo o próbce lumor (17.11.2026, lekcja 27)
+✅ packshot z fleszem, ✅ packshot twardy cień, ✅ makro z liną. ❌ makro w złotym promieniu („zbyt perfekcyjne”), ❌ balkon, ❌ wieczór z książką.
+**Kierunek:** studyjne, surowe ujęcia produktu – flesz, twardy cień, szare/dzienne światło, tło studyjne; bez złotej godziny i wystylizowanych scenek lifestyle. Nic nie generować bez zlecenia; czekamy na OK Pablo dla kompletu IG/relacja/FB z packshotu.

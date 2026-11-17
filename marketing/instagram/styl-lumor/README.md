@@ -8,3 +8,5 @@ Z próbki `marketing/kampanie/styl-lumor-probka/`. Bez napisów; w 9:16 u góry 
 | `packshot-twardy-cien-9x16.jpg` | 1080×1920 | relacja IG / FB (ten sam kadr rozszerzony w pionie) |
 Kopie 9:16 są też w `marketing/kampanie/styl-lumor-probka/` jako `5-lifestyle-balkon-kawa-9x16.jpg` i `2-packshot-twardy-cien-9x16.jpg`.
 Ujęcie 6 (wieczór z książką) zostaje tylko w próbce – do poprawy (ramka, bryła siedziska).
+
+**Decyzja Pablo 17.11 (lekcja 27):** packshot ✅; balkon-kawa ❌ (odrzucony – nie używać). Kierunek: studyjne, surowe ujęcia (flesz, twardy cień, szare/dzienne światło), bez złotej godziny i wystylizowanych scenek.
