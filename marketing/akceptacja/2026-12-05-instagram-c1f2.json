@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Inspiracja – Stolik kawowy: Kawa przy sofie (zdjęcie 4:5)",
  "produkt": "Składany stolik kawowy (229 zł)",
- "tekst": "Poranna kawa przy sofie 🥐 Składany stolik kawowy z litego drewna – zmieści się wszędzie. Zapisz 📌\n\n👉 Zobacz stolik (229 zł): https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
+ "tekst": "Kawa przy sofie na składanym stoliku z litego drewna ☕ Rozkładasz, gdy go potrzebujesz – składasz, gdy nie. 229 zł. Zapisz 📌\n\n👉 Zobacz stolik: https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/",
  "hashtagi": "#stolikkawowy #kawa #wnętrza",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-40-stolik-sofa-kawa-4x5.jpg"
@@ -15,14 +15,20 @@
  "kampania": "instagram-inspiracje",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-16T04:40:21+00:00",
- "zmieniono": "2026-11-16T04:40:21+00:00",
+ "zmieniono": "2026-11-17T13:38:56+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:40:21+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:38:56+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
