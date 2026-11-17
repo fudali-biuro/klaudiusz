@@ -40,7 +40,7 @@ Dane: podpowiedzi Google PL 17.11 + zasięg Trends 16.11 (szczegóły: `marketin
 ### 1. Stołki
 - „stołki stapelowane” = **puste** (Google nic nie podpowiada). Ludzie wpisują **„stołki drewniane”** (do kuchni, do salonu, olx) i „stołek drewniany”.
 - Propozycja zdania 1: **„Stołki drewniane z dębu, które chowają się w jedną wieżę.”** (wariant A Oli z frazą z przodu). „Stapelowane” zostaje w alt-tekście i dalszej części.
-- Hasztagi: szerokie `#meblezdrewna #stołkidrewniane #wnętrza` · niszowe `#dąbczerwony #stołkistapelowane #małemieszkanie #fudali`.
+- Hasztagi: szerokie `#meblezdrewna #stołkidrewniane #wnętrza` · niszowe `#dąbczerwony #stołkisztaplowane #małemieszkanie #fudali`.
 
 ### 2. Podkładka (bez ceny)
 - „podkładka pod kubek” istnieje, ale Google kojarzy ją z szydełkiem; „drewniana” = **puste**. Nie wciskać frazy na siłę – hak z obrazem Oli jest lepszy.
