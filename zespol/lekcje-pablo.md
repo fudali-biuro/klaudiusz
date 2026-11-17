@@ -65,3 +65,5 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 25. **Wskazówki lumor.ai (Pablo 15.11)** – `marketing/wiedza/lumor-ai.md`: AI do zdjęć tak, ale efekt jak sesja marki premium,
     nie jak „ulotka AI”. Na grafice najwyżej jedno krótkie hasło, zero odznak/ikonek/list zalet; test „super / okej / źle” –
     oddajemy tylko „super”.
+    17.11 (karuzela „prompty”): przed promptem 3 decyzje – cel ujęcia (packshot / tekstura / lifestyle), spójność z kampanią
+    (produkt 1:1), światło (skąd i co podkreśla). Odpuść perfekcję (flesz, twardy cień, krzywy kadr), pokaż rytuał, nie opakowanie.
