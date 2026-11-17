@@ -17,9 +17,9 @@
  "kampania": "facebook-galerie",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 3,
+ "wersja": 4,
  "utworzono": "2026-11-16T04:37:49+00:00",
- "zmieniono": "2026-11-17T13:42:32+00:00",
+ "zmieniono": "2026-11-17T13:42:51+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:37:49+00:00",
@@ -37,6 +37,12 @@
    "kto": "Ola (sprawdzili: Kuba, Bartek)",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 3"
+  },
+  {
+   "czas": "2026-11-17T13:42:51+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 4"
   }
  ]
 }
