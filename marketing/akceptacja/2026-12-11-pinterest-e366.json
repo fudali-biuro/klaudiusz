@@ -1,45 +1,45 @@
 {
- "id": "2026-12-11-pinterest-e366",
- "kanal": "pinterest",
- "data": "2026-12-11",
- "godzina": "19:00",
- "tytul": "Pin: Herringbone Floor Interior – Oak Clover Side Table",
- "produkt": "Stolik boczny Płatek (850 zł)",
- "tekst": "Herringbone floor interior with plants, a candle and a handmade solid oak clover side table. https://www.etsy.com/listing/1821779072",
- "hashtagi": "#parkiet #stolik #świeca",
- "obrazy": [
-  "marketing/instagram/inspiracje/insp-38-platek-jodelka-swieca-2x3.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "pinterest-inspiracje",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)",
- "wersja": 2,
- "utworzono": "2026-11-16T04:37:48+00:00",
- "zmieniono": "2026-11-17T13:54:36+00:00",
- "historia": [
-  {
-   "czas": "2026-11-16T04:37:48+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-16T04:38:24+00:00",
-   "kto": "marketing",
-   "stan": "czeka",
-   "komentarz": "poprawiona wersja 2"
-  },
-  {
-   "czas": "2026-11-17T13:45:40+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:54:36+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)"
-  }
- ]
+  "id": "2026-12-11-pinterest-e366",
+  "kanal": "pinterest",
+  "data": "2026-12-11",
+  "godzina": "19:00",
+  "tytul": "Pin: Herringbone Floor Interior – Oak Clover Side Table",
+  "produkt": "Stolik boczny Płatek (850 zł)",
+  "tekst": "Herringbone floor interior with plants, a candle and a handmade solid oak clover side table. https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/",
+  "hashtagi": "#parkiet #stolik #świeca",
+  "obrazy": [
+    "marketing/instagram/inspiracje/insp-38-platek-jodelka-swieca-2x3.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "pinterest-inspiracje",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)",
+  "wersja": 2,
+  "utworzono": "2026-11-16T04:37:48+00:00",
+  "zmieniono": "2026-11-17T13:54:36+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-16T04:37:48+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-16T04:38:24+00:00",
+      "kto": "marketing",
+      "stan": "czeka",
+      "komentarz": "poprawiona wersja 2"
+    },
+    {
+      "czas": "2026-11-17T13:45:40+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:54:36+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 – bez tablicy (brak tablicy na meble; Pablo musi założyć)"
+    }
+  ]
 }
