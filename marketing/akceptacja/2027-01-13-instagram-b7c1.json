@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Styl studio – Zestaw stołków stapelowanych (galeria 3 zdjęcia)",
  "produkt": "Zestaw stołków stapelowanych",
- "tekst": "Zestaw stołków stapelowanych z wózkiem 🪵 Dąb czerwony, robione u nas. Składają się w wieżę i jeżdżą na kółkach. 1 200 zł.\n\n👉 https://www.fudali.com.pl/sklep/zestaw-stolkow-stapelowanych-z-wozkiem/",
+ "tekst": "Stołki drewniane z dębu czerwonego, które wsuwają się jeden w drugi 🪵 Gdy goście wychodzą, wtaczasz je na wózku w kąt. Wózek w zestawie, robimy je u nas. 1 200 zł.\n\n👉 https://www.fudali.com.pl/sklep/zestaw-stolkow-stapelowanych-z-wozkiem/\n\n#stołkidrewniane #meblezdrewna #dąbczerwony #małemieszkanie #fudali",
  "hashtagi": "#stołki #dąb #meble",
  "obrazy": [
   "marketing/kampanie/styl-studio-produkty/stolki/1-packshot-flesz.jpg",
@@ -17,14 +17,20 @@
  "kampania": "styl-studio",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-17T13:37:19+00:00",
- "zmieniono": "2026-11-17T13:37:19+00:00",
+ "zmieniono": "2026-11-17T13:42:02+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:37:19+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:02+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
