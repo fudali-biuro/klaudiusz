@@ -15,11 +15,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "styl-studio",
- "stan": "czeka",
+ "stan": "ok",
  "komentarz": "",
  "wersja": 2,
  "utworzono": "2026-11-17T13:37:28+00:00",
- "zmieniono": "2026-11-17T13:42:09+00:00",
+ "zmieniono": "2026-11-17T13:45:40+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:37:28+00:00",
@@ -31,6 +31,11 @@
    "kto": "Ola (sprawdzili: Kuba, Bartek)",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-17T13:45:40+00:00",
+   "kto": "pablo",
+   "stan": "ok"
   }
  ]
 }

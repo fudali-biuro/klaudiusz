@@ -15,11 +15,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "facebook-galerie",
- "stan": "czeka",
+ "stan": "odrzucone",
  "komentarz": "",
  "wersja": 3,
  "utworzono": "2026-11-16T04:40:27+00:00",
- "zmieniono": "2026-11-17T13:42:49+00:00",
+ "zmieniono": "2026-11-17T13:45:41+00:00",
  "historia": [
   {
    "czas": "2026-11-16T04:40:27+00:00",
@@ -37,6 +37,11 @@
    "kto": "Ola (sprawdzili: Kuba, Bartek)",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 3"
+  },
+  {
+   "czas": "2026-11-17T13:45:41+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone"
   }
  ]
 }
