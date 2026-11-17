@@ -13,16 +13,22 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "ig-story-fb-probka",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "odrzucone",
+ "komentarz": "Pablo 17.11: z próbki stylu podobają się tylko 1–3 (packshoty + makro z liną); balkon odrzucony",
  "wersja": 1,
  "utworzono": "2026-11-17T13:31:01+00:00",
- "zmieniono": "2026-11-17T13:31:01+00:00",
+ "zmieniono": "2026-11-17T13:33:42+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:31:01+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:33:42+00:00",
+   "kto": "pablo",
+   "stan": "odrzucone",
+   "komentarz": "Pablo 17.11: z próbki stylu podobają się tylko 1–3 (packshoty + makro z liną); balkon odrzucony"
   }
  ]
 }

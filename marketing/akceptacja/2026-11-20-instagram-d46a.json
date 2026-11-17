@@ -21,11 +21,11 @@
  "wideo": [],
  "autor": "marketing",
  "kampania": "styl-lumor-probka",
- "stan": "czeka",
- "komentarz": "",
+ "stan": "ok",
+ "komentarz": "Podobają się 1, 2, 3 (packshot flesz, packshot twardy cień, makro z liną). 4 zbyt perfekcyjne – odrzucam. Reszta (balkon, wieczór) odrzucona.",
  "wersja": 2,
  "utworzono": "2026-11-17T13:28:04+00:00",
- "zmieniono": "2026-11-17T13:28:35+00:00",
+ "zmieniono": "2026-11-17T13:33:50+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:28:04+00:00",
@@ -37,6 +37,12 @@
    "kto": "marketing",
    "stan": "czeka",
    "komentarz": "poprawiona wersja 2"
+  },
+  {
+   "czas": "2026-11-17T13:33:50+00:00",
+   "kto": "pablo",
+   "stan": "ok",
+   "komentarz": "Podobają się 1, 2, 3 (packshot flesz, packshot twardy cień, makro z liną). 4 zbyt perfekcyjne – odrzucam. Reszta (balkon, wieczór) odrzucona."
   }
  ]
 }

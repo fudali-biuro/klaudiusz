@@ -75,3 +75,7 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     5–6 s, delikatny obrót/przybliżenie (ffmpeg z prawdziwego zdjęcia – to NIE jest wideo AI). Zgoda na relacje/FB = OK posta IG
     (osobno nie pytamy). **Start: najpierw 2 próbki do wglądu w bibliotece** (najlepsze ujęcia w nowym stylu lumor.ai, pkt 25) –
     po OK Pablo robimy tak z każdym postem. Nie robić 15–20 na zapas.
+27. **Próbka stylu lumor – decyzja Pablo (17.11):** ✅ packshot z fleszem, ✅ packshot z twardym cieniem na studyjnym tle, ✅ surowe makro
+    z liną (szare, dzienne światło). ❌ makro w ciepłym złotym promieniu – „zbyt perfekcyjne”. ❌ lifestyle (balkon z kawą, wieczór z książką).
+    Kierunek: **studyjne, surowe, „fotograficzne” ujęcia produktu**, bez złotego światła i bez wystylizowanych scenek.
+    Komplet IG+relacja+FB robimy na packshocie (komplet 2), balkon odrzucony.
