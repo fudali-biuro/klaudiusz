@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "FB galeria – Święta z leżakiem (2 zdjęcia)",
  "produkt": "Leżak",
- "tekst": "Choinka, kominek i świąteczna weranda 🎄 Składany leżak z jodły to prezent, który posłuży przez całe lato.\n\n👉 Zobacz leżak: https://www.fudali.com.pl/sklep/lezak-ogrodowy/",
+ "tekst": "Drewniany prezent pod choinkę 🎄 Składany leżak z jodły posłuży przez całe lato, a zimą świetnie wygląda przy choince i kominku.\n\n👉 Zobacz leżak: https://www.fudali.com.pl/sklep/lezak-ogrodowy/\n\n#prezentpodchoinkę #drewnianyprezent #leżakdrewniany",
  "hashtagi": "",
  "obrazy": [
   "marketing/instagram/inspiracje/insp-13-swieta-choinka-4x5.jpg",
@@ -16,14 +16,20 @@
  "kampania": "facebook-galerie",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-07T09:23:04+00:00",
- "zmieniono": "2026-11-07T09:23:04+00:00",
+ "zmieniono": "2026-11-17T13:42:23+00:00",
  "historia": [
   {
    "czas": "2026-11-07T09:23:04+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:23+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
