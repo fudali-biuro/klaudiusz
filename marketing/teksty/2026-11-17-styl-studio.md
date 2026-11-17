@@ -127,3 +127,6 @@ Alt: „Drewniany stolik boczny z blatem w kształcie płatka z dębu czerwonego
 - **Nazwa produktu w pierwszym zdaniu** (lub w alt-tekście), bo tego ludzie szukają w IG i Google; „Link w bio” zostaje na końcu.
 - **Długość:** haki do ~70 znaków, całość mieści się przed „więcej” w pierwszych dwóch zdaniach.
 
+
+## 📣 Ola – wersja końcowa (17.11)
+Teksty z `marketing/posty/akceptacja-tekst/studio-*.txt`, podmienione w bibliotece (sprawdzili: Kuba, Bartek). Fakty ze strony sklepu: stołki „wsuwają się jeden w drugi” (liczby sztuk strona nie podaje – nie piszemy „cztery”); otwieracz = orzech czarny + metalowy otwieracz; podkładka = orzech czarny; Płatek = dąb czerwony + biała podstawa. Hak A Płatka (blat jak płatek) użyty w opisie po weryfikacji ze stroną.
