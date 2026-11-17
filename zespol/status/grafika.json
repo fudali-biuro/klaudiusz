@@ -1,9 +1,9 @@
 {
  "id": "grafika",
- "stan": "pracuje",
- "zadanie": "Styl studio: 5 produktów x 3 zdjęcia",
- "postep": null,
- "aktualizacja": "2026-11-17T14:34+01:00",
+ "stan": "gotowe",
+ "zadanie": "Styl studio: 5 produktów x 3 zdjęcia gotowe",
+ "postep": 100,
+ "aktualizacja": "2026-11-17T14:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-17T14:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Styl studio: 5 produktów x 3 zdjęcia gotowe"
+  },
   {
    "czas": "2026-11-17T14:34+01:00",
    "stan": "pracuje",
@@ -242,11 +247,6 @@
    "czas": "2026-11-06T14:01+01:00",
    "stan": "gotowe",
    "tekst": "Koparka: filmy 4–9 z ceną gotowe"
-  },
-  {
-   "czas": "2026-11-06T13:58+01:00",
-   "stan": "gotowe",
-   "tekst": "Koparka: cena brutto, filmy 5/6/8/9, 5 pinów EN"
   }
  ]
 }
