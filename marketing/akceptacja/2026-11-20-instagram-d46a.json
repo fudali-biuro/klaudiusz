@@ -5,7 +5,7 @@
  "godzina": "12:00",
  "tytul": "Próbka stylu (lumor.ai): nowy styl vs stary – 6 + 3 zdjęcia leżaka",
  "produkt": "Leżak",
- "tekst": "PRÓBKA NOWEGO STYLU ZDJĘĆ (wg wskazówek lumor.ai) – do oceny, nie do publikacji.\nZdjęcia 1–6 = nowy styl, 7–9 = stary styl do porównania. Zdjęcia są generowane na prawdziwym zdjęciu naszego leżaka, bez napisów i cen.\n1–2 PACKSHOT: czyste tło, 1 = flesz z przodu i ostry cień, 2 = twardy boczny promień i długie cienie listewek.\n3–4 TEKSTURA: makro – połączenie i węzeł liny (3), krawędzie listewek w promieniu światła (4).\n5–6 LIFESTYLE: poranna kawa na balkonie w chmurny dzień (5), wieczór z książką z twardym światłem lampy i lekko krzywym kadrem z ręki (6).\n7–9 STARY STYL: packshot na białym tle (7), makro fotografa (8), nasza dotychczasowa inspiracja „balkon rano” ze złotym światłem (9).\nPytanie do Pablo: który kierunek – nowy czy stary? Co zostawić, co zmienić?",
+ "tekst": "PRÓBKA NOWEGO STYLU ZDJĘĆ (wg wskazówek lumor.ai) – do oceny, nie do publikacji.\nZdjęcia 1–6 = nowy styl, 7–9 = stary styl do porównania. Zdjęcia są generowane na prawdziwym zdjęciu naszego leżaka, bez napisów i cen.\n1–2 PACKSHOT: czyste tło, 1 = flesz z przodu i ostry cień, 2 = twardy boczny promień i długie cienie listewek.\n3–4 TEKSTURA: makro – połączenie i węzeł liny (3), krawędzie listewek w promieniu światła (4).\n5–6 LIFESTYLE: poranna kawa na balkonie w chmurny dzień (5), wieczór z książką z twardym światłem lampy i lekko krzywym kadrem z ręki (6 – DO POPRAWY: biała ramka i dziwna bryła siedziska).\n7–9 STARY STYL: packshot na białym tle (7), makro fotografa (8), nasza dotychczasowa inspiracja „balkon rano” ze złotym światłem (9).\nPytanie do Pablo: który kierunek – nowy czy stary? Co zostawić, co zmienić?",
  "hashtagi": "#próbka",
  "obrazy": [
   "marketing/kampanie/styl-lumor-probka/1-packshot-flesz.jpg",
@@ -23,14 +23,20 @@
  "kampania": "styl-lumor-probka",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-17T13:28:04+00:00",
- "zmieniono": "2026-11-17T13:28:04+00:00",
+ "zmieniono": "2026-11-17T13:28:35+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:28:04+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:28:35+00:00",
+   "kto": "marketing",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
