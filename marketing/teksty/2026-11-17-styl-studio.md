@@ -35,7 +35,38 @@ Alt: „Stolik boczny z blatem w kształcie płatka z dębu czerwonego na białe
 Uwaga: Płatek to stolik BOCZNY – nie pisać „kawowy”.
 
 ## 🔑 Kuba
-(czeka)
+Dane: podpowiedzi Google PL 17.11 + zasięg Trends 16.11 (szczegóły: `marketing/posty/uwagi-kuby-frazy-2026-11-17-b.md`). Reguła: fraza w pierwszych ~5 słowach (tylko to widać przed „więcej”), hak Oli zostaje jako drugie zdanie lub wariant, gdzie fraza go nie psuje.
+
+### 1. Stołki
+- „stołki stapelowane” = **puste** (Google nic nie podpowiada). Ludzie wpisują **„stołki drewniane”** (do kuchni, do salonu, olx) i „stołek drewniany”.
+- Propozycja zdania 1: **„Stołki drewniane z dębu, które chowają się w jedną wieżę.”** (wariant A Oli z frazą z przodu). „Stapelowane” zostaje w alt-tekście i dalszej części.
+- Hasztagi: szerokie `#meblezdrewna #stołkidrewniane #wnętrza` · niszowe `#dąbczerwony #stołkistapelowane #małemieszkanie #fudali`.
+
+### 2. Podkładka (bez ceny)
+- „podkładka pod kubek” istnieje, ale Google kojarzy ją z szydełkiem; „drewniana” = **puste**. Nie wciskać frazy na siłę – hak z obrazem Oli jest lepszy.
+- Zdanie 1: wariant A Oli („Każda ma inny rysunek słojów…”); w zdaniu 2 dopisać **„podkładka pod kubek z orzecha czarnego”**.
+- Hasztagi: szerokie `#drewnianedodatki #rękodzieło #wnętrza` · niszowe `#podkładkapodkubek #orzechczarny #słoje #fudali`.
+
+### 3. Otwieracz „Kot”
+- „otwieracz do butelek drewniany” = **puste**. Ma za to podpowiedzi **„drewniany prezent dla faceta / dla męża”** (sezon: Mikołajki, święta).
+- Zdanie 1: wariant A Oli lekko z frazą: **„Mały drewniany prezent dla faceta, który naprawdę się przyda.”** Zdanie 2: „Otwieracz Kot z orzecha, robiony u nas. 49 zł.” (wariant B zostaje na relację).
+- Uwaga czasowa: Mikołajki są 6.12, a post jest na styczeń → „na Mikołajki” nie pisać; „prezent dla faceta” działa cały rok (Dzień Chłopaka, urodziny).
+- Hasztagi: szerokie `#prezentdlafaceta #drewnianyprezent #pomysłnaprezent` · niszowe `#otwieraczdobutelek #orzech #fudali`.
+
+### 4. Składany stolik kawowy
+- Fraza **„stolik kawowy składany”** ma podpowiedzi (do salonu, ikea, jysk) i zasięg trendu rośnie (stolik kawowy drewniany: 48, blisko rocznego szczytu).
+- Zdanie 1: wariant A Oli – **„Składany stolik kawowy, który chowasz, gdy go nie potrzebujesz.”** (fraza z przodu, bez „z litego drewna” – to w zdaniu 2: „Składany stolik kawowy z litego drewna do salonu, 229 zł.”).
+- Hasztagi: szerokie `#stolikkawowy #meblezdrewna #salon` · niszowe `#stolikskładany #małemieszkanie #fudali`.
+
+### 5. Płatek (stolik BOCZNY)
+- **„stolik boczny drewniany”** ma podpowiedzi (do kanapy, okrągły, wysoki); „dębowy” = puste.
+- Zdanie 1: **„Drewniany stolik boczny z dębu, który wygląda jak mała rzeźba.”** (wariant B Oli z frazą). Wariant A („blat jak płatek, nóżka jak biała kolumna”) zostaje jako zdanie 2 po weryfikacji opisu. Zdanie 2 z frazą „do kanapy”: „Stolik boczny Płatek z dębu czerwonego, 850 zł. Do kanapy i fotela.”
+- Hasztagi: szerokie `#stolikboczny #meblezdrewna #salon` · niszowe `#drewnianystolik #dokanapy #dąbczerwony #fudali`.
+
+### Wspólne
+- Wszystkie hasztagi z polskimi znakami (Instagram je indeksuje). Razem 6–8 na post, nie więcej.
+- „Link w bio” zostaje, ale nazwę produktu dać także w pierwszym zdaniu (to ją ludzie wyszukują w IG).
+- Do Bartka: czy „stapelowane” to dobre polskie słowo (alternatywa: „sztaplowane”, „składane w wieżę”), przecinki w zdaniach z „który”.
 
 ## 🧭 Bartek
 (czeka)
