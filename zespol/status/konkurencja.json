@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Zmiana 5:05 – raport konkurencji 17.11",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Raport konkurencji 17.11 gotowy (bez IG – Apify wstrzymany)",
+ "postep": 100,
  "aktualizacja": "2026-11-17T05:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-17T05:06+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport konkurencji 17.11 gotowy (bez IG – Apify wstrzymany)"
+  },
   {
    "czas": "2026-11-17T05:06+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-06T05:07+01:00",
    "stan": "gotowe",
    "tekst": "Raport 06.11 gotowy – nikt z rywali nie podaje terminu zamówień na święta"
-  },
-  {
-   "czas": "2026-11-06T05:06+01:00",
-   "stan": "pracuje",
-   "tekst": "Dane zebrane – analizuję posty i piszę log"
   }
  ]
 }
