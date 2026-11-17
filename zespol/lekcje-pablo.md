@@ -79,3 +79,11 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     z liną (szare, dzienne światło). ❌ makro w ciepłym złotym promieniu – „zbyt perfekcyjne”. ❌ lifestyle (balkon z kawą, wieczór z książką).
     Kierunek: **studyjne, surowe, „fotograficzne” ujęcia produktu**, bez złotego światła i bez wystylizowanych scenek.
     Komplet IG+relacja+FB robimy na packshocie (komplet 2), balkon odrzucony.
+
+## Dopisane 17.11.2026 (wieczór)
+28. **Zespół tworzy posty RAZEM i na bieżąco – Zosia + Ola + Kuba (+ Bartek na wezwanie)** (Pablo 17.11). Przy KAŻDYM poście/zdjęciu:
+    Zosia robi grafikę, **Ola** pilnuje, czy zdanie trafia do odbiorców i przyciąga uwagę, **Kuba** sprawdza frazy (czy ludzie tego szukają:
+    tytuł, pierwsze zdanie, hasztagi, słownik klienta), a gdy brakuje impetu – wołają **Bartka** (SEO, pisownia, gramatyka, przecinki,
+    hasztagi, czy post wypromuje firmę w wyszukiwaniach). To nie jest „raz na zmianę” – siedzimy nad tekstem, aż będzie dobry.
+    **Tekst ma się podobać Pablo.** Jeśli tekst się nie podoba – nawet przy dobrym zdjęciu – wraca do poprawy. Do biblioteki akceptacji
+    trafia dopiero komplet: grafika + tekst po przejściu Ola → Kuba → (Bartek). Pablo potwierdza podwójnie, gdy wszystko OK.
