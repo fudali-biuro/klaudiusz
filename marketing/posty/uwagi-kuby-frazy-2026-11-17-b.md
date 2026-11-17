@@ -8,7 +8,7 @@
 | Podkładka | „podkładka pod kubek” istnieje, ale Google kojarzy ją z szydełkiem; „drewniana” = puste | Hak z obrazem, nie frazą: „Każda podkładka z orzecha czarnego ma inny rysunek słojów…”; w tekście „podkładka pod kubek z drewna”. Hasztagi: `#podkładkapodkubek #orzechczarny #drewnianedodatki #rękodzieło #fudali` |
 | Otwieracz | „otwieracz do butelek drewniany” = puste; ale **„drewniany prezent dla faceta/męża”** ma podpowiedzi | Hak prezentowy: „Mały drewniany prezent dla faceta: otwieracz „Kot” z orzecha, robiony u nas. 49 zł.” Hasztagi: `#prezentdlafaceta #drewnianyprezent #otwieraczdobutelek #orzech #fudali` |
 | Stolik składany | **„stolik kawowy składany”** (podpowiedzi: do salonu, ikea, jysk) | Pierwsze zdanie: „Składany stolik kawowy z litego drewna…” (jest). Dopisać „do salonu”. `#stolikkawowy #stolikskładany #meblezdrewna #salon #fudali` |
-| Płatek | **„stolik boczny drewniany”** (do kanapy, okrągły, wysoki); „dębowy” = puste | Hak: „Drewniany stolik boczny do kanapy z dębu czerwonego…”; „dębowy” tylko w opisie. `#stolikboczny #drewnianystolik #doKanapy→#dokanapy #meblezdrewna #fudali` |
+| Płatek | **„stolik boczny drewniany”** (do kanapy, okrągły, wysoki); „dębowy” = puste | Hak: „Drewniany stolik boczny do kanapy z dębu czerwonego…”; „dębowy” tylko w opisie. `#stolikboczny #drewnianystolik #dokanapy #meblezdrewna #fudali` |
 
 Uwaga ogólna: w stylu studio nie ma sezonu – fraza ma być w pierwszych 5 słowach, bo to jedyne, co widać przed „więcej”. Tam, gdzie fraza jest „pusta”, nie zmuszać jej na siłę (Pablo: tekst ma się podobać).
 
