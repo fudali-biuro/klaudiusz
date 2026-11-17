@@ -5,7 +5,7 @@
  "godzina": "18:00",
  "tytul": "Styl studio – Podkładka z orzecha czarnego (galeria 3 zdjęcia)",
  "produkt": "Podkładka z orzecha czarnego",
- "tekst": "Okrągła podkładka z orzecha czarnego 🪵 Każda ma inny rysunek słojów.\n\n👉 https://www.fudali.com.pl/sklep/okragla-podkladka-orzech-czarny/",
+ "tekst": "Każda ma inny rysunek słojów 🪵 Podkładka pod kubek z orzecha czarnego, okrągła i prosta.\n\n👉 https://www.fudali.com.pl/sklep/okragla-podkladka-orzech-czarny/\n\n#podkładkapodkubek #orzechczarny #drewnianedodatki #słoje #fudali",
  "hashtagi": "#orzech #podkładka #drewno",
  "obrazy": [
   "marketing/kampanie/styl-studio-produkty/podkladka/1-packshot-flesz.jpg",
@@ -17,14 +17,20 @@
  "kampania": "styl-studio",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-17T13:37:22+00:00",
- "zmieniono": "2026-11-17T13:37:22+00:00",
+ "zmieniono": "2026-11-17T13:42:04+00:00",
  "historia": [
   {
    "czas": "2026-11-17T13:37:22+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-17T13:42:04+00:00",
+   "kto": "Ola (sprawdzili: Kuba, Bartek)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
