@@ -67,3 +67,11 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
     oddajemy tylko „super”.
     17.11 (karuzela „prompty”): przed promptem 3 decyzje – cel ujęcia (packshot / tekstura / lifestyle), spójność z kampanią
     (produkt 1:1), światło (skąd i co podkreśla). Odpuść perfekcję (flesz, twardy cień, krzywy kadr), pokaż rytuał, nie opakowanie.
+
+## Dopisane 17.11.2026
+26. **Post IG = też Instastory + Facebook** (Pablo 17.11: „InstaStory ludzie oglądają dużo częściej”). Każdy post IG, który Pablo
+    zatwierdził, idzie automatycznie także jako **relacja IG** (ta sama grafika w 9:16, naklejka-link do produktu w sklepie fudali.com.pl,
+    Buffer: `metadata.instagram.type=story`, `link`) oraz na **Facebook** (post + relacja). Na FB zdjęcie lekko animowane:
+    5–6 s, delikatny obrót/przybliżenie (ffmpeg z prawdziwego zdjęcia – to NIE jest wideo AI). Zgoda na relacje/FB = OK posta IG
+    (osobno nie pytamy). **Start: najpierw 2 próbki do wglądu w bibliotece** (najlepsze ujęcia w nowym stylu lumor.ai, pkt 25) –
+    po OK Pablo robimy tak z każdym postem. Nie robić 15–20 na zapas.
