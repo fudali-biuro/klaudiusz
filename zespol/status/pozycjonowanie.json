@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
  "stan": "gotowe",
- "zadanie": "Trendy 16.11: prezenty rosną (mikołajki 26, pod choinkę 18), stolik kawowy na szczycie; leżak tylko jako prezent",
+ "zadanie": "Pracownia tekstu: na stanowisku, brak szkiców od Kuby do sprawdzenia",
  "postep": 100,
- "aktualizacja": "2026-11-16T05:17+01:00",
+ "aktualizacja": "2026-11-17T14:39+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-17T14:39+01:00",
+   "stan": "gotowe",
+   "tekst": "Pracownia tekstu: na stanowisku, brak szkiców od Kuby do sprawdzenia"
+  },
   {
    "czas": "2026-11-16T05:17+01:00",
    "stan": "gotowe",
