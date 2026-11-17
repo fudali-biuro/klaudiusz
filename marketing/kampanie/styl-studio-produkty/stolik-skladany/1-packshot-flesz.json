@@ -1,0 +1,6 @@
+{
+ "model": "openrouter:google/gemini-3-pro-image",
+ "zrodlo": "marketing/biblioteka-zdjec/gotowe/2026-11-06-skadany-drewniany-stolik-taboret-z-lina-na-parkiec.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: Exactly ONE product in the frame: ONE folding wooden coffee table/stool: top of about 15 parallel rounded slats, X-shaped crossing legs, golden warm wood, thick jute rope ties with small wooden pegs – exact as the reference (ignore the grey chair, wall and window). Do not redesign. Packshot on a seamless warm-grey studio background, direct on-camera flash from the front-left, crisp hard shadow falling to the right on the floor, product shown whole, centred, generous empty space around. Real unedited studio-style photograph, 50mm lens, honest tiny imperfections, no people, no text, no logos, no props.",
+ "ai": true
+}
