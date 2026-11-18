@@ -451,3 +451,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | koparka bruder | koparka | 2026-11-16 |
 | koparka dla dzieci | koparka | 2026-11-16 |
 | prezent na mikołajki dla dzieci 7 lat | prezent na mikołajki | 2026-11-18 |
+| prezent na mikołajki dla dzieci 9 lat | prezent na mikołajki | 2026-11-18 |
