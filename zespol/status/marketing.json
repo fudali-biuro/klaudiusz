@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Zmiana 18.11: brak nowych zdjęć i decyzji; 8 galerii FB czeka na Pablo; research Pinterest",
+ "zadanie": "Zmiana 12:35 (18.11): bez nowych zdjęć, wiadomości i decyzji – biblioteka czeka na Pablo",
  "postep": 100,
- "aktualizacja": "2026-11-18T05:36+01:00",
+ "aktualizacja": "2026-11-18T12:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-18T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 12:35 (18.11): bez nowych zdjęć, wiadomości i decyzji – biblioteka czeka na Pablo"
+  },
   {
    "czas": "2026-11-18T05:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-09T19:36+01:00",
    "stan": "gotowe",
    "tekst": "Profil w duchu Oakywood: pakiet w bibliotece akceptacji"
-  },
-  {
-   "czas": "2026-11-09T19:34+01:00",
-   "stan": "czeka",
-   "tekst": "Oakywood: czekam na grafiki Zosi (okładki, karty, makieta)"
   }
  ]
 }
