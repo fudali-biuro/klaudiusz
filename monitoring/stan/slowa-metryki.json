@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-17T12:21+01:00",
+ "czas": "2026-11-18T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -372,6 +372,7 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
+    "prezent na mikołajki dla dzieci 7 lat",
     "prezent na mikołajki dla dzieci",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
@@ -379,8 +380,7 @@
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
+    "prezent na mikołajki dla dzieci do przedszkola"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -625,6 +625,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 60,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -785,6 +811,7 @@
    "grupa": "drewno",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
+    "drewno opałowe",
     "drewno opałowe olx",
     "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
@@ -793,8 +820,7 @@
     "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań",
-    "drewno opałowe z transportem"
+    "drewno opałowe poznań"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1015,32 +1041,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 57,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1090,7 +1090,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 55,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla taty majsterkowicza",
@@ -1137,58 +1137,6 @@
    "firmy": [],
    "ocena": 53,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 53,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 53,
-   "zmiana_oceny": 6
   },
   {
    "fraza": "podkładki drewniane",
@@ -1243,6 +1191,32 @@
    ],
    "ocena": 52,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 50,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1322,6 +1296,32 @@
    "firmy": [],
    "ocena": 44,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 6,
+   "popyt_0_1": 0.7,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 44,
+   "zmiana_oceny": -9
   },
   {
    "fraza": "prezent na święta dla ogrodnika",
@@ -1487,11 +1487,11 @@
     "koparka",
     "koparka łańcuchowa",
     "koparka zabawka",
-    "koparka zdalnie sterowana",
     "koparka łańcuchowa wynajem",
     "koparka kołowa",
     "koparka po angielsku",
     "koparka kryptowalut",
+    "koparka zdalnie sterowana",
     "koparka jcb"
    ],
    "pozycja_w_podpowiedziach": null,
@@ -2420,10 +2420,6 @@
    "z_frazy": "drewno opałowe"
   },
   {
-   "fraza": "drewno opałowe z transportem",
-   "z_frazy": "drewno opałowe"
-  },
-  {
    "fraza": "stolarz podkarpacie",
    "z_frazy": "stolarnia podkarpacie"
   },
@@ -2636,6 +2632,10 @@
    "z_frazy": "prezent dla taty majsterkowicza"
   },
   {
+   "fraza": "prezent na mikołajki dla dzieci 7 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
    "fraza": "prezent na mikołajki dla dzieci",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2665,10 +2665,6 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -3284,10 +3280,6 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka łańcuchowa wynajem",
    "z_frazy": "koparka"
   },
@@ -3301,6 +3293,10 @@
   },
   {
    "fraza": "koparka kryptowalut",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
