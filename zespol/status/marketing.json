@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 5:35: zdjęcia, decyzje, Pinterest",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 18.11: brak nowych zdjęć i decyzji; 8 galerii FB czeka na Pablo; research Pinterest",
+ "postep": 100,
  "aktualizacja": "2026-11-18T05:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-18T05:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 18.11: brak nowych zdjęć i decyzji; 8 galerii FB czeka na Pablo; research Pinterest"
+  },
   {
    "czas": "2026-11-18T05:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-09T19:34+01:00",
    "stan": "czeka",
    "tekst": "Oakywood: czekam na grafiki Zosi (okładki, karty, makieta)"
-  },
-  {
-   "czas": "2026-11-09T19:33+01:00",
-   "stan": "pracuje",
-   "tekst": "Propozycja profilu IG/FB w duchu Oakywood"
   }
  ]
 }
