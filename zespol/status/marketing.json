@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Zmiana 19.11: bez nowych zdjęć i decyzji; Buffer czysty; biblioteka czeka na Pablo",
+ "zadanie": "Zmiana 12:35 (19.11): bez nowych wiadomości, zdjęć i decyzji",
  "postep": 100,
- "aktualizacja": "2026-11-19T05:36+01:00",
+ "aktualizacja": "2026-11-19T12:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-19T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 12:35 (19.11): bez nowych wiadomości, zdjęć i decyzji"
+  },
   {
    "czas": "2026-11-19T05:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-10T12:36+01:00",
    "stan": "pracuje",
    "tekst": "Zmiana 12:35 (10.11): czat, decyzje, zdjęcia"
-  },
-  {
-   "czas": "2026-11-10T05:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Zmiana 10.11: bez nowych wiadomości/zdjęć; Buffer ok (3 wysłane wg planu Pablo); research Pinterest zapisany"
   }
  ]
 }
