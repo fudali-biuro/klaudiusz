@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-19T12:22+01:00",
+ "czas": "2026-11-20T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -813,14 +813,14 @@
    "podpowiedzi_google": [
     "drewno opałowe",
     "drewno opałowe olx",
-    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
     "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań"
+    "drewno opałowe poznań",
+    "drewno opałowe z transportem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1245,6 +1245,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 50,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "jak zabezpieczyć meble ogrodowe",
    "grupa": "wiedza i pielęgnacja",
    "znaczenie_biznesowe": "srednie",
@@ -1266,32 +1292,6 @@
    "firmy": [],
    "ocena": 47,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 3
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -2392,10 +2392,6 @@
    "z_frazy": "tarcica"
   },
   {
-   "fraza": "drewno opałowe cena",
-   "z_frazy": "drewno opałowe"
-  },
-  {
    "fraza": "drewno opałowe podkarpackie tanio",
    "z_frazy": "drewno opałowe"
   },
@@ -2417,6 +2413,10 @@
   },
   {
    "fraza": "drewno opałowe poznań",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe z transportem",
    "z_frazy": "drewno opałowe"
   },
   {
