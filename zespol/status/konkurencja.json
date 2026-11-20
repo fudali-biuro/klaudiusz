@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Raport konkurencji 20.11 gotowy (bez IG – Apify wstrzymany)",
+ "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
  "postep": 100,
- "aktualizacja": "2026-11-20T05:07+01:00",
+ "aktualizacja": "2026-11-20T12:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-20T12:06+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
+  },
   {
    "czas": "2026-11-20T05:07+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-06T16:31+01:00",
    "stan": "gotowe",
    "tekst": "Prośby do Pablo załatwione"
-  },
-  {
-   "czas": "2026-11-06T16:28+01:00",
-   "stan": "gotowe",
-   "tekst": "Instagram nisza: wersja bez scrapera gotowa (uzupełnię po odblokowaniu Apify)"
   }
  ]
 }
