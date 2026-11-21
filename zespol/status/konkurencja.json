@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Zmiana 5:05 – raport konkurencji 21.11",
- "postep": null,
- "aktualizacja": "2026-11-21T05:05+01:00",
+ "stan": "gotowe",
+ "zadanie": "Raport konkurencji 21.11 gotowy (bez IG – Apify wstrzymany)",
+ "postep": 100,
+ "aktualizacja": "2026-11-21T05:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-21T05:06+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport konkurencji 21.11 gotowy (bez IG – Apify wstrzymany)"
+  },
   {
    "czas": "2026-11-21T05:05+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-07T05:06+01:00",
    "stan": "gotowe",
    "tekst": "Raport 07.11 gotowy – Bogateco tnie choinki, Altanka zapowiada Black Friday; IG bez danych (Apify)"
-  },
-  {
-   "czas": "2026-11-06T16:32+01:00",
-   "stan": "gotowe",
-   "tekst": "Instagram nisza: wzorzec Form at Wood + 3 marki gotowe (źródła www)"
   }
  ]
 }
