@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-20T12:21+01:00",
+ "czas": "2026-11-21T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -373,14 +373,14 @@
    "podpowiedzi_google": [
     "prezent na mikołajki",
     "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki dla dzieci 2 latka",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
     "prezent na mikołajki dla chłopaka",
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola"
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -601,32 +601,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "koparka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparka",
-    "koparka dolores",
-    "koparka łańcuchowa",
-    "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 62,
-   "zmiana_oceny": -3
-  },
-  {
    "fraza": "koparko-ładowarka na sprzedaż",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -649,32 +623,6 @@
    "firmy": [],
    "ocena": 61,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 60,
-   "zmiana_oceny": 3
   },
   {
    "fraza": "domek letniskowy",
@@ -1067,6 +1015,58 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": -3
+  },
+  {
+   "fraza": "koparka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka",
+    "koparka dolores",
+    "koparka łańcuchowa",
+    "koparka zabawka",
+    "koparka łańcuchowa wynajem",
+    "koparka kołowa",
+    "koparka po angielsku",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": -5
+  },
+  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1165,6 +1165,58 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": 3
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": 9
+  },
+  {
    "fraza": "podkładki drewniane",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "niskie",
@@ -1217,32 +1269,6 @@
    ],
    "ocena": 52,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 50,
-   "zmiana_oceny": -3
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1322,32 +1348,6 @@
    "firmy": [],
    "ocena": 44,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 6,
-   "popyt_0_1": 0.7,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 44,
-   "zmiana_oceny": -6
   },
   {
    "fraza": "prezent na święta dla ogrodnika",
@@ -2636,10 +2636,6 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci 2 latka",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki do przedszkola",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2665,6 +2661,10 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
