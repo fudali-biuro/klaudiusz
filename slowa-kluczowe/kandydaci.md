@@ -453,3 +453,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent na mikołajki dla dzieci 7 lat | prezent na mikołajki | 2026-11-18 |
 | prezent na mikołajki dla dzieci 9 lat | prezent na mikołajki | 2026-11-18 |
 | prezent na mikołajki dla dzieci 2 latka | prezent na mikołajki | 2026-11-20 |
+| prezent na mikołajki do 50 zł dla 12 latka | prezent na mikołajki | 2026-11-21 |
