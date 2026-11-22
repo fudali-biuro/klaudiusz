@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 12:35 (21.11): bez nowych wiadomości, zdjęć i decyzji",
- "postep": 100,
- "aktualizacja": "2026-11-21T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zmiana 22.11: decyzje, zdjęcia, Buffer",
+ "postep": null,
+ "aktualizacja": "2026-11-22T05:35+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-22T05:35+01:00",
+   "stan": "pracuje",
+   "tekst": "Zmiana 22.11: decyzje, zdjęcia, Buffer"
+  },
   {
    "czas": "2026-11-21T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-12T12:36+01:00",
    "stan": "pracuje",
    "tekst": "Zmiana 12:35 (12.11): czat i zdjęcia"
-  },
-  {
-   "czas": "2026-11-12T05:35+01:00",
-   "stan": "pracuje",
-   "tekst": "Poranna zmiana 12.11: czat, decyzje, zdjęcia"
   }
  ]
 }
