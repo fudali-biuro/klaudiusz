@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
  "stan": "gotowe",
- "zadanie": "Raport konkurencji 22.11 gotowy (bez IG – Apify wstrzymany)",
+ "zadanie": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)",
  "postep": 100,
- "aktualizacja": "2026-11-22T05:07+01:00",
+ "aktualizacja": "2026-11-22T12:05+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-22T12:05+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
+  },
   {
    "czas": "2026-11-22T05:07+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-09T05:06+01:00",
    "stan": "gotowe",
    "tekst": "Raport 09.11 + lista 10 kont do komentowania gotowe"
-  },
-  {
-   "czas": "2026-11-08T12:05+01:00",
-   "stan": "gotowe",
-   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
   }
  ]
 }
