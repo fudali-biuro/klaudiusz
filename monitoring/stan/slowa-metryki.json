@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-22T05:21+01:00",
+ "czas": "2026-11-22T12:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -1038,7 +1038,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 57,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent do 300 zł",
@@ -1162,7 +1162,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 53,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "podkładki drewniane",
@@ -1234,32 +1234,6 @@
    "pozycja_w_podpowiedziach": 3,
    "popyt_0_1": 0.76,
    "liczba_podpowiedzi": 7,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
@@ -1356,6 +1330,32 @@
    "firmy": [],
    "ocena": 42,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 7,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 42,
+   "zmiana_oceny": -5
   },
   {
    "fraza": "polskie rękodzieło na prezent",
@@ -1488,11 +1488,11 @@
     "koparka łańcuchowa",
     "koparka po angielsku",
     "koparka zabawka",
+    "koparka na pilota",
     "koparka łańcuchowa wynajem",
     "koparka kołowa",
     "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
+    "koparka zdalnie sterowana"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1502,7 +1502,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 41,
-   "zmiana_oceny": -11
+   "zmiana_oceny": 0
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -1632,7 +1632,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": 10,
+   "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -3281,6 +3281,10 @@
   },
   {
    "fraza": "koparka zabawka",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka na pilota",
    "z_frazy": "koparka"
   },
   {
