@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-21T12:21+01:00",
+ "czas": "2026-11-22T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -167,12 +167,12 @@
     "domek całoroczny 35m2 bez pozwolenia",
     "domek drewniany 35m2 bez pozwolenia z poddaszem",
     "domek murowany 35m2 bez pozwolenia",
-    "domek letniskowy do 35m2 bez pozwolenia",
     "domek 35m2 z antresolą bez pozwolenia",
     "domek 35m2 z poddaszem bez pozwolenia",
     "domek letniskowy do 35m2 bez pozwolenia przepisy",
     "domek drewniany do 35m2 bez pozwolenia",
-    "czy domek do 35m2 bez pozwolenia"
+    "czy domek do 35m2 bez pozwolenia",
+    "domek całoroczny 35m2 z poddaszem bez pozwolenia"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -638,7 +638,7 @@
     "domek letniskowy krzyżówka",
     "domek letniskowy nad jeziorem",
     "domek letniskowy pilnie sprzedam",
-    "domek letniskowy całoroczny 35m2"
+    "domek letniskowy brda"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1015,6 +1015,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1067,32 +1093,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 54,
-   "zmiana_oceny": -3
-  },
-  {
    "fraza": "prezent dla taty majsterkowicza",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
@@ -1137,6 +1137,32 @@
    "firmy": [],
    "ocena": 53,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "podkładki drewniane",
@@ -1193,58 +1219,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "koparka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparka",
-    "koparka dolores",
-    "koparka łańcuchowa",
-    "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
-   ],
-   "pozycja_w_podpowiedziach": 6,
-   "popyt_0_1": 0.7,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 52,
-   "zmiana_oceny": -5
-  },
-  {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 50,
-   "zmiana_oceny": -3
-  },
-  {
    "fraza": "jak zabezpieczyć meble ogrodowe",
    "grupa": "wiedza i pielęgnacja",
    "znaczenie_biznesowe": "srednie",
@@ -1291,7 +1265,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": -6
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1503,6 +1477,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparka dolores",
+    "koparka",
+    "koparka łańcuchowa",
+    "koparka po angielsku",
+    "koparka zabawka",
+    "koparka łańcuchowa wynajem",
+    "koparka kołowa",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -11
   },
   {
    "fraza": "otwieracz do butelek drewniany",
@@ -2016,10 +2016,6 @@
    "z_frazy": "domek 35m2 bez pozwolenia"
   },
   {
-   "fraza": "domek letniskowy do 35m2 bez pozwolenia",
-   "z_frazy": "domek 35m2 bez pozwolenia"
-  },
-  {
    "fraza": "domek 35m2 z antresolą bez pozwolenia",
    "z_frazy": "domek 35m2 bez pozwolenia"
   },
@@ -2037,6 +2033,10 @@
   },
   {
    "fraza": "czy domek do 35m2 bez pozwolenia",
+   "z_frazy": "domek 35m2 bez pozwolenia"
+  },
+  {
+   "fraza": "domek całoroczny 35m2 z poddaszem bez pozwolenia",
    "z_frazy": "domek 35m2 bez pozwolenia"
   },
   {
@@ -2068,7 +2068,7 @@
    "z_frazy": "domek letniskowy"
   },
   {
-   "fraza": "domek letniskowy całoroczny 35m2",
+   "fraza": "domek letniskowy brda",
    "z_frazy": "domek letniskowy"
   },
   {
@@ -3276,6 +3276,10 @@
    "z_frazy": "koparka"
   },
   {
+   "fraza": "koparka po angielsku",
+   "z_frazy": "koparka"
+  },
+  {
    "fraza": "koparka zabawka",
    "z_frazy": "koparka"
   },
@@ -3285,10 +3289,6 @@
   },
   {
    "fraza": "koparka kołowa",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka po angielsku",
    "z_frazy": "koparka"
   },
   {
