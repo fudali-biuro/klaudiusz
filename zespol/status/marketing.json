@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Zmiana 12:35 (22.11): bez nowych wiadomości, zdjęć i decyzji",
- "postep": 100,
- "aktualizacja": "2026-11-22T12:36+01:00",
+ "stan": "pracuje",
+ "zadanie": "Poniedziałek: plan tygodnia 23–29.11",
+ "postep": null,
+ "aktualizacja": "2026-11-23T05:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-23T05:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Poniedziałek: plan tygodnia 23–29.11"
+  },
   {
    "czas": "2026-11-22T12:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-13T05:36+01:00",
    "stan": "gotowe",
    "tekst": "Zmiana 13.11 rano: bez nowych wiadomości/zdjęć; w AGENTS tylko notatka o kluczu Apify"
-  },
-  {
-   "czas": "2026-11-13T05:35+01:00",
-   "stan": "pracuje",
-   "tekst": "Poranna zmiana 13.11: czat, decyzje, zdjęcia"
   }
  ]
 }
