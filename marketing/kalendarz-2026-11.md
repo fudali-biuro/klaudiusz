@@ -54,3 +54,11 @@ Kolejne tygodnie (16.11–24.12) układam po akceptacji pierwszej paczki.
 **Zlecenie:** Zosia – 4 sceny stolika Płatek (salon przy sofie, kąt czytelniczy, jasne wnętrze, ciepły wieczór), zasady lekcji 18/19/25 (bez napisów, produkt 1:1, jeden mebel w kadrze). Po dostawie → biblioteka: IG + piny EN („wooden coffee table”) + galeria FB.
 **Jak wyprzedzamy Bogateco i Ecofurn:** Bogateco (domki/altany) i Ecofurn nie pokazują lekkich mebli w aranżacjach „do zapisania”; my budujemy zasięg w nieobsadzonej frazie „stolik kawowy z litego drewna” i spójnych wnętrzach, a nie w katalogowych packshotach.
 Nic nie publikuję; szkice w Buffer tylko po OK Pablo.
+
+
+## 📅 Plan tygodnia 23–29.11.2026 (Ola, pon 23.11)
+**Stan:** w Buffer 28 szkiców z 17.11 (nic nie zaplanowane), w bibliotece czeka 8 galerii FB; nowych decyzji Pablo od 17.11 14:50 brak. Nie dokładam kolejnych partii na zapas (lekcja 29).
+**Zasięg (Kuba 23.11):** „prezent na mikołajki” 107 i „prezent świąteczny” 108 (+400–700% w 4 tyg.), „prezent dla taty” 58 (+114%), „stolik kawowy drewniany” 63 na rocznym szczycie (Bartek: „stolik kawowy” 88% szczytu), „prezent pod choinkę” 52. Leżak/altana/pergola – sezon śpi. Okno Mikołajek (6.12) zamyka się za ~2 tygodnie.
+**Wniosek i propozycja zmiany terminów (nic nie zmieniam bez zgody):** dwie gotowe serie „styl studio” mają dziś terminy w styczniu, a pasują do szczytu zasięgu: otwieracz „Kot” (prezent dla faceta, 49 zł) → ok. 3.12; stolik składany (229 zł) → ok. 30.11. Przy otwieraczu hak „na Mikołajki” wraca jako dopisek po pracowni tekstu (Kuba + Bartek). Szkice w Buffer dostałyby nowe daty (nadal draft).
+**Jak wyprzedzamy Bogateco i Ecofurn:** rywale nie mają mebli i prezentów z drewna w sezonie świątecznym – my wchodzimy we frazy prezentowe i „stolik kawowy”, zanim zrobią to oni.
+**Tydzień:** czw 26.11 packshot leżaka (IG + relacja + FB), reszta czeka na decyzje Pablo w bibliotece.
