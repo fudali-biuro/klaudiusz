@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Terminy stolik 30.11 / otwieracz 3.12 przesunięte (szkice); tekst otwieracza na Mikołajki w pracowni",
+ "zadanie": "Biblioteka zsynchronizowana z tekstami Pabla; lekcja 30; otwieracz na Mikołajki w pracowni",
  "postep": 100,
- "aktualizacja": "2026-11-23T06:28+01:00",
+ "aktualizacja": "2026-11-23T06:29+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-23T06:29+01:00",
+   "stan": "gotowe",
+   "tekst": "Biblioteka zsynchronizowana z tekstami Pabla; lekcja 30; otwieracz na Mikołajki w pracowni"
+  },
   {
    "czas": "2026-11-23T06:28+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-14T05:36+01:00",
    "stan": "pracuje",
    "tekst": "Poranna zmiana 14.11: czat, decyzje, zdjęcia"
-  },
-  {
-   "czas": "2026-11-13T12:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Zmiana 13.11 w południe: bez nowych wiadomości i zdjęć"
   }
  ]
 }
