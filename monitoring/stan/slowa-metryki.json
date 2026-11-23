@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-22T12:20+01:00",
+ "czas": "2026-11-23T05:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -341,38 +341,11 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent pod choinkę",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent pod choinkę",
-    "prezent pod choinkę dla mężczyzny",
-    "prezent pod choinkę dla kobiety",
-    "prezent pod choinkę dla 10 latki",
-    "prezent pod choinkę dla mamy",
-    "prezent pod choinkę dla 9 latki",
-    "prezent pod choinkę dla rocznego dziecka",
-    "prezent pod choinkę dla męża",
-    "prezent pod choinkę dla rodziców",
-    "prezent pod choinkę dla 2 latka"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "prezent na mikołajki",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
-    "prezent na mikołajki do 50 zł dla 12 latka",
     "prezent na mikołajki dla dzieci",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
@@ -380,7 +353,8 @@
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola"
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -573,6 +547,32 @@
    "firmy": [],
    "ocena": 62,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent pod choinkę",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent pod choinkę dla 2 latki",
+    "prezent pod choinkę",
+    "prezent pod choinkę dla mężczyzny",
+    "prezent pod choinkę dla kobiety",
+    "prezent pod choinkę dla 10 latki",
+    "prezent pod choinkę dla mamy",
+    "prezent pod choinkę dla 9 latki",
+    "prezent pod choinkę dla rocznego dziecka",
+    "prezent pod choinkę dla męża",
+    "prezent pod choinkę dla rodziców"
+   ],
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.94,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 62,
+   "zmiana_oceny": -3
   },
   {
    "fraza": "jcb 3cx",
@@ -1242,6 +1242,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 47,
+   "zmiana_oceny": 5
+  },
+  {
    "fraza": "drewniane dekoracje świąteczne",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1330,32 +1356,6 @@
    "firmy": [],
    "ocena": 42,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 7,
-   "popyt_0_1": 0.64,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 42,
-   "zmiana_oceny": -5
   },
   {
    "fraza": "polskie rękodzieło na prezent",
@@ -1486,13 +1486,13 @@
     "koparka dolores",
     "koparka",
     "koparka łańcuchowa",
-    "koparka po angielsku",
     "koparka zabawka",
-    "koparka na pilota",
+    "koparka zdalnie sterowana",
     "koparka łańcuchowa wynajem",
     "koparka kołowa",
+    "koparka po angielsku",
     "koparka kryptowalut",
-    "koparka zdalnie sterowana"
+    "koparka jcb"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1632,7 +1632,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": null,
+   "pozycja_w_podpowiedziach": 10,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -2556,6 +2556,10 @@
    "z_frazy": "drewniane ozdoby choinkowe"
   },
   {
+   "fraza": "prezent pod choinkę dla 2 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
    "fraza": "prezent pod choinkę dla mężczyzny",
    "z_frazy": "prezent pod choinkę"
   },
@@ -2581,10 +2585,6 @@
   },
   {
    "fraza": "prezent pod choinkę dla rodziców",
-   "z_frazy": "prezent pod choinkę"
-  },
-  {
-   "fraza": "prezent pod choinkę dla 2 latka",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -2632,10 +2632,6 @@
    "z_frazy": "prezent dla taty majsterkowicza"
   },
   {
-   "fraza": "prezent na mikołajki do 50 zł dla 12 latka",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki dla dzieci",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2665,6 +2661,10 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -3276,15 +3276,11 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka po angielsku",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka zabawka",
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka na pilota",
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
@@ -3296,11 +3292,11 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka kryptowalut",
+   "fraza": "koparka po angielsku",
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
+   "fraza": "koparka kryptowalut",
    "z_frazy": "koparka"
   },
   {
