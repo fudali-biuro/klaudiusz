@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-16T05:26+01:00",
+ "czas": "2026-11-23T05:24+01:00",
  "kotwica": "drewutnia",
  "geo": "PL",
  "zbiory": [
@@ -9,173 +9,173 @@
   "drewutnia": {
    "zasieg_12m": 100.0,
    "zasieg_teraz": 100.0,
-   "srednia_12m_surowa": 50.1,
-   "ost_4tyg_surowa": 41.5,
-   "zmiana_proc": -18,
+   "srednia_12m_surowa": 49.9,
+   "ost_4tyg_surowa": 32.5,
+   "zmiana_proc": -33,
    "szczyt": "2026-03-29",
-   "teraz_vs_szczyt_proc": 42
+   "teraz_vs_szczyt_proc": 32
   },
   "altana drewniana": {
-   "zasieg_12m": 49.7,
-   "zasieg_teraz": 26.0,
-   "srednia_12m_surowa": 24.9,
-   "ost_4tyg_surowa": 10.8,
-   "zmiana_proc": 35,
-   "szczyt": "2026-04-26",
-   "teraz_vs_szczyt_proc": 19
+   "zasieg_12m": 46.1,
+   "zasieg_teraz": 21.5,
+   "srednia_12m_surowa": 23.0,
+   "ost_4tyg_surowa": 7.0,
+   "zmiana_proc": 100,
+   "szczyt": "2026-05-03",
+   "teraz_vs_szczyt_proc": 11
   },
   "domek ogrodowy drewniany": {
-   "zasieg_12m": 27.9,
-   "zasieg_teraz": 14.5,
-   "srednia_12m_surowa": 14.0,
-   "ost_4tyg_surowa": 6.0,
-   "zmiana_proc": 100,
-   "szczyt": "2026-04-19",
-   "teraz_vs_szczyt_proc": 18
+   "zasieg_12m": 29.5,
+   "zasieg_teraz": 16.0,
+   "srednia_12m_surowa": 14.7,
+   "ost_4tyg_surowa": 5.2,
+   "zmiana_proc": 16,
+   "szczyt": "2026-04-26",
+   "teraz_vs_szczyt_proc": 14
   },
   "wiata drewniana": {
-   "zasieg_12m": 57.9,
-   "zasieg_teraz": 46.3,
-   "srednia_12m_surowa": 29.0,
-   "ost_4tyg_surowa": 19.2,
-   "zmiana_proc": -23,
-   "szczyt": "2026-04-26",
-   "teraz_vs_szczyt_proc": 36
+   "zasieg_12m": 57.5,
+   "zasieg_teraz": 47.7,
+   "srednia_12m_surowa": 28.7,
+   "ost_4tyg_surowa": 15.5,
+   "zmiana_proc": -36,
+   "szczyt": "2026-04-19",
+   "teraz_vs_szczyt_proc": 32
   },
   "pergola drewniana": {
-   "zasieg_12m": 59.3,
-   "zasieg_teraz": 15.7,
-   "srednia_12m_surowa": 29.7,
-   "ost_4tyg_surowa": 6.5,
-   "zmiana_proc": -4,
+   "zasieg_12m": 61.3,
+   "zasieg_teraz": 21.5,
+   "srednia_12m_surowa": 30.6,
+   "ost_4tyg_surowa": 7.0,
+   "zmiana_proc": 0,
    "szczyt": "2026-04-26",
    "teraz_vs_szczyt_proc": 8
   },
   "leżak drewniany": {
    "zasieg_12m": 17.6,
-   "zasieg_teraz": 1.9,
+   "zasieg_teraz": 2.5,
    "srednia_12m_surowa": 8.8,
    "ost_4tyg_surowa": 0.8,
-   "zmiana_proc": -60,
+   "zmiana_proc": null,
    "szczyt": "2026-06-21",
    "teraz_vs_szczyt_proc": 2
   },
   "meble ogrodowe drewniane": {
-   "zasieg_12m": 12.4,
-   "zasieg_teraz": 1.9,
-   "srednia_12m_surowa": 6.2,
-   "ost_4tyg_surowa": 0.8,
+   "zasieg_12m": 12.6,
+   "zasieg_teraz": 4.6,
+   "srednia_12m_surowa": 6.3,
+   "ost_4tyg_surowa": 1.5,
    "zmiana_proc": null,
    "szczyt": "2026-05-03",
-   "teraz_vs_szczyt_proc": 4
+   "teraz_vs_szczyt_proc": 6
   },
   "drewno opałowe": {
-   "zasieg_12m": 97.0,
-   "zasieg_teraz": 116.1,
-   "srednia_12m_surowa": 48.6,
-   "ost_4tyg_surowa": 48.2,
-   "zmiana_proc": -14,
+   "zasieg_12m": 98.8,
+   "zasieg_teraz": 138.5,
+   "srednia_12m_surowa": 49.3,
+   "ost_4tyg_surowa": 45.0,
+   "zmiana_proc": -20,
    "szczyt": "2026-02-01",
-   "teraz_vs_szczyt_proc": 48
+   "teraz_vs_szczyt_proc": 45
   },
   "tarcica": {
-   "zasieg_12m": 43.5,
-   "zasieg_teraz": 41.4,
-   "srednia_12m_surowa": 21.8,
-   "ost_4tyg_surowa": 17.2,
-   "zmiana_proc": -17,
+   "zasieg_12m": 45.1,
+   "zasieg_teraz": 56.9,
+   "srednia_12m_surowa": 22.5,
+   "ost_4tyg_surowa": 18.5,
+   "zmiana_proc": -8,
    "szczyt": "2026-03-08",
-   "teraz_vs_szczyt_proc": 55
+   "teraz_vs_szczyt_proc": 60
   },
   "domek letniskowy": {
-   "zasieg_12m": 129.1,
-   "zasieg_teraz": 93.5,
-   "srednia_12m_surowa": 64.7,
-   "ost_4tyg_surowa": 38.8,
-   "zmiana_proc": -14,
+   "zasieg_12m": 130.3,
+   "zasieg_teraz": 116.9,
+   "srednia_12m_surowa": 65.0,
+   "ost_4tyg_surowa": 38.0,
+   "zmiana_proc": -16,
    "szczyt": "2026-07-26",
-   "teraz_vs_szczyt_proc": 39
+   "teraz_vs_szczyt_proc": 38
   },
   "stolik kawowy drewniany": {
-   "zasieg_12m": 30.7,
-   "zasieg_teraz": 48.2,
-   "srednia_12m_surowa": 15.4,
-   "ost_4tyg_surowa": 20.0,
-   "zmiana_proc": 19,
-   "szczyt": "2026-11-15",
-   "teraz_vs_szczyt_proc": 83
+   "zasieg_12m": 31.1,
+   "zasieg_teraz": 63.1,
+   "srednia_12m_surowa": 15.5,
+   "ost_4tyg_surowa": 20.5,
+   "zmiana_proc": 17,
+   "szczyt": "2026-11-22",
+   "teraz_vs_szczyt_proc": 82
   },
   "sauna ogrodowa": {
    "zasieg_12m": 43.9,
-   "zasieg_teraz": 57.3,
-   "srednia_12m_surowa": 22.0,
-   "ost_4tyg_surowa": 23.8,
-   "zmiana_proc": 19,
+   "zasieg_teraz": 70.2,
+   "srednia_12m_surowa": 21.9,
+   "ost_4tyg_surowa": 22.8,
+   "zmiana_proc": 11,
    "szczyt": "2025-12-28",
-   "teraz_vs_szczyt_proc": 68
+   "teraz_vs_szczyt_proc": 65
   },
   "koparko ładowarka": {
    "zasieg_12m": 64.3,
-   "zasieg_teraz": 73.5,
-   "srednia_12m_surowa": 32.2,
-   "ost_4tyg_surowa": 30.5,
-   "zmiana_proc": -5,
-   "szczyt": "2026-03-15",
+   "zasieg_teraz": 96.0,
+   "srednia_12m_surowa": 32.1,
+   "ost_4tyg_surowa": 31.2,
+   "zmiana_proc": -4,
+   "szczyt": "2026-03-22",
    "teraz_vs_szczyt_proc": 65
   },
   "pomysł na prezent": {
-   "zasieg_12m": 29.5,
-   "zasieg_teraz": 41.0,
-   "srednia_12m_surowa": 14.8,
-   "ost_4tyg_surowa": 17.0,
-   "zmiana_proc": 42,
+   "zasieg_12m": 30.3,
+   "zasieg_teraz": 69.2,
+   "srednia_12m_surowa": 15.1,
+   "ost_4tyg_surowa": 22.5,
+   "zmiana_proc": 91,
    "szczyt": "2025-12-07",
-   "teraz_vs_szczyt_proc": 27
+   "teraz_vs_szczyt_proc": 35
   },
   "prezent dla taty": {
-   "zasieg_12m": 31.9,
-   "zasieg_teraz": 31.8,
-   "srednia_12m_surowa": 16.0,
-   "ost_4tyg_surowa": 13.2,
-   "zmiana_proc": 39,
+   "zasieg_12m": 33.1,
+   "zasieg_teraz": 57.8,
+   "srednia_12m_surowa": 16.5,
+   "ost_4tyg_surowa": 18.8,
+   "zmiana_proc": 114,
    "szczyt": "2025-12-14",
-   "teraz_vs_szczyt_proc": 16
+   "teraz_vs_szczyt_proc": 22
   },
   "prezent na mikołajki": {
-   "zasieg_12m": 12.4,
-   "zasieg_teraz": 45.3,
-   "srednia_12m_surowa": 6.2,
-   "ost_4tyg_surowa": 18.8,
-   "zmiana_proc": 571,
+   "zasieg_12m": 13.2,
+   "zasieg_teraz": 107.1,
+   "srednia_12m_surowa": 6.6,
+   "ost_4tyg_surowa": 34.8,
+   "zmiana_proc": 729,
    "szczyt": "2025-11-30",
-   "teraz_vs_szczyt_proc": 19
+   "teraz_vs_szczyt_proc": 35
   },
   "prezent pod choinkę": {
-   "zasieg_12m": 10.8,
-   "zasieg_teraz": 26.5,
-   "srednia_12m_surowa": 5.4,
-   "ost_4tyg_surowa": 11.0,
-   "zmiana_proc": 1000,
+   "zasieg_12m": 11.4,
+   "zasieg_teraz": 52.3,
+   "srednia_12m_surowa": 5.7,
+   "ost_4tyg_surowa": 17.0,
+   "zmiana_proc": 386,
    "szczyt": "2025-12-14",
-   "teraz_vs_szczyt_proc": 17
+   "teraz_vs_szczyt_proc": 25
   },
   "prezent świąteczny": {
-   "zasieg_12m": 20.0,
-   "zasieg_teraz": 54.9,
-   "srednia_12m_surowa": 10.0,
-   "ost_4tyg_surowa": 22.8,
-   "zmiana_proc": 268,
+   "zasieg_12m": 20.2,
+   "zasieg_teraz": 108.3,
+   "srednia_12m_surowa": 10.1,
+   "ost_4tyg_surowa": 35.2,
+   "zmiana_proc": 468,
    "szczyt": "2025-12-07",
-   "teraz_vs_szczyt_proc": 23
+   "teraz_vs_szczyt_proc": 35
   },
   "olej do drewna na zewnątrz": {
-   "zasieg_12m": 0.4,
-   "zasieg_teraz": 0.5,
-   "srednia_12m_surowa": 0.2,
-   "ost_4tyg_surowa": 0.2,
+   "zasieg_12m": 0.8,
+   "zasieg_teraz": 0.0,
+   "srednia_12m_surowa": 0.4,
+   "ost_4tyg_surowa": 0.0,
    "zmiana_proc": null,
-   "szczyt": "2026-05-03",
-   "teraz_vs_szczyt_proc": 5
+   "szczyt": "2026-06-07",
+   "teraz_vs_szczyt_proc": 0
   },
   "jak zabezpieczyć meble ogrodowe": {
    "zasieg_12m": 0.0,
@@ -183,53 +183,53 @@
    "srednia_12m_surowa": 0.0,
    "ost_4tyg_surowa": 0.0,
    "zmiana_proc": null,
-   "szczyt": "2025-11-16",
+   "szczyt": "2025-11-23",
    "teraz_vs_szczyt_proc": 0
   },
   "koparka na sprzedaż": {
-   "zasieg_12m": 0.2,
-   "zasieg_teraz": 0.0,
-   "srednia_12m_surowa": 0.1,
-   "ost_4tyg_surowa": 0.0,
+   "zasieg_12m": 0.0,
+   "zasieg_teraz": 0.6,
+   "srednia_12m_surowa": 0.0,
+   "ost_4tyg_surowa": 0.2,
    "zmiana_proc": null,
-   "szczyt": "2026-03-08",
-   "teraz_vs_szczyt_proc": 0
+   "szczyt": "2026-11-15",
+   "teraz_vs_szczyt_proc": 20
   },
   "jcb 3cx": {
-   "zasieg_12m": 14.8,
-   "zasieg_teraz": 16.4,
-   "srednia_12m_surowa": 7.4,
-   "ost_4tyg_surowa": 6.8,
-   "zmiana_proc": -6,
-   "szczyt": "2026-01-18",
-   "teraz_vs_szczyt_proc": 68
+   "zasieg_12m": 14.6,
+   "zasieg_teraz": 19.1,
+   "srednia_12m_surowa": 7.3,
+   "ost_4tyg_surowa": 6.2,
+   "zmiana_proc": -17,
+   "szczyt": "2026-03-29",
+   "teraz_vs_szczyt_proc": 62
   },
   "koparko ładowarka olx": {
    "zasieg_12m": 4.0,
-   "zasieg_teraz": 4.8,
+   "zasieg_teraz": 4.6,
    "srednia_12m_surowa": 2.0,
-   "ost_4tyg_surowa": 2.0,
-   "zmiana_proc": 0,
-   "szczyt": "2026-02-08",
-   "teraz_vs_szczyt_proc": 50
+   "ost_4tyg_surowa": 1.5,
+   "zmiana_proc": -17,
+   "szczyt": "2025-12-14",
+   "teraz_vs_szczyt_proc": 38
   },
   "stołki drewniane": {
    "zasieg_12m": 0.0,
-   "zasieg_teraz": 0.0,
+   "zasieg_teraz": 1.5,
    "srednia_12m_surowa": 0.0,
-   "ost_4tyg_surowa": 0.0,
+   "ost_4tyg_surowa": 0.5,
    "zmiana_proc": null,
-   "szczyt": "2026-08-30",
-   "teraz_vs_szczyt_proc": 0
+   "szczyt": "2026-11-08",
+   "teraz_vs_szczyt_proc": 25
   },
   "prezent dla mamy": {
-   "zasieg_12m": 42.7,
-   "zasieg_teraz": 50.1,
-   "srednia_12m_surowa": 21.4,
-   "ost_4tyg_surowa": 20.8,
-   "zmiana_proc": 54,
+   "zasieg_12m": 42.5,
+   "zasieg_teraz": 73.8,
+   "srednia_12m_surowa": 21.2,
+   "ost_4tyg_surowa": 24.0,
+   "zmiana_proc": 69,
    "szczyt": "2025-12-14",
-   "teraz_vs_szczyt_proc": 21
+   "teraz_vs_szczyt_proc": 24
   }
  }
 }
