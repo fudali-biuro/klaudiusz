@@ -1,0 +1,6 @@
+{
+ "model": "antigravity",
+ "zrodlo": "/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/prod/stoly3.jpg",
+ "prompt": "Keep the product EXACTLY as in the reference photo: same shape, proportions, wood grain, colour and details – do not redesign, add or remove parts. It must look like a real, unedited photo taken with a full-frame camera and a 50mm or 85mm lens: natural light, shallow depth of field, true-to-life colours, real wood texture with natural grain and tiny imperfections, realistic soft shadows, subtle natural film grain. Avoid any CGI / 3D-render look, plastic surfaces, oversaturation, HDR glow or perfect symmetry. No text, no logos, no watermarks. Scene: the same set of round wooden oak stools of different heights standing together on a light herringbone oak parquet floor in a bright minimal Scandinavian living room, soft warm daylight from a window, softly blurred sofa and plant in the background, products in sharp focus, square composition",
+ "ai": true
+}
