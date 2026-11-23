@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "Zmiana 5:05 – raport 23.11 + konta do komentowania",
- "postep": null,
- "aktualizacja": "2026-11-23T05:06+01:00",
+ "stan": "gotowe",
+ "zadanie": "Raport 23.11 + lista kont do komentowania gotowe (bez IG – Apify wstrzymany)",
+ "postep": 100,
+ "aktualizacja": "2026-11-23T05:07+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-23T05:07+01:00",
+   "stan": "gotowe",
+   "tekst": "Raport 23.11 + lista kont do komentowania gotowe (bez IG – Apify wstrzymany)"
+  },
   {
    "czas": "2026-11-23T05:06+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-09T19:33+01:00",
    "stan": "pracuje",
    "tekst": "Oakywood – nowy konkurent: badanie bez Apify"
-  },
-  {
-   "czas": "2026-11-09T12:10+01:00",
-   "stan": "gotowe",
-   "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
   }
  ]
 }
