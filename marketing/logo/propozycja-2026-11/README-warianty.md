@@ -1,13 +1,13 @@
 # Nowe logo FUDALI – warianty (Zosia, 23.11.2026) – tylko propozycja, nic nie wdrożone
 **Plansza porównawcza:** `plansza.png` (4000×2000; źródło `plansza.html`) – obecne logo vs A / B / C, każdy na jasnym `#F7F5EF` i ciemnozielonym `#34442F`, w rozmiarach: logo pełne, nagłówek 40 px (bez opisu), favicon 32 px, awatar w kole.
 **Pliki SVG** (tekst zamieniony na krzywe, bez zależności od fontów; wektorowo, bez generatora AI) – `svg/`:
-- `logo-{A,B,C}-{jasne,ciemne}.svg` (z tłem), `…-przezroczyste.svg` (do nakładania), `…-naglowek.svg` (wersja bez opisu na nagłówek ≤40 px), `znak-{A,B,C}-{jasne,ciemne}-awatar.svg` (koło 100×100; favicon = ten sam znak 32 px).
+- `logo-{A,B,C}-{jasne,ciemne}.svg` (z tłem), `…-przezroczyste.svg` (do nakładania), `…-naglowek.svg` (wersja bez opisu na nagłówek ≤40 px), `…-naglowek-z-opisem.svg` (40 px Z opisem – opis ma wtedy ok. 5 px wysokości, na zwykłym ekranie nieczytelny; czytelny od ok. 64 px wysokości logo), `znak-{A,B,C}-{jasne,ciemne}-awatar.svg` (koło 100×100; favicon = ten sam znak 32 px).
 **Generator:** `python3 scripts/grafika/logo_fudali.py` (opis do zmiany: zmienna środowiskowa `FUDALI_OPIS`, np. `FUDALI_OPIS="DREWNO I STOLARSTWO" python3 scripts/grafika/logo_fudali.py`; potem zrobić ponownie plansza.png – zrzut `plansza.html` w przeglądarce).
-**Fonty:** Zilla Slab Bold (napis), Zilla Slab Medium (opis) – Google Fonts, licencja OFL, kopie w `fonty/`.
+**Fonty:** Zilla Slab Bold (napis), Zilla Slab Bold (opis, ok. 100% szerokości napisu) – Google Fonts, licencja OFL, kopie w `fonty/`.
 
 ## Warianty
 - **A** – mocna płytka „FUDALI” + rdzawa linia + opis rozciągnięty na szerokość napisu. Znak: litera F w kole.
-- **B** – jak A, ale w linii prosty jednokolorowy liść dębu (okrągłe płaty, żyłki) – zintegrowany w środku linii (nie „wiszący”). Znak: liść w kole. Uwaga: w 32 px liść jest bardzo drobny (w favicon lepiej wyglądałoby samo F).
+- **B** – jak A, ale w linii prosty jednokolorowy liść dębu (zaokrąglone ukośne klapy, falisty brzeg, krótki ogonek, żyłki) – zintegrowany w środku linii (nie „wiszący”). Znak: liść w kole. Uwaga: w 32 px liść jest bardzo drobny (w favicon lepiej wyglądałoby samo F).
 - **C** – monogram F w zaokrąglonym kwadracie + napis i opis po prawej. Znak do awatara: F w kole.
 
 ## Kolory (bez czerni)

@@ -30,11 +30,13 @@ def text_path(txt, fname, size, tracking=0.0):
     return " ".join(d), x - tracking, f["OS/2"].sCapHeight * k
 
 def leaf_shapes(s=1.0, fill="#000"):
-    """Geometryczny liść dębu: owalne ciało + okrągłe płaty po bokach (3 pary) + płat na czubku. Wysokość ok. 92, środek x=0."""
-    c = []
-    c.append(f'<ellipse cx="0" cy="{52*s:.2f}" rx="{11*s:.2f}" ry="{42*s:.2f}"/>')
-    for (x, y, r) in [(0, 11, 10.5), (16, 26, 10), (-16, 26, 10), (22, 46, 12), (-22, 46, 12), (16, 64, 9.5), (-16, 64, 9.5)]:
-        c.append(f'<circle cx="{x*s:.2f}" cy="{y*s:.2f}" r="{r*s:.2f}"/>')
+    """Liść dębu: wrzecionowate ciało + zaokrąglone, ukośne klapy (4 pary, największe w 2/3 wysokości) + klapa na czubku. Środek x=0, wysokość ok. 92."""
+    c = [f'<ellipse cx="0" cy="{50*s:.2f}" rx="{10*s:.2f}" ry="{40*s:.2f}"/>']
+    lobes = [(13, 24, 12, 8.2, 52), (14, 40, 14, 8.8, 40), (15, 57, 14.5, 8.8, 30), (11, 72, 11, 7.6, 22)]   # (x, y, rx, ry, kąt)
+    for x, y, rx, ry, ang in lobes:
+        for sg in (1, -1):
+            c.append(f'<ellipse cx="{sg*x*s:.2f}" cy="{y*s:.2f}" rx="{rx*s:.2f}" ry="{ry*s:.2f}" transform="rotate({-sg*ang} {sg*x*s:.2f} {y*s:.2f})"/>')
+    c.append(f'<ellipse cx="0" cy="{10*s:.2f}" rx="{9*s:.2f}" ry="{11*s:.2f}"/>')
     return f'<g fill="{fill}">' + "".join(c) + '</g>'
 
 def leaf_group(x, y, h, fill, hole, rot=0):
@@ -47,7 +49,7 @@ def leaf_group(x, y, h, fill, hole, rot=0):
             f'<rect x="{-50*s:.1f}" y="{-5*s:.1f}" width="{100*s:.1f}" height="{125*s:.1f}" fill="#fff"/>'
             f'<path d="{vein} {side}" stroke="#000" stroke-width="{3.4*s:.2f}" stroke-linecap="round" fill="none"/></mask>'
             f'<g mask="url(#{uid})">{leaf_shapes(s, fill)}</g>'
-            f'<path d="M0 {86*s:.2f} L0 {100*s:.2f}" stroke="{fill}" stroke-width="{5.2*s:.2f}" stroke-linecap="round"/></g>')
+            f'<path d="M0 {88*s:.2f} L0 {98*s:.2f}" stroke="{fill}" stroke-width="{5.2*s:.2f}" stroke-linecap="round"/></g>')
 
 def svg(w, h, body, bg=None):
     r = f'<rect width="{w:.1f}" height="{h:.1f}" fill="{bg}"/>' if bg else ""
@@ -57,7 +59,7 @@ def svg(w, h, body, bg=None):
 def pal(dark):
     return dict(ink=PARCH if dark else GREEN, sub=("#C9CDB5" if dark else OLIVE), acc=RUST_DARK if dark else RUST, bg=GREEN if dark else PARCH)
 
-WM = "ZillaSlab-Bold.ttf"; DF = "ZillaSlab-Medium.ttf"
+WM = "ZillaSlab-Bold.ttf"; DF = "ZillaSlab-Bold.ttf"
 
 def wordmark(dark, size=100, tracking=6):
     p = pal(dark); d, w, cap = text_path("FUDALI", WM, size, tracking)
@@ -87,7 +89,7 @@ def lockup(variant, dark, desc=True, size=100):
         body += f'<rect x="0" y="{ly:.1f}" width="{w:.1f}" height="{lh:.1f}" fill="{p["acc"]}"/>'
     H = ly + lh
     if desc:
-        target = w; dsize = cap * 0.23
+        target = w; dsize = cap * 0.30
         dd, dw, dcap = text_path(DESC, DF, dsize, 0)
         extra = (cap * 0.50 if variant == "B" else 0)
         tr = (target - dw) / max(len(DESC) - 1, 1)   # rozciągnij kerning do szerokości napisu
@@ -131,6 +133,8 @@ def build_all():
             save(f"logo-{v}-{tag}-przezroczyste.svg", svg(w + 2 * pad, h + 2 * pad, f'<g transform="translate({pad:.1f} {pad:.1f})">{b}</g>'))
             b2, w2, h2 = compact(v, dark)
             save(f"logo-{v}-{tag}-naglowek.svg", svg(w2, h2, b2))
+            b3, w3, h3 = lockup(v, dark, desc=True)
+            save(f"logo-{v}-{tag}-naglowek-z-opisem.svg", svg(w3, h3, b3))
             shape = "circle"
             save(f"znak-{v}-{tag}-awatar.svg", svg(100, 100, mark(v, dark, shape)))
     return True
@@ -145,7 +149,7 @@ def inline(name):
 def plansza_html():
     cur = os.path.relpath(os.path.join(R, "marketing/logo/fudali-logo.png"), P)
     css = f"""body{{margin:0;background:#E9E6DC;font:15px/1.4 'DejaVu Sans',sans-serif;color:{GREEN}}}
-.w{{width:2000px;padding:40px 48px;box-sizing:border-box}} h1{{font:700 34px 'Zilla Slab','DejaVu Serif',serif;margin:0 0 4px}}
+.w{{width:2600px;padding:40px 48px;box-sizing:border-box}} h1{{font:700 34px 'Zilla Slab','DejaVu Serif',serif;margin:0 0 4px}}
 .sub{{color:#5b6249;margin-bottom:22px}} .row{{display:flex;gap:18px;align-items:stretch;margin-bottom:18px}}
 .lab{{width:170px;flex:none;padding-top:10px}} .lab b{{font:700 26px 'Zilla Slab','DejaVu Serif';display:block}} .lab span{{font-size:13px;color:#5b6249}}
 .c{{border-radius:10px;display:flex;align-items:center;justify-content:center;gap:18px;padding:18px 16px;flex-wrap:nowrap;min-width:0}}
@@ -156,12 +160,14 @@ def plansza_html():
     def cell(v, dark):
         t = "ciemne" if dark else "jasne"; cls = "d" if dark else "l"
         hd = inline(f"logo-{v}-{t}-naglowek.svg").replace("<svg ", '<svg style="height:40px;width:auto" ', 1)
+        hd2 = inline(f"logo-{v}-{t}-naglowek-z-opisem.svg").replace("<svg ", '<svg style="height:40px;width:auto" ', 1)
         fv = inline(f"znak-{v}-{t}-awatar.svg").replace("<svg ", '<svg style="height:32px;width:32px" ', 1)
         av = inline(f"znak-{v}-{t}-awatar.svg").replace("<svg ", '<svg style="height:96px;width:96px" ', 1)
         # na jasnym: awatar ciemny; na ciemnym: awatar jasny (w kolorze bg)
         return (f'<div class="c {cls}" style="flex:1;color:{PARCH if dark else GREEN}">'
                 f'<div class="col">{full(v, t, {'A':112,'B':112,'C':74}[v])}<small>logo pełne</small></div>'
                 f'<div class="col">{hd}<small>nagłówek 40 px (bez opisu)</small></div>'
+                f'<div class="col">{hd2}<small>40 px Z opisem</small></div>'
                 f'<div class="col">{fv}<small>32 px (favicon)</small></div>'
                 f'<div class="col">{av}<small>awatar (koło)</small></div></div>')
     rows = ""
