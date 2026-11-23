@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-23T05:20+01:00",
+ "czas": "2026-11-23T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -341,20 +341,46 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent pod choinkę",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent pod choinkę",
+    "prezent pod choinkę dla mężczyzny",
+    "prezent pod choinkę dla kobiety",
+    "prezent pod choinkę dla 10 latki",
+    "prezent pod choinkę dla mamy",
+    "prezent pod choinkę dla 9 latki",
+    "prezent pod choinkę dla rocznego dziecka",
+    "prezent pod choinkę dla męża",
+    "prezent pod choinkę dla rodziców",
+    "prezent pod choinkę dla 2 latka"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "prezent na mikołajki",
    "grupa": "święta",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
     "prezent na mikołajki dla dzieci",
+    "prezent na mikołajki dla dzieci 7 lat",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
     "prezent na mikołajki dla chłopaka",
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
+    "prezent na mikołajki dla dzieci do przedszkola"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -547,32 +573,6 @@
    "firmy": [],
    "ocena": 62,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent pod choinkę",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent pod choinkę dla 2 latki",
-    "prezent pod choinkę",
-    "prezent pod choinkę dla mężczyzny",
-    "prezent pod choinkę dla kobiety",
-    "prezent pod choinkę dla 10 latki",
-    "prezent pod choinkę dla mamy",
-    "prezent pod choinkę dla 9 latki",
-    "prezent pod choinkę dla rocznego dziecka",
-    "prezent pod choinkę dla męża",
-    "prezent pod choinkę dla rodziców"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 62,
-   "zmiana_oceny": -3
   },
   {
    "fraza": "jcb 3cx",
@@ -787,14 +787,14 @@
    "podpowiedzi_google": [
     "drewno opałowe",
     "drewno opałowe olx",
-    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
     "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań"
+    "drewno opałowe poznań",
+    "drewno opałowe z transportem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1265,7 +1265,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": 5
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1487,12 +1487,12 @@
     "koparka",
     "koparka łańcuchowa",
     "koparka zabawka",
-    "koparka zdalnie sterowana",
-    "koparka łańcuchowa wynajem",
+    "koparka na pilota",
     "koparka kołowa",
-    "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka jcb"
+    "koparka zdalnie sterowana",
+    "koparka lego",
+    "koparka łańcuchowa wynajem",
+    "koparka po angielsku"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1632,7 +1632,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": 10,
+   "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -2392,10 +2392,6 @@
    "z_frazy": "tarcica"
   },
   {
-   "fraza": "drewno opałowe cena",
-   "z_frazy": "drewno opałowe"
-  },
-  {
    "fraza": "drewno opałowe podkarpackie tanio",
    "z_frazy": "drewno opałowe"
   },
@@ -2417,6 +2413,10 @@
   },
   {
    "fraza": "drewno opałowe poznań",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe z transportem",
    "z_frazy": "drewno opałowe"
   },
   {
@@ -2556,10 +2556,6 @@
    "z_frazy": "drewniane ozdoby choinkowe"
   },
   {
-   "fraza": "prezent pod choinkę dla 2 latki",
-   "z_frazy": "prezent pod choinkę"
-  },
-  {
    "fraza": "prezent pod choinkę dla mężczyzny",
    "z_frazy": "prezent pod choinkę"
   },
@@ -2585,6 +2581,10 @@
   },
   {
    "fraza": "prezent pod choinkę dla rodziców",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 2 latka",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -2636,6 +2636,10 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
+   "fraza": "prezent na mikołajki dla dzieci 7 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
    "fraza": "prezent na mikołajki do przedszkola",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2661,10 +2665,6 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -3280,11 +3280,7 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka łańcuchowa wynajem",
+   "fraza": "koparka na pilota",
    "z_frazy": "koparka"
   },
   {
@@ -3292,11 +3288,19 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka po angielsku",
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka kryptowalut",
+   "fraza": "koparka lego",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka łańcuchowa wynajem",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka po angielsku",
    "z_frazy": "koparka"
   },
   {
