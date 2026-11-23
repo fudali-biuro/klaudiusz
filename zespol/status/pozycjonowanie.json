@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
  "stan": "gotowe",
- "zadanie": "Korekta: otwieracz na mikołajki (marketing/teksty/2026-11-23-otwieracz-mikolajki.md)",
+ "zadanie": "Pracownia tekstu 23.11 (12:15): wszystkie szkice sprawdzone, nic nowego",
  "postep": 100,
- "aktualizacja": "2026-11-23T06:29+01:00",
+ "aktualizacja": "2026-11-23T12:16+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-23T12:16+01:00",
+   "stan": "gotowe",
+   "tekst": "Pracownia tekstu 23.11 (12:15): wszystkie szkice sprawdzone, nic nowego"
+  },
   {
    "czas": "2026-11-23T06:29+01:00",
    "stan": "gotowe",
