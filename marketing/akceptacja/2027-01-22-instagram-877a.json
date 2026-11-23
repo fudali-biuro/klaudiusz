@@ -1,53 +1,58 @@
 {
- "id": "2027-01-22-instagram-877a",
- "kanal": "instagram",
- "data": "2027-01-22",
- "godzina": "18:00",
- "tytul": "Styl studio – Stolik boczny Płatek (galeria 3 zdjęcia)",
- "produkt": "Stolik boczny Płatek",
- "tekst": "Drewniany stolik boczny z dębu, który wygląda jak mała rzeźba 🪵 Stolik Płatek z dębu czerwonego i białą podstawą, do kanapy i fotela. 850 zł.\n\n👉 https://www.fudali.com.pl/sklep/stolik-boczny-platek-debowy/\n\n#stolikboczny #drewnianystolik #dokanapy #dąbczerwony #fudali",
- "hashtagi": "#płatek #stolik #dąb",
- "obrazy": [
-  "marketing/kampanie/styl-studio-produkty/platek/1-packshot-flesz.jpg",
-  "marketing/kampanie/styl-studio-produkty/platek/2-packshot-twardy-cien.jpg",
-  "marketing/kampanie/styl-studio-produkty/platek/3-makro-detal.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "styl-studio",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
- "wersja": 2,
- "utworzono": "2026-11-17T13:37:28+00:00",
- "zmieniono": "2026-11-17T13:54:35+00:00",
- "historia": [
-  {
-   "czas": "2026-11-17T13:37:28+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-17T13:42:09+00:00",
-   "kto": "Ola (sprawdzili: Kuba, Bartek)",
-   "stan": "czeka",
-   "komentarz": "poprawiona wersja 2"
-  },
-  {
-   "czas": "2026-11-17T13:45:40+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:45:49+00:00",
-   "kto": "pablo",
-   "stan": "ok",
-   "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
-  },
-  {
-   "czas": "2026-11-17T13:54:35+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
-  }
- ]
+  "id": "2027-01-22-instagram-877a",
+  "kanal": "instagram",
+  "data": "2027-01-22",
+  "godzina": "18:00",
+  "tytul": "Styl studio – Stolik boczny Płatek (galeria 3 zdjęcia)",
+  "produkt": "Stolik boczny Płatek",
+  "tekst": "Drewniany stolik boczny z dębu, który wygląda jak mała rzeźba 🪵 Stolik Płatek z dębu czerwonego i białą podstawą, do kanapy i fotela\n\n👉 Link w Bio. \n\n#stolikboczny #drewnianystolik #dokanapy #dąbczerwony #fudali",
+  "hashtagi": "#płatek #stolik #dąb",
+  "obrazy": [
+    "marketing/kampanie/styl-studio-produkty/platek/1-packshot-flesz.jpg",
+    "marketing/kampanie/styl-studio-produkty/platek/2-packshot-twardy-cien.jpg",
+    "marketing/kampanie/styl-studio-produkty/platek/3-makro-detal.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "styl-studio",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
+  "wersja": 2,
+  "utworzono": "2026-11-17T13:37:28+00:00",
+  "zmieniono": "2026-11-17T13:54:35+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-17T13:37:28+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-17T13:42:09+00:00",
+      "kto": "Ola (sprawdzili: Kuba, Bartek)",
+      "stan": "czeka",
+      "komentarz": "poprawiona wersja 2"
+    },
+    {
+      "czas": "2026-11-17T13:45:40+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:45:49+00:00",
+      "kto": "pablo",
+      "stan": "ok",
+      "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
+    },
+    {
+      "czas": "2026-11-17T13:54:35+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "tekst zsynchronizowany z wersją Pabla w Bufferze (wersja ostateczna – nie nadpisywać)"
+    }
+  ]
 }

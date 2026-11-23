@@ -2,7 +2,8 @@
 Powód: termin przesunięty ze stycznia na 3.12 (zasięg Kuby 23.11: „prezent na mikołajki” 107, „prezent dla taty” 58). Dotychczasowy tekst zatwierdzony przez Pablo zostaje w Buffer do jego „Tekst OK” nowej wersji.
 Fakty (strona sklepu): orzech czarny + metalowy otwieracz, grawerowany kot, 49 zł; „na parapetówkę, urodziny czy Dzień Chłopaka”.
 
-## 📣 Ola – propozycja (2 hooki)
+## 📣 Ola – propozycja (2 hooki) – wg lekcji 30: krótko, bez ceny i bez adresu w IG, „Link w Bio.” (Pablo poprawia teksty w Bufferze)
+Dotychczasowy tekst w Buffer (Pabla nie ruszał): „Mały drewniany prezent dla faceta, który naprawdę się przyda 🐱 Otwieracz „Kot” z orzecha czarnego, z metalowym otwieraczem na odwrocie. 49 zł. + link”. Nowy tekst buduję na jego stylu.
 - A: „Mały drewniany prezent na Mikołajki, który naprawdę się przyda 🐱” (fraza „prezent na Mikołajki” z przodu)
 - B: „Mały drewniany prezent dla faceta na Mikołajki 🐱”
 Dalej: „Otwieracz „Kot” z orzecha czarnego, z metalowym otwieraczem na odwrocie. 49 zł.” + link + hasztagi `#prezentnamikołajki #prezentdlafaceta #drewnianyprezent #otwieraczdobutelek #fudali`.

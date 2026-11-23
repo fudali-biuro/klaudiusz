@@ -5,7 +5,7 @@
   "godzina": "18:00",
   "tytul": "Styl studio – Składany stolik kawowy (galeria 3 zdjęcia)",
   "produkt": "Składany stolik kawowy",
-  "tekst": "Składany stolik kawowy, który chowasz, gdy go nie potrzebujesz 🪵 Z litego drewna, do salonu. 229 zł.\n\n👉 https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/\n\n#stolikkawowy #stolikskładany #meblezdrewna #salon #fudali",
+  "tekst": "Składany stolik kawowy, który chowasz, gdy go nie potrzebujesz 🪵 Z litego drewna, do salonu na balkon/ taras \n\n#stolikkawowy #stolikskładany #meblezdrewna #salon #fudali",
   "hashtagi": "#stolik #litedrewno #design",
   "obrazy": [
     "marketing/kampanie/styl-studio-produkty/stolik-skladany/1-packshot-flesz.jpg",
@@ -53,6 +53,11 @@
       "czas": "2026-11-23",
       "kto": "ola",
       "co": "termin zmieniony na 2026-11-30 (decyzja Klaudiusza wg zasięgu Kuby 23.11); szkice w Buffer przesunięte"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "tekst zsynchronizowany z wersją Pabla w Bufferze (wersja ostateczna – nie nadpisywać)"
     }
   ]
 }

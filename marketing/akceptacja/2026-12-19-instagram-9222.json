@@ -1,39 +1,44 @@
 {
- "id": "2026-12-19-instagram-9222",
- "kanal": "instagram",
- "data": "2026-12-19",
- "godzina": "18:00",
- "tytul": "Inspiracja – Szron na pomoście (zdjęcie 4:5)",
- "produkt": "Leżak",
- "tekst": "Mroźny poranek, para nad wodą i leżak na pomoście 🌫️ Zapisz 📌",
- "hashtagi": "#szron #jezioro #poranek",
- "obrazy": [
-  "marketing/instagram/inspiracje/insp-26-jezioro-szron-4x5.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "instagram-inspiracje",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
- "wersja": 1,
- "utworzono": "2026-11-14T08:14:53+00:00",
- "zmieniono": "2026-11-17T13:54:35+00:00",
- "historia": [
-  {
-   "czas": "2026-11-14T08:14:53+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-17T13:45:40+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:54:35+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
-  }
- ]
+  "id": "2026-12-19-instagram-9222",
+  "kanal": "instagram",
+  "data": "2026-12-19",
+  "godzina": "18:00",
+  "tytul": "Inspiracja – Szron na pomoście (zdjęcie 4:5)",
+  "produkt": "Leżak",
+  "tekst": "Mroźny poranek🌫️\n\nZapisz na Mikołajki 📌Prezent z drewna, który naprawdę się przyda 🪵\n#leżakdrewniany #prezentzdrewna #drewnianemeble #prezentnamikołajki #fudali\n\n",
+  "hashtagi": "#szron #jezioro #poranek",
+  "obrazy": [
+    "marketing/instagram/inspiracje/insp-26-jezioro-szron-4x5.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "instagram-inspiracje",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
+  "wersja": 1,
+  "utworzono": "2026-11-14T08:14:53+00:00",
+  "zmieniono": "2026-11-17T13:54:35+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-14T08:14:53+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-17T13:45:40+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:54:35+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "tekst zsynchronizowany z wersją Pabla w Bufferze (wersja ostateczna – nie nadpisywać)"
+    }
+  ]
 }

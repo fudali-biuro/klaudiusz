@@ -1,45 +1,50 @@
 {
- "id": "2026-11-26-instagram-0dbe",
- "kanal": "instagram",
- "data": "2026-11-26",
- "godzina": "18:00",
- "tytul": "Komplet 2/2 – packshot z twardym cieniem: post IG 4:5",
- "produkt": "Leżak",
- "tekst": "Prezent z drewna, który naprawdę się przyda 🪵 Składany leżak z jodły bieszczadzkiej – 10 kg, składa się na płasko i czeka na pierwszy ciepły dzień. Zapisz na Mikołajki 📌",
- "hashtagi": "#leżakdrewniany #prezentzdrewna #drewnianemeble #prezentnamikołajki #fudali",
- "obrazy": [
-  "marketing/instagram/styl-lumor/packshot-twardy-cien-4x5.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "ig-story-fb-probka",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
- "wersja": 2,
- "utworzono": "2026-11-17T13:31:09+00:00",
- "zmieniono": "2026-11-17T13:54:35+00:00",
- "historia": [
-  {
-   "czas": "2026-11-17T13:31:09+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-17T13:38:07+00:00",
-   "kto": "marketing",
-   "stan": "czeka",
-   "komentarz": "poprawiona wersja 2"
-  },
-  {
-   "czas": "2026-11-17T13:45:41+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:54:35+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
-  }
- ]
+  "id": "2026-11-26-instagram-0dbe",
+  "kanal": "instagram",
+  "data": "2026-11-26",
+  "godzina": "18:00",
+  "tytul": "Komplet 2/2 – packshot z twardym cieniem: post IG 4:5",
+  "produkt": "Leżak",
+  "tekst": "Zapisz na Mikołajki 📌\nPrezent z drewna, który naprawdę się przyda 🪵\n#leżakdrewniany #prezentzdrewna #drewnianemeble #prezentnamikołajki #fudali",
+  "hashtagi": "#leżakdrewniany #prezentzdrewna #drewnianemeble #prezentnamikołajki #fudali",
+  "obrazy": [
+    "marketing/instagram/styl-lumor/packshot-twardy-cien-4x5.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "ig-story-fb-probka",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
+  "wersja": 2,
+  "utworzono": "2026-11-17T13:31:09+00:00",
+  "zmieniono": "2026-11-17T13:54:35+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-17T13:31:09+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-17T13:38:07+00:00",
+      "kto": "marketing",
+      "stan": "czeka",
+      "komentarz": "poprawiona wersja 2"
+    },
+    {
+      "czas": "2026-11-17T13:45:41+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:54:35+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "tekst zsynchronizowany z wersją Pabla w Bufferze (wersja ostateczna – nie nadpisywać)"
+    }
+  ]
 }
