@@ -1,53 +1,58 @@
 {
- "id": "2027-01-18-instagram-3891",
- "kanal": "instagram",
- "data": "2027-01-18",
- "godzina": "18:00",
- "tytul": "Styl studio – Otwieracz Kot (galeria 3 zdjęcia)",
- "produkt": "Otwieracz Kot",
- "tekst": "Mały drewniany prezent dla faceta, który naprawdę się przyda 🐱 Otwieracz „Kot” z orzecha czarnego, z metalowym otwieraczem na odwrocie. 49 zł.\n\n👉 https://www.fudali.com.pl/sklep/otwieracz-do-butelek-kot/\n\n#prezentdlafaceta #drewnianyprezent #otwieraczdobutelek #orzechczarny #fudali",
- "hashtagi": "#otwieracz #kot #drewno",
- "obrazy": [
-  "marketing/kampanie/styl-studio-produkty/otwieracz/1-packshot-flesz.jpg",
-  "marketing/kampanie/styl-studio-produkty/otwieracz/2-packshot-twardy-cien.jpg",
-  "marketing/kampanie/styl-studio-produkty/otwieracz/3-makro-detal.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "styl-studio",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
- "wersja": 2,
- "utworzono": "2026-11-17T13:37:24+00:00",
- "zmieniono": "2026-11-17T13:54:35+00:00",
- "historia": [
-  {
-   "czas": "2026-11-17T13:37:24+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-17T13:42:06+00:00",
-   "kto": "Ola (sprawdzili: Kuba, Bartek)",
-   "stan": "czeka",
-   "komentarz": "poprawiona wersja 2"
-  },
-  {
-   "czas": "2026-11-17T13:45:41+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:45:45+00:00",
-   "kto": "pablo",
-   "stan": "ok",
-   "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
-  },
-  {
-   "czas": "2026-11-17T13:54:35+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
-  }
- ]
+  "id": "2027-01-18-instagram-3891",
+  "kanal": "instagram",
+  "data": "2026-12-03",
+  "godzina": "18:00",
+  "tytul": "Styl studio – Otwieracz Kot (galeria 3 zdjęcia)",
+  "produkt": "Otwieracz Kot",
+  "tekst": "Mały drewniany prezent dla faceta, który naprawdę się przyda 🐱 Otwieracz „Kot” z orzecha czarnego, z metalowym otwieraczem na odwrocie. 49 zł.\n\n👉 https://www.fudali.com.pl/sklep/otwieracz-do-butelek-kot/\n\n#prezentdlafaceta #drewnianyprezent #otwieraczdobutelek #orzechczarny #fudali",
+  "hashtagi": "#otwieracz #kot #drewno",
+  "obrazy": [
+    "marketing/kampanie/styl-studio-produkty/otwieracz/1-packshot-flesz.jpg",
+    "marketing/kampanie/styl-studio-produkty/otwieracz/2-packshot-twardy-cien.jpg",
+    "marketing/kampanie/styl-studio-produkty/otwieracz/3-makro-detal.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "styl-studio",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
+  "wersja": 2,
+  "utworzono": "2026-11-17T13:37:24+00:00",
+  "zmieniono": "2026-11-17T13:54:35+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-17T13:37:24+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-17T13:42:06+00:00",
+      "kto": "Ola (sprawdzili: Kuba, Bartek)",
+      "stan": "czeka",
+      "komentarz": "poprawiona wersja 2"
+    },
+    {
+      "czas": "2026-11-17T13:45:41+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:45:45+00:00",
+      "kto": "pablo",
+      "stan": "ok",
+      "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
+    },
+    {
+      "czas": "2026-11-17T13:54:35+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "termin zmieniony na 2026-12-03 (decyzja Klaudiusza wg zasięgu Kuby 23.11); szkice w Buffer przesunięte"
+    }
+  ]
 }

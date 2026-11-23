@@ -1,53 +1,58 @@
 {
- "id": "2027-01-20-instagram-b6c1",
- "kanal": "instagram",
- "data": "2027-01-20",
- "godzina": "18:00",
- "tytul": "Styl studio – Składany stolik kawowy (galeria 3 zdjęcia)",
- "produkt": "Składany stolik kawowy",
- "tekst": "Składany stolik kawowy, który chowasz, gdy go nie potrzebujesz 🪵 Z litego drewna, do salonu. 229 zł.\n\n👉 https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/\n\n#stolikkawowy #stolikskładany #meblezdrewna #salon #fudali",
- "hashtagi": "#stolik #litedrewno #design",
- "obrazy": [
-  "marketing/kampanie/styl-studio-produkty/stolik-skladany/1-packshot-flesz.jpg",
-  "marketing/kampanie/styl-studio-produkty/stolik-skladany/2-packshot-twardy-cien.jpg",
-  "marketing/kampanie/styl-studio-produkty/stolik-skladany/3-makro-detal.jpg"
- ],
- "wideo": [],
- "autor": "marketing",
- "kampania": "styl-studio",
- "stan": "w-bufferze",
- "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
- "wersja": 2,
- "utworzono": "2026-11-17T13:37:26+00:00",
- "zmieniono": "2026-11-17T13:54:35+00:00",
- "historia": [
-  {
-   "czas": "2026-11-17T13:37:26+00:00",
-   "kto": "marketing",
-   "stan": "czeka"
-  },
-  {
-   "czas": "2026-11-17T13:42:07+00:00",
-   "kto": "Ola (sprawdzili: Kuba, Bartek)",
-   "stan": "czeka",
-   "komentarz": "poprawiona wersja 2"
-  },
-  {
-   "czas": "2026-11-17T13:45:42+00:00",
-   "kto": "pablo",
-   "stan": "ok"
-  },
-  {
-   "czas": "2026-11-17T13:45:47+00:00",
-   "kto": "pablo",
-   "stan": "ok",
-   "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
-  },
-  {
-   "czas": "2026-11-17T13:54:35+00:00",
-   "kto": "pablo",
-   "stan": "w-bufferze",
-   "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
-  }
- ]
+  "id": "2027-01-20-instagram-b6c1",
+  "kanal": "instagram",
+  "data": "2026-11-30",
+  "godzina": "18:00",
+  "tytul": "Styl studio – Składany stolik kawowy (galeria 3 zdjęcia)",
+  "produkt": "Składany stolik kawowy",
+  "tekst": "Składany stolik kawowy, który chowasz, gdy go nie potrzebujesz 🪵 Z litego drewna, do salonu. 229 zł.\n\n👉 https://www.fudali.com.pl/sklep/skladany-stolik-kawowy-lite-drewno/\n\n#stolikkawowy #stolikskładany #meblezdrewna #salon #fudali",
+  "hashtagi": "#stolik #litedrewno #design",
+  "obrazy": [
+    "marketing/kampanie/styl-studio-produkty/stolik-skladany/1-packshot-flesz.jpg",
+    "marketing/kampanie/styl-studio-produkty/stolik-skladany/2-packshot-twardy-cien.jpg",
+    "marketing/kampanie/styl-studio-produkty/stolik-skladany/3-makro-detal.jpg"
+  ],
+  "wideo": [],
+  "autor": "marketing",
+  "kampania": "styl-studio",
+  "stan": "w-bufferze",
+  "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)",
+  "wersja": 2,
+  "utworzono": "2026-11-17T13:37:26+00:00",
+  "zmieniono": "2026-11-17T13:54:35+00:00",
+  "historia": [
+    {
+      "czas": "2026-11-17T13:37:26+00:00",
+      "kto": "marketing",
+      "stan": "czeka"
+    },
+    {
+      "czas": "2026-11-17T13:42:07+00:00",
+      "kto": "Ola (sprawdzili: Kuba, Bartek)",
+      "stan": "czeka",
+      "komentarz": "poprawiona wersja 2"
+    },
+    {
+      "czas": "2026-11-17T13:45:42+00:00",
+      "kto": "pablo",
+      "stan": "ok"
+    },
+    {
+      "czas": "2026-11-17T13:45:47+00:00",
+      "kto": "pablo",
+      "stan": "ok",
+      "komentarz": "OK wersji 1 (zdjęcia); tekst po pracowni v2"
+    },
+    {
+      "czas": "2026-11-17T13:54:35+00:00",
+      "kto": "pablo",
+      "stan": "w-bufferze",
+      "komentarz": "Szkic w Buffer 17.11 (z relacją IG + FB post + relacja FB wg lekcji 26)"
+    },
+    {
+      "czas": "2026-11-23",
+      "kto": "ola",
+      "co": "termin zmieniony na 2026-11-30 (decyzja Klaudiusza wg zasięgu Kuby 23.11); szkice w Buffer przesunięte"
+    }
+  ]
 }
