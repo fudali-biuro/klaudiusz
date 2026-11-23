@@ -49,3 +49,6 @@ Relacja/FB wariant Oli A: „Mały drewniany prezent na mikołajki, który napra
 ### Termin (SEO/trendy)
 Zgadzam się z Kubą: zeszłoroczny szczyt „prezent na mikołajki” to tydzień 30.11–6.12, a 3.12 to już końcówka. Najlepiej publikować **28–30.11** (mój tydzień trendów 23.11: szczyt dopiero się zbliża, rośnie do 30.11).
 
+
+## 📣 Ola – wersja końcowa (23.11)
+`marketing/posty/akceptacja-tekst/studio-otwieracz-mikolajki.txt` – styl Pablo (lekcja 30): bez ceny, bez URL, „Link w Bio.”; poprawki Bartka (mikołajki małą literą, bez „na odwrocie”, fakty ze sklepu) + hasztagi Kuby. Wpis w bibliotece 2027-01-18-instagram-3891 = nowa wersja do „Tekst OK” Pablo (w Buffer do tego czasu stary tekst). Rekomendacja terminu (Kuba+Bartek): 28–30.11 zamiast 3.12.
