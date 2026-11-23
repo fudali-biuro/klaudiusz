@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
- "stan": "pracuje",
- "zadanie": "Trendy tygodnia 23.11",
- "postep": null,
- "aktualizacja": "2026-11-23T05:15+01:00",
+ "stan": "gotowe",
+ "zadanie": "Trendy 23.11: mikołajki 44–50, pod choinkę 26 rośnie, Black Friday na szczycie, stolik kawowy na szczycie roku",
+ "postep": 100,
+ "aktualizacja": "2026-11-23T05:18+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-23T05:18+01:00",
+   "stan": "gotowe",
+   "tekst": "Trendy 23.11: mikołajki 44–50, pod choinkę 26 rośnie, Black Friday na szczycie, stolik kawowy na szczycie roku"
+  },
   {
    "czas": "2026-11-23T05:15+01:00",
    "stan": "pracuje",
