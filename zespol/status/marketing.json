@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Poniedziałek: plan tygodnia 23–29.11",
- "postep": null,
- "aktualizacja": "2026-11-23T05:36+01:00",
+ "stan": "gotowe",
+ "zadanie": "Plan tygodnia 23–29.11 gotowy; propozycja przesunięcia 2 serii na przed Mikołajki czeka na decyzję Klaudiusza",
+ "postep": 100,
+ "aktualizacja": "2026-11-23T06:26+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-23T06:26+01:00",
+   "stan": "gotowe",
+   "tekst": "Plan tygodnia 23–29.11 gotowy; propozycja przesunięcia 2 serii na przed Mikołajki czeka na decyzję Klaudiusza"
+  },
   {
    "czas": "2026-11-23T05:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-13T12:36+01:00",
    "stan": "pracuje",
    "tekst": "Zmiana 12:35 (13.11): czat i zdjęcia"
-  },
-  {
-   "czas": "2026-11-13T05:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Zmiana 13.11 rano: bez nowych wiadomości/zdjęć; w AGENTS tylko notatka o kluczu Apify"
   }
  ]
 }
