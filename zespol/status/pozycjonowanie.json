@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
  "stan": "gotowe",
- "zadanie": "Pracownia tekstu 23.11 (12:15): wszystkie szkice sprawdzone, nic nowego",
+ "zadanie": "Pracownia tekstu 24.11 (5:15): brak nowych szkiców do sprawdzenia",
  "postep": 100,
- "aktualizacja": "2026-11-23T12:16+01:00",
+ "aktualizacja": "2026-11-24T05:16+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-24T05:16+01:00",
+   "stan": "gotowe",
+   "tekst": "Pracownia tekstu 24.11 (5:15): brak nowych szkiców do sprawdzenia"
+  },
   {
    "czas": "2026-11-23T12:16+01:00",
    "stan": "gotowe",
