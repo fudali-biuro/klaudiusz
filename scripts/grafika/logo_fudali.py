@@ -12,7 +12,7 @@ P = os.path.join(R, "marketing/logo/propozycja-2026-11")
 FD = os.path.join(P, "fonty")
 GREEN, GREEN2, OLIVE, PARCH = "#34442F", "#475638", "#737D4F", "#F7F5EF"
 RUST, RUST_DARK = "#B4552A", "#DB8453"   # akcent: na parchment / na ciemnej zieleni
-DESC = os.environ.get("FUDALI_OPIS", "STOLARSTWO I DREWNO OGRODOWE")
+DESC = os.environ.get("FUDALI_OPIS", "STOLARNIA · GŁÓGÓW MAŁOPOLSKI".replace("GŁÓGÓW","GŁOGÓW"))
 
 _fonts = {}
 def font(name):
@@ -180,7 +180,7 @@ def plansza_html():
     sw = "".join(f'<div style="background:{c};color:{"#fff" if c not in (PARCH,) else GREEN}">{n}<br>{c}</div>' for n, c in
                  [("zieleń główna", GREEN), ("zieleń 2", GREEN2), ("oliwka", OLIVE), ("parchment", PARCH), ("rdzawy (jasne tło)", RUST), ("rdzawy (ciemne tło)", RUST_DARK)])
     return (f'<html><head><meta charset="utf-8"><style>{css}</style></head><body><div class="w"><h1>Nowe logo FUDALI – propozycja (23.11.2026)</h1>'
-            f'<div class="sub">Krój: Zilla Slab Bold (płytka, zaokrąglone szeryfy) · opis: Zilla Slab Medium · opis: „{DESC}” (robocza wersja; do wyboru z propozycji Oli) · tylko podgląd, nic nie wdrożone</div>'
+            f'<div class="sub">Krój: Zilla Slab Bold (płytka, zaokrąglone szeryfy), opis też Zilla Slab Bold · opis pod nazwą: „{DESC}” (propozycja Oli po konsultacji z Bartkiem) · tylko podgląd, nic nie wdrożone</div>'
             f'<div class="sw">{sw}</div>{cur_html}{rows}</div></body></html>')
 
 def build_plansza():

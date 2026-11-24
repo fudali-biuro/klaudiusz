@@ -14,5 +14,5 @@
 zieleń `#34442F` (tekst/tło ciemne) · zieleń 2 `#475638` · oliwka `#737D4F` (opis na jasnym) · parchment `#F7F5EF` · akcent rdzawy `#B4552A` na jasnym tle, `#DB8453` na ciemnozielonym (jaśniejszy wariant, żeby linia była widoczna) · opis na ciemnym `#C9CDB5`.
 
 ## Opis pod nazwą
-Robocza wersja: „STOLARSTWO I DREWNO OGRODOWE” (z uwag Pablo). Propozycje Oli i sprawdzenie Bartka (SEO) – do podmiany przez `FUDALI_OPIS`.
+Opis w logo (propozycja Oli po konsultacji z Bartkiem, `opis-pod-nazwa.md`): **„STOLARNIA · GŁOGÓW MAŁOPOLSKI”** (`svg/`, `plansza.png`). Zapasowo: „DOMKI, ALTANY I MEBLE Z DREWNA” (`svg-opis-zapasowy/`, `plansza-opis-zapasowy.png`). Do bio/strony (nie do logo): „domki, altany i meble ogrodowe z drewna”. Awatar i favicon = sam znak bez opisu.
 Uwagi z briefu zaadresowane: mocniejszy krój (płytka zamiast cienkiego szeryfa), opis zostaje, wersje czytelne w 40/32 px (nagłówek bez opisu, favicon = znak), awatar dla social mediów, zero czerni.
