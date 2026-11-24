@@ -457,3 +457,6 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | domek całoroczny 35m2 z poddaszem bez pozwolenia | domek 35m2 bez pozwolenia | 2026-11-22 |
 | domek letniskowy brda | domek letniskowy | 2026-11-22 |
 | prezent pod choinkę dla 2 latki | prezent pod choinkę | 2026-11-23 |
+| koparko ładowarka case na sprzedaż | koparko-ładowarka na sprzedaż | 2026-11-24 |
+| biurko z litego drewna na wymiar | biurko z litego drewna | 2026-11-24 |
+| organizer na biurko drewniany z szufladami | organizer na biurko drewniany | 2026-11-24 |

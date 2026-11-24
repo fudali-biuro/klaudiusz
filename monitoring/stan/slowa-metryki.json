@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-23T12:21+01:00",
+ "czas": "2026-11-24T05:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -62,13 +62,13 @@
     "drewutnia drewniana",
     "drewutnia drewniana olx",
     "drewutnia drewniana projekt",
-    "drewutnia drewniana allegro",
     "drewutnia drewniana zamykana",
-    "drewutnia drewniana leroy merlin",
+    "drewutnia drewniana allegro",
     "drewutnia drewniana castorama",
+    "drewutnia drewniana leroy merlin",
     "drewutnia drewniana z domkiem narzędziowym",
-    "drewutnia drewniana obi",
-    "drewutnia drewniana na drewno"
+    "drewutnia drewniana na drewno",
+    "drewutnia drewniana obi"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -300,8 +300,8 @@
     "leżak drewniany składany jysk",
     "leżak drewniany składany z podłokietnikiem",
     "leżak drewniany składany z nadrukiem",
-    "leżak drewniany składany ikea",
     "leżak drewniany składany z poduszką",
+    "leżak drewniany składany ikea",
     "leżak drewniany składany action"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -364,7 +364,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent na mikołajki",
@@ -372,8 +372,8 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
-    "prezent na mikołajki dla dzieci",
     "prezent na mikołajki dla dzieci 7 lat",
+    "prezent na mikołajki dla dzieci",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
     "prezent na mikołajki dla chłopaka",
@@ -381,32 +381,6 @@
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
     "prezent na mikołajki dla dzieci do przedszkola"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka jcb 3cx",
-    "koparko ładowarka case",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -430,8 +404,8 @@
     "minikoparka rzeszów",
     "praca koparka rzeszów",
     "usługi koparką rzeszów cena",
-    "kurs koparka rzeszów",
     "koparka wynajem rzeszów",
+    "kurs koparka rzeszów",
     "koparka sany rzeszów"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -536,7 +510,7 @@
     "biurko z litego drewna mango",
     "biurko z litego drewna allegro",
     "biurko z litego drewna ikea",
-    "biurko z litego drewna elektryczne"
+    "biurko z litego drewna na wymiar"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -547,6 +521,31 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko-ładowarka na sprzedaż",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko-ładowarka na sprzedaż",
+    "koparko ładowarka na sprzedaż olx",
+    "koparko ładowarka ostrówek na sprzedaż",
+    "koparko ładowarka używana na sprzedaż",
+    "mini koparko ładowarka na sprzedaż",
+    "koparko ładowarka jcb na sprzedaż",
+    "koparko ładowarka cat na sprzedaż",
+    "koparko ładowarka case na sprzedaż",
+    "koparko ładowarka sprzedaż"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 0.96,
+   "liczba_podpowiedzi": 9,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 63,
+   "zmiana_oceny": 2
   },
   {
    "fraza": "prezent z drewna",
@@ -598,30 +597,6 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 62,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko-ładowarka na sprzedaż",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko-ładowarka na sprzedaż",
-    "koparko ładowarka na sprzedaż olx",
-    "koparko ładowarka ostrówek na sprzedaż",
-    "koparko ładowarka używana na sprzedaż",
-    "mini koparko ładowarka na sprzedaż",
-    "koparko ładowarka jcb na sprzedaż",
-    "koparko ładowarka cat na sprzedaż",
-    "koparko ładowarka sprzedaż"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 0.92,
-   "liczba_podpowiedzi": 8,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 61,
    "zmiana_oceny": 0
   },
   {
@@ -741,8 +716,8 @@
     "stołki drewniane olx",
     "stołki drewniane składane",
     "stołki drewniane z oparciem",
-    "stołki drewniane action",
-    "stołki drewniane allegro"
+    "stołki drewniane allegro",
+    "stołki drewniane action"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -787,14 +762,14 @@
    "podpowiedzi_google": [
     "drewno opałowe",
     "drewno opałowe olx",
+    "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
     "drewno opałowe białystok",
     "drewno opałowe castorama",
     "drewno opałowe rzeszów",
     "drewno opałowe warszawa",
-    "drewno opałowe poznań",
-    "drewno opałowe z transportem"
+    "drewno opałowe poznań"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -841,8 +816,8 @@
     "drewniane ozdoby choinkowe do malowania",
     "drewniane ozdoby choinkowe allegro",
     "drewniane ozdoby choinkowe diy",
-    "drewniane ozdoby choinkowe z imieniem",
     "drewniane ozdoby choinkowe action",
+    "drewniane ozdoby choinkowe z imieniem",
     "drewniane ozdoby choinkowe biale",
     "drewniane ozdoby choinkowe pepco",
     "drewniane ozdoby choinkowe sinsay",
@@ -920,8 +895,8 @@
     "prezent dla taty na urodziny który wszystko ma",
     "prezent na dzien taty ktory wszystko ma",
     "prezent dla meza ktory wszystko ma",
-    "prezent dla dwulatka który wszystko ma",
     "prezent dla mężczyzny który wszystko ma",
+    "prezent dla dwulatka który wszystko ma",
     "prezent dla chlopaka ktory wszystko ma",
     "prezent dla dziadka który wszystko ma",
     "prezent dla brata ktory wszystko ma"
@@ -1000,9 +975,9 @@
     "organizer na biurko drewniany czarny",
     "organizer na biurko drewniany ikea",
     "organizer na biurko drewniany z imieniem",
+    "organizer na biurko drewniany z szufladami",
     "organizer na biurko czarno drewniany",
-    "organizer na biurko szuflady drewniany przybornik",
-    "organizer na biurko dla dzieci drewniany"
+    "organizer na biurko szuflady drewniany przybornik"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1219,29 +1194,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "jak zabezpieczyć meble ogrodowe",
-   "grupa": "wiedza i pielęgnacja",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "jak zabezpieczyć meble ogrodowe na zimę",
-    "jak zabezpieczyć meble ogrodowe przed wiatrem",
-    "jak zabezpieczyc meble ogrodowe",
-    "jak zabezpieczyć meble ogrodowe przed deszczem",
-    "jak zabezpieczyć meble ogrodowe przed kradzieżą",
-    "jak zabezpieczyć meble ogrodowe drewniane",
-    "jak zabezpieczyć drewniane meble ogrodowe na zimę"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 7,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "prezent dla niego",
    "grupa": "oakywood",
    "znaczenie_biznesowe": "srednie",
@@ -1257,9 +1209,32 @@
     "prezent dla niego na swieta",
     "prezent dla niego allegro"
    ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
    "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 50,
+   "zmiana_oceny": 3
+  },
+  {
+   "fraza": "jak zabezpieczyć meble ogrodowe",
+   "grupa": "wiedza i pielęgnacja",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "jak zabezpieczyć meble ogrodowe na zimę",
+    "jak zabezpieczyć meble ogrodowe przed wiatrem",
+    "jak zabezpieczyc meble ogrodowe",
+    "jak zabezpieczyć meble ogrodowe przed kradzieżą",
+    "jak zabezpieczyć meble ogrodowe przed deszczem",
+    "jak zabezpieczyć meble ogrodowe drewniane",
+    "jak zabezpieczyć drewniane meble ogrodowe na zimę"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 7,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
@@ -1401,6 +1376,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka case",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka klasa 3"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -24
+  },
+  {
    "fraza": "koparko ładowarka nowa",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -1487,12 +1488,12 @@
     "koparka",
     "koparka łańcuchowa",
     "koparka zabawka",
-    "koparka na pilota",
-    "koparka kołowa",
-    "koparka zdalnie sterowana",
-    "koparka lego",
     "koparka łańcuchowa wynajem",
-    "koparka po angielsku"
+    "koparka kołowa",
+    "koparka po angielsku",
+    "koparka kryptowalut",
+    "koparka zdalnie sterowana",
+    "koparka jcb"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1600,8 +1601,8 @@
     "jcb 3cx pro cena",
     "koparka jcb 3cx cena",
     "jcb 3cx compact cena",
-    "jcb 3cx plus cena",
     "jcb 3cx 2025 cena",
+    "jcb 3cx plus cena",
     "jcb 3cx eco cena",
     "jcb 3cx 2026 cena",
     "jcb 3cx 2014 cena"
@@ -1632,7 +1633,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": null,
+   "pozycja_w_podpowiedziach": 10,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -2392,6 +2393,10 @@
    "z_frazy": "tarcica"
   },
   {
+   "fraza": "drewno opałowe cena",
+   "z_frazy": "drewno opałowe"
+  },
+  {
    "fraza": "drewno opałowe podkarpackie tanio",
    "z_frazy": "drewno opałowe"
   },
@@ -2413,10 +2418,6 @@
   },
   {
    "fraza": "drewno opałowe poznań",
-   "z_frazy": "drewno opałowe"
-  },
-  {
-   "fraza": "drewno opałowe z transportem",
    "z_frazy": "drewno opałowe"
   },
   {
@@ -2632,11 +2633,11 @@
    "z_frazy": "prezent dla taty majsterkowicza"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci",
+   "fraza": "prezent na mikołajki dla dzieci 7 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci 7 lat",
+   "fraza": "prezent na mikołajki dla dzieci",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2920,11 +2921,11 @@
    "z_frazy": "jcb 3cx cena"
   },
   {
-   "fraza": "jcb 3cx plus cena",
+   "fraza": "jcb 3cx 2025 cena",
    "z_frazy": "jcb 3cx cena"
   },
   {
-   "fraza": "jcb 3cx 2025 cena",
+   "fraza": "jcb 3cx plus cena",
    "z_frazy": "jcb 3cx cena"
   },
   {
@@ -2960,11 +2961,11 @@
    "z_frazy": "koparka rzeszów"
   },
   {
-   "fraza": "kurs koparka rzeszów",
+   "fraza": "koparka wynajem rzeszów",
    "z_frazy": "koparka rzeszów"
   },
   {
-   "fraza": "koparka wynajem rzeszów",
+   "fraza": "kurs koparka rzeszów",
    "z_frazy": "koparka rzeszów"
   },
   {
@@ -3029,6 +3030,10 @@
   },
   {
    "fraza": "koparko ładowarka cat na sprzedaż",
+   "z_frazy": "koparko-ładowarka na sprzedaż"
+  },
+  {
+   "fraza": "koparko ładowarka case na sprzedaż",
    "z_frazy": "koparko-ładowarka na sprzedaż"
   },
   {
@@ -3204,11 +3209,11 @@
    "z_frazy": "jak zabezpieczyć meble ogrodowe"
   },
   {
-   "fraza": "jak zabezpieczyć meble ogrodowe przed deszczem",
+   "fraza": "jak zabezpieczyć meble ogrodowe przed kradzieżą",
    "z_frazy": "jak zabezpieczyć meble ogrodowe"
   },
   {
-   "fraza": "jak zabezpieczyć meble ogrodowe przed kradzieżą",
+   "fraza": "jak zabezpieczyć meble ogrodowe przed deszczem",
    "z_frazy": "jak zabezpieczyć meble ogrodowe"
   },
   {
@@ -3248,11 +3253,11 @@
    "z_frazy": "prezent dla taty który wszystko ma"
   },
   {
-   "fraza": "prezent dla dwulatka który wszystko ma",
+   "fraza": "prezent dla mężczyzny który wszystko ma",
    "z_frazy": "prezent dla taty który wszystko ma"
   },
   {
-   "fraza": "prezent dla mężczyzny który wszystko ma",
+   "fraza": "prezent dla dwulatka który wszystko ma",
    "z_frazy": "prezent dla taty który wszystko ma"
   },
   {
@@ -3280,7 +3285,7 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka na pilota",
+   "fraza": "koparka łańcuchowa wynajem",
    "z_frazy": "koparka"
   },
   {
@@ -3288,19 +3293,15 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka lego",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka łańcuchowa wynajem",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka po angielsku",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka kryptowalut",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
@@ -3384,7 +3385,7 @@
    "z_frazy": "biurko z litego drewna"
   },
   {
-   "fraza": "biurko z litego drewna elektryczne",
+   "fraza": "biurko z litego drewna na wymiar",
    "z_frazy": "biurko z litego drewna"
   },
   {
@@ -3460,15 +3461,15 @@
    "z_frazy": "organizer na biurko drewniany"
   },
   {
+   "fraza": "organizer na biurko drewniany z szufladami",
+   "z_frazy": "organizer na biurko drewniany"
+  },
+  {
    "fraza": "organizer na biurko czarno drewniany",
    "z_frazy": "organizer na biurko drewniany"
   },
   {
    "fraza": "organizer na biurko szuflady drewniany przybornik",
-   "z_frazy": "organizer na biurko drewniany"
-  },
-  {
-   "fraza": "organizer na biurko dla dzieci drewniany",
    "z_frazy": "organizer na biurko drewniany"
   },
   {
