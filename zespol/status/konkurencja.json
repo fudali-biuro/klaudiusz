@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "pracuje",
- "zadanie": "12:05 – sprawdzam ponownie EcoChair",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "12:05 – bez danych IG (Apify do 3.12); EcoChair u Ecofurn dalej bez ceny na stronie",
+ "postep": 100,
  "aktualizacja": "2026-11-24T12:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-24T12:06+01:00",
+   "stan": "gotowe",
+   "tekst": "12:05 – bez danych IG (Apify do 3.12); EcoChair u Ecofurn dalej bez ceny na stronie"
+  },
   {
    "czas": "2026-11-24T12:06+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-11T12:12+01:00",
    "stan": "gotowe",
    "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
-  },
-  {
-   "czas": "2026-11-11T05:06+01:00",
-   "stan": "gotowe",
-   "tekst": "Raport 11.11 gotowy – Ecofurn: Singles' Day −11%; korekta ceny choinek Bogateco"
   }
  ]
 }
