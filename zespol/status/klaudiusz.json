@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "zdjęcia produktów na stronie",
+ "zadanie": "dokończenie zdjęć produktów (czeka na wgranie plików)",
  "postep": null,
- "aktualizacja": "2026-11-24T10:01+01:00",
+ "aktualizacja": "2026-11-24T10:32+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -20,9 +20,19 @@
    "czas": "2026-11-24T10:01+01:00",
    "tresc": "Wgraj pliki przez link z czatu (30 min)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-24T10:32+01:00",
+   "tresc": "Napisz „zdjęcia” w czacie, gdy będziesz mógł wgrać pliki",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-24T10:32+01:00",
+   "stan": "czeka",
+   "tekst": "dokończenie zdjęć produktów (czeka na wgranie plików)"
+  },
   {
    "czas": "2026-11-24T10:01+01:00",
    "stan": "czeka",
