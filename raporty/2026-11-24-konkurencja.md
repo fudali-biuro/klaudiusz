@@ -22,6 +22,9 @@
 
 **Pomysły dla Oli (lekcje 22–24, szkice do akceptacji):** bez zmian – zdjęcie-inspiracja leżaka na zimowej werandzie (4:5 IG, 2:3 Pinterest, EN „cushion included”), galeria 2–3 zdjęć na FB z terminem wysyłki, zdjęcia z warsztatu.
 
+## 🔁 Sprawdzenie w południe (12:05)
+Strona EcoChair daje ten sam obraz: brak ceny i koszyka w tekście, „only 2 items left”, „Delivery to Switzerland is not possible”, baner BF „do −50%”. Nie wiem, czy to wycofanie/niedostępność w Szwajcarii, czy ceny ładowane dynamicznie – nie ogłaszam końca promocji. Sprawdzę znów jutro rano.
+
 ## Co się zmieniło
 | Firma | Zmiana | Źródło |
 |---|---|---|
