@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-25T05:21+01:00",
+ "czas": "2026-11-25T12:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -241,7 +241,6 @@
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
-    "meble ogrodowe drewniane",
     "meble ogrodowe drewniane olx",
     "meble ogrodowe drewniane wyprzedaż",
     "meble ogrodowe drewniane castorama",
@@ -250,7 +249,8 @@
     "meble ogrodowe drewniane ikea",
     "meble ogrodowe drewniane jysk",
     "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane obi"
+    "meble ogrodowe drewniane obi",
+    "meble ogrodowe drewniane wyprzedaż allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -372,7 +372,6 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "prezent na mikołajki",
-    "prezent na mikołajki dla dzieci 7 lat",
     "prezent na mikołajki dla dzieci",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 8 lat",
@@ -380,7 +379,8 @@
     "prezent na mikołajki dla przedszkolaka",
     "prezent na mikołajki dla dzieci 6 lat",
     "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola"
+    "prezent na mikołajki dla dzieci do przedszkola",
+    "prezent na mikołajki dla dzieci 5 lat"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -649,7 +649,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 60,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "domek letniskowy",
@@ -702,32 +702,6 @@
    "firmy": [],
    "ocena": 58,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 58,
-   "zmiana_oceny": 24
   },
   {
    "fraza": "stolik kawowy drewniany",
@@ -1217,7 +1191,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 50,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "jak zabezpieczyć meble ogrodowe",
@@ -1241,6 +1215,32 @@
    "firmy": [],
    "ocena": 47,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 5,
+   "popyt_0_1": 0.76,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 47,
+   "zmiana_oceny": 5
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1331,32 +1331,6 @@
    "firmy": [],
    "ocena": 42,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 7,
-   "popyt_0_1": 0.64,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 42,
-   "zmiana_oceny": -5
   },
   {
    "fraza": "polskie rękodzieło na prezent",
@@ -1489,10 +1463,10 @@
     "koparka łańcuchowa",
     "koparka zabawka",
     "koparka łańcuchowa wynajem",
+    "koparka dla dzieci",
     "koparka kołowa",
     "koparka po angielsku",
     "koparka kryptowalut",
-    "koparka dla dzieci",
     "koparka zdalnie sterowana"
    ],
    "pozycja_w_podpowiedziach": null,
@@ -1538,6 +1512,32 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana dwuspadowa konstrukcja",
+    "wiata drewniana 6x6 projekt"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
@@ -2633,10 +2633,6 @@
    "z_frazy": "prezent dla taty majsterkowicza"
   },
   {
-   "fraza": "prezent na mikołajki dla dzieci 7 lat",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki dla dzieci",
    "z_frazy": "prezent na mikołajki"
   },
@@ -2666,6 +2662,10 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci do przedszkola",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 5 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -3289,6 +3289,10 @@
    "z_frazy": "koparka"
   },
   {
+   "fraza": "koparka dla dzieci",
+   "z_frazy": "koparka"
+  },
+  {
    "fraza": "koparka kołowa",
    "z_frazy": "koparka"
   },
@@ -3298,10 +3302,6 @@
   },
   {
    "fraza": "koparka kryptowalut",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka dla dzieci",
    "z_frazy": "koparka"
   },
   {
