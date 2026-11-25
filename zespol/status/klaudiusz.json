@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "strona Maszyny budowlane – szkic gotowy",
+ "zadanie": "Maszyny budowlane – gotowe do publikacji",
  "postep": null,
- "aktualizacja": "2026-11-25T12:53+01:00",
+ "aktualizacja": "2026-11-25T13:13+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -35,9 +35,19 @@
    "czas": "2026-11-25T12:53+01:00",
    "tresc": "Obejrzyj podgląd w czacie i napisz „publikuj” albo co poprawić",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-25T13:13+01:00",
+   "tresc": "Obejrzyj podgląd i napisz „publikuj”",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-25T13:13+01:00",
+   "stan": "czeka",
+   "tekst": "Maszyny budowlane – gotowe do publikacji"
+  },
   {
    "czas": "2026-11-25T12:53+01:00",
    "stan": "czeka",
