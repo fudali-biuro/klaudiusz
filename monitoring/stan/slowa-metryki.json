@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-24T12:21+01:00",
+ "czas": "2026-11-25T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -416,7 +416,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparka rzeszów",
@@ -626,6 +626,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna",
+    "prezent dla taty z okazji narodzin dziecka"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 60,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -676,6 +702,32 @@
    "firmy": [],
    "ocena": 58,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana dwustanowiskowa",
+    "wiata drewniana dwuspadowa konstrukcja",
+    "wiata drewniana 6x6 projekt"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": 24
   },
   {
    "fraza": "stolik kawowy drewniany",
@@ -990,32 +1042,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 57,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "prezent do 300 zł",
    "grupa": "święta",
    "znaczenie_biznesowe": "srednie",
@@ -1114,32 +1140,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 53,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "podkładki drewniane",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "niskie",
@@ -1194,6 +1194,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy z okazji narodzin dziecka",
+    "prezent dla mamy na święta"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 50,
+   "zmiana_oceny": -3
+  },
+  {
    "fraza": "jak zabezpieczyć meble ogrodowe",
    "grupa": "wiedza i pielęgnacja",
    "znaczenie_biznesowe": "srednie",
@@ -1215,32 +1241,6 @@
    "firmy": [],
    "ocena": 47,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent dla niego",
-   "grupa": "oakywood",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla niego",
-    "prezent dla niego na urodziny",
-    "prezent dla niego na rocznice",
-    "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
-    "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
-    "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
-   ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": -3
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1331,6 +1331,32 @@
    "firmy": [],
    "ocena": 42,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent dla niego",
+   "grupa": "oakywood",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla niego",
+    "prezent dla niego na urodziny",
+    "prezent dla niego na rocznice",
+    "prezent dla niego na 40 urodziny",
+    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego na 50 urodziny",
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na 30 urodziny",
+    "prezent dla niego na swieta",
+    "prezent dla niego allegro"
+   ],
+   "pozycja_w_podpowiedziach": 7,
+   "popyt_0_1": 0.64,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 42,
+   "zmiana_oceny": -5
   },
   {
    "fraza": "polskie rękodzieło na prezent",
@@ -1466,8 +1492,8 @@
     "koparka kołowa",
     "koparka po angielsku",
     "koparka kryptowalut",
-    "koparka zdalnie sterowana",
-    "koparka jcb"
+    "koparka dla dzieci",
+    "koparka zdalnie sterowana"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1512,32 +1538,6 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 34,
-   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
@@ -1633,7 +1633,7 @@
     "koparka jcb nowa cena",
     "koparka jcb dla dzieci"
    ],
-   "pozycja_w_podpowiedziach": 10,
+   "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -3298,6 +3298,10 @@
   },
   {
    "fraza": "koparka kryptowalut",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka dla dzieci",
    "z_frazy": "koparka"
   },
   {
