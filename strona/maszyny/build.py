@@ -9,6 +9,9 @@ def im(n):
     if LOCAL: return {'1':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--2.jpg','2':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--4.jpg','3':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--5.jpg','4':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--7.jpg','5':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388--9.jpg','6':'../../marketing/biblioteka-zdjec/produkty/2026-11-06-fabrycznie-nowa-koparko-adowarka-shanmon-fuji-388-.jpg'}[n]
     return IMG.get(n,'')
 ALT={'1':'Koparko-ładowarka Shanmon Fuji 388 – widok z przodu, łyżka 6w1','2':'Shanmon Fuji 388 – łyżka przednia 6w1 rozchylona','3':'Koparko-ładowarka Shanmon Fuji 388 na placu w Rzeszowie','4':'Shanmon Fuji 388 – kabina ROPS/FOPS i ramię koparkowe','5':'Shanmon Fuji 388 – ramię teleskopowe, głębokość kopania do 5,5 m','6':'Koparko-ładowarka Shanmon Fuji 388 – widok z tyłu'}
+def MODIMG(k):
+    f={'WZ30-25':'Ladowarka-WZ30-25-z-osprzetem-koparkowym.jpg'}.get(k,f'Koparko-ladowarka-{k}.jpg')
+    return ('../../marketing/zdjecia/maszyny/koparko-ladowarka-%s.jpg'%k) if LOCAL else 'https://www.fudali.com.pl/wp-content/uploads/2026/11/'+f
 def spec(items): return '<ul class="spec">'+''.join(f'<li><small>{a}</small><b>{b}</b></li>' for a,b in items)+'</ul>'
 FUJI='/maszyny-budowlane/shanmon-fuji-388/'
 cat=[('377','Koparko-ładowarka 377',[('Masa','8 100 kg'),('Moc','77,3 kW'),('Łyżka ład./kop.','1,0 / 0,3 m³'),('Głęb. kopania','3 967 mm')],'Silnik Yudong, napęd 4WD, przekładnia PowerShift 4+4, rama z blachy manganowej.'),
@@ -17,10 +20,12 @@ cat=[('377','Koparko-ładowarka 377',[('Masa','8 100 kg'),('Moc','77,3 kW'),('Ł
 ('388T','Koparko-ładowarka 388T',[('Masa','8 700 kg'),('Moc','70–81 kW'),('Silnik','Perkins / Weichai / Yuchai'),('Głęb. kopania','4 300 / 5 510 mm')],'Mosty Carraro, układ hydrauliczny 25 MPa, do wyboru silniki Euro V i China II.'),
 ('388H','Koparko-ładowarka 388H',[('Masa','10 200 kg'),('Moc','do 82 kW'),('Łyżka ład./kop.','1,2 / 0,3 m³'),('Głęb. kopania','4 150 / 5 360 mm')],'Hydraulika Danfoss Load Sensing, trzy tryby skrętu 4WS, opcjonalny fotel obrotowy z joystickami.'),
 ('398H','Koparko-ładowarka 398H',[('Masa','10 200 kg'),('Moc','do 82 kW'),('Łyżka ład./kop.','1,2 / 0,3 m³'),('Siła uciągu','84 kN')],'Mocna wersja do cięższych robót ziemnych, mosty Carraro, układ hydrauliczny 25 MPa.'),
+('378H','Koparko-ładowarka 378H',[('Masa','8 800 kg'),('Moc','82 kW'),('Łyżka ład./kop.','1,0 / 0,3 m³'),('Głęb. kopania','3 780 mm')],'Silnik Weichai 4,5 l, napęd 4WD, przekładnia PowerShift 4+4, prędkość do 39 km/h.'),
 ('WZ30-25','Ładowarka z osprzętem koparkowym WZ30-25',[('Masa','7 650 kg'),('Moc','75 kW'),('Łyżka ład./kop.','1,0 / 0,3 m³'),('Głęb. kopania','4 082 mm')],'Przegub centralny – mały promień skrętu (5 018 mm), napęd 4WD, zwrotna na ciasnych budowach.')]
 def card(c):
     k,n,sp,d=c
-    return f'<article class="card"><div class="bd"><span class="eyebrow" style="margin:0">Model {k} · na zamówienie</span><h3>{n}</h3>{spec(sp)}<p style="font-size:.92rem;color:var(--m);margin:0">{d}</p><a class="btn b2" href="#zapytanie" data-model="{k}">Zapytaj o ofertę</a></div></article>'
+    ph=f'<div class="ph"><img src="{MODIMG(k)}" alt="{n}" loading="lazy"></div>'
+    return f'<article class="card">{ph}<div class="bd"><span class="eyebrow" style="margin:0">Model {k} · na zamówienie</span><h3>{n}</h3>{spec(sp)}<p style="font-size:.92rem;color:var(--m);margin:0">{d}</p><a class="btn b2" href="#zapytanie" data-model="{k}">Zapytaj o ofertę</a></div></article>'
 phone_btn=f'<a class="btn b1" href="{TELH}">&#9742; Zadzwoń i zapytaj o maszynę: {TEL}</a>'
 bar=f'<div class="bar"><a class="btn b1" href="{TELH}">&#9742; Zadzwoń</a><a class="btn b2" href="#zapytanie">Zapytaj o cenę</a></div>'
 faq=[('Czy maszyna Shanmon Fuji 388 jest nowa?','Tak – fabrycznie nowa koparko-ładowarka z lipca 2026 r., pierwszy właściciel, dostępna od ręki w Rzeszowie. Oględziny i jazda próbna po umówieniu.'),
@@ -28,7 +33,7 @@ faq=[('Czy maszyna Shanmon Fuji 388 jest nowa?','Tak – fabrycznie nowa koparko
 ('Czy można kupić na leasing lub kredyt?','Tak. Pomagamy w formalnościach: leasing operacyjny i finansowy dla firm oraz kredyt dla firm i osób prywatnych. Zadzwoń lub wyślij zapytanie – przygotujemy propozycję finansowania.'),
 ('Czy zorganizujecie dowóz maszyny na budowę?','Tak, pomagamy zorganizować transport na wskazany plac budowy. Koszt wyceniamy indywidualnie – podaj lokalizację w zapytaniu.'),
 ('Ile kosztuje koparko-ładowarka Shanmon Fuji 388?','Cena to 250 000 zł netto (307 500 zł brutto). Możliwość odliczenia VAT dla firm.'),
-('Czy dostępne są inne modele z katalogu?','Tak, na zamówienie: modele 377, 388, 388-II, 388T, 388H, 398H oraz ładowarka WZ30-25. Dostępność i terminy podajemy po zapytaniu.')]
+('Czy dostępne są inne modele z katalogu?','Tak, na zamówienie: modele 377, 388, 388-II, 388T, 388H, 398H, 378H oraz ładowarka WZ30-25. Dostępność i terminy podajemy po zapytaniu.')]
 def faqh(): return ''.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q,a in faq)
 def ld(o): return '<script type="application/ld+json">'+json.dumps(o,ensure_ascii=False)+'</script>'
 product={'@context':'https://schema.org','@type':'Product','name':'Koparko-ładowarka Shanmon Fuji 388 (2026)','image':[im(k) for k in '123'] if not LOCAL else [],'description':'Fabrycznie nowa koparko-ładowarka Shanmon Fuji 388, rok 2026, silnik Yuchai 74 kW (ok. 100 KM) Stage V, masa 8 200 kg, ramię teleskopowe do 5,5 m, łyżka 6w1, 12 mies. gwarancji.','brand':{'@type':'Brand','name':'Shanmon'},'model':'Fuji 388','productionDate':'2026-07','itemCondition':'https://schema.org/NewCondition','category':'Koparko-ładowarki','additionalProperty':[{'@type':'PropertyValue','name':'Moc silnika','value':'74 kW'},{'@type':'PropertyValue','name':'Masa robocza','value':'8200 kg'},{'@type':'PropertyValue','name':'Maks. głębokość kopania','value':'5,5 m'}],'offers':{'@type':'Offer','url':BASE+FUJI,'priceCurrency':'PLN','price':'250000','priceValidUntil':'2027-06-30','availability':'https://schema.org/InStock','itemCondition':'https://schema.org/NewCondition','seller':{'@type':'Organization','name':'FUDALI Sp. z o.o.'},'priceSpecification':{'@type':'UnitPriceSpecification','price':'250000','priceCurrency':'PLN','valueAddedTaxIncluded':False}}}
