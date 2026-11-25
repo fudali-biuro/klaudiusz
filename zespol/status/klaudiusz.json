@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "dokończenie zdjęć produktów (czeka na wgranie plików)",
+ "zadanie": "strona Maszyny budowlane – zdjęcia",
  "postep": null,
- "aktualizacja": "2026-11-24T10:32+01:00",
+ "aktualizacja": "2026-11-25T12:44+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -25,9 +25,19 @@
    "czas": "2026-11-24T10:32+01:00",
    "tresc": "Napisz „zdjęcia” w czacie, gdy będziesz mógł wgrać pliki",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-25T12:44+01:00",
+   "tresc": "Wgraj 6 zdjęć koparki linkiem z czatu (30 min)",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-25T12:44+01:00",
+   "stan": "czeka",
+   "tekst": "strona Maszyny budowlane – zdjęcia"
+  },
   {
    "czas": "2026-11-24T10:32+01:00",
    "stan": "czeka",
