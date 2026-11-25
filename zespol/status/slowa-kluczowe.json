@@ -1,12 +1,27 @@
 {
  "id": "slowa-kluczowe",
- "stan": "pracuje",
- "zadanie": "Pomiar 5:20",
- "postep": null,
- "aktualizacja": "2026-11-25T05:21+01:00",
+ "stan": "gotowe",
+ "zadanie": "Pomiar 5:20 gotowy; teksty bez nowych szkiców",
+ "postep": 100,
+ "aktualizacja": "2026-11-25T05:23+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-25T05:23+01:00",
+   "stan": "gotowe",
+   "tekst": "Pomiar 5:20 gotowy; teksty bez nowych szkiców"
+  },
+  {
+   "czas": "2026-11-25T05:22+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-25T05:21+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-25T05:21+01:00",
    "stan": "pracuje",
@@ -191,21 +206,6 @@
    "czas": "2026-11-20T12:21+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar 12:20 + podsumowanie dnia"
-  },
-  {
-   "czas": "2026-11-20T05:22+01:00",
-   "stan": "gotowe",
-   "tekst": "Pomiar 5:20 gotowy; brak nowych szkiców tekstów"
-  },
-  {
-   "czas": "2026-11-20T05:22+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie"
-  },
-  {
-   "czas": "2026-11-20T05:21+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
   }
  ]
 }
