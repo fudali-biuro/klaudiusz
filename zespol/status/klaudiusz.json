@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
- "stan": "czeka",
- "zadanie": "Maszyny budowlane – gotowe do publikacji",
- "postep": null,
- "aktualizacja": "2026-11-25T13:13+01:00",
+ "stan": "gotowe",
+ "zadanie": "strona Maszyny budowlane opublikowana",
+ "postep": 100,
+ "aktualizacja": "2026-11-25T13:38+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -43,6 +43,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-25T13:38+01:00",
+   "stan": "gotowe",
+   "tekst": "strona Maszyny budowlane opublikowana"
+  },
   {
    "czas": "2026-11-25T13:13+01:00",
    "stan": "czeka",
