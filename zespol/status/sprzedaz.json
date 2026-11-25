@@ -1,9 +1,9 @@
 {
  "id": "sprzedaz",
- "stan": "gotowe",
- "zadanie": "Koparka: decyzja Pablo wpisana, #4 i #7 OK, obrona ceny wobec Stroera",
- "postep": 100,
- "aktualizacja": "2026-11-06T13:55+01:00",
+ "stan": "pracuje",
+ "zadanie": "Maszyny: oferta, pakiety, obiekcje, szablony odpowiedzi",
+ "postep": null,
+ "aktualizacja": "2026-11-25T15:18+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-25T15:18+01:00",
+   "stan": "pracuje",
+   "tekst": "Maszyny: oferta, pakiety, obiekcje, szablony odpowiedzi"
+  },
   {
    "czas": "2026-11-06T13:55+01:00",
    "stan": "gotowe",
