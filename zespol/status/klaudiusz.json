@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
  "stan": "czeka",
- "zadanie": "strona Maszyny budowlane – zdjęcia",
+ "zadanie": "strona Maszyny budowlane – szkic gotowy",
  "postep": null,
- "aktualizacja": "2026-11-25T12:44+01:00",
+ "aktualizacja": "2026-11-25T12:53+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -30,9 +30,19 @@
    "czas": "2026-11-25T12:44+01:00",
    "tresc": "Wgraj 6 zdjęć koparki linkiem z czatu (30 min)",
    "pilne": false
+  },
+  {
+   "czas": "2026-11-25T12:53+01:00",
+   "tresc": "Obejrzyj podgląd w czacie i napisz „publikuj” albo co poprawić",
+   "pilne": false
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-25T12:53+01:00",
+   "stan": "czeka",
+   "tekst": "strona Maszyny budowlane – szkic gotowy"
+  },
   {
    "czas": "2026-11-25T12:44+01:00",
    "stan": "czeka",
