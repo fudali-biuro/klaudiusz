@@ -1,5 +1,6 @@
 import json,sys,os
-CSS=open('fm.css').read()
+CSS=open('fm.css').read() if not os.environ.get('NOCSS') else ''
+
 TEL='791 589 997';TELH='tel:+48791589997';MAIL='biuro@fudali.com.pl'
 BASE='https://www.fudali.com.pl'
 IMG=json.load(open('img.json')) if os.path.exists('img.json') else {}
