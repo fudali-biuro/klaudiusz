@@ -97,3 +97,5 @@ Zainstalowane w repozytorium (działają w każdej sesji):
 **MOBILKA + ODSTĘPY 26.11 (5. partia):** nagłówek desktop: Sklep/Realizacje i O firmie/Kontakt w identycznych odstępach (56 px) po obu stronach logo (środek 720 px; lewa grupa kończy 171 px od środka, prawa zaczyna 176 px) + PL i koszyk na prawym brzegu; kwiatki wariantów (swatche) w kartach produktów wyśrodkowane; mobilka: nagłówek w jednym rzędzie (logo, PL, koszyk, hamburger; bez „MENU”/„Kategorie”), zdjęcie hero na głównej wyśrodkowane z równymi marginesami 16 px. Snippet 2346.
 
 **Stopka 26.11:** linia pod „Kontakt WhatsApp” (widget 5760c902) miała margines 30 px – wyzerowany w snippecie 2346; wyrównana z napisem na 1440 i 390 px.
+
+**Główna 26.11 (6. partia):** kafelki kategorii: tytuł wyśrodkowany w pionie i poziomie, „Akcesoria domowe” ukryte CSS-em (e-loop-item-85; do usunięcia na stałe po zatwierdzeniu), ostatni rząd (2 kafelki) wyśrodkowany; FAQ na głównej odwzorowane 1:1 z „O firmie” (nagłówek 38 px, szerokość 820, zielone pytania, pierwsze otwarte; widget nested-accordion + CSS) – desktop i mobile sprawdzone. Snippet 2346.
