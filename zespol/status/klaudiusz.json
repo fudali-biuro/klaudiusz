@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
- "stan": "czeka",
- "zadanie": "Limit narzędzia strony",
- "postep": null,
- "aktualizacja": "2026-11-26T22:05+01:00",
+ "stan": "gotowe",
+ "zadanie": "Porządki na stronie: nagłówek, sklep, produkt, FAQ, kontakt",
+ "postep": 100,
+ "aktualizacja": "2026-11-26T22:21+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -48,6 +48,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-26T22:21+01:00",
+   "stan": "gotowe",
+   "tekst": "Porządki na stronie: nagłówek, sklep, produkt, FAQ, kontakt"
+  },
   {
    "czas": "2026-11-26T22:05+01:00",
    "stan": "czeka",
