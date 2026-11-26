@@ -21,4 +21,5 @@ Tak samo później: **Google Business Profile** (wizytówka w Mapach, adres Rzes
 ## Stan (26.11.2026)
 - ✅ Własność fudali.com.pl zweryfikowana (tag HTML). Tag siedzi w Elementor → Custom Code, wpis **2299** „Google Search Console – weryfikacja”
   (`_elementor_code` + warunek `include/general` także w opcji `elementor_pro_theme_builder_conditions`). **NIE USUWAĆ** – inaczej weryfikacja przepadnie.
-- ⏳ Pablo: dodać konto usługi (Ograniczone) + klucz jako `GSC_KEY_B64` w ustawieniach środowiska.
+- ✅ Konto usługi dodane (Ograniczone), klucz `GSC_KEY_B64` w ustawieniach środowiska, test OK 26.11 (0 fraz – świeża usługa, dane za kilka dni).
+- Codziennie: Kuba na porannej zmianie `python3 scripts/seo/gsc.py pozycje` i `strony` (zespol/zadania/slowa-kluczowe-pomiar.md).
