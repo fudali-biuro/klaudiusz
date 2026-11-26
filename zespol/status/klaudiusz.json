@@ -1,9 +1,9 @@
 {
  "id": "klaudiusz",
- "stan": "pracuje",
- "zadanie": "wszystkie maszyny na stronę (przygotowanie)",
- "postep": null,
- "aktualizacja": "2026-11-26T08:00+01:00",
+ "stan": "gotowe",
+ "zadanie": "Search Console: kod na stronie, Pablo weryfikuje; zdjęcia Buffera w schowku; powtórka zmian Oli/Kuby/Bartka",
+ "postep": 100,
+ "aktualizacja": "2026-11-26T15:22+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -43,6 +43,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-26T15:22+01:00",
+   "stan": "gotowe",
+   "tekst": "Search Console: kod na stronie, Pablo weryfikuje; zdjęcia Buffera w schowku; powtórka zmian Oli/Kuby/Bartka"
+  },
   {
    "czas": "2026-11-26T08:00+01:00",
    "stan": "pracuje",
