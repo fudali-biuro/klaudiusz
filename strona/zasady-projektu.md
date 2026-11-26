@@ -95,3 +95,5 @@ Zainstalowane w repozytorium (działają w każdej sesji):
 **RÓWNANIE 26.11 (4. partia):** nagłówek desktop w układzie 40% | logo 20% (środek strony) | 40%, kontener max 1400 px wyśrodkowany – sprawdzone przy koszyku 8 500 zł na 1280/1440/1920 px (logo dokładnie na środku, lewy i prawy margines równe). Karty produktów (sklep, główna, podobne): wyśrodkowane, przyciski „Dodaj do koszyka” równo na dole kart (min. 190 px). Wszystko w snippecie 2346 (+2349 dla produktu).
 
 **MOBILKA + ODSTĘPY 26.11 (5. partia):** nagłówek desktop: Sklep/Realizacje i O firmie/Kontakt w identycznych odstępach (56 px) po obu stronach logo (środek 720 px; lewa grupa kończy 171 px od środka, prawa zaczyna 176 px) + PL i koszyk na prawym brzegu; kwiatki wariantów (swatche) w kartach produktów wyśrodkowane; mobilka: nagłówek w jednym rzędzie (logo, PL, koszyk, hamburger; bez „MENU”/„Kategorie”), zdjęcie hero na głównej wyśrodkowane z równymi marginesami 16 px. Snippet 2346.
+
+**Stopka 26.11:** linia pod „Kontakt WhatsApp” (widget 5760c902) miała margines 30 px – wyzerowany w snippecie 2346; wyrównana z napisem na 1440 i 390 px.
