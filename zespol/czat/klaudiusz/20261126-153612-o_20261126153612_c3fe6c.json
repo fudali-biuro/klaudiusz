@@ -1,0 +1,9 @@
+{
+ "id": "o_20261126153612_c3fe6c",
+ "czas": "2026-11-26T15:36:12+01:00",
+ "od": "klaudiusz",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Świetnie, dziękuję! ✅ Ostatni krok – klucz (ok. 2 min, na komputerze z Windows):\n1) Kliknij Start, wpisz „PowerShell” i otwórz.\n2) Wklej tę linijkę i Enter (zamień NAZWA-PLIKU na nazwę pobranego klucza, np. fudali-seo-1234abcd.json – plik jest w Pobranych):\n[Convert]::ToBase64String([IO.File]::ReadAllBytes(\"$env:USERPROFILE\\Downloads\\NAZWA-PLIKU.json\")) | Set-Clipboard\nKlucz jest teraz w schowku (Ctrl+V), zamieniony na jeden długi ciąg znaków.\n3) W claude.ai/code: na górze przy nazwie tej rozmowy kliknij nazwę środowiska → Edit (ołówek) → pole „Environment variables” → dopisz nową linię:\nGSC_KEY_B64=  i zaraz za znakiem = wklej Ctrl+V → Save.\n4) Napisz „klucz jest”. Ja zrobię test i od jutra Kuba codziennie zbiera pozycje strony w Google.\nKlucza nie wklejaj do czatu.",
+ "pliki": []
+}
