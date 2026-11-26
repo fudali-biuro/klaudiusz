@@ -72,3 +72,38 @@ Zadzwoń: **791 589 997** (Rzeszów – sprzedaż i serwis) · biuro@fudali.com.
 - **H2 z frazami:** „JCB 3CX cena nowa vs chińska koparko-ładowarka”, „JCB 3CX czy 4CX?” (osobna sekcja? tylko z danymi producenta), „Koparko-ładowarka Case / CAT / Volvo – ceny z ogłoszeń”.
 - **Uwaga prawna:** zostaje akapit, że FUDALI nie jest dealerem JCB/CAT/Case; nazwy marek tylko w porównaniach (brief).
 - **Hasztagi/post z tej treści:** `#jcb3cx #koparkoładowarka #chińskakoparka #maszynybudowlane #fudali`.
+## 🧭 Bartek (korekta językowa + SEO, 26.11.2026)
+**Status:** po mojej korekcie; **Kuba jeszcze nie sprawdził fraz** (kolejność pracowni: Ola → Kuba → Bartek) – proszę o jego uwagi przed publikacją. Wszystkie poprawki poniżej Ola może wkleić wprost.
+
+**Najważniejsze: ten plik jest zbyt „dwustronicowy”.** Opisuje dwie strony docelowe pod **jednym H1** i jedną treścią. Dwie podstrony o prawie tej samej treści = **kanibalizacja fraz** (Google wybierze jedną, drugą pominie). **Rozdzielić na dwie różne strony:**
+
+| Strona | Rola | Treść z tego pliku |
+|---|---|---|
+| `/maszyny-budowlane/alternatywa-dla-jcb-3cx/` | **porównanie** (K): cena + parametry + dokument | sekcje: „Ceny nowych maszyn”, „Co porównać (tabela)”, „Nasz egzemplarz”, disclaimer o dealerstwie |
+| `/maszyny-budowlane/chinska-koparko-ladowarka-czy-warto/` | **poradnik** (I/K): kiedy chińska ma sens, jak nie dać się nabrać | sekcje: „Kiedy ma sens”, „Kiedy lepiej markę zachodnią”, „Jak nie dać się nabrać”, krótka tabela ze skrótem z porównania + link |
+
+**Title/meta – poprawka długości (limit 60):**
+- Title 1 miał 62 zn. → `Alternatywa dla JCB 3CX – ceny i parametry | FUDALI` (51 zn.)
+- Title 2 miał 64 zn. → `Chińska koparko-ładowarka – czy warto? Poradnik | FUDALI` (56 zn.)
+- Meta 1/2 (151 i 147 zn.) ✓.
+- **H1 osobne:** strona 1: `Alternatywa dla JCB 3CX – porównanie cen i parametrów` · strona 2: `Chińska koparko-ładowarka – czy warto kupić?`
+
+**Poprawki treści (fakty i język):**
+1. **„przy każdej markę”** (nagłówek „Jak nie dać się nabrać (przy każdej markę)”) → `(przy każdej marce)` – błąd.
+2. „JCB 3CX/4CX, Case 695SV czy CAT 432 to uznane maszyny, ale nowe kosztują ok. 290–465 tys.” – **CAT 432 usunąć z tego zdania** (brak ceny nowego CAT w źródłach) → `JCB 3CX/4CX i Case to uznane maszyny, ale nowe kosztują w ogłoszeniach ok. 290–465 tys. zł netto`. Frazę „cat 432” (rośnie w Trends) można zostawić w osobnej, krótkiej sekcji „CAT 432 – dane techniczne sprawdzisz na stronie producenta” **bez ceny i bez twierdzeń**.
+3. Tabela „Case 580SV / 695SV | 380 000 – 399 000” → `ok. 380 000` (jedno źródło na liście Otomoto; 399 000 niespójne).
+4. „Używane JCB 3CX z lat 2016–2022 kosztują … od ok. 130 do ok. 250 tys.” – dolna granica jest ✓ (3CX Compact 2016 – 129 900), **górną (250 tys.) potwierdzić w `ceny.md`/`komisy-uzywane.md` albo usunąć**. Zdanie przepisać: `Używane JCB 3CX z 2016 r. kosztują w ogłoszeniach od ok. 130 tys. zł (np. 3CX Compact, 129 900 zł)`.
+5. Wiersz tabeli **„Wartość przy odsprzedaży | zwykle niższa niż marki zachodnie”** – brak źródła; złagodzić: `często niższa – zapytaj sprzedawcę o warunki odkupu lub wyceny przy odsprzedaży`. Nie zostawiać jako twierdzenia faktu.
+6. Zdanie „Różnica … to 200 000 zł (ok. 44%)” – liczby poprawne (200 000 / 450 000 ≈ 44%; 39 900 / 289 900 ≈ 14%), dopisać „taniej o” żeby było jasne, który kierunek: `Nasza cena jest niższa o 200 000 zł (ok. 44%) od nowego JCB 3CX Plus EH z tego zestawienia i o 39 900 zł (ok. 14%) od Case 550SV.`
+7. **Nasz egzemplarz – parametr „producent podaje udźwig 2 500 kg i łyżkę 1,0 m³/0,3 m³”:** to dane z katalogu, nie z ogłoszenia – **oznaczyć „wg katalogu producenta”** (i jest otwarty punkt nr 1 z README: katalog vs ogłoszenie).
+8. „Uczciwie, z datami i źródłami” w meta – OK, ale **nie obiecywać „uczciwie” samym słowem**; wystarczy pokazać daty i linki.
+9. Disclaimer „FUDALI nie jest dealerem… JCB, CAT, Case, Volvo ani Komatsu” – **zostaje** (wymóg briefu); przenieść go **pod H1 na obu stronach** (już jest na stronie 1; dodać na stronie 2).
+10. **Przed publikacją usunąć** linię „Strony docelowe: …” i „Źródła: … `marketing/kampanie/koparka/ceny.md`” (ścieżki wewnętrzne) – zastąpić publicznymi źródłami z datą i linkami do ogłoszeń.
+
+**H2 (propozycja):**
+- Strona 1: *Ceny nowych maszyn: Shanmon, Case, JCB (listopad 2026)* · *Co porównać przed zakupem* · *Nasza maszyna: Shanmon Fuji 388 – dane z ogłoszenia* · *Alternatywa dla JCB 3CX – dla kogo ma sens* · *Zapytaj o ofertę*.
+- Strona 2: *Kiedy chińska koparko-ładowarka ma sens* · *Kiedy lepiej wybrać markę zachodnią* · *Jak nie dać się nabrać* · *Gwarancja i serwis – co sprawdzić* · *Zapytaj o ofertę*.
+
+**Linkowanie:** strona 1 → 388 (anchor „nowa koparko-ładowarka Shanmon Fuji 388”), → „Ile kosztuje nowa koparko-ładowarka” (anchor „ceny nowych koparko-ładowarek”), → chińska (poradnik). Strona 2 → porównanie (anchor „alternatywa dla JCB 3CX”), → leasing (anchor „leasing koparko-ładowarki”), → gwarancja i serwis (po utworzeniu). **Nie linkować do stron dealerów konkurencji.**
+**Alt:** `Koparko-ładowarka Shanmon Fuji 388 obok tabeli porównania z JCB 3CX` (nie sugerować, że to zdjęcie JCB).
+**Schema:** Article + BreadcrumbList; na stronie 1 tabela jako `<table>` z `<caption>` (bez Product – nie sprzedajemy JCB).

@@ -49,3 +49,22 @@ Dane firmy (KRS/CEIDG, NIP), dokumenty finansowe wymagane przez leasingodawcę, 
 - **„Bez BIK” / „cesja leasingu”:** wyszukiwane, ale **nie pisać tego bez potwierdzenia Marka/leasingodawcy**.
 - **H1:** „Leasing koparko-ładowarki krok po kroku” OK (fraza w H1).
 - **Linkowanie:** z „ile kosztuje” → leasing, z leasingu → Shanmon Fuji 388.
+## 🧭 Bartek (korekta językowa + SEO, 26.11.2026)
+**Status:** po mojej korekcie; **Kuba jeszcze nie sprawdził fraz** (kolejność pracowni: Ola → Kuba → Bartek) – proszę o jego uwagi przed publikacją. Wszystkie poprawki poniżej Ola może wkleić wprost.
+
+**Title** (58 zn.) i **meta** (141 zn.) – bez zmian ✓ (frazy: leasing koparko-ładowarki, kupić, formalności).
+
+**Poprawki treści (fakty i język):**
+1. **Tabela „Leasing operacyjny a finansowy”** ma dwa puste wiersze („zależy od rodzaju umowy” ×2) – wygląda jak niedokończona. Zamień na krótką definicję bez ryzyka podatkowego: `Leasing operacyjny – umowa na ustalony okres; po jego zakończeniu zwykle możesz wykupić maszynę lub ją zwrócić (zależnie od umowy). Leasing finansowy – raty pokrywają zwykle całą wartość maszyny, a własność przechodzi na Ciebie po zakończeniu umowy. Rozliczenia podatkowe i księgowe omów z księgowym.` – i usunąć tabelę (dwa zdania wystarczą).
+2. „**Czy leasing wpływa na gwarancję? Nie – … taka sama**” → `Nie. Gwarancja (12 mies. na silnik, skrzynię i most) i serwis działają tak samo jak przy zakupie za gotówkę.` (spójne z ogłoszeniem; dodane „tak samo” zamiast „takie same”).
+3. „Czy mogę kupić na kredyt jako osoba prywatna? W ogłoszeniu wskazujemy kredyty firmowe i prywatne – warunki ustala bank.” → `Tak – w ogłoszeniu oferujemy kredyty firmowe i prywatne; warunki ustala bank.` (bez „wskazujemy”).
+4. Krok 1: „np. Shanmon Fuji 388, nowa, od ręki w Rzeszowie, 250 000 zł netto (307 500 zł brutto)” ✓ – dodać link do strony 388 anchorem „nowa koparko-ładowarka Shanmon Fuji 388”.
+5. **Do usunięcia przed publikacją:** końcowa linia „⚠️ Do potwierdzenia przez Marka/Pabla…” (notatka robocza) – przenieść do README (jest już punkt 4 „faktura VAT”); rat i partnera leasingowego **nie podajemy**, dopóki Marek ich nie potwierdzi (zgoda z Waszym zapisem).
+6. Interpunkcja: „Dane firmy (KRS/CEIDG, NIP), dokumenty finansowe wymagane przez leasingodawcę, dowód osobisty osoby reprezentującej firmę.” ✓. W „Na co uważać” zdanie „sprawdź, czy leasingodawca zaakceptuje maszynę i sprzedawcę (**sprzedaż od firmy z fakturą VAT**)” → `sprawdź, czy leasingodawca zaakceptuje maszynę i sprzedawcę (leasing wymaga sprzedaży od firmy z fakturą VAT)` – bez pogrubienia w środku zdania.
+
+**H2 (propozycja pod frazy z mapy – „koparko ładowarka leasing”, „kredyt”, „cesja”):**
+*Leasing koparko-ładowarki krok po kroku* (H1) → H2: *Jak działa leasing koparko-ładowarki dla firm* · *Leasing operacyjny a finansowy – różnica w skrócie* · *Dokumenty do leasingu maszyny budowlanej* · *Leasing czy kredyt na koparko-ładowarkę* (nowa krótka sekcja – fraza „kredyt” ma podpowiedzi; 3–4 zdania, bez porad podatkowych) · *Najczęstsze pytania o leasing koparko-ładowarki* · *Zapytaj o finansowanie*.
+Fraza **„cesja leasingu”** pojawia się w podpowiedziach, ale dotyczy maszyn używanych – **nie wchodzić** (nie mamy). Zostaje poza stroną.
+
+**Linkowanie:** → 388 (jak wyżej), → „Ile kosztuje nowa koparko-ładowarka” (anchor „ile kosztuje nowa koparko-ładowarka”), → FAQ na hubie. **Alt:** `Koparko-ładowarka Shanmon Fuji 388 gotowa do odbioru w Rzeszowie`.
+**Schema:** FAQPage (3 pytania z sekcji „Pytania” – te same słowa co na stronie) + BreadcrumbList.

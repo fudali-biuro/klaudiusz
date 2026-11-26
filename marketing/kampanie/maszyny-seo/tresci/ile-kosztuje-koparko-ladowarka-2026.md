@@ -61,3 +61,30 @@ Zobacz maszynę od ręki: [Koparko-ładowarka Shanmon Fuji 388](/maszyny-budowla
 - **Sekcja „cena za godzinę”** – zostaje (dobre dla intencji; frazy „koparka cena za godzinę” są wyszukiwane, ale to wynajem – jasno odsyłamy).
 - **Linkowanie wewnętrzne:** anchor „nowa koparko-ładowarka” → strona Shanmon Fuji 388; „leasing koparki” → strona leasingu; „alternatywa dla JCB 3CX” → porównanie.
 - **FAQ-schema (3 pytania):** „Ile kosztuje nowa koparko-ładowarka?” · „Koparko-ładowarka cena netto czy brutto?” · „Czy do ceny dolicza się VAT/transport?” (odpowiedzi tylko z faktów ze strony).
+## 🧭 Bartek (korekta językowa + SEO, 26.11.2026)
+**Status:** po mojej korekcie; **Kuba jeszcze nie sprawdził fraz** (kolejność pracowni: Ola → Kuba → Bartek) – proszę o jego uwagi przed publikacją. Wszystkie poprawki poniżej Ola może wkleić wprost.
+
+**Title** (55 zn.) i **meta** (148 zn.) – bez zmian, mieszczą się w limitach; fraza „nowa koparko-ładowarka … cena” jest w H1, meta i pierwszym zdaniu ✓.
+
+**Poprawki treści (fakty i język):**
+1. **„Kingway… ogłoszenie Kielce/Popów”** → `Kingway ZL 5300 (silnik 50 KM) | 139 000 | mniejsza klasa, firma z Popowa; leasing w ofercie` (w raporcie Mietka tylko Popów/Kłobuck – „Kielce” nie ma źródła).
+2. **„Maszyny zachodnie (JCB, Case, CAT) kosztują … 290–460 tys.”** → `Maszyny zachodnie (w ogłoszeniach: JCB i Case) kosztują w tej klasie ok. 290–465 tys. zł netto` – **CAT usunąć**: nie mamy żadnej ceny nowego CAT w ogłoszeniach (Mietek: brak). Bez źródła nie piszemy.
+3. Wiersz **„Case 580SV / 695SV | 380 000 – 399 000”** → `Case 580SV / 695SV | ok. 380 000 | Otomoto (2026/2025)`. Wartość 399 000 pochodzi z innego źródła (wyszukiwarka) i jest niespójna z listą Otomoto – nie wprowadzajmy zakresu, który wygląda jak pewny.
+4. „**mth**” → przy pierwszym użyciu rozwiń: „motogodzin (mth)”.
+5. „Wiele wyszukiwań „koparka cena” dotyczy wynajmu…” → `Wiele wyszukiwań „koparko-ładowarka cena” dotyczy ceny za godzinę wynajmu lub kursu na uprawnienia. Tu mówimy o zakupie maszyny.` (konkretniej, frazą z Google; zostaje, ale **przenieść niżej – za sekcję „Co dostajesz za 250 000 zł”**, żeby pierwszy ekran sprzedawał, a nie odsyłał).
+6. Przecinki i styl: „Poniżej zebraliśmy ceny z publicznych ogłoszeń i wyjaśniamy, co się za nimi kryje.” ✓ (przecinek poprawny). „możliwość odliczenia VAT (dla czynnych podatników VAT)” ✓. Wypunktowania kończymy spójnie (przecinki/średniki) – dopasować do zasady „każdy punkt z małej, bez kropki”.
+7. **Do usunięcia przed publikacją:** ostatnia linia „Źródła cen: … `marketing/kampanie/koparka/ceny.md`, `konkurencja/maszyny/`” (ścieżki wewnętrzne). Zamiast niej **publiczna lista źródeł z datą**, np. „Źródła: ogłoszenia na Otomoto (Case 550SV, Case 580SV, JCB 3CX Plus EH – 6.11.2026), ogłoszenia firm (25–26.11.2026)” z linkami (adresy są w `koparka/ceny.md`, tabela pkt 2).
+
+**Struktura nagłówków (H2) – propozycja pod frazy z mapy:**
+- H1: *Ile kosztuje nowa koparko-ładowarka w 2026 roku?* ✓
+- H2 *Ceny nowych koparko-ładowarek w ogłoszeniach (listopad 2026)* ✓ (dodać słowo „nowych” – jest)
+- H2 *Co wpływa na cenę koparko-ładowarki* ✓
+- H2 *Nowa koparko-ładowarka Shanmon Fuji 388 – co dostajesz za 250 000 zł netto* (było „Co dostajesz za 250 000 zł netto w FUDALI” – dodać frazę z marką i modelem)
+- H2 *Cena za godzinę to inna usługa – wynajem a zakup* (przenieść niżej)
+- H2 *Na co uważać, porównując oferty*
+- H2 *Zapytaj o ofertę koparko-ładowarki*
+
+**SEO / linkowanie:** (a) dodać **link z pierwszego akapitu** do `/maszyny-budowlane/shanmon-fuji-388/` anchorem „nowa koparko-ładowarka Shanmon Fuji 388” (dziś linki są dopiero na końcu); (b) dodać w sekcji „Na co uważać” link do `/maszyny-budowlane/gwarancja-i-serwis/` anchorem „gwarancja i serwis koparko-ładowarek” (strona P2 – dopóki jej nie ma, bez linku); (c) tabela cen: owinąć w `<table>` z `<caption>` „Ceny nowych koparko-ładowarek – ogłoszenia, listopad 2026, zł netto”; (d) data „aktualizacja: 26.11.2026” widoczna pod H1 (i `dateModified` w schema Article).
+**Alt-teksty obrazów (gdy będą):** `Koparko-ładowarka Shanmon Fuji 388 – widok z boku, nowa maszyna na placu w Rzeszowie`; `Tabela cen nowych koparko-ładowarek – listopad 2026` (jeśli tabela jako obraz – lepiej tekstem).
+**Schema:** Article (headline, datePublished 2026-11-26, author Organization FUDALI) + BreadcrumbList; **bez** Product na tej stronie (Product tylko na 388).
+**Ryzyko do rozstrzygnięcia z Pablo (z README Oli):** „nowa” vs pole „Używany / 5 mth” w Otomoto; „możliwość odliczenia VAT” i „faktura VAT” – potwierdzić, że sprzedaż idzie przez firmę. Bez tego sekcja „Co dostajesz” i ostrzeżenie „czy sprzedawca to firma” w naszych ustach brzmią niespójnie z własnym ogłoszeniem.
