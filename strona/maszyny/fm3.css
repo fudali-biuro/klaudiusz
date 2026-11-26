@@ -1,0 +1,17 @@
+.fm .tw{overflow-x:auto;margin:0 0 28px;border-radius:10px;-webkit-overflow-scrolling:touch}
+.fm table.mt{min-width:720px;border-radius:0}.fm table.mt caption{caption-side:top;text-align:left;font:500 1.05rem Jost,sans-serif;color:#fff;padding:0 0 10px}
+.fm table.mt thead th{width:auto;background:#000;color:var(--y);font:500 .85rem Jost,sans-serif;letter-spacing:.03em;white-space:nowrap}
+.fm table.mt tbody th{width:auto;background:#f3f3f3}.fm table.mt td{font-size:.94rem}
+.fm table.mt tbody tr:nth-child(even) td{background:#fafafa}
+.fm .grid.g3{grid-template-columns:repeat(3,1fr)}
+.fm .tile{display:flex;flex-direction:column;background:#fff;color:var(--ink);border-radius:10px;overflow:hidden;text-decoration:none;transition:.2s}
+.fm .tile:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.4)}
+.fm .tile .ph{position:relative;aspect-ratio:16/10;background:#e9e9e9;overflow:hidden}.fm .tile .ph img{width:100%;height:100%;object-fit:cover;display:block}
+.fm .tile .ph::before{content:"";position:absolute;top:0;left:0;z-index:2;border-style:solid;border-width:56px 56px 0 0;border-color:var(--y) transparent transparent transparent}
+.fm .tile .bd{padding:18px 20px 20px}.fm .tile h3{color:var(--yd);margin:0 0 6px;font-size:1.25rem}.fm .tile p{color:#555;margin:0 0 10px;font-size:.94rem}.fm .tile .more{font:500 .95rem Jost,sans-serif;color:#111;border-bottom:2px solid var(--y)}
+.fm a.lnk{text-decoration:none;display:block;transition:.2s}.fm a.lnk:hover{border-color:var(--y)}.fm a.lnk h3{margin-bottom:8px}.fm a.lnk p{margin:0}
+.fm .art .w{max-width:860px}.fm .art .body h2{margin-top:1.6em}.fm .art .body a{color:var(--y)}.fm .art .body ul,.fm .art .body ol{padding-left:1.2em}.fm .art .body li{margin:.35em 0}
+.fm .art h1{margin-bottom:.3em}.fm .art em{color:var(--m)}.fm .note-box{margin:1.2em 0}.fm .art .tw table{min-width:560px}
+.fm .thumbs.t3{grid-template-columns:repeat(3,1fr)}.fm section a:not(.btn):not(.tile):not(.lnk){color:var(--y)}.fm .card a.btn,.fm .feat a.btn{color:#111}
+@media(max-width:900px){.fm .grid.g3{grid-template-columns:1fr 1fr}.fm table.mt{min-width:640px}}
+@media(max-width:640px){.fm .grid.g3{grid-template-columns:1fr}}
