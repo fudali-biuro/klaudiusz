@@ -101,3 +101,7 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 - Sprawdzać na TELEFONIE przed „gotowe”: wyśrodkowanie, łamanie tekstu w przyciskach, równe kafelki.
 - Każdy numer telefonu = klikalny link `tel:`; duży przycisk „Zadzwoń” zawsze widoczny (stały pasek na dole).
 - Droga klienta: zdjęcie maszyny → cena → przycisk/formularz od razu, nie na końcu strony.
+
+## 26.11.2026 – archiwum ma być niewidoczne dla nikogo (Pablo)
+31. **Kody, klucze, hasła – nigdy w plikach ani w czacie.** Archiwum będzie prywatne. Do Buffera i na zewnątrz dajemy tylko linki ze schowka biura (Vercel Blob),
+    nie z archiwum – procedura w `zespol/zadania/marketing-buffer-posty.md` („🔒 Linki do zdjęć”). Klucze tylko w zmiennych środowiska.
