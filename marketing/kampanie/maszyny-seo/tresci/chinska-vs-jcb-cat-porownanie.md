@@ -15,7 +15,7 @@ JCB 3CX/4CX, Case 695SV czy CAT 432 to uznane maszyny, ale nowe kosztują w ogł
 | Maszyna | Cena netto | Źródło |
 |---|---|---|
 | Shanmon Fuji 388 (FUDALI) | 250 000 | ogłoszenie Otomoto, od ręki, gwarancja 12 mies. |
-| Stroer C788T (Chiny, 132 KM) | 220 000 | ogłoszenie Otomoto (24 mies. gwarancji wg ogłoszenia) |
+| Stroer C788T (Chiny, 132 KM) | 220 000 | ogłoszenie Otomoto (12 mies. gwarancji standardowo (opcja przedłużenia)) |
 | Case 550SV (2026) | 289 900 | Otomoto 6.11.2026 |
 | Case 580SV / 695SV | 380 000 – 399 000 | Otomoto / dealer |
 | JCB 3CX Plus EH (2026) | 450 000 | Otomoto 6.11.2026 |

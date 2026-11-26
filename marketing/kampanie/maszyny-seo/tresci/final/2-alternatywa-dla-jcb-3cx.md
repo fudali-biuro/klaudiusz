@@ -17,7 +17,7 @@ JCB 3CX/4CX i Case to uznane maszyny, ale nowe kosztują w ogłoszeniach ok. 290
 | Maszyna | Cena netto | Źródło |
 |---|---|---|
 | Shanmon Fuji 388 (FUDALI) | 250 000 | ogłoszenie Otomoto, od ręki, gwarancja 12 mies. |
-| Stroer C788T | 220 000 | [Otomoto](https://www.otomoto.pl/oferta/stroer-c788t-stroer-c-788t-koparko-ladowarka-waga-9500kg-moc-silnika125km-ID6GNmND.html), 24 mies. gwarancji wg ogłoszenia |
+| Stroer C788T | 220 000 | [Otomoto](https://www.otomoto.pl/oferta/stroer-c788t-stroer-c-788t-koparko-ladowarka-waga-9500kg-moc-silnika125km-ID6GNmND.html), 12 mies. gwarancji standardowo (opcja przedłużenia) |
 | Case 550SV (2026) | 289 900 | [Otomoto, 6.11.2026](https://www.otomoto.pl/maszyny-budowlane/oferta/case-koparko-ladowarka-case-550sv-ID6IaE8A.html) |
 | Case 580SV (2026) | ok. 380 000 | [Otomoto, 6.11.2026](https://www.otomoto.pl/maszyny-budowlane/oferta/case-580-sv-koparko-ladowarka-case-kruszywa-ID6I6P5N.html) |
 | JCB 3CX Plus EH (2026) | 450 000 | [Otomoto, 6.11.2026](https://www.otomoto.pl/maszyny-budowlane/oferta/jcb-3cx-plus-eh-ID6IhtCL.html) |

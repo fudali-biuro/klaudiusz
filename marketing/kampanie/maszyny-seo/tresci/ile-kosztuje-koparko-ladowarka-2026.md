@@ -10,7 +10,7 @@ Nowa koparko-ładowarka kosztuje w Polsce od ok. **140 tysięcy do ponad 460 tys
 | Maszyna | Cena netto | Uwagi / źródło |
 |---|---|---|
 | Kingway ZL 5300 (silnik 50 KM) | 139 000 | mniejsza klasa, ogłoszenie Kielce/Popów; leasing w ofercie |
-| Stroer C788T (132 KM, ramię teleskopowe) | 220 000 | ogłoszenie na Otomoto, 24 mies. gwarancji wg ogłoszenia |
+| Stroer C788T (132 KM, ramię teleskopowe) | 220 000 | ogłoszenie na Otomoto, 12 mies. gwarancji standardowo (opcja przedłużenia) |
 | **Shanmon Fuji 388 (FUDALI)** | **250 000** (307 500 brutto) | nowa, 2026, od ręki w Rzeszowie, gwarancja 12 mies. |
 | Case 550SV (2026) | 289 900 | Otomoto, 6.11.2026 |
 | Case 580SV / 695SV | 380 000 – 399 000 | Otomoto / dealer; wg ogłoszeń |

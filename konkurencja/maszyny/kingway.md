@@ -7,4 +7,4 @@
 - **Gwarancja:** 12 mies. bezpłatnie + „pogwarancyjny serwis, części”. Transport w całym kraju gratis.
 - **Mocne strony:** niska cena, leasing, darmowy transport, jasna oferta.
 - **Słabe strony:** słabszy silnik i mniejsza maszyna niż Fuji 388, krótka gwarancja, brak teleskopu i opinii.
-- **Jak z nimi wygrać:** inna klasa (większa maszyna, silniejszy silnik, teleskop, 24 mies.). W SEO: nie dawać się porównywać „do Kingway” – nasz klient szuka 9–10 t.
+- **Jak z nimi wygrać:** inna klasa (większa maszyna, silniejszy silnik, teleskop). W SEO: nie dawać się porównywać „do Kingway” – nasz klient szuka 9–10 t.

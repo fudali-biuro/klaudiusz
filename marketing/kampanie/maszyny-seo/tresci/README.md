@@ -14,5 +14,5 @@ Kontakt w każdej treści: **biuro@fudali.com.pl · 791 589 997** (Rzeszów – 
 2. **Stan „nowa”:** Otomoto ma pole „Używany / 5 mth”, opis „fabrycznie nowa”. W treściach pisze „nowa, rocznik 2026” (decyzja Pablo 06.11) – wyjaśnić 5 mth (rozruch/dowóz) i ujednolicić ogłoszenie.
 3. **Stage V** – tylko z dokumentem (tabliczka/deklaracja zgodności); w treściach „Stage V” stoi przy naszej maszynie wg ogłoszenia i dec. Pablo 06.11 – pokazać dokument kupującemu.
 4. **Sprzedawca i faktura VAT:** ogłoszenie jest od osoby prywatnej, a treści obiecują fakturę VAT, leasing i odliczenie VAT – potwierdzić, że sprzedaż idzie przez firmę.
-5. **Gwarancja:** 12 mies. (silnik, skrzynia, most) – Stroer ma 24 mies. – decyzja Pablo, czy wydłużamy (to byłby mocny argument).
+5. **Gwarancja:** 12 mies. (silnik, skrzynia, most) – Stroer też 12 mies. standard (poprawka Pablo 26.11) – jesteśmy na równi.
 6. **Telefon:** 791 589 997 (Rzeszów – wg briefu Klaudiusza) – potwierdzić, że ten sam numer jest w ogłoszeniu.

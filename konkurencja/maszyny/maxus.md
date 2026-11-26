@@ -11,4 +11,4 @@
 - **Opinie:** brak na stronach.
 - **Mocne strony:** najniższa cena, ogromna liczba ofert (widoczność na portalach), konkretne hasła („bez BIK i KRD”, „cena za cały zestaw”), jasne dane techniczne.
 - **Słabe strony:** marka mało znana, brak ocen i filmów w ogłoszeniach, niejasne netto/brutto, zbyt dużo różnych cen tej samej maszyny (150–160 tys. za 3CX, 295–299,5 tys. za 4CX), wiele duplikatów – wygląda na masową sprzedaż.
-- **Jak z nimi wygrać:** nie ceną. Argumenty: marka Shanmon, 24 mies. gwarancji, serwis (Rzeszów), konkretny „od ręki”, transparentne netto/brutto, opinie klientów, filmy.
+- **Jak z nimi wygrać:** nie ceną. Argumenty: marka Shanmon, gwarancja 12 mies., serwis (Rzeszów), konkretny „od ręki”, transparentne netto/brutto, opinie klientów, filmy.
