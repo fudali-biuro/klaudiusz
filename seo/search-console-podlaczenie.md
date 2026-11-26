@@ -17,3 +17,8 @@ Dostęp **tylko do odczytu** (zakres `webmasters.readonly`, w Search Console upr
 
 Po stronie zespołu: skrypt `scripts/seo/gsc.py` (do napisania po otrzymaniu klucza) – codziennie pobiera pozycje do `seo/pozycje/historia.csv`.
 Tak samo później: **Google Business Profile** (wizytówka w Mapach, adres Rzeszów) i **Google Ads** (Planer słów kluczowych – realne wolumeny).
+
+## Stan (26.11.2026)
+- ✅ Własność fudali.com.pl zweryfikowana (tag HTML). Tag siedzi w Elementor → Custom Code, wpis **2299** „Google Search Console – weryfikacja”
+  (`_elementor_code` + warunek `include/general` także w opcji `elementor_pro_theme_builder_conditions`). **NIE USUWAĆ** – inaczej weryfikacja przepadnie.
+- ⏳ Pablo: dodać konto usługi (Ograniczone) + klucz jako `GSC_KEY_B64` w ustawieniach środowiska.
