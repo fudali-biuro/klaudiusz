@@ -5,7 +5,7 @@
  "godzina": "19:00",
  "tytul": "Pin EN: New Backhoe Loader 4x4 – Shanmon Fuji 388, Dig to 5.5 m | Rzeszów",
  "produkt": "koparko-ladowarka",
- "tekst": "Brand new 2026 backhoe loader with a telescopic arm (dig to 5.5 m), 4x4 and a 6-in-1 front bucket. Available now in Rzeszów, Poland. 12-month warranty, service across Poland. Contact: biuro@fudali.com.pl, +48 791 589 997. https://www.fudali.com.pl/maszyny-budowlane/shanmon-fuji-388/",
+ "tekst": "Shanmon 388 backhoe loader: brand new 2026 machine with a telescopic arm (dig to 5.5 m), 4x4 and a 6-in-1 front bucket. Available now in Rzeszów, Poland. 12-month warranty, service across Poland. Contact: biuro@fudali.com.pl, +48 791 589 997. https://www.fudali.com.pl/maszyny-budowlane/shanmon-fuji-388/",
  "hashtagi": "",
  "obrazy": [
   "marketing/kampanie/maszyny-seo/posty/pin-2x3.jpg"
@@ -15,14 +15,20 @@
  "kampania": "maszyny-seo",
  "stan": "czeka",
  "komentarz": "",
- "wersja": 1,
+ "wersja": 2,
  "utworzono": "2026-11-26T04:37:44+00:00",
- "zmieniono": "2026-11-26T04:37:44+00:00",
+ "zmieniono": "2026-11-26T04:39:16+00:00",
  "historia": [
   {
    "czas": "2026-11-26T04:37:44+00:00",
    "kto": "marketing",
    "stan": "czeka"
+  },
+  {
+   "czas": "2026-11-26T04:39:16+00:00",
+   "kto": "Ola (sprawdzili: Kuba)",
+   "stan": "czeka",
+   "komentarz": "poprawiona wersja 2"
   }
  ]
 }
