@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-25T12:20+01:00",
+ "czas": "2026-11-26T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -11,11 +11,11 @@
     "drewutnia na drewno",
     "drewutnia ogrodowa",
     "drewutnia z palet",
-    "drewutnia olpuch",
     "drewutnia metalowa",
+    "drewutnia olpuch",
+    "drewutnia krzyżówka",
     "drewutnia drewniana",
     "drewutnia castorama",
-    "drewutnia krzyżówka",
     "drewutnia kampinos"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -38,11 +38,11 @@
     "drewutnia ogrodowa metalowa",
     "drewutnia ogrodowa castorama",
     "drewutnia ogrodowa z palet",
-    "drewutnia ogrodowa zamykana",
     "drewutnia ogrodowa z domkiem narzędziowym",
-    "drewutnia ogrodowa olx",
     "drewutnia ogrodowa leroy merlin",
-    "drewutnia ogrodowa diy"
+    "drewutnia ogrodowa diy",
+    "drewutnia ogrodowa projekt",
+    "drewutnia ogrodowa allegro"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -61,8 +61,8 @@
    "podpowiedzi_google": [
     "drewutnia drewniana",
     "drewutnia drewniana olx",
-    "drewutnia drewniana projekt",
     "drewutnia drewniana zamykana",
+    "drewutnia drewniana projekt",
     "drewutnia drewniana allegro",
     "drewutnia drewniana castorama",
     "drewutnia drewniana leroy merlin",
@@ -87,14 +87,14 @@
    "podpowiedzi_google": [
     "drewutnia na drewno",
     "drewutnia na drewno kominkowe",
-    "drewutnia na drewno castorama",
     "drewutnia na drewno z palet",
-    "drewutnia na drewno projekt",
     "drewutnia na drewno metalowa",
+    "drewutnia na drewno projekt",
     "drewutnia na drewno olx",
     "drewutnia na drewno allegro",
-    "drewutnia na drewno leroy merlin",
-    "drewutnia na drewno drewniana"
+    "drewutnia na drewno drewniana",
+    "drewutnia na drewno obi",
+    "drewutnia na drewno opałowe"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -117,10 +117,10 @@
     "domek ogrodowy drewniany na narzędzia",
     "domek ogrodowy drewniany olx",
     "domek ogrodowy drewniany leroy merlin",
-    "domek ogrodowy drewniany z tarasem",
-    "domek ogrodowy drewniany obi",
+    "domek ogrodowy drewniany wyprzedaż",
     "domek ogrodowy drewniany allegro",
-    "domek ogrodowy drewniany wyprzedaż"
+    "domek ogrodowy drewniany z tarasem",
+    "domek ogrodowy drewniany obi"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -141,10 +141,10 @@
     "domek narzędziowy drewniany castorama",
     "domek narzędziowy drewniany olx",
     "domek narzędziowy drewniany leroy merlin",
-    "domek narzędziowy drewniany 3x5",
     "domek narzędziowy drewniany z drewutnią",
-    "domek narzędziowy drewniany 3x4",
+    "domek narzędziowy drewniany 3x5",
     "domek narzędziowy drewniany obi",
+    "domek narzędziowy drewniany 3x4",
     "domek narzędziowy drewniany allegro",
     "domek narzędziowy drewniany 3x3"
    ],
@@ -191,10 +191,10 @@
    "podpowiedzi_google": [
     "altana drewniana",
     "altana drewniana 3x3",
-    "altana drewniana 4x4",
     "altana drewniana 3x4",
-    "altana drewniana ogrodowa",
+    "altana drewniana 4x4",
     "altana drewniana 5x5",
+    "altana drewniana ogrodowa",
     "altana drewniana 3x3 castorama",
     "altana drewniana jednospadowa",
     "altana drewniana do samodzielnego montażu",
@@ -222,9 +222,9 @@
     "altana ogrodowa castorama",
     "altana ogrodowa 3x3",
     "altana ogrodowa leroy merlin",
-    "altana ogrodowa 3x4",
+    "altana ogrodowa oddam za darmo",
     "altana ogrodowa 4x4",
-    "altana ogrodowa oddam za darmo"
+    "altana ogrodowa 3x4"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -241,16 +241,16 @@
    "grupa": "meble ogrodowe",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
+    "meble ogrodowe drewniane",
     "meble ogrodowe drewniane olx",
     "meble ogrodowe drewniane wyprzedaż",
     "meble ogrodowe drewniane castorama",
-    "meble ogrodowe drewniane allegro",
     "meble ogrodowe drewniane używane olx",
+    "meble ogrodowe drewniane allegro",
     "meble ogrodowe drewniane ikea",
-    "meble ogrodowe drewniane jysk",
-    "meble ogrodowe drewniane z bali",
-    "meble ogrodowe drewniane obi",
-    "meble ogrodowe drewniane wyprzedaż allegro"
+    "meble ogrodowe drewniane wyprzedaż allegro",
+    "meble ogrodowe drewniane producent",
+    "meble ogrodowe drewniane projekt"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -268,13 +268,13 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "leżak drewniany",
-    "leżak drewniany składany",
     "leżak drewniany ogrodowy",
+    "leżak drewniany składany",
     "leżak drewniany jysk",
     "leżak drewniany plażowy",
     "leżak drewniany ikea",
     "leżak drewniany castorama",
-    "leżak drewniany olx",
+    "leżak drewniany bujany",
     "leżak drewniany allegro",
     "leżak drewniany leroy merlin"
    ],
@@ -326,9 +326,9 @@
     "drewno konstrukcyjne castorama",
     "drewno konstrukcyjne olx",
     "drewno konstrukcyjne klejone",
-    "drewno konstrukcyjne kvh",
     "drewno konstrukcyjne leroy merlin",
-    "drewno konstrukcyjne cena za m3"
+    "drewno konstrukcyjne cena za m3",
+    "drewno konstrukcyjne kvh"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -348,13 +348,13 @@
     "prezent pod choinkę",
     "prezent pod choinkę dla mężczyzny",
     "prezent pod choinkę dla kobiety",
-    "prezent pod choinkę dla 10 latki",
     "prezent pod choinkę dla mamy",
-    "prezent pod choinkę dla 9 latki",
-    "prezent pod choinkę dla rocznego dziecka",
+    "prezent pod choinkę dla 10 latki",
     "prezent pod choinkę dla męża",
-    "prezent pod choinkę dla rodziców",
-    "prezent pod choinkę dla 2 latka"
+    "prezent pod choinkę dla 9 latki",
+    "prezent pod choinkę dla 8 latki",
+    "prezent pod choinkę dla 2 latka",
+    "prezent pod choinkę dla 5 latki"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -373,40 +373,14 @@
    "podpowiedzi_google": [
     "prezent na mikołajki",
     "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki do przedszkola",
+    "prezent na mikołajki do 50 zł",
     "prezent na mikołajki dla dzieci 8 lat",
+    "prezent na mikołajki dla dzieci 7 lat",
     "prezent na mikołajki dla chłopaka",
-    "prezent na mikołajki dla przedszkolaka",
+    "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dziewczyny",
-    "prezent na mikołajki dla dzieci do przedszkola",
-    "prezent na mikołajki dla dzieci 5 lat"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 65,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka jcb 3cx",
-    "koparko ładowarka case",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka klasa 3"
+    "prezent na mikołajki dla dzieci 5 lat",
+    "prezent na mikołajki dla dzieci 9 lat"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -453,11 +427,11 @@
     "koparko-ładowarka olx",
     "koparko-ładowarka jcb",
     "koparko-ładowarka ostrówek",
-    "koparko-ładowarka cat",
     "koparko-ładowarka jcb 3cx",
+    "koparko-ładowarka cat",
     "koparko-ładowarka case",
+    "koparko-ładowarka caterpillar",
     "koparko-ładowarka jcb nowa cena",
-    "koparko-ładowarka ostrówek z wojska",
     "koparko-ładowarka new holland"
    ],
    "pozycja_w_podpowiedziach": 1,
@@ -504,13 +478,13 @@
     "biurko drewniane",
     "biurko drewniane z szufladami",
     "biurko drewniane ikea",
-    "biurko drewniane dla dziecka",
     "biurko drewniane olx",
+    "biurko drewniane dla dziecka",
     "biurko drewniane vintage",
     "biurko drewniane regulowane",
     "biurko drewniane jysk",
-    "biurko drewniane gamingowe",
-    "biurko drewniane duze"
+    "biurko drewniane duze",
+    "biurko drewniane gamingowe"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -529,8 +503,8 @@
    "podpowiedzi_google": [
     "biurko z litego drewna",
     "biurko z litego drewna z szufladami",
-    "biurko z litego drewna nowoczesne",
     "biurko z litego drewna olx",
+    "biurko z litego drewna nowoczesne",
     "biurko z litego drewna dębowego",
     "biurko z litego drewna tova",
     "biurko z litego drewna mango",
@@ -580,9 +554,9 @@
    "podpowiedzi_google": [
     "prezent z drewna",
     "prezent z drewna na rocznicę ślubu",
-    "prezent z drewna na urodziny",
     "prezent z drewna dla mężczyzny",
     "prezent z drewna dla dziewczyny",
+    "prezent z drewna na urodziny",
     "prezent z drewna diy",
     "prezent z drewna ozdoba",
     "prezent z drewna dla kobiety",
@@ -607,13 +581,13 @@
     "jcb 3cx",
     "jcb 3cx olx",
     "jcb 3cx contractor",
-    "jcb 3cx waga",
     "jcb 3cx nowa cena",
+    "jcb 3cx waga",
     "jcb 3cx compact",
-    "jcb 3cx opis przycisków",
     "jcb 3cx dane techniczne",
     "jcb 3cx super",
-    "jcb 3cx instrukcja obsługi pdf"
+    "jcb 3cx opis przycisków",
+    "jcb 3cx pro"
    ],
    "pozycja_w_podpowiedziach": 2,
    "popyt_0_1": 0.94,
@@ -632,14 +606,14 @@
    "podpowiedzi_google": [
     "prezent dla taty",
     "prezent dla taty na urodziny",
+    "prezent dla taty na święta",
     "prezent dla taty na 60 urodziny",
     "prezent dla taty na 70 urodziny",
     "prezent dla taty który wszystko ma",
-    "prezent dla taty na 50 urodziny",
     "prezent dla taty który nic nie chce",
+    "prezent dla taty na 50 urodziny",
     "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna",
-    "prezent dla taty z okazji narodzin dziecka"
+    "prezent dla taty i syna"
    ],
    "pozycja_w_podpowiedziach": 3,
    "popyt_0_1": 0.88,
@@ -659,13 +633,13 @@
     "domek letniskowy",
     "domek letniskowy całoroczny",
     "domek letniskowy na sprzedaż",
-    "domek letniskowy 35m2",
     "domek letniskowy całoroczny 70m2",
+    "domek letniskowy 35m2",
     "domek letniskowy drewniany",
     "domek letniskowy krzyżówka",
-    "domek letniskowy nad jeziorem",
-    "domek letniskowy pilnie sprzedam",
-    "domek letniskowy brda"
+    "domek letniskowy po angielsku",
+    "domek letniskowy sprzedam",
+    "domek letniskowy nad jeziorem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -689,9 +663,9 @@
     "pergola drewniana leroy merlin",
     "pergola drewniana na taras",
     "pergola drewniana obi",
-    "pergola drewniana bricomarche",
-    "pergola drewniana na róże",
-    "pergola drewniana do samodzielnego montażu"
+    "pergola drewniana na winogron",
+    "pergola drewniana allegro",
+    "pergola drewniana bricomarche"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -702,6 +676,32 @@
    "firmy": [],
    "ocena": 58,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na dwa auta",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana dwuspadowa konstrukcja",
+    "wiata drewniana dwustanowiskowa"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 58,
+   "zmiana_oceny": 24
   },
   {
    "fraza": "stolik kawowy drewniany",
@@ -736,14 +736,14 @@
    "podpowiedzi_google": [
     "stołki drewniane",
     "stołki drewniane do kuchni",
-    "stołki drewniane ikea",
-    "stołki drewniane do łazienki",
-    "stołki drewniane do salonu",
     "stołki drewniane olx",
+    "stołki drewniane do salonu",
+    "stołki drewniane ikea",
     "stołki drewniane składane",
     "stołki drewniane z oparciem",
     "stołki drewniane allegro",
-    "stołki drewniane action"
+    "stołki drewniane action",
+    "stołki drewniane do ogrodu"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -761,9 +761,9 @@
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
     "deski konstrukcyjne",
+    "deski konstrukcyjne castorama",
     "deski konstrukcyjne c24",
     "deski konstrukcyjne olx",
-    "deski konstrukcyjne castorama",
     "deski konstrukcyjne cena",
     "deski konstrukcyjne leroy merlin",
     "deski konstrukcyjne obi",
@@ -791,11 +791,11 @@
     "drewno opałowe cena",
     "drewno opałowe podkarpackie tanio",
     "drewno opałowe lublin",
+    "drewno opałowe warszawa",
     "drewno opałowe białystok",
     "drewno opałowe castorama",
-    "drewno opałowe rzeszów",
-    "drewno opałowe warszawa",
-    "drewno opałowe poznań"
+    "drewno opałowe poznań",
+    "drewno opałowe rzeszów"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -815,13 +815,13 @@
     "stolarz rzeszów",
     "stolarz rzeszów olx",
     "stolarz rzeszów - forum",
-    "stolarz rzeszów praca",
     "stolarz rzeszów i okolice",
     "stolarz rzeszów najwyżej oceniane",
     "stolarz meblowy rzeszów",
     "stolarz dentysta rzeszów",
     "dr stolarz rzeszów",
-    "stolarz drzwi rzeszów"
+    "stolarz drzwi rzeszów",
+    "przemysław stolarz rzeszów"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -872,8 +872,8 @@
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
-    "pomysł na prezent na dzień chłopaka",
-    "pomysł na prezent na rocznicę ślubu"
+    "pomysł na prezent dla 6 latki",
+    "pomysł na prezent dla 5 latki"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -892,14 +892,14 @@
    "podpowiedzi_google": [
     "olej do drewna na zewnątrz",
     "olej do drewna na zewnątrz bezbarwny",
-    "olej do drewna na zewnątrz kolory",
     "olej do drewna na zewnątrz castorama",
-    "olej do drewna na zewnątrz opinie",
+    "olej do drewna na zewnątrz kolory",
     "olej do drewna na zewnątrz ranking",
+    "olej do drewna na zewnątrz opinie",
     "olej do drewna na zewnątrz altax",
-    "olej do drewna na zewnątrz bricomarche",
-    "olej do drewna na zewnątrz osmo",
-    "olej do drewna na zewnątrz sadolin"
+    "olej do drewna na zewnątrz leroy merlin",
+    "olej do drewna na zewnątrz czarny",
+    "olej do drewna na zewnątrz mrówka"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -947,11 +947,11 @@
     "home office praca",
     "home office uk",
     "home office po polsku",
-    "home office 2024",
     "home office dla rodziców dzieci do lat 4",
-    "home office inspiration",
+    "home office 2024",
     "home office ideas",
-    "home office setup"
+    "home office dla rodziców dzieci do lat 8",
+    "home office inspiration"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -973,11 +973,11 @@
     "półka na biurko pod monitor",
     "półka na biurko allegro",
     "półka na biurko biała",
-    "półka na biurko z szufladami",
     "półka na biurko na książki",
-    "półka na biurko na monitor",
-    "półka na biurko jysk",
-    "półka na biurko na laptopa"
+    "półka na biurko 120 cm",
+    "półka na biurko na laptopa",
+    "półka na biurko czarna",
+    "półka na biurko jysk"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -996,8 +996,8 @@
    "podpowiedzi_google": [
     "organizer na biurko drewniany",
     "organizer na biurko drewniany action",
-    "organizer na biurko drewniany allegro",
     "organizer na biurko drewniany biały",
+    "organizer na biurko drewniany allegro",
     "organizer na biurko drewniany czarny",
     "organizer na biurko drewniany ikea",
     "organizer na biurko drewniany z imieniem",
@@ -1013,32 +1013,6 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": 0
-  },
-  {
-   "fraza": "prezent do 300 zł",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent do 300 zł dla faceta",
-    "prezent do 300 zł dla niej",
-    "prezent do 300 zł dla kobiety",
-    "prezent do 300 zł",
-    "prezent do 300 zł dla nastolatka",
-    "prezent do 300 zł dla dziecka",
-    "prezent do 300 zł dla chłopaka",
-    "prezent do 300 zł dla dziewczynki",
-    "prezent do 300 zł dla niego",
-    "prezent do 300 zł dla mamy"
-   ],
-   "pozycja_w_podpowiedziach": 2,
-   "popyt_0_1": 0.94,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 55,
    "zmiana_oceny": 0
   },
   {
@@ -1123,11 +1097,11 @@
     "podkładki drewniane pod kubek",
     "podkładki drewniane prostokątne",
     "podkładki drewniane action",
-    "podkładki drewniane pod kubek action",
     "podkładki drewniane castorama",
     "podkladki drewniane pod talerz",
     "podkładki drewniane okrągłe",
-    "podkladki drewniane do poziomowania"
+    "podkladki drewniane do poziomowania",
+    "podkładki drewniane pod meble"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1148,8 +1122,8 @@
     "sauna ogrodowa z piecem na drewno",
     "sauna ogrodowa olx",
     "sauna ogrodowa na drewno",
-    "sauna ogrodowa z jacuzzi",
     "sauna ogrodowa cena",
+    "sauna ogrodowa z jacuzzi",
     "sauna ogrodowa do samodzielnego montażu",
     "sauna ogrodowa z przedsionkiem",
     "sauna ogrodowa beczka",
@@ -1174,14 +1148,14 @@
    "podpowiedzi_google": [
     "prezent dla mamy",
     "prezent dla mamy na urodziny",
+    "prezent dla mamy na święta",
     "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy która wszystko ma",
     "prezent dla mamy po porodzie",
     "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy na 50 urodziny",
     "prezent dla mamy na imieniny",
-    "prezent dla mamy z okazji narodzin dziecka",
-    "prezent dla mamy na święta"
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na święta bożego narodzenia"
    ],
    "pozycja_w_podpowiedziach": 4,
    "popyt_0_1": 0.82,
@@ -1199,22 +1173,22 @@
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
     "jak zabezpieczyć meble ogrodowe na zimę",
-    "jak zabezpieczyć meble ogrodowe przed wiatrem",
     "jak zabezpieczyc meble ogrodowe",
+    "jak zabezpieczyć meble ogrodowe przed wiatrem",
     "jak zabezpieczyć meble ogrodowe przed kradzieżą",
     "jak zabezpieczyć meble ogrodowe przed deszczem",
     "jak zabezpieczyć meble ogrodowe drewniane",
     "jak zabezpieczyć drewniane meble ogrodowe na zimę"
    ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.76,
+   "pozycja_w_podpowiedziach": 2,
+   "popyt_0_1": 0.82,
    "liczba_podpowiedzi": 7,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 0
+   "ocena": 50,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "prezent dla niego",
@@ -1223,14 +1197,14 @@
    "podpowiedzi_google": [
     "prezent dla niego",
     "prezent dla niego na urodziny",
+    "prezent dla niego na swieta",
     "prezent dla niego na rocznice",
     "prezent dla niego na 40 urodziny",
-    "prezent dla niego na rocznicę ślubu",
+    "prezent dla niego pod choinke",
     "prezent dla niego na 50 urodziny",
-    "prezent dla niego na dzien chlopaka",
     "prezent dla niego na 30 urodziny",
-    "prezent dla niego na swieta",
-    "prezent dla niego allegro"
+    "prezent dla niego na dzien chlopaka",
+    "prezent dla niego na rocznicę ślubu"
    ],
    "pozycja_w_podpowiedziach": 5,
    "popyt_0_1": 0.76,
@@ -1240,7 +1214,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": 5
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1357,13 +1331,13 @@
     "nowoczesny domek narzędziowy",
     "nowoczesny domek ogrodowy",
     "nowoczesny domek letniskowy",
+    "nowoczesny domek holenderski",
     "nowoczesny domek narzędziowy z drewutnią",
-    "nowoczesny domek dla dzieci",
-    "nowoczesny domek ogrodowy dla dzieci",
     "nowoczesny domek",
     "nowoczesny domek holenderski całoroczny",
+    "nowoczesny domek dla dzieci",
     "nowoczesny domek ogrodowy z tarasem",
-    "nowoczesny domek na działkę"
+    "nowoczesny domek gospodarczy"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1374,6 +1348,32 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka case",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka sprzedajemy"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 41,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "koparko ładowarka nowa",
@@ -1433,8 +1433,8 @@
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
     "koparko-ładowarka nowa",
-    "koparko-ładowarka nowa chińska",
     "koparko-ładowarka nowa cena",
+    "koparko-ładowarka nowa chińska",
     "koparko ładowarka nowa olx",
     "koparko ładowarka nowa jcb",
     "koparko ładowarka nowa otomoto",
@@ -1458,18 +1458,18 @@
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
    "podpowiedzi_google": [
-    "koparka dolores",
     "koparka",
+    "koparka dolores",
     "koparka łańcuchowa",
     "koparka zabawka",
-    "koparka łańcuchowa wynajem",
-    "koparka dla dzieci",
     "koparka kołowa",
+    "koparka na pilota",
     "koparka po angielsku",
-    "koparka kryptowalut",
-    "koparka zdalnie sterowana"
+    "koparka zdalnie sterowana",
+    "koparka łańcuchowa wynajem",
+    "koparka lego"
    ],
-   "pozycja_w_podpowiedziach": null,
+   "pozycja_w_podpowiedziach": 10,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -1514,46 +1514,20 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana dwustanowiskowa",
-    "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana 6x6 projekt"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 34,
-   "zmiana_oceny": -24
-  },
-  {
    "fraza": "tarcica",
    "grupa": "drewno",
    "znaczenie_biznesowe": "srednie",
    "podpowiedzi_google": [
     "tarcica",
-    "tarcica o kwadratowym przekroju",
-    "tarcica sosnowa",
     "tarcica dębowa",
+    "tarcica sosnowa",
+    "tarcica o kwadratowym przekroju",
     "tarcica co to",
     "tarcica dębowa sucha",
     "tarcica iglasta",
     "tarcica budowlana",
     "tarcica jesionowa",
-    "tarcica modrzewiowa"
+    "tarcica bukowa"
    ],
    "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
@@ -1564,6 +1538,32 @@
    "firmy": [],
    "ocena": 34,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "prezent do 300 zł",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent do 300 zł dla faceta",
+    "prezent do 300 zł",
+    "prezent do 300 zł dla niej",
+    "prezent do 300 zł dla nastolatka",
+    "prezent do 300 zł dla kobiety",
+    "prezent do 300 zł dla dziecka",
+    "prezent do 300 zł dla chłopaka",
+    "prezent do 300 zł dla dziewczynki",
+    "prezent do 300 zł dla niego",
+    "prezent do 300 zł dla mamy"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -21
   },
   {
    "fraza": "<<<<<<< Updated upstream",
@@ -1649,8 +1649,8 @@
    "znaczenie_biznesowe": "",
    "podpowiedzi_google": [
     "stashed changes",
-    "stashed changes conflicted with hook auto-fixes... rolling back fixes",
     "stashed changes meaning",
+    "stashed changes conflicted with hook auto-fixes... rolling back fixes",
     "stashed changes github",
     "stashed changes github desktop",
     "stashed changes conflicted with hook auto fixes",
@@ -1676,13 +1676,13 @@
    "podpowiedzi_google": [
     "cat 432",
     "cat 432e",
-    "cat 432d",
     "cat 432f",
+    "cat 432d",
     "cat 432f2",
     "cat 432 nowy cena",
-    "cat 432d opinie",
     "cat 432e premier",
     "cat 432 cena",
+    "cat 432d dane techniczne",
     "cat 432e opinie"
    ],
    "pozycja_w_podpowiedziach": null,
@@ -1865,11 +1865,11 @@
    "z_frazy": "drewutnia"
   },
   {
-   "fraza": "drewutnia olpuch",
+   "fraza": "drewutnia metalowa",
    "z_frazy": "drewutnia"
   },
   {
-   "fraza": "drewutnia metalowa",
+   "fraza": "drewutnia olpuch",
    "z_frazy": "drewutnia"
   },
   {
@@ -1889,10 +1889,6 @@
    "z_frazy": "drewutnia ogrodowa"
   },
   {
-   "fraza": "drewutnia ogrodowa zamykana",
-   "z_frazy": "drewutnia ogrodowa"
-  },
-  {
    "fraza": "drewutnia ogrodowa z domkiem narzędziowym",
    "z_frazy": "drewutnia ogrodowa"
   },
@@ -1901,11 +1897,15 @@
    "z_frazy": "drewutnia ogrodowa"
   },
   {
-   "fraza": "drewutnia drewniana projekt",
-   "z_frazy": "drewutnia drewniana"
+   "fraza": "drewutnia ogrodowa projekt",
+   "z_frazy": "drewutnia ogrodowa"
   },
   {
    "fraza": "drewutnia drewniana zamykana",
+   "z_frazy": "drewutnia drewniana"
+  },
+  {
+   "fraza": "drewutnia drewniana projekt",
    "z_frazy": "drewutnia drewniana"
   },
   {
@@ -1925,15 +1925,19 @@
    "z_frazy": "drewutnia na drewno"
   },
   {
-   "fraza": "drewutnia na drewno projekt",
-   "z_frazy": "drewutnia na drewno"
-  },
-  {
    "fraza": "drewutnia na drewno metalowa",
    "z_frazy": "drewutnia na drewno"
   },
   {
+   "fraza": "drewutnia na drewno projekt",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
    "fraza": "drewutnia na drewno drewniana",
+   "z_frazy": "drewutnia na drewno"
+  },
+  {
+   "fraza": "drewutnia na drewno opałowe",
    "z_frazy": "drewutnia na drewno"
   },
   {
@@ -1945,19 +1949,19 @@
    "z_frazy": "domek ogrodowy drewniany"
   },
   {
-   "fraza": "domek ogrodowy drewniany z tarasem",
-   "z_frazy": "domek ogrodowy drewniany"
-  },
-  {
    "fraza": "domek ogrodowy drewniany wyprzedaż",
    "z_frazy": "domek ogrodowy drewniany"
   },
   {
-   "fraza": "domek narzędziowy drewniany 3x5",
-   "z_frazy": "domek narzędziowy drewniany"
+   "fraza": "domek ogrodowy drewniany z tarasem",
+   "z_frazy": "domek ogrodowy drewniany"
   },
   {
    "fraza": "domek narzędziowy drewniany z drewutnią",
+   "z_frazy": "domek narzędziowy drewniany"
+  },
+  {
+   "fraza": "domek narzędziowy drewniany 3x5",
    "z_frazy": "domek narzędziowy drewniany"
   },
   {
@@ -1981,15 +1985,11 @@
    "z_frazy": "nowoczesny domek"
   },
   {
+   "fraza": "nowoczesny domek holenderski",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
    "fraza": "nowoczesny domek narzędziowy z drewutnią",
-   "z_frazy": "nowoczesny domek"
-  },
-  {
-   "fraza": "nowoczesny domek dla dzieci",
-   "z_frazy": "nowoczesny domek"
-  },
-  {
-   "fraza": "nowoczesny domek ogrodowy dla dzieci",
    "z_frazy": "nowoczesny domek"
   },
   {
@@ -1997,11 +1997,15 @@
    "z_frazy": "nowoczesny domek"
   },
   {
+   "fraza": "nowoczesny domek dla dzieci",
+   "z_frazy": "nowoczesny domek"
+  },
+  {
    "fraza": "nowoczesny domek ogrodowy z tarasem",
    "z_frazy": "nowoczesny domek"
   },
   {
-   "fraza": "nowoczesny domek na działkę",
+   "fraza": "nowoczesny domek gospodarczy",
    "z_frazy": "nowoczesny domek"
   },
   {
@@ -2049,11 +2053,11 @@
    "z_frazy": "domek letniskowy"
   },
   {
-   "fraza": "domek letniskowy 35m2",
+   "fraza": "domek letniskowy całoroczny 70m2",
    "z_frazy": "domek letniskowy"
   },
   {
-   "fraza": "domek letniskowy całoroczny 70m2",
+   "fraza": "domek letniskowy 35m2",
    "z_frazy": "domek letniskowy"
   },
   {
@@ -2061,15 +2065,15 @@
    "z_frazy": "domek letniskowy"
   },
   {
+   "fraza": "domek letniskowy po angielsku",
+   "z_frazy": "domek letniskowy"
+  },
+  {
+   "fraza": "domek letniskowy sprzedam",
+   "z_frazy": "domek letniskowy"
+  },
+  {
    "fraza": "domek letniskowy nad jeziorem",
-   "z_frazy": "domek letniskowy"
-  },
-  {
-   "fraza": "domek letniskowy pilnie sprzedam",
-   "z_frazy": "domek letniskowy"
-  },
-  {
-   "fraza": "domek letniskowy brda",
    "z_frazy": "domek letniskowy"
   },
   {
@@ -2077,19 +2081,19 @@
    "z_frazy": "altana drewniana"
   },
   {
-   "fraza": "altana drewniana 4x4",
-   "z_frazy": "altana drewniana"
-  },
-  {
    "fraza": "altana drewniana 3x4",
    "z_frazy": "altana drewniana"
   },
   {
-   "fraza": "altana drewniana ogrodowa",
+   "fraza": "altana drewniana 4x4",
    "z_frazy": "altana drewniana"
   },
   {
    "fraza": "altana drewniana 5x5",
+   "z_frazy": "altana drewniana"
+  },
+  {
+   "fraza": "altana drewniana ogrodowa",
    "z_frazy": "altana drewniana"
   },
   {
@@ -2117,7 +2121,7 @@
    "z_frazy": "altana ogrodowa"
   },
   {
-   "fraza": "altana ogrodowa 3x4",
+   "fraza": "altana ogrodowa oddam za darmo",
    "z_frazy": "altana ogrodowa"
   },
   {
@@ -2125,7 +2129,7 @@
    "z_frazy": "altana ogrodowa"
   },
   {
-   "fraza": "altana ogrodowa oddam za darmo",
+   "fraza": "altana ogrodowa 3x4",
    "z_frazy": "altana ogrodowa"
   },
   {
@@ -2141,11 +2145,7 @@
    "z_frazy": "pergola drewniana"
   },
   {
-   "fraza": "pergola drewniana na róże",
-   "z_frazy": "pergola drewniana"
-  },
-  {
-   "fraza": "pergola drewniana do samodzielnego montażu",
+   "fraza": "pergola drewniana na winogron",
    "z_frazy": "pergola drewniana"
   },
   {
@@ -2165,15 +2165,15 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana ogrodowa",
-   "z_frazy": "wiata drewniana"
-  },
-  {
    "fraza": "wiata drewniana do samodzielnego montażu",
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana dwustanowiskowa",
+   "fraza": "wiata drewniana na dwa auta",
+   "z_frazy": "wiata drewniana"
+  },
+  {
+   "fraza": "wiata drewniana ogrodowa",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -2181,7 +2181,7 @@
    "z_frazy": "wiata drewniana"
   },
   {
-   "fraza": "wiata drewniana 6x6 projekt",
+   "fraza": "wiata drewniana dwustanowiskowa",
    "z_frazy": "wiata drewniana"
   },
   {
@@ -2189,19 +2189,27 @@
    "z_frazy": "meble ogrodowe drewniane"
   },
   {
-   "fraza": "meble ogrodowe drewniane z bali",
+   "fraza": "meble ogrodowe drewniane producent",
    "z_frazy": "meble ogrodowe drewniane"
   },
   {
-   "fraza": "leżak drewniany składany",
-   "z_frazy": "leżak drewniany"
+   "fraza": "meble ogrodowe drewniane projekt",
+   "z_frazy": "meble ogrodowe drewniane"
   },
   {
    "fraza": "leżak drewniany ogrodowy",
    "z_frazy": "leżak drewniany"
   },
   {
+   "fraza": "leżak drewniany składany",
+   "z_frazy": "leżak drewniany"
+  },
+  {
    "fraza": "leżak drewniany plażowy",
+   "z_frazy": "leżak drewniany"
+  },
+  {
+   "fraza": "leżak drewniany bujany",
    "z_frazy": "leżak drewniany"
   },
   {
@@ -2245,10 +2253,6 @@
    "z_frazy": "stołki drewniane"
   },
   {
-   "fraza": "stołki drewniane do łazienki",
-   "z_frazy": "stołki drewniane"
-  },
-  {
    "fraza": "stołki drewniane do salonu",
    "z_frazy": "stołki drewniane"
   },
@@ -2258,6 +2262,10 @@
   },
   {
    "fraza": "stołki drewniane z oparciem",
+   "z_frazy": "stołki drewniane"
+  },
+  {
+   "fraza": "stołki drewniane do ogrodu",
    "z_frazy": "stołki drewniane"
   },
   {
@@ -2317,6 +2325,10 @@
    "z_frazy": "podkładki drewniane"
   },
   {
+   "fraza": "podkładki drewniane pod meble",
+   "z_frazy": "podkładki drewniane"
+  },
+  {
    "fraza": "drewno konstrukcyjne c24",
    "z_frazy": "drewno konstrukcyjne"
   },
@@ -2333,11 +2345,11 @@
    "z_frazy": "drewno konstrukcyjne"
   },
   {
-   "fraza": "drewno konstrukcyjne kvh",
+   "fraza": "drewno konstrukcyjne cena za m3",
    "z_frazy": "drewno konstrukcyjne"
   },
   {
-   "fraza": "drewno konstrukcyjne cena za m3",
+   "fraza": "drewno konstrukcyjne kvh",
    "z_frazy": "drewno konstrukcyjne"
   },
   {
@@ -2357,7 +2369,7 @@
    "z_frazy": "deski konstrukcyjne"
   },
   {
-   "fraza": "tarcica o kwadratowym przekroju",
+   "fraza": "tarcica dębowa",
    "z_frazy": "tarcica"
   },
   {
@@ -2365,7 +2377,7 @@
    "z_frazy": "tarcica"
   },
   {
-   "fraza": "tarcica dębowa",
+   "fraza": "tarcica o kwadratowym przekroju",
    "z_frazy": "tarcica"
   },
   {
@@ -2389,7 +2401,7 @@
    "z_frazy": "tarcica"
   },
   {
-   "fraza": "tarcica modrzewiowa",
+   "fraza": "tarcica bukowa",
    "z_frazy": "tarcica"
   },
   {
@@ -2405,19 +2417,19 @@
    "z_frazy": "drewno opałowe"
   },
   {
-   "fraza": "drewno opałowe białystok",
-   "z_frazy": "drewno opałowe"
-  },
-  {
-   "fraza": "drewno opałowe rzeszów",
-   "z_frazy": "drewno opałowe"
-  },
-  {
    "fraza": "drewno opałowe warszawa",
    "z_frazy": "drewno opałowe"
   },
   {
+   "fraza": "drewno opałowe białystok",
+   "z_frazy": "drewno opałowe"
+  },
+  {
    "fraza": "drewno opałowe poznań",
+   "z_frazy": "drewno opałowe"
+  },
+  {
+   "fraza": "drewno opałowe rzeszów",
    "z_frazy": "drewno opałowe"
   },
   {
@@ -2426,10 +2438,6 @@
   },
   {
    "fraza": "stolarz rzeszów - forum",
-   "z_frazy": "stolarz rzeszów"
-  },
-  {
-   "fraza": "stolarz rzeszów praca",
    "z_frazy": "stolarz rzeszów"
   },
   {
@@ -2457,6 +2465,10 @@
    "z_frazy": "stolarz rzeszów"
   },
   {
+   "fraza": "przemysław stolarz rzeszów",
+   "z_frazy": "stolarz rzeszów"
+  },
+  {
    "fraza": "sauna ogrodowa z piecem na drewno",
    "z_frazy": "sauna ogrodowa"
   },
@@ -2465,11 +2477,11 @@
    "z_frazy": "sauna ogrodowa"
   },
   {
-   "fraza": "sauna ogrodowa z jacuzzi",
+   "fraza": "sauna ogrodowa cena",
    "z_frazy": "sauna ogrodowa"
   },
   {
-   "fraza": "sauna ogrodowa cena",
+   "fraza": "sauna ogrodowa z jacuzzi",
    "z_frazy": "sauna ogrodowa"
   },
   {
@@ -2493,15 +2505,15 @@
    "z_frazy": "prezent z drewna"
   },
   {
-   "fraza": "prezent z drewna na urodziny",
-   "z_frazy": "prezent z drewna"
-  },
-  {
    "fraza": "prezent z drewna dla mężczyzny",
    "z_frazy": "prezent z drewna"
   },
   {
    "fraza": "prezent z drewna dla dziewczyny",
+   "z_frazy": "prezent z drewna"
+  },
+  {
+   "fraza": "prezent z drewna na urodziny",
    "z_frazy": "prezent z drewna"
   },
   {
@@ -2561,19 +2573,11 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla 10 latki",
-   "z_frazy": "prezent pod choinkę"
-  },
-  {
    "fraza": "prezent pod choinkę dla mamy",
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla 9 latki",
-   "z_frazy": "prezent pod choinkę"
-  },
-  {
-   "fraza": "prezent pod choinkę dla rocznego dziecka",
+   "fraza": "prezent pod choinkę dla 10 latki",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -2581,7 +2585,11 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla rodziców",
+   "fraza": "prezent pod choinkę dla 9 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 8 latki",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -2589,7 +2597,15 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
+   "fraza": "prezent pod choinkę dla 5 latki",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
    "fraza": "prezent dla taty na urodziny",
+   "z_frazy": "prezent dla taty"
+  },
+  {
+   "fraza": "prezent dla taty na święta",
    "z_frazy": "prezent dla taty"
   },
   {
@@ -2601,11 +2617,11 @@
    "z_frazy": "prezent dla taty"
   },
   {
-   "fraza": "prezent dla taty na 50 urodziny",
+   "fraza": "prezent dla taty który nic nie chce",
    "z_frazy": "prezent dla taty"
   },
   {
-   "fraza": "prezent dla taty który nic nie chce",
+   "fraza": "prezent dla taty na 50 urodziny",
    "z_frazy": "prezent dla taty"
   },
   {
@@ -2614,10 +2630,6 @@
   },
   {
    "fraza": "prezent dla taty i syna",
-   "z_frazy": "prezent dla taty"
-  },
-  {
-   "fraza": "prezent dla taty z okazji narodzin dziecka",
    "z_frazy": "prezent dla taty"
   },
   {
@@ -2637,7 +2649,7 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki do przedszkola",
+   "fraza": "prezent na mikołajki do 50 zł",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2645,11 +2657,15 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
+   "fraza": "prezent na mikołajki dla dzieci 7 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
    "fraza": "prezent na mikołajki dla chłopaka",
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla przedszkolaka",
+   "fraza": "prezent na mikołajki do przedszkola",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2657,15 +2673,11 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla dziewczyny",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla dzieci do przedszkola",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki dla dzieci 5 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 9 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2693,11 +2705,11 @@
    "z_frazy": "pomysł na prezent"
   },
   {
-   "fraza": "pomysł na prezent na dzień chłopaka",
+   "fraza": "pomysł na prezent dla 6 latki",
    "z_frazy": "pomysł na prezent"
   },
   {
-   "fraza": "pomysł na prezent na rocznicę ślubu",
+   "fraza": "pomysł na prezent dla 5 latki",
    "z_frazy": "pomysł na prezent"
   },
   {
@@ -2705,7 +2717,15 @@
    "z_frazy": "prezent dla mamy"
   },
   {
+   "fraza": "prezent dla mamy na święta",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
    "fraza": "prezent dla mamy na 60 urodziny",
+   "z_frazy": "prezent dla mamy"
+  },
+  {
+   "fraza": "prezent dla mamy która wszystko ma",
    "z_frazy": "prezent dla mamy"
   },
   {
@@ -2717,7 +2737,7 @@
    "z_frazy": "prezent dla mamy"
   },
   {
-   "fraza": "prezent dla mamy która wszystko ma",
+   "fraza": "prezent dla mamy na imieniny",
    "z_frazy": "prezent dla mamy"
   },
   {
@@ -2725,15 +2745,7 @@
    "z_frazy": "prezent dla mamy"
   },
   {
-   "fraza": "prezent dla mamy na imieniny",
-   "z_frazy": "prezent dla mamy"
-  },
-  {
-   "fraza": "prezent dla mamy z okazji narodzin dziecka",
-   "z_frazy": "prezent dla mamy"
-  },
-  {
-   "fraza": "prezent dla mamy na święta",
+   "fraza": "prezent dla mamy na święta bożego narodzenia",
    "z_frazy": "prezent dla mamy"
   },
   {
@@ -2821,11 +2833,11 @@
    "z_frazy": "koparko ładowarka"
   },
   {
-   "fraza": "koparko ładowarka jcb 3cx",
+   "fraza": "koparko ładowarka case",
    "z_frazy": "koparko ładowarka"
   },
   {
-   "fraza": "koparko ładowarka case",
+   "fraza": "koparko ładowarka jcb 3cx",
    "z_frazy": "koparko ładowarka"
   },
   {
@@ -2837,7 +2849,7 @@
    "z_frazy": "koparko ładowarka"
   },
   {
-   "fraza": "koparko ładowarka klasa 3",
+   "fraza": "koparko ładowarka sprzedajemy",
    "z_frazy": "koparko ładowarka"
   },
   {
@@ -2981,11 +2993,11 @@
    "z_frazy": "koparko-ładowarka"
   },
   {
-   "fraza": "koparko-ładowarka cat",
+   "fraza": "koparko-ładowarka jcb 3cx",
    "z_frazy": "koparko-ładowarka"
   },
   {
-   "fraza": "koparko-ładowarka jcb 3cx",
+   "fraza": "koparko-ładowarka cat",
    "z_frazy": "koparko-ładowarka"
   },
   {
@@ -2993,11 +3005,11 @@
    "z_frazy": "koparko-ładowarka"
   },
   {
-   "fraza": "koparko-ładowarka jcb nowa cena",
+   "fraza": "koparko-ładowarka caterpillar",
    "z_frazy": "koparko-ładowarka"
   },
   {
-   "fraza": "koparko-ładowarka ostrówek z wojska",
+   "fraza": "koparko-ładowarka jcb nowa cena",
    "z_frazy": "koparko-ładowarka"
   },
   {
@@ -3005,11 +3017,11 @@
    "z_frazy": "koparko-ładowarka"
   },
   {
-   "fraza": "koparko-ładowarka nowa chińska",
+   "fraza": "koparko-ładowarka nowa cena",
    "z_frazy": "koparko-ładowarka nowa"
   },
   {
-   "fraza": "koparko-ładowarka nowa cena",
+   "fraza": "koparko-ładowarka nowa chińska",
    "z_frazy": "koparko-ładowarka nowa"
   },
   {
@@ -3077,19 +3089,15 @@
    "z_frazy": "jcb 3cx"
   },
   {
-   "fraza": "jcb 3cx waga",
-   "z_frazy": "jcb 3cx"
-  },
-  {
    "fraza": "jcb 3cx nowa cena",
    "z_frazy": "jcb 3cx"
   },
   {
-   "fraza": "jcb 3cx compact",
+   "fraza": "jcb 3cx waga",
    "z_frazy": "jcb 3cx"
   },
   {
-   "fraza": "jcb 3cx opis przycisków",
+   "fraza": "jcb 3cx compact",
    "z_frazy": "jcb 3cx"
   },
   {
@@ -3098,6 +3106,14 @@
   },
   {
    "fraza": "jcb 3cx super",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx opis przycisków",
+   "z_frazy": "jcb 3cx"
+  },
+  {
+   "fraza": "jcb 3cx pro",
    "z_frazy": "jcb 3cx"
   },
   {
@@ -3137,11 +3153,11 @@
    "z_frazy": ">>>>>>> Stashed changes"
   },
   {
-   "fraza": "stashed changes conflicted with hook auto-fixes... rolling back fixes",
+   "fraza": "stashed changes meaning",
    "z_frazy": ">>>>>>> Stashed changes"
   },
   {
-   "fraza": "stashed changes meaning",
+   "fraza": "stashed changes conflicted with hook auto-fixes... rolling back fixes",
    "z_frazy": ">>>>>>> Stashed changes"
   },
   {
@@ -3181,11 +3197,11 @@
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
-   "fraza": "olej do drewna na zewnątrz opinie",
+   "fraza": "olej do drewna na zewnątrz ranking",
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
-   "fraza": "olej do drewna na zewnątrz ranking",
+   "fraza": "olej do drewna na zewnątrz opinie",
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
@@ -3193,11 +3209,11 @@
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
-   "fraza": "olej do drewna na zewnątrz osmo",
+   "fraza": "olej do drewna na zewnątrz czarny",
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
-   "fraza": "olej do drewna na zewnątrz sadolin",
+   "fraza": "olej do drewna na zewnątrz mrówka",
    "z_frazy": "olej do drewna na zewnątrz"
   },
   {
@@ -3285,15 +3301,11 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka łańcuchowa wynajem",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka dla dzieci",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka kołowa",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka na pilota",
    "z_frazy": "koparka"
   },
   {
@@ -3301,11 +3313,15 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka kryptowalut",
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
+   "fraza": "koparka łańcuchowa wynajem",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka lego",
    "z_frazy": "koparka"
   },
   {
@@ -3313,11 +3329,11 @@
    "z_frazy": "cat 432"
   },
   {
-   "fraza": "cat 432d",
+   "fraza": "cat 432f",
    "z_frazy": "cat 432"
   },
   {
-   "fraza": "cat 432f",
+   "fraza": "cat 432d",
    "z_frazy": "cat 432"
   },
   {
@@ -3329,15 +3345,15 @@
    "z_frazy": "cat 432"
   },
   {
-   "fraza": "cat 432d opinie",
-   "z_frazy": "cat 432"
-  },
-  {
    "fraza": "cat 432e premier",
    "z_frazy": "cat 432"
   },
   {
    "fraza": "cat 432 cena",
+   "z_frazy": "cat 432"
+  },
+  {
+   "fraza": "cat 432d dane techniczne",
    "z_frazy": "cat 432"
   },
   {
@@ -3361,11 +3377,11 @@
    "z_frazy": "biurko drewniane"
   },
   {
-   "fraza": "biurko drewniane gamingowe",
+   "fraza": "biurko drewniane duze",
    "z_frazy": "biurko drewniane"
   },
   {
-   "fraza": "biurko drewniane duze",
+   "fraza": "biurko drewniane gamingowe",
    "z_frazy": "biurko drewniane"
   },
   {
@@ -3409,15 +3425,11 @@
    "z_frazy": "home office"
   },
   {
-   "fraza": "home office 2024",
-   "z_frazy": "home office"
-  },
-  {
    "fraza": "home office dla rodziców dzieci do lat 4",
    "z_frazy": "home office"
   },
   {
-   "fraza": "home office inspiration",
+   "fraza": "home office 2024",
    "z_frazy": "home office"
   },
   {
@@ -3425,7 +3437,11 @@
    "z_frazy": "home office"
   },
   {
-   "fraza": "home office setup",
+   "fraza": "home office dla rodziców dzieci do lat 8",
+   "z_frazy": "home office"
+  },
+  {
+   "fraza": "home office inspiration",
    "z_frazy": "home office"
   },
   {
@@ -3437,19 +3453,19 @@
    "z_frazy": "półka na biurko"
   },
   {
-   "fraza": "półka na biurko z szufladami",
-   "z_frazy": "półka na biurko"
-  },
-  {
    "fraza": "półka na biurko na książki",
    "z_frazy": "półka na biurko"
   },
   {
-   "fraza": "półka na biurko na monitor",
+   "fraza": "półka na biurko 120 cm",
    "z_frazy": "półka na biurko"
   },
   {
    "fraza": "półka na biurko na laptopa",
+   "z_frazy": "półka na biurko"
+  },
+  {
+   "fraza": "półka na biurko czarna",
    "z_frazy": "półka na biurko"
   },
   {
@@ -3505,6 +3521,10 @@
    "z_frazy": "prezent dla niego"
   },
   {
+   "fraza": "prezent dla niego na swieta",
+   "z_frazy": "prezent dla niego"
+  },
+  {
    "fraza": "prezent dla niego na rocznice",
    "z_frazy": "prezent dla niego"
   },
@@ -3513,7 +3533,7 @@
    "z_frazy": "prezent dla niego"
   },
   {
-   "fraza": "prezent dla niego na rocznicę ślubu",
+   "fraza": "prezent dla niego pod choinke",
    "z_frazy": "prezent dla niego"
   },
   {
@@ -3521,15 +3541,15 @@
    "z_frazy": "prezent dla niego"
   },
   {
-   "fraza": "prezent dla niego na dzien chlopaka",
-   "z_frazy": "prezent dla niego"
-  },
-  {
    "fraza": "prezent dla niego na 30 urodziny",
    "z_frazy": "prezent dla niego"
   },
   {
-   "fraza": "prezent dla niego na swieta",
+   "fraza": "prezent dla niego na dzien chlopaka",
+   "z_frazy": "prezent dla niego"
+  },
+  {
+   "fraza": "prezent dla niego na rocznicę ślubu",
    "z_frazy": "prezent dla niego"
   }
  ]

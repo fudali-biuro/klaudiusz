@@ -1,0 +1,182 @@
+{
+ "koparka": {
+  "s12": 26.9,
+  "s4": 29.2,
+  "p4": 27.5,
+  "szczyt": "2026-09-13"
+ },
+ "koparko ładowarka": {
+  "s12": 2.8,
+  "s4": 2.8,
+  "p4": 2.8,
+  "szczyt": "2025-11-30"
+ },
+ "maszyny budowlane": {
+  "s12": 1.8,
+  "s4": 1.8,
+  "p4": 1.8,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "ładowarka": {
+  "s12": 78.8,
+  "s4": 76.5,
+  "p4": 77.5,
+  "szczyt": "2025-11-30",
+  "wzgl_kot": true
+ },
+ "minikoparka": {
+  "s12": 75.4,
+  "s4": 63.2,
+  "p4": 78.2,
+  "szczyt": "2026-03-15",
+  "wzgl_kot": true
+ },
+ "ładowarka kołowa": {
+  "s12": 0.6,
+  "s4": 0.5,
+  "p4": 1.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "sprzęt budowlany": {
+  "s12": 0.2,
+  "s4": 0.0,
+  "p4": 0.2,
+  "szczyt": "2025-11-30",
+  "wzgl_kot": true
+ },
+ "koparka kołowa": {
+  "s12": 11.4,
+  "s4": 12.8,
+  "p4": 12.5,
+  "szczyt": "2026-03-15",
+  "wzgl_kot": true
+ },
+ "koparka gąsienicowa": {
+  "s12": 5.9,
+  "s4": 4.8,
+  "p4": 4.8,
+  "szczyt": "2026-03-15",
+  "wzgl_kot": true
+ },
+ "ładowarka teleskopowa": {
+  "s12": 31.8,
+  "s4": 34.0,
+  "p4": 32.8,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "ładowarka przegubowa": {
+  "s12": 5.0,
+  "s4": 7.0,
+  "p4": 3.5,
+  "szczyt": "2025-11-30",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka na sprzedaż": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka nowa": {
+  "s12": 0.0,
+  "s4": 0.2,
+  "p4": 0.0,
+  "szczyt": "2026-11-15",
+  "wzgl_kot": true
+ },
+ "nowa koparko ładowarka": {
+  "s12": 0.0,
+  "s4": 0.2,
+  "p4": 0.0,
+  "szczyt": "2026-11-15",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka od ręki": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "koparka na sprzedaż": {
+  "s12": 0.0,
+  "s4": 0.5,
+  "p4": 0.0,
+  "szczyt": "2026-11-15",
+  "wzgl_kot": true
+ },
+ "koparka nowa": {
+  "s12": 1.3,
+  "s4": 4.2,
+  "p4": 3.0,
+  "szczyt": "2025-11-30",
+  "wzgl_kot": true
+ },
+ "ładowarka na sprzedaż": {
+  "s12": 0.0,
+  "s4": 0.5,
+  "p4": 0.0,
+  "szczyt": "2026-11-08",
+  "wzgl_kot": true
+ },
+ "maszyny budowlane na sprzedaż": {
+  "s12": 0.3,
+  "s4": 4.0,
+  "p4": 0.0,
+  "szczyt": "2026-11-01",
+  "wzgl_kot": true
+ },
+ "maszyny budowlane nowe": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "sprzęt budowlany sprzedaż": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka dealer": {
+  "s12": 0.2,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2026-06-21",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka sklep": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka olx": {
+  "s12": 13.5,
+  "s4": 11.8,
+  "p4": 14.2,
+  "szczyt": "2026-03-15",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka otomoto": {
+  "s12": 0.0,
+  "s4": 0.5,
+  "p4": 0.0,
+  "szczyt": "2026-11-15",
+  "wzgl_kot": true
+ },
+ "koparko ładowarka allegro": {
+  "s12": 0.0,
+  "s4": 0.0,
+  "p4": 0.0,
+  "szczyt": "2025-11-23",
+  "wzgl_kot": true
+ }
+}
