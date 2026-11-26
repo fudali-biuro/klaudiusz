@@ -60,3 +60,8 @@ Pablo ── czat w biurze (biuro-fudali.vercel.app) ──► 📨 listonosz (z
 Wszystkie sesje zespołu działają na **medium**. Ustawienie domyślne jest w `.claude/settings.json` (`"effortLevel": "medium"`).
 Po utworzeniu sesji sprawdź `get_session` → `external_metadata.effort_level`; jeśli jest inny niż `medium`, zgłoś to w czacie Pablo
 jedną prośbą (sam nie przełączysz – robi się to jednym kliknięciem w sesji: wybór modelu → Effort → Medium).
+
+## ⚠️ Uwaga (26.11.2026): send_message nie zawsze budzi uśpioną sesję
+Zlecenie z 25.11 (priorytet „now”) Mietek, Bartek i Kuba odebrali dopiero na porannej zmianie 26.11. Pilne zlecenia na „dziś wieczór”:
+oprócz send_message odpal skrzynkę pracownika (`fire_trigger` z kluczem `skrzynka` z `zespol/sesje.json`) albo jednorazowe
+zadanie (`send_later`/`create_trigger` z `persistent_session_id`), żeby sesja na pewno ruszyła.
