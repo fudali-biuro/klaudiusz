@@ -95,6 +95,23 @@ for f, d in trk.items():
                     "zasieg_wzgl_kopladowarka=100": z if z is not None else "", "trend_4tyg": trend(s4, p4), "szczyt_roku": szczyt or "",
                     "trudnosc_szac": trud, "uzasadnienie_trudnosci": uz, "priorytet": prio(f, z, 3, intent),
                     "zrodlo": "rozszerzenie a–z + Trends 26.11"})
+SZUM = {"ładowarka": "dominuje ładowarka do telefonu/samochodu – wartość bez znaczenia dla maszyn",
+        "minikoparka": "inny segment (małe koparki, ogród/budowa) – nie nasza maszyna",
+        "ładowarka teleskopowa": "inny segment (Manitou/JCB Loadall) – nie nasza maszyna",
+        "ładowarka przegubowa": "inny segment", "koparka kołowa": "inny segment (koparki kołowe 8–20 t)",
+        "koparka gąsienicowa": "inny segment", "ładowarka kołowa": "ładowarka kołowa – inny segment (ale pokrewna)",
+        "koparka": "bardzo szeroka (zabawki, bitcoin, dzieci) – tylko tło sezonowe", "maszyny budowlane": "szeroka (dzieci, zabawki, firmy) – tło",
+        "sprzęt budowlany": "szeroka (wynajem/wypożyczalnie) – inna intencja", "ładowarka cena": "głównie ładowarka do telefonu – ignorować",
+        "koparka cena": "głównie „cena za godzinę” (usługi) – ignorować"}
+for r in wiersze:
+    k = r["fraza"]
+    if k in SZUM:
+        r["priorytet"] = "C" if k in ("ładowarka","minikoparka","ładowarka teleskopowa","ładowarka przegubowa","koparka kołowa","koparka gąsienicowa","ładowarka cena","koparka cena","sprzęt budowlany","ładowarka kołowa") else "B"
+        r["uzasadnienie_trudnosci"] = (r["uzasadnienie_trudnosci"] + " | UWAGA: " + SZUM[k]).strip(" |")
+    z = r["zasieg_wzgl_kopladowarka=100"]
+    # wiarygodność: Trends zaokrągla do całych liczb – niskie wartości = szum
+    r["wiarygodnosc_zasiegu"] = "" if z == "" else ("dobra" if float(z) >= 5 else ("słaba (≈0, Trends zaokrągla)" if float(z) >= 1 else "brak sygnału (<1)"))
+    if z != "" and float(z) < 1: r["trend_4tyg"] = "n/d"
 wiersze.sort(key=lambda r: ({"A": 0, "B": 1, "C": 2}[r["priorytet"]], -(r["zasieg_wzgl_kopladowarka=100"] or 0) if r["zasieg_wzgl_kopladowarka=100"] != "" else 0))
 pol = list(wiersze[0].keys())
 with open(ROOT/"slowa-kluczowe/maszyny.csv", "w", newline="", encoding="utf-8") as fh:
