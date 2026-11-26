@@ -176,6 +176,8 @@ TILES = [('Minikoparki', 'minikoparka-1', '/maszyny-budowlane/minikoparka/', 'No
 def tiles_html():
     h = '<section><div class="w"><span class="eyebrow">Cała oferta</span><h2>Maszyny budowlane na zamówienie – prosto z fabryki</h2><p class="lead">Poza koparko-ładowarkami zamawiamy dla klientów inne maszyny. Cenę i termin dostawy podajemy po zapytaniu.</p><div class="grid g3">'
     for t, k, u, d in TILES:
+        if not img(k):
+            continue
         h += f'<a class="tile" href="{u}"><div class="ph"><img src="{img(k)}" alt="{t}" loading="lazy"></div><div class="bd"><h3>{t}</h3><p>{d}</p><span class="more">Zobacz modele</span></div></a>'
     return h + '</div></div></section>'
 
@@ -246,17 +248,17 @@ def fuji_parts():
 # ---------------------------------------------------------------- Minikoparka
 def mini_parts():
     thumbs = ''.join(f'<img src="{img(k)}" alt="{a}" class="{"on" if i == 0 else ""}" data-s="{img(k)}" loading="lazy">' for i, (k, a) in enumerate([
-        ('minikoparka-1', 'Minikoparka z zamkniętą kabiną i gumowymi gąsienicami'), ('minikoparka-2', 'Minikoparka – ramię z przesuwem i szybkozłącze z łyżką'), ('minikoparka-3', 'Minikoparka – wnętrze kabiny, fotel i joysticki')]))
+        ('minikoparka-1', 'Minikoparka z zamkniętą kabiną i gumowymi gąsienicami'), ('minikoparka-2', 'Minikoparka – widok z boku, ramię i łyżka'), ('minikoparka-3', 'Minikoparka – widok z tyłu'), ('minikoparka-4', 'Minikoparka – widok z przodu, łyżka i lemiesz'), ('minikoparka-5', 'Minikoparka – wnętrze kabiny, fotel i joysticki')]))
     side = ('<aside class="side"><span class="tag in">Nowa · 2 sztuki · prosto z fabryki</span><h1>Minikoparka na sprzedaż</h1><div class="price">134 990 zł netto<small>z dostawą do klienta · ok. 166 038 zł brutto</small></div>'
             + SPEC([('Stan', 'Nowa'), ('Dostępność', '2 sztuki'), ('Kabina', 'zamknięta, z ogrzewaniem'), ('Podwozie', 'gumowe gąsienice'), ('Lemiesz', 'tak'), ('OEM', 'własny kolor i logo na zamówienie')])
             + f'{call}<a class="btn b2" href="#zapytanie">Zapytaj o ofertę</a></aside>')
-    pr = {'@context': 'https://schema.org', '@type': 'Product', 'name': 'Minikoparka nowa – prosto z fabryki', 'image': [img(k) for k in ('minikoparka-1', 'minikoparka-2', 'minikoparka-3')],
+    pr = {'@context': 'https://schema.org', '@type': 'Product', 'name': 'Minikoparka nowa – prosto z fabryki', 'image': [img(k) for k in ('minikoparka-1', 'minikoparka-2', 'minikoparka-4')],
           'description': 'Nowa minikoparka z zamkniętą kabiną, oświetleniem LED, lemieszem, gumowymi gąsienicami i szybkozłączem. Dostępne 2 sztuki. Możliwość wykonania OEM (własny kolor i logo).',
           'itemCondition': 'https://schema.org/NewCondition', 'category': 'Minikoparki',
           'offers': {'@type': 'Offer', 'url': BASE + '/maszyny-budowlane/minikoparka/', 'priceCurrency': 'PLN', 'price': '134990', 'availability': 'https://schema.org/InStock', 'itemCondition': 'https://schema.org/NewCondition', 'seller': {'@type': 'Organization', 'name': 'FUDALI'}, 'priceSpecification': {'@type': 'UnitPriceSpecification', 'price': '134990', 'priceCurrency': 'PLN', 'valueAddedTaxIncluded': False}}}
     p1 = wrap(ld(pr) + ld({'@context': 'https://schema.org', **ORG}) + ld(bc([('Strona główna', '/'), ('Maszyny budowlane', HUB), ('Minikoparka', '/maszyny-budowlane/minikoparka/')]))
               + crumb([('Maszyny budowlane', HUB), ('Minikoparka', '')])
-              + f'<section style="padding-top:20px"><div class="w det"><div class="gal"><div class="main"><img id="fmMain" src="{img("minikoparka-1")}" alt="Minikoparka z zamkniętą kabiną i gumowymi gąsienicami"></div><div class="thumbs t3">{thumbs}</div></div>{side}</div></section>'
+              + f'<section style="padding-top:20px"><div class="w det"><div class="gal"><div class="main"><img id="fmMain" src="{img("minikoparka-1")}" alt="Minikoparka z zamkniętą kabiną i gumowymi gąsienicami"></div><div class="thumbs t5">{thumbs}</div></div>{side}</div></section>'
               + inquiry('Zapytaj o minikoparkę'))
     p2 = wrap('<section class="alt"><div class="w two"><div><span class="eyebrow">Wyposażenie</span><h2>Co widać na zdjęciach</h2><div class="box"><ul><li>zamknięta kabina z ogrzewaniem i wycieraczką</li><li>oświetlenie robocze LED</li><li>lemiesz</li><li>gumowe gąsienice</li><li>szybkozłącze i linia hydrauliczna do osprzętu</li><li>wysięgnik z przesuwem (offset)</li><li>sterowanie joystickami</li></ul></div><p class="note">Pełne parametry (masa, silnik, głębokość kopania) podajemy na zapytanie – skontaktuj się z nami.</p></div>'
               '<div><span class="eyebrow">Zamówienie</span><h2>Prosto z fabryki, możliwość OEM</h2><div class="box"><ul><li>cena 134 990 zł netto – z dostawą do klienta</li><li>2 sztuki dostępne od ręki</li><li>możliwość wykonania w Twoim kolorze i z Twoim logo (OEM)</li><li>pomoc w formalnościach, leasing dla firm</li><li>serwis z dojazdem, pomoc w częściach</li></ul></div></div></div></section>'
@@ -412,6 +414,8 @@ def build_all():
              'miniladowarki': ('Miniładowarki na sprzedaż – WM308 i WM312', 'Miniładowarki WM308 i WM312: udźwig 850 i 1 200 kg, moc 36,7 i 55 kW. Zamówienie prosto z fabryki. FUDALI Rzeszów.'),
              'ciagniki-kolowe': ('Ciągniki kołowe na sprzedaż – 191–294 kW', 'Ciągniki kołowe S2604, F3004, F4004: moc 191–294 kW, siła uciągu do 106 kN. Zamówienie prosto z fabryki. FUDALI Rzeszów.')}
     for i, (s, parts) in enumerate(CATS.items()):
+        if s == 'miniladowarki' and not img('miniladowarki'):
+            continue
         t, mt = metas[s]
         PAGES[s] = dict(title=t, meta=mt, parts=parts, form_after=0, form_name=f'Zapytanie – {s}', subject=s, pfx=f'd{i + 1}')
     for i, (s, src) in enumerate(ART.items()):
