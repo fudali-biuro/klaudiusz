@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const p=await b.newPage({viewport:{width:1280,height:900}});
+await p.goto('https://www.fudali.com.pl/sklep/',{waitUntil:'networkidle'});
+const link='https://www.fudali.com.pl/produkt/stolik-boczny-platek-debowy/';
+await p.goto(link,{waitUntil:'networkidle'});
+await p.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=600){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,120));}window.scrollTo(0,0);});
+await p.screenshot({path:S+'prod-d.png',fullPage:true});
+console.log(await p.evaluate(()=>[...document.querySelectorAll('[data-elementor-type="product"] > *, .elementor-location-single > *')].map(e=>(e.dataset.id||'')+' '+e.className.slice(0,40)+' h='+Math.round(e.getBoundingClientRect().height)+' '+e.innerText.replace(/\s+/g,' ').slice(0,70)).join('\n')));
+await b.close();})();

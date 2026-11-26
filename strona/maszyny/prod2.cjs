@@ -1,0 +1,14 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:900}});
+await p.goto('https://www.fudali.com.pl/produkt/stolik-boczny-platek-debowy/',{waitUntil:'networkidle'});
+console.log(await p.evaluate(()=>{const q=s=>{const e=document.querySelector(s);return e?(e.tagName+'.'+e.className.slice(0,80)+' | '+e.outerHTML.replace(/\s+/g,' ').slice(0,260)):'none'};
+const o=[];
+o.push('META '+q('.product_meta'));o.push('STOCK '+q('.stock, .elementor-widget-woocommerce-product-stock'));
+o.push('GAL '+q('.woocommerce-product-gallery'));o.push('SHARE '+q('.elementor-widget-share-buttons'));
+o.push('OPIS H '+q('.elementor-element-3a76ce6 h2, .elementor-element-3a76ce6 .elementor-heading-title'));
+o.push('PROD H '+q('.elementor-element-fe1fe44 h2'));
+o.push('REL '+q('.elementor-element-5f5631ee .elementor-widget-woocommerce-products, .elementor-element-5f5631ee ul.products'));
+o.push('PRICE '+q('.elementor-widget-woocommerce-product-price'));
+o.push('TOPSECT '+q('.elementor-element-32930875 .elementor-widget:nth-child(n)'));
+return o.join('\n');}));
+await b.close();})();

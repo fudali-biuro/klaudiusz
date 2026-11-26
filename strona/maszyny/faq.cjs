@@ -1,0 +1,11 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const p=await b.newPage({viewport:{width:1280,height:900}});
+await p.goto('https://www.fudali.com.pl/o-firmie/',{waitUntil:'networkidle'});
+const el=await p.$('.elementor-element-a6000001');await el.screenshot({path:S+'faq-about.png'});
+console.log('ABOUT',await el.evaluate(e=>e.outerHTML.replace(/\s+/g,' ').replace(/data-[a-z_-]+="[^"]*"/g,'').slice(0,1500)));
+await p.goto('https://www.fudali.com.pl/',{waitUntil:'networkidle'});
+await p.evaluate(()=>document.querySelector('.elementor-element-2ffda05').scrollIntoView());await p.waitForTimeout(1200);
+const s=await p.$('.elementor-element-802c4aa');await s.screenshot({path:S+'faq-home.png'});
+console.log('HOME',await s.evaluate(e=>e.outerHTML.replace(/\s+/g,' ').replace(/data-[a-z_-]+="[^"]*"/g,'').slice(0,900)));
+await b.close();})();
