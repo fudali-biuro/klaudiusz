@@ -356,18 +356,21 @@ def md_article(path, fixes):
         cap = mm.group(1)
         lines = [l for l in mm.group(2).strip().splitlines() if l.strip()]
         rows = [[c.strip() for c in l.strip().strip('|').split('|')] for l in lines if not re.match(r'^\|?\s*-+', l)]
-        h = f'<div class="tw"><table class="mt"><caption>{cap}</caption><thead><tr>' + ''.join(f'<th>{c}</th>' for c in rows[0]) + '</tr></thead><tbody>'
+        def inl(c):
+            x = markdown.markdown(c).strip()
+            return re.sub(r'^<p>(.*)</p>$', r'\1', x, flags=re.S)
+        h = f'<div class="tw"><table class="mt"><caption>{cap}</caption><thead><tr>' + ''.join(f'<th>{inl(c)}</th>' for c in rows[0]) + '</tr></thead><tbody>'
         for r in rows[1:]:
-            h += '<tr>' + ''.join(f'<td>{c}</td>' if i else f'<th scope="row">{c}</th>' for i, c in enumerate(r)) + '</tr>'
+            h += '<tr>' + ''.join(f'<td>{inl(c)}</td>' if i else f'<th scope="row">{inl(c)}</th>' for i, c in enumerate(r)) + '</tr>'
         TB.append(h + '</tbody></table></div>')
         return '\n\n<!--T' + str(len(TB) - 1) + '-->\n\n'
     TB.clear()
     t = re.sub(r'<table><caption>(.*?)</caption>\n(.*?)</table>', conv_table, t, flags=re.S)
     html = markdown.markdown(t, extensions=['tables'])
-    for i, h in enumerate(TB):
-        html = html.replace(f'<!--T{i}-->', h)
     html = re.sub(r'<table>', '<div class="tw"><table class="mt">', html)
     html = html.replace('</table>', '</table></div>')
+    for i, h in enumerate(TB):
+        html = html.replace(f'<!--T{i}-->', h).replace(f'<p><!--T{i}--></p>', h)
     html = html.replace('<blockquote>', '<div class="box note-box">').replace('</blockquote>', '</div>')
     html = re.sub(r'<h1>(.*?)</h1>', r'<h1>\1</h1>', html)
     return meta, html
