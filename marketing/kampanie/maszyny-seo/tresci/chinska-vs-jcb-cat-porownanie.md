@@ -107,3 +107,9 @@ Zadzwoń: **791 589 997** (Rzeszów – sprzedaż i serwis) · biuro@fudali.com.
 **Linkowanie:** strona 1 → 388 (anchor „nowa koparko-ładowarka Shanmon Fuji 388”), → „Ile kosztuje nowa koparko-ładowarka” (anchor „ceny nowych koparko-ładowarek”), → chińska (poradnik). Strona 2 → porównanie (anchor „alternatywa dla JCB 3CX”), → leasing (anchor „leasing koparko-ładowarki”), → gwarancja i serwis (po utworzeniu). **Nie linkować do stron dealerów konkurencji.**
 **Alt:** `Koparko-ładowarka Shanmon Fuji 388 obok tabeli porównania z JCB 3CX` (nie sugerować, że to zdjęcie JCB).
 **Schema:** Article + BreadcrumbList; na stronie 1 tabela jako `<table>` z `<caption>` (bez Product – nie sprzedajemy JCB).
+
+### 🧭 Bartek – uzupełnienie po uwagach Kuby (26.11)
+- Fraza „alternatywa dla JCB” jest w Google pusta → **title strony 1: `JCB 3CX cena i alternatywa – porównanie | FUDALI` (49 zn.)**; H1 może zostać „Alternatywa dla JCB 3CX…”, ale ruch przyniesie „jcb 3cx cena”.
+- „Shanmon” = 0 w PL i mylone z „Shannon” → w treści i alt-tekstach używać „koparko-ładowarka Shanmon Fuji 388”, nigdy samej marki; zapis „Shannon” tylko w FAQ.
+- Miasta (np. „koparko-ładowarka Rzeszów”) to głównie usługi/kurs/praca – **nie robimy podstron miejskich**; Rzeszów tylko jako miejsce odbioru.
+- hreflang: dla pinu/strony EN dodać `hreflang="en"` + `hreflang="pl"` wzajemnie, dopiero gdy będzie osobny adres EN; do tego czasu bez.
