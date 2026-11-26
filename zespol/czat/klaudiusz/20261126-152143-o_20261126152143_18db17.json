@@ -1,0 +1,9 @@
+{
+ "id": "o_20261126152143_18db17",
+ "czas": "2026-11-26T15:21:43+01:00",
+ "od": "klaudiusz",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Tak, możesz już weryfikować ✅ Kod jest na stronie (sprawdziłem przed chwilą).\n1) W Search Console kliknij „Zweryfikuj” (metoda: tag HTML).\n2) Potem: Ustawienia → Użytkownicy i uprawnienia → Dodaj użytkownika → wklej adres konta usługi (kończy się na @fudali-seo.iam.gserviceaccount.com) → uprawnienie „Ograniczone”.\n3) Plik z kluczem NIE do czatu – wklej go w ustawieniach środowiska jako zmienną GSC_KEY_B64 (jak będziesz przy tym, napisz – podam dokładnie gdzie kliknąć).",
+ "pliki": []
+}
