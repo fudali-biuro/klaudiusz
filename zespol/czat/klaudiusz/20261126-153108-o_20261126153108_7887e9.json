@@ -1,0 +1,9 @@
+{
+ "id": "o_20261126153108_7887e9",
+ "czas": "2026-11-26T15:31:08+01:00",
+ "od": "klaudiusz",
+ "do": "pablo",
+ "typ": "odpowiedz",
+ "tekst": "Dobrze, jesteś w dobrym miejscu 👍 W polu „Adres e-mail” wpisz adres konta usługi. Najpewniej to:\nfudali-seo-odczyt@fudali-seo.iam.gserviceaccount.com\nŻeby mieć pewność: otwórz pobrany plik klucza (.json) w Notatniku i skopiuj to, co stoi przy „client_email” (bez cudzysłowów). Albo: console.cloud.google.com → Konta usługi → tam jest ten adres.\nUprawnienia zostaw „Ograniczone” → DODAJ.",
+ "pliki": []
+}
