@@ -1,0 +1,7 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const p=await b.newPage({viewport:{width:1440,height:900}});
+await p.goto('https://www.fudali.com.pl/sklep/',{waitUntil:'networkidle'});
+console.log(await p.evaluate(()=>{const li=[...document.querySelectorAll('li.product')].find(l=>l.querySelector('[class*=variable-item],[class*=swatch]'));if(!li)return'none';const o=[];let e=li.querySelector('[class*=variable-item],[class*=swatch]');for(let i=0;i<5&&e&&e!==li;i++){const cs=getComputedStyle(e),r=e.getBoundingClientRect();o.push(e.tagName+'.'+e.className.toString().slice(0,70)+' L'+Math.round(r.left)+' W'+Math.round(r.width)+' disp:'+cs.display+' jc:'+cs.justifyContent+' ml:'+cs.marginLeft);e=e.parentElement}const lr=li.getBoundingClientRect();o.push('LI L'+Math.round(lr.left)+' W'+Math.round(lr.width));return o.join('\n')}));
+const h=await p.evaluate(()=>{const g=s=>{const e=[...document.querySelectorAll(s)].find(x=>x.offsetParent);return e?Math.round(e.getBoundingClientRect().left)+'-'+Math.round(e.getBoundingClientRect().right):'?'};const hd=document.querySelector('.elementor-element-6db7bdac');return [...hd.querySelectorAll('.elementor-nav-menu>li>a,.ayoti-lang-item.is-active,.elementor-menu-cart__toggle_button')].filter(x=>x.offsetParent).map(x=>x.innerText.trim().slice(0,12)+':'+Math.round(x.getBoundingClientRect().left)+'-'+Math.round(x.getBoundingClientRect().right)).join(' | ')});console.log(h);
+await b.close();})();

@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const ctx=await b.newContext({viewport:{width:1440,height:900}});const p=await ctx.newPage();
+await p.goto('https://www.fudali.com.pl/?add-to-cart=2144&quantity=10',{waitUntil:'networkidle'});
+await p.goto('https://www.fudali.com.pl/sklep/',{waitUntil:'networkidle'});
+console.log(await p.evaluate(()=>{const hd=document.querySelector('.elementor-element-6db7bdac');const lg=hd.querySelector('.elementor-element-5b93a8ba img').getBoundingClientRect();return 'logoC '+Math.round(lg.left+lg.width/2)+' | '+[...hd.querySelectorAll('.elementor-nav-menu>li>a,.ayoti-lang-item.is-active,.elementor-menu-cart__toggle_button')].filter(x=>x.offsetParent).map(x=>x.innerText.trim().slice(0,10)+':'+Math.round(x.getBoundingClientRect().left)+'-'+Math.round(x.getBoundingClientRect().right)).join(' | ')}));
+await p.screenshot({path:S+'c-head.png',clip:{x:0,y:0,width:1440,height:110}});
+const li=await p.$('li.product:nth-child(2)');await li.scrollIntoViewIfNeeded();await li.screenshot({path:S+'c-card.png'});
+const m=await b.newPage({viewport:{width:390,height:844}});await m.goto('https://www.fudali.com.pl/',{waitUntil:'networkidle'});await m.screenshot({path:S+'c-mob.png'});
+await b.close();})();
