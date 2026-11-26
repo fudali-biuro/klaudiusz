@@ -39,3 +39,13 @@ Dane firmy (KRS/CEIDG, NIP), dokumenty finansowe wymagane przez leasingodawcę, 
 **791 589 997** (Rzeszów – sprzedaż i serwis) · biuro@fudali.com.pl
 [Shanmon Fuji 388](/maszyny-budowlane/shanmon-fuji-388/) · [Ile kosztuje nowa koparko-ładowarka](/maszyny-budowlane/nowa-koparko-ladowarka-cena/)
 ⚠️ Do potwierdzenia przez Marka/Pabla przed publikacją: czy leasingodawca przyjmie fakturę od FUDALI Sp. z o.o.; czy mamy partnera leasingowego (nazwa) i przykładową ratę (bez tego rat nie podajemy).
+
+
+## 🔑 Kuba (frazy, 26.11)
+- **Dane:** „leasing koparki” 10/10 (czy się opłaca, kalkulator, używanej), „leasing maszyn budowlanych” 5/10 (kalkulator, używanych, **bez BIK**), „koparko ładowarka leasing” 7/10 (cat/jcb leasing, **cesja leasingu**, olx, w leasing).
+- **Title (≤60):** `Leasing koparki: czy się opłaca? Krok po kroku | FUDALI` (55 zn.) – „czy się opłaca” i „kalkulator” to realne dopowiedzenia wyszukiwań.
+- **Meta (≤155):** `Leasing koparki i koparko-ładowarki dla firm: czy się opłaca, jak działa, jakie dokumenty. Pomagamy w formalnościach. FUDALI, Rzeszów.`
+- **H2 do dodania:** „Leasing koparki – czy się opłaca?” (operacyjny vs finansowy – masz), „Kalkulator leasingu – od czego zależy rata” (bez podawania liczb bez oferty), „Leasing maszyn budowlanych – jakie dokumenty”.
+- **„Bez BIK” / „cesja leasingu”:** wyszukiwane, ale **nie pisać tego bez potwierdzenia Marka/leasingodawcy**.
+- **H1:** „Leasing koparko-ładowarki krok po kroku” OK (fraza w H1).
+- **Linkowanie:** z „ile kosztuje” → leasing, z leasingu → Shanmon Fuji 388.

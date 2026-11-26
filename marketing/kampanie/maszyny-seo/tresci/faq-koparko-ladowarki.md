@@ -36,3 +36,10 @@ Oględziny i odbiór w Rzeszowie po umówieniu. Transport na zapytanie – wycen
 
 **Jak się skontaktować?**
 **791 589 997** (Rzeszów – sprzedaż i serwis) · **biuro@fudali.com.pl**
+
+
+## 🔑 Kuba (frazy, 26.11)
+- **Pytania, które ludzie faktycznie wpisują** (podpowiedzi Google) – dobre jako pytania FAQ/FAQPage: „koparko-ładowarka cena nowa”, „ile kosztuje koparko-ładowarka nowa”, „koparko-ładowarka czy opłaca się leasing”, „koparko-ładowarka ranking / jaka najlepsza” (słabe, 1–2), „jazda próbna” (puste), „części” (10/10), „koparko ładowarka egzamin / kurs / uprawnienia” (to inna grupa – kandydaci na osobny poradnik „Uprawnienia na koparko-ładowarkę”, ale NIE kupujący).
+- **Do wyrzucenia/zmienić:** pytania „gwarancja”, „dealer”, „sklep” – puste w Google; zostają dla obsługi klienta, ale nie jako cel SEO.
+- **Dodać pytania:** „Koparko-ładowarka cena netto czy brutto?”, „Czy koparko-ładowarkę można kupić w leasingu?”, „Czy chińska koparko-ładowarka ma serwis w Polsce?”, „Koparko-ładowarka od ręki – gdzie obejrzeć? (Rzeszów)”.
+- **Lokalnie:** „koparko-ładowarka Rzeszów” – podpowiedzi to głównie „usługi/wynajem” (nie zakup); frazę „Rzeszów” dawać w opisie/NAP/Google Business, nie jako główny nagłówek.

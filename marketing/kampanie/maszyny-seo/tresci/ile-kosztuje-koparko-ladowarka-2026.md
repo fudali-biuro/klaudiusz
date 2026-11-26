@@ -50,3 +50,14 @@ Zadzwoń: **791 589 997** (Rzeszów – sprzedaż i serwis) · napisz: **biuro@f
 Zobacz maszynę od ręki: [Koparko-ładowarka Shanmon Fuji 388](/maszyny-budowlane/shanmon-fuji-388/) · [Leasing koparko-ładowarki](/maszyny-budowlane/leasing-koparko-ladowarki/) · [Alternatywa dla JCB 3CX](/maszyny-budowlane/alternatywa-dla-jcb-3cx/)
 
 Źródła cen: Otomoto (6.11.2026), Sprzedajemy.pl, ogłoszenia firm – szczegóły i linki: `marketing/kampanie/koparka/ceny.md`, `konkurencja/maszyny/`.
+
+
+## 🔑 Kuba (frazy, 26.11 – dane: podpowiedzi Google PL; zasięg Trends w `slowa-kluczowe/maszyny.csv`)
+- **Fraza główna OK:** „koparko-ładowarka cena” i „koparko ładowarka cena nowa/nowa cena” mają pełne podpowiedzi (10/10); „nowa koparko-ładowarka” + marka (jcb, case, cat, volvo, komatsu, **hidromek, new holland, terex, waryński**) też. Ludzie wpisują **„… nowa cena”** – daj to dosłownie w H2.
+- **Title (≤60) – propozycja:** `Nowa koparko-ładowarka – ceny 2026 i co w cenie | FUDALI` (56 zn.). Zamiast „Ile kosztuje…” – fraza „nowa koparko-ładowarka cena” ma zasięg, „ile kosztuje koparko-ładowarka” prowadzi głównie do „na godzinę” (usługi).
+- **Meta (≤155):** `Nowa koparko-ładowarka: ceny 2026 od ok. 140 tys. zł netto, porównanie JCB, Case, Stroer i Shanmon. Co wchodzi w cenę i na co uważać. FUDALI Rzeszów.` (sprawdź długość po edycji).
+- **H2 do dodania** (frazy kupujących): „Nowa koparko-ładowarka – cena nowa: JCB, Case, CAT, Volvo, Komatsu” (tylko z cenami z ogłoszeń, każda z datą/źródłem) oraz „Koparko-ładowarka cena netto czy brutto?”.
+- **Luka do uzupełnienia (Mietek):** ludzie szukają „… hidromek / waryński / terex / new holland nowa cena” – dodać ceny tych marek z ogłoszeń, jeśli są (bez twierdzenia, że sprzedajemy).
+- **Sekcja „cena za godzinę”** – zostaje (dobre dla intencji; frazy „koparka cena za godzinę” są wyszukiwane, ale to wynajem – jasno odsyłamy).
+- **Linkowanie wewnętrzne:** anchor „nowa koparko-ładowarka” → strona Shanmon Fuji 388; „leasing koparki” → strona leasingu; „alternatywa dla JCB 3CX” → porównanie.
+- **FAQ-schema (3 pytania):** „Ile kosztuje nowa koparko-ładowarka?” · „Koparko-ładowarka cena netto czy brutto?” · „Czy do ceny dolicza się VAT/transport?” (odpowiedzi tylko z faktów ze strony).

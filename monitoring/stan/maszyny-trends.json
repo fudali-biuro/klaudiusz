@@ -16,720 +16,791 @@
   "s4": 1.8,
   "p4": 1.8,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 2.8,
+  "k4": 2.8,
+  "kp4": 2.8
  },
  "ładowarka": {
   "s12": 78.8,
-  "s4": 76.5,
+  "s4": 76.8,
   "p4": 77.5,
   "szczyt": "2025-11-30",
-  "wzgl_kot": true
+  "k12": 2.8,
+  "k4": 2.8,
+  "kp4": 2.8
  },
  "minikoparka": {
   "s12": 75.4,
   "s4": 63.2,
   "p4": 78.2,
   "szczyt": "2026-03-15",
-  "wzgl_kot": true
+  "k12": 37.5,
+  "k4": 35.0,
+  "kp4": 36.8
  },
  "ładowarka kołowa": {
   "s12": 0.6,
   "s4": 0.5,
   "p4": 1.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 2.8,
+  "k4": 2.8,
+  "kp4": 2.8
  },
  "sprzęt budowlany": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.2,
   "szczyt": "2025-11-30",
-  "wzgl_kot": true
+  "k12": 2.8,
+  "k4": 2.8,
+  "kp4": 2.8
  },
  "koparka kołowa": {
   "s12": 11.4,
   "s4": 12.8,
   "p4": 12.5,
   "szczyt": "2026-03-15",
-  "wzgl_kot": true
+  "k12": 37.5,
+  "k4": 35.0,
+  "kp4": 36.8
  },
  "koparka gąsienicowa": {
   "s12": 5.9,
   "s4": 4.8,
   "p4": 4.8,
   "szczyt": "2026-03-15",
-  "wzgl_kot": true
+  "k12": 37.5,
+  "k4": 35.0,
+  "kp4": 36.8
  },
  "ładowarka teleskopowa": {
   "s12": 31.8,
   "s4": 34.0,
   "p4": 32.8,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 37.5,
+  "k4": 35.0,
+  "kp4": 36.8
  },
  "ładowarka przegubowa": {
   "s12": 5.0,
-  "s4": 7.0,
+  "s4": 6.8,
   "p4": 3.5,
   "szczyt": "2025-11-30",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "koparko ładowarka na sprzedaż": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "koparko ładowarka nowa": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "nowa koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "koparko ładowarka od ręki": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "koparka na sprzedaż": {
   "s12": 0.0,
   "s4": 0.5,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "koparka nowa": {
   "s12": 1.3,
   "s4": 4.2,
   "p4": 3.0,
   "szczyt": "2025-11-30",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "ładowarka na sprzedaż": {
   "s12": 0.0,
   "s4": 0.5,
   "p4": 0.0,
   "szczyt": "2026-11-08",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.5,
+  "kp4": 66.8
  },
  "maszyny budowlane na sprzedaż": {
   "s12": 0.3,
   "s4": 4.0,
   "p4": 0.0,
   "szczyt": "2026-11-01",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "maszyny budowlane nowe": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "sprzęt budowlany sprzedaż": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka dealer": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-06-21",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka sklep": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka olx": {
   "s12": 13.5,
-  "s4": 11.8,
+  "s4": 12.0,
   "p4": 14.2,
   "szczyt": "2026-03-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka otomoto": {
-  "s12": 0.0,
-  "s4": 0.5,
+  "s12": 0.1,
+  "s4": 0.8,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka allegro": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka używana": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka cena": {
   "s12": 0.1,
   "s4": 1.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "ile kosztuje koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka cennik": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-08-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka leasing": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "leasing koparki": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "leasing maszyn budowlanych": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka rata": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka kredyt": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka netto": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "tania koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparka cena": {
   "s12": 17.6,
   "s4": 17.8,
   "p4": 18.8,
   "szczyt": "2026-03-01",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "ładowarka cena": {
   "s12": 29.2,
   "s4": 27.8,
   "p4": 31.8,
   "szczyt": "2026-05-17",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińska koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińska koparka": {
   "s12": 0.1,
   "s4": 1.0,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińskie maszyny budowlane": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińska ładowarka": {
   "s12": 0.1,
   "s4": 1.0,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka chińska opinie": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińska koparko ładowarka czy warto": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon koparko ładowarka": {
   "s12": 0.4,
   "s4": 0.0,
   "p4": 5.2,
   "szczyt": "2026-10-25",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon opinie": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon fuji": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon fuji 388": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-05-24",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "fuji 388": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "shanmon 377": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "shanmon 388": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "shanmon 388 ii": {
   "s12": 0.3,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-12-21",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "shanmon 388t": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 388h": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 398h": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 378h": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon wz30 25": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-05-17",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon wz30 25 koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 388 cena": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 388h cena": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 398h cena": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "shanmon 377 cena": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-03-01",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "jcb 3cx": {
   "s12": 51.3,
   "s4": 51.0,
   "p4": 53.5,
   "szczyt": "2026-01-25",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "jcb 3cx cena": {
   "s12": 0.0,
   "s4": 0.5,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "jcb 3cx alternatywa": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 3.2,
   "szczyt": "2026-10-11",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "alternatywa dla jcb": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "tańsza alternatywa jcb": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "cat 432": {
   "s12": 0.2,
   "s4": 2.0,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "cat 428": {
   "s12": 1.0,
   "s4": 6.0,
   "p4": 0.0,
   "szczyt": "2026-04-05",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka jcb": {
   "s12": 2.6,
   "s4": 5.0,
   "p4": 10.0,
   "szczyt": "2026-10-11",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka cat": {
   "s12": 0.1,
   "s4": 1.8,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka case": {
   "s12": 0.6,
   "s4": 2.0,
   "p4": 0.0,
   "szczyt": "2026-03-01",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka volvo": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka komatsu": {
   "s12": 0.5,
   "s4": 0.5,
   "p4": 0.0,
   "szczyt": "2026-03-08",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "chińska koparko ładowarka vs jcb": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "jcb czy chińska koparka": {
   "s12": 0.0,
-  "s4": 0.2,
+  "s4": 0.0,
   "p4": 0.0,
-  "szczyt": "2026-11-22",
-  "wzgl_kot": true
+  "szczyt": "2025-11-23",
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka ranking": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-06-14",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "najlepsza koparko ładowarka": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka serwis": {
   "s12": 0.2,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2026-05-03",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka gwarancja": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka części": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka osprzęt": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka łyżka": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "koparko ładowarka jazda próbna": {
   "s12": 0.0,
   "s4": 0.0,
   "p4": 0.0,
   "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 64.0,
+  "kp4": 66.8
  },
  "serwis maszyn budowlanych": {
   "s12": 0.7,
   "s4": 2.5,
   "p4": 0.0,
   "szczyt": "2025-12-07",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "części do koparek": {
   "s12": 0.3,
   "s4": 1.0,
   "p4": 0.0,
   "szczyt": "2026-06-07",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "koparko ładowarka rzeszów": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  },
  "koparka rzeszów": {
   "s12": 0.0,
   "s4": 0.2,
   "p4": 0.0,
   "szczyt": "2026-11-15",
-  "wzgl_kot": true
- },
- "maszyny budowlane rzeszów": {
-  "s12": 0.2,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-12-07",
-  "wzgl_kot": true
- },
- "koparko ładowarka podkarpacie": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka kraków": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka małopolska": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka warszawa": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka lublin": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka katowice": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka tarnów": {
-  "s12": 0.2,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2026-05-31",
-  "wzgl_kot": true
- },
- "koparko ładowarka przemyśl": {
-  "s12": 0.2,
-  "s4": 3.2,
-  "p4": 0.0,
-  "szczyt": "2026-11-08",
-  "wzgl_kot": true
- },
- "koparko ładowarka krosno": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka mielec": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka stalowa wola": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "koparko ładowarka sprzedaż polska": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "sprzęt budowlany podkarpacie": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
- },
- "wynajem koparko ładowarki rzeszów": {
-  "s12": 0.0,
-  "s4": 0.0,
-  "p4": 0.0,
-  "szczyt": "2025-11-23",
-  "wzgl_kot": true
+  "k12": 68.4,
+  "k4": 63.8,
+  "kp4": 66.8
  }
 }

@@ -60,3 +60,15 @@ Rocznik 2026, silnik Yuchai 74 kW, napęd 4x4, masa robocza ok. 8,2 t, ramię te
 Zadzwoń: **791 589 997** (Rzeszów – sprzedaż i serwis) · biuro@fudali.com.pl
 [Koparko-ładowarka Shanmon Fuji 388 – od ręki](/maszyny-budowlane/shanmon-fuji-388/) · [Ile kosztuje nowa koparko-ładowarka](/maszyny-budowlane/nowa-koparko-ladowarka-cena/) · [Leasing](/maszyny-budowlane/leasing-koparko-ladowarki/)
 Źródła: Otomoto (6.11.2026), ogłoszenia firm (25–26.11.2026); szczegóły: `marketing/kampanie/koparka/ceny.md`, `konkurencja/maszyny/`.
+
+
+## 🔑 Kuba (frazy, 26.11)
+- **Ważne rozróżnienie:** „alternatywa dla JCB / tańsza alternatywa” = **puste** w Google (nikt nie wpisuje) – nie dawać tego do title. Wpisywane są: **„jcb 3cx cena” (nowa, pro)**, „jcb 3cx” (10/10), „jcb 3cx czy 4cx”, „koparko-ładowarka jcb”, **„chińska koparko-ładowarka” (6 podpowiedzi) i „chińska koparko ładowarka cena”**. „Czy warto” i „opinie” = puste, ale „chińska koparka opinie” istnieje (minikoparki).
+- **Title 1 (≤60):** `JCB 3CX cena i alternatywa – porównanie | FUDALI` (48 zn.)
+- **Meta 1:** zostaje, dodaj na początku „JCB 3CX cena” (np. „JCB 3CX cena nowej i tańsze alternatywy: porównanie z ogłoszeń, parametry i lista kontrolna. Uczciwie, z datami.”).
+- **Title 2 (≤60):** `Chińska koparko-ładowarka: cena i czy warto | FUDALI` (52 zn.)
+- **Meta 2:** zostaje; dodaj „cena” w pierwszym zdaniu.
+- **Jedna czy dwie strony:** zasięg „chińska koparko-ładowarka” jest niski, więc na start **jedna mocna podstrona** (porównanie) lepiej niż dwie cienkie – drugą dopiero gdy będzie ruch.
+- **H2 z frazami:** „JCB 3CX cena nowa vs chińska koparko-ładowarka”, „JCB 3CX czy 4CX?” (osobna sekcja? tylko z danymi producenta), „Koparko-ładowarka Case / CAT / Volvo – ceny z ogłoszeń”.
+- **Uwaga prawna:** zostaje akapit, że FUDALI nie jest dealerem JCB/CAT/Case; nazwy marek tylko w porównaniach (brief).
+- **Hasztagi/post z tej treści:** `#jcb3cx #koparkoładowarka #chińskakoparka #maszynybudowlane #fudali`.
