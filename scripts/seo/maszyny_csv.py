@@ -18,15 +18,20 @@ wsp = (kot.get("s12", 0) / kop.get("s12", 1)) if kop.get("s12") else None  # ile
 wsp4 = (kot.get("s4", 0) / kop.get("s4", 1)) if kop.get("s4") else None
 
 def zas(f):
+    """Skala: 'koparko ładowarka' = 100 (kotwica; ten sam zakres co handel maszynami). Wartość = średnia 12 mies. frazy / średnia kotwicy w TEJ SAMEJ paczce."""
     k = norm(f)
     d = tr.get(k) or trk.get(k)
-    if k == "koparka": return 100.0, kop.get("s4"), kop.get("p4"), kop.get("szczyt"), "kalibracja"
-    if k == "koparko ładowarka": return round(100 * wsp, 1) if wsp else None, kot.get("s4"), kot.get("p4"), kot.get("szczyt"), "kalibracja"
+    if k == "koparko ładowarka": return 100.0, kot.get("s4"), kot.get("p4"), kot.get("szczyt"), "kotwica"
     if not d: return None, None, None, None, "brak"
-    if k in ("maszyny budowlane", "ładowarka", "minikoparka"):
-        return d["s12"], d["s4"], d["p4"], d["szczyt"], "kalibracja"
-    if wsp is None: return None, None, None, d.get("szczyt"), "brak kalibracji"
-    return round(d["s12"] * wsp, 1), d["s4"], d["p4"], d.get("szczyt"), "paczka"
+    if k in ("koparka", "maszyny budowlane", "ładowarka", "minikoparka"):
+        base12, base4, basep = kot.get("s12"), kot.get("s4"), kot.get("p4")
+        z = round(d["s12"] / base12 * 100, 1) if base12 else None
+        return z, d["s4"], d["p4"], d["szczyt"], "kalibracja"
+    k12 = d.get("k12")
+    if not k12: return None, None, None, d.get("szczyt"), "brak kotwicy"
+    z = round(d["s12"] / k12 * 100, 1)
+    # trend: zmiana frazy w ostatnich 4 tyg. względem poprzednich 4 (surowo)
+    return z, d["s4"], d["p4"], d.get("szczyt"), "paczka"
 
 def trend(s4, p4):
     if s4 is None or p4 is None: return ""
@@ -78,7 +83,7 @@ for g, lista in FRAZY.items():
         z, s4, p4, szczyt, tryb = zas(f)
         intent, trud, uz = ocena(f, g, n_pod)
         wiersze.append({"fraza": f, "grupa": g, "intencja": intent, "podpowiedzi_google_0_10": n_pod,
-                        "zasieg_wzgl_koparka=100": z if z is not None else "", "trend_4tyg": trend(s4, p4),
+                        "zasieg_wzgl_kopladowarka=100": z if z is not None else "", "trend_4tyg": trend(s4, p4),
                         "szczyt_roku": szczyt or "", "trudnosc_szac": trud, "uzasadnienie_trudnosci": uz,
                         "priorytet": prio(f, z, n_pod, intent), "zrodlo": "autocomplete+Trends 26.11" if z is not None else "autocomplete 26.11 (Trends: brak danych)"})
 # kandydaci long-tail z pomiaru
@@ -87,10 +92,10 @@ for f, d in trk.items():
     n_pod = len(auto["podpowiedzi"].get(f, [])) if f in auto["podpowiedzi"] else ""
     intent, trud, uz = ocena(f, "kandydat", n_pod or 0)
     wiersze.append({"fraza": f, "grupa": "kandydat long-tail", "intencja": intent, "podpowiedzi_google_0_10": n_pod,
-                    "zasieg_wzgl_koparka=100": z if z is not None else "", "trend_4tyg": trend(s4, p4), "szczyt_roku": szczyt or "",
+                    "zasieg_wzgl_kopladowarka=100": z if z is not None else "", "trend_4tyg": trend(s4, p4), "szczyt_roku": szczyt or "",
                     "trudnosc_szac": trud, "uzasadnienie_trudnosci": uz, "priorytet": prio(f, z, 3, intent),
                     "zrodlo": "rozszerzenie a–z + Trends 26.11"})
-wiersze.sort(key=lambda r: ({"A": 0, "B": 1, "C": 2}[r["priorytet"]], -(r["zasieg_wzgl_koparka=100"] or 0) if r["zasieg_wzgl_koparka=100"] != "" else 0))
+wiersze.sort(key=lambda r: ({"A": 0, "B": 1, "C": 2}[r["priorytet"]], -(r["zasieg_wzgl_kopladowarka=100"] or 0) if r["zasieg_wzgl_kopladowarka=100"] != "" else 0))
 pol = list(wiersze[0].keys())
 with open(ROOT/"slowa-kluczowe/maszyny.csv", "w", newline="", encoding="utf-8") as fh:
     w = csv.DictWriter(fh, fieldnames=pol); w.writeheader(); w.writerows(wiersze)
@@ -99,9 +104,9 @@ h = ROOT/"seo/pozycje/historia.csv"; h.parent.mkdir(parents=True, exist_ok=True)
 nowy = not h.exists()
 with open(h, "a", newline="", encoding="utf-8") as fh:
     w = csv.writer(fh)
-    if nowy: w.writerow(["data", "fraza", "pozycja_fudali", "url", "zasieg_wzgl_koparka=100", "trend_4tyg", "zrodlo", "uwagi"])
+    if nowy: w.writerow(["data", "fraza", "pozycja_fudali", "url", "zasieg_wzgl_kopladowarka=100", "trend_4tyg", "zrodlo", "uwagi"])
     dzis = datetime.date.today().isoformat()
     for r in wiersze:
         if r["priorytet"] == "A":
-            w.writerow([dzis, r["fraza"], "", "", r["zasieg_wzgl_koparka=100"], r["trend_4tyg"], "Kuba: Trends+autocomplete", "pozycja do uzupełnienia po podpięciu Google Search Console"])
+            w.writerow([dzis, r["fraza"], "", "", r["zasieg_wzgl_kopladowarka=100"], r["trend_4tyg"], "Kuba: Trends+autocomplete", "pozycja do uzupełnienia po podpięciu Google Search Console"])
 print("wierszy:", len(wiersze), "A:", sum(r["priorytet"] == "A" for r in wiersze))

@@ -21,7 +21,8 @@ for i in range(0,len(KAND),4):
     for f in fr:
         if f==kot: continue
         s=[float(x) for x in df[f].tolist()]
-        w[f]={"s12":sr(s),"s4":sr(s[-4:]),"p4":sr(s[-8:-4]),"szczyt":str(df[f].idxmax().date())}
+        sk=[float(x) for x in df[kot].tolist()]
+        w[f]={"s12":sr(s),"s4":sr(s[-4:]),"p4":sr(s[-8:-4]),"szczyt":str(df[f].idxmax().date()),"k12":sr(sk),"k4":sr(sk[-4:]),"kp4":sr(sk[-8:-4])}
     print("ok",fr,flush=True); time.sleep(15)
     (ROOT/"monitoring"/"stan"/"maszyny-trends-kand.json").write_text(json.dumps(w,ensure_ascii=False,indent=1),encoding="utf-8")
 print("KAND KONIEC",flush=True)

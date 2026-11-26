@@ -84,7 +84,9 @@ def etap2():
         for f in paczka_f:
             if f == kot: continue
             s = [float(x) for x in df[f].tolist()]
-            wyn[f] = {"s12": sr(s), "s4": sr(s[-4:]), "p4": sr(s[-8:-4]), "szczyt": str(df[f].idxmax().date()), "wzgl_kot": True}
+            sk = [float(x) for x in df[kot].tolist()]
+            wyn[f] = {"s12": sr(s), "s4": sr(s[-4:]), "p4": sr(s[-8:-4]), "szczyt": str(df[f].idxmax().date()),
+                      "k12": sr(sk), "k4": sr(sk[-4:]), "kp4": sr(sk[-8:-4])}
         print("ok", paczka_f, flush=True); time.sleep(15)
         (ROOT / "monitoring" / "stan" / "maszyny-trends.json").write_text(json.dumps(wyn, ensure_ascii=False, indent=1), encoding="utf-8")
     (ROOT / "monitoring" / "stan" / "maszyny-trends.json").write_text(json.dumps(wyn, ensure_ascii=False, indent=1), encoding="utf-8")
