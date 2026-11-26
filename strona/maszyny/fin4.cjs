@@ -1,0 +1,11 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const ctx=await b.newContext({viewport:{width:1680,height:900}});const p=await ctx.newPage();
+await p.goto('https://www.fudali.com.pl/?add-to-cart=2144&quantity=10',{waitUntil:'networkidle'});
+await p.goto('https://www.fudali.com.pl/sklep/',{waitUntil:'networkidle'});
+await p.screenshot({path:S+'f4-head.png',clip:{x:0,y:0,width:1680,height:130}});
+await p.evaluate(async()=>{for(let y=0;y<document.body.scrollHeight;y+=500){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,100));}});
+const ul=await p.$('ul.products');if(ul)await ul.screenshot({path:S+'f4-shop.png'});
+await p.setViewportSize({width:1440,height:900});await p.goto('https://www.fudali.com.pl/',{waitUntil:'networkidle'});
+await p.evaluate(()=>{const e=[...document.querySelectorAll('h2')].find(h=>/bestseller/i.test(h.textContent));e&&e.scrollIntoView()});await p.waitForTimeout(1000);await p.screenshot({path:S+'f4-home.png'});
+await b.close();})();
