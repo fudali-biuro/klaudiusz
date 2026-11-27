@@ -68,3 +68,11 @@ Kategorie: Architektura → **Altany i domki** (slug altany-i-domki), Drewno kon
 
 ## ✅ 27.11 popołudnie (Pablo: „za dużo kafelków, wróć do tego co było”, „sklep w mobilce nierówny”)
 Kafelki na głównej: znowu 6 (3+3): Akcesoria, Altany i domki, Drewutnie, Meble ogrodowe, Przydatne produkty, Tarcica i deski. FUDALI Home wyłączona z kafelków (exclude_ids 18,110 w loop-grid 30419b0) – zostaje jako kategoria w sklepie/menu. Sklep na telefonie: przyciski kategorii w siatce 2×2 o równej szerokości, produkty po 2 w rzędzie w marginesach 16 px, koszyk w nagłówku nie wychodzi za ekran. Chipy sklepu: „Altany i domki” (link altany-i-domki); stopka: „Altany i domki”, „Tarcica i deski”.
+
+## 🧑 DECYZJE PABLO 27.11 wieczór (obowiązują)
+- **FUDALI Home – NIE.** Nie dodawać do menu ani sklepu; kategorię 110 zostawić pustą i niewidoczną (usunąć, gdy będzie to możliwe bez zatwierdzania), produktów do niej NIE przypisywać. Pkt 3–4 z listy (przenoszenie produktów, FUDALI Home w menu) – nie robić.
+- Potwierdzone do zrobienia: odstępy zakładek na telefonie, przekierowania starych adresów kategorii, Realizacje >100 zdjęć, pasek „Dlaczego warto” do siatki, menu EN z kategoriami, pełna strona koszyka, „Przydatne produkty” w stopce, weekendowy audyt/poprawki/raport.
+- Realizacje: zakładka **Altany zostaje** jako portfolio starych prac (altanek i domków już nie ma w ofercie – nie używać tych nazw w sklepie).
+- Zdjęcie główne: **zostawić**, Pablo sam wybierze.
+- Nagłówek maszyn: **bez** czarno-żółtego. Messenger: **nie**. PDF-y maszyn: **nie** na razie. Miniładowarki – zdjęcie od Pablo później.
+- Kotek / Stolik (warianty, zdjęcia AI): **nie ruszać** – szkic w `strona/szkice/kotek-stolik.md`, wrócimy.
