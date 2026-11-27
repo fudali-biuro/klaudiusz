@@ -54,3 +54,13 @@ Galeria „Realizacje” przebudowana: 22 prawdziwe zdjęcia z Dysku FUDALI (bez
 
 ## ⏳ Realizacje – partia 2 (38 zdjęć) czeka na limit WPVibe
 Plan: `marketing/biblioteka-zdjec/dysk-fudali/partia2.json` (+ podgląd `partia2.jpg`). Po wgraniu: zakładki Altany, Pergole i wiaty (2356 + nowe), Domy drewniane, Mała architektura, Meble ogrodowe, Budowa i produkcja; ok. 60 zdjęć. Do tego: niższe kafelki na telefonie.
+
+## ✅ 27.11 – uwagi współpracowniczki (zasady w zespol/lekcje-pablo.md)
+Kategorie: Architektura → **Altany i domki** (slug altany-i-domki), Drewno konstrukcyjne → **Tarcica i deski** (tarcica-i-deski), nowa **FUDALI Home** (id 110, fudali-home, „Drewno w Twoim domu”). Kafelki 4 w rzędzie + ikona kanapy dla FUDALI Home. Znacznik „Bestseller” na kartach w sekcji bestsellerów. Zakładki Opis/Producent jako wyraźne „karty” (tło, ramka, hover). Sklep i kategorie: zdjęcie altany na wejściu (przyciemnione, biały napis). Mobilka: menu przed koszykiem. Leżak (184): przycisk „Akcesoria do leżaka: poduszki i sznurki →” pod Podobnymi produktami.
+## ⏳ Do wieczornej partii (limit WPVibe)
+- Lista kafelków na głównej ma limit 6 → zwiększyć do 12 (widget loop-grid 30419b0 na stronie 1019), żeby pokazała się Tarcica i deski.
+- Przypisać produkty: Stolik „Płatek” (2144) i Zestaw stołków (2149) → FUDALI Home (zamiast Architektury); Składany stolik kawowy (2145) → Meble ogrodowe + FUDALI Home; leżak (184) zostaje w Meblach ogrodowych; kot (2146), podkładka (2148) w Akcesoriach.
+- Menu Sklep: tytuły 2340 → „Altany i domki”, 2341 → „Tarcica i deski”, dodać FUDALI Home (term 110).
+- Chipy w sklepie (szablon 929): „Architektura” → „Altany i domki” (+ link), dodać FUDALI Home; stopka (988): „Architektura” → „Altany i domki”.
+- Mobilka: koszyk wychodzi 2 px poza ekran (zmniejszyć przycisk koszyka); duże odstępy między zwiniętymi zakładkami na produkcie (padding sekcji 3a76ce6/fe1fe44 na telefonie).
+- Przekierowania starych adresów kategorii (architektura-drewniana-i-dekoracje, drewno-konstrukcyjne-i-deski, akcesoria-domowe) – jeśli się da (Rank Math redirections nieaktywne → ew. snippet).

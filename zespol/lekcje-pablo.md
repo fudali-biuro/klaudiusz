@@ -105,3 +105,14 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 ## 26.11.2026 – archiwum ma być niewidoczne dla nikogo (Pablo)
 31. **Kody, klucze, hasła – nigdy w plikach ani w czacie.** Archiwum będzie prywatne. Do Buffera i na zewnątrz dajemy tylko linki ze schowka biura (Vercel Blob),
     nie z archiwum – procedura w `zespol/zadania/marketing-buffer-posty.md` („🔒 Linki do zdjęć”). Klucze tylko w zmiennych środowiska.
+
+## 27.11.2026 – zasady sklepu i kategorii (uwagi współpracowniczki przekazane przez Pablo: „wykonaj i zapamiętaj”)
+- **Kategorie mają mówić klientowi, co w nich jest.** Unikać ogólników („Architektura” – mała? duża? domy?). Obecnie: Altany i domki (architektura ogrodowa), Drewutnie, Meble ogrodowe, FUDALI Home, Akcesoria, Przydatne produkty, Tarcica i deski, + osobno Maszyny budowlane.
+- **„Drewno konstrukcyjne” = nie używać**, chyba że sprzedajemy prefabrykowane elementy konstrukcyjne – mamy tartak, więc „Tarcica i deski”.
+- **Ogród osobno, dom osobno.** Meble ogrodowe = ławki, kosze na śmieci, donice, leżaki ogrodowe. Meble i dodatki do domu = **FUDALI Home**. Produkt trafia tam, gdzie się go używa (może być w dwóch, jeśli pasuje do obu).
+- **Akcesoria = małe rzeczy**: otwieracze, podkładki pod kubki i telefony, drobiazgi. Hasło krótkie i na temat: „Drobiazgi z charakterem”.
+- **Części do produktu (sznurki, poduszki do leżaka) = akcesoria**, a przy produkcie głównym w „Podobnych produktach” dajemy odsyłacz do tych akcesoriów.
+- **Znacznik „Bestseller”** – mały, w lewym górnym rogu zdjęcia (działa psychologicznie).
+- **Rozwijane sekcje muszą wyglądać na rozwijane** – tło/ramka zakładki, linia, plus w kółku, podświetlenie po najechaniu; nie sam napis.
+- **Wejście do sklepu: najpierw zdjęcie (intro), potem produkty.**
+- **Mobilka: koszyk na samym końcu po prawej, menu przed nim.** Zawsze sprawdzać na 390 px, czy nic nie wychodzi poza ekran.
