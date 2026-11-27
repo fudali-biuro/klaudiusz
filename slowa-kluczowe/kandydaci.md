@@ -489,3 +489,5 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent dla niego pod choinke | prezent dla niego | 2026-11-26 |
 | prezent na mikołajki dla chłopaka do 50 zł | prezent na mikołajki | 2026-11-27 |
 | prezent na mikołajki dla męża | prezent na mikołajki | 2026-11-27 |
+| prezent pod choinkę dla 3 latka | prezent pod choinkę | 2026-11-27 |
+| prezent na mikołajki dla koleżanki z pracy | prezent na mikołajki | 2026-11-27 |
