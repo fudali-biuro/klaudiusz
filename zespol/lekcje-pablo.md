@@ -116,3 +116,8 @@ Ten plik zbiera wszystko, czego Pablo oczekuje. Każdy pracownik czyta go przed 
 - **Rozwijane sekcje muszą wyglądać na rozwijane** – tło/ramka zakładki, linia, plus w kółku, podświetlenie po najechaniu; nie sam napis.
 - **Wejście do sklepu: najpierw zdjęcie (intro), potem produkty.**
 - **Mobilka: koszyk na samym końcu po prawej, menu przed nim.** Zawsze sprawdzać na 390 px, czy nic nie wychodzi poza ekran.
+
+## 27.11.2026 – decyzje Pablo o stronie (przekazała sesja „FUDALI strona i sklep”)
+- **Na razie żadnych PDF-ów do pobrania na stronie.** Czyste katalogi FUDALI (linki w `marketing/kampanie/koparka/fakty-z-dokumentow.md`) są tylko do wysyłki klientom (Marek), nie na stronę.
+- **FUDALI Home – NIE** (nie robimy tej kategorii; wpis wyżej z 26.11 nieaktualny).
+- Nagłówek maszyn **bez czarno-żółtego**; **bez Messengera** na stronie; **altany tylko jako portfolio w Realizacjach** (nie w sklepie).
