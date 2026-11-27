@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1440,height:900}});
+const go=async u=>{for(let i=0;i<4;i++){const r=await p.goto(u,{waitUntil:'networkidle'}).catch(()=>null);if(r&&r.status()<500&&!(await p.content()).includes('upstream request failed'))return r.status();await p.waitForTimeout(4000);}};
+await go('https://www.fudali.com.pl/');await p.evaluate(async()=>{for(let y=0;y<9000;y+=500){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,80));}});
+console.log('tiles:',await p.evaluate(()=>[...document.querySelectorAll('.elementor-element-30419b0 .elementor-heading-title')].map(e=>e.innerText).filter(Boolean).join(' | ')));
+console.log('footer:',await p.evaluate(()=>[...document.querySelectorAll('.elementor-location-footer a')].map(a=>a.innerText.trim()).filter(t=>/Archi|Wyrob|Tarc|Altan|Drewno/.test(t)).join(' | ')));
+console.log('menu:',await p.evaluate(()=>[...document.querySelectorAll('.elementor-location-header .sub-menu a')].map(a=>a.innerText.trim()).slice(0,8).join(' | ')));
+await go('https://www.fudali.com.pl/sklep/');console.log('chips:',await p.evaluate(()=>[...document.querySelectorAll('.fudali-pill a')].map(a=>a.innerText.trim()+'→'+a.getAttribute('href')).join(' | ')));
+console.log('kat:',await go('https://www.fudali.com.pl/kategorie/wyroby-tartaczne/'),await p.title());
+await b.close();})();
