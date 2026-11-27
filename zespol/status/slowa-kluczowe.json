@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "pracuje",
- "zadanie": "Pomiar gotowy – piszę podsumowanie",
- "postep": null,
- "aktualizacja": "2026-11-27T05:22+01:00",
+ "stan": "gotowe",
+ "zadanie": "Pomiar 5:20 gotowy; GSC puste (za wcześnie)",
+ "postep": 100,
+ "aktualizacja": "2026-11-27T05:23+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-27T05:23+01:00",
+   "stan": "gotowe",
+   "tekst": "Pomiar 5:20 gotowy; GSC puste (za wcześnie)"
+  },
   {
    "czas": "2026-11-27T05:22+01:00",
    "stan": "pracuje",
@@ -201,11 +206,6 @@
    "czas": "2026-11-22T05:21+01:00",
    "stan": "pracuje",
    "tekst": "Pomiar 5:20"
-  },
-  {
-   "czas": "2026-11-21T12:22+01:00",
-   "stan": "gotowe",
-   "tekst": "Pomiar 12:20 + podsumowanie dnia gotowe"
   }
  ]
 }
