@@ -76,3 +76,6 @@ Kafelki na głównej: znowu 6 (3+3): Akcesoria, Altany i domki, Drewutnie, Meble
 - Zdjęcie główne: **zostawić**, Pablo sam wybierze.
 - Nagłówek maszyn: **bez** czarno-żółtego. Messenger: **nie**. PDF-y maszyn: **nie** na razie. Miniładowarki – zdjęcie od Pablo później.
 - Kotek / Stolik (warianty, zdjęcia AI): **nie ruszać** – szkic w `strona/szkice/kotek-stolik.md`, wrócimy.
+
+## ⏳ 27.11 18:24 – KOSZYK NA TELEFONIE (priorytet na noc)
+Przyczyna: `.wp-block-woocommerce-cart.alignwide` ma margines -80px → treść ucieka w lewo, nie da się przewinąć/kliknąć płatności. Naprawa: margin 0, width 100% (koszyk i zamówienie). Nagłówek „You may be interested in…” → „Może Cię zainteresować”, więcej proponowanych produktów (4) do dodania od razu do koszyka.
