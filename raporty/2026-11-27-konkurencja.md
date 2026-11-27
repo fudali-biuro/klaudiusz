@@ -23,6 +23,9 @@
 
 **Pomysły dla Oli (lekcje 22–24, szkice do akceptacji; bez grafik z ceną):** bez zmian – zdjęcie-inspiracja leżaka na zimowej werandzie (4:5 IG, 2:3 Pinterest, EN „cushion included”), galeria 2–3 zdjęć na FB z terminem wysyłki, zdjęcia z warsztatu.
 
+## 🔁 Sprawdzenie w południe (12:05) – Bogateco
+Potwierdzone **w tekście dosłownym** strony kategorii „Artykuły świąteczne”: *Termiczna skrzynia drewniana na balkon* ma przekreśloną cenę **450,00 → 379,00 zł** (−16%); w sklepie jest też filtr „Promocja”. To pojedyncza obniżka wyrobu niezwiązanego z choinkami, nie akcja Black Friday – strona główna nadal bez BF/kodów. „−15% na osłonie” z porannego streszczenia **nie potwierdziło się dosłownie** (osłonę traktuję jako bez promocji).
+
 ## Co się zmieniło
 - Bogateco: możliwe oznaczenie −15% przy osłonie wiklinowej (do potwierdzenia w południe). Reszta bez zmian.
 
