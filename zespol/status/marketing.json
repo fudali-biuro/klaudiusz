@@ -1,9 +1,9 @@
 {
  "id": "marketing",
- "stan": "gotowe",
- "zadanie": "Maszyny SEO: 5 treści końcowych (po pracowni) + 5 postów w bibliotece; czeka na odpowiedzi Pabla (README)",
- "postep": 100,
- "aktualizacja": "2026-11-26T05:42+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zmiana 27.11: decyzje, zdjęcia",
+ "postep": null,
+ "aktualizacja": "2026-11-27T05:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-27T05:36+01:00",
+   "stan": "pracuje",
+   "tekst": "Zmiana 27.11: decyzje, zdjęcia"
+  },
   {
    "czas": "2026-11-26T05:42+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-16T05:35+01:00",
    "stan": "pracuje",
    "tekst": "Poranna zmiana 16.11 (poniedziałek): plan tygodnia, czat, zdjęcia"
-  },
-  {
-   "czas": "2026-11-15T20:41+01:00",
-   "stan": "gotowe",
-   "tekst": "Lekcja 25 (lumor.ai) przyjęta, przekazana Zosi"
   }
  ]
 }
