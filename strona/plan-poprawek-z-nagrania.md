@@ -15,7 +15,19 @@
 - FAQ na głównej w stylu „O firmie” [45:20 częściowo]
 - Stopka: wyrównane nagłówki i linie [20:22]
 
-## ⏳ Do zrobienia BEZ czekania na Pablo (kolejna partia)
+## ✅ Zrobione 27.11 (partia bez decyzji Pablo)
+- Kategorie: „Architektura”, „Akcesoria”; „Drewno konstrukcyjne” zdjęte ze strony (kafelek, menu, stopka – kategoria zostaje w sklepie na przyszłość); „drewno opałowe/deski” usunięte z treści (FAQ, O firmie)
+- Produkt: Tagi i Marka ukryte, jedna Waga (produktu), mniejszy tytuł przy górze, zdjęcia główne 1:1; opis: bez „Obserwuj nas…”, bez powtórzonych „Szczegółów” i linii z parametrami, jednolite punktory „•” (JS w snippecie 2349 – treść produktów w bazie bez zmian)
+- Koszyk: tylko „Zobacz koszyk”, pole kuponu ukryte, polecane produkty mniejsze (4 w rzędzie)
+- Główna: bez „Wybierz interesującą kategorię…” i bez przycisków „Zobacz sklep” na zdjęciach
+- Ikony social (stopka, kontakt) mniejsze i jednokolorowe; ikony kontaktu mniejsze; logo w nagłówku większe (250 px)
+- FAQ (główna + O firmie) – 5 pytań sprzedażowych: co kupię, na wymiar, wysyłka i płatność, zwroty, drewno FSC
+- O firmie: historia od 1992 r. (tekst Pablo, lekko wygładzony: „wieloletnie” zamiast „kilkunastoletnie”), karty 01–03 zaktualizowane, sekcja „Znajdź rozwiązanie dla siebie” ukryta
+
+## ⏳ Zostało bez decyzji
+- Pasek „Dlaczego warto” – wyrównanie do siatki [44:02]
+
+## (archiwum listy z 27.11 rano)
 1. Nazwy kategorii jeszcze krócej: „Architektura”, „Akcesoria” [26:01]
 2. Tagi i Marka – ukryć całkiem (sprzeczność z wcześniejszym poleceniem, nagranie jest nowsze) [31:19]; „Waga produktu” – zostawić jedną wagę [33:11]
 3. Tytuł produktu mniejszy i wyżej, parametry od razu widoczne; jednolite proporcje głównego zdjęcia [30:58, 32:47, 40:16]
