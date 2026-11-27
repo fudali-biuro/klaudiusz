@@ -1,9 +1,9 @@
 {
  "id": "marketing",
  "stan": "gotowe",
- "zadanie": "Zmiana 27.11: bez nowych zdjęć, wiadomości i decyzji; biblioteka (w tym 5 postów maszyn) czeka na Pablo",
+ "zadanie": "Zmiana 12:35 (27.11): bez nowych wiadomości, zdjęć i decyzji",
  "postep": 100,
- "aktualizacja": "2026-11-27T05:36+01:00",
+ "aktualizacja": "2026-11-27T12:36+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-27T12:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 12:35 (27.11): bez nowych wiadomości, zdjęć i decyzji"
+  },
   {
    "czas": "2026-11-27T05:36+01:00",
    "stan": "gotowe",
@@ -272,11 +277,6 @@
    "czas": "2026-11-16T12:36+01:00",
    "stan": "pracuje",
    "tekst": "Zmiana 12:35 (16.11): czat i zdjęcia"
-  },
-  {
-   "czas": "2026-11-16T05:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Plan tygodnia 16.11 zapisany; zlecenie dla Zosi: 4 sceny stolika Płatek (trend: stolik kawowy)"
   }
  ]
 }
