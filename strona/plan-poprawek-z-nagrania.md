@@ -45,3 +45,6 @@
 - „O firmie”: prawdziwa historia (od kiedy, ile lat, kim są twórcy) i usunięcie sekcji sprzedażowej [45:37, 46:18]
 - FAQ: nowe pytania [23:31]; Messenger – link do kontaktu [46:50]
 - Strona maszyn: czarno-żółty nagłówek zamiast zielonego [49:30] – tak/nie?
+
+## ✅ 27.11 – Realizacje z Dysku
+Galeria „Realizacje” przebudowana: 22 prawdziwe zdjęcia z Dysku FUDALI (bez renderów, wizualizacji i powtórek), zakładki: Altany (9), Domy drewniane (5), Mała architektura (5), Meble ogrodowe (3); stała kolejność. Media WP 2352–2373, lista: `marketing/biblioteka-zdjec/dysk-fudali/README.md`. Cofnięcie: rewizja 2374.
