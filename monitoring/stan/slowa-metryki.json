@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-26T05:21+01:00",
+ "czas": "2026-11-27T05:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -373,9 +373,9 @@
    "podpowiedzi_google": [
     "prezent na mikołajki",
     "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki do 50 zł",
+    "prezent na mikołajki dla chłopaka do 50 zł",
+    "prezent na mikołajki dla męża",
     "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla dzieci 7 lat",
     "prezent na mikołajki dla chłopaka",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 6 lat",
@@ -391,6 +391,32 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka case",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka sprzedajemy",
+    "koparko ładowarka klasa 3"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 24
   },
   {
    "fraza": "koparka rzeszów",
@@ -600,32 +626,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla taty",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "prezent dla taty",
-    "prezent dla taty na urodziny",
-    "prezent dla taty na święta",
-    "prezent dla taty na 60 urodziny",
-    "prezent dla taty na 70 urodziny",
-    "prezent dla taty który wszystko ma",
-    "prezent dla taty który nic nie chce",
-    "prezent dla taty na 50 urodziny",
-    "prezent dla taty i syna na dzien chlopaka",
-    "prezent dla taty i syna"
-   ],
-   "pozycja_w_podpowiedziach": 3,
-   "popyt_0_1": 0.88,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 60,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "domek letniskowy",
    "grupa": "domki",
    "znaczenie_biznesowe": "srednie",
@@ -701,7 +701,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 58,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "stolik kawowy drewniany",
@@ -1016,6 +1016,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla taty",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "prezent dla taty",
+    "prezent dla taty na urodziny",
+    "prezent dla taty na święta",
+    "prezent dla taty na 60 urodziny",
+    "prezent dla taty na 70 urodziny",
+    "prezent dla taty który wszystko ma",
+    "prezent dla taty który nic nie chce",
+    "prezent dla taty na 50 urodziny",
+    "prezent dla taty i syna na dzien chlopaka",
+    "prezent dla taty i syna"
+   ],
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 57,
+   "zmiana_oceny": -3
+  },
+  {
    "fraza": "koparko ładowarka olx",
    "grupa": "koparka",
    "znaczenie_biznesowe": "srednie",
@@ -1088,6 +1114,32 @@
    "zmiana_oceny": 0
   },
   {
+   "fraza": "prezent dla mamy",
+   "grupa": "święta",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "prezent dla mamy",
+    "prezent dla mamy na urodziny",
+    "prezent dla mamy na święta",
+    "prezent dla mamy na 60 urodziny",
+    "prezent dla mamy która wszystko ma",
+    "prezent dla mamy po porodzie",
+    "prezent dla mamy na 70 urodziny",
+    "prezent dla mamy na imieniny",
+    "prezent dla mamy na 50 urodziny",
+    "prezent dla mamy na święta bożego narodzenia"
+   ],
+   "pozycja_w_podpowiedziach": 3,
+   "popyt_0_1": 0.88,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 53,
+   "zmiana_oceny": 3
+  },
+  {
    "fraza": "podkładki drewniane",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "niskie",
@@ -1142,32 +1194,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "prezent dla mamy",
-   "grupa": "święta",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "prezent dla mamy",
-    "prezent dla mamy na urodziny",
-    "prezent dla mamy na święta",
-    "prezent dla mamy na 60 urodziny",
-    "prezent dla mamy która wszystko ma",
-    "prezent dla mamy po porodzie",
-    "prezent dla mamy na 70 urodziny",
-    "prezent dla mamy na imieniny",
-    "prezent dla mamy na 50 urodziny",
-    "prezent dla mamy na święta bożego narodzenia"
-   ],
-   "pozycja_w_podpowiedziach": 4,
-   "popyt_0_1": 0.82,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 50,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "jak zabezpieczyć meble ogrodowe",
    "grupa": "wiedza i pielęgnacja",
    "znaczenie_biznesowe": "srednie",
@@ -1188,7 +1214,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 50,
-   "zmiana_oceny": 3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "prezent dla niego",
@@ -1206,15 +1232,15 @@
     "prezent dla niego na dzien chlopaka",
     "prezent dla niego na rocznicę ślubu"
    ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 0
+   "ocena": 50,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1348,32 +1374,6 @@
    "firmy": [],
    "ocena": 41,
    "zmiana_oceny": 0
-  },
-  {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka case",
-    "koparko ładowarka jcb 3cx",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka sprzedajemy"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 41,
-   "zmiana_oceny": -24
   },
   {
    "fraza": "koparko ładowarka nowa",
@@ -1563,7 +1563,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 34,
-   "zmiana_oceny": -21
+   "zmiana_oceny": 0
   },
   {
    "fraza": "<<<<<<< Updated upstream",
@@ -2649,15 +2649,15 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki do 50 zł",
+   "fraza": "prezent na mikołajki dla chłopaka do 50 zł",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla męża",
    "z_frazy": "prezent na mikołajki"
   },
   {
    "fraza": "prezent na mikołajki dla dzieci 8 lat",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla dzieci 7 lat",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2837,10 +2837,6 @@
    "z_frazy": "koparko ładowarka"
   },
   {
-   "fraza": "koparko ładowarka jcb 3cx",
-   "z_frazy": "koparko ładowarka"
-  },
-  {
    "fraza": "koparko ładowarka ostrówek",
    "z_frazy": "koparko ładowarka"
   },
@@ -2850,6 +2846,10 @@
   },
   {
    "fraza": "koparko ładowarka sprzedajemy",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
+   "fraza": "koparko ładowarka klasa 3",
    "z_frazy": "koparko ładowarka"
   },
   {

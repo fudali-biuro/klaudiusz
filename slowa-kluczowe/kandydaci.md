@@ -487,3 +487,5 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | półka na biurko 120 cm | półka na biurko | 2026-11-26 |
 | półka na biurko czarna | półka na biurko | 2026-11-26 |
 | prezent dla niego pod choinke | prezent dla niego | 2026-11-26 |
+| prezent na mikołajki dla chłopaka do 50 zł | prezent na mikołajki | 2026-11-27 |
+| prezent na mikołajki dla męża | prezent na mikołajki | 2026-11-27 |
