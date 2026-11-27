@@ -48,3 +48,9 @@
 
 ## ✅ 27.11 – Realizacje z Dysku
 Galeria „Realizacje” przebudowana: 22 prawdziwe zdjęcia z Dysku FUDALI (bez renderów, wizualizacji i powtórek), zakładki: Altany (9), Domy drewniane (5), Mała architektura (5), Meble ogrodowe (3); stała kolejność. Media WP 2352–2373, lista: `marketing/biblioteka-zdjec/dysk-fudali/README.md`. Cofnięcie: rewizja 2374.
+
+## ✅ 27.11 – kafelki kategorii
+6 kafelków (3+3): Akcesoria, Architektura, Drewno konstrukcyjne (wrócił, slug `drewno-konstrukcyjne`), Drewutnie, Meble ogrodowe, Przydatne produkty (dawna pusta kategoria 85 „Akcesoria domowe” → slug `przydatne-produkty`, opis „Praktyczne rzeczy z drewna”). Ikony SVG po lewej (kubek, altana, deski, drewutnia, leżak, klucz), tekst wyrównany do lewej, hover jasnozielony. Obie nowe kategorie są w menu Sklep (2341, 2377) – wystarczy dodać produkt z tą kategorią.
+
+## ⏳ Realizacje – partia 2 (38 zdjęć) czeka na limit WPVibe
+Plan: `marketing/biblioteka-zdjec/dysk-fudali/partia2.json` (+ podgląd `partia2.jpg`). Po wgraniu: zakładki Altany, Pergole i wiaty (2356 + nowe), Domy drewniane, Mała architektura, Meble ogrodowe, Budowa i produkcja; ok. 60 zdjęć. Do tego: niższe kafelki na telefonie.
