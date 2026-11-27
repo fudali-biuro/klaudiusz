@@ -19,3 +19,8 @@ instrukcja `dokumenty/instrukcja-koparko-ladowarki-PL.pdf`, katalog producenta `
 - Cena: **20 000 EUR** (⚠️ netto/brutto nie podano – na stronie „20 000 EUR netto” dopiero po potwierdzeniu; do tego czasu „20 000 EUR”), **2 szt.** dostępne na dziś (tak rozumiemy „x2”).
 - **Prosto z fabryki, możliwość OEM** (własny kolor/logo klienta na zamówienie).
 - Ze zdjęć (marketing/biblioteka-zdjec/produkty/minikoparka/): zamknięta kabina z ogrzewaniem/wycieraczką, oświetlenie robocze LED, lemiesz, gąsienice gumowe, szybkozłącze, linia hydrauliczna do osprzętu, wysięgnik z przesuwem (offset), sterowanie joystickami. **Model i parametry (masa, silnik, głębokość) – nieznane: „parametry na zapytanie”**, nic nie wymyślamy.
+
+## Katalogi PDF do pobrania (publiczne linki, 27.11.2026 – wersje FUDALI, skompresowane)
+- Broszura maszyn PL: https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Broszura-maszyny-budowlane-PL-rfwgeeyMd2ylZ3XRhM3rD3Mg8j1LB9.pdf
+- Katalog koparko-ładowarki PL: https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Katalog-koparko-ladowarki-PL-Ut6ICdFtzeGQrwkKKT8nCo4inUBnRw.pdf
+- Katalog EN: https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Katalog-koparko-ladowarki-EN-m2CbZfewvLqBAWNgaUhCm75bvsyWR1.pdf
