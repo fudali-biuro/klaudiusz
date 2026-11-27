@@ -79,3 +79,7 @@ Kafelki na głównej: znowu 6 (3+3): Akcesoria, Altany i domki, Drewutnie, Meble
 
 ## ⏳ 27.11 18:24 – KOSZYK NA TELEFONIE (priorytet na noc)
 Przyczyna: `.wp-block-woocommerce-cart.alignwide` ma margines -80px → treść ucieka w lewo, nie da się przewinąć/kliknąć płatności. Naprawa: margin 0, width 100% (koszyk i zamówienie). Nagłówek „You may be interested in…” → „Może Cię zainteresować”, więcej proponowanych produktów (4) do dodania od razu do koszyka.
+
+## 📎 Od Klaudiusza 27.11 22:09 (na później)
+- PDF-y maszyn (czyste wersje FUDALI) – **NIE dodawać, decyzja Pablo 27.11**. Linki na przyszłość: broszura PL https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Broszura-maszyny-budowlane-PL-rfwgeeyMd2ylZ3XRhM3rD3Mg8j1LB9.pdf · katalog koparko-ładowarki PL https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Katalog-koparko-ladowarki-PL-Ut6ICdFtzeGQrwkKKT8nCo4inUBnRw.pdf · EN https://rmf4jx5orkvickrj.public.blob.vercel-storage.com/czat/klaudiusz/2026-11-27/FUDALI-Katalog-koparko-ladowarki-EN-m2CbZfewvLqBAWNgaUhCm75bvsyWR1.pdf
+- Weekend: meta-opisy maszyn z JS (snippet 2336) → statyczne snippety elementor_head; warunki dopisać też do opcji `elementor_pro_theme_builder_conditions`.
