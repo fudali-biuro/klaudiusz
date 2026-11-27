@@ -64,3 +64,6 @@ Kategorie: Architektura → **Altany i domki** (slug altany-i-domki), Drewno kon
 - Chipy w sklepie (szablon 929): „Architektura” → „Altany i domki” (+ link), dodać FUDALI Home; stopka (988): „Architektura” → „Altany i domki”.
 - Mobilka: koszyk wychodzi 2 px poza ekran (zmniejszyć przycisk koszyka); duże odstępy między zwiniętymi zakładkami na produkcie (padding sekcji 3a76ce6/fe1fe44 na telefonie).
 - Przekierowania starych adresów kategorii (architektura-drewniana-i-dekoracje, drewno-konstrukcyjne-i-deski, akcesoria-domowe) – jeśli się da (Rank Math redirections nieaktywne → ew. snippet).
+
+## ✅ 27.11 popołudnie (Pablo: „za dużo kafelków, wróć do tego co było”, „sklep w mobilce nierówny”)
+Kafelki na głównej: znowu 6 (3+3): Akcesoria, Altany i domki, Drewutnie, Meble ogrodowe, Przydatne produkty, Tarcica i deski. FUDALI Home wyłączona z kafelków (exclude_ids 18,110 w loop-grid 30419b0) – zostaje jako kategoria w sklepie/menu. Sklep na telefonie: przyciski kategorii w siatce 2×2 o równej szerokości, produkty po 2 w rzędzie w marginesach 16 px, koszyk w nagłówku nie wychodzi za ekran. Chipy sklepu: „Altany i domki” (link altany-i-domki); stopka: „Altany i domki”, „Tarcica i deski”.

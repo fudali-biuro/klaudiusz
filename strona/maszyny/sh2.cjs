@@ -1,0 +1,10 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const S='/tmp/claude-0/-home-user-klaudiusz/873e6360-54fe-5154-8618-523763dc6826/scratchpad/';
+const go=async(p,u)=>{for(let i=0;i<4;i++){const r=await p.goto(u,{waitUntil:'networkidle'}).catch(()=>null);if(r&&r.status()<500&&!(await p.content()).includes('upstream request failed'))return;await p.waitForTimeout(4000);}};
+const m=await b.newPage({viewport:{width:390,height:844}});
+await go(m,'https://www.fudali.com.pl/kategorie/akcesoria-drewniane/');await m.evaluate(async()=>{for(let y=0;y<2500;y+=300){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,120));}window.scrollTo(0,0)});await m.waitForTimeout(500);
+await m.screenshot({path:S+'s2-m.png',fullPage:true});
+console.log('sw',await m.evaluate(()=>document.documentElement.scrollWidth),await m.evaluate(()=>{const c=document.querySelector('.elementor-location-header .elementor-element-b8bedeb .elementor-menu-cart__toggle_button')||document.querySelector('.elementor-location-header .elementor-element-b8bedeb a');const r=c.getBoundingClientRect();return 'cart '+Math.round(r.left)+'-'+Math.round(r.right)}));
+const d=await b.newPage({viewport:{width:1440,height:900}});await go(d,'https://www.fudali.com.pl/');await d.evaluate(async()=>{for(let y=0;y<2500;y+=300){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,150));}});
+const t=await d.$('.elementor-element-30419b0');await t.scrollIntoViewIfNeeded();await d.waitForTimeout(800);await t.screenshot({path:S+'s2-tiles.png'});
+await b.close();})();
