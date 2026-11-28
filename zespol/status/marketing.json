@@ -1,8 +1,8 @@
 {
  "id": "marketing",
- "stan": "pracuje",
- "zadanie": "Zmiana 28.11: decyzje, zdjęcia",
- "postep": null,
+ "stan": "gotowe",
+ "zadanie": "Zmiana 28.11: bez nowych zdjęć, wiadomości i decyzji; biblioteka czeka na Pablo",
+ "postep": 100,
  "aktualizacja": "2026-11-28T05:36+01:00",
  "makieta": false,
  "prosby": [
@@ -78,6 +78,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-28T05:36+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 28.11: bez nowych zdjęć, wiadomości i decyzji; biblioteka czeka na Pablo"
+  },
   {
    "czas": "2026-11-28T05:36+01:00",
    "stan": "pracuje",
@@ -272,11 +277,6 @@
    "czas": "2026-11-17T05:35+01:00",
    "stan": "pracuje",
    "tekst": "Poranna zmiana 17.11: czat, decyzje, zdjęcia"
-  },
-  {
-   "czas": "2026-11-16T12:36+01:00",
-   "stan": "gotowe",
-   "tekst": "Zmiana 16.11 w południe: bez nowych wiadomości i zdjęć od Pablo"
   }
  ]
 }
