@@ -1,12 +1,17 @@
 {
  "id": "konkurencja",
- "stan": "gotowe",
- "zadanie": "12:05 – bez danych IG (Apify do 3.12); Bogateco bez akcji BF, tylko skrzynia 450→379 zł",
- "postep": 100,
- "aktualizacja": "2026-11-27T12:06+01:00",
+ "stan": "pracuje",
+ "zadanie": "Zmiana 5:05 – raport konkurencji 28.11",
+ "postep": null,
+ "aktualizacja": "2026-11-28T05:06+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-28T05:06+01:00",
+   "stan": "pracuje",
+   "tekst": "Zmiana 5:05 – raport konkurencji 28.11"
+  },
   {
    "czas": "2026-11-27T12:06+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-15T12:06+01:00",
    "stan": "gotowe",
    "tekst": "12:05 – bez nowych danych IG (Apify wstrzymany do 3.12)"
-  },
-  {
-   "czas": "2026-11-15T05:06+01:00",
-   "stan": "gotowe",
-   "tekst": "Raport konkurencji 15.11 gotowy (bez IG – Apify wstrzymany)"
   }
  ]
 }
