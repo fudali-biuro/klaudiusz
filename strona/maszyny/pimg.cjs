@@ -1,0 +1,5 @@
+const {chromium}=require('playwright');
+(async()=>{const b=await chromium.launch();const c=await b.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});const p=await c.newPage();
+await p.goto('https://www.fudali.com.pl/produkt/stolik-boczny-platek-debowy/',{waitUntil:'networkidle'});await p.waitForTimeout(4000);
+console.log(await p.evaluate(()=>{const im=document.querySelector('.woocommerce-product-gallery__image img');const r=im.getBoundingClientRect();const v=document.querySelector('.flex-viewport');const cs=getComputedStyle(im);let e=im,o=[];for(let i=0;i<6&&e;i++){const s=getComputedStyle(e);o.push(e.tagName+'.'+e.className.toString().slice(0,40)+' op'+s.opacity+' vis'+s.visibility+' h'+Math.round(e.getBoundingClientRect().height)+' w'+Math.round(e.getBoundingClientRect().width)+' tr:'+s.transform.slice(0,30));e=e.parentElement}return 'nat'+im.naturalWidth+' src:'+im.currentSrc.slice(-50)+'\n'+o.join('\n')}));
+await p.screenshot({path:'/tmp/aud/pimg.png'});await b.close();})();
