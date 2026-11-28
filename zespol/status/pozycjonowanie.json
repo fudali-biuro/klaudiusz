@@ -1,9 +1,9 @@
 {
  "id": "pozycjonowanie",
  "stan": "gotowe",
- "zadanie": "Zmiana 12:15: brak nowych tekstów do korekty; następne trendy w poniedziałek 30.11",
+ "zadanie": "Zmiana 5:15 (sob): brak nowych tekstów do korekty; trendy w poniedziałek 30.11",
  "postep": 100,
- "aktualizacja": "2026-11-27T12:15+01:00",
+ "aktualizacja": "2026-11-28T05:15+01:00",
  "makieta": false,
  "prosby": [
   {
@@ -18,6 +18,11 @@
   }
  ],
  "dziennik": [
+  {
+   "czas": "2026-11-28T05:15+01:00",
+   "stan": "gotowe",
+   "tekst": "Zmiana 5:15 (sob): brak nowych tekstów do korekty; trendy w poniedziałek 30.11"
+  },
   {
    "czas": "2026-11-27T12:15+01:00",
    "stan": "gotowe",
@@ -212,11 +217,6 @@
    "czas": "2026-11-05T15:55+01:00",
    "stan": "pracuje",
    "tekst": "Frazy świąteczne PL/EN"
-  },
-  {
-   "czas": "2026-11-04T15:16+01:00",
-   "stan": "wolne",
-   "tekst": "Gotowy do pracy – czekam na zadania"
   }
  ]
 }
