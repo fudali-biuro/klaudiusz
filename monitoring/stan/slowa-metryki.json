@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-27T12:21+01:00",
+ "czas": "2026-11-28T05:20+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -348,13 +348,13 @@
     "prezent pod choinkę",
     "prezent pod choinkę dla mężczyzny",
     "prezent pod choinkę dla kobiety",
-    "prezent pod choinkę dla 3 latka",
     "prezent pod choinkę dla mamy",
     "prezent pod choinkę dla 10 latki",
     "prezent pod choinkę dla męża",
     "prezent pod choinkę dla 9 latki",
     "prezent pod choinkę dla 8 latki",
-    "prezent pod choinkę dla 2 latka"
+    "prezent pod choinkę dla 2 latka",
+    "prezent pod choinkę dla 5 latki"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -374,13 +374,13 @@
     "prezent na mikołajki",
     "prezent na mikołajki dla koleżanki z pracy",
     "prezent na mikołajki dla dzieci",
-    "prezent na mikołajki dla chłopaka do 50 zł",
     "prezent na mikołajki dla dzieci 8 lat",
-    "prezent na mikołajki dla męża",
     "prezent na mikołajki dla chłopaka",
     "prezent na mikołajki do przedszkola",
     "prezent na mikołajki dla dzieci 6 lat",
-    "prezent na mikołajki dla dzieci 5 lat"
+    "prezent na mikołajki dla dzieci 5 lat",
+    "prezent na mikołajki dla dzieci 9 lat",
+    "prezent na mikołajki dla dziewczyny"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -391,6 +391,32 @@
    "firmy": [],
    "ocena": 65,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "koparko ładowarka",
+   "grupa": "koparka",
+   "znaczenie_biznesowe": "wysokie",
+   "podpowiedzi_google": [
+    "koparko ładowarka",
+    "koparko ładowarka olx",
+    "koparko ładowarka jcb",
+    "koparko ładowarka cat",
+    "koparko ładowarka otomoto",
+    "koparko ładowarka case",
+    "koparko ładowarka jcb 3cx",
+    "koparko ładowarka ostrówek",
+    "koparko ładowarka new holland",
+    "koparko ładowarka sprzedajemy"
+   ],
+   "pozycja_w_podpowiedziach": 1,
+   "popyt_0_1": 1.0,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 65,
+   "zmiana_oceny": 24
   },
   {
    "fraza": "koparka rzeszów",
@@ -1145,7 +1171,6 @@
    "znaczenie_biznesowe": "niskie",
    "podpowiedzi_google": [
     "sauna ogrodowa",
-    "sauna ogrodowa z piecem na drewno",
     "sauna ogrodowa olx",
     "sauna ogrodowa na drewno",
     "sauna ogrodowa cena",
@@ -1153,7 +1178,8 @@
     "sauna ogrodowa do samodzielnego montażu",
     "sauna ogrodowa z przedsionkiem",
     "sauna ogrodowa beczka",
-    "sauna ogrodowa 2 osobowa"
+    "sauna ogrodowa 2 osobowa",
+    "sauna ogrodowa opalana drewnem"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1214,7 +1240,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 47,
-   "zmiana_oceny": -3
+   "zmiana_oceny": 0
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1350,32 +1376,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "koparko ładowarka",
-   "grupa": "koparka",
-   "znaczenie_biznesowe": "wysokie",
-   "podpowiedzi_google": [
-    "koparko ładowarka",
-    "koparko ładowarka olx",
-    "koparko ładowarka jcb",
-    "koparko ładowarka cat",
-    "koparko ładowarka otomoto",
-    "koparko ładowarka case",
-    "koparko ładowarka ostrówek",
-    "koparko ładowarka new holland",
-    "koparko ładowarka sprzedajemy",
-    "koparko ładowarka klasa 3"
-   ],
-   "pozycja_w_podpowiedziach": null,
-   "popyt_0_1": 0.46,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 41,
-   "zmiana_oceny": -24
-  },
-  {
    "fraza": "koparko ładowarka nowa",
    "grupa": "koparka",
    "znaczenie_biznesowe": "wysokie",
@@ -1462,10 +1462,10 @@
     "koparka dolores",
     "koparka łańcuchowa",
     "koparka zabawka",
+    "koparka zdalnie sterowana",
     "koparka kołowa",
     "koparka na pilota",
     "koparka po angielsku",
-    "koparka zdalnie sterowana",
     "koparka łańcuchowa wynajem",
     "koparka lego"
    ],
@@ -2469,10 +2469,6 @@
    "z_frazy": "stolarz rzeszów"
   },
   {
-   "fraza": "sauna ogrodowa z piecem na drewno",
-   "z_frazy": "sauna ogrodowa"
-  },
-  {
    "fraza": "sauna ogrodowa na drewno",
    "z_frazy": "sauna ogrodowa"
   },
@@ -2498,6 +2494,10 @@
   },
   {
    "fraza": "sauna ogrodowa 2 osobowa",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
+   "fraza": "sauna ogrodowa opalana drewnem",
    "z_frazy": "sauna ogrodowa"
   },
   {
@@ -2573,10 +2573,6 @@
    "z_frazy": "prezent pod choinkę"
   },
   {
-   "fraza": "prezent pod choinkę dla 3 latka",
-   "z_frazy": "prezent pod choinkę"
-  },
-  {
    "fraza": "prezent pod choinkę dla mamy",
    "z_frazy": "prezent pod choinkę"
   },
@@ -2598,6 +2594,10 @@
   },
   {
    "fraza": "prezent pod choinkę dla 2 latka",
+   "z_frazy": "prezent pod choinkę"
+  },
+  {
+   "fraza": "prezent pod choinkę dla 5 latki",
    "z_frazy": "prezent pod choinkę"
   },
   {
@@ -2653,15 +2653,7 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "prezent na mikołajki dla chłopaka do 50 zł",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
    "fraza": "prezent na mikołajki dla dzieci 8 lat",
-   "z_frazy": "prezent na mikołajki"
-  },
-  {
-   "fraza": "prezent na mikołajki dla męża",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2678,6 +2670,14 @@
   },
   {
    "fraza": "prezent na mikołajki dla dzieci 5 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dzieci 9 lat",
+   "z_frazy": "prezent na mikołajki"
+  },
+  {
+   "fraza": "prezent na mikołajki dla dziewczyny",
    "z_frazy": "prezent na mikołajki"
   },
   {
@@ -2837,6 +2837,10 @@
    "z_frazy": "koparko ładowarka"
   },
   {
+   "fraza": "koparko ładowarka jcb 3cx",
+   "z_frazy": "koparko ładowarka"
+  },
+  {
    "fraza": "koparko ładowarka ostrówek",
    "z_frazy": "koparko ładowarka"
   },
@@ -2846,10 +2850,6 @@
   },
   {
    "fraza": "koparko ładowarka sprzedajemy",
-   "z_frazy": "koparko ładowarka"
-  },
-  {
-   "fraza": "koparko ładowarka klasa 3",
    "z_frazy": "koparko ładowarka"
   },
   {
@@ -3301,6 +3301,10 @@
    "z_frazy": "koparka"
   },
   {
+   "fraza": "koparka zdalnie sterowana",
+   "z_frazy": "koparka"
+  },
+  {
    "fraza": "koparka kołowa",
    "z_frazy": "koparka"
   },
@@ -3310,10 +3314,6 @@
   },
   {
    "fraza": "koparka po angielsku",
-   "z_frazy": "koparka"
-  },
-  {
-   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {

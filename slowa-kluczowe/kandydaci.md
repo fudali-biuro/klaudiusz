@@ -491,3 +491,4 @@ Wykryte automatycznie (podpowiedzi Google). Dodaj wartościowe do `slowa-kluczow
 | prezent na mikołajki dla męża | prezent na mikołajki | 2026-11-27 |
 | prezent pod choinkę dla 3 latka | prezent pod choinkę | 2026-11-27 |
 | prezent na mikołajki dla koleżanki z pracy | prezent na mikołajki | 2026-11-27 |
+| sauna ogrodowa opalana drewnem | sauna ogrodowa | 2026-11-28 |
