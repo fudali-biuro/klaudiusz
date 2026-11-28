@@ -1,12 +1,17 @@
 {
  "id": "slowa-kluczowe",
- "stan": "gotowe",
- "zadanie": "Pomiar 12:20 + pierwsze dane GSC + podsumowanie dnia",
- "postep": 100,
- "aktualizacja": "2026-11-27T12:22+01:00",
+ "stan": "pracuje",
+ "zadanie": "Pomiar 5:20",
+ "postep": null,
+ "aktualizacja": "2026-11-28T05:20+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-28T05:20+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar 5:20"
+  },
   {
    "czas": "2026-11-27T12:22+01:00",
    "stan": "gotowe",
@@ -201,11 +206,6 @@
    "czas": "2026-11-22T12:20+01:00",
    "stan": "pracuje",
    "tekst": "Mierzę ważność fraz (Google + konkurencja)"
-  },
-  {
-   "czas": "2026-11-22T12:20+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar 12:20 + podsumowanie dnia"
   }
  ]
 }
