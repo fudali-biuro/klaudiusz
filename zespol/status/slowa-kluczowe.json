@@ -1,12 +1,22 @@
 {
  "id": "slowa-kluczowe",
  "stan": "pracuje",
- "zadanie": "Pomiar 12:20 + podsumowanie dnia",
+ "zadanie": "Pomiar gotowy – piszę podsumowanie",
  "postep": null,
- "aktualizacja": "2026-11-28T12:21+01:00",
+ "aktualizacja": "2026-11-28T12:23+01:00",
  "makieta": false,
  "prosby": [],
  "dziennik": [
+  {
+   "czas": "2026-11-28T12:23+01:00",
+   "stan": "pracuje",
+   "tekst": "Pomiar gotowy – piszę podsumowanie"
+  },
+  {
+   "czas": "2026-11-28T12:21+01:00",
+   "stan": "pracuje",
+   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
+  },
   {
    "czas": "2026-11-28T12:21+01:00",
    "stan": "pracuje",
@@ -196,16 +206,6 @@
    "czas": "2026-11-23T05:24+01:00",
    "stan": "gotowe",
    "tekst": "Pomiar 5:20 + tygodniowy zasięg gotowe"
-  },
-  {
-   "czas": "2026-11-23T05:21+01:00",
-   "stan": "pracuje",
-   "tekst": "Pomiar gotowy – piszę podsumowanie"
-  },
-  {
-   "czas": "2026-11-23T05:20+01:00",
-   "stan": "pracuje",
-   "tekst": "Mierzę ważność fraz (Google + konkurencja)"
   }
  ]
 }

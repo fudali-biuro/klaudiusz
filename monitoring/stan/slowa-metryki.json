@@ -1,5 +1,5 @@
 {
- "czas": "2026-11-28T05:20+01:00",
+ "czas": "2026-11-28T12:21+01:00",
  "postow_w_bazie": 14,
  "frazy": [
   {
@@ -416,7 +416,7 @@
    "srednie_zaangazowanie": 0,
    "firmy": [],
    "ocena": 65,
-   "zmiana_oceny": 24
+   "zmiana_oceny": 0
   },
   {
    "fraza": "koparka rzeszów",
@@ -678,32 +678,6 @@
    "zmiana_oceny": 0
   },
   {
-   "fraza": "wiata drewniana",
-   "grupa": "altany i pergole",
-   "znaczenie_biznesowe": "srednie",
-   "podpowiedzi_google": [
-    "wiata drewniana",
-    "wiata drewniana jednospadowa",
-    "wiata drewniana na samochód",
-    "wiata drewniana na dwa samochody",
-    "wiata drewniana dwuspadowa",
-    "wiata drewniana do samodzielnego montażu",
-    "wiata drewniana na dwa auta",
-    "wiata drewniana ogrodowa",
-    "wiata drewniana dwuspadowa konstrukcja",
-    "wiata drewniana dwustanowiskowa"
-   ],
-   "pozycja_w_podpowiedziach": 1,
-   "popyt_0_1": 1.0,
-   "liczba_podpowiedzi": 10,
-   "wzmianki_konkurencji_24h": 0,
-   "wzmianki_konkurencji_7d": 0,
-   "srednie_zaangazowanie": 0,
-   "firmy": [],
-   "ocena": 58,
-   "zmiana_oceny": 0
-  },
-  {
    "fraza": "stolik kawowy drewniany",
    "grupa": "meble i akcesoria",
    "znaczenie_biznesowe": "srednie",
@@ -866,14 +840,14 @@
    "podpowiedzi_google": [
     "pomysł na prezent",
     "pomysł na prezent dla kobiety",
-    "pomysł na prezent dla mężczyzny",
     "pomysł na prezent dla przyjaciółki",
     "pomysł na prezent na dzień nauczyciela",
     "pomysł na prezent dla mamy",
     "pomysł na prezent dla nauczyciela",
     "pomysł na prezent dla koleżanki",
     "pomysł na prezent dla 6 latki",
-    "pomysł na prezent dla 5 latki"
+    "pomysł na prezent dla 5 latki",
+    "pomysł na prezent dla 10 latki"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1171,6 +1145,7 @@
    "znaczenie_biznesowe": "niskie",
    "podpowiedzi_google": [
     "sauna ogrodowa",
+    "sauna ogrodowa z piecem na drewno",
     "sauna ogrodowa olx",
     "sauna ogrodowa na drewno",
     "sauna ogrodowa cena",
@@ -1178,8 +1153,7 @@
     "sauna ogrodowa do samodzielnego montażu",
     "sauna ogrodowa z przedsionkiem",
     "sauna ogrodowa beczka",
-    "sauna ogrodowa 2 osobowa",
-    "sauna ogrodowa opalana drewnem"
+    "sauna ogrodowa 2 osobowa"
    ],
    "pozycja_w_podpowiedziach": 1,
    "popyt_0_1": 1.0,
@@ -1232,15 +1206,15 @@
     "prezent dla niego na dzien chlopaka",
     "prezent dla niego na rocznicę ślubu"
    ],
-   "pozycja_w_podpowiedziach": 5,
-   "popyt_0_1": 0.76,
+   "pozycja_w_podpowiedziach": 4,
+   "popyt_0_1": 0.82,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
    "wzmianki_konkurencji_7d": 0,
    "srednie_zaangazowanie": 0,
    "firmy": [],
-   "ocena": 47,
-   "zmiana_oceny": 0
+   "ocena": 50,
+   "zmiana_oceny": 3
   },
   {
    "fraza": "drewniane dekoracje świąteczne",
@@ -1462,14 +1436,14 @@
     "koparka dolores",
     "koparka łańcuchowa",
     "koparka zabawka",
-    "koparka zdalnie sterowana",
     "koparka kołowa",
     "koparka na pilota",
     "koparka po angielsku",
+    "koparka zdalnie sterowana",
     "koparka łańcuchowa wynajem",
     "koparka lego"
    ],
-   "pozycja_w_podpowiedziach": 10,
+   "pozycja_w_podpowiedziach": null,
    "popyt_0_1": 0.46,
    "liczba_podpowiedzi": 10,
    "wzmianki_konkurencji_24h": 0,
@@ -1512,6 +1486,32 @@
    "firmy": [],
    "ocena": 36,
    "zmiana_oceny": 0
+  },
+  {
+   "fraza": "wiata drewniana",
+   "grupa": "altany i pergole",
+   "znaczenie_biznesowe": "srednie",
+   "podpowiedzi_google": [
+    "wiata drewniana",
+    "wiata drewniana jednospadowa",
+    "wiata drewniana na samochód",
+    "wiata drewniana na dwa samochody",
+    "wiata drewniana dwuspadowa",
+    "wiata drewniana do samodzielnego montażu",
+    "wiata drewniana na dwa auta",
+    "wiata drewniana ogrodowa",
+    "wiata drewniana dwuspadowa konstrukcja",
+    "wiata drewniana dwustanowiskowa"
+   ],
+   "pozycja_w_podpowiedziach": null,
+   "popyt_0_1": 0.46,
+   "liczba_podpowiedzi": 10,
+   "wzmianki_konkurencji_24h": 0,
+   "wzmianki_konkurencji_7d": 0,
+   "srednie_zaangazowanie": 0,
+   "firmy": [],
+   "ocena": 34,
+   "zmiana_oceny": -24
   },
   {
    "fraza": "tarcica",
@@ -2469,6 +2469,10 @@
    "z_frazy": "stolarz rzeszów"
   },
   {
+   "fraza": "sauna ogrodowa z piecem na drewno",
+   "z_frazy": "sauna ogrodowa"
+  },
+  {
    "fraza": "sauna ogrodowa na drewno",
    "z_frazy": "sauna ogrodowa"
   },
@@ -2494,10 +2498,6 @@
   },
   {
    "fraza": "sauna ogrodowa 2 osobowa",
-   "z_frazy": "sauna ogrodowa"
-  },
-  {
-   "fraza": "sauna ogrodowa opalana drewnem",
    "z_frazy": "sauna ogrodowa"
   },
   {
@@ -2681,10 +2681,6 @@
    "z_frazy": "prezent na mikołajki"
   },
   {
-   "fraza": "pomysł na prezent dla mężczyzny",
-   "z_frazy": "pomysł na prezent"
-  },
-  {
    "fraza": "pomysł na prezent dla przyjaciółki",
    "z_frazy": "pomysł na prezent"
   },
@@ -2710,6 +2706,10 @@
   },
   {
    "fraza": "pomysł na prezent dla 5 latki",
+   "z_frazy": "pomysł na prezent"
+  },
+  {
+   "fraza": "pomysł na prezent dla 10 latki",
    "z_frazy": "pomysł na prezent"
   },
   {
@@ -3301,10 +3301,6 @@
    "z_frazy": "koparka"
   },
   {
-   "fraza": "koparka zdalnie sterowana",
-   "z_frazy": "koparka"
-  },
-  {
    "fraza": "koparka kołowa",
    "z_frazy": "koparka"
   },
@@ -3314,6 +3310,10 @@
   },
   {
    "fraza": "koparka po angielsku",
+   "z_frazy": "koparka"
+  },
+  {
+   "fraza": "koparka zdalnie sterowana",
    "z_frazy": "koparka"
   },
   {
